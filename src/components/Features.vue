@@ -1,10 +1,10 @@
 <template>
     <section class="features">
-      <h2>Features of YouTube Video Converter</h2>
+      <h2>{{$t('featuresConverter')}}</h2>
       <div class="features-container">
         <div
           class="feature-item"
-          v-for="(feature, index) in features"
+          v-for="(feature, index) in $tm('features')"
           :key="index"
         >
           <div class="feature-icon">
@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="download-button-container">
-        <button class="download-button">Download Now &gt;&gt;</button>
+        <button class="download-button">{{ $t('downloadNow')}}</button>
       </div>
     </section>
   </template>
@@ -24,38 +24,6 @@
   export default {
     data() {
       return {
-        features: [
-          {
-            icon: require('@/assets/yt_feature.png'),  // 假设图标路径
-            title: "High Success Rate YouTube Downloads",
-            description: "Download YouTube videos effortlessly with our advanced converter, featuring industry-leading success rates and reliable quality preservation for all content types."
-          },
-          {
-            icon: require('@/assets/yt_feature.png'),
-            title: "Lightning-Fast YouTube to MP4 Converter",
-            description: "Transform YouTube videos into high-quality MP4 files in seconds. Experience seamless, instant downloads without compromising video quality."
-          },
-          {
-            icon: require('@/assets/yt_feature.png'),
-            title: "100% Safe and Secure",
-            description: "Download YouTube videos safely with our clean, privacy-focused converter. No tracking, no malware – just pure simplicity."
-          },
-          {
-            icon: require('@/assets/yt_feature.png'),
-            title: "Unlimited Downloads",
-            description: "Convert and save as many YouTube videos as your heart desires, with zero waiting time or pesky download caps getting in your way."
-          },
-          {
-            icon: require('@/assets/yt_feature.png'),
-            title: "No Login & No Software Installation",
-            description: "Jump right in and convert videos without creating accounts or downloading anything. Just paste your link and you're good to go – no fuss, no hassle."
-          },
-          {
-            icon: require('@/assets/yt_feature.png'),
-            title: "Various Formats Support",
-            description: "Download in MP4, M4A, or WEBM. Whatever format or quality you're after, we've got you covered."
-          }
-        ]
       };
     }
   };

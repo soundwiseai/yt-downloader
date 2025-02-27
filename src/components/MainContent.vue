@@ -7,31 +7,31 @@
       </div>
 
       <!-- 标题 -->
-      <h1 class="title">YouTube to MP4 Converter</h1>
+      <h1 class="title">{{ $t("title") }}</h1>
 
       <!-- 描述 -->
       <p class="description">
-        Paste URL and Quick Convert YouTube to MP4. Always free, always works, no ads.
+        {{ $t("description") }}
       </p>
 
       <div class="container">
         <div class="input-wrapper">
           <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box" />
-          <button class="download-button2" @click="fetchFormats">DOWNLOAD</button>
+          <button class="download-button2" @click="fetchFormats">{{ $t("download") }}</button>
         </div>
       </div>
 
-      <p class="converter-container-tip">Please be mindful of copyright when downloading content. This tool isn't designed for downloading copyrighted music. </p>
+      <p class="converter-container-tip">{{ $t("tip") }}</p>
     </div>
 
     <div class="container2" v-if="videoData && videoData?.title">
       <div class="video-card">
         <div class="video-header">
-          <img :src="videoData.thumbnail" class="thumbnail" alt="Thumbnail">
+          <img :src="videoData.thumbnail" class="thumbnail" alt="Thumbnail" />
           <h2 class="title">{{ videoData.title }}</h2>
         </div>
-        <h3 class="formats-title">All Formats</h3>
-        <p class="formats-title-tip">Click to save</p>
+        <h3 class="formats-title">{{ $t("formats") }}</h3>
+        <p class="formats-title-tip">{{ $t("formatsTip") }}</p>
         <div class="formats-list">
           <div v-for="format in videoData.formats" :key="format.format_id" class="format-item">
             <span class="download-icon">⬇️</span>
@@ -53,7 +53,7 @@ import axios from 'axios';
 export default {
   data() {
     return {
-      yt_url: 'https://www.youtube.com/watch?v=39olCJI2TgQ', // 用来存储 YouTube 链接
+      yt_url: '', // 用来存储 YouTube 链接
       videoData: {
       }
     };
@@ -117,28 +117,30 @@ export default {
 }
 </script>
 
+
 <style scoped>
+/* 全局样式 */
 .main-content {
   text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
 .converter-container {
-  text-align: center;
   padding: 40px 20px;
 }
 
-.converter-container-tip{
+.converter-container-tip {
   font-size: 12px;
   white-space: pre-line;
   margin-top: 30px;
 }
 
-/* 图标 */
 .icon-container {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .icon {
@@ -146,21 +148,19 @@ export default {
   height: auto;
 }
 
-/* 标题 */
 .title {
   font-size: 32px;
   font-weight: bold;
   color: #113b92;
 }
 
-/* 描述 */
 .description {
   font-size: 16px;
   color: #555;
   margin: 10px 0 20px;
 }
 
-/* 最外层居中容器 */
+/* 最外层容器居中 */
 .container {
   display: flex;
   justify-content: center;
@@ -171,25 +171,23 @@ export default {
 .input-wrapper {
   display: flex;
   align-items: center;
-  background-color: #f1f1f1;
   border-radius: 8px;
   overflow: hidden;
-  /* 避免圆角问题 */
-  width: 44%;
-  min-width: 300px;
-  /* 防止过窄 */
-  height: 60px;
+  width: 100%;
+  max-width: 500px; /* 最大宽度，防止过宽 */
+  height: 60px; /* 高度统一 */
 }
 
 /* 输入框样式 */
 .input-box {
-  flex: 1;
+  flex: 1; /* 填满剩余空间 */
   padding: 12px;
   border: none;
   outline: none;
   font-size: 1em;
+  background-color: #f1f1f1;
   color: #333;
-  margin: 0px 0px 0px 10px;
+  height: 100%; /* 保证输入框高度与父容器一致 */
 }
 
 /* 下载按钮样式 */
@@ -200,79 +198,25 @@ export default {
   font-weight: bold;
   border: none;
   cursor: pointer;
-  height: 54px;
-  margin: 4px;
-  padding: 20px;
+  height: 100%; /* 保证按钮高度与输入框一致 */
+  padding: 0 20px; /* 左右内边距 */
   border-radius: 8px;
 }
 
+/* 按钮 hover 样式 */
 .download-button2:hover {
   background-color: #027AFF;
 }
 
-.download-button {
-  background-color: #3b82f6;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s;
-  height: 56px;
-  margin: 4px;
-}
-
-.download-button:hover {
-  background-color: #2563eb;
-}
-
-
-.download-list {
-  margin-top: 40px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  width: 30%;
-  /* 设置宽度为输入框的 2/3 */
-  margin: 40px auto;
-  /* 水平居中 */
-}
-
-.download-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  margin-bottom: 15px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.download-item .item-info p {
-  margin: 0;
-  font-size: 1rem;
-  color: #333;
-}
-
-.download-button {
-  padding: 8px 16px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.download-button:hover {
-  background-color: #218838;
+.converter-container-tip {
+  font-size: 12px;
+  margin-top: 20px;
 }
 
 .container2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 
 .video-card {
@@ -280,11 +224,13 @@ export default {
   padding: 20px;
   border-radius: 10px;
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .video-header {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .thumbnail {
@@ -305,9 +251,9 @@ export default {
   font-weight: bold;
 }
 
-.formats-title-tip{
+.formats-title-tip {
   font-size: 12px;
-  margin-top:  -10px;
+  margin-top: -10px;
 }
 
 .formats-list {
@@ -316,11 +262,12 @@ export default {
 
 .format-item {
   display: flex;
-  align-items: center;
+  align-items: center; /* 垂直居中 */
   background: #ffffff;
   padding: 16px;
   border-radius: 5px;
   margin-bottom: 16px;
+  justify-content: space-between; /* 图标和内容之间保持间距 */
 }
 
 .download-icon {
@@ -330,19 +277,22 @@ export default {
 
 .format-details {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: column; /* 垂直排列内容 */
+  align-items: flex-start; /* 让文本居左 */
+  flex-grow: 1; /* 使format-details占据剩余空间 */
+  justify-content: center; /* 保证内容垂直居中 */
+  text-align: left;
 }
 
 .download-link {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-    display: -webkit-box; /* 必须使用的属性 */
-  -webkit-line-clamp: 2; /* 最大行数 */
-  -webkit-box-orient: vertical; /* 设置为垂直方向 */
-  overflow: hidden; /* 超出部分隐藏 */
-  text-overflow: ellipsis; /* 溢出时显示省略号 */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .download-link:hover {
@@ -353,5 +303,74 @@ export default {
   font-size: 12px;
   color: #666;
   margin-top: 2px;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+  /* 移动端：输入框和按钮纵向排列 */
+  .input-wrapper {
+    flex-direction: column; /* 输入框和按钮纵向排列 */
+    width: 100%; /* 宽度充满屏幕 */
+    height: auto; /* 使容器的高度适应内容 */
+  }
+
+  .input-box {
+    width: 100%;
+    margin-bottom: 10px; /* 输入框和按钮之间的间距 */
+    padding: 18px;
+  }
+
+  .download-button2 {
+    width: 160px; /* 按钮在小屏幕上占满宽度 */
+    margin-top: 10px; /* 按钮与输入框之间的间距 */
+    padding: 16px 0; /* 增加按钮的高度 */
+  }
+
+  .video-card {
+    width: 100%;
+    max-width: none;
+  }
+
+  .formats-list {
+    width: 100%;
+  }
+
+  .format-item {
+    align-items: flex-start; /* 确保所有内容都对齐 */
+    text-align: left;
+  }
+
+  .download-icon {
+    margin-bottom: 10px; /* 图标和内容之间的间距 */
+  }
+
+  .format-details {
+    align-items: flex-start; /* 让文本靠左 */
+    width: 100%; /* 保证格式信息区占据剩余空间 */
+  }
+
+  .download-link {
+    font-size: 14px;
+  }
+
+  .format-info {
+    font-size: 12px;
+  }
+  
+  .icon {
+  width: 185px;
+  height: auto;
+}
+}
+
+/* Web端样式 */
+@media screen and (min-width: 769px) {
+  .container {
+    justify-content: center;
+  }
+
+  .input-wrapper {
+    width: 44%;
+  }
 }
 </style>
