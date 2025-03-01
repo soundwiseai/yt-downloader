@@ -1,70 +1,115 @@
 <template>
-    <header class="header">
-      <div class="container">
-        <!-- 左侧 Logo -->
-        <div class="logo">
-          <span class="site-name">Youtubetomp4.pro</span>
-        </div>
-        <!-- 右侧导航 -->
-        <nav class="nav">
-          <a href="#" class="nav-link">YouTube Video Downloader &gt;</a>
-          <a href="#" class="nav-link">YouTube to MP3 Converter &gt;</a>
-        </nav>
+  <header class="header">
+    <div class="container">
+      <!-- 左侧 Logo -->
+      <div class="logo">
+        <span class="site-name">{{ $t("siteName") }}</span>
       </div>
-    </header>
-  </template>
-  
-  <script>
-  export default {
-    name: "HeaderComponent",
-  };
-  </script>
-  
-  <style scoped>
-  /* 头部整体样式 */
-  .header {
-    background-color: #1A3B8C38; /* 灰蓝色背景 */
-    padding: 26px 0;
-    width: 100%;
-  }
-  
-  /* 布局 */
+      <!-- 右侧导航 -->
+      <nav class="nav">
+        <a href="#" class="nav-link">{{ $t("videoDownloader") }} &gt;</a>
+        <a href="#" class="nav-link">{{ $t("mp3Converter") }} &gt;</a>
+      </nav>
+    </div>
+  </header>
+</template>
+
+<script>
+export default {
+  name: "HeaderComponent",
+};
+</script>
+
+<style scoped>
+/* 📱 默认：移动端优先（Logo + 导航栏 垂直排列） */
+.header {
+  background-color: #1A3B8C38; /* 背景颜色 */
+  padding: 15px 0;
+  width: 100%;
+}
+
+/* ✅ 让 `container` 默认是垂直布局 */
+.container {
+  display: flex;
+  flex-direction: column; /* 移动端默认上下排列 */
+  align-items: center;
+  text-align: center; /* 居中对齐 */
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+/* ✅ Logo 样式 */
+.logo .site-name {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #113b92;
+  white-space: nowrap; /* 防止换行 */
+}
+
+/* ✅ 导航栏默认居中 */
+.nav {
+  display: flex;
+  flex-direction: column; /* ✅ 移动端上下排列 */
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* ✅ 导航栏样式 */
+.nav-link {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap; /* 避免导航项换行 */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* 📱✅ 渐进式增强：平板 (≥600px) */
+@media (min-width: 600px) {
   .container {
+    flex-direction: row; /* ✅ 变成水平排列 */
+    justify-content: flex-start; /* ✅ 左对齐 */
+    align-items: center;
+  }
+
+  .logo {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* 让 Logo 和导航靠左 */
-    max-width: 1200px;
-    margin: 0 0,20px,20px;
-    padding: 0 20px;
   }
-  
-  /* Logo 样式 */
-  .logo .site-name {
-    font-size: 24px;
-    font-weight: bold;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color: #113b92; /* 深蓝色 */
-  }
-  
-  /* 导航链接 */
+
+  /* ✅ 导航栏与 Logo 保持 50px 间距 */
   .nav {
-    display: flex;
-    gap: 15px; /* 减小间距 */
-    font-weight: bold;
-    font-family: "DM Sans", sans-serif;
-    margin-left: 40px; /* 让导航靠近 Logo */
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 50px; /* ✅ 让导航栏始终保持 50px 的间距 */
   }
-  
+
   .nav-link {
     font-size: 16px;
-    color: #000;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 40px;
   }
-  
-  .nav-link:hover {
-    text-decoration: underline;
+}
+
+/* 🖥️ 桌面端优化（≥1024px） */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
-  </style>
-  
+
+  .logo .site-name {
+    font-size: 24px;
+  }
+
+  .nav {
+    gap: 20px; /* 增加间距 */
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+}
+</style>
