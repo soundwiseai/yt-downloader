@@ -17,11 +17,20 @@
       <div class="container">
         <div class="input-wrapper">
           <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box" />
-          <button class="download-button2" @click="fetchFormats">{{ $t("download") }}</button>
+          <button class="download-button2"  :class="{ 'disabled': loading }" :disabled="loading" @click="fetchFormats">
+            {{ $t("download") }}
+          </button>
         </div>
       </div>
 
       <p class="converter-container-tip">{{ $t("tip") }}</p>
+
+            <!-- 加载动画 -->
+    <div v-if="loading" class="loading-indicator">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
     </div>
 
     <div class="container2" v-if="videoData && videoData?.title">
@@ -53,9 +62,10 @@ import axios from 'axios';
 export default {
   data() {
     return {
-      yt_url: '', // 用来存储 YouTube 链接
+      yt_url: 'https://www.youtube.com/watch?v=39olCJI2TgQ', // 用来存储 YouTube 链接
       videoData: {
-      }
+      },
+      loading: false
     };
   },
   methods: {
@@ -91,12 +101,15 @@ export default {
         return;
       }
 
+      this.loading = true;
+      this.videoData = {};
       console.log("fetchFormats yt_url: " + this.yt_url);
       try {
         const response = await axios.get('http://localhost:3001/get-formats', {
           params: { url: this.yt_url }
         });
         this.videoData = response.data; // 保存返回的格式信息
+        this.loading = false; 
         console.log("fetchFormats this.videoData: " + this.videoData);
       } catch (error) {
         console.error('获取格式失败:', error);
@@ -201,11 +214,18 @@ export default {
   height: 100%; /* 保证按钮高度与输入框一致 */
   padding: 0 20px; /* 左右内边距 */
   border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
 }
 
 /* 按钮 hover 样式 */
 .download-button2:hover {
   background-color: #027AFF;
+}
+
+.download-button2.disabled {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
 }
 
 .converter-container-tip {
@@ -371,6 +391,40 @@ export default {
 
   .input-wrapper {
     width: 44%;
+  }
+}
+
+
+.loading-indicator {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.loading-indicator .bar {
+  width: 10px;
+  height: 30px;
+  margin: 0 3px;
+  background-color: #1A3B8C;
+  animation: loadingAnimation 1.2s infinite;
+}
+
+.loading-indicator .bar:nth-child(1) {
+  animation-delay: 0s;
+}
+.loading-indicator .bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.loading-indicator .bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes loadingAnimation {
+  0%, 80%, 100% {
+    transform: scaleY(0.4);
+  }
+  40% {
+    transform: scaleY(1);
   }
 }
 </style>
