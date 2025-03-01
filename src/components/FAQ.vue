@@ -57,6 +57,7 @@
   .faq-container {
     width: 85%;
     margin: 20px auto;
+    margin-bottom: 80px;
   }
   
   /* 标题（独立，不包含在边框内） */

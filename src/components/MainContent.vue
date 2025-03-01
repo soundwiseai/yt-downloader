@@ -62,7 +62,7 @@ import axios from 'axios';
 export default {
   data() {
     return {
-      yt_url: 'https://www.youtube.com/watch?v=39olCJI2TgQ', // 用来存储 YouTube 链接
+      yt_url: '', // 用来存储 YouTube 链接
       videoData: {
       },
       loading: false
@@ -324,6 +324,33 @@ export default {
   color: #666;
   margin-top: 2px;
 }
+
+/* 标准写法 */
+::placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+/* 兼容 WebKit (Chrome, Safari, Edge) */
+::-webkit-input-placeholder {
+  color: #999;
+}
+
+/* 兼容 Mozilla Firefox */
+::-moz-placeholder {
+  color: #999;
+}
+
+/* 兼容 Microsoft Edge (旧版) */
+:-ms-input-placeholder {
+  color: #999;
+}
+
+/* 兼容 Internet Explorer */
+:-moz-placeholder {
+  color: #999;
+}
+
 
 /* 响应式设计 */
 @media screen and (max-width: 768px) {

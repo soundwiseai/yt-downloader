@@ -27,15 +27,19 @@
       };
     },
     mounted() {
-      this.startAutoScroll();
+      if (this.$route.path === '/') {
+        this.startAutoScroll();
+      }
     },
     methods: {
       startAutoScroll() {
         setInterval(() => {
+          if (this.$route.path === '/' && this.$tm ) {
           this.activeIndex = (this.activeIndex + 1) % this.$tm('reviews').length;
           this.$nextTick(() => {
             this.scrollToCurrent();
           });
+        }
         }, 3000); // 每3秒切换一次卡片
       },
       scrollToCurrent() {

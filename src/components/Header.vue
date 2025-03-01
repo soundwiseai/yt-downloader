@@ -3,7 +3,7 @@
     <div class="container">
       <!-- 左侧 Logo -->
       <div class="logo">
-        <span class="site-name">{{ $t("siteName") }}</span>
+        <span class="site-name" @click="goHome">{{ $t("siteName") }}</span>
       </div>
       <!-- 右侧导航 -->
       <nav class="nav">
@@ -17,6 +17,13 @@
 <script>
 export default {
   name: "HeaderComponent",
+  methods: {
+    goHome() {
+      if (this.$route.path !== '/') {
+        this.$router.push('/'); // 强制跳转到首页
+      }
+    }
+  }
 };
 </script>
 
@@ -45,6 +52,7 @@ export default {
   font-family: "Comic Sans MS", cursive, sans-serif;
   color: #113b92;
   white-space: nowrap; /* 防止换行 */
+  cursor: pointer;
 }
 
 /* ✅ 导航栏默认居中 */
