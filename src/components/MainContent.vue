@@ -27,7 +27,7 @@
         {{ $t("tip") }}
         <span class="info-container">
           <!-- 信息图标 -->
-          <span class="info-icon">ℹ️</span>
+          <img class="info-icon" :src="ytTips"/>
 
           <!-- 悬停时显示的提示框 -->
           <span class="tooltip">
@@ -73,13 +73,15 @@
 
 <script>
 import axios from 'axios';
+import ytTips from '@/assets/yt_tips.png';
 export default {
   data() {
     return {
       yt_url: '', // 用来存储 YouTube 链接
       videoData: {
       },
-      loading: false
+      loading: false,
+      ytTips
     };
   },
   methods: {
@@ -394,14 +396,11 @@ export default {
 .info-icon {
   font-size: 14px;
   cursor: pointer;
-  border-radius: 50%;
-  border: 1px solid #999;
   width: 18px;
   height: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f0f0f0;
   color: #555;
   font-weight: bold;
 }
