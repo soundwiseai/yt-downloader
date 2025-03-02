@@ -17,20 +17,33 @@
       <div class="container">
         <div class="input-wrapper">
           <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box" />
-          <button class="download-button2"  :class="{ 'disabled': loading }" :disabled="loading" @click="fetchFormats">
+          <button class="download-button2" :class="{ 'disabled': loading }" :disabled="loading" @click="fetchFormats">
             {{ $t("download") }}
           </button>
         </div>
       </div>
 
-      <p class="converter-container-tip">{{ $t("tip") }}</p>
+      <p class="converter-container-tip">
+        {{ $t("tip") }}
+        <span class="info-container">
+          <!-- 信息图标 -->
+          <span class="info-icon">ℹ️</span>
 
-            <!-- 加载动画 -->
-    <div v-if="loading" class="loading-indicator">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
+          <!-- 悬停时显示的提示框 -->
+          <span class="tooltip">
+            This tool can only be used for legal, non-infringing use. <br />
+            If you are a content creator and want to prevent your videos from being downloaded using this tool, simply
+            add #nodownloadto your video's tags or description.
+          </span>
+        </span>
+      </p>
+
+      <!-- 加载动画 -->
+      <div v-if="loading" class="loading-indicator">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
     </div>
 
     <div class="container2" v-if="videoData && videoData?.title">
@@ -48,7 +61,8 @@
               <a :href="format.url" class="download-link" target="_blank">
                 {{ videoData.title }}.{{ format.ext }}
               </a>
-              <span class="format-info">{{ format.resolution || "Audio Only" }} • {{ (format.filesize / (1024 * 1024)).toFixed(2) }} MB</span>
+              <span class="format-info">{{ format.resolution || "Audio Only" }} • {{ (format.filesize / (1024 *
+                1024)).toFixed(2) }} MB</span>
             </div>
           </div>
         </div>
@@ -109,7 +123,7 @@ export default {
           params: { url: this.yt_url }
         });
         this.videoData = response.data; // 保存返回的格式信息
-        this.loading = false; 
+        this.loading = false;
         console.log("fetchFormats this.videoData: " + this.videoData);
       } catch (error) {
         console.error('获取格式失败:', error);
@@ -141,12 +155,6 @@ export default {
 
 .converter-container {
   padding: 40px 20px;
-}
-
-.converter-container-tip {
-  font-size: 12px;
-  white-space: pre-line;
-  margin-top: 30px;
 }
 
 .icon-container {
@@ -187,20 +195,24 @@ export default {
   border-radius: 8px;
   overflow: hidden;
   width: 100%;
-  max-width: 500px; /* 最大宽度，防止过宽 */
-  height: 60px; /* 高度统一 */
+  max-width: 500px;
+  /* 最大宽度，防止过宽 */
+  height: 60px;
+  /* 高度统一 */
 }
 
 /* 输入框样式 */
 .input-box {
-  flex: 1; /* 填满剩余空间 */
+  flex: 1;
+  /* 填满剩余空间 */
   padding: 12px;
   border: none;
   outline: none;
   font-size: 1em;
   background-color: #f1f1f1;
   color: #333;
-  height: 100%; /* 保证输入框高度与父容器一致 */
+  height: 100%;
+  /* 保证输入框高度与父容器一致 */
 }
 
 /* 下载按钮样式 */
@@ -211,8 +223,10 @@ export default {
   font-weight: bold;
   border: none;
   cursor: pointer;
-  height: 100%; /* 保证按钮高度与输入框一致 */
-  padding: 0 20px; /* 左右内边距 */
+  height: 100%;
+  /* 保证按钮高度与输入框一致 */
+  padding: 0 20px;
+  /* 左右内边距 */
   border-radius: 8px;
   transition: background 0.3s, color 0.3s;
 }
@@ -282,12 +296,14 @@ export default {
 
 .format-item {
   display: flex;
-  align-items: center; /* 垂直居中 */
+  align-items: center;
+  /* 垂直居中 */
   background: #ffffff;
   padding: 16px;
   border-radius: 5px;
   margin-bottom: 16px;
-  justify-content: space-between; /* 图标和内容之间保持间距 */
+  justify-content: space-between;
+  /* 图标和内容之间保持间距 */
 }
 
 .download-icon {
@@ -297,10 +313,14 @@ export default {
 
 .format-details {
   display: flex;
-  flex-direction: column; /* 垂直排列内容 */
-  align-items: flex-start; /* 让文本居左 */
-  flex-grow: 1; /* 使format-details占据剩余空间 */
-  justify-content: center; /* 保证内容垂直居中 */
+  flex-direction: column;
+  /* 垂直排列内容 */
+  align-items: flex-start;
+  /* 让文本居左 */
+  flex-grow: 1;
+  /* 使format-details占据剩余空间 */
+  justify-content: center;
+  /* 保证内容垂直居中 */
   text-align: left;
 }
 
@@ -351,26 +371,111 @@ export default {
   color: #999;
 }
 
+/* 信息图标样式 */
+.info-container {
+  display: inline-block;
+  position: relative;
+}
+
+
+.converter-container-tip {
+  display: inline-flex;
+  align-items: center;
+  /* 保持垂直居中 */
+  gap: 6px;
+  /* 文字和图标之间增加间距 */
+}
+
+.info-container {
+  position: relative;
+  display: inline-block;
+}
+
+.info-icon {
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #999;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: #555;
+  font-weight: bold;
+}
+
+.info-icon:hover {
+  background-color: #ddd;
+}
+
+/* 提示框样式 */
+.tooltip {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 240px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  line-height: 1.4;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 100;
+}
+
+/* 悬停时显示提示框 */
+.info-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* 小三角形 */
+.tooltip::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
 
 /* 响应式设计 */
 @media screen and (max-width: 768px) {
+
   /* 移动端：输入框和按钮纵向排列 */
   .input-wrapper {
-    flex-direction: column; /* 输入框和按钮纵向排列 */
-    width: 100%; /* 宽度充满屏幕 */
-    height: auto; /* 使容器的高度适应内容 */
+    flex-direction: column;
+    /* 输入框和按钮纵向排列 */
+    width: 100%;
+    /* 宽度充满屏幕 */
+    height: auto;
+    /* 使容器的高度适应内容 */
   }
 
   .input-box {
     width: 100%;
-    margin-bottom: 10px; /* 输入框和按钮之间的间距 */
+    margin-bottom: 10px;
+    /* 输入框和按钮之间的间距 */
     padding: 18px;
   }
 
   .download-button2 {
-    width: 160px; /* 按钮在小屏幕上占满宽度 */
-    margin-top: 10px; /* 按钮与输入框之间的间距 */
-    padding: 16px 0; /* 增加按钮的高度 */
+    width: 160px;
+    /* 按钮在小屏幕上占满宽度 */
+    margin-top: 10px;
+    /* 按钮与输入框之间的间距 */
+    padding: 16px 0;
+    /* 增加按钮的高度 */
   }
 
   .video-card {
@@ -383,17 +488,21 @@ export default {
   }
 
   .format-item {
-    align-items: flex-start; /* 确保所有内容都对齐 */
+    align-items: flex-start;
+    /* 确保所有内容都对齐 */
     text-align: left;
   }
 
   .download-icon {
-    margin-bottom: 10px; /* 图标和内容之间的间距 */
+    margin-bottom: 10px;
+    /* 图标和内容之间的间距 */
   }
 
   .format-details {
-    align-items: flex-start; /* 让文本靠左 */
-    width: 100%; /* 保证格式信息区占据剩余空间 */
+    align-items: flex-start;
+    /* 让文本靠左 */
+    width: 100%;
+    /* 保证格式信息区占据剩余空间 */
   }
 
   .download-link {
@@ -403,11 +512,11 @@ export default {
   .format-info {
     font-size: 12px;
   }
-  
+
   .icon {
-  width: 185px;
-  height: auto;
-}
+    width: 185px;
+    height: auto;
+  }
 }
 
 /* Web端样式 */
@@ -439,17 +548,23 @@ export default {
 .loading-indicator .bar:nth-child(1) {
   animation-delay: 0s;
 }
+
 .loading-indicator .bar:nth-child(2) {
   animation-delay: 0.2s;
 }
+
 .loading-indicator .bar:nth-child(3) {
   animation-delay: 0.4s;
 }
 
 @keyframes loadingAnimation {
-  0%, 80%, 100% {
+
+  0%,
+  80%,
+  100% {
     transform: scaleY(0.4);
   }
+
   40% {
     transform: scaleY(1);
   }

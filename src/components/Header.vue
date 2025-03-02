@@ -42,7 +42,6 @@ export default {
   align-items: center;
   text-align: center; /* 居中对齐 */
   max-width: 100%;
-  padding: 0 20px;
 }
 
 /* ✅ Logo 样式 */
@@ -70,6 +69,7 @@ export default {
   text-decoration: none;
   font-weight: 500;
   white-space: nowrap; /* 避免导航项换行 */
+  margin-right: 40px;
 }
 
 .nav-link:hover {

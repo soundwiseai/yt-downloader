@@ -19,7 +19,7 @@
   export default {
     data() {
       return {
-        activeIndex: null, // 记录当前展开的索引
+        activeIndex: 0, // 记录当前展开的索引
         faqs: [
           {
             question: this.$t("faq1Question"),
