@@ -7,7 +7,7 @@ const cors = require('cors');
 const fs = require('fs');
 
 const app = express();
-const port = 3001;
+const port = 3000;
 
 const ytDlpPath = '/opt/homebrew/Caskroom/miniconda/base/bin'
 
