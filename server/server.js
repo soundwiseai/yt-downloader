@@ -194,7 +194,7 @@ app.get('/get-formats', async (req, res) => {
   }
 
   // 执行 yt-dlp，并指定 cookies 文件
-  const ytDlpProcess = spawn('yt-dlp', ['-j', '--cookies', cookiesPath, videoUrl], {
+  const ytDlpProcess = spawn('yt-dlp', ['-j', '--cookies', cookiesPath, '--cookies-keep',videoUrl], {
     env: {
       ...process.env, // 保留原有环境变量
       PATH: `${process.env.PATH}:${ytDlpPath}` // 将 yt-dlp 的路径加入 PATH
@@ -299,6 +299,6 @@ function parseYtdlpFormats(output) {
   return formats;
 }
 
-app.listen(port, () => {
-  console.log(`服务器运行在 http://localhost:${port}`);
+app.listen(port, '0.0.0.0',() => {
+  console.log(`服务器运行在 http://0.0.0.0:${port}`);
 });
