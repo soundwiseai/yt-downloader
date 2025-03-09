@@ -1,7 +1,7 @@
 const express = require('express');
 const ytdl = require('ytdl-core');
 
-const { exec } = require('child_process');
+const { exec ,spawn } = require('child_process');
 
 const cors = require('cors');
 const fs = require('fs');
@@ -10,7 +10,8 @@ const app = express();
 const port = 3000;
 
 //const ytDlpPath = '/opt/homebrew/Caskroom/miniconda/base/bin'
-const ytDlpPath = '/usr/bin';
+//const ytDlpPath = '/usr/bin';
+const ytDlpPath = 'C:/Users/Administrator/AppData/Local/Programs/Python/Python313/Scripts/';
 
 app.use(cors());
 
@@ -110,7 +111,7 @@ app.get('/get-formats2', async (req, res) => {
 });
 
 
-app.get('/get-formats', async (req, res) => {
+app.get('/get-formats33', async (req, res) => {
   const videoUrl = req.query.url;
 
   console.log("videoUrl yt-dlp========>" + videoUrl);
@@ -120,7 +121,7 @@ app.get('/get-formats', async (req, res) => {
   }
 
   // 使用 yt-dlp 获取视频信息
-  exec(`yt-dlp -j ${videoUrl}`, {
+  exec(`yt-dlp --cookies ${cookiesPath} -j ${videoUrl}`, {
     env: {
       ...process.env, // 保留原有环境变量
       PATH: `${process.env.PATH}:${ytDlpPath}` // 将 yt-dlp 的路径加入 PATH
@@ -177,6 +178,95 @@ app.get('/get-formats', async (req, res) => {
 
     //console.log('返回的格式列表:', result);
     res.json(result);
+  });
+});
+
+// 指定 cookies.txt 的路径 (放在当前目录)
+const cookiesPath = './cookies.txt';
+
+app.get('/get-formats', async (req, res) => {
+  const videoUrl = req.query.url;
+
+  console.log("videoUrl spawn yt-dlp========>", videoUrl);
+
+  if (!videoUrl) {
+    return res.status(400).json({ error: '无效的 YouTube URL' });
+  }
+
+  // 执行 yt-dlp，并指定 cookies 文件
+  const ytDlpProcess = spawn('yt-dlp', ['-j', '--cookies', cookiesPath, videoUrl], {
+    env: {
+      ...process.env, // 保留原有环境变量
+      PATH: `${process.env.PATH}:${ytDlpPath}` // 将 yt-dlp 的路径加入 PATH
+    }
+  });
+
+  let output = '';
+  let errorOutput = '';
+
+  // 监听标准输出
+  ytDlpProcess.stdout.on('data', (data) => {
+    output += data.toString();
+  });
+
+  // 监听标准错误输出
+  ytDlpProcess.stderr.on('data', (data) => {
+    errorOutput += data.toString();
+  });
+
+  // 监听进程结束
+  ytDlpProcess.on('close', (code) => {
+    if (code !== 0) {
+      console.error(`yt-dlp 进程错误，退出码: ${code}`);
+      console.error(`stderr: ${errorOutput}`);
+      return res.status(500).json({ error: 'Get resource format error!', details: errorOutput });
+    }
+
+    try {
+      const data = JSON.parse(output);
+
+      const videoTitle = data.title;
+      const thumbnailUrl = data.thumbnail;
+      const videoId = data.id;
+
+      const allowedFormats = ['mp4', 'webm', 'm4a'];
+
+      const formats = data.formats
+        .filter(format =>
+          allowedFormats.includes(format.ext) && format.protocol !== 'm3u8_native' // 过滤 m3u8 流
+        )
+        .map(format => ({
+          format_id: format.format_id,
+          ext: format.ext,
+          resolution: format.height ? `${format.width}x${format.height}` : 'Audio Only',
+          fps: format.fps || null,
+          vcodec: format.vcodec !== 'none' ? format.vcodec : null,
+          acodec: format.acodec !== 'none' ? format.acodec : null,
+          url: format.url,
+          filesize: format.filesize || null
+        }));
+
+      const videoFormats = formats.filter(format => format.vcodec);
+      const audioFormats = formats.filter(format => format.acodec && !format.vcodec);
+
+      const result = {
+        id: videoId,
+        title: videoTitle,
+        thumbnail: thumbnailUrl,
+        formats: [...videoFormats, ...audioFormats]
+      };
+
+      res.json(result);
+    } catch (err) {
+      console.error('JSON 解析错误:', err);
+      return res.status(500).json({ error: '解析 JSON 失败', details: err.message });
+    }
+  });
+
+  // 监听错误
+  ytDlpProcess.on('error', (err) => {
+    console.error('yt-dlp 执行错误:', err);
+    return res.status(500).json({ error: 'yt-dlp 进程启动失败', details: err.message });
   });
 });
 

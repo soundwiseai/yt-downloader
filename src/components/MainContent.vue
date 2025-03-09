@@ -121,7 +121,7 @@ export default {
       this.videoData = {};
       console.log("fetchFormats yt_url: " + this.yt_url);
       try {
-        const response = await axios.get('http://localhost:3000/get-formats', {
+        const response = await axios.get('/api/get-formats', {
           params: { url: this.yt_url }
         });
         this.videoData = response.data; // 保存返回的格式信息
