@@ -25,22 +25,22 @@ export default {
         {
           title: this.$t('benefits.convenience.title'),
           description: this.$t('benefits.convenience.description'),
-          image: require('@/assets/yt_benefits.png'),
+          image: require('@/assets/yt_benefits1.png'),
         },
         {
           title: this.$t('benefits.avoidAds.title'),
           description: this.$t('benefits.avoidAds.description'),
-          image: require('@/assets/yt_benefits.png'),
+          image: require('@/assets/yt_benefits2.png'),
         },
         {
           title: this.$t('benefits.saveData.title'),
           description: this.$t('benefits.saveData.description'),
-          image: require('@/assets/yt_benefits.png'),
+          image: require('@/assets/yt_benefits3.png'),
         },
         {
           title: this.$t('benefits.moreFromDownloads.title'),
           description: this.$t('benefits.moreFromDownloads.description'),
-          image: require('@/assets/yt_benefits.png'),
+          image: require('@/assets/yt_benefits4.png'),
         }
       ]
     };

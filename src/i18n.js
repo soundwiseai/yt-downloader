@@ -29,12 +29,12 @@ const messages = {
         clickDownload: "Directly click on the ‘Download’ button",
         saveVideo: "Wait for minutes and save the video",
         features: [
-            { icon: require('@/assets/yt_feature.png'), title: "High Success Rate YouTube Downloads", description: "Download YouTube videos effortlessly with our advanced converter, featuring industry-leading success rates and reliable quality preservation for all content types." },
-            { icon: require('@/assets/yt_feature.png'), title: "Lightning-Fast YouTube to MP4 Converter", description: "Transform YouTube videos into high-quality MP4 files in seconds. Experience seamless, instant downloads without compromising video quality." },
-            { icon: require('@/assets/yt_feature.png'), title: "100% Safe and Secure", description: "Download YouTube videos safely with our clean, privacy-focused converter. No tracking, no malware – just pure simplicity." },
-            { icon: require('@/assets/yt_feature.png'), title: "Unlimited Downloads", description: "Convert and save as many YouTube videos as your heart desires, with zero waiting time or pesky download caps getting in your way." },
-            { icon: require('@/assets/yt_feature.png'), title: "No Login & No Software Installation", description: "Jump right in and convert videos without creating accounts or downloading anything. Just paste your link and you're good to go – no fuss, no hassle." },
-            { icon: require('@/assets/yt_feature.png'), title: "Various Formats Support", description: "Download in MP4, M4A, or WEBM. Whatever format or quality you're after, we've got you covered." }
+            { icon: require('@/assets/yt_feature1.png'), title: "High Success Rate YouTube Downloads", description: "Download YouTube videos effortlessly with our advanced converter, featuring industry-leading success rates and reliable quality preservation for all content types." },
+            { icon: require('@/assets/yt_feature2.png'), title: "Lightning-Fast YouTube to MP4 Converter", description: "Transform YouTube videos into high-quality MP4 files in seconds. Experience seamless, instant downloads without compromising video quality." },
+            { icon: require('@/assets/yt_feature3.png'), title: "100% Safe and Secure", description: "Download YouTube videos safely with our clean, privacy-focused converter. No tracking, no malware – just pure simplicity." },
+            { icon: require('@/assets/yt_feature4.png'), title: "Unlimited Downloads", description: "Convert and save as many YouTube videos as your heart desires, with zero waiting time or pesky download caps getting in your way." },
+            { icon: require('@/assets/yt_feature5.png'), title: "No Login & No Software Installation", description: "Jump right in and convert videos without creating accounts or downloading anything. Just paste your link and you're good to go – no fuss, no hassle." },
+            { icon: require('@/assets/yt_feature6.png'), title: "Various Formats Support", description: "Download in MP4, M4A, or WEBM. Whatever format or quality you're after, we've got you covered." }
         ],
         downloadNow: "Download Now >>",
         featuresConverter: "Features of YouTube Video Converter",
@@ -97,12 +97,12 @@ const messages = {
         clickDownload: "Haz clic directamente en el botón 'Descargar'",
         saveVideo: "Espera unos minutos y guarda el video",
         features: [
-            { icon: require('@/assets/yt_feature.png'), title: "Alta tasa de éxito en descargas de YouTube", description: "Descargue videos de YouTube sin esfuerzo con nuestro convertidor avanzado, que ofrece tasas de éxito líderes en la industria y conservación confiable de la calidad para todos los tipos de contenido." },
-            { icon: require('@/assets/yt_feature.png'), title: "Convertidor de YouTube a MP4 ultrarrápido", description: "Convierte videos de YouTube a archivos MP4 de alta calidad en segundos. Experimenta descargas instantáneas sin comprometer la calidad del video." },
-            { icon: require('@/assets/yt_feature.png'), title: "100% seguro y confiable", description: "Descargue videos de YouTube de manera segura con nuestro convertidor limpio y centrado en la privacidad. Sin rastreo, sin malware, solo simplicidad." },
-            { icon: require('@/assets/yt_feature.png'), title: "Descargas ilimitadas", description: "Convierte y guarda tantos videos de YouTube como desees, sin tiempos de espera ni límites de descarga molestos." },
-            { icon: require('@/assets/yt_feature.png'), title: "Sin inicio de sesión ni instalación de software", description: "Comienza a convertir videos sin crear cuentas ni descargar nada. Simplemente pega tu enlace y listo, sin complicaciones." },
-            { icon: require('@/assets/yt_feature.png'), title: "Soporte para varios formatos", description: "Descarga en MP4, M4A o WEBM. Cualquiera sea el formato o calidad que busques, te lo cubrimos." }
+            { icon: require('@/assets/yt_feature1.png'), title: "Alta tasa de éxito en descargas de YouTube", description: "Descargue videos de YouTube sin esfuerzo con nuestro convertidor avanzado, que ofrece tasas de éxito líderes en la industria y conservación confiable de la calidad para todos los tipos de contenido." },
+            { icon: require('@/assets/yt_feature2.png'), title: "Convertidor de YouTube a MP4 ultrarrápido", description: "Convierte videos de YouTube a archivos MP4 de alta calidad en segundos. Experimenta descargas instantáneas sin comprometer la calidad del video." },
+            { icon: require('@/assets/yt_feature3.png'), title: "100% seguro y confiable", description: "Descargue videos de YouTube de manera segura con nuestro convertidor limpio y centrado en la privacidad. Sin rastreo, sin malware, solo simplicidad." },
+            { icon: require('@/assets/yt_feature4.png'), title: "Descargas ilimitadas", description: "Convierte y guarda tantos videos de YouTube como desees, sin tiempos de espera ni límites de descarga molestos." },
+            { icon: require('@/assets/yt_feature5.png'), title: "Sin inicio de sesión ni instalación de software", description: "Comienza a convertir videos sin crear cuentas ni descargar nada. Simplemente pega tu enlace y listo, sin complicaciones." },
+            { icon: require('@/assets/yt_feature6.png'), title: "Soporte para varios formatos", description: "Descarga en MP4, M4A o WEBM. Cualquiera sea el formato o calidad que busques, te lo cubrimos." }
         ],
         downloadNow: "Descargar ahora >>",
         featuresConverter: "Características del Convertidor de Videos de YouTube",
@@ -165,12 +165,12 @@ const messages = {
         clickDownload: "انقر مباشرة على زر 'تنزيل'",
         saveVideo: "انتظر لبضع دقائق واحفظ الفيديو",
         features: [
-            { icon: require('@/assets/yt_feature.png'), title: "محمل فيديو يوتيوب بنجاح عالٍ", description: "قم بتنزيل مقاطع فيديو YouTube بسهولة مع محولنا المتقدم، الذي يتميز بمعدلات نجاح رائدة في الصناعة والحفاظ على الجودة لجميع أنواع المحتوى." },
-            { icon: require('@/assets/yt_feature.png'), title: "محول YouTube إلى MP4 بسرعة البرق", description: "حوّل مقاطع فيديو YouTube إلى ملفات MP4 عالية الجودة في ثوانٍ. استمتع بتنزيلات فورية وسلسة دون المساس بجودة الفيديو." },
-            { icon: require('@/assets/yt_feature.png'), title: "آمن 100% وموثوق", description: "قم بتنزيل مقاطع فيديو YouTube بأمان مع محولنا النظيف والمركّز على الخصوصية. لا تتبع، لا برمجيات خبيثة – فقط البساطة الخالصة." },
-            { icon: require('@/assets/yt_feature.png'), title: "تنزيلات غير محدودة", description: "حوّل وحفظ مقاطع فيديو YouTube كما تشاء، دون أوقات انتظار أو حدود تنزيل مزعجة." },
-            { icon: require('@/assets/yt_feature.png'), title: "بدون تسجيل دخول أو تثبيت برنامج", description: "ابدأ بالتحويل دون إنشاء حسابات أو تنزيل أي شيء. فقط الصق الرابط الخاص بك وستكون جاهزًا – لا متاعب." },
-            { icon: require('@/assets/yt_feature.png'), title: "دعم تنسيقات متعددة", description: "قم بالتنزيل بصيغة MP4 أو M4A أو WEBM. مهما كان التنسيق أو الجودة التي تبحث عنها، نحن هنا لتلبية احتياجاتك." }
+            { icon: require('@/assets/yt_feature1.png'), title: "محمل فيديو يوتيوب بنجاح عالٍ", description: "قم بتنزيل مقاطع فيديو YouTube بسهولة مع محولنا المتقدم، الذي يتميز بمعدلات نجاح رائدة في الصناعة والحفاظ على الجودة لجميع أنواع المحتوى." },
+            { icon: require('@/assets/yt_feature2.png'), title: "محول YouTube إلى MP4 بسرعة البرق", description: "حوّل مقاطع فيديو YouTube إلى ملفات MP4 عالية الجودة في ثوانٍ. استمتع بتنزيلات فورية وسلسة دون المساس بجودة الفيديو." },
+            { icon: require('@/assets/yt_feature3.png'), title: "آمن 100% وموثوق", description: "قم بتنزيل مقاطع فيديو YouTube بأمان مع محولنا النظيف والمركّز على الخصوصية. لا تتبع، لا برمجيات خبيثة – فقط البساطة الخالصة." },
+            { icon: require('@/assets/yt_feature4.png'), title: "تنزيلات غير محدودة", description: "حوّل وحفظ مقاطع فيديو YouTube كما تشاء، دون أوقات انتظار أو حدود تنزيل مزعجة." },
+            { icon: require('@/assets/yt_feature5.png'), title: "بدون تسجيل دخول أو تثبيت برنامج", description: "ابدأ بالتحويل دون إنشاء حسابات أو تنزيل أي شيء. فقط الصق الرابط الخاص بك وستكون جاهزًا – لا متاعب." },
+            { icon: require('@/assets/yt_feature6.png'), title: "دعم تنسيقات متعددة", description: "قم بالتنزيل بصيغة MP4 أو M4A أو WEBM. مهما كان التنسيق أو الجودة التي تبحث عنها، نحن هنا لتلبية احتياجاتك." }
         ],
         downloadNow: "تحميل الآن >>",
         featuresConverter: " ميزات محول فيديو يوتيوب",
@@ -231,12 +231,12 @@ const messages = {
         clickDownload: "‘डाउनलोड’ बटन पर सीधे क्लिक करें",
         saveVideo: "कुछ मिनटों तक प्रतीक्षा करें और वीडियो को सहेजें",
         features: [
-            { icon: require('@/assets/yt_feature.png'), title: "उच्च सफलता दर YouTube डाउनलोड", description: "हमारे उन्नत कन्वर्टर के साथ YouTube वीडियो को आसानी से डाउनलोड करें, जिसमें उद्योग-अग्रणी सफलता दर और सभी सामग्री प्रकारों के लिए विश्वसनीय गुणवत्ता संरक्षण शामिल है।" },
-            { icon: require('@/assets/yt_feature.png'), title: "लाइटनिंग-फास्ट YouTube से MP4 कन्वर्टर", description: "YouTube वीडियो को सेकंडों में उच्च गुणवत्ता वाले MP4 फ़ाइलों में बदलें। वीडियो गुणवत्ता से समझौता किए बिना सहज और तत्काल डाउनलोड का अनुभव करें।" },
-            { icon: require('@/assets/yt_feature.png'), title: "100% सुरक्षित और सुरक्षित", description: "हमारे स्वच्छ, गोपनीयता-केंद्रित कन्वर्टर के साथ YouTube वीडियो को सुरक्षित रूप से डाउनलोड करें। कोई ट्रैकिंग नहीं, कोई मैलवेयर नहीं – केवल शुद्ध सादगी।" },
-            { icon: require('@/assets/yt_feature.png'), title: "असीमित डाउनलोड", description: "YouTube वीडियो को जितना चाहें उतना बदलें और सेव करें, बिना किसी प्रतीक्षा समय या परेशान करने वाली डाउनलोड सीमा के।" },
-            { icon: require('@/assets/yt_feature.png'), title: "कोई लॉगिन और कोई सॉफ़्टवेयर इंस्टॉलेशन नहीं", description: "खाता बनाए बिना या कुछ भी डाउनलोड किए बिना वीडियो कन्वर्ट करना शुरू करें। बस अपनी लिंक पेस्ट करें और आप अच्छे से चलें – कोई झंझट नहीं।" },
-            { icon: require('@/assets/yt_feature.png'), title: "विभिन्न प्रारूप समर्थन", description: "MP4, M4A, या WEBM में डाउनलोड करें। जो भी प्रारूप या गुणवत्ता आप चाहते हैं, हमने आपको कवर किया है।" }
+            { icon: require('@/assets/yt_feature1.png'), title: "उच्च सफलता दर YouTube डाउनलोड", description: "हमारे उन्नत कन्वर्टर के साथ YouTube वीडियो को आसानी से डाउनलोड करें, जिसमें उद्योग-अग्रणी सफलता दर और सभी सामग्री प्रकारों के लिए विश्वसनीय गुणवत्ता संरक्षण शामिल है।" },
+            { icon: require('@/assets/yt_feature2.png'), title: "लाइटनिंग-फास्ट YouTube से MP4 कन्वर्टर", description: "YouTube वीडियो को सेकंडों में उच्च गुणवत्ता वाले MP4 फ़ाइलों में बदलें। वीडियो गुणवत्ता से समझौता किए बिना सहज और तत्काल डाउनलोड का अनुभव करें।" },
+            { icon: require('@/assets/yt_feature3.png'), title: "100% सुरक्षित और सुरक्षित", description: "हमारे स्वच्छ, गोपनीयता-केंद्रित कन्वर्टर के साथ YouTube वीडियो को सुरक्षित रूप से डाउनलोड करें। कोई ट्रैकिंग नहीं, कोई मैलवेयर नहीं – केवल शुद्ध सादगी।" },
+            { icon: require('@/assets/yt_feature4.png'), title: "असीमित डाउनलोड", description: "YouTube वीडियो को जितना चाहें उतना बदलें और सेव करें, बिना किसी प्रतीक्षा समय या परेशान करने वाली डाउनलोड सीमा के।" },
+            { icon: require('@/assets/yt_feature5.png'), title: "कोई लॉगिन और कोई सॉफ़्टवेयर इंस्टॉलेशन नहीं", description: "खाता बनाए बिना या कुछ भी डाउनलोड किए बिना वीडियो कन्वर्ट करना शुरू करें। बस अपनी लिंक पेस्ट करें और आप अच्छे से चलें – कोई झंझट नहीं।" },
+            { icon: require('@/assets/yt_feature6.png'), title: "विभिन्न प्रारूप समर्थन", description: "MP4, M4A, या WEBM में डाउनलोड करें। जो भी प्रारूप या गुणवत्ता आप चाहते हैं, हमने आपको कवर किया है।" }
         ],
         downloadNow: "अब डाउनलोड करें >>",
         featuresConverter: "YouTube वीडियो कनवर्टर की विशेषताएँ",
@@ -297,12 +297,12 @@ const messages = {
         clickDownload: "Clique diretamente no botão 'Baixar'",
         saveVideo: "Aguarde alguns minutos e salve o vídeo",
         features: [
-            { icon: require('@/assets/yt_feature.png'), title: "Alta taxa de sucesso em downloads do YouTube", description: "Baixe vídeos do YouTube sem esforço com nosso conversor avançado, com taxas de sucesso líderes da indústria e preservação confiável de qualidade para todos os tipos de conteúdo." },
-            { icon: require('@/assets/yt_feature.png'), title: "Conversor YouTube para MP4 super-rápido", description: "Transforme vídeos do YouTube em arquivos MP4 de alta qualidade em segundos. Experimente downloads instantâneos sem comprometer a qualidade do vídeo." },
-            { icon: require('@/assets/yt_feature.png'), title: "100% seguro e protegido", description: "Baixe vídeos do YouTube com segurança com nosso conversor limpo e focado em privacidade. Sem rastreamento, sem malware – apenas simplicidade pura." },
-            { icon: require('@/assets/yt_feature.png'), title: "Downloads ilimitados", description: "Converta e salve quantos vídeos do YouTube quiser, sem tempo de espera ou limites irritantes de download." },
-            { icon: require('@/assets/yt_feature.png'), title: "Sem login e sem instalação de software", description: "Comece a converter vídeos sem criar contas ou baixar nada. Basta colar seu link e pronto – sem complicações." },
-            { icon: require('@/assets/yt_feature.png'), title: "Suporte a vários formatos", description: "Baixe em MP4, M4A ou WEBM. Qualquer formato ou qualidade que você deseja, nós cobrimos." }
+            { icon: require('@/assets/yt_feature1.png'), title: "Alta taxa de sucesso em downloads do YouTube", description: "Baixe vídeos do YouTube sem esforço com nosso conversor avançado, com taxas de sucesso líderes da indústria e preservação confiável de qualidade para todos os tipos de conteúdo." },
+            { icon: require('@/assets/yt_feature2.png'), title: "Conversor YouTube para MP4 super-rápido", description: "Transforme vídeos do YouTube em arquivos MP4 de alta qualidade em segundos. Experimente downloads instantâneos sem comprometer a qualidade do vídeo." },
+            { icon: require('@/assets/yt_feature3.png'), title: "100% seguro e protegido", description: "Baixe vídeos do YouTube com segurança com nosso conversor limpo e focado em privacidade. Sem rastreamento, sem malware – apenas simplicidade pura." },
+            { icon: require('@/assets/yt_feature4.png'), title: "Downloads ilimitados", description: "Converta e salve quantos vídeos do YouTube quiser, sem tempo de espera ou limites irritantes de download." },
+            { icon: require('@/assets/yt_feature5.png'), title: "Sem login e sem instalação de software", description: "Comece a converter vídeos sem criar contas ou baixar nada. Basta colar seu link e pronto – sem complicações." },
+            { icon: require('@/assets/yt_feature6.png'), title: "Suporte a vários formatos", description: "Baixe em MP4, M4A ou WEBM. Qualquer formato ou qualidade que você deseja, nós cobrimos." }
         ],
         downloadNow: "Baixar agora >>",
         featuresConverter: "Características do Conversor de Vídeos do YouTube",
@@ -363,12 +363,12 @@ const messages = {
         clickDownload: "‘다운로드’ 버튼을 클릭하세요",
         saveVideo: "몇 분 기다렸다가 영상을 저장하세요",
         features: [
-            { icon: require('@/assets/yt_feature.png'), title: "높은 성공률의 YouTube 다운로드", description: "업계 최고의 성공률과 모든 콘텐츠 유형에 대한 신뢰할 수 있는 품질 보존 기능을 갖춘 고급 변환기를 통해 YouTube 비디오를 손쉽게 다운로드하십시오." },
-            { icon: require('@/assets/yt_feature.png'), title: "번개처럼 빠른 YouTube에서 MP4로 변환", description: "몇 초 만에 YouTube 비디오를 고품질 MP4 파일로 변환하십시오. 비디오 품질을 손상시키지 않으면서 원활하고 즉각적인 다운로드를 경험하십시오." },
-            { icon: require('@/assets/yt_feature.png'), title: "100% 안전하고 보호됨", description: "우리의 깔끔하고 개인 정보 보호에 집중된 변환기로 YouTube 비디오를 안전하게 다운로드하십시오. 추적, 악성 코드 없음 – 오직 순수한 단순함." },
-            { icon: require('@/assets/yt_feature.png'), title: "무제한 다운로드", description: "원하는 만큼 YouTube 비디오를 변환하고 저장하십시오. 대기 시간 없이 다운로드 제한도 없습니다." },
-            { icon: require('@/assets/yt_feature.png'), title: "로그인 없이 소프트웨어 설치 없이", description: "계정을 만들거나 아무것도 다운로드하지 않고 바로 비디오를 변환하십시오. 링크를 붙여넣기만 하면 준비 완료 – 번거로움 없이." },
-            { icon: require('@/assets/yt_feature.png'), title: "여러 형식 지원", description: "MP4, M4A 또는 WEBM 형식으로 다운로드하십시오. 원하는 형식이나 품질이 무엇이든 저희가 다 도와드립니다." }
+            { icon: require('@/assets/yt_feature1.png'), title: "높은 성공률의 YouTube 다운로드", description: "업계 최고의 성공률과 모든 콘텐츠 유형에 대한 신뢰할 수 있는 품질 보존 기능을 갖춘 고급 변환기를 통해 YouTube 비디오를 손쉽게 다운로드하십시오." },
+            { icon: require('@/assets/yt_feature2.png'), title: "번개처럼 빠른 YouTube에서 MP4로 변환", description: "몇 초 만에 YouTube 비디오를 고품질 MP4 파일로 변환하십시오. 비디오 품질을 손상시키지 않으면서 원활하고 즉각적인 다운로드를 경험하십시오." },
+            { icon: require('@/assets/yt_feature3.png'), title: "100% 안전하고 보호됨", description: "우리의 깔끔하고 개인 정보 보호에 집중된 변환기로 YouTube 비디오를 안전하게 다운로드하십시오. 추적, 악성 코드 없음 – 오직 순수한 단순함." },
+            { icon: require('@/assets/yt_feature4.png'), title: "무제한 다운로드", description: "원하는 만큼 YouTube 비디오를 변환하고 저장하십시오. 대기 시간 없이 다운로드 제한도 없습니다." },
+            { icon: require('@/assets/yt_feature5.png'), title: "로그인 없이 소프트웨어 설치 없이", description: "계정을 만들거나 아무것도 다운로드하지 않고 바로 비디오를 변환하십시오. 링크를 붙여넣기만 하면 준비 완료 – 번거로움 없이." },
+            { icon: require('@/assets/yt_feature6.png'), title: "여러 형식 지원", description: "MP4, M4A 또는 WEBM 형식으로 다운로드하십시오. 원하는 형식이나 품질이 무엇이든 저희가 다 도와드립니다." }
         ],
         downloadNow: "지금 다운로드 >>",
         featuresConverter: "YouTube 비디오 변환기의 특징",
@@ -429,12 +429,12 @@ const messages = {
         clickDownload: "‘ダウンロード’ボタンを直接クリック",
         saveVideo: "数分待って、動画を保存",
         features: [
-            { icon: require('@/assets/yt_feature.png'), title: "高成功率のYouTubeダウンロード", description: "業界最高の成功率と、すべてのコンテンツタイプに対する信頼性のある品質保持を提供する当社の高度なコンバーターで、YouTube動画を手軽にダウンロードできます。" },
-            { icon: require('@/assets/yt_feature.png'), title: "超高速YouTubeからMP4への変換", description: "YouTube動画を数秒で高品質なMP4ファイルに変換します。動画品質を損なうことなく、シームレスで即時のダウンロードを体験できます。" },
-            { icon: require('@/assets/yt_feature.png'), title: "100％安全・安心", description: "当社のクリーンでプライバシー重視のコンバーターを使用して、YouTube動画を安全にダウンロードできます。追跡なし、マルウェアなし – ただのシンプルさ。" },
-            { icon: require('@/assets/yt_feature.png'), title: "無制限のダウンロード", description: "YouTube動画を心ゆくまで変換し、保存できます。待機時間や面倒なダウンロード制限はありません。" },
-            { icon: require('@/assets/yt_feature.png'), title: "ログインなし、ソフトウェアのインストールなし", description: "アカウント作成やダウンロードなしですぐに動画を変換できます。リンクを貼り付けるだけで準備完了 – 面倒なし。" },
-            { icon: require('@/assets/yt_feature.png'), title: "多様なフォーマット対応", description: "MP4、M4A、またはWEBMでダウンロードできます。求めるフォーマットや品質があれば、すべて対応いたします。" }
+            { icon: require('@/assets/yt_feature1.png'), title: "高成功率のYouTubeダウンロード", description: "業界最高の成功率と、すべてのコンテンツタイプに対する信頼性のある品質保持を提供する当社の高度なコンバーターで、YouTube動画を手軽にダウンロードできます。" },
+            { icon: require('@/assets/yt_feature2.png'), title: "超高速YouTubeからMP4への変換", description: "YouTube動画を数秒で高品質なMP4ファイルに変換します。動画品質を損なうことなく、シームレスで即時のダウンロードを体験できます。" },
+            { icon: require('@/assets/yt_feature3.png'), title: "100％安全・安心", description: "当社のクリーンでプライバシー重視のコンバーターを使用して、YouTube動画を安全にダウンロードできます。追跡なし、マルウェアなし – ただのシンプルさ。" },
+            { icon: require('@/assets/yt_feature4.png'), title: "無制限のダウンロード", description: "YouTube動画を心ゆくまで変換し、保存できます。待機時間や面倒なダウンロード制限はありません。" },
+            { icon: require('@/assets/yt_feature5.png'), title: "ログインなし、ソフトウェアのインストールなし", description: "アカウント作成やダウンロードなしですぐに動画を変換できます。リンクを貼り付けるだけで準備完了 – 面倒なし。" },
+            { icon: require('@/assets/yt_feature6.png'), title: "多様なフォーマット対応", description: "MP4、M4A、またはWEBMでダウンロードできます。求めるフォーマットや品質があれば、すべて対応いたします。" }
         ],
         downloadNow: "今すぐダウンロード >>",
         featuresConverter: "YouTube動画変換ツールの特徴",
@@ -470,7 +470,7 @@ const messages = {
         faq5Answer: "私たちの変換器は、あらゆる種類のユーザーに最適です。コンテンツクリエーター、学生、教師、旅行者、ビジネスプロフェッショナル、そして日常的な視聴者が気に入るでしょう。制限なしで動画を変換できます。アカウントを作成したり、ソフトウェアをダウンロードする必要はありません。"
 
     },
-    zh_TW: {
+    'zh-TW': {
         siteName: "Youtubetomp4.pro",
         videoDownloader: "YouTube 視頻下載器",
         mp3Converter: "YouTube 轉 MP3",
@@ -494,6 +494,15 @@ const messages = {
         copyUrl: "複製 YouTube 視頻 URL",
         clickDownload: "直接點擊 ‘下載’ 按鈕",
         saveVideo: "等待幾分鐘並保存視頻",
+        features: [
+            { icon: require('@/assets/yt_feature1.png'), title: "高成功率的 YouTube 下載", description: "透過我們先進的轉換器，提供業界最高的成功率及所有內容類型的可靠品質保持，輕鬆下載 YouTube 視頻。" },
+            { icon: require('@/assets/yt_feature2.png'), title: "超高速的 YouTube 到 MP4 轉換", description: "在幾秒鐘內將 YouTube 視頻轉換為高品質 MP4 文件。無需損失視頻質量，體驗無縫且即時的下載。" },
+            { icon: require('@/assets/yt_feature3.png'), title: "100% 安全可靠", description: "使用我們乾淨且注重隱私的轉換器，安全地下載 YouTube 視頻。無追蹤，無惡意軟體——僅提供簡單的體驗。" },
+            { icon: require('@/assets/yt_feature4.png'), title: "無限制的下載", description: "隨心所欲地轉換和儲存 YouTube 視頻。無等待時間或麻煩的下載限制。" },
+            { icon: require('@/assets/yt_feature5.png'), title: "無需登入或安裝軟體", description: "無需建立帳戶或下載，立即轉換視頻。只需貼上鏈接即可準備就緒 - 無麻煩。" },
+            { icon: require('@/assets/yt_feature6.png'), title: "支持多種格式", description: "可以下載成 MP4、M4A 或 WEBM 格式。無論您需要什麼格式或品質，我們都能滿足您的需求。" }
+        ],
+        downloadNow: "下載 >>",
         featuresConverter: "YouTube 影片轉換器的功能",
         benefits: {
             title: "YouTube 轉 MP4 轉換器的優點",
@@ -701,8 +710,11 @@ const messages = {
 };
 
 // **自动检测浏览器语言**
-const browserLang = navigator.language.split("-")[0]; // 获取 `zh-CN` 的 `zh`
-const defaultLang = messages[browserLang] ? browserLang : "en"; // 如果没有匹配语言，使用英语
+const lang = navigator.language;
+const browserLang = lang.split("-")[0]; // 获取 `zh-CN` 的 `zh`
+const defaultLang = messages[browserLang] ? browserLang : (messages[lang] ?  lang : "en"); // 优先匹配 Main Language，如果匹配不到则匹配次级语言，兜底使用英语
+
+console.log("defaultLang", defaultLang);
 
 const i18n = createI18n({
     locale: defaultLang, // 默认语言
