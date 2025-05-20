@@ -7,6 +7,7 @@ const routes = [
   { path: '/', component: Home },
   { path: '/privacy-policy', component: PrivacyPolicy },
   { path: '/teamof-server', component: TeamOfServer },
+  { path: '/:lang', component: Home, props: true },
 ];
 
 const router = createRouter({

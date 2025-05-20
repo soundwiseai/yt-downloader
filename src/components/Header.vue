@@ -9,14 +9,95 @@
       <nav class="nav">
         <a href="#" class="nav-link">{{ $t("videoDownloader") }} &gt;</a>
         <a href="#" class="nav-link">{{ $t("mp3Converter") }} &gt;</a>
+        
+        <!-- 语言选择下拉菜单 -->
+        <div class="language-selector">
+          <div class="selected-language" @click="toggleLanguageMenu">
+            {{ getCurrentLanguageName() }} <span class="dropdown-arrow">▼</span>
+          </div>
+          <div class="language-dropdown" v-if="showLanguageMenu">
+            <div 
+              v-for="lang in languages" 
+              :key="lang.code" 
+              class="language-option" 
+              @click="changeLanguage(lang.code)"
+            >
+              {{ lang.name }}
+            </div>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
 </template>
 
 <script>
+import { useI18n } from 'vue-i18n';
+import { ref } from 'vue';
+
 export default {
   name: "HeaderComponent",
+  setup() {
+    const { locale } = useI18n();
+    const showLanguageMenu = ref(false);
+    
+    // 支持的语言列表
+    const languages = [
+      { code: 'en', name: 'English' },
+      { code: 'es', name: 'Español' },
+      { code: 'ar', name: 'العربية' },
+      { code: 'hi', name: 'हिन्दी' },
+      { code: 'pt', name: 'Português' },
+      { code: 'ko', name: '한국어' },
+      { code: 'ja', name: '日本語' },
+      { code: 'zh-TW', name: '繁體中文' },
+      { code: 'id', name: 'Bahasa Indonesia' },
+      { code: 'th', name: 'ไทย' },
+      { code: 'vi', name: 'Tiếng Việt' }
+    ];
+    
+    // 切换语言菜单显示/隐藏
+    const toggleLanguageMenu = () => {
+      showLanguageMenu.value = !showLanguageMenu.value;
+    };
+    
+    // 获取当前语言名称
+    const getCurrentLanguageName = () => {
+      const currentLang = languages.find(lang => lang.code === locale.value);
+      return currentLang ? currentLang.name : 'English';
+    };
+    
+    // 切换语言
+    const changeLanguage = (langCode) => {
+      locale.value = langCode;
+      showLanguageMenu.value = false;
+      
+      // 如果当前不在语言路径上，则导航到对应的语言路径
+      if (langCode !== 'en') {
+        window.location.href = `/${langCode}`;
+      } else {
+        window.location.href = '/';
+      }
+    };
+    
+    // 点击页面其他地方关闭语言菜单
+    const closeLanguageMenu = (event) => {
+      if (showLanguageMenu.value && !event.target.closest('.language-selector')) {
+        showLanguageMenu.value = false;
+      }
+    };
+    
+    // 添加全局点击事件监听器
+    window.addEventListener('click', closeLanguageMenu);
+    
+    return {
+      showLanguageMenu,
+      languages,
+      toggleLanguageMenu,
+      getCurrentLanguageName,
+      changeLanguage
+    };
+  },
   methods: {
     goHome() {
       if (this.$route.path !== '/') {
@@ -26,6 +107,57 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.language-selector {
+  position: relative;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.selected-language {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s;
+}
+
+.selected-language:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-arrow {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 180px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15), 0 8px 25px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  margin-top: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.language-option {
+  padding: 10px 15px;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.language-option:hover {
+  background-color: #f5f5f5;
+}
+</style>
 
 <style scoped>
 /* 📱 默认：移动端优先（Logo + 导航栏 垂直排列） */
@@ -38,10 +170,12 @@ export default {
 /* ✅ 让 `container` 默认是垂直布局 */
 .container {
   display: flex;
-  flex-direction: column; /* 移动端默认上下排列 */
+  flex-direction: column;
   align-items: center;
-  text-align: center; /* 居中对齐 */
-  max-width: 100%;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
 }
 
 /* ✅ Logo 样式 */
@@ -80,7 +214,7 @@ export default {
 @media (min-width: 600px) {
   .container {
     flex-direction: row; /* ✅ 变成水平排列 */
-    justify-content: flex-start; /* ✅ 左对齐 */
+    justify-content: space-between; /* ✅ 两端对齐，让导航栏靠右 */
     align-items: center;
   }
 
@@ -89,11 +223,11 @@ export default {
     align-items: center;
   }
 
-  /* ✅ 导航栏与 Logo 保持 50px 间距 */
+  /* ✅ 导航栏靠右对齐 */
   .nav {
     flex-direction: row;
     gap: 15px;
-    margin-left: 50px; /* ✅ 让导航栏始终保持 50px 的间距 */
+    margin-left: auto; /* ✅ 让导航栏靠右对齐 */
   }
 
   .nav-link {
