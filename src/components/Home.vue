@@ -30,7 +30,7 @@
       FAQ,
     },
     props: {
-      lang: {
+      locale: {
         type: String,
         default: ''
       }
@@ -39,12 +39,12 @@
       const { locale } = useI18n();
       const supportedLanguages = ['en', 'es', 'ar', 'hi', 'pt', 'ko', 'ja', 'zh-TW', 'id', 'th', 'vi'];
            
-      watch(() => props.lang, (newLang) => {
-        if (newLang && locale.value !== newLang) {
-          if (supportedLanguages.includes(newLang)) {
-            locale.value = newLang;
+      watch(() => props.locale, (newLocale) => {
+        if (newLocale && locale.value !== newLocale) {
+          if (supportedLanguages.includes(newLocale)) {
+            locale.value = newLocale;
           }
-        } else if (!newLang && locale.value !== 'en') {
+        } else if (!newLocale && locale.value !== 'en') {
           // 默认英语
           locale.value = 'en';
         }

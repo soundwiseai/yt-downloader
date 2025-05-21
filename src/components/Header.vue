@@ -7,8 +7,10 @@
       </div>
       <!-- 右侧导航 -->
       <nav class="nav">
-        <a href="#" class="nav-link">{{ $t("videoDownloader") }} &gt;</a>
-        <a href="#" class="nav-link">{{ $t("mp3Converter") }} &gt;</a>
+        <template v-if="showNavMenu">
+          <a href="#" class="nav-link" @click.prevent="goDownloader">{{ $t("videoDownloader") }} &gt;</a>
+          <a href="#" class="nav-link" @click.prevent="goMp3">{{ $t("mp3Converter") }} &gt;</a>
+        </template>
         
         <!-- 语言选择下拉菜单 -->
         <div class="language-selector">
@@ -31,81 +33,119 @@
   </header>
 </template>
 
-<script>
+<script setup>
+import { ref, computed } from 'vue';
+import { useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
-import { ref } from 'vue';
 
-export default {
-  name: "HeaderComponent",
-  setup() {
-    const { locale } = useI18n();
-    const showLanguageMenu = ref(false);
+const { locale } = useI18n();
+const route = useRoute();
+const showLanguageMenu = ref(false);
     
-    // 支持的语言列表
-    const languages = [
-      { code: 'en', name: 'English' },
-      { code: 'es', name: 'Español' },
-      { code: 'ar', name: 'العربية' },
-      { code: 'hi', name: 'हिन्दी' },
-      { code: 'pt', name: 'Português' },
-      { code: 'ko', name: '한국어' },
-      { code: 'ja', name: '日本語' },
-      { code: 'zh-TW', name: '繁體中文' },
-      { code: 'id', name: 'Bahasa Indonesia' },
-      { code: 'th', name: 'ไทย' },
-      { code: 'vi', name: 'Tiếng Việt' }
-    ];
-    
-    // 切换语言菜单显示/隐藏
-    const toggleLanguageMenu = () => {
-      showLanguageMenu.value = !showLanguageMenu.value;
-    };
-    
-    // 获取当前语言名称
-    const getCurrentLanguageName = () => {
-      const currentLang = languages.find(lang => lang.code === locale.value);
-      return currentLang ? currentLang.name : 'English';
-    };
-    
-    // 切换语言
-    const changeLanguage = (langCode) => {
-      locale.value = langCode;
-      showLanguageMenu.value = false;
-      
-      // 如果当前不在语言路径上，则导航到对应的语言路径
-      if (langCode !== 'en') {
-        window.location.href = `/${langCode}`;
-      } else {
-        window.location.href = '/';
-      }
-    };
-    
-    // 点击页面其他地方关闭语言菜单
-    const closeLanguageMenu = (event) => {
-      if (showLanguageMenu.value && !event.target.closest('.language-selector')) {
-        showLanguageMenu.value = false;
-      }
-    };
-    
-    // 添加全局点击事件监听器
-    window.addEventListener('click', closeLanguageMenu);
-    
-    return {
-      showLanguageMenu,
-      languages,
-      toggleLanguageMenu,
-      getCurrentLanguageName,
-      changeLanguage
-    };
-  },
-  methods: {
-    goHome() {
-      if (this.$route.path !== '/') {
-        this.$router.push('/'); // 强制跳转到首页
-      }
-    }
+// 支持的语言列表
+const languages = [
+  { code: 'en', name: 'English' },
+  { code: 'es', name: 'Español' },
+  { code: 'ar', name: 'العربية' },
+  { code: 'hi', name: 'हिन्दी' },
+  { code: 'pt', name: 'Português' },
+  { code: 'ko', name: '한국어' },
+  { code: 'ja', name: '日本語' },
+  { code: 'zh-TW', name: '繁體中文' },
+  { code: 'id', name: 'Bahasa Indonesia' },
+  { code: 'th', name: 'ไทย' },
+  { code: 'vi', name: 'Tiếng Việt' }
+];
+
+
+
+// 仅首页和 /:locale 显示菜单
+const showNavMenu = computed(() => {
+  const path = route.path;
+  if (path === '/' || /^\/[a-zA-Z0-9_-]+$/.test(path)) {
+    return true;
+  }
+  // /downloader, /mp3, /:locale/downloader, /:locale/mp3 都不显示
+  if (/\/downloader$/.test(path) || /\/mp3$/.test(path)) {
+    return false;
+  }
+  return false;
+});
+
+// 跳转到当前语言的 /downloader
+const goDownloader = () => {
+  const lang = locale.value;
+  if (lang && lang !== 'en') {
+    window.location.href = `/${lang}/downloader`;
+  } else {
+    window.location.href = `/downloader`;
   }
 };
+// 跳转到当前语言的 /mp3
+const goMp3 = () => {
+  const lang = locale.value;
+  if (lang && lang !== 'en') {
+    window.location.href = `/${lang}/mp3`;
+  } else {
+    window.location.href = `/mp3`;
+  }
+};
+
+// 切换语言菜单显示/隐藏
+const toggleLanguageMenu = () => {
+  showLanguageMenu.value = !showLanguageMenu.value;
+};
+
+
+// 获取当前语言名称
+const getCurrentLanguageName = () => {
+  const currentLang = languages.find(lang => lang.code === locale.value);
+  return currentLang ? currentLang.name : 'English';
+};
+
+// 切换语言
+const changeLanguage = (langCode) => {
+  locale.value = langCode;
+  showLanguageMenu.value = false;
+
+  // 判断当前页面是否为 mp3 或 downloader
+  const path = window.location.pathname;
+  let suffix = '';
+  if (path.endsWith('/mp3')) {
+    suffix = '/mp3';
+  } else if (path.endsWith('/downloader')) {
+    suffix = '/downloader';
+  }
+
+  // 生成目标路径
+  let targetPath = '/';
+  if (langCode !== 'en') {
+    targetPath = `/${langCode}${suffix}`;
+  } else {
+    targetPath = `/${suffix.replace(/^\//, '')}`;
+    if (targetPath === '/' || targetPath === '') {
+      targetPath = '/';
+    }
+  }
+  window.location.href = targetPath;
+};
+
+// 点击页面其他地方关闭语言菜单
+const closeLanguageMenu = (event) => {
+  if (showLanguageMenu.value && !event.target.closest('.language-selector')) {
+    showLanguageMenu.value = false;
+  }
+};
+
+// 添加全局点击事件监听器
+window.addEventListener('click', closeLanguageMenu);
+
+const goHome = () => {
+  if (route.path !== '/') {
+    window.location.href = '/'; // 强制跳转到首页
+    this.$router.push('/'); // 强制跳转到首页
+  }
+}
 </script>
 
 <style scoped>
