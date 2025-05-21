@@ -39,10 +39,26 @@ export async function loadLocaleMessages(i18n, locale, type = 'default') {
   }
   const messages = messagesModule.messages;
   const supportedLocales = Object.keys(messages);
-  const targetLocale = supportedLocales.includes(locale) ? locale : 'en';
-  if (!supportedLocales.includes(locale)) {
-    console.warn(`[i18n] Locale '${locale}' not supported. Fallback to 'en'. Supported:`, supportedLocales);
+
+  let targetLocale = locale;
+  if (!targetLocale) {
+    const lang = navigator.language;
+    const browserLang = lang.split('-')[0];
+    if (supportedLocales.includes(browserLang)) {
+      targetLocale = browserLang;
+      console.log(`[i18n] locale not specified, auto use browser main lang: ${browserLang}`);
+    } else if (supportedLocales.includes(lang)) {
+      targetLocale = lang;
+      console.log(`[i18n] locale not specified, auto use browser full lang: ${lang}`);
+    } else {
+      targetLocale = 'en';
+      console.log(`[i18n] locale not specified, fallback to en.`);
+    }
+  } else if (!supportedLocales.includes(targetLocale)) {
+    console.warn(`[i18n] Locale '${targetLocale}' not supported. Fallback to 'en'. Supported:`, supportedLocales);
+    targetLocale = 'en';
   }
+
   i18n.global.setLocaleMessage(targetLocale, messages[targetLocale]);
   console.log(`[i18n] setLocaleMessage:`, targetLocale, messages[targetLocale]);
   return { targetLocale };

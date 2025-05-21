@@ -7,10 +7,8 @@
       </div>
       <!-- 右侧导航 -->
       <nav class="nav">
-        <template v-if="showNavMenu">
-          <a href="#" class="nav-link" @click.prevent="goDownloader">{{ $t("videoDownloader") }} &gt;</a>
-          <a href="#" class="nav-link" @click.prevent="goMp3">{{ $t("mp3Converter") }} &gt;</a>
-        </template>
+        <a href="#" class="nav-link" @click.prevent="goDownloader">{{ $t("videoDownloader") }} &gt;</a>
+        <a href="#" class="nav-link" @click.prevent="goMp3">{{ $t("mp3Converter") }} &gt;</a>
         
         <!-- 语言选择下拉菜单 -->
         <div class="language-selector">
@@ -34,12 +32,13 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue';
-import { useRoute } from 'vue-router';
+import { ref } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 
 const { locale } = useI18n();
 const route = useRoute();
+const router = useRouter();
 const showLanguageMenu = ref(false);
     
 // 支持的语言列表
@@ -59,35 +58,22 @@ const languages = [
 
 
 
-// 仅首页和 /:locale 显示菜单
-const showNavMenu = computed(() => {
-  const path = route.path;
-  if (path === '/' || /^\/[a-zA-Z0-9_-]+$/.test(path)) {
-    return true;
-  }
-  // /downloader, /mp3, /:locale/downloader, /:locale/mp3 都不显示
-  if (/\/downloader$/.test(path) || /\/mp3$/.test(path)) {
-    return false;
-  }
-  return false;
-});
-
 // 跳转到当前语言的 /downloader
 const goDownloader = () => {
   const lang = locale.value;
   if (lang && lang !== 'en') {
-    window.location.href = `/${lang}/downloader`;
+    router.push({ path: `/${lang}/downloader` });
   } else {
-    window.location.href = `/downloader`;
+    router.push({ path: `/downloader` });
   }
 };
 // 跳转到当前语言的 /mp3
 const goMp3 = () => {
   const lang = locale.value;
   if (lang && lang !== 'en') {
-    window.location.href = `/${lang}/mp3`;
+    router.push({ path: `/${lang}/mp3` });
   } else {
-    window.location.href = `/mp3`;
+    router.push({ path: `/mp3` });
   }
 };
 
@@ -109,7 +95,7 @@ const changeLanguage = (langCode) => {
   showLanguageMenu.value = false;
 
   // 判断当前页面是否为 mp3 或 downloader
-  const path = window.location.pathname;
+  const path = route.path;
   let suffix = '';
   if (path.endsWith('/mp3')) {
     suffix = '/mp3';
@@ -127,7 +113,7 @@ const changeLanguage = (langCode) => {
       targetPath = '/';
     }
   }
-  window.location.href = targetPath;
+  router.push({ path: targetPath });
 };
 
 // 点击页面其他地方关闭语言菜单
@@ -142,8 +128,7 @@ window.addEventListener('click', closeLanguageMenu);
 
 const goHome = () => {
   if (route.path !== '/') {
-    window.location.href = '/'; // 强制跳转到首页
-    this.$router.push('/'); // 强制跳转到首页
+    router.push({ path: '/' });
   }
 }
 </script>
