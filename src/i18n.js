@@ -44,6 +44,8 @@ export async function loadLocaleMessages(i18n, locale, type = 'default') {
   if (!targetLocale) {
     const lang = navigator.language;
     const browserLang = lang.split('-')[0];
+    console.log('[i18n] browserLang: ', browserLang);
+    console.log('[i18n] supportedLocales: ', supportedLocales);
     if (supportedLocales.includes(browserLang)) {
       targetLocale = browserLang;
       console.log(`[i18n] locale not specified, auto use browser main lang: ${browserLang}`);
@@ -60,7 +62,7 @@ export async function loadLocaleMessages(i18n, locale, type = 'default') {
   }
 
   i18n.global.setLocaleMessage(targetLocale, messages[targetLocale]);
-  console.log(`[i18n] setLocaleMessage:`, targetLocale, messages[targetLocale]);
+  console.log(`[i18n] setLocaleMessage:`, targetLocale);
   return { targetLocale };
 }
 

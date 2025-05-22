@@ -61,20 +61,12 @@ const languages = [
 // 跳转到当前语言的 /downloader
 const goDownloader = () => {
   const lang = locale.value;
-  if (lang && lang !== 'en') {
-    router.push({ path: `/${lang}/downloader` });
-  } else {
-    router.push({ path: `/downloader` });
-  }
+  router.push({ path: `/${lang}/youtube-video-downloader` });
 };
 // 跳转到当前语言的 /mp3
 const goMp3 = () => {
   const lang = locale.value;
-  if (lang && lang !== 'en') {
-    router.push({ path: `/${lang}/mp3` });
-  } else {
-    router.push({ path: `/mp3` });
-  }
+  router.push({ path: `/${lang}/youtube-to-mp3` });
 };
 
 // 切换语言菜单显示/隐藏
@@ -97,22 +89,14 @@ const changeLanguage = (langCode) => {
   // 判断当前页面是否为 mp3 或 downloader
   const path = route.path;
   let suffix = '';
-  if (path.endsWith('/mp3')) {
-    suffix = '/mp3';
-  } else if (path.endsWith('/downloader')) {
-    suffix = '/downloader';
+  if (path.endsWith('/youtube-to-mp3')) {
+    suffix = '/youtube-to-mp3';
+  } else if (path.endsWith('/youtube-video-downloader')) {
+    suffix = '/youtube-video-downloader';
   }
 
   // 生成目标路径
-  let targetPath = '/';
-  if (langCode !== 'en') {
-    targetPath = `/${langCode}${suffix}`;
-  } else {
-    targetPath = `/${suffix.replace(/^\//, '')}`;
-    if (targetPath === '/' || targetPath === '') {
-      targetPath = '/';
-    }
-  }
+  let targetPath = `/${langCode}${suffix}`;
   router.push({ path: targetPath });
 };
 

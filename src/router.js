@@ -10,8 +10,8 @@ const routes = [
   { path: '/privacy-policy', component: PrivacyPolicy },
   { path: '/teamof-server', component: TeamOfServer },
   { path: '/:locale', component: Home, props: true },
-  { path: '/:locale/mp3', component: Home, props: true },
-  { path: '/:locale/downloader', component: Home, props: true },
+  { path: '/:locale/youtube-to-mp3', component: Home, props: true },
+  { path: '/:locale/youtube-video-downloader', component: Home, props: true },
 ];
 
 const router = createRouter({
@@ -22,9 +22,9 @@ const router = createRouter({
 router.beforeEach(async (to, from, next) => {
   const locale = to.params.locale;
   let type = 'default';
-  if (to.path.endsWith('/mp3')) {
+  if (to.path.endsWith('/youtube-to-mp3')) {
     type = 'mp3';
-  } else if (to.path.endsWith('/downloader')) {
+  } else if (to.path.endsWith('/youtube-video-downloader')) {
     type = 'downloader';
   }
   console.log('[router] beforeEach', { path: to.path, locale, type });

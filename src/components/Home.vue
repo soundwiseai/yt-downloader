@@ -44,10 +44,7 @@
           if (supportedLanguages.includes(newLocale)) {
             locale.value = newLocale;
           }
-        } else if (!newLocale && locale.value !== 'en') {
-          // 默认英语
-          locale.value = 'en';
-        }
+        } 
       }, { immediate: true });
     }
   }
