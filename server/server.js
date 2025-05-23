@@ -194,7 +194,7 @@ app.get('/get-formats', async (req, res) => {
   }
 
   // 执行 yt-dlp，并指定 cookies 文件
-  const ytDlpProcess = spawn('yt-dlp', ['-j', '--cookies', cookiesPath, '--cookies-keep',videoUrl], {
+  const ytDlpProcess = spawn('yt-dlp', ['-j',videoUrl], {
     env: {
       ...process.env, // 保留原有环境变量
       PATH: `${process.env.PATH}:${ytDlpPath}` // 将 yt-dlp 的路径加入 PATH
@@ -234,6 +234,7 @@ app.get('/get-formats', async (req, res) => {
       const formats = data.formats
         .filter(format =>
           allowedFormats.includes(format.ext) && format.protocol !== 'm3u8_native' // 过滤 m3u8 流
+          && format.acodec !== 'none'
         )
         .map(format => ({
           format_id: format.format_id,
@@ -253,7 +254,8 @@ app.get('/get-formats', async (req, res) => {
         id: videoId,
         title: videoTitle,
         thumbnail: thumbnailUrl,
-        formats: [...videoFormats, ...audioFormats]
+        formats: [...videoFormats, ...audioFormats],
+        output: data
       };
 
       res.json(result);
