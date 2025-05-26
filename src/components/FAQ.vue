@@ -20,7 +20,11 @@
     data() {
       return {
         activeIndex: 0, // 记录当前展开的索引
-        faqs: [
+      };
+    },
+    computed: {
+      faqs() {
+        return [
           {
             question: this.$t("faq1Question"),
             answer: this.$t("faq1Answer")
@@ -41,8 +45,8 @@
             question: this.$t("faq5Question"),
             answer: this.$t("faq5Answer")
           }
-        ]
-      };
+        ];
+      }
     },
     methods: {
       toggleFAQ(index) {

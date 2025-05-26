@@ -28,11 +28,19 @@ router.beforeEach(async (to, from, next) => {
     type = 'downloader';
   }
   console.log('[router] beforeEach', { path: to.path, locale, type });
-  const { targetLocale } = await loadLocaleMessages(i18n, locale, type);
-  await nextTick();
-  setI18nLanguage(i18n, targetLocale);
-  console.log('[router] setI18nLanguage', targetLocale);
-  return next();
+  
+  try {
+    const { targetLocale } = await loadLocaleMessages(i18n, locale, type);
+    await nextTick();
+    setI18nLanguage(i18n, targetLocale);
+    console.log('[router] setI18nLanguage', targetLocale);
+    return next();
+  } catch (error) {
+    console.error('[router] Error loading locale messages:', error);
+    // 如果加载失败，回退到英语
+    setI18nLanguage(i18n, 'en');
+    return next();
+  }
 });
 
 export default router;

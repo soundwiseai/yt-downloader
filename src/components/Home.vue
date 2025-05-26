@@ -40,8 +40,10 @@
       const supportedLanguages = ['en', 'es', 'ar', 'hi', 'pt', 'ko', 'ja', 'zh-TW', 'id', 'th', 'vi'];
            
       watch(() => props.locale, (newLocale) => {
+        console.log('[Home] Props locale changed:', newLocale, 'Current locale:', locale.value);
         if (newLocale && locale.value !== newLocale) {
           if (supportedLanguages.includes(newLocale)) {
+            console.log('[Home] Setting locale to:', newLocale);
             locale.value = newLocale;
           }
         } 

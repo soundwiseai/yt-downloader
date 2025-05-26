@@ -19,9 +19,9 @@
 
 <script>
 export default {
-  data() {
-    return {
-      benefits: [
+  computed: {
+    benefits() {
+      return [
         {
           title: this.$t('benefits.convenience.title'),
           description: this.$t('benefits.convenience.description'),
@@ -42,8 +42,8 @@ export default {
           description: this.$t('benefits.moreFromDownloads.description'),
           image: require('@/assets/yt_benefits4.png'),
         }
-      ]
-    };
+      ];
+    }
   }
 };
 </script>

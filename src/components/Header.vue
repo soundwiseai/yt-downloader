@@ -77,13 +77,15 @@ const toggleLanguageMenu = () => {
 
 // 获取当前语言名称
 const getCurrentLanguageName = () => {
+  console.log('[Header] Current locale:', locale.value);
   const currentLang = languages.find(lang => lang.code === locale.value);
-  return currentLang ? currentLang.name : 'English';
+  const name = currentLang ? currentLang.name : 'English';
+  console.log('[Header] Current language name:', name);
+  return name;
 };
 
 // 切换语言
 const changeLanguage = (langCode) => {
-  locale.value = langCode;
   showLanguageMenu.value = false;
 
   // 判断当前页面是否为 mp3 或 downloader
@@ -97,6 +99,8 @@ const changeLanguage = (langCode) => {
 
   // 生成目标路径
   let targetPath = `/${langCode}${suffix}`;
+  
+  // 通过路由跳转来触发语言切换，让路由守卫处理语言设置
   router.push({ path: targetPath });
 };
 

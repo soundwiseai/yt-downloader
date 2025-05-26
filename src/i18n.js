@@ -66,5 +66,14 @@ export async function loadLocaleMessages(i18n, locale, type = 'default') {
   return { targetLocale };
 }
 
-const i18n = createI18n({});
+const i18n = createI18n({
+  locale: 'en',
+  fallbackLocale: 'en',
+  legacy: false,
+  globalInjection: true,
+  messages: {
+    en: {}
+  }
+});
+
 export default i18n;

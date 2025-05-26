@@ -31,9 +31,7 @@
 
           <!-- 悬停时显示的提示框 -->
           <span class="tooltip">
-            This tool can only be used for legal, non-infringing use. <br />
-            If you are a content creator and want to prevent your videos from being downloaded using this tool, simply
-            add #nodownloadto your video's tags or description.
+            {{ $t("tooltipText") }}
           </span>
         </span>
       </p>
@@ -61,7 +59,7 @@
               <a :href="format.url" class="download-link" target="_blank">
                 {{ videoData.title }}.{{ format.ext }}
               </a>
-              <span class="format-info">{{ format.resolution || "Audio Only" }} • {{ (format.filesize / (1024 *
+              <span class="format-info">{{ format.resolution || $t('audioOnly') }} • {{ (format.filesize / (1024 *
                 1024)).toFixed(2) }} MB</span>
             </div>
           </div>

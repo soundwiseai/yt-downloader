@@ -8,6 +8,8 @@ export const messages = {
         description: "Download YouTube videos instantly with our free video downloader. No registration, no ads, unlimited downloads.",
         download: "DOWNLOAD NOW",
         tip: "Please respect copyright laws. This tool is designed for downloading videos for personal use only.",
+        tooltipText: "This tool can only be used for legal, non-infringing use. If you are a content creator and want to prevent your videos from being downloaded using this tool, simply add #nodownload to your video's tags or description.",
+        audioOnly: "Audio Only",
         formats: "Download Formats",
         formatsTip: "Click to download",
         reviews: [
@@ -73,6 +75,8 @@ export const messages = {
         description: "Descarga videos de YouTube al instante con nuestro descargador gratuito. Sin registro, sin anuncios, descargas ilimitadas.",
         download: "DESCARGAR AHORA",
         tip: "Por favor respete las leyes de derechos de autor. Esta herramienta está diseñada para descargar videos solo para uso personal.",
+        tooltipText: "Esta herramienta solo puede usarse para uso legal y no infractor. Si eres un creador de contenido y quieres evitar que tus videos se descarguen usando esta herramienta, simplemente agrega #nodownload a las etiquetas o descripción de tu video.",
+        audioOnly: "Solo Audio",
         formats: "Formatos de Descarga",
         formatsTip: "Haga clic para descargar",
         reviews: [
@@ -138,6 +142,8 @@ export const messages = {
         description: "قم بتنزيل مقاطع فيديو يوتيوب فورًا باستخدام محمل الفيديو المجاني الخاص بنا. بدون تسجيل، بدون إعلانات، تنزيلات غير محدودة.",
         download: "تنزيل الآن",
         tip: "يرجى احترام قوانين حقوق النشر. تم تصميم هذه الأداة لتنزيل مقاطع الفيديو للاستخدام الشخصي فقط.",
+        tooltipText: "يمكن استخدام هذه الأداة فقط للاستخدام القانوني وغير المنتهك. إذا كنت منشئ محتوى وتريد منع تنزيل مقاطع الفيديو الخاصة بك باستخدام هذه الأداة، فما عليك سوى إضافة #nodownload إلى علامات أو وصف الفيديو الخاص بك.",
+        audioOnly: "صوت فقط",
         formats: "صيغ التنزيل",
         formatsTip: "انقر للتنزيل",
         reviews: [
@@ -204,6 +210,8 @@ export const messages = {
         description: "हमारे मुफ्त वीडियो डाउनलोडर के साथ तुरंत यूट्यूब वीडियो डाउनलोड करें। बिना रजिस्ट्रेशन, बिना विज्ञापन, असीमित डाउनलोड।",
         download: "अभी डाउनलोड करें",
         tip: "कृपया कॉपीराइट कानूनों का सम्मान करें। यह टूल केवल व्यक्तिगत उपयोग के लिए वीडियो डाउनलोड करने के लिए डिज़ाइन किया गया है।",
+        tooltipText: "यह टूल केवल कानूनी, गैर-उल्लंघनकारी उपयोग के लिए इस्तेमाल किया जा सकता है। यदि आप एक कंटेंट क्रिएटर हैं और इस टूल का उपयोग करके अपने वीडियो डाउनलोड होने से रोकना चाहते हैं, तो बस अपने वीडियो के टैग या विवरण में #nodownload जोड़ें।",
+        audioOnly: "केवल ऑडियो",
         formats: "डाउनलोड फॉर्मेट",
         formatsTip: "डाउनलोड करने के लिए क्लिक करें",
         reviews: [
@@ -269,6 +277,8 @@ export const messages = {
         description: "Baixe vídeos do YouTube instantaneamente com nosso baixador gratuito. Sem registro, sem anúncios, downloads ilimitados.",
         download: "BAIXAR AGORA",
         tip: "Por favor, respeite as leis de direitos autorais. Esta ferramenta foi projetada para baixar vídeos apenas para uso pessoal.",
+        tooltipText: "Esta ferramenta só pode ser usada para uso legal e não infrator. Se você é um criador de conteúdo e quer evitar que seus vídeos sejam baixados usando esta ferramenta, simplesmente adicione #nodownload às tags ou descrição do seu vídeo.",
+        audioOnly: "Apenas Áudio",
         formats: "Formatos de Download",
         formatsTip: "Clique para baixar",
         reviews: [
@@ -335,6 +345,8 @@ export const messages = {
         description: "무료 다운로더로 유튜브 비디오를 즉시 다운로드하세요. 회원가입 불필요, 광고 없음, 무제한 다운로드.",
         download: "지금 다운로드",
         tip: "저작권법을 준수해 주세요. 이 도구는 개인 사용을 위한 비디오 다운로드용으로 설계되었습니다.",
+        tooltipText: "이 도구는 합법적이고 비침해적인 용도로만 사용할 수 있습니다. 콘텐츠 제작자이고 이 도구를 사용하여 비디오가 다운로드되는 것을 방지하려면 비디오의 태그나 설명에 #nodownload를 추가하기만 하면 됩니다.",
+        audioOnly: "오디오만",
         formats: "다운로드 형식",
         formatsTip: "다운로드하려면 클릭하세요",
         reviews: [
@@ -400,6 +412,8 @@ export const messages = {
         description: "無料ダウンローダーでYouTube動画を即時ダウンロード。登録不要、広告なし、無制限ダウンロード。",
         download: "今すぐダウンロード",
         tip: "著作権法を遵守してください。このツールは個人使用のための動画ダウンロード用に設計されています。",
+        tooltipText: "このツールは合法的で非侵害的な使用のみに使用できます。コンテンツクリエイターで、このツールを使用して動画がダウンロードされることを防ぎたい場合は、動画のタグや説明に#nodownloadを追加するだけです。",
+        audioOnly: "音声のみ",
         formats: "ダウンロード形式",
         formatsTip: "クリックしてダウンロード",
         reviews: [
@@ -466,6 +480,8 @@ export const messages = {
         description: "使用免費下載器立即下載 YouTube 影片。無需註冊、無廣告、無限下載。",
         download: "立即下載",
         tip: "請遵守版權法。此工具專為個人使用的影片下載而設計。",
+        tooltipText: "此工具僅可用於合法、非侵權的用途。如果您是內容創作者並希望防止使用此工具下載您的影片，只需在影片的標籤或描述中添加 #nodownload。",
+        audioOnly: "僅音訊",
         formats: "下載格式",
         formatsTip: "點擊下載",
         reviews: [
@@ -531,6 +547,8 @@ export const messages = {
         description: "Unduh video YouTube secara instan dengan pengunduh gratis kami. Tanpa pendaftaran, tanpa iklan, unduhan tak terbatas.",
         download: "Unduh Sekarang",
         tip: "Harap hormati hak cipta. Alat ini dirancang untuk mengunduh video untuk penggunaan pribadi.",
+        tooltipText: "Alat ini hanya dapat digunakan untuk penggunaan yang legal dan tidak melanggar. Jika Anda adalah pembuat konten dan ingin mencegah video Anda diunduh menggunakan alat ini, cukup tambahkan #nodownload ke tag atau deskripsi video Anda.",
+        audioOnly: "Hanya Audio",
         formats: "Format Unduhan",
         formatsTip: "Klik untuk mengunduh",
         reviews: [
@@ -597,6 +615,8 @@ export const messages = {
         description: "ดาวน์โหลดวิดีโอ YouTube ทันทีด้วยตัวดาวน์โหลดฟรีของเรา ไม่ต้องลงทะเบียน ไม่มีโฆษณา ดาวน์โหลดไม่จำกัด",
         download: "ดาวน์โหลดเดี๋ยวนี้",
         tip: "โปรดเคารพลิขสิทธิ์ เครื่องมือนี้ออกแบบมาเพื่อดาวน์โหลดวิดีโอสำหรับการใช้งานส่วนตัว",
+        tooltipText: "เครื่องมือนี้สามารถใช้ได้เฉพาะการใช้งานที่ถูกกฎหมายและไม่ละเมิดลิขสิทธิ์เท่านั้น หากคุณเป็นผู้สร้างเนื้อหาและต้องการป้องกันไม่ให้วิดีโอของคุณถูกดาวน์โหลดโดยใช้เครื่องมือนี้ เพียงเพิ่ม #nodownload ในแท็กหรือคำอธิบายของวิดีโอ",
+        audioOnly: "เฉพาะเสียง",
         formats: "รูปแบบการดาวน์โหลด",
         formatsTip: "คลิกเพื่อดาวน์โหลด",
         reviews: [
@@ -662,6 +682,8 @@ export const messages = {
         description: "Tải xuống video YouTube ngay lập tức với trình tải xuống miễn phí của chúng tôi. Không cần đăng ký, không quảng cáo, tải xuống không giới hạn.",
         download: "Tải xuống ngay",
         tip: "Vui lòng tôn trọng bản quyền. Công cụ này được thiết kế để tải xuống video cho mục đích sử dụng cá nhân.",
+        tooltipText: "Công cụ này chỉ có thể được sử dụng cho mục đích hợp pháp và không vi phạm. Nếu bạn là người tạo nội dung và muốn ngăn video của mình được tải xuống bằng công cụ này, chỉ cần thêm #nodownload vào thẻ hoặc mô tả video của bạn.",
+        audioOnly: "Chỉ âm thanh",
         formats: "Định dạng tải xuống",
         formatsTip: "Nhấp để tải xuống",
         reviews: [

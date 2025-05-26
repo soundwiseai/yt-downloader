@@ -8,6 +8,7 @@ export const messages = {
         description: "Extract audio from YouTube videos with our powerful MP3 converter. Free, fast, and no registration required.",
         download: "CONVERT",
         tip: "Please respect copyright laws. This tool is designed for personal use and educational purposes only.",
+        tooltipText: "This tool can only be used for legal, non-infringing use. If you are a content creator and want to prevent your videos from being downloaded using this tool, simply add #nodownload to your video's tags or description.",
         formats: "Audio Formats",
         formatsTip: "Click to download",
         reviews: [
@@ -73,6 +74,7 @@ export const messages = {
         description: "Extrae audio de videos de YouTube con nuestro potente convertidor MP3. Gratis, rápido y sin registro.",
         download: "CONVERTIR",
         tip: "Por favor respete los derechos de autor. Esta herramienta está diseñada solo para uso personal y educativo.",
+        tooltipText: "Esta herramienta solo puede usarse para uso legal y no infractor. Si eres un creador de contenido y quieres evitar que tus videos se descarguen usando esta herramienta, simplemente agrega #nodownload a las etiquetas o descripción de tu video.",
         formats: "Formatos de Audio",
         formatsTip: "Haga clic para descargar",
         reviews: [
@@ -138,6 +140,7 @@ export const messages = {
         description: "استخرج الصوت من فيديوهات يوتيوب باستخدام محول MP3 القوي. مجاني، سريع، ولا يتطلب تسجيلاً.",
         download: "تحويل",
         tip: "يرجى احترام حقوق النشر. تم تصميم هذه الأداة للاستخدام الشخصي والأغراض التعليمية فقط.",
+        tooltipText: "يمكن استخدام هذه الأداة فقط للاستخدام القانوني وغير المنتهك. إذا كنت منشئ محتوى وتريد منع تحميل فيديوهاتك باستخدام هذه الأداة، ما عليك سوى إضافة #nodownload إلى علامات أو وصف الفيديو الخاص بك.",
         formats: "صيغ الصوت",
         formatsTip: "انقر للتحميل",
         reviews: [
@@ -203,6 +206,7 @@ export const messages = {
         description: "हमारे शक्तिशाली MP3 कन्वर्टर के साथ यूट्यूब वीडियो से ऑडियो निकालें। मुफ्त, तेज़, और पंजीकरण की आवश्यकता नहीं।",
         download: "कन्वर्ट करें",
         tip: "कृपया कॉपीराइट का सम्मान करें। यह टूल केवल व्यक्तिगत उपयोग और शैक्षिक उद्देश्यों के लिए डिज़ाइन किया गया है।",
+        tooltipText: "यह टूल केवल कानूनी, गैर-उल्लंघनकारी उपयोग के लिए इस्तेमाल किया जा सकता है। यदि आप एक कंटेंट क्रिएटर हैं और इस टूल का उपयोग करके अपने वीडियो डाउनलोड होने से रोकना चाहते हैं, तो बस अपने वीडियो के टैग या विवरण में #nodownload जोड़ें।",
         formats: "ऑडियो फॉर्मेट",
         formatsTip: "डाउनलोड के लिए क्लिक करें",
         reviews: [
@@ -268,6 +272,7 @@ export const messages = {
         description: "Extraia áudio de vídeos do YouTube com nosso poderoso conversor MP3. Gratuito, rápido e sem necessidade de registro.",
         download: "CONVERTER",
         tip: "Por favor, respeite os direitos autorais. Esta ferramenta foi projetada apenas para uso pessoal e fins educacionais.",
+        tooltipText: "Esta ferramenta só pode ser usada para uso legal e não infrator. Se você é um criador de conteúdo e quer evitar que seus vídeos sejam baixados usando esta ferramenta, simplesmente adicione #nodownload às tags ou descrição do seu vídeo.",
         formats: "Formatos de Áudio",
         formatsTip: "Clique para baixar",
         reviews: [
@@ -333,6 +338,7 @@ export const messages = {
         description: "강력한 MP3 변환기로 유튜브 동영상에서 오디오를 추출하세요. 무료, 빠르고, 회원가입 불필요.",
         download: "변환",
         tip: "저작권을 존중해 주세요. 이 도구는 개인 사용 및 교육 목적으로만 설계되었습니다.",
+        tooltipText: "이 도구는 합법적이고 저작권을 침해하지 않는 용도로만 사용할 수 있습니다. 콘텐츠 제작자이고 이 도구를 사용하여 동영상이 다운로드되는 것을 방지하려면 동영상 태그나 설명에 #nodownload를 추가하기만 하면 됩니다.",
         formats: "오디오 형식",
         formatsTip: "다운로드하려면 클릭하세요",
         reviews: [
@@ -398,6 +404,7 @@ export const messages = {
         description: "強力なMP3変換ツールでYouTube動画から音声を抽出。無料、高速、登録不要。",
         download: "変換",
         tip: "著作権を尊重してください。このツールは個人使用および教育目的のみに設計されています。",
+        tooltipText: "このツールは合法的で著作権を侵害しない用途にのみ使用できます。コンテンツクリエイターで、このツールを使用して動画がダウンロードされることを防ぎたい場合は、動画のタグまたは説明に #nodownload を追加するだけです。",
         formats: "音声形式",
         formatsTip: "クリックしてダウンロード",
         reviews: [
@@ -463,6 +470,7 @@ export const messages = {
         description: "使用我們強大的 MP3 轉換器從 YouTube 影片中提取音頻。免費、快速、無需註冊。",
         download: "轉換",
         tip: "請尊重版權。此工具僅用於個人使用和教育目的。",
+        tooltipText: "此工具只能用於合法、非侵權的用途。如果您是內容創作者並希望防止使用此工具下載您的影片，只需在您的影片標籤或描述中添加 #nodownload。",
         formats: "音頻格式",
         formatsTip: "點擊下載",
         reviews: [
@@ -528,6 +536,7 @@ export const messages = {
         description: "Ekstrak audio dari video YouTube dengan konverter MP3 kami yang kuat. Gratis, cepat, dan tidak perlu registrasi.",
         download: "KONVERSI",
         tip: "Harap hormati hak cipta. Alat ini dirancang hanya untuk penggunaan pribadi dan tujuan pendidikan.",
+        tooltipText: "Alat ini hanya dapat digunakan untuk penggunaan legal dan tidak melanggar hak cipta. Jika Anda adalah pembuat konten dan ingin mencegah video Anda diunduh menggunakan alat ini, cukup tambahkan #nodownload ke tag atau deskripsi video Anda.",
         formats: "Format Audio",
         formatsTip: "Klik untuk mengunduh",
         reviews: [
@@ -593,6 +602,7 @@ export const messages = {
         description: "สกัดเสียงจากวิดีโอ YouTube ด้วยตัวแปลง MP3 ที่ทรงพลังของเรา ฟรี เร็ว และไม่ต้องลงทะเบียน",
         download: "แปลง",
         tip: "โปรดเคารพลิขสิทธิ์ เครื่องมือนี้ถูกออกแบบสำหรับการใช้งานส่วนตัวและวัตถุประสงค์ทางการศึกษาเท่านั้น",
+        tooltipText: "เครื่องมือนี้สามารถใช้ได้เฉพาะสำหรับการใช้งานที่ถูกกฎหมายและไม่ละเมิดลิขสิทธิ์เท่านั้น หากคุณเป็นผู้สร้างเนื้อหาและต้องการป้องกันไม่ให้วิดีโอของคุณถูกดาวน์โหลดโดยใช้เครื่องมือนี้ เพียงเพิ่ม #nodownload ในแท็กหรือคำอธิบายของวิดีโอของคุณ",
         formats: "รูปแบบเสียง",
         formatsTip: "คลิกเพื่อดาวน์โหลด",
         reviews: [
@@ -658,6 +668,7 @@ export const messages = {
         description: "Trích xuất âm thanh từ video YouTube với trình chuyển đổi MP3 mạnh mẽ của chúng tôi. Miễn phí, nhanh chóng và không cần đăng ký.",
         download: "CHUYỂN ĐỔI",
         tip: "Vui lòng tôn trọng bản quyền. Công cụ này được thiết kế chỉ cho mục đích sử dụng cá nhân và giáo dục.",
+        tooltipText: "Công cụ này chỉ có thể được sử dụng cho mục đích hợp pháp, không vi phạm bản quyền. Nếu bạn là người tạo nội dung và muốn ngăn video của bạn bị tải xuống bằng công cụ này, chỉ cần thêm #nodownload vào thẻ hoặc mô tả video của bạn.",
         formats: "Định dạng âm thanh",
         formatsTip: "Nhấp để tải xuống",
         reviews: [
