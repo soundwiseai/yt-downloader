@@ -13,18 +13,18 @@ export const messages = {
         reviews: [
             { text: "Perfect for saving my favorite videos! Fast downloads and super simple to use. No registration needed.", author: "Sarah_Bennett92" },
             { text: "This tool is great! I love how easy it is to download videos in various formats.", author: "John_Doe" },
-            { text: "I’ve been using this for months, and it always works perfectly.", author: "Jane_Smith" },
+            { text: "I've been using this for months, and it always works perfectly.", author: "Jane_Smith" },
             { text: "Fast and reliable. The best video downloader!", author: "Michael_Johnson" },
             { text: "Easy to use and very effective for saving content.", author: "David_Lee" },
             { text: "Highly recommended! Works flawlessly for all my videos.", author: "Emma_Wilson" }
         ],
         howToConvertTitle: "How to Convert YouTube Video to MP4",
         howToConvertDescription: `Imagine being on a long flight or in a remote area with no internet access. Streaming your favorite video becomes impossible, right? 
-    That’s where offline viewing saves the day. By downloading videos in advance, you can enjoy uninterrupted entertainment anytime, anywhere. 
+    That's where offline viewing saves the day. By downloading videos in advance, you can enjoy uninterrupted entertainment anytime, anywhere. 
     A YouTube to MP4 converter makes this process seamless. It lets you download YouTube videos quickly and efficiently.`,
         step: "Step",
         copyUrl: "Copy the YouTube Video URL",
-        clickDownload: "Directly click on the ‘Download’ button",
+        clickDownload: "Directly click on the 'Download' button",
         saveVideo: "Wait for minutes and save the video",
         features: [
             { icon: require('@/assets/yt_feature1.png'), title: "High Success Rate YouTube Downloads", description: "Download YouTube videos effortlessly with our advanced converter, featuring industry-leading success rates and reliable quality preservation for all content types." },
@@ -40,7 +40,7 @@ export const messages = {
             title: "Benefits of Using YouTube to MP4 Converter",
             convenience: {
                 title: "Convenience and Accessibility",
-                description: "Have you ever been stuck somewhere without internet access, wishing you could watch your favorite video? A YouTube to MP4 converter solves this problem. It lets you download videos in MP4 format, which works on almost any device. Whether you’re using a smartphone, tablet, or laptop, you can enjoy your content without worrying about compatibility.\n\nOffline viewing also makes life easier when you’re traveling or in areas with poor connectivity. You don’t have to deal with buffering or interruptions. Plus, downloading videos ensures you always have access to high-quality content, even when the internet isn’t an option."
+                description: "Have you ever been stuck somewhere without internet access, wishing you could watch your favorite video? A YouTube to MP4 converter solves this problem. It lets you download videos in MP4 format, which works on almost any device. Whether you're using a smartphone, tablet, or laptop, you can enjoy your content without worrying about compatibility.\n\nOffline viewing also makes life easier when you're traveling or in areas with poor connectivity. You don't have to deal with buffering or interruptions. Plus, downloading videos ensures you always have access to high-quality content, even when the internet isn't an option."
             },
             avoidAds: {
                 title: "Avoid Ads",
@@ -48,7 +48,7 @@ export const messages = {
             },
             saveData: {
                 title: "Save Data and Storage",
-                description: "Streaming videos can quickly eat up your mobile data, especially if you’re on a limited plan. A YouTube MP4 downloader helps you save data by letting you download videos over Wi-Fi. Once downloaded, you can watch them as many times as you want without using any additional data."
+                description: "Streaming videos can quickly eat up your mobile data, especially if you're on a limited plan. A YouTube MP4 downloader helps you save data by letting you download videos over Wi-Fi. Once downloaded, you can watch them as many times as you want without using any additional data."
             },
             moreFromDownloads: {
                 title: "Get More From Your Downloads",
@@ -57,16 +57,22 @@ export const messages = {
         },
         faqTitle: "FAQ",
         faq1Question: "1. Is it legal to use a YouTube to MP4 converter?",
-        faq1Answer: "It depends on the video. You can legally download videos with a Creative Commons license or those explicitly allowed for offline use. Avoid downloading copyrighted content without permission to stay on the right side of the law. Tip: Always check the video’s terms of use before downloading.",
+        faq1Answer: "It depends on the video. You can legally download videos with a Creative Commons license or those explicitly allowed for offline use. Avoid downloading copyrighted content without permission to stay on the right side of the law. Tip: Always check the video's terms of use before downloading.",
         faq2Question: "2. Can I use a YouTube to MP4 converter on my phone?",
         faq2Answer: "Yes! It works on mobile devices. You can use apps or mobile-friendly websites to download videos directly to your phone. Just paste the video link, select MP4, and hit download.",
-        faq3Question: "3. What’s the best resolution to download YouTube videos in?",
-        faq3Answer: "It depends on your needs. For high-quality playback, go for HD (720p) or 4K. If you’re saving storage space, choose a lower resolution like 480p. Pro Tip: Balance quality and file size based on your device’s storage capacity.",
+        faq3Question: "3. What's the best resolution to download YouTube videos in?",
+        faq3Answer: "It depends on your needs. For high-quality playback, go for HD (720p) or 4K. If you're saving storage space, choose a lower resolution like 480p. Pro Tip: Balance quality and file size based on your device's storage capacity.",
         faq4Question: "4. Are free YouTube to MP4 converters safe?",
         faq4Answer: "While many free converters out there can be sketchy, we take your security seriously. Our converter runs entirely in your browser without any sneaky downloads or suspicious pop-ups. We use secure HTTPS encryption and never store your personal data or viewing history. Plus, we regularly scan for malware and keep our service squeaky clean. No spyware, no bloatware - just straightforward video conversion you can trust.",
         faq5Question: "5. Who uses the YouTube to MP4 converter?",
-        faq5Answer: "Our converter is perfect for all sorts of users. Content creators, students, teachers, road warriors, business pros, and everyday viewers will love it. You can convert videos without any limits. No need to create an account or download software."
-
+        faq5Answer: "Our converter is perfect for all sorts of users. Content creators, students, teachers, road warriors, business pros, and everyday viewers will love it. You can convert videos without any limits. No need to create an account or download software.",
+        seo: {
+            title: "YouTube to MP4 Converter - Free Online Video Downloader",
+            description: "Convert YouTube videos to MP4 format easily and quickly. Free online YouTube video downloader with high quality, no registration required. Download YouTube videos in various formats including MP4, M4A, and WEBM.",
+            keywords: "youtube to mp4, youtube converter, youtube downloader, youtube to mp3, video converter, free youtube downloader, youtube video downloader, youtube mp4 downloader",
+            ogTitle: "YouTube to MP4 Converter - Free Online Video Downloader",
+            ogDescription: "Convert YouTube videos to MP4 format easily and quickly. Free online YouTube video downloader with high quality, no registration required."
+        },
     },
     es: {
         siteName: "Youtubetomp4.pro",
@@ -131,10 +137,16 @@ export const messages = {
         faq3Question: "3. ¿Cuál es la mejor resolución para descargar videos de YouTube?",
         faq3Answer: "Depende de tus necesidades. Para una reproducción de alta calidad, opta por HD (720p) o 4K. Si deseas ahorrar espacio de almacenamiento, elige una resolución más baja como 480p. Consejo: Equilibra calidad y tamaño del archivo según la capacidad de almacenamiento de tu dispositivo.",
         faq4Question: "4. ¿Son seguros los convertidores gratuitos de YouTube a MP4?",
-        faq4Answer: "Aunque muchos convertidores gratuitos pueden ser sospechosos, tomamos tu seguridad muy en serio. Nuestro convertidor funciona completamente en tu navegador sin descargas sospechosas o ventanas emergentes. Usamos cifrado HTTPS seguro y nunca almacenamos tus datos personales ni tu historial de visualización. Además, escaneamos regularmente en busca de malware y mantenemos nuestro servicio limpio. Sin spyware, sin software adicional, solo una conversión de videos confiable.",
+        faq4Answer: "Aunque muchos convertidores gratuitos pueden ser sospechosos, tomamos tu seguridad muy en serio. Nuestro convertidor funciona completamente en tu navegador sin descargas sospechosas o ventanas emergentes. Usamos cifrado HTTPS seguro y nunca almacenamos tus datos personales ni tu historial de visualización. Además, escaneamos regularmente en busca de malware y mantenemos nuestro servicio limpio. No spyware, no bloatware - just straightforward video conversion you can trust.",
         faq5Question: "5. ¿Quién usa el convertidor de YouTube a MP4?",
-        faq5Answer: "Nuestro convertidor es perfecto para todo tipo de usuarios. Creadores de contenido, estudiantes, profesores, viajeros frecuentes, profesionales de negocios y espectadores cotidianos lo adorarán. Puedes convertir videos sin ningún límite. No es necesario crear una cuenta ni descargar software."
-
+        faq5Answer: "Nuestro convertidor es perfecto para todo tipo de usuarios. Creadores de contenido, estudiantes, profesores, viajeros frecuentes, profesionales de negocios y espectadores cotidianos lo adorarán. Puedes convertir videos sin ningún límite. No es necesario crear una cuenta ni descargar software.",
+        seo: {
+            title: "Convertidor de YouTube a MP4 - Descargador de Videos Gratuito",
+            description: "Convierte videos de YouTube a formato MP4 fácil y rápidamente. Descargador de videos de YouTube gratuito con alta calidad, sin registro requerido. Descarga videos de YouTube en varios formatos incluyendo MP4, M4A y WEBM.",
+            keywords: "youtube a mp4, convertidor de youtube, descargador de youtube, youtube a mp3, convertidor de video, descargador de youtube gratis, descargador de videos de youtube, descargador de youtube mp4",
+            ogTitle: "Convertidor de YouTube a MP4 - Descargador de Videos Gratuito",
+            ogDescription: "Convierte videos de YouTube a formato MP4 fácil y rápidamente. Descargador de videos de YouTube gratuito con alta calidad, sin registro requerido."
+        },
     },
     ar: {
         siteName: "Youtubetomp4.pro",
@@ -201,8 +213,14 @@ export const messages = {
         faq4Question: "4. هل محولات YouTube إلى MP4 المجانية آمنة؟",
         faq4Answer: "على الرغم من أن العديد من المحولات المجانية قد تكون مشبوهة، إلا أننا نأخذ أمانك على محمل الجد. يعمل محولنا بالكامل في متصفحك دون أي تنزيلات خادعة أو نوافذ منبثقة مشبوهة. نحن نستخدم تشفير HTTPS آمن ولا نخزن بياناتك الشخصية أو تاريخ المشاهدة. بالإضافة إلى ذلك، نفحص بانتظام للكشف عن البرامج الضارة ونبقي خدمتنا نظيفة. لا برامج تجسس، لا برامج إضافية - فقط تحويل مقاطع الفيديو الموثوق به.",
         faq5Question: "5. من يستخدم محول YouTube إلى MP4؟",
-        faq5Answer: "محولنا مثالي لجميع أنواع المستخدمين. يحبها منشئو المحتوى، الطلاب، المعلمون، المسافرون، المحترفون في الأعمال والمشاهدون العاديون. يمكنك تحويل مقاطع الفيديو دون أي حدود. لا حاجة لإنشاء حساب أو تنزيل أي برامج."
-
+        faq5Answer: "محولنا مثالي لجميع أنواع المستخدمين. يحبها منشئو المحتوى، الطلاب، المعلمون، المسافرون، المحترفون في الأعمال والمشاهدون العاديون. يمكنك تحويل مقاطع الفيديو دون أي حدود. لا حاجة لإنشاء حساب أو تنزيل أي برامج.",
+        seo: {
+            title: "محول يوتيوب إلى MP4 - محمل فيديو مجاني على الإنترنت",
+            description: "حوّل مقاطع فيديو يوتيوب إلى تنسيق MP4 بسهولة وسرعة. محمل فيديو يوتيوب مجاني على الإنترنت بجودة عالية، لا يتطلب تسجيلًا.",
+            keywords: "يوتيوب إلى mp4، محول يوتيوب، محمل يوتيوب، يوتيوب إلى mp3، محول فيديو، محمل يوتيوب مجاني، محمل فيديو يوتيوب، محمل يوتيوب mp4",
+            ogTitle: "محول يوتيوب إلى MP4 - محمل فيديو مجاني على الإنترنت",
+            ogDescription: "حوّل مقاطع فيديو يوتيوب إلى تنسيق MP4 بسهولة وسرعة. محمل فيديو يوتيوب مجاني على الإنترنت بجودة عالية، لا يتطلب تسجيلًا."
+        },
     },
     hi: {
         siteName: "Youtubetomp4.pro",
@@ -226,7 +244,7 @@ export const messages = {
         howToConvertDescription: `URL पेस्ट करें और YouTube को MP4 में तुरंत कन्वर्ट करें। हमेशा मुफ्त, हमेशा काम करता है, कोई विज्ञापन नहीं।`,
         step: "चरण",
         copyUrl: "YouTube वीडियो URL कॉपी करें",
-        clickDownload: "‘डाउनलोड’ बटन पर सीधे क्लिक करें",
+        clickDownload: "'डाउनलोड' बटन पर सीधे क्लिक करें",
         saveVideo: "कुछ मिनटों तक प्रतीक्षा करें और वीडियो को सहेजें",
         features: [
             { icon: require('@/assets/yt_feature1.png'), title: "उच्च सफलता दर YouTube डाउनलोड", description: "हमारे उन्नत कन्वर्टर के साथ YouTube वीडियो को आसानी से डाउनलोड करें, जिसमें उद्योग-अग्रणी सफलता दर और सभी सामग्री प्रकारों के लिए विश्वसनीय गुणवत्ता संरक्षण शामिल है।" },
@@ -267,8 +285,14 @@ export const messages = {
         faq4Question: "4. क्या मुफ्त YouTube से MP4 कनवर्टर सुरक्षित हैं?",
         faq4Answer: "हालांकि कई मुफ्त कनवर्टर्स संदिग्ध हो सकते हैं, हम आपकी सुरक्षा को गंभीरता से लेते हैं। हमारा कनवर्टर पूरी तरह से आपके ब्राउज़र में काम करता है बिना किसी संदिग्ध डाउनलोड या पॉप-अप के। हम सुरक्षित HTTPS एन्क्रिप्शन का उपयोग करते हैं और कभी भी आपकी व्यक्तिगत जानकारी या देखने का इतिहास स्टोर नहीं करते हैं। इसके अलावा, हम नियमित रूप से मैलवेयर की जांच करते हैं और अपनी सेवा को साफ रखते हैं। कोई स्पाइवेयर, कोई अतिरिक्त सॉफ़्टवेयर नहीं - केवल विश्वसनीय वीडियो कन्वर्शन।",
         faq5Question: "5. YouTube से MP4 कनवर्टर कौन उपयोग करता है?",
-        faq5Answer: "हमारा कनवर्टर सभी प्रकार के उपयोगकर्ताओं के लिए आदर्श है। कंटेंट क्रिएटर्स, छात्र, शिक्षक, यात्रा करने वाले, व्यवसाय पेशेवर और सामान्य उपयोगकर्ता इसे पसंद करेंगे। आप वीडियो को बिना किसी सीमा के कनवर्ट कर सकते हैं। खाता बनाने या सॉफ़्टवेयर डाउनलोड करने की आवश्यकता नहीं है।"
-
+        faq5Answer: "हमारा कनवर्टर सभी प्रकार के उपयोगकर्ताओं के लिए आदर्श है। कंटेंट क्रिएटर्स, छात्र, शिक्षक, यात्रा करने वाले, व्यवसाय पेशेवर और सामान्य उपयोगकर्ता इसे पसंद करेंगे। आप वीडियो को बिना किसी सीमा के कनवर्ट कर सकते हैं। खाता बनाने या सॉफ़्टवेयर डाउनलोड करने की आवश्यकता नहीं है।",
+        seo: {
+            title: "YouTube से MP4 कन्वर्टर - मुफ्त ऑनलाइन वीडियो डाउनलोडर",
+            description: "YouTube वीडियो को आसानी से और तुरंत MP4 प्रारूप में बदलें। उच्च गुणवत्ता वाला मुफ्त ऑनलाइन YouTube वीडियो डाउनलोडर, पंजीकरण की आवश्यकता नहीं। MP4, M4A और WEBM सहित विभिन्न प्रारूपों में YouTube वीडियो डाउनलोड करें।",
+            keywords: "youtube से mp4, youtube कन्वर्टर, youtube डाउनलोडर, youtube से mp3, वीडियो कन्वर्टर, मुफ्त youtube डाउनलोडर, youtube वीडियो डाउनलोडर, youtube mp4 डाउनलोडर",
+            ogTitle: "YouTube से MP4 कन्वर्टर - मुफ्त ऑनलाइन वीडियो डाउनलोडर",
+            ogDescription: "YouTube वीडियो को आसानी से और तुरंत MP4 प्रारूप में बदलें। उच्च गुणवत्ता वाला मुफ्त ऑनलाइन YouTube वीडियो डाउनलोडर, पंजीकरण की आवश्यकता नहीं।"
+        },
     },
     pt: {
         siteName: "Youtubetomp4.pro",
@@ -333,8 +357,14 @@ export const messages = {
         faq4Question: "4. Os conversores gratuitos de YouTube para MP4 são seguros?",
         faq4Answer: "Embora muitos conversores gratuitos possam ser duvidosos, levamos a sua segurança a sério. Nosso conversor funciona totalmente no seu navegador, sem downloads ou pop-ups suspeitos. Usamos criptografia HTTPS segura e nunca armazenamos seus dados pessoais ou histórico de visualização. Além disso, fazemos verificações regulares de malware e mantemos nosso serviço limpo. Sem spyware, sem bloatware - apenas conversão de vídeo confiável.",
         faq5Question: "5. Quem usa o conversor de YouTube para MP4?",
-        faq5Answer: "Nosso conversor é perfeito para todos os tipos de usuários. Criadores de conteúdo, estudantes, professores, viajantes, profissionais de negócios e espectadores do dia a dia vão adorar. Você pode converter vídeos sem limites. Não é necessário criar uma conta ou baixar software."
-
+        faq5Answer: "Nosso conversor é perfeito para todos os tipos de usuários. Criadores de conteúdo, estudantes, professores, viajantes, profissionais de negócios e espectadores do dia a dia vão adorar. Você pode converter vídeos sem limites. Não é necessário criar uma conta ou baixar software.",
+        seo: {
+            title: "Conversor do YouTube para MP4 - Baixador de Vídeos Grátis",
+            description: "Converta vídeos do YouTube para o formato MP4 facilmente e rapidamente. Baixador de vídeos do YouTube grátis com alta qualidade, sem registro necessário. Baixe vídeos do YouTube em vários formatos, incluindo MP4, M4A e WEBM.",
+            keywords: "youtube para mp4, conversor de youtube, downloader de youtube, youtube para mp3, conversor de vídeo, downloader de youtube grátis, downloader de vídeos de youtube, downloader de youtube mp4",
+            ogTitle: "Conversor do YouTube para MP4 - Baixador de Vídeos Grátis",
+            ogDescription: "Converta vídeos do YouTube para o formato MP4 facilmente e rapidamente. Baixador de vídeos do YouTube grátis com alta qualidade, sem registro necessário."
+        },
     },
     ko: {
         siteName: "Youtubetomp4.pro",
@@ -358,7 +388,7 @@ export const messages = {
         howToConvertDescription: `URL을 붙여넣고 YouTube를 MP4로 빠르게 변환하세요. 항상 무료, 항상 작동, 광고 없음.`,
         step: "단계",
         copyUrl: "유튜브 비디오 URL 복사",
-        clickDownload: "‘다운로드’ 버튼을 클릭하세요",
+        clickDownload: "'다운로드' 버튼을 클릭하세요",
         saveVideo: "몇 분 기다렸다가 영상을 저장하세요",
         features: [
             { icon: require('@/assets/yt_feature1.png'), title: "높은 성공률의 YouTube 다운로드", description: "업계 최고의 성공률과 모든 콘텐츠 유형에 대한 신뢰할 수 있는 품질 보존 기능을 갖춘 고급 변환기를 통해 YouTube 비디오를 손쉽게 다운로드하십시오." },
@@ -399,8 +429,14 @@ export const messages = {
         faq4Question: "4. 무료 YouTube MP4 변환기는 안전한가요?",
         faq4Answer: "많은 무료 변환기가 의심스러울 수 있지만, 우리는 여러분의 안전을 중요하게 생각합니다. 우리의 변환기는 브라우저에서만 작동하며 의심스러운 다운로드나 팝업은 없습니다. 우리는 HTTPS 암호화를 사용하고 여러분의 개인 정보나 시청 기록을 저장하지 않습니다. 또한, 정기적으로 악성 소프트웨어를 검사하고 서비스를 청결하게 유지합니다. 스파이웨어도, 추가 프로그램도 없습니다 - 신뢰할 수 있는 비디오 변환만 제공합니다.",
         faq5Question: "5. YouTube에서 MP4 변환기를 사용하는 사람은 누구인가요?",
-        faq5Answer: "우리의 변환기는 다양한 사용자를 위해 완벽합니다. 콘텐츠 제작자, 학생, 교사, 여행자, 비즈니스 전문가 및 일반 사용자가 좋아할 것입니다. 비디오를 제한 없이 변환할 수 있습니다. 계정을 만들거나 소프트웨어를 다운로드할 필요가 없습니다."
-
+        faq5Answer: "우리의 변환기는 다양한 사용자를 위해 완벽합니다. 콘텐츠 제작자, 학생, 교사, 여행자, 비즈니스 전문가 및 일반 사용자가 좋아할 것입니다. 비디오를 제한 없이 변환할 수 있습니다. 계정을 만들거나 소프트웨어를 다운로드할 필요가 없습니다.",
+        seo: {
+            title: "유튜브 MP4 변환기 - 무료 온라인 비디오 다운로더",
+            description: "URL을 붙여넣고 YouTube를 MP4로 빠르게 변환하세요. 항상 무료, 항상 작동, 광고 없음. 고품질의 무료 온라인 YouTube 비디오 다운로더, 등록 없이 비디오를 다양한 형식으로 변환할 수 있습니다.",
+            keywords: "유튜브 mp4, 유튜브 변환기, 비디오 다운로더, 유튜브 mp3, 비디오 변환기, 무료 유튜브 다운로더, 유튜브 비디오 다운로더, 유튜브 mp4 다운로더",
+            ogTitle: "유튜브 MP4 변환기 - 무료 온라인 비디오 다운로더",
+            ogDescription: "URL을 붙여넣고 YouTube를 MP4로 빠르게 변환하세요. 항상 무료, 항상 작동, 광고 없음."
+        },
     },
     ja: {
         siteName: "Youtubetomp4.pro",
@@ -424,7 +460,7 @@ export const messages = {
         howToConvertDescription: `URLを貼り付けて、YouTubeをMP4に素早く変換します。常に無料、常に動作、広告なし。`,
         step: "ステップ",
         copyUrl: "YouTube動画のURLをコピー",
-        clickDownload: "‘ダウンロード’ボタンを直接クリック",
+        clickDownload: "'ダウンロード'ボタンを直接クリック",
         saveVideo: "数分待って、動画を保存",
         features: [
             { icon: require('@/assets/yt_feature1.png'), title: "高成功率のYouTubeダウンロード", description: "業界最高の成功率と、すべてのコンテンツタイプに対する信頼性のある品質保持を提供する当社の高度なコンバーターで、YouTube動画を手軽にダウンロードできます。" },
@@ -465,8 +501,14 @@ export const messages = {
         faq4Question: "4. 無料のYouTube MP4変換器は安全ですか？",
         faq4Answer: "多くの無料変換器は疑わしいかもしれませんが、私たちはあなたの安全を真剣に考えています。私たちの変換器は完全にブラウザーで動作し、怪しいダウンロードやポップアップはありません。HTTPS暗号化を使用しており、個人情報や視聴履歴を保存することはありません。また、定期的にマルウェアスキャンを実施して、サービスを清潔に保っています。スパイウェアや不要なソフトウェアはなく、信頼できる動画変換のみを提供します。",
         faq5Question: "5. YouTubeからMP4に変換するのは誰ですか？",
-        faq5Answer: "私たちの変換器は、あらゆる種類のユーザーに最適です。コンテンツクリエーター、学生、教師、旅行者、ビジネスプロフェッショナル、そして日常的な視聴者が気に入るでしょう。制限なしで動画を変換できます。アカウントを作成したり、ソフトウェアをダウンロードする必要はありません。"
-
+        faq5Answer: "私たちの変換器は、あらゆる種類のユーザーに最適です。コンテンツクリエーター、学生、教師、旅行者、ビジネスプロフェッショナル、そして日常的な視聴者が気に入るでしょう。制限なしで動画を変換できます。アカウントを作成したり、ソフトウェアをダウンロードする必要はありません。",
+        seo: {
+            title: "YouTubeからMP4に変換する - 無料オンライン動画ダウンローダー",
+            description: "URLを貼り付けて、YouTubeをMP4に素早く変換します。常に無料、常に動作、広告なし。高品質の無料オンライン動画ダウンローダー、登録不要。MP4、M4A、WEBMを含む様々な形式のYouTube動画をダウンロードできます。",
+            keywords: "youtube から mp4, youtube コンバーター, youtube ダウンローダー, youtube から mp3, 動画コンバーター, 無料 youtube ダウンローダー, youtube 動画ダウンローダー, youtube mp4 ダウンローダー",
+            ogTitle: "YouTubeからMP4に変換する - 無料オンライン動画ダウンローダー",
+            ogDescription: "URLを貼り付けて、YouTubeをMP4に素早く変換します。常に無料、常に動作、広告なし。高品質の無料オンライン動画ダウンローダー、登録不要。"
+        },
     },
     'zh-TW': {
         siteName: "Youtubetomp4.pro",
@@ -490,7 +532,7 @@ export const messages = {
         howToConvertDescription: `將 URL 貼上，快速將 YouTube 轉換為 MP4。始終免費，始終可用，無廣告。`,
         step: "步驟",
         copyUrl: "複製 YouTube 視頻 URL",
-        clickDownload: "直接點擊 ‘下載’ 按鈕",
+        clickDownload: "直接點擊 '下載' 按鈕",
         saveVideo: "等待幾分鐘並保存視頻",
         features: [
             { icon: require('@/assets/yt_feature1.png'), title: "高成功率的 YouTube 下載", description: "透過我們先進的轉換器，提供業界最高的成功率及所有內容類型的可靠品質保持，輕鬆下載 YouTube 視頻。" },
@@ -531,8 +573,14 @@ export const messages = {
         faq4Question: "4. 免費的 YouTube 轉 MP4 轉換器安全嗎？",
         faq4Answer: "儘管許多免費轉換器可能存在風險，但我們非常重視您的安全。我们的转换器完全在您的浏览器中运行，不会有可疑的下载或弹出窗口。我们使用 HTTPS 加密，并且从不保存您的个人数据或观看历史记录。此外，我们定期检查恶意软件，并保持我们的服务干净。没有间谍软件，没有额外的程序 - 只有值得信赖的视频转换。",
         faq5Question: "5. YouTube 轉 MP4 轉換器是誰在使用？",
-        faq5Answer: "我們的轉換器非常適合各種類型的使用者。內容創作者、學生、教師、旅遊者、商業專業人士和日常觀眾都會喜歡。您可以無限制地轉換影片。無需創建帳戶或下載軟件。"
-
+        faq5Answer: "我們的轉換器非常適合各種類型的使用者。內容創作者、學生、教師、旅遊者、商業專業人士和日常觀眾都會喜歡。您可以無限制地轉換影片。無需創建帳戶或下載軟件。",
+        seo: {
+            title: "YouTube 轉 MP4 轉換器 - 無料線上影片下載器",
+            description: "貼上 URL 並快速轉換 YouTube 到 MP4。始終免費，始終可用，無廣告。高品質的無料線上影片下載器，無需登錄。下載 YouTube 影片在各種格式中，包括 MP4、M4A 和 WEBM。",
+            keywords: "youtube 轉 mp4, youtube 轉換器, youtube 下載器, youtube 轉 mp3, 影片轉換器, 無料 youtube 下載器, youtube 影片下載器, youtube mp4 下載器",
+            ogTitle: "YouTube 轉 MP4 轉換器 - 無料線上影片下載器",
+            ogDescription: "貼上 URL 並快速轉換 YouTube 到 MP4。始終免費，始終可用，無廣告。高品質的無料線上影片下載器，無需登錄。"
+        },
     },
     id: {
         siteName: "Youtubetomp4.pro",
@@ -588,8 +636,14 @@ export const messages = {
         faq4Question: "4. Apakah konverter YouTube ke MP4 gratis aman?",
         faq4Answer: "Meskipun banyak konverter gratis yang mencurigakan, kami sangat peduli dengan keamanan Anda. Konverter kami sepenuhnya berjalan di browser Anda tanpa unduhan atau pop-up mencurigakan. Kami menggunakan enkripsi HTTPS yang aman dan tidak pernah menyimpan data pribadi atau riwayat tontonan Anda. Selain itu, kami secara teratur memeriksa malware dan menjaga layanan kami tetap bersih. Tidak ada perangkat lunak mata-mata, tidak ada perangkat lunak tambahan - hanya konversi video yang dapat dipercaya.",
         faq5Question: "5. Siapa yang menggunakan konverter YouTube ke MP4?",
-        faq5Answer: "Konverter kami sempurna untuk berbagai pengguna. Pembuat konten, pelajar, guru, pelancong, profesional bisnis, dan penonton sehari-hari akan menyukainya. Anda dapat mengonversi video tanpa batasan. Tidak perlu membuat akun atau mengunduh perangkat lunak."
-
+        faq5Answer: "Konverter kami sempurna untuk berbagai pengguna. Pembuat konten, pelajar, guru, pelancong, profesional bisnis, dan penonton sehari-hari akan menyukainya. Anda dapat mengonversi video tanpa batasan. Tidak perlu membuat akun atau mengunduh perangkat lunak.",
+        seo: {
+            title: "Pengonversi YouTube ke MP4 - Pengunduh Video YouTube Gratis",
+            description: "Konversi video YouTube ke format MP4 dengan mudah dan cepat. Pengunduh video YouTube gratis dengan kualitas tinggi, tanpa pendaftaran diperlukan. Unduh video YouTube dalam berbagai format, termasuk MP4, M4A, dan WEBM.",
+            keywords: "youtube ke mp4, konverter youtube, pengunduh video youtube, youtube ke mp3, konverter video, pengunduh video youtube gratis, pengunduh video youtube, pengunduh video youtube mp4",
+            ogTitle: "Pengonversi YouTube ke MP4 - Pengunduh Video YouTube Gratis",
+            ogDescription: "Konversi video YouTube ke format MP4 dengan mudah dan cepat. Pengunduh video YouTube gratis dengan kualitas tinggi, tanpa pendaftaran diperlukan."
+        },
     },
     th: {
         siteName: "Youtubetomp4.pro",
@@ -645,8 +699,14 @@ export const messages = {
         faq4Question: "4. ตัวแปลง YouTube เป็น MP4 ฟรีปลอดภัยหรือไม่?",
         faq4Answer: "แม้ว่าตัวแปลงฟรีหลายตัวอาจน่าสงสัย แต่เราคำนึงถึงความปลอดภัยของคุณอย่างจริงจัง ตัวแปลงของเราทำงานทั้งหมดในเบราว์เซอร์ของคุณโดยไม่ต้องดาวน์โหลดหรือป๊อปอัพที่น่าสงสัย เราใช้การเข้ารหัส HTTPS ที่ปลอดภัยและไม่เคยเก็บข้อมูลส่วนตัวหรือประวัติการรับชมของคุณ นอกจากนี้เรายังตรวจสอบมัลแวร์อย่างสม่ำเสมอและรักษาบริการของเราให้สะอาด ไม่มีซอฟต์แวร์สปายแวร์ ไม่มีซอฟต์แวร์เพิ่มเติม - เพียงการแปลงวิดีโอที่เชื่อถือได้",
         faq5Question: "5. ใครใช้ตัวแปลง YouTube เป็น MP4?",
-        faq5Answer: "ตัวแปลงของเราเหมาะสำหรับผู้ใช้ทุกประเภท ผู้สร้างเนื้อหา นักเรียน อาจารย์ นักเดินทาง นักธุรกิจ และผู้ชมทั่วไปจะชื่นชอบ คุณสามารถแปลงวิดีโอได้โดยไม่จำกัด ไม่จำเป็นต้องสร้างบัญชีหรือดาวน์โหลดซอฟต์แวร์"
-
+        faq5Answer: "ตัวแปลงของเราเหมาะสำหรับผู้ใช้ทุกประเภท ผู้สร้างเนื้อหา นักเรียน อาจารย์ นักเดินทาง นักธุรกิจ และผู้ชมทั่วไปจะชื่นชอบ คุณสามารถแปลงวิดีโอได้โดยไม่จำกัด ไม่จำเป็นต้องสร้างบัญชีหรือดาวน์โหลดซอฟต์แวร์",
+        seo: {
+            title: "ตัวแปลง YouTube เป็น MP4 - ตัวดาวน์โหลดวิดีโอออฟไลน์",
+            description: "วาง URL และแปลง YouTube เป็น MP4 อย่างรวดเร็ว ฟรีเสมอ ใช้งานได้เสมอ ไม่มีโฆษณา",
+            keywords: "วิดีโอออฟไลน์, ตัวดาวน์โหลดวิดีโอ, ตัวแปลงวิดีโอ, วิดีโอออฟไลน์",
+            ogTitle: "ตัวแปลง YouTube เป็น MP4 - ตัวดาวน์โหลดวิดีโอออฟไลน์",
+            ogDescription: "วาง URL และแปลง YouTube เป็น MP4 อย่างรวดเร็ว ฟรีเสมอ ใช้งานได้เสมอ ไม่มีโฆษณา"
+        },
     },
     vi: {
         siteName: "Youtubetomp4.pro",
@@ -702,7 +762,13 @@ export const messages = {
         faq4Question: "4. Công cụ chuyển đổi YouTube sang MP4 miễn phí có an toàn không?",
         faq4Answer: "Mặc dù nhiều công cụ chuyển đổi miễn phí có thể đáng nghi ngờ, chúng tôi rất coi trọng sự an toàn của bạn. Công cụ chuyển đổi của chúng tôi hoàn toàn hoạt động trong trình duyệt của bạn mà không cần tải xuống hoặc pop-up đáng ngờ. Chúng tôi sử dụng mã hóa HTTPS an toàn và không bao giờ lưu trữ dữ liệu cá nhân hoặc lịch sử xem của bạn. Ngoài ra, chúng tôi kiểm tra phần mềm độc hại thường xuyên và giữ dịch vụ của mình sạch sẽ. Không có phần mềm gián điệp, không có phần mềm thêm vào - chỉ có chuyển đổi video đáng tin cậy.",
         faq5Question: "5. Ai sử dụng công cụ chuyển đổi YouTube sang MP4?",
-        faq5Answer: "Công cụ chuyển đổi của chúng tôi lý tưởng cho tất cả các loại người dùng. Những người sáng tạo nội dung, sinh viên, giáo viên, du khách, chuyên gia kinh doanh và người xem bình thường sẽ yêu thích nó. Bạn có thể chuyển đổi video mà không giới hạn. Không cần phải tạo tài khoản hoặc tải xuống phần mềm."
-
+        faq5Answer: "Công cụ chuyển đổi của chúng tôi lý tưởng cho tất cả các loại người dùng. Những người sáng tạo nội dung, sinh viên, giáo viên, du khách, chuyên gia kinh doanh và người xem bình thường sẽ yêu thích nó. Bạn có thể chuyển đổi video mà không giới hạn. Không cần phải tạo tài khoản hoặc tải xuống phần mềm.",
+        seo: {
+            title: "Trình chuyển đổi Video YouTube sang MP4 - Tải Video Trực Tuyến Miễn Phí",
+            description: "Dán URL và nhanh chóng chuyển đổi YouTube thành MP4. Luôn miễn phí, luôn hoạt động, không có quảng cáo. Tải video YouTube với chất lượng cao, không cần đăng ký. MP4, M4A, WEBM và nhiều định dạng khác để bạn có thể tối ưu hiệu suất tải video.",
+            keywords: "trình chuyển đổi video youtube, tải video trực tuyến, tải video miễn phí, tải video mp4, tải video m4a, tải video webm, tải video youtube, tải video mp4 miễn phí",
+            ogTitle: "Trình chuyển đổi Video YouTube sang MP4 - Tải Video Trực Tuyến Miễn Phí",
+            ogDescription: "Dán URL và nhanh chóng chuyển đổi YouTube thành MP4. Luôn miễn phí, luôn hoạt động, không có quảng cáo. Tải video YouTube với chất lượng cao, không cần đăng ký. MP4, M4A, WEBM và nhiều định dạng khác để bạn có thể tối ưu hiệu suất tải video."
+        },
     },
 };

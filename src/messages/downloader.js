@@ -65,7 +65,15 @@ export const messages = {
         faq4Question: "4. Is this YouTube video downloader really free?",
         faq4Answer: "Yes, our downloader is completely free to use. There are no hidden fees, no premium features, and no subscription required. We maintain our service through minimal, non-intrusive ads.",
         faq5Question: "5. Who can benefit from using this video downloader?",
-        faq5Answer: "Our downloader is perfect for students, teachers, content creators, travelers, and anyone who wants to save YouTube videos for offline viewing. It's especially useful for those with limited internet access or data plans."
+        faq5Answer: "Our downloader is perfect for students, teachers, content creators, travelers, and anyone who wants to save YouTube videos for offline viewing. It's especially useful for those with limited internet access or data plans.",
+        
+        seo: {
+            title: "YouTube Video Downloader – Free MP4 & MP3 Download Tool",
+            description: "Paste a YouTube link to download video or audio in seconds. No ads, no limits, 100% free.",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
 },
     es: {
         siteName: "Youtubetomp4.pro",
@@ -132,7 +140,14 @@ export const messages = {
         faq4Question: "4. ¿Este descargador de videos de YouTube es realmente gratuito?",
         faq4Answer: "Sí, nuestro descargador es completamente gratuito. No hay tarifas ocultas, no hay funciones premium y no se requiere suscripción. Mantenemos nuestro servicio a través de anuncios mínimos y no intrusivos.",
         faq5Question: "5. ¿Quién puede beneficiarse de usar este descargador de videos?",
-        faq5Answer: "Nuestro descargador es perfecto para estudiantes, profesores, creadores de contenido, viajeros y cualquier persona que quiera guardar videos de YouTube para verlos sin conexión. Es especialmente útil para aquellos con acceso limitado a internet o planes de datos limitados."
+        faq5Answer: "Nuestro descargador es perfecto para estudiantes, profesores, creadores de contenido, viajeros y cualquier persona que quiera guardar videos de YouTube para verlos sin conexión. Es especialmente útil para aquellos con acceso limitado a internet o planes de datos limitados.",
+        seo: {
+            title: "Descargador de Videos de YouTube – Herramienta Gratuita de Descarga MP4 y MP3",
+            description: "Pega un enlace de YouTube para descargar video o audio en segundos. Sin anuncios, sin límites, 100% gratis.",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
     },
     ar: {
         siteName: "Youtubetomp4.pro",
@@ -199,9 +214,15 @@ export const messages = {
         faq4Question: "4. هل محمل فيديو يوتيوب هذا مجاني حقًا؟",
         faq4Answer: "نعم، محملنا مجاني تمامًا. لا توجد رسوم خفية، ولا ميزات مميزة، ولا يلزم الاشتراك. نحافظ على خدمتنا من خلال إعلانات ضئيلة وغير مزعجة.",
         faq5Question: "5. من يمكنه الاستفادة من استخدام محمل الفيديو هذا؟",
-        faq5Answer: "محملنا مثالي للطلاب والمعلمين ومنشئي المحتوى والمسافرين وأي شخص يريد حفظ مقاطع فيديو يوتيوب لمشاهدتها دون اتصال بالإنترنت. إنه مفيد بشكل خاص لأولئك الذين لديهم وصول محدود إلى الإنترنت أو خطط بيانات محدودة."
-
-},
+        faq5Answer: "محملنا مثالي للطلاب والمعلمين ومنشئي المحتوى والمسافرين وأي شخص يريد حفظ مقاطع فيديو يوتيوب لمشاهدتها دون اتصال بالإنترنت. إنه مفيد بشكل خاص لأولئك الذين لديهم وصول محدود إلى الإنترنت أو خطط بيانات محدودة.",
+        seo: {
+            title: "مُحمل فيديو يوتيوب – أداة تحميل MP4 و MP3 مجانية",
+            description: "الصق رابط يوتيوب لتحميل الفيديو أو الصوت في ثوانٍ. بدون إعلانات، بدون حدود، 100% مجاني.",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
+    },
     hi: {
         siteName: "Youtubetomp4.pro",
         videoDownloader: "मुफ्त यूट्यूब वीडियो डाउनलोडर",
@@ -267,7 +288,14 @@ export const messages = {
         faq4Question: "4. क्या यह यूट्यूब वीडियो डाउनलोडर वास्तव में मुफ्त है?",
         faq4Answer: "हां, हमारा डाउनलोडर पूरी तरह से मुफ्त है। कोई छिपे शुल्क नहीं, कोई प्रीमियम सुविधाएं नहीं, और कोई सदस्यता आवश्यक नहीं है। हम न्यूनतम और गैर-आक्रामक विज्ञापनों के माध्यम से अपनी सेवा बनाए रखते हैं।",
         faq5Question: "5. इस वीडियो डाउनलोडर का उपयोग करके कौन लाभान्वित हो सकता है?",
-        faq5Answer: "हमारा डाउनलोडर छात्रों, शिक्षकों, कंटेंट क्रिएटर्स, यात्रियों और किसी भी ऐसे व्यक्ति के लिए आदर्श है जो यूट्यूब वीडियो को ऑफलाइन देखने के लिए सहेजना चाहता है। यह विशेष रूप से सीमित इंटरनेट पहुंच या सीमित डेटा प्लान वाले लोगों के लिए उपयोगी है।"
+        faq5Answer: "हमारा डाउनलोडर छात्रों, शिक्षकों, कंटेंट क्रिएटर्स, यात्रियों और किसी भी ऐसे व्यक्ति के लिए आदर्श है जो यूट्यूब वीडियो को ऑफलाइन देखने के लिए सहेजना चाहता है। यह विशेष रूप से सीमित इंटरनेट पहुंच या सीमित डेटा प्लान वाले लोगों के लिए उपयोगी है।",
+        seo: {
+            title: "यूट्यूब वीडियो डाउनलोडर – मुफ्त MP4 और MP3 डाउनलोड टूल",
+            description: "वीडियो या ऑडियो को सेकंडों में डाउनलोड करने के लिए यूट्यूब लिंक पेस्ट करें। बिना विज्ञापन, बिना सीमा, 100% मुफ्त।",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
     },
     pt: {
         siteName: "Youtubetomp4.pro",
@@ -334,9 +362,15 @@ export const messages = {
         faq4Question: "4. Este baixador de vídeos do YouTube é realmente gratuito?",
         faq4Answer: "Sim, nosso baixador é completamente gratuito. Sem taxas ocultas, sem recursos premium e sem necessidade de assinatura. Mantemos nosso serviço através de anúncios mínimos e não intrusivos.",
         faq5Question: "5. Quem pode se beneficiar usando este baixador de vídeos?",
-        faq5Answer: "Nosso baixador é perfeito para estudantes, professores, criadores de conteúdo, viajantes e qualquer pessoa que queira salvar vídeos do YouTube para assistir offline. É especialmente útil para aqueles com acesso limitado à internet ou planos de dados limitados."
-
-},
+        faq5Answer: "Nosso baixador é perfeito para estudantes, professores, criadores de conteúdo, viajantes e qualquer pessoa que queira salvar vídeos do YouTube para assistir offline. É especialmente útil para aqueles com acesso limitado à internet ou planos de dados limitados.",
+        seo: {
+            title: "Baixador de Vídeos do YouTube – Ferramenta Gratuita de Download MP4 e MP3",
+            description: "Cole um link do YouTube para baixar vídeo ou áudio em segundos. Sem anúncios, sem limites, 100% gratuito.",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
+    },
     ko: {
         siteName: "Youtubetomp4.pro",
         videoDownloader: "무료 유튜브 비디오 다운로더",
@@ -402,7 +436,14 @@ export const messages = {
         faq4Question: "4. 이 유튜브 비디오 다운로더는 정말 무료인가요?",
         faq4Answer: "네, 우리의 다운로더는 완전히 무료입니다. 숨겨진 비용 없음, 프리미엄 기능 없음, 구독 필요 없음. 최소한의 비침투적 광고를 통해 서비스를 유지합니다.",
         faq5Question: "5. 이 비디오 다운로더를 사용하면 누가 혜택을 받을 수 있나요?",
-        faq5Answer: "우리의 다운로더는 학생, 교사, 콘텐츠 제작자, 여행자 및 유튜브 비디오를 오프라인으로 보기 위해 저장하고 싶은 모든 사람에게 완벽합니다. 인터넷 접근이 제한적이거나 제한된 데이터 요금제를 가진 사람들에게 특히 유용합니다."
+        faq5Answer: "우리의 다운로더는 학생, 교사, 콘텐츠 제작자, 여행자 및 유튜브 비디오를 오프라인으로 보기 위해 저장하고 싶은 모든 사람에게 완벽합니다. 인터넷 접근이 제한적이거나 제한된 데이터 요금제를 가진 사람들에게 특히 유용합니다.",
+        seo: {
+            title: "유튜브 비디오 다운로더 – 무료 MP4 및 MP3 다운로드 도구",
+            description: "유튜브 링크를 붙여넣어 몇 초 만에 비디오나 오디오를 다운로드하세요. 광고 없음, 제한 없음, 100% 무료.",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
     },
     ja: {
         siteName: "Youtubetomp4.pro",
@@ -469,9 +510,15 @@ export const messages = {
         faq4Question: "4. このYouTube動画ダウンローダーは本当に無料ですか？",
         faq4Answer: "はい、私たちのダウンローダーは完全に無料です。隠れた料金なし、プレミアム機能なし、サブスクリプション不要。最小限の非侵入的な広告を通じてサービスを維持しています。",
         faq5Question: "5. この動画ダウンローダーを使用することで誰が恩恵を受けられますか？",
-        faq5Answer: "私たちのダウンローダーは、学生、教師、コンテンツクリエイター、旅行者、そしてYouTube動画をオフラインで視聴するために保存したいすべての人に最適です。インターネットアクセスが制限されている人や制限付きデータプランのユーザーに特に役立ちます。"
-
-},
+        faq5Answer: "私たちのダウンローダーは、学生、教師、コンテンツクリエイター、旅行者、そしてYouTube動画をオフラインで視聴するために保存したいすべての人に最適です。インターネットアクセスが制限されている人や制限付きデータプランのユーザーに特に役立ちます。",
+        seo: {
+            title: "YouTube動画ダウンローダー – 無料MP4・MP3ダウンロードツール",
+            description: "YouTubeリンクを貼り付けて数秒で動画や音声をダウンロード。広告なし、制限なし、100%無料。",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
+    },
     'zh-TW': {
         siteName: "Youtubetomp4.pro",
         videoDownloader: "免費 YouTube 影片下載器",
@@ -537,7 +584,14 @@ export const messages = {
         faq4Question: "4. 這個 YouTube 影片下載器真的免費嗎？",
         faq4Answer: "是的，我們的下載器完全免費。無隱藏費用、無高級功能、無需訂閱。我們通過最小化的非侵入式廣告來維持服務。",
         faq5Question: "5. 誰能從使用這個影片下載器中受益？",
-        faq5Answer: "我們的下載器非常適合學生、教師、內容創作者、旅行者以及想要保存 YouTube 影片以便離線觀看的任何人。對於網路訪問受限或使用限制數據方案的用戶特別有用。"
+        faq5Answer: "我們的下載器非常適合學生、教師、內容創作者、旅行者以及想要保存 YouTube 影片以便離線觀看的任何人。對於網路訪問受限或使用限制數據方案的用戶特別有用。",
+        seo: {
+            title: "YouTube 影片下載器 – 免費 MP4 和 MP3 下載工具",
+            description: "貼上 YouTube 連結，幾秒內即可下載影片或音訊。無廣告、無限制、100% 免費。",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
     },
     id: {
         siteName: "Youtubetomp4.pro",
@@ -604,9 +658,15 @@ export const messages = {
         faq4Question: "4. Apakah pengunduh video YouTube ini benar-benar gratis?",
         faq4Answer: "Ya, pengunduh kami sepenuhnya gratis. Tanpa biaya tersembunyi, tanpa fitur premium, tanpa langganan. Kami mempertahankan layanan melalui iklan non-intrusif minimal.",
         faq5Question: "5. Siapa yang bisa mendapatkan manfaat dari pengunduh video ini?",
-        faq5Answer: "Pengunduh kami sempurna untuk siswa, guru, pembuat konten, pelancong, dan siapa saja yang ingin menyimpan video YouTube untuk ditonton secara offline. Sangat berguna untuk pengguna dengan akses internet terbatas atau paket data terbatas."
-
-},
+        faq5Answer: "Pengunduh kami sempurna untuk siswa, guru, pembuat konten, pelancong, dan siapa saja yang ingin menyimpan video YouTube untuk ditonton secara offline. Sangat berguna untuk pengguna dengan akses internet terbatas atau paket data terbatas.",
+        seo: {
+            title: "Pengunduh Video YouTube – Alat Unduh MP4 & MP3 Gratis",
+            description: "Tempel tautan YouTube untuk mengunduh video atau audio dalam hitungan detik. Tanpa iklan, tanpa batas, 100% gratis.",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
+    },
     th: {
         siteName: "Youtubetomp4.pro",
         videoDownloader: "ตัวดาวน์โหลดวิดีโอ YouTube ฟรี",
@@ -672,7 +732,14 @@ export const messages = {
         faq4Question: "4. ตัวดาวน์โหลดวิดีโอ YouTube นี้ฟรีจริงๆ หรือไม่?",
         faq4Answer: "ใช่ ตัวดาวน์โหลดของเราเป็นฟรีทั้งหมด ไม่มีค่าใช้จ่ายแฝง ไม่มีคุณสมบัติพรีเมียม ไม่ต้องสมัครสมาชิก เรารักษาบริการผ่านโฆษณาที่ไม่รบกวนขั้นต่ำ",
         faq5Question: "5. ใครบ้างที่สามารถได้รับประโยชน์จากตัวดาวน์โหลดวิดีโอนี้?",
-        faq5Answer: "ตัวดาวน์โหลดของเราเหมาะสำหรับนักเรียน ครู ผู้สร้างเนื้อหา นักเดินทาง และทุกคนที่ต้องการบันทึกวิดีโอ YouTube เพื่อดูแบบออฟไลน์ มีประโยชน์อย่างยิ่งสำหรับผู้ใช้ที่มีการเข้าถึงอินเทอร์เน็ตจำกัดหรือแพ็คเกจข้อมูลจำกัด"
+        faq5Answer: "ตัวดาวน์โหลดของเราเหมาะสำหรับนักเรียน ครู ผู้สร้างเนื้อหา นักเดินทาง และทุกคนที่ต้องการบันทึกวิดีโอ YouTube เพื่อดูแบบออฟไลน์ มีประโยชน์อย่างยิ่งสำหรับผู้ใช้ที่มีการเข้าถึงอินเทอร์เน็ตจำกัดหรือแพ็คเกจข้อมูลจำกัด",
+        seo: {
+            title: "ตัวดาวน์โหลดวิดีโอ YouTube – เครื่องมือดาวน์โหลด MP4 และ MP3 ฟรี",
+            description: "วางลิงก์ YouTube เพื่อดาวน์โหลดวิดีโอหรือเสียงในไม่กี่วินาที ไม่มีโฆษณา ไม่มีข้อจำกัด 100% ฟรี",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
     },
     vi: {
         siteName: "Youtubetomp4.pro",
@@ -739,7 +806,14 @@ export const messages = {
         faq4Question: "4. Trình tải xuống video YouTube này có thực sự miễn phí không?",
         faq4Answer: "Có, trình tải xuống của chúng tôi hoàn toàn miễn phí. Không phí ẩn, không tính năng cao cấp, không cần đăng ký. Chúng tôi duy trì dịch vụ thông qua quảng cáo không xâm lấn tối thiểu.",
         faq5Question: "5. Ai có thể hưởng lợi từ trình tải xuống video này?",
-        faq5Answer: "Trình tải xuống của chúng tôi hoàn hảo cho học sinh, giáo viên, người tạo nội dung, du khách và bất kỳ ai muốn lưu video YouTube để xem ngoại tuyến. Đặc biệt hữu ích cho người dùng có quyền truy cập internet hạn chế hoặc gói dữ liệu hạn chế."
+        faq5Answer: "Trình tải xuống của chúng tôi hoàn hảo cho học sinh, giáo viên, người tạo nội dung, du khách và bất kỳ ai muốn lưu video YouTube để xem ngoại tuyến. Đặc biệt hữu ích cho người dùng có quyền truy cập internet hạn chế hoặc gói dữ liệu hạn chế.",
+        seo: {
+            title: "Trình tải xuống video YouTube – Công cụ tải xuống MP4 & MP3 miễn phí",
+            description: "Dán liên kết YouTube để tải xuống video hoặc âm thanh trong vài giây. Không quảng cáo, không giới hạn, 100% miễn phí.",
+            keywords: "",
+            ogTitle: "",
+            ogDescription: ""
+        },
     },
 };
 

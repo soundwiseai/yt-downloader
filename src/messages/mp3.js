@@ -64,7 +64,14 @@ export const messages = {
         faq4Question: "4. Are there any limits to how many videos I can convert to MP3?",
         faq4Answer: "No, there are no limits! You can convert as many YouTube videos to MP3 as you want. Our service is completely free and unlimited.",
         faq5Question: "5. Who can benefit from using the YouTube to MP3 converter?",
-        faq5Answer: "Our converter is perfect for music lovers, podcast enthusiasts, students, teachers, and anyone who wants to enjoy YouTube content in audio format. Create playlists, save educational content, or build your personal audio library - all without any restrictions."
+        faq5Answer: "Our converter is perfect for music lovers, podcast enthusiasts, students, teachers, and anyone who wants to enjoy YouTube content in audio format. Create playlists, save educational content, or build your personal audio library - all without any restrictions.",
+        seo: {
+            title: "Free YouTube to MP3 Converter – High Quality & No Ads",
+            description: "Download MP3 from YouTube instantly. Fast, free, ad-free, and no software required.",
+            keywords: "youtube to mp3, youtube mp3 converter, youtube audio downloader, youtube to mp3 converter, youtube mp3 downloader, youtube audio extractor, youtube to mp3 online, youtube mp3 online converter, youtube to mp3 free, youtube mp3 free converter",
+            ogTitle: "Free YouTube to MP3 Converter – High Quality & No Ads",
+            ogDescription: "Download MP3 from YouTube instantly. Fast, free, ad-free, and no software required."
+        },
 },
     es: {
         siteName: "Youtubetomp4.pro",
@@ -130,7 +137,14 @@ export const messages = {
         faq4Question: "4. ¿Hay límites en la cantidad de videos que puedo convertir a MP3?",
         faq4Answer: "No, ¡no hay límites! Puedes convertir tantos videos de YouTube a MP3 como quieras. Nuestro servicio es completamente gratuito e ilimitado.",
         faq5Question: "5. ¿Quién puede beneficiarse del convertidor de YouTube a MP3?",
-        faq5Answer: "Nuestro convertidor es perfecto para amantes de la música, entusiastas de podcasts, estudiantes, profesores y cualquier persona que quiera disfrutar del contenido de YouTube en formato de audio. Crea listas de reproducción, guarda contenido educativo o construye tu biblioteca de audio personal - todo sin restricciones."
+        faq5Answer: "Nuestro convertidor es perfecto para amantes de la música, entusiastas de podcasts, estudiantes, profesores y cualquier persona que quiera disfrutar del contenido de YouTube en formato de audio. Crea listas de reproducción, guarda contenido educativo o construye tu biblioteca de audio personal - todo sin restricciones.",
+        seo: {
+            title: "Convertidor Gratuito de YouTube a MP3 – Alta Calidad y Sin Anuncios",
+            description: "Descarga MP3 de YouTube al instante. Rápido, gratuito, sin anuncios y sin necesidad de software.",
+            keywords: "youtube a mp3, convertidor youtube mp3, descargador de audio youtube, convertidor youtube a mp3, descargador mp3 youtube, extractor de audio youtube, youtube a mp3 online, convertidor mp3 youtube online, youtube a mp3 gratis, convertidor mp3 youtube gratis",
+            ogTitle: "Convertidor Gratuito de YouTube a MP3 – Alta Calidad y Sin Anuncios",
+            ogDescription: "Descarga MP3 de YouTube al instante. Rápido, gratuito, sin anuncios y sin necesidad de software."
+        },
     },
     ar: {
         siteName: "Youtubetomp4.pro",
@@ -196,8 +210,15 @@ export const messages = {
         faq4Question: "4. هل هناك حدود لعدد الفيديوهات التي يمكنني تحويلها إلى MP3؟",
         faq4Answer: "لا، لا توجد حدود! يمكنك تحويل عدد غير محدود من فيديوهات يوتيوب إلى MP3 كما تريد. خدمتنا مجانية تماماً وغير محدودة.",
         faq5Question: "5. من يمكنه الاستفادة من محول يوتيوب إلى MP3؟",
-        faq5Answer: "محولنا مثالي لعشاق الموسيقى، ومحبي البودكاست، والطلاب، والمعلمين، وأي شخص يريد الاستمتاع بمحتوى يوتيوب بتنسيق صوتي. أنشئ قوائم تشغيل، واحفظ محتوى تعليمي، أو أنشئ مكتبة صوت شخصية - كل ذلك بدون قيود."
-},
+        faq5Answer: "محولنا مثالي لعشاق الموسيقى، ومحبي البودكاست، والطلاب، والمعلمين، وأي شخص يريد الاستمتاع بمحتوى يوتيوب بتنسيق صوتي. أنشئ قوائم تشغيل، واحفظ محتوى تعليمي، أو أنشئ مكتبة صوت شخصية - كل ذلك بدون قيود.",
+        seo: {
+            title: "محول يوتيوب إلى MP3 مجاني – جودة عالية وبدون إعلانات",
+            description: "قم بتحميل MP3 من يوتيوب فوراً. سريع، مجاني، بدون إعلانات وبدون برامج.",
+            keywords: "يوتيوب إلى mp3، محول يوتيوب mp3، محمل صوت يوتيوب، محول يوتيوب إلى mp3، محمل mp3 يوتيوب، مستخرج صوت يوتيوب، يوتيوب إلى mp3 أونلاين، محول mp3 يوتيوب أونلاين، يوتيوب إلى mp3 مجاني، محول mp3 يوتيوب مجاني",
+            ogTitle: "محول يوتيوب إلى MP3 مجاني – جودة عالية وبدون إعلانات",
+            ogDescription: "قم بتحميل MP3 من يوتيوب فوراً. سريع، مجاني، بدون إعلانات وبدون برامج."
+        },
+    },
     hi: {
         siteName: "Youtubetomp4.pro",
         videoDownloader: "यूट्यूब वीडियो डाउनलोडर",
@@ -262,7 +283,14 @@ export const messages = {
         faq4Question: "4. क्या MP3 में कन्वर्ट करने वाले वीडियो की संख्या पर कोई सीमा है?",
         faq4Answer: "नहीं, कोई सीमा नहीं है! आप जितने चाहें उतने यूट्यूब वीडियो को MP3 में कन्वर्ट कर सकते हैं। हमारी सेवा पूरी तरह से मुफ्त और असीमित है।",
         faq5Question: "5. यूट्यूब से MP3 कन्वर्टर का उपयोग कौन कर सकता है?",
-        faq5Answer: "हमारा कन्वर्टर संगीत प्रेमियों, पॉडकास्ट उत्साही लोगों, छात्रों, शिक्षकों और किसी भी ऐसे व्यक्ति के लिए बिल्कुल सही है जो यूट्यूब सामग्री को ऑडियो फॉर्मेट में आनंद लेना चाहता है। प्लेलिस्ट बनाएं, शैक्षिक सामग्री सेव करें, या अपनी व्यक्तिगत ऑडियो लाइब्रेरी बनाएं - सब कुछ बिना किसी प्रतिबंध के।"
+        faq5Answer: "हमारा कन्वर्टर संगीत प्रेमियों, पॉडकास्ट उत्साही लोगों, छात्रों, शिक्षकों और किसी भी ऐसे व्यक्ति के लिए बिल्कुल सही है जो यूट्यूब सामग्री को ऑडियो फॉर्मेट में आनंद लेना चाहता है। प्लेलिस्ट बनाएं, शैक्षिक सामग्री सेव करें, या अपनी व्यक्तिगत ऑडियो लाइब्रेरी बनाएं - सब कुछ बिना किसी प्रतिबंध के।",
+        seo: {
+            title: "मुफ्त YouTube से MP3 कन्वर्टर – उच्च गुणवत्ता और बिना विज्ञापन",
+            description: "YouTube से तुरंत MP3 डाउनलोड करें। तेज़, मुफ्त, विज्ञापन-मुक्त और बिना सॉफ्टवेयर के।",
+            keywords: "youtube से mp3, youtube mp3 कन्वर्टर, youtube ऑडियो डाउनलोडर, youtube से mp3 कन्वर्टर, youtube mp3 डाउनलोडर, youtube ऑडियो एक्सट्रैक्टर, youtube से mp3 ऑनलाइन, youtube mp3 ऑनलाइन कन्वर्टर, youtube से mp3 मुफ्त, youtube mp3 मुफ्त कन्वर्टर",
+            ogTitle: "मुफ्त YouTube से MP3 कन्वर्टर – उच्च गुणवत्ता और बिना विज्ञापन",
+            ogDescription: "YouTube से तुरंत MP3 डाउनलोड करें। तेज़, मुफ्त, विज्ञापन-मुक्त और बिना सॉफ्टवेयर के।"
+        },
     },
     pt: {
         siteName: "Youtubetomp4.pro",
@@ -328,8 +356,15 @@ export const messages = {
         faq4Question: "4. Existem limites para quantos vídeos posso converter para MP3?",
         faq4Answer: "Não, não há limites! Você pode converter quantos vídeos do YouTube para MP3 quiser. Nosso serviço é completamente gratuito e ilimitado.",
         faq5Question: "5. Quem pode se beneficiar do conversor de YouTube para MP3?",
-        faq5Answer: "Nosso conversor é perfeito para amantes da música, entusiastas de podcasts, estudantes, professores e qualquer pessoa que queira desfrutar do conteúdo do YouTube em formato de áudio. Crie playlists, salve conteúdo educacional ou construa sua biblioteca de áudio pessoal - tudo sem restrições."
-},
+        faq5Answer: "Nosso conversor é perfeito para amantes da música, entusiastas de podcasts, estudantes, professores e qualquer pessoa que queira desfrutar do conteúdo do YouTube em formato de áudio. Crie playlists, salve conteúdo educacional ou construa sua biblioteca de áudio pessoal - tudo sem restrições.",
+        seo: {
+            title: "Conversor Gratuito de YouTube para MP3 – Alta Qualidade e Sem Anúncios",
+            description: "Baixe MP3 do YouTube instantaneamente. Rápido, gratuito, sem anúncios e sem necessidade de software.",
+            keywords: "youtube para mp3, conversor youtube mp3, baixador de áudio youtube, conversor youtube para mp3, baixador mp3 youtube, extrator de áudio youtube, youtube para mp3 online, conversor mp3 youtube online, youtube para mp3 grátis, conversor mp3 youtube grátis",
+            ogTitle: "Conversor Gratuito de YouTube para MP3 – Alta Qualidade e Sem Anúncios",
+            ogDescription: "Baixe MP3 do YouTube instantaneamente. Rápido, gratuito, sem anúncios e sem necessidade de software."
+        },
+    },
     ko: {
         siteName: "Youtubetomp4.pro",
         videoDownloader: "유튜브 비디오 다운로더",
@@ -394,7 +429,14 @@ export const messages = {
         faq4Question: "4. MP3로 변환할 수 있는 동영상 수에 제한이 있나요?",
         faq4Answer: "아니요, 제한이 없습니다! 원하는 만큼 유튜브 동영상을 MP3로 변환할 수 있습니다. 우리의 서비스는 완전히 무료이고 무제한입니다.",
         faq5Question: "5. 유튜브 MP3 변환기를 누가 사용할 수 있나요?",
-        faq5Answer: "우리의 변환기는 음악 애호가, 팟캐스트 애호가, 학생, 교사, 그리고 유튜브 콘텐츠를 오디오 형식으로 즐기고 싶은 모든 사람에게 완벽합니다. 플레이리스트를 만들고, 교육 콘텐츠를 저장하고, 개인 오디오 라이브러리를 구축하세요 - 모두 제한 없이."
+        faq5Answer: "우리의 변환기는 음악 애호가, 팟캐스트 애호가, 학생, 교사, 그리고 유튜브 콘텐츠를 오디오 형식으로 즐기고 싶은 모든 사람에게 완벽합니다. 플레이리스트를 만들고, 교육 콘텐츠를 저장하고, 개인 오디오 라이브러리를 구축하세요 - 모두 제한 없이.",
+        seo: {
+            title: "무료 YouTube MP3 변환기 – 고품질 및 광고 없음",
+            description: "YouTube에서 즉시 MP3를 다운로드하세요. 빠르고, 무료이며, 광고 없고, 소프트웨어가 필요 없습니다.",
+            keywords: "유튜브 mp3, 유튜브 mp3 변환기, 유튜브 오디오 다운로더, 유튜브 mp3 변환기, 유튜브 mp3 다운로더, 유튜브 오디오 추출기, 유튜브 mp3 온라인, 유튜브 mp3 온라인 변환기, 유튜브 mp3 무료, 유튜브 mp3 무료 변환기",
+            ogTitle: "무료 YouTube MP3 변환기 – 고품질 및 광고 없음",
+            ogDescription: "YouTube에서 즉시 MP3를 다운로드하세요. 빠르고, 무료이며, 광고 없고, 소프트웨어가 필요 없습니다."
+        },
     },
     ja: {
         siteName: "Youtubetomp4.pro",
@@ -460,8 +502,15 @@ export const messages = {
         faq4Question: "4. MP3に変換できる動画数に制限はありますか？",
         faq4Answer: "いいえ、制限はありません！必要なだけYouTube動画をMP3に変換できます。当社のサービスは完全に無料で無制限です。",
         faq5Question: "5. YouTube MP3変換は誰が使用できますか？",
-        faq5Answer: "当社の変換ツールは音楽愛好家、ポッドキャスト愛好家、学生、教師、そしてYouTubeコンテンツを音声形式で楽しみたいすべての人に最適です。プレイリストを作成し、教育コンテンツを保存し、個人の音声ライブラリを構築 – すべて制限なしで。"
-},
+        faq5Answer: "当社の変換ツールは音楽愛好家、ポッドキャスト愛好家、学生、教師、そしてYouTubeコンテンツを音声形式で楽しみたいすべての人に最適です。プレイリストを作成し、教育コンテンツを保存し、個人の音声ライブラリを構築 – すべて制限なしで。",
+        seo: {
+            title: "無料YouTube MP3変換 – 高品質・広告なし",
+            description: "YouTubeからMP3を即時ダウンロード。高速、無料、広告なし、ソフトウェア不要。",
+            keywords: "youtube mp3, youtube mp3変換, youtube音声ダウンロード, youtube mp3変換, youtube mp3ダウンロード, youtube音声抽出, youtube mp3オンライン, youtube mp3オンライン変換, youtube mp3無料, youtube mp3無料変換",
+            ogTitle: "無料YouTube MP3変換 – 高品質・広告なし",
+            ogDescription: "YouTubeからMP3を即時ダウンロード。高速、無料、広告なし、ソフトウェア不要。"
+        },
+    },
     'zh-TW': {
         siteName: "Youtubetomp4.pro",
         videoDownloader: "YouTube 影片下載器",
@@ -526,7 +575,14 @@ export const messages = {
         faq4Question: "4. 我可以轉換為 MP3 的影片數量有限制嗎？",
         faq4Answer: "不，沒有限制！您可以隨意轉換任意數量的 YouTube 影片為 MP3。我們的服務完全免費且無限制。",
         faq5Question: "5. 誰可以使用 YouTube 轉 MP3 轉換器？",
-        faq5Answer: "我們的轉換器非常適合音樂愛好者、播客愛好者、學生、教師以及任何想要以音頻格式享受 YouTube 內容的人。創建播放列表、保存教育內容或建立您的個人音頻庫 - 全部無限制。"
+        faq5Answer: "我們的轉換器非常適合音樂愛好者、播客愛好者、學生、教師以及任何想要以音頻格式享受 YouTube 內容的人。創建播放列表、保存教育內容或建立您的個人音頻庫 - 全部無限制。",
+        seo: {
+            title: "免費 YouTube 轉 MP3 轉換器 – 高品質且無廣告",
+            description: "立即從 YouTube 下載 MP3。快速、免費、無廣告且無需軟件。",
+            keywords: "youtube轉mp3, youtube mp3轉換器, youtube音頻下載器, youtube轉mp3轉換器, youtube mp3下載器, youtube音頻提取器, youtube轉mp3在線, youtube mp3在線轉換器, youtube轉mp3免費, youtube mp3免費轉換器",
+            ogTitle: "免費 YouTube 轉 MP3 轉換器 – 高品質且無廣告",
+            ogDescription: "立即從 YouTube 下載 MP3。快速、免費、無廣告且無需軟件。"
+        },
     },
     id: {
         siteName: "Youtubetomp4.pro",
@@ -592,8 +648,15 @@ export const messages = {
         faq4Question: "4. Apakah ada batasan berapa banyak video yang bisa saya konversi ke MP3?",
         faq4Answer: "Tidak, tidak ada batasan! Anda dapat mengkonversi sebanyak mungkin video YouTube ke MP3 yang Anda inginkan. Layanan kami sepenuhnya gratis dan tanpa batas.",
         faq5Question: "5. Siapa yang bisa menggunakan konverter YouTube ke MP3?",
-        faq5Answer: "Konverter kami sempurna untuk pecinta musik, penggemar podcast, siswa, guru, dan siapa pun yang ingin menikmati konten YouTube dalam format audio. Buat playlist, simpan konten pendidikan, atau bangun perpustakaan audio pribadi Anda - semuanya tanpa batasan."
-},
+        faq5Answer: "Konverter kami sempurna untuk pecinta musik, penggemar podcast, siswa, guru, dan siapa pun yang ingin menikmati konten YouTube dalam format audio. Buat playlist, simpan konten pendidikan, atau bangun perpustakaan audio pribadi Anda - semuanya tanpa batasan.",
+        seo: {
+            title: "Konverter YouTube ke MP3 Gratis – Kualitas Tinggi & Tanpa Iklan",
+            description: "Unduh MP3 dari YouTube secara instan. Cepat, gratis, tanpa iklan, dan tidak memerlukan perangkat lunak.",
+            keywords: "youtube ke mp3, konverter youtube mp3, pengunduh audio youtube, konverter youtube ke mp3, pengunduh mp3 youtube, ekstraktor audio youtube, youtube ke mp3 online, konverter mp3 youtube online, youtube ke mp3 gratis, konverter mp3 youtube gratis",
+            ogTitle: "Konverter YouTube ke MP3 Gratis – Kualitas Tinggi & Tanpa Iklan",
+            ogDescription: "Unduh MP3 dari YouTube secara instan. Cepat, gratis, tanpa iklan, dan tidak memerlukan perangkat lunak."
+        },
+    },
     th: {
         siteName: "Youtubetomp4.pro",
         videoDownloader: "ตัวดาวน์โหลดวิดีโอ YouTube",
@@ -658,7 +721,14 @@ export const messages = {
         faq4Question: "4. มีข้อจำกัดจำนวนวิดีโอที่ฉันสามารถแปลงเป็น MP3 ได้หรือไม่?",
         faq4Answer: "ไม่ ไม่มีข้อจำกัด! คุณสามารถแปลงวิดีโอ YouTube เป็น MP3 ได้มากเท่าที่คุณต้องการ บริการของเราเป็นบริการฟรีและไม่จำกัด",
         faq5Question: "5. ใครสามารถใช้ตัวแปลง YouTube เป็น MP3 ได้บ้าง?",
-        faq5Answer: "ตัวแปลงของเราเหมาะอย่างยิ่งสำหรับคนรักดนตรี แฟนพอดแคสต์ นักเรียน ครู และทุกคนที่ต้องการเพลิดเพลินกับเนื้อหา YouTube ในรูปแบบเสียง สร้างเพลย์ลิสต์ บันทึกเนื้อหาการศึกษา หรือสร้างไลบรารีเสียงส่วนตัวของคุณ - ทั้งหมดโดยไม่มีข้อจำกัด"
+        faq5Answer: "ตัวแปลงของเราเหมาะอย่างยิ่งสำหรับคนรักดนตรี แฟนพอดแคสต์ นักเรียน ครู และทุกคนที่ต้องการเพลิดเพลินกับเนื้อหา YouTube ในรูปแบบเสียง สร้างเพลย์ลิสต์ บันทึกเนื้อหาการศึกษา หรือสร้างไลบรารีเสียงส่วนตัวของคุณ - ทั้งหมดโดยไม่มีข้อจำกัด",
+        seo: {
+            title: "ตัวแปลง YouTube เป็น MP3 ฟรี – คุณภาพสูงและไม่มีโฆษณา",
+            description: "ดาวน์โหลด MP3 จาก YouTube ทันที เร็ว ฟรี ไม่มีโฆษณา และไม่ต้องใช้ซอฟต์แวร์",
+            keywords: "youtube เป็น mp3, ตัวแปลง youtube mp3, ตัวดาวน์โหลดเสียง youtube, ตัวแปลง youtube เป็น mp3, ตัวดาวน์โหลด mp3 youtube, ตัวสกัดเสียง youtube, youtube เป็น mp3 ออนไลน์, ตัวแปลง mp3 youtube ออนไลน์, youtube เป็น mp3 ฟรี, ตัวแปลง mp3 youtube ฟรี",
+            ogTitle: "ตัวแปลง YouTube เป็น MP3 ฟรี – คุณภาพสูงและไม่มีโฆษณา",
+            ogDescription: "ดาวน์โหลด MP3 จาก YouTube ทันที เร็ว ฟรี ไม่มีโฆษณา และไม่ต้องใช้ซอฟต์แวร์"
+        },
     },
     vi: {
         siteName: "Youtubetomp4.pro",
@@ -724,6 +794,13 @@ export const messages = {
         faq4Question: "4. Có giới hạn số lượng video tôi có thể chuyển đổi sang MP3 không?",
         faq4Answer: "Không, không có giới hạn! Bạn có thể chuyển đổi bao nhiêu video YouTube sang MP3 tùy thích. Dịch vụ của chúng tôi hoàn toàn miễn phí và không giới hạn.",
         faq5Question: "5. Ai có thể sử dụng trình chuyển đổi YouTube sang MP3?",
-        faq5Answer: "Trình chuyển đổi của chúng tôi hoàn hảo cho người yêu nhạc, người hâm mộ podcast, học sinh, giáo viên và bất kỳ ai muốn tận hưởng nội dung YouTube ở định dạng âm thanh. Tạo danh sách phát, lưu nội dung giáo dục hoặc xây dựng thư viện âm thanh cá nhân của bạn - tất cả đều không giới hạn."
+        faq5Answer: "Trình chuyển đổi của chúng tôi hoàn hảo cho người yêu nhạc, người hâm mộ podcast, học sinh, giáo viên và bất kỳ ai muốn tận hưởng nội dung YouTube ở định dạng âm thanh. Tạo danh sách phát, lưu nội dung giáo dục hoặc xây dựng thư viện âm thanh cá nhân của bạn - tất cả đều không giới hạn.",
+        seo: {
+            title: "Trình Chuyển Đổi YouTube Sang MP3 Miễn Phí – Chất Lượng Cao & Không Quảng Cáo",
+            description: "Tải xuống MP3 từ YouTube ngay lập tức. Nhanh chóng, miễn phí, không quảng cáo và không cần phần mềm.",
+            keywords: "youtube sang mp3, trình chuyển đổi youtube mp3, trình tải xuống âm thanh youtube, trình chuyển đổi youtube sang mp3, trình tải xuống mp3 youtube, trình trích xuất âm thanh youtube, youtube sang mp3 trực tuyến, trình chuyển đổi mp3 youtube trực tuyến, youtube sang mp3 miễn phí, trình chuyển đổi mp3 youtube miễn phí",
+            ogTitle: "Trình Chuyển Đổi YouTube Sang MP3 Miễn Phí – Chất Lượng Cao & Không Quảng Cáo",
+            ogDescription: "Tải xuống MP3 từ YouTube ngay lập tức. Nhanh chóng, miễn phí, không quảng cáo và không cần phần mềm."
+        },
     },
 };
