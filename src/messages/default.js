@@ -67,11 +67,11 @@ export const messages = {
         faq5Question: "5. Who uses the YouTube to MP4 converter?",
         faq5Answer: "Our converter is perfect for all sorts of users. Content creators, students, teachers, road warriors, business pros, and everyday viewers will love it. You can convert videos without any limits. No need to create an account or download software.",
         seo: {
-            title: "YouTube to MP4 Converter - Free Online Video Downloader",
-            description: "Convert YouTube videos to MP4 format easily and quickly. Free online YouTube video downloader with high quality, no registration required. Download YouTube videos in various formats including MP4, M4A, and WEBM.",
+            title: "Convert YouTube to MP4 – Free HD Video Downloader",
+            description: "Convert YouTube videos to MP4 in high quality. Free, fast, no ads or registration required.",
             keywords: "youtube to mp4, youtube converter, youtube downloader, youtube to mp3, video converter, free youtube downloader, youtube video downloader, youtube mp4 downloader",
-            ogTitle: "YouTube to MP4 Converter - Free Online Video Downloader",
-            ogDescription: "Convert YouTube videos to MP4 format easily and quickly. Free online YouTube video downloader with high quality, no registration required."
+            ogTitle: "Convert YouTube to MP4 – Free HD Video Downloader",
+            ogDescription: "Convert YouTube videos to MP4 in high quality. Free, fast, no ads or registration required."
         },
     },
     es: {
@@ -141,11 +141,11 @@ export const messages = {
         faq5Question: "5. ¿Quién usa el convertidor de YouTube a MP4?",
         faq5Answer: "Nuestro convertidor es perfecto para todo tipo de usuarios. Creadores de contenido, estudiantes, profesores, viajeros frecuentes, profesionales de negocios y espectadores cotidianos lo adorarán. Puedes convertir videos sin ningún límite. No es necesario crear una cuenta ni descargar software.",
         seo: {
-            title: "Convertidor de YouTube a MP4 - Descargador de Videos Gratuito",
-            description: "Convierte videos de YouTube a formato MP4 fácil y rápidamente. Descargador de videos de YouTube gratuito con alta calidad, sin registro requerido. Descarga videos de YouTube en varios formatos incluyendo MP4, M4A y WEBM.",
-            keywords: "youtube a mp4, convertidor de youtube, descargador de youtube, youtube a mp3, convertidor de video, descargador de youtube gratis, descargador de videos de youtube, descargador de youtube mp4",
-            ogTitle: "Convertidor de YouTube a MP4 - Descargador de Videos Gratuito",
-            ogDescription: "Convierte videos de YouTube a formato MP4 fácil y rápidamente. Descargador de videos de YouTube gratuito con alta calidad, sin registro requerido."
+            title: "Convertir YouTube a MP4 – Descargador de Videos HD Gratis",
+            description: "Convierte videos de YouTube a MP4 en alta calidad. Gratis, rápido, sin anuncios ni registro requerido.",
+            keywords: "youtube a mp4, convertidor de youtube, descargador de youtube, youtube a mp3, convertidor de video, descargador de youtube gratis, descargador de vídeos de youtube, descargador de youtube mp4",
+            ogTitle: "Convertir YouTube a MP4 – Descargador de Videos HD Gratis",
+            ogDescription: "Convierte videos de YouTube a MP4 en alta calidad. Gratis, rápido, sin anuncios ni registro requerido."
         },
     },
     ar: {
@@ -215,11 +215,11 @@ export const messages = {
         faq5Question: "5. من يستخدم محول YouTube إلى MP4؟",
         faq5Answer: "محولنا مثالي لجميع أنواع المستخدمين. يحبها منشئو المحتوى، الطلاب، المعلمون، المسافرون، المحترفون في الأعمال والمشاهدون العاديون. يمكنك تحويل مقاطع الفيديو دون أي حدود. لا حاجة لإنشاء حساب أو تنزيل أي برامج.",
         seo: {
-            title: "محول يوتيوب إلى MP4 - محمل فيديو مجاني على الإنترنت",
-            description: "حوّل مقاطع فيديو يوتيوب إلى تنسيق MP4 بسهولة وسرعة. محمل فيديو يوتيوب مجاني على الإنترنت بجودة عالية، لا يتطلب تسجيلًا.",
+            title: "تحويل YouTube إلى MP4 – برنامج تنزيل فيديو عالي الجودة مجانًا",
+            description: "حوّل مقاطع فيديو YouTube إلى MP4 بجودة عالية. مجاني، سريع، بدون إعلانات أو تسجيل.",
             keywords: "يوتيوب إلى mp4، محول يوتيوب، محمل يوتيوب، يوتيوب إلى mp3، محول فيديو، محمل يوتيوب مجاني، محمل فيديو يوتيوب، محمل يوتيوب mp4",
-            ogTitle: "محول يوتيوب إلى MP4 - محمل فيديو مجاني على الإنترنت",
-            ogDescription: "حوّل مقاطع فيديو يوتيوب إلى تنسيق MP4 بسهولة وسرعة. محمل فيديو يوتيوب مجاني على الإنترنت بجودة عالية، لا يتطلب تسجيلًا."
+            ogTitle: "تحويل YouTube إلى MP4 – برنامج تنزيل فيديو عالي الجودة مجانًا",
+            ogDescription: "حوّل مقاطع فيديو YouTube إلى MP4 بجودة عالية. مجاني، سريع، بدون إعلانات أو تسجيل."
         },
     },
     hi: {
@@ -287,11 +287,11 @@ export const messages = {
         faq5Question: "5. YouTube से MP4 कनवर्टर कौन उपयोग करता है?",
         faq5Answer: "हमारा कनवर्टर सभी प्रकार के उपयोगकर्ताओं के लिए आदर्श है। कंटेंट क्रिएटर्स, छात्र, शिक्षक, यात्रा करने वाले, व्यवसाय पेशेवर और सामान्य उपयोगकर्ता इसे पसंद करेंगे। आप वीडियो को बिना किसी सीमा के कनवर्ट कर सकते हैं। खाता बनाने या सॉफ़्टवेयर डाउनलोड करने की आवश्यकता नहीं है।",
         seo: {
-            title: "YouTube से MP4 कन्वर्टर - मुफ्त ऑनलाइन वीडियो डाउनलोडर",
-            description: "YouTube वीडियो को आसानी से और तुरंत MP4 प्रारूप में बदलें। उच्च गुणवत्ता वाला मुफ्त ऑनलाइन YouTube वीडियो डाउनलोडर, पंजीकरण की आवश्यकता नहीं। MP4, M4A और WEBM सहित विभिन्न प्रारूपों में YouTube वीडियो डाउनलोड करें।",
+            title: "YouTube को MP4 में बदलें – मुफ्त HD वीडियो डाउनलोडर",
+            description: "YouTube वीडियो को उच्च गुणवत्ता में MP4 में बदलें। मुफ्त, तेज़, बिना विज्ञापन या पंजीकरण के.",
             keywords: "youtube से mp4, youtube कन्वर्टर, youtube डाउनलोडर, youtube से mp3, वीडियो कन्वर्टर, मुफ्त youtube डाउनलोडर, youtube वीडियो डाउनलोडर, youtube mp4 डाउनलोडर",
-            ogTitle: "YouTube से MP4 कन्वर्टर - मुफ्त ऑनलाइन वीडियो डाउनलोडर",
-            ogDescription: "YouTube वीडियो को आसानी से और तुरंत MP4 प्रारूप में बदलें। उच्च गुणवत्ता वाला मुफ्त ऑनलाइन YouTube वीडियो डाउनलोडर, पंजीकरण की आवश्यकता नहीं।"
+            ogTitle: "YouTube को MP4 में बदलें – मुफ्त HD वीडियो डाउनलोडर",
+            ogDescription: "YouTube वीडियो को उच्च गुणवत्ता में MP4 में बदलें। मुफ्त, तेज़, बिना विज्ञापन या पंजीकरण के."
         },
     },
     pt: {
@@ -359,11 +359,11 @@ export const messages = {
         faq5Question: "5. Quem usa o conversor de YouTube para MP4?",
         faq5Answer: "Nosso conversor é perfeito para todos os tipos de usuários. Criadores de conteúdo, estudantes, professores, viajantes, profissionais de negócios e espectadores do dia a dia vão adorar. Você pode converter vídeos sem limites. Não é necessário criar uma conta ou baixar software.",
         seo: {
-            title: "Conversor do YouTube para MP4 - Baixador de Vídeos Grátis",
-            description: "Converta vídeos do YouTube para o formato MP4 facilmente e rapidamente. Baixador de vídeos do YouTube grátis com alta qualidade, sem registro necessário. Baixe vídeos do YouTube em vários formatos, incluindo MP4, M4A e WEBM.",
+            title: "Converter YouTube para MP4 – Baixador de Vídeo HD Grátis",
+            description: "Converta vídeos do YouTube para MP4 em alta qualidade. Grátis, rápido, sem anúncios ou registro.",
             keywords: "youtube para mp4, conversor de youtube, downloader de youtube, youtube para mp3, conversor de vídeo, downloader de youtube grátis, downloader de vídeos de youtube, downloader de youtube mp4",
-            ogTitle: "Conversor do YouTube para MP4 - Baixador de Vídeos Grátis",
-            ogDescription: "Converta vídeos do YouTube para o formato MP4 facilmente e rapidamente. Baixador de vídeos do YouTube grátis com alta qualidade, sem registro necessário."
+            ogTitle: "Converter YouTube para MP4 – Baixador de Vídeo HD Grátis",
+            ogDescription: "Converta vídeos do YouTube para MP4 em alta qualidade. Grátis, rápido, sem anúncios ou registro."
         },
     },
     ko: {
@@ -431,11 +431,11 @@ export const messages = {
         faq5Question: "5. YouTube에서 MP4 변환기를 사용하는 사람은 누구인가요?",
         faq5Answer: "우리의 변환기는 다양한 사용자를 위해 완벽합니다. 콘텐츠 제작자, 학생, 교사, 여행자, 비즈니스 전문가 및 일반 사용자가 좋아할 것입니다. 비디오를 제한 없이 변환할 수 있습니다. 계정을 만들거나 소프트웨어를 다운로드할 필요가 없습니다.",
         seo: {
-            title: "유튜브 MP4 변환기 - 무료 온라인 비디오 다운로더",
-            description: "URL을 붙여넣고 YouTube를 MP4로 빠르게 변환하세요. 항상 무료, 항상 작동, 광고 없음. 고품질의 무료 온라인 YouTube 비디오 다운로더, 등록 없이 비디오를 다양한 형식으로 변환할 수 있습니다.",
+            title: "YouTube를 MP4로 변환 – 무료 HD 비디오 다운로더",
+            description: "YouTube 동영상을 고화질 MP4로 변환하세요. 무료, 빠름, 광고 없음, 가입 필요 없음.",
             keywords: "유튜브 mp4, 유튜브 변환기, 비디오 다운로더, 유튜브 mp3, 비디오 변환기, 무료 유튜브 다운로더, 유튜브 비디오 다운로더, 유튜브 mp4 다운로더",
-            ogTitle: "유튜브 MP4 변환기 - 무료 온라인 비디오 다운로더",
-            ogDescription: "URL을 붙여넣고 YouTube를 MP4로 빠르게 변환하세요. 항상 무료, 항상 작동, 광고 없음."
+            ogTitle: "YouTube를 MP4로 변환 – 무료 HD 비디오 다운로더",
+            ogDescription: "YouTube 동영상을 고화질 MP4로 변환하세요. 무료, 빠름, 광고 없음, 가입 필요 없음."
         },
     },
     ja: {
@@ -503,10 +503,10 @@ export const messages = {
         faq5Question: "5. YouTubeからMP4に変換するのは誰ですか？",
         faq5Answer: "私たちの変換器は、あらゆる種類のユーザーに最適です。コンテンツクリエーター、学生、教師、旅行者、ビジネスプロフェッショナル、そして日常的な視聴者が気に入るでしょう。制限なしで動画を変換できます。アカウントを作成したり、ソフトウェアをダウンロードする必要はありません。",
         seo: {
-            title: "YouTubeからMP4に変換する - 無料オンライン動画ダウンローダー",
-            description: "URLを貼り付けて、YouTubeをMP4に素早く変換します。常に無料、常に動作、広告なし。高品質の無料オンライン動画ダウンローダー、登録不要。MP4、M4A、WEBMを含む様々な形式のYouTube動画をダウンロードできます。",
+            title: "YouTubeをMP4に変換 – 無料HDビデオダウンローダー",
+            description: "YouTube動画を高品質のMP4に変換。無料、迅速、広告なし、登録不要。",
             keywords: "youtube から mp4, youtube コンバーター, youtube ダウンローダー, youtube から mp3, 動画コンバーター, 無料 youtube ダウンローダー, youtube 動画ダウンローダー, youtube mp4 ダウンローダー",
-            ogTitle: "YouTubeからMP4に変換する - 無料オンライン動画ダウンローダー",
+            ogTitle: "YouTubeをMP4に変換 – 無料HDビデオダウンローダー",
             ogDescription: "URLを貼り付けて、YouTubeをMP4に素早く変換します。常に無料、常に動作、広告なし。高品質の無料オンライン動画ダウンローダー、登録不要。"
         },
     },
@@ -575,11 +575,11 @@ export const messages = {
         faq5Question: "5. YouTube 轉 MP4 轉換器是誰在使用？",
         faq5Answer: "我們的轉換器非常適合各種類型的使用者。內容創作者、學生、教師、旅遊者、商業專業人士和日常觀眾都會喜歡。您可以無限制地轉換影片。無需創建帳戶或下載軟件。",
         seo: {
-            title: "YouTube 轉 MP4 轉換器 - 無料線上影片下載器",
-            description: "貼上 URL 並快速轉換 YouTube 到 MP4。始終免費，始終可用，無廣告。高品質的無料線上影片下載器，無需登錄。下載 YouTube 影片在各種格式中，包括 MP4、M4A 和 WEBM。",
+            title: "YouTube 轉 MP4 – 免費高清影片下載器",
+            description: "將 YouTube 影片轉換為高品質 MP4。免費、快速、無廣告、無需註冊。",
             keywords: "youtube 轉 mp4, youtube 轉換器, youtube 下載器, youtube 轉 mp3, 影片轉換器, 無料 youtube 下載器, youtube 影片下載器, youtube mp4 下載器",
-            ogTitle: "YouTube 轉 MP4 轉換器 - 無料線上影片下載器",
-            ogDescription: "貼上 URL 並快速轉換 YouTube 到 MP4。始終免費，始終可用，無廣告。高品質的無料線上影片下載器，無需登錄。"
+            ogTitle: "YouTube 轉 MP4 – 免費高清影片下載器",
+            ogDescription: "將 YouTube 影片轉換為高品質 MP4。免費、快速、無廣告、無需註冊。"
         },
     },
     id: {
@@ -638,11 +638,11 @@ export const messages = {
         faq5Question: "5. Siapa yang menggunakan konverter YouTube ke MP4?",
         faq5Answer: "Konverter kami sempurna untuk berbagai pengguna. Pembuat konten, pelajar, guru, pelancong, profesional bisnis, dan penonton sehari-hari akan menyukainya. Anda dapat mengonversi video tanpa batasan. Tidak perlu membuat akun atau mengunduh perangkat lunak.",
         seo: {
-            title: "Pengonversi YouTube ke MP4 - Pengunduh Video YouTube Gratis",
-            description: "Konversi video YouTube ke format MP4 dengan mudah dan cepat. Pengunduh video YouTube gratis dengan kualitas tinggi, tanpa pendaftaran diperlukan. Unduh video YouTube dalam berbagai format, termasuk MP4, M4A, dan WEBM.",
+            title: "Konversi YouTube ke MP4 – Pengunduh Video HD Gratis",
+            description: "Konversi video YouTube ke MP4 berkualitas tinggi. Gratis, cepat, tanpa iklan atau pendaftaran.",
             keywords: "youtube ke mp4, konverter youtube, pengunduh video youtube, youtube ke mp3, konverter video, pengunduh video youtube gratis, pengunduh video youtube, pengunduh video youtube mp4",
-            ogTitle: "Pengonversi YouTube ke MP4 - Pengunduh Video YouTube Gratis",
-            ogDescription: "Konversi video YouTube ke format MP4 dengan mudah dan cepat. Pengunduh video YouTube gratis dengan kualitas tinggi, tanpa pendaftaran diperlukan."
+            ogTitle: "Konversi YouTube ke MP4 – Pengunduh Video HD Gratis",
+            ogDescription: "Konversi video YouTube ke MP4 berkualitas tinggi. Gratis, cepat, tanpa iklan atau pendaftaran."
         },
     },
     th: {
@@ -701,11 +701,11 @@ export const messages = {
         faq5Question: "5. ใครใช้ตัวแปลง YouTube เป็น MP4?",
         faq5Answer: "ตัวแปลงของเราเหมาะสำหรับผู้ใช้ทุกประเภท ผู้สร้างเนื้อหา นักเรียน อาจารย์ นักเดินทาง นักธุรกิจ และผู้ชมทั่วไปจะชื่นชอบ คุณสามารถแปลงวิดีโอได้โดยไม่จำกัด ไม่จำเป็นต้องสร้างบัญชีหรือดาวน์โหลดซอฟต์แวร์",
         seo: {
-            title: "ตัวแปลง YouTube เป็น MP4 - ตัวดาวน์โหลดวิดีโอออฟไลน์",
+            title: "แปลง YouTube เป็น MP4 – โปรแกรมดาวน์โหลดวิดีโอ HD ฟรี",
             description: "วาง URL และแปลง YouTube เป็น MP4 อย่างรวดเร็ว ฟรีเสมอ ใช้งานได้เสมอ ไม่มีโฆษณา",
             keywords: "วิดีโอออฟไลน์, ตัวดาวน์โหลดวิดีโอ, ตัวแปลงวิดีโอ, วิดีโอออฟไลน์",
-            ogTitle: "ตัวแปลง YouTube เป็น MP4 - ตัวดาวน์โหลดวิดีโอออฟไลน์",
-            ogDescription: "วาง URL และแปลง YouTube เป็น MP4 อย่างรวดเร็ว ฟรีเสมอ ใช้งานได้เสมอ ไม่มีโฆษณา"
+            ogTitle: "แปลง YouTube เป็น MP4 – โปรแกรมดาวน์โหลดวิดีโอ HD ฟรี",
+            ogDescription: "แปลงวิดีโอ YouTube เป็น MP4 คุณภาพสูง ฟรี รวดเร็ว ไม่มีโฆษณา หรือการลงทะเบียน."
         },
     },
     vi: {
@@ -764,11 +764,11 @@ export const messages = {
         faq5Question: "5. Ai sử dụng công cụ chuyển đổi YouTube sang MP4?",
         faq5Answer: "Công cụ chuyển đổi của chúng tôi lý tưởng cho tất cả các loại người dùng. Những người sáng tạo nội dung, sinh viên, giáo viên, du khách, chuyên gia kinh doanh và người xem bình thường sẽ yêu thích nó. Bạn có thể chuyển đổi video mà không giới hạn. Không cần phải tạo tài khoản hoặc tải xuống phần mềm.",
         seo: {
-            title: "Trình chuyển đổi Video YouTube sang MP4 - Tải Video Trực Tuyến Miễn Phí",
-            description: "Dán URL và nhanh chóng chuyển đổi YouTube thành MP4. Luôn miễn phí, luôn hoạt động, không có quảng cáo. Tải video YouTube với chất lượng cao, không cần đăng ký. MP4, M4A, WEBM và nhiều định dạng khác để bạn có thể tối ưu hiệu suất tải video.",
+            title: "Chuyển đổi YouTube sang MP4 – Trình tải video HD miễn phí",
+            description: "Chuyển đổi video YouTube sang MP4 chất lượng cao. Miễn phí, nhanh chóng, không quảng cáo hoặc đăng ký.",
             keywords: "trình chuyển đổi video youtube, tải video trực tuyến, tải video miễn phí, tải video mp4, tải video m4a, tải video webm, tải video youtube, tải video mp4 miễn phí",
-            ogTitle: "Trình chuyển đổi Video YouTube sang MP4 - Tải Video Trực Tuyến Miễn Phí",
-            ogDescription: "Dán URL và nhanh chóng chuyển đổi YouTube thành MP4. Luôn miễn phí, luôn hoạt động, không có quảng cáo. Tải video YouTube với chất lượng cao, không cần đăng ký. MP4, M4A, WEBM và nhiều định dạng khác để bạn có thể tối ưu hiệu suất tải video."
+            ogTitle: "Chuyển đổi YouTube sang MP4 – Trình tải video HD miễn phí",
+            ogDescription: "Chuyển đổi video YouTube sang MP4 chất lượng cao. Miễn phí, nhanh chóng, không quảng cáo hoặc đăng ký."
         },
     },
 };

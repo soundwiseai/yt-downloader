@@ -70,9 +70,9 @@ export const messages = {
         seo: {
             title: "YouTube Video Downloader – Free MP4 & MP3 Download Tool",
             description: "Paste a YouTube link to download video or audio in seconds. No ads, no limits, 100% free.",
-            keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            keywords: "youtube to mp3, youtube converter, youtube downloader, youtube to mp3 converter, youtube to mp3 download, youtube to mp3 converter free, youtube to mp3 download free, youtube to mp3 converter online, youtube to mp3 download online",
+            ogTitle: "YouTube Video Downloader – Free MP4 & MP3 Download Tool",
+            ogDescription: "Paste a YouTube link to download video or audio in seconds. No ads, no limits, 100% free."
         },
 },
     es: {
@@ -142,11 +142,11 @@ export const messages = {
         faq5Question: "5. ¿Quién puede beneficiarse de usar este descargador de videos?",
         faq5Answer: "Nuestro descargador es perfecto para estudiantes, profesores, creadores de contenido, viajeros y cualquier persona que quiera guardar videos de YouTube para verlos sin conexión. Es especialmente útil para aquellos con acceso limitado a internet o planes de datos limitados.",
         seo: {
-            title: "Descargador de Videos de YouTube – Herramienta Gratuita de Descarga MP4 y MP3",
-            description: "Pega un enlace de YouTube para descargar video o audio en segundos. Sin anuncios, sin límites, 100% gratis.",
+            title: "Descargador de Videos de YouTube – Herramienta Gratis para MP4 y MP3",
+            description: "Pega el enlace de YouTube para descargar videos o audios. Sin anuncios, sin límites, 100% gratis.",
             keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            ogTitle: "Descargador de Videos de YouTube – Herramienta Gratis para MP4 y MP3",
+            ogDescription: "Pega el enlace de YouTube para descargar videos o audios. Sin anuncios, sin límites, 100% gratis."
         },
     },
     ar: {
@@ -216,11 +216,11 @@ export const messages = {
         faq5Question: "5. من يمكنه الاستفادة من استخدام محمل الفيديو هذا؟",
         faq5Answer: "محملنا مثالي للطلاب والمعلمين ومنشئي المحتوى والمسافرين وأي شخص يريد حفظ مقاطع فيديو يوتيوب لمشاهدتها دون اتصال بالإنترنت. إنه مفيد بشكل خاص لأولئك الذين لديهم وصول محدود إلى الإنترنت أو خطط بيانات محدودة.",
         seo: {
-            title: "مُحمل فيديو يوتيوب – أداة تحميل MP4 و MP3 مجانية",
-            description: "الصق رابط يوتيوب لتحميل الفيديو أو الصوت في ثوانٍ. بدون إعلانات، بدون حدود، 100% مجاني.",
+            title: "برنامج تنزيل فيديوهات YouTube – تحميل MP4 و MP3 مجانًا",
+            description: "الصق رابط YouTube لتنزيل الفيديو أو الصوت فورًا. بدون إعلانات أو قيود، مجاني تمامًا.",
             keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            ogTitle: "برنامج تنزيل فيديوهات YouTube – تحميل MP4 و MP3 مجانًا",
+            ogDescription: "الصق رابط YouTube لتنزيل الفيديو أو الصوت فورًا. بدون إعلانات أو قيود، مجاني تمامًا."
         },
     },
     hi: {
@@ -290,11 +290,11 @@ export const messages = {
         faq5Question: "5. इस वीडियो डाउनलोडर का उपयोग करके कौन लाभान्वित हो सकता है?",
         faq5Answer: "हमारा डाउनलोडर छात्रों, शिक्षकों, कंटेंट क्रिएटर्स, यात्रियों और किसी भी ऐसे व्यक्ति के लिए आदर्श है जो यूट्यूब वीडियो को ऑफलाइन देखने के लिए सहेजना चाहता है। यह विशेष रूप से सीमित इंटरनेट पहुंच या सीमित डेटा प्लान वाले लोगों के लिए उपयोगी है।",
         seo: {
-            title: "यूट्यूब वीडियो डाउनलोडर – मुफ्त MP4 और MP3 डाउनलोड टूल",
-            description: "वीडियो या ऑडियो को सेकंडों में डाउनलोड करने के लिए यूट्यूब लिंक पेस्ट करें। बिना विज्ञापन, बिना सीमा, 100% मुफ्त।",
+            title: "YouTube वीडियो डाउनलोडर – मुफ्त MP4 और MP3 टूल",
+            description: "लिंक पेस्ट करें और YouTube वीडियो या ऑडियो तुरंत डाउनलोड करें। कोई विज्ञापन नहीं, 100% मुफ्त।",
             keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            ogTitle: "YouTube वीडियो डाउनलोडर – मुफ्त MP4 और MP3 टूल",
+            ogDescription: "लिंक पेस्ट करें और YouTube वीडियो या ऑडियो तुरंत डाउनलोड करें। कोई विज्ञापन नहीं, 100% मुफ्त।"
         },
     },
     pt: {
@@ -364,11 +364,11 @@ export const messages = {
         faq5Question: "5. Quem pode se beneficiar usando este baixador de vídeos?",
         faq5Answer: "Nosso baixador é perfeito para estudantes, professores, criadores de conteúdo, viajantes e qualquer pessoa que queira salvar vídeos do YouTube para assistir offline. É especialmente útil para aqueles com acesso limitado à internet ou planos de dados limitados.",
         seo: {
-            title: "Baixador de Vídeos do YouTube – Ferramenta Gratuita de Download MP4 e MP3",
-            description: "Cole um link do YouTube para baixar vídeo ou áudio em segundos. Sem anúncios, sem limites, 100% gratuito.",
+            title: "Baixador de Vídeos do YouTube – Ferramenta Gratuita para MP4 e MP3",
+            description: "Cole o link do YouTube para baixar vídeo ou áudio em segundos. Sem anúncios, sem limites, 100% grátis.",
             keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            ogTitle: "Baixador de Vídeos do YouTube – Ferramenta Gratuita para MP4 e MP3",
+            ogDescription: "Cole o link do YouTube para baixar vídeo ou áudio em segundos. Sem anúncios, sem limites, 100% grátis."
         },
     },
     ko: {
@@ -438,11 +438,11 @@ export const messages = {
         faq5Question: "5. 이 비디오 다운로더를 사용하면 누가 혜택을 받을 수 있나요?",
         faq5Answer: "우리의 다운로더는 학생, 교사, 콘텐츠 제작자, 여행자 및 유튜브 비디오를 오프라인으로 보기 위해 저장하고 싶은 모든 사람에게 완벽합니다. 인터넷 접근이 제한적이거나 제한된 데이터 요금제를 가진 사람들에게 특히 유용합니다.",
         seo: {
-            title: "유튜브 비디오 다운로더 – 무료 MP4 및 MP3 다운로드 도구",
-            description: "유튜브 링크를 붙여넣어 몇 초 만에 비디오나 오디오를 다운로드하세요. 광고 없음, 제한 없음, 100% 무료.",
+            title: "YouTube 동영상 다운로더 – 무료 MP4 및 MP3 다운로드 도구",
+            description: "YouTube 링크를 붙여넣으면 동영상 또는 오디오를 바로 다운로드할 수 있습니다. 광고 없음, 완전 무료.",
             keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            ogTitle: "YouTube 동영상 다운로더 – 무료 MP4 및 MP3 다운로드 도구",
+            ogDescription: "YouTube 링크를 붙여넣으면 동영상 또는 오디오를 바로 다운로드할 수 있습니다. 광고 없음, 완전 무료."
         },
     },
     ja: {
@@ -512,11 +512,11 @@ export const messages = {
         faq5Question: "5. この動画ダウンローダーを使用することで誰が恩恵を受けられますか？",
         faq5Answer: "私たちのダウンローダーは、学生、教師、コンテンツクリエイター、旅行者、そしてYouTube動画をオフラインで視聴するために保存したいすべての人に最適です。インターネットアクセスが制限されている人や制限付きデータプランのユーザーに特に役立ちます。",
         seo: {
-            title: "YouTube動画ダウンローダー – 無料MP4・MP3ダウンロードツール",
-            description: "YouTubeリンクを貼り付けて数秒で動画や音声をダウンロード。広告なし、制限なし、100%無料。",
+            title: "YouTube動画ダウンローダー – MP4とMP3無料保存ツール",
+            description: "YouTubeリンクを貼り付けるだけで動画や音声をすぐに保存。広告なし、制限なし、完全無料。",
             keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            ogTitle: "YouTube動画ダウンローダー – MP4とMP3無料保存ツール",
+            ogDescription: "YouTubeリンクを貼り付けるだけで動画や音声をすぐに保存。広告なし、制限なし、完全無料。"
         },
     },
     'zh-TW': {
@@ -586,11 +586,11 @@ export const messages = {
         faq5Question: "5. 誰能從使用這個影片下載器中受益？",
         faq5Answer: "我們的下載器非常適合學生、教師、內容創作者、旅行者以及想要保存 YouTube 影片以便離線觀看的任何人。對於網路訪問受限或使用限制數據方案的用戶特別有用。",
         seo: {
-            title: "YouTube 影片下載器 – 免費 MP4 和 MP3 下載工具",
+            title: "YouTube 影片下載器 – 免費下載 MP4 或 MP3 工具",
             description: "貼上 YouTube 連結，幾秒內即可下載影片或音訊。無廣告、無限制、100% 免費。",
             keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            ogTitle: "YouTube 影片下載器 – 免費下載 MP4 或 MP3 工具",
+            ogDescription: "貼上 YouTube 連結，幾秒內即可下載影片或音訊。無廣告、無限制、100% 免費。"
         },
     },
     id: {
@@ -663,8 +663,8 @@ export const messages = {
             title: "Pengunduh Video YouTube – Alat Unduh MP4 & MP3 Gratis",
             description: "Tempel tautan YouTube untuk mengunduh video atau audio dalam hitungan detik. Tanpa iklan, tanpa batas, 100% gratis.",
             keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            ogTitle: "Pengunduh Video YouTube – Unduh MP4 & MP3 Gratis",
+            ogDescription: "Tempel tautan YouTube untuk mengunduh video atau audio. Gratis, tanpa iklan, tanpa batasan."
         },
     },
     th: {
@@ -734,11 +734,11 @@ export const messages = {
         faq5Question: "5. ใครบ้างที่สามารถได้รับประโยชน์จากตัวดาวน์โหลดวิดีโอนี้?",
         faq5Answer: "ตัวดาวน์โหลดของเราเหมาะสำหรับนักเรียน ครู ผู้สร้างเนื้อหา นักเดินทาง และทุกคนที่ต้องการบันทึกวิดีโอ YouTube เพื่อดูแบบออฟไลน์ มีประโยชน์อย่างยิ่งสำหรับผู้ใช้ที่มีการเข้าถึงอินเทอร์เน็ตจำกัดหรือแพ็คเกจข้อมูลจำกัด",
         seo: {
-            title: "ตัวดาวน์โหลดวิดีโอ YouTube – เครื่องมือดาวน์โหลด MP4 และ MP3 ฟรี",
-            description: "วางลิงก์ YouTube เพื่อดาวน์โหลดวิดีโอหรือเสียงในไม่กี่วินาที ไม่มีโฆษณา ไม่มีข้อจำกัด 100% ฟรี",
+            title: "เครื่องมือดาวน์โหลดวิดีโอ YouTube – ดาวน์โหลด MP4 และ MP3 ฟรี",
+            description: "วางลิงก์ YouTube เพื่อดาวน์โหลดวิดีโอหรือเสียงได้ทันที ฟรี ไม่มีโฆษณา ไม่จำกัด.",
             keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            ogTitle: "เครื่องมือดาวน์โหลดวิดีโอ YouTube – ดาวน์โหลด MP4 และ MP3 ฟรี",
+            ogDescription: "วางลิงก์ YouTube เพื่อดาวน์โหลดวิดีโอหรือเสียงได้ทันที ฟรี ไม่มีโฆษณา ไม่จำกัด."
         },
     },
     vi: {
@@ -811,8 +811,8 @@ export const messages = {
             title: "Trình tải xuống video YouTube – Công cụ tải xuống MP4 & MP3 miễn phí",
             description: "Dán liên kết YouTube để tải xuống video hoặc âm thanh trong vài giây. Không quảng cáo, không giới hạn, 100% miễn phí.",
             keywords: "",
-            ogTitle: "",
-            ogDescription: ""
+            ogTitle: "Trình tải video YouTube – Tải MP4 & MP3 miễn phí",
+            ogDescription: "Dán liên kết YouTube để tải xuống video hoặc âm thanh trong vài giây. Miễn phí, không giới hạn, không quảng cáo."
         },
     },
 };
