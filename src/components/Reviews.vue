@@ -1,49 +1,45 @@
 <template>
-    <div class="carousel-container">
-      <div class="carousel" ref="carousel">
-        <div
-          class="carousel-item"
-          v-for="(review, index) in reviews"
-          :key="index"
-          :class="{'active': activeIndex === index}"
-        >
-          <div class="quote-icon">“</div>
-          <div class="review-content">
-            <p>{{ review.text }}</p>
-          </div>
-          <div class="review-author">
-            <span>{{ review.author }}</span>
-          </div>
+  <div class="carousel-container">
+    <div class="carousel" ref="carousel">
+      <div
+        class="carousel-item"
+        v-for="(review, index) in $tm('reviews')"
+        :key="index"
+        :class="{'active': activeIndex === index}"
+      >
+        <div class="review-author">
+          <span>{{ review.author }}</span>
+        </div>
+        <div class="review-content">
+          <p>{{ review.text }}</p>
         </div>
       </div>
     </div>
-  </template>
+  </div>
+</template>
+
   
   <script>
   export default {
     data() {
       return {
         activeIndex: 0, // 当前卡片索引
-        reviews: [
-          { text: "Perfect for saving my favorite videos! Fast downloads and super simple to use. No registration needed.", author: "Sarah_Bennett92" },
-          { text: "This tool is great! I love how easy it is to download videos in various formats.", author: "John_Doe" },
-          { text: "I’ve been using this for months, and it always works perfectly.", author: "Jane_Smith" },
-          { text: "Fast and reliable. The best video downloader!", author: "Michael_Johnson" },
-          { text: "Easy to use and very effective for saving content.", author: "David_Lee" },
-          { text: "Highly recommended! Works flawlessly for all my videos.", author: "Emma_Wilson" }
-        ]
       };
     },
     mounted() {
-      this.startAutoScroll();
+      if (this.$route.path === '/') {
+        this.startAutoScroll();
+      }
     },
     methods: {
       startAutoScroll() {
         setInterval(() => {
-          this.activeIndex = (this.activeIndex + 1) % this.reviews.length;
+          if (this.$route.path === '/' && this.$tm ) {
+          this.activeIndex = (this.activeIndex + 1) % this.$tm('reviews').length;
           this.$nextTick(() => {
             this.scrollToCurrent();
           });
+        }
         }, 3000); // 每3秒切换一次卡片
       },
       scrollToCurrent() {

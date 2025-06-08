@@ -1,17 +1,15 @@
 <template>
     <section class="how-to-convert">
-      <h2 class="title">How to Convert YouTube Video to MP4</h2>
+      <h2 class="title">{{ $t("howToConvertTitle") }}</h2>
       <p class="description">
-        Imagine being on a long flight or in a remote area with no internet access. Streaming your favorite video becomes impossible, right? 
-        That’s where offline viewing saves the day. By downloading videos in advance, you can enjoy uninterrupted entertainment anytime, anywhere. 
-        A YouTube to MP4 converter makes this process seamless. It lets you download YouTube videos quickly and efficiently.
+        {{ $t("howToConvertDescription") }}
       </p>
       
       <div class="steps">
         <div v-for="(step, index) in steps" :key="index" class="step">
           <img :src="step.image" :alt="step.title" class="step-image"/>
           <p class="step-text">
-            <span class="step-number">Step {{ index + 1 }}.</span> {{ step.title }}
+            <span class="step-number">{{ $t("step") }} {{ index + 1 }}.</span> {{ $t(step.title) }}
           </p>
         </div>
       </div>
@@ -23,15 +21,14 @@
     data() {
       return {
         steps: [
-          { image: require("@/assets/yt_convert_deps1.png"), title: "Copy the YouTube Video URL" },
-          { image: require("@/assets/yt_convert_deps2.png"), title: "Directly click on the ‘Download’ button" },
-          { image: require("@/assets/yt_convert_deps3.png"), title: "Wait for minutes and save the video" }
+        { image: require("@/assets/yt_convert_deps1.png"), title: "copyUrl" },
+        { image: require("@/assets/yt_convert_deps2.png"), title: "clickDownload" },
+        { image: require("@/assets/yt_convert_deps3.png"), title: "saveVideo" }
         ]
       };
     }
   };
   </script>
-  
   <style scoped>
   .how-to-convert {
     text-align: center;
@@ -61,15 +58,17 @@
     align-items: center;
     margin-top: 40px;
     gap: 20px;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
   }
   
   .step {
-    flex: 1;
+    flex: 1 1 30%; /* Ensures each step takes 30% width on larger screens */
     text-align: center;
+    margin-bottom: 30px; /* Adds spacing between steps */
   }
   
   .step-image {
-    max-width: 290px;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
   }
@@ -84,5 +83,29 @@
     font-weight: bold;
     color: #0d1c44;
   }
-  </style>
   
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    .steps {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+  
+    .step {
+      flex: 1 1 100%; /* Take full width */
+      margin-bottom: 15px;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .description {
+      font-size: 0.85rem;
+      width: 90%;
+    }
+  
+    .step-text {
+      font-size: 0.95rem;
+    }
+  }
+  </style>
