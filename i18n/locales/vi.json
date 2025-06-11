@@ -1,0 +1,320 @@
+{
+  "siteName": "Youtubetomp4.pro",
+  "videoDownloader": "Trình tải xuống video YouTube",
+  "mp3Converter": "Trình chuyển đổi YouTube sang MP3",
+  "title": "Bộ chuyển đổi YouTube sang MP4",
+  "description": "Dán URL và nhanh chóng chuyển đổi YouTube sang MP4. Luôn miễn phí, luôn hoạt động, không có quảng cáo.",
+  "download": "TẢI XUỐNG",
+  "tip": "Vui lòng tôn trọng bản quyền khi tải xuống nội dung. Công cụ này không được thiết kế để tải nhạc có bản quyền.",
+  "formats": "Tất cả định dạng",
+  "formatsTip": "Nhấp để lưu",
+  "reviews": [
+    {
+      "text": "Perfeito para salvar meus vídeos favoritos! Downloads rápidos e super simples de usar. Não é necessário registro.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Esta ferramenta é ótima! Eu adoro como é fácil baixar vídeos em vários formatos.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Eu uso isso há meses, e sempre funciona perfeitamente.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Rápido e confiável. O melhor downloader de vídeos!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Fácil de usar e muito eficaz para salvar conteúdo.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Altamente recomendado! Funciona perfeitamente com todos os meus vídeos.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "howToConvertTitle": "Cách chuyển đổi video YouTube thành MP4",
+  "howToConvertDescription": "Dán URL và nhanh chóng chuyển đổi YouTube thành MP4. Luôn miễn phí, luôn hoạt động, không có quảng cáo.",
+  "step": "Bước",
+  "copyUrl": "Sao chép URL video YouTube",
+  "clickDownload": "Nhấp vào nút 'Tải xuống'",
+  "saveVideo": "Chờ vài phút và lưu video",
+  "features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Tỷ lệ thành công cao trong việc tải video YouTube",
+      "description": "Tải video từ YouTube dễ dàng với trình chuyển đổi tiên tiến của chúng tôi, với tỷ lệ thành công hàng đầu trong ngành và đảm bảo chất lượng cho mọi loại nội dung."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Trình chuyển đổi YouTube sang MP4 siêu nhanh",
+      "description": "Chuyển đổi video YouTube thành tệp MP4 chất lượng cao chỉ trong vài giây. Trải nghiệm tải xuống tức thì mà không làm giảm chất lượng video."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% an toàn và bảo vệ",
+      "description": "Tải video YouTube một cách an toàn với trình chuyển đổi sạch sẽ và tập trung vào sự riêng tư của chúng tôi. Không theo dõi, không phần mềm độc hại - chỉ có sự đơn giản."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Tải xuống không giới hạn",
+      "description": "Chuyển đổi và lưu bao nhiêu video YouTube tùy thích, không có thời gian chờ hoặc giới hạn tải xuống phiền phức."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Không cần đăng nhập và không cần cài đặt phần mềm",
+      "description": "Bắt đầu chuyển đổi video mà không cần tạo tài khoản hoặc tải bất cứ thứ gì. Chỉ cần dán liên kết của bạn và xong - không rắc rối."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Hỗ trợ nhiều định dạng",
+      "description": "Tải xuống dưới dạng MP4, M4A hoặc WEBM. Bất kỳ định dạng hoặc chất lượng nào bạn muốn, chúng tôi đều hỗ trợ."
+    }
+  ],
+  "downloadNow": "Tải xuống ngay >>",
+  "featuresConverter": "Tính năng của Trình chuyển đổi Video YouTube",
+  "benefits": {
+    "title": "Lợi ích của việc sử dụng YouTube để MP4 Converter",
+    "convenience": {
+      "title": "Sự tiện lợi và khả năng truy cập",
+      "description": "Bạn đã từng bị mắc kẹt ở đâu đó mà không có internet và mong muốn có thể xem video yêu thích của mình? Trình chuyển đổi YouTube sang MP4 sẽ giải quyết vấn đề này."
+    },
+    "avoidAds": {
+      "title": "Tránh Quảng Cáo",
+      "description": "Quảng cáo có thể gây khó chịu, đặc biệt là khi chúng làm gián đoạn video yêu thích của bạn. Với trình tải xuống YouTube MP4, bạn có thể bỏ qua hoàn toàn quảng cáo."
+    },
+    "saveData": {
+      "title": "Tiết kiệm Dữ liệu và Lưu trữ",
+      "description": "Xem video trực tuyến có thể nhanh chóng tiêu tốn dữ liệu di động của bạn, đặc biệt là nếu bạn có một kế hoạch hạn chế."
+    },
+    "moreFromDownloads": {
+      "title": "Nhận nhiều hơn từ các Tải xuống của bạn",
+      "description": "Tạm biệt tải chậm và việc sử dụng dữ liệu! Đây là cách bạn có thể tối ưu hóa video ngoại tuyến của mình."
+    }
+  },
+  "faqTitle": "Câu hỏi thường gặp",
+  "faq1Question": "1. Sử dụng công cụ chuyển đổi YouTube sang MP4 có hợp pháp không?",
+  "faq1Answer": "Điều này phụ thuộc vào video. Bạn có thể tải video hợp pháp có giấy phép Creative Commons hoặc những video được phép rõ ràng để sử dụng ngoại tuyến. Tránh tải video có bản quyền mà không có sự cho phép để không vi phạm pháp luật. Mẹo: Luôn kiểm tra điều khoản sử dụng video trước khi tải xuống.",
+  "faq2Question": "2. Tôi có thể sử dụng công cụ chuyển đổi YouTube sang MP4 trên điện thoại không?",
+  "faq2Answer": "Có! Nó hoạt động trên các thiết bị di động. Bạn có thể sử dụng ứng dụng hoặc các trang web thân thiện với di động để tải video trực tiếp xuống điện thoại của mình. Chỉ cần dán liên kết video, chọn MP4 và nhấn tải xuống.",
+  "faq3Question": "3. Độ phân giải tốt nhất để tải video YouTube là gì?",
+  "faq3Answer": "Điều này tùy thuộc vào nhu cầu của bạn. Nếu bạn muốn phát lại chất lượng cao, chọn HD (720p) hoặc 4K. Nếu bạn muốn tiết kiệm dung lượng lưu trữ, chọn độ phân giải thấp hơn như 480p. Mẹo: Cân bằng chất lượng và kích thước tệp dựa trên dung lượng lưu trữ của thiết bị của bạn.",
+  "faq4Question": "4. Công cụ chuyển đổi YouTube sang MP4 miễn phí có an toàn không?",
+  "faq4Answer": "Mặc dù nhiều công cụ chuyển đổi miễn phí có thể đáng nghi ngờ, chúng tôi rất coi trọng sự an toàn của bạn. Công cụ chuyển đổi của chúng tôi hoàn toàn hoạt động trong trình duyệt của bạn mà không cần tải xuống hoặc pop-up đáng ngờ. Chúng tôi sử dụng mã hóa HTTPS an toàn và không bao giờ lưu trữ dữ liệu cá nhân hoặc lịch sử xem của bạn. Ngoài ra, chúng tôi kiểm tra phần mềm độc hại thường xuyên và giữ dịch vụ của mình sạch sẽ. Không có phần mềm gián điệp, không có phần mềm thêm vào - chỉ có chuyển đổi video đáng tin cậy.",
+  "faq5Question": "5. Ai sử dụng công cụ chuyển đổi YouTube sang MP4?",
+  "faq5Answer": "Công cụ chuyển đổi của chúng tôi lý tưởng cho tất cả các loại người dùng. Những người sáng tạo nội dung, sinh viên, giáo viên, du khách, chuyên gia kinh doanh và người xem bình thường sẽ yêu thích nó. Bạn có thể chuyển đổi video mà không giới hạn. Không cần phải tạo tài khoản hoặc tải xuống phần mềm.",
+  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_videoDownloader": "Trình tải xuống video YouTube",
+  "mp3_mp3Converter": "Trình chuyển đổi YouTube sang MP3",
+  "mp3_title": "Trình chuyển đổi YouTube sang MP3",
+  "mp3_description": "Trích xuất âm thanh từ video YouTube với trình chuyển đổi MP3 mạnh mẽ của chúng tôi. Miễn phí, nhanh chóng và không cần đăng ký.",
+  "mp3_download": "CHUYỂN ĐỔI",
+  "mp3_tip": "Vui lòng tôn trọng bản quyền. Công cụ này được thiết kế chỉ cho mục đích sử dụng cá nhân và giáo dục.",
+  "mp3_tooltipText": "Công cụ này chỉ có thể được sử dụng cho mục đích hợp pháp, không vi phạm bản quyền. Nếu bạn là người tạo nội dung và muốn ngăn video của bạn bị tải xuống bằng công cụ này, chỉ cần thêm #nodownload vào thẻ hoặc mô tả video của bạn.",
+  "mp3_formats": "Định dạng âm thanh",
+  "mp3_formatsTip": "Nhấp để tải xuống",
+  "mp3_reviews": [
+    {
+      "text": "Công cụ tuyệt vời để tạo danh sách phát của tôi! Chất lượng âm thanh hoàn hảo và chuyển đổi siêu nhanh.",
+      "author": "NgườiYêuNhạc2023"
+    },
+    {
+      "text": "Tôi sử dụng nó hàng ngày để lưu podcast yêu thích. Chất lượng MP3 tuyệt vời!",
+      "author": "NgườiHâmMộPodcast"
+    },
+    {
+      "text": "Trình chuyển đổi âm thanh tốt nhất tôi từng tìm thấy. Không quảng cáo, không chờ đợi, chỉ có chất lượng thuần túy.",
+      "author": "NgườiYêuÂmThanh"
+    },
+    {
+      "text": "Hoàn hảo để lưu âm thanh từ video giáo dục. Rất đáng tin cậy!",
+      "author": "TrợLýHọcSinh"
+    },
+    {
+      "text": "Giao diện đơn giản và chất lượng âm thanh tuyệt vời. Rất được khuyến nghị!",
+      "author": "NgườiĐánhGiáKỹThuật"
+    },
+    {
+      "text": "Hoạt động hoàn hảo mỗi lần. Trình chuyển đổi MP3 tốt nhất!",
+      "author": "NhàSảnXuấtÂmNhạc"
+    }
+  ],
+  "mp3_howToConvertTitle": "Cách chuyển đổi YouTube sang MP3",
+  "mp3_howToConvertDescription": "Chuyển đổi video YouTube yêu thích của bạn thành tệp âm thanh MP3 chất lượng cao trong vài giây. Cho dù bạn đang tạo danh sách phát, lưu podcast hay lưu trữ nội dung giáo dục, trình chuyển đổi của chúng tôi giúp dễ dàng trích xuất âm thanh từ bất kỳ video YouTube nào.",
+  "mp3_step": "Bước",
+  "mp3_copyUrl": "Sao chép URL video YouTube",
+  "mp3_clickDownload": "Nhấp vào nút 'Chuyển đổi'",
+  "mp3_saveAudio": "Tải xuống tệp MP3 của bạn",
+  "mp3_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Chất lượng âm thanh cao cấp",
+      "description": "Trích xuất âm thanh trong suốt từ video YouTube với công nghệ chuyển đổi tiên tiến của chúng tôi, đảm bảo chất lượng âm thanh tốt nhất có thể cho tệp MP3 của bạn."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Chuyển đổi siêu nhanh",
+      "description": "Chuyển đổi video YouTube sang MP3 trong vài giây. Hệ thống được tối ưu hóa của chúng tôi đảm bảo xử lý nhanh chóng mà không ảnh hưởng đến chất lượng âm thanh."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% An toàn",
+      "description": "Chuyển đổi video YouTube sang MP3 an toàn bằng nền tảng của chúng tôi. Không có phần mềm độc hại, không theo dõi – chỉ có chuyển đổi âm thanh thuần túy."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Chuyển đổi không giới hạn",
+      "description": "Chuyển đổi bao nhiêu video YouTube sang MP3 tùy thích, không có giới hạn hàng ngày hoặc hạn chế về tải xuống âm thanh của bạn."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Không cần đăng ký",
+      "description": "Bắt đầu chuyển đổi video sang MP3 ngay lập tức mà không cần tạo tài khoản. Chỉ cần dán liên kết của bạn và nhận tệp âm thanh của bạn."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Nhiều định dạng âm thanh",
+      "description": "Tải xuống ở định dạng MP3, M4A hoặc các định dạng âm thanh khác. Chọn chất lượng phù hợp nhất với nhu cầu của bạn."
+    }
+  ],
+  "mp3_downloadNow": "Chuyển đổi ngay >>",
+  "mp3_featuresConverter": "Tính năng của trình chuyển đổi YouTube sang MP3",
+  "mp3_benefits": {
+    "title": "Lợi ích của việc sử dụng trình chuyển đổi YouTube sang MP3",
+    "convenience": {
+      "title": "Tự do âm thanh",
+      "description": "Tạo thư viện âm thanh cá nhân của bạn từ video YouTube. Nghe nội dung yêu thích của bạn ngoại tuyến, cho dù là nhạc, podcast hay tài liệu giáo dục. Trình chuyển đổi của chúng tôi đảm bảo bạn có thể tận hưởng âm thanh chất lượng cao ở bất cứ đâu, bất cứ lúc nào."
+    },
+    "avoidAds": {
+      "title": "Nghe không quảng cáo",
+      "description": "Tận hưởng phát âm thanh không bị gián đoạn bởi quảng cáo. Sau khi chuyển đổi video sang MP3, bạn có thể nghe mà không bị gián đoạn bởi quảng cáo, tạo trải nghiệm nghe mượt mà."
+    },
+    "saveData": {
+      "title": "Lưu trữ hiệu quả",
+      "description": "Tệp MP3 nhỏ hơn nhiều so với tệp video, cho phép bạn lưu trữ nhiều nội dung hơn trên thiết bị của mình. Hoàn hảo để tạo thư viện nhạc rộng lớn hoặc bộ sưu tập âm thanh mà không lo lắng về không gian lưu trữ."
+    },
+    "moreFromDownloads": {
+      "title": "Trải nghiệm âm thanh nâng cao",
+      "description": "Biến đổi trải nghiệm YouTube của bạn với những lợi ích âm thanh này: 1. Tạo danh sách phát hoàn hảo của bạn. 2. Nghe ở mọi nơi. 3. Tiết kiệm băng thông."
+    }
+  },
+  "mp3_faqTitle": "Câu hỏi thường gặp",
+  "mp3_faq1Question": "1. Việc chuyển đổi video YouTube sang MP3 có hợp pháp không?",
+  "mp3_faq1Answer": "Tính hợp pháp phụ thuộc vào nội dung và mục đích sử dụng. Bạn có thể hợp pháp chuyển đổi video có giấy phép Creative Commons hoặc được phép rõ ràng để trích xuất âm thanh. Luôn tôn trọng luật bản quyền và chỉ sử dụng âm thanh đã chuyển đổi cho mục đích cá nhân.",
+  "mp3_faq2Question": "2. Tôi có thể mong đợi chất lượng âm thanh gì từ việc chuyển đổi MP3?",
+  "mp3_faq2Answer": "Trình chuyển đổi của chúng tôi cung cấp đầu ra MP3 chất lượng cao, thường lên đến 320kbps. Chất lượng thực tế phụ thuộc vào chất lượng âm thanh của video nguồn. Chúng tôi duy trì chất lượng âm thanh tốt nhất có thể trong quá trình chuyển đổi.",
+  "mp3_faq3Question": "3. Tôi có thể chuyển đổi video YouTube sang MP3 trên thiết bị di động của mình không?",
+  "mp3_faq3Answer": "Có! Trình chuyển đổi của chúng tôi hoạt động trên tất cả các thiết bị, bao gồm điện thoại thông minh và máy tính bảng. Chỉ cần dán URL YouTube và chuyển đổi sang MP3 trực tiếp trên thiết bị di động của bạn.",
+  "mp3_faq4Question": "4. Có giới hạn số lượng video tôi có thể chuyển đổi sang MP3 không?",
+  "mp3_faq4Answer": "Không, không có giới hạn! Bạn có thể chuyển đổi bao nhiêu video YouTube sang MP3 tùy thích. Dịch vụ của chúng tôi hoàn toàn miễn phí và không giới hạn.",
+  "mp3_faq5Question": "5. Ai có thể sử dụng trình chuyển đổi YouTube sang MP3?",
+  "mp3_faq5Answer": "Trình chuyển đổi của chúng tôi hoàn hảo cho người yêu nhạc, người hâm mộ podcast, học sinh, giáo viên và bất kỳ ai muốn tận hưởng nội dung YouTube ở định dạng âm thanh. Tạo danh sách phát, lưu nội dung giáo dục hoặc xây dựng thư viện âm thanh cá nhân của bạn - tất cả đều không giới hạn.",
+  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_videoDownloader": "Trình tải xuống video YouTube miễn phí",
+  "downloader_mp3Converter": "Trình chuyển đổi YouTube sang MP3",
+  "downloader_title": "Trình tải xuống video YouTube miễn phí",
+  "downloader_description": "Tải xuống video YouTube ngay lập tức với trình tải xuống miễn phí của chúng tôi. Không cần đăng ký, không quảng cáo, tải xuống không giới hạn.",
+  "downloader_download": "Tải xuống ngay",
+  "downloader_tip": "Vui lòng tôn trọng bản quyền. Công cụ này được thiết kế để tải xuống video cho mục đích sử dụng cá nhân.",
+  "downloader_tooltipText": "Công cụ này chỉ có thể được sử dụng cho mục đích hợp pháp và không vi phạm. Nếu bạn là người tạo nội dung và muốn ngăn video của mình được tải xuống bằng công cụ này, chỉ cần thêm #nodownload vào thẻ hoặc mô tả video của bạn.",
+  "downloader_audioOnly": "Chỉ âm thanh",
+  "downloader_formats": "Định dạng tải xuống",
+  "downloader_formatsTip": "Nhấp để tải xuống",
+  "downloader_reviews": [
+    {
+      "text": "Đây là trình tải xuống video YouTube miễn phí tốt nhất tôi từng tìm thấy! Hoạt động hoàn hảo mỗi lần và tiết kiệm rất nhiều thời gian cho tôi.",
+      "author": "NgườiYêuVideo2023"
+    },
+    {
+      "text": "Sử dụng hàng ngày để lưu nội dung giáo dục. Nhanh và ổn định!",
+      "author": "NgườiTạoNộiDungGiáoDục"
+    },
+    {
+      "text": "Cuối cùng cũng tìm thấy trình tải xuống miễn phí thực sự hoạt động! Không có cửa sổ bật lên hoặc chuyển hướng khó chịu.",
+      "author": "NgườiKhámPháCôngNghệ"
+    },
+    {
+      "text": "Hoàn hảo để lưu video âm nhạc yêu thích của tôi. Chất lượng tuyệt vời!",
+      "author": "NgườiYêuÂmNhạc"
+    },
+    {
+      "text": "Lựa chọn hoàn hảo để tải xuống video khi đi du lịch. Hoạt động trên mọi thiết bị!",
+      "author": "BloggerDuLịch"
+    },
+    {
+      "text": "Trình tải xuống video YouTube miễn phí nhanh nhất tôi từng sử dụng. Rất được khuyến nghị!",
+      "author": "NgườiDuLịchSố"
+    }
+  ],
+  "downloader_howToConvertTitle": "Cách tải xuống video YouTube",
+  "downloader_howToConvertDescription": "Muốn lưu video YouTube yêu thích của bạn để xem ngoại tuyến? Trình tải xuống video miễn phí của chúng tôi làm cho điều đó trở nên dễ dàng. Cho dù là lưu nội dung giáo dục, video âm nhạc hay blog yêu thích của bạn, tải xuống trong vài giây chỉ với vài cú nhấp chuột.",
+  "downloader_step": "Bước",
+  "downloader_copyUrl": "Sao chép URL video YouTube",
+  "downloader_clickDownload": "Nhấp vào nút 'Tải xuống ngay'",
+  "downloader_saveVideo": "Chọn định dạng mong muốn và lưu",
+  "downloader_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Tải xuống ngay lập tức",
+      "description": "Tải xuống bất kỳ video YouTube nào ngay lập tức với máy chủ tốc độ cao. Không chờ đợi, không đệm - chỉ tải xuống nhanh chóng và dễ dàng."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Nhiều tùy chọn chất lượng",
+      "description": "Chọn từ nhiều chất lượng video, từ 360p đến 4K. Chọn chất lượng hoàn hảo cho thiết bị và bộ nhớ của bạn."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% Miễn phí và An toàn",
+      "description": "Tận hưởng tải xuống video hoàn toàn miễn phí trên nền tảng an toàn. Không phí ẩn, không phần mềm độc hại - chỉ tải xuống an toàn và đáng tin cậy."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Tải xuống không giới hạn",
+      "description": "Tải xuống video nhiều như bạn muốn. Không giới hạn hàng ngày, không hạn chế - tải xuống nhiều như bạn muốn."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Không cần đăng ký",
+      "description": "Bắt đầu tải xuống ngay lập tức mà không cần tạo tài khoản. Chỉ cần dán URL và tải xuống - đơn giản như vậy."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Hoạt động trên mọi thiết bị",
+      "description": "Tải xuống video trên máy tính để bàn, máy tính bảng hoặc điện thoại - trình tải xuống của chúng tôi hoạt động mượt mà trên mọi nền tảng."
+    }
+  ],
+  "downloader_downloadNow": "Tải xuống ngay >>",
+  "downloader_featuresConverter": "Tính năng của Trình tải xuống video YouTube miễn phí",
+  "downloader_benefits": {
+    "title": "Tại sao chọn Trình tải xuống video YouTube miễn phí của chúng tôi",
+    "convenience": {
+      "title": "Tải xuống mọi lúc, mọi nơi",
+      "description": "Không còn lo lắng về kết nối internet. Tải xuống video yêu thích của bạn và xem ngoại tuyến bất cứ lúc nào. Hoàn hảo cho các chuyến bay dài, chuyến đi đường bộ hoặc khu vực có kết nối internet kém."
+    },
+    "avoidAds": {
+      "title": "Trải nghiệm xem không quảng cáo",
+      "description": "Tận hưởng video đã tải xuống mà không bị gián đoạn. Không quảng cáo, không cửa sổ bật lên, không phiền nhiễu - chỉ giải trí thuần túy."
+    },
+    "saveData": {
+      "title": "Tiết kiệm dữ liệu di động",
+      "description": "Tải xuống video qua WiFi và xem sau mà không cần sử dụng dữ liệu di động. Hoàn hảo cho người dùng có gói dữ liệu hạn chế."
+    },
+    "moreFromDownloads": {
+      "title": "Nhận nhiều hơn từ tải xuống của bạn",
+      "description": "Tận dụng tối đa video đã tải xuống: 1. Tạo thư viện video Tạo bộ sưu tập cá nhân các video yêu thích của bạn 2. Xem không giới hạn Tận hưởng video mọi lúc, mọi nơi, không cần internet 3. Chia sẻ với bạn bè Dễ dàng chia sẻ video đã tải xuống với bạn bè và gia đình"
+    }
+  },
+  "downloader_faqTitle": "Câu hỏi thường gặp",
+  "downloader_faq1Question": "1. Việc tải xuống video YouTube có hợp pháp không?",
+  "downloader_faq1Answer": "Điều đó phụ thuộc vào cách bạn sử dụng video đã tải xuống. Bạn có thể tải xuống video hợp pháp cho mục đích sử dụng cá nhân, mục đích giáo dục hoặc nội dung thuộc phạm vi công cộng. Luôn tuân thủ luật bản quyền và điều khoản dịch vụ của YouTube.",
+  "downloader_faq2Question": "2. Tôi có thể tải xuống video ở chất lượng nào?",
+  "downloader_faq2Answer": "Trình tải xuống của chúng tôi hỗ trợ nhiều chất lượng video từ 360p đến 4K, tùy thuộc vào chất lượng của video gốc. Bạn có thể chọn chất lượng phù hợp với nhu cầu và bộ nhớ thiết bị của mình.",
+  "downloader_faq3Question": "3. Tôi có thể tải xuống video trên thiết bị di động không?",
+  "downloader_faq3Answer": "Có! Trình tải xuống video của chúng tôi hoạt động trên mọi thiết bị, bao gồm điện thoại thông minh và máy tính bảng. Chỉ cần truy cập trang web của chúng tôi trong trình duyệt di động và bắt đầu tải xuống video ngay lập tức.",
+  "downloader_faq4Question": "4. Trình tải xuống video YouTube này có thực sự miễn phí không?",
+  "downloader_faq4Answer": "Có, trình tải xuống của chúng tôi hoàn toàn miễn phí. Không phí ẩn, không tính năng cao cấp, không cần đăng ký. Chúng tôi duy trì dịch vụ thông qua quảng cáo không xâm lấn tối thiểu.",
+  "downloader_faq5Question": "5. Ai có thể hưởng lợi từ trình tải xuống video này?",
+  "downloader_faq5Answer": "Trình tải xuống của chúng tôi hoàn hảo cho học sinh, giáo viên, người tạo nội dung, du khách và bất kỳ ai muốn lưu video YouTube để xem ngoại tuyến. Đặc biệt hữu ích cho người dùng có quyền truy cập internet hạn chế hoặc gói dữ liệu hạn chế."
+}

@@ -1,0 +1,279 @@
+{
+  "siteName": "Youtubetomp4.pro",
+  "videoDownloader": "유튜브 비디오 다운로더",
+  "mp3Converter": "유튜브 MP3 변환기",
+  "title": "유튜브 MP4 변환기",
+  "description": "URL을 붙여넣고 YouTube를 MP4로 빠르게 변환하세요. 항상 무료, 항상 작동, 광고 없음.",
+  "download": "다운로드",
+  "tip": "저작권을 준수하세요. 이 도구는 저작권이 있는 음악을 다운로드하는 용도가 아닙니다.",
+  "formats": "모든 형식",
+  "formatsTip": "저장하려면 클릭하세요",
+  "reviews": [
+    {
+      "text": "Perfeito para salvar meus vídeos favoritos! Downloads rápidos e super simples de usar. Não é necessário registro.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Esta ferramenta é ótima! Eu adoro como é fácil baixar vídeos em vários formatos.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Eu uso isso há meses, e sempre funciona perfeitamente.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Rápido e confiável. O melhor downloader de vídeos!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Fácil de usar e muito eficaz para salvar conteúdo.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Altamente recomendado! Funciona perfeitamente com todos os meus vídeos.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "howToConvertTitle": "유튜브 비디오 MP4 변환기",
+  "howToConvertDescription": "URL을 붙여넣고 YouTube를 MP4로 빠르게 변환하세요. 항상 무료, 항상 작동, 광고 없음.",
+  "step": "단계",
+  "copyUrl": "유튜브 비디오 URL 복사",
+  "clickDownload": "‘다운로드’ 버튼을 클릭하세요",
+  "saveVideo": "몇 분 기다렸다가 영상을 저장하세요",
+  "features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "높은 성공률의 YouTube 다운로드",
+      "description": "업계 최고의 성공률과 모든 콘텐츠 유형에 대한 신뢰할 수 있는 품질 보존 기능을 갖춘 고급 변환기를 통해 YouTube 비디오를 손쉽게 다운로드하십시오."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "번개처럼 빠른 YouTube에서 MP4로 변환",
+      "description": "몇 초 만에 YouTube 비디오를 고품질 MP4 파일로 변환하십시오. 비디오 품질을 손상시키지 않으면서 원활하고 즉각적인 다운로드를 경험하십시오."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% 안전하고 보호됨",
+      "description": "우리의 깔끔하고 개인 정보 보호에 집중된 변환기로 YouTube 비디오를 안전하게 다운로드하십시오. 추적, 악성 코드 없음 – 오직 순수한 단순함."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "무제한 다운로드",
+      "description": "원하는 만큼 YouTube 비디오를 변환하고 저장하십시오. 대기 시간 없이 다운로드 제한도 없습니다."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "로그인 없이 소프트웨어 설치 없이",
+      "description": "계정을 만들거나 아무것도 다운로드하지 않고 바로 비디오를 변환하십시오. 링크를 붙여넣기만 하면 준비 완료 – 번거로움 없이."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "여러 형식 지원",
+      "description": "MP4, M4A 또는 WEBM 형식으로 다운로드하십시오. 원하는 형식이나 품질이 무엇이든 저희가 다 도와드립니다."
+    }
+  ],
+  "downloadNow": "지금 다운로드 >>",
+  "featuresConverter": "YouTube 비디오 변환기의 특징",
+  "benefits": {
+    "title": "YouTube를 MP4로 변환하는 이점",
+    "convenience": {
+      "title": "편리함과 접근성",
+      "description": "인터넷에 연결되지 않은 채로 좋아하는 동영상을 보고 싶었던 적이 있나요? YouTube에서 MP4로 변환기를 사용하면 이 문제를 해결할 수 있습니다."
+    },
+    "avoidAds": {
+      "title": "광고 차단",
+      "description": "광고는 특히 좋아하는 동영상을 방해할 때 짜증날 수 있습니다. YouTube MP4 다운로더로 광고를 완전히 건너뛸 수 있습니다."
+    },
+    "saveData": {
+      "title": "데이터 및 저장 공간 절약",
+      "description": "스트리밍 비디오는 특히 제한된 요금제에서 모바일 데이터를 빠르게 소모할 수 있습니다."
+    },
+    "moreFromDownloads": {
+      "title": "다운로드에서 더 많은 것을 얻기",
+      "description": "버퍼링과 데이터 소모를 없애세요! 오프라인 비디오를 최대한 활용하는 방법입니다."
+    }
+  },
+  "faqTitle": "자주 묻는 질문",
+  "faq1Question": "1. YouTube에서 MP4 변환기를 사용하는 것이 합법인가요?",
+  "faq1Answer": "비디오에 따라 다릅니다. Creative Commons 라이센스를 가진 비디오나 오프라인 사용을 명시적으로 허용한 비디오는 합법적으로 다운로드할 수 있습니다. 저작권이 있는 콘텐츠를 허가 없이 다운로드하지 않도록 하여 법적 문제를 피하세요. 팁: 다운로드하기 전에 항상 비디오의 사용 약관을 확인하세요.",
+  "faq2Question": "2. 모바일에서 YouTube MP4 변환기를 사용할 수 있나요?",
+  "faq2Answer": "네! 모바일 기기에서 작동합니다. 앱이나 모바일에 최적화된 웹사이트를 사용하여 비디오를 모바일 기기로 바로 다운로드할 수 있습니다. 비디오 링크를 붙여넣고 MP4를 선택한 후 다운로드를 클릭하세요.",
+  "faq3Question": "3. YouTube 비디오를 다운로드할 때 가장 좋은 해상도는 무엇인가요?",
+  "faq3Answer": "당신의 필요에 따라 다릅니다. 고화질 재생을 원한다면 HD(720p) 또는 4K를 선택하세요. 저장 공간을 절약하려면 480p와 같은 낮은 해상도를 선택하세요. 팁: 기기의 저장 용량에 맞춰 품질과 파일 크기의 균형을 맞추세요.",
+  "faq4Question": "4. 무료 YouTube MP4 변환기는 안전한가요?",
+  "faq4Answer": "많은 무료 변환기가 의심스러울 수 있지만, 우리는 여러분의 안전을 중요하게 생각합니다. 우리의 변환기는 브라우저에서만 작동하며 의심스러운 다운로드나 팝업은 없습니다. 우리는 HTTPS 암호화를 사용하고 여러분의 개인 정보나 시청 기록을 저장하지 않습니다. 또한, 정기적으로 악성 소프트웨어를 검사하고 서비스를 청결하게 유지합니다. 스파이웨어도, 추가 프로그램도 없습니다 - 신뢰할 수 있는 비디오 변환만 제공합니다.",
+  "faq5Question": "5. YouTube에서 MP4 변환기를 사용하는 사람은 누구인가요?",
+  "faq5Answer": "우리의 변환기는 다양한 사용자를 위해 완벽합니다. 콘텐츠 제작자, 학생, 교사, 여행자, 비즈니스 전문가 및 일반 사용자가 좋아할 것입니다. 비디오를 제한 없이 변환할 수 있습니다. 계정을 만들거나 소프트웨어를 다운로드할 필요는 없습니다.",
+  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_videoDownloader": "유튜브 비디오 다운로더",
+  "mp3_mp3Converter": "유튜브 MP3 변환기",
+  "mp3_title": "유튜브 MP3 변환기",
+  "mp3_description": "강력한 MP3 변환기로 유튜브 동영상에서 오디오를 추출하세요. 무료, 빠르고, 회원가입 불필요.",
+  "mp3_download": "변환",
+  "mp3_tip": "저작권을 존중해 주세요. 이 도구는 개인 사용 및 교육 목적으로만 설계되었습니다.",
+  "mp3_tooltipText": "이 도구는 합법적이고 저작권을 침해하지 않는 용도로만 사용할 수 있습니다. 콘텐츠 제작자이고 이 도구를 사용하여 동영상이 다운로드되는 것을 방지하려면 동영상 태그나 설명에 #nodownload를 추가하기만 하면 됩니다.",
+  "mp3_formats": "오디오 형식",
+  "mp3_formatsTip": "다운로드하려면 클릭하세요",
+  "mp3_reviews": [
+    {
+      "text": "내 플레이리스트를 만드는 데 완벽한 도구! 오디오 품질이 완벽하고 변환이 매우 빠릅니다.",
+      "author": "음악애호가2023"
+    },
+    {
+      "text": "좋아하는 팟캐스트를 저장하는 데 매일 사용합니다. MP3 품질이 훌륭합니다!",
+      "author": "팟캐스트팬"
+    },
+    {
+      "text": "찾은 최고의 오디오 변환기. 광고 없음, 대기 없음, 순수한 품질만 제공.",
+      "author": "오디오애호가"
+    },
+    {
+      "text": "교육용 동영상에서 오디오를 저장하는 데 완벽합니다. 매우 신뢰할 수 있습니다!",
+      "author": "학생도우미"
+    },
+    {
+      "text": "간단한 인터페이스와 뛰어난 오디오 품질. 강력 추천!",
+      "author": "기술리뷰어"
+    },
+    {
+      "text": "매번 완벽하게 작동합니다. 최고의 MP3 변환기!",
+      "author": "음악프로듀서"
+    }
+  ],
+  "mp3_howToConvertTitle": "유튜브를 MP3로 변환하는 방법",
+  "mp3_howToConvertDescription": "좋아하는 유튜브 동영상을 몇 초 만에 고품질 MP3 오디오 파일로 변환하세요. 플레이리스트를 만들거나, 팟캐스트를 저장하거나, 교육 콘텐츠를 보관하든, 우리의 변환기는 어떤 유튜브 동영상에서든 오디오를 쉽게 추출할 수 있게 해줍니다.",
+  "mp3_step": "단계",
+  "mp3_copyUrl": "유튜브 동영상 URL 복사",
+  "mp3_clickDownload": "'변환' 버튼 클릭",
+  "mp3_saveAudio": "MP3 파일 다운로드",
+  "mp3_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "프리미엄 오디오 품질",
+      "description": "고급 변환 기술로 유튜브 동영상에서 크리스탈 클리어 오디오를 추출하여 MP3 파일에 최상의 사운드 품질을 보장합니다."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "번개처럼 빠른 변환",
+      "description": "유튜브 동영상을 몇 초 만에 MP3로 변환하세요. 최적화된 시스템으로 오디오 품질을 저하시키지 않고 빠른 처리를 보장합니다."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% 안전",
+      "description": "안전한 플랫폼으로 유튜브 동영상을 MP3로 안전하게 변환하세요. 악성코드 없음, 추적 없음 – 순수한 오디오 변환만 제공합니다."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "무제한 변환",
+      "description": "원하는 만큼 유튜브 동영상을 MP3로 변환하세요. 오디오 다운로드에 일일 제한이나 제약이 없습니다."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "회원가입 불필요",
+      "description": "계정 생성 없이 즉시 동영상을 MP3로 변환을 시작하세요. 링크만 붙여넣으면 오디오 파일을 받을 수 있습니다."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "다양한 오디오 형식",
+      "description": "MP3, M4A 또는 기타 오디오 형식으로 다운로드하세요. 필요에 맞는 품질을 선택하세요."
+    }
+  ],
+  "mp3_downloadNow": "지금 변환하기 >>",
+  "mp3_featuresConverter": "유튜브 MP3 변환기 기능",
+  "mp3_benefits": {
+    "title": "유튜브 MP3 변환기의 이점",
+    "convenience": {
+      "title": "오디오 자유",
+      "description": "유튜브 동영상에서 개인 오디오 라이브러리를 만드세요. 음악, 팟캐스트 또는 교육 자료를 오프라인으로 즐기세요. 우리의 변환기는 어디서든, 언제든 고품질 오디오를 즐길 수 있도록 보장합니다."
+    },
+    "avoidAds": {
+      "title": "광고 없는 청취",
+      "description": "광고 중단 없이 중단 없는 오디오 재생을 즐기세요. 동영상을 MP3로 변환하면 상업적 중단 없이 청취할 수 있어 원활한 청취 경험을 제공합니다."
+    },
+    "saveData": {
+      "title": "효율적인 저장",
+      "description": "MP3 파일은 비디오 파일보다 훨씬 작아서 기기에 더 많은 콘텐츠를 저장할 수 있습니다. 저장 공간에 대한 걱정 없이 광범위한 음악 라이브러리나 오디오 컬렉션을 만드는 데 완벽합니다."
+    },
+    "moreFromDownloads": {
+      "title": "향상된 오디오 경험",
+      "description": "이 오디오 이점으로 유튜브 경험을 변화시키세요: 1. 완벽한 플레이리스트 만들기  어떤 유튜브 동영상에서든 맞춤형 음악 컬렉션을 구축하세요. 2. 어디서나 청취 오프라인으로 오디오 콘텐츠를 즐기세요. 통근과 여행에 완벽합니다. 3. 대역폭 절약 데이터와 저장 공간을 절약하기 위해 비디오 대신 오디오를 다운로드하세요."
+    }
+  },
+  "mp3_faqTitle": "자주 묻는 질문",
+  "mp3_faq1Question": "1. 유튜브 동영상을 MP3로 변환하는 것이 합법인가요?",
+  "mp3_faq1Answer": "합법성은 콘텐츠와 의도된 사용에 따라 다릅니다. 크리에이티브 커먼즈 라이선스가 있거나 오디오 추출이 명시적으로 허용된 동영상은 합법적으로 변환할 수 있습니다. 항상 저작권법을 존중하고 변환된 오디오는 개인 목적으로만 사용하세요.",
+  "mp3_faq2Question": "2. MP3 변환에서 어떤 오디오 품질을 기대할 수 있나요?",
+  "mp3_faq2Answer": "우리의 변환기는 일반적으로 최대 320kbps까지의 고품질 MP3 출력을 제공합니다. 실제 품질은 소스 동영상의 오디오 품질에 따라 다릅니다. 변환 중 최상의 오디오 품질을 유지합니다.",
+  "mp3_faq3Question": "3. 모바일 기기에서 유튜브 동영상을 MP3로 변환할 수 있나요?",
+  "mp3_faq3Answer": "네! 우리의 변환기는 스마트폰과 태블릿을 포함한 모든 기기에서 작동합니다. 유튜브 URL을 붙여넣고 모바일 기기에서 직접 MP3로 변환하세요.",
+  "mp3_faq4Question": "4. MP3로 변환할 수 있는 동영상 수에 제한이 있나요?",
+  "mp3_faq4Answer": "아니요, 제한이 없습니다! 원하는 만큼 유튜브 동영상을 MP3로 변환할 수 있습니다. 우리의 서비스는 완전히 무료이고 무제한입니다.",
+  "mp3_faq5Question": "5. 유튜브 MP3 변환기를 누가 사용할 수 있나요?",
+  "mp3_faq5Answer": "우리의 변환기는 음악 애호가, 팟캐스트 애호가, 학생, 교사, 그리고 유튜브 콘텐츠를 오디오 형식으로 즐기고 싶은 모든 사람에게 완벽합니다. 플레이리스트를 만들고, 교육 콘텐츠를 저장하고, 개인 오디오 라이브러리를 구축하세요 - 모두 제한 없이.",
+
+  "downloader_siteName": "Youtubetomp4.pro",
+    "downloader_videoDownloader": "무료 유튜브 비디오 다운로더",
+    "downloader_mp3Converter": "유튜브 MP3 변환기",
+    "downloader_title": "무료 유튜브 비디오 다운로더",
+    "downloader_description": "무료 다운로더로 유튜브 비디오를 즉시 다운로드하세요. 회원가입 불필요, 광고 없음, 무제한 다운로드.",
+    "downloader_download": "지금 다운로드",
+    "downloader_tip": "저작권법을 준수해 주세요. 이 도구는 개인 사용을 위한 비디오 다운로드용으로 설계되었습니다.",
+    "downloader_tooltipText": "이 도구는 합법적이고 비침해적인 용도로만 사용할 수 있습니다. 콘텐츠 제작자이고 이 도구를 사용하여 비디오가 다운로드되는 것을 방지하려면 비디오의 태그나 설명에 #nodownload를 추가하기만 하면 됩니다.",
+    "downloader_audioOnly": "오디오만",
+    "downloader_formats": "다운로드 형식",
+    "downloader_formatsTip": "다운로드하려면 클릭하세요",
+    "downloader_reviews": [
+        { "text": "제가 찾은 최고의 무료 유튜브 비디오 다운로더입니다! 매번 완벽하게 작동하고 많은 시간을 절약해 줍니다.", "author": "비디오애호가2023" },
+        { "text": "교육 콘텐츠를 저장하기 위해 매일 사용합니다. 매우 빠르고 안정적입니다!", "author": "교육콘텐츠제작자" },
+        { "text": "드디어 실제로 작동하는 무료 다운로더를 찾았습니다! 성가신 팝업이나 리디렉션 없이 사용할 수 있습니다.", "author": "테크익스플로러" },
+        { "text": "좋아하는 음악 비디오를 저장하기에 완벽합니다. 품질이 놀랍습니다!", "author": "음악애호가" },
+        { "text": "여행 중에 비디오를 다운로드하기에 좋습니다. 모든 기기에서 작동합니다!", "author": "여행블로거" },
+        { "text": "제가 사용한 가장 빠른 무료 유튜브 비디오 다운로더입니다. 강력 추천합니다!", "author": "디지털노마드" }
+    ],
+    "downloader_howToConvertTitle": "유튜브 비디오 다운로드 방법",
+    "downloader_howToConvertDescription": "좋아하는 유튜브 비디오를 오프라인으로 보기 위해 저장하고 싶으신가요? 우리의 무료 비디오 다운로더가 쉽게 만들어 드립니다. 교육 콘텐츠, 음악 비디오 또는 좋아하는 블로그를 저장하든, 몇 번의 클릭만으로 몇 초 안에 다운로드할 수 있습니다.",
+    "downloader_step": "단계",
+    "downloader_copyUrl": "유튜브 비디오 URL 복사",
+    "downloader_clickDownload": "'지금 다운로드' 버튼 클릭",
+    "downloader_saveVideo": "선호하는 형식 선택 및 저장",
+    "downloader_features": [
+        { "icon": "/images/yt_feature1.png", "title": "즉시 다운로드", "description": "고속 서버로 모든 유튜브 비디오를 즉시 다운로드하세요. 대기 시간 없음, 버퍼링 없음 - 빠르고 쉬운 다운로드만 제공합니다." },
+        { "icon": "/images/yt_feature2.png", "title": "다양한 품질 옵션", "description": "360p부터 4K까지 다양한 비디오 품질 중에서 선택하세요. 기기와 저장 공간에 맞는 완벽한 품질을 선택하세요." },
+        { "icon": "/images/yt_feature3.png", "title": "100% 무료 및 안전", "description": "안전한 플랫폼으로 완전 무료 비디오 다운로드를 즐기세요. 숨겨진 비용 없음, 악성코드 없음 - 안전하고 신뢰할 수 있는 다운로드만 제공합니다." },
+        { "icon": "/images/yt_feature4.png", "title": "무제한 다운로드", "description": "원하는 만큼 비디오를 다운로드하세요. 일일 제한 없음, 제한 없음 - 마음껏 다운로드하세요." },
+        { "icon": "/images/yt_feature5.png", "title": "회원가입 불필요", "description": "계정 생성 없이 즉시 다운로드를 시작하세요. URL만 붙여넣고 다운로드하세요 - 그렇게 간단합니다." },
+        { "icon": "/images/yt_feature6.png", "title": "모든 기기에서 작동", "description": "데스크톱, 태블릿 또는 모바일 등 모든 기기에서 비디오를 다운로드하세요. 우리의 다운로더는 모든 플랫폼에서 원활하게 작동합니다." }
+    ],
+    "downloader_downloadNow": "지금 다운로드 >>",
+    "downloader_featuresConverter": "무료 유튜브 비디오 다운로더의 기능",
+    "downloader_benefits": {
+        "title": "우리의 무료 유튜브 비디오 다운로더를 선택해야 하는 이유",
+        "convenience": {
+            "title": "언제 어디서나 다운로드",
+            "description": "인터넷 연결에 대해 더 이상 걱정하지 마세요. 좋아하는 비디오를 다운로드하고 원할 때 오프라인으로 시청하세요. 긴 비행, 도로 여행 또는 인터넷 연결이 좋지 않은 지역에 완벽합니다."
+        },
+        "avoidAds": {
+            "title": "광고 없는 시청 경험",
+            "description": "중단 없이 다운로드한 비디오를 즐기세요. 광고 없음, 팝업 없음, 방해 없음 - 순수한 엔터테인먼트만 제공합니다."
+        },
+        "saveData": {
+            "title": "모바일 데이터 절약",
+            "description": "WiFi를 통해 비디오를 다운로드하고 나중에 모바일 데이터를 사용하지 않고 시청하세요. 제한된 데이터 요금제 사용자에게 완벽합니다."
+        },
+        "moreFromDownloads": {
+            "title": "다운로드에서 더 많은 것을 얻으세요",
+            "description": "다운로드한 비디오를 최대한 활용하세요:\n1.비디오 라이브러리 만들기\n좋아하는 비디오의 개인 컬렉션 만들기\n2.제한 없이 시청하기\n인터넷 없이도 언제 어디서나 비디오 즐기기\n3.친구와 공유하기\n다운로드한 비디오를 친구와 가족과 쉽게 공유하기"
+        }
+    },
+    "downloader_faqTitle": "자주 묻는 질문",
+    "downloader_faq1Question": "1. 유튜브 비디오를 다운로드하는 것은 합법인가요?",
+    "downloader_faq1Answer": "다운로드한 비디오를 어떻게 사용하는지에 따라 다릅니다. 개인 사용, 교육 목적 또는 공개 도메인에 있는 콘텐츠를 위해 비디오를 합법적으로 다운로드할 수 있습니다. 항상 저작권법과 유튜브 서비스 약관을 준수하세요.",
+    "downloader_faq2Question": "2. 어떤 품질의 비디오를 다운로드할 수 있나요?",
+    "downloader_faq2Answer": "우리의 다운로더는 비디오의 원본 품질에 따라 360p부터 4K까지 다양한 품질 옵션을 지원합니다. 필요와 기기의 저장 용량에 맞는 품질을 선택할 수 있습니다.",
+    "downloader_faq3Question": "3. 모바일 기기에서 비디오를 다운로드할 수 있나요?",
+    "downloader_faq3Answer": "네! 우리의 비디오 다운로더는 스마트폰과 태블릿을 포함한 모든 기기에서 작동합니다. 모바일 브라우저에서 우리 웹사이트를 방문하고 즉시 비디오 다운로드를 시작하세요.",
+    "downloader_faq4Question": "4. 이 유튜브 비디오 다운로더는 정말 무료인가요?",
+    "downloader_faq4Answer": "네, 우리의 다운로더는 완전히 무료입니다. 숨겨진 비용 없음, 프리미엄 기능 없음, 구독 필요 없음. 최소한의 비침투적 광고를 통해 서비스를 유지합니다.",
+    "downloader_faq5Question": "5. 이 비디오 다운로더를 사용하면 누가 혜택을 받을 수 있나요?",
+    "downloader_faq5Answer": "우리의 다운로더는 학생, 교사, 콘텐츠 제작자, 여행자 및 유튜브 비디오를 오프라인으로 보기 위해 저장하고 싶은 모든 사람에게 완벽합니다. 인터넷 접근이 제한적이거나 제한된 데이터 요금제를 가진 사람들에게 특히 유용합니다."
+}

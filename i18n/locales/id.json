@@ -1,0 +1,287 @@
+{
+  "siteName": "Youtubetomp4.pro",
+  "videoDownloader": "Pengunduh Video YouTube",
+  "mp3Converter": "Konverter YouTube ke MP3",
+  "title": "Pengonversi YouTube ke MP4",
+  "description": "Tempel URL dan Konversi YouTube ke MP4 dengan cepat. Selalu gratis, selalu berfungsi, tanpa iklan.",
+  "download": "UNDUH",
+  "tip": "Harap perhatikan hak cipta saat mengunduh konten. Alat ini tidak dirancang untuk mengunduh musik berhak cipta.",
+  "formats": "Semua format",
+  "formatsTip": "Klik untuk menyimpan",
+  "reviews": [
+    {
+      "text": "Perfeito para salvar meus vídeos favoritos! Downloads rápidos e super simples de usar. Não é necessário registro.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Esta ferramenta é ótima! Eu adoro como é fácil baixar vídeos em vários formatos.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Eu uso isso há meses, e sempre funciona perfeitamente.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Rápido e confiável. O melhor downloader de vídeos!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Fácil de usar e muito eficaz para salvar conteúdo.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Altamente recomendado! Funciona perfeitamente com todos os meus vídeos.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "howToConvertTitle": "Cara Mengonversi Video YouTube ke MP4",
+  "howToConvertDescription": "Tempelkan URL dan cepat mengonversi YouTube ke MP4. Selalu gratis, selalu berfungsi, tanpa iklan.",
+  "step": "Langkah",
+  "copyUrl": "Salin URL Video YouTube",
+  "clickDownload": "Klik langsung tombol 'Unduh'",
+  "saveVideo": "Tunggu beberapa menit dan simpan video",
+  "featuresConverter": "Fitur Pengonversi Video YouTube",
+  "benefits": {
+    "title": "Manfaat Menggunakan Konverter YouTube ke MP4",
+    "convenience": {
+      "title": "Kenyamanan dan Aksesibilitas",
+      "description": "Pernahkah Anda terjebak di suatu tempat tanpa akses internet dan ingin menonton video favorit Anda?"
+    },
+    "avoidAds": {
+      "title": "Hindari Iklan",
+      "description": "Iklan bisa sangat mengganggu, terutama ketika mengganggu video favorit Anda."
+    },
+    "saveData": {
+      "title": "Hemat Data dan Penyimpanan",
+      "description": "Menonton video melalui streaming dapat dengan cepat menghabiskan data ponsel Anda."
+    },
+    "moreFromDownloads": {
+      "title": "Dapatkan Lebih Banyak Dari Unduhan Anda",
+      "description": "Katakan selamat tinggal pada buffering dan pengurasan data! Inilah cara memaksimalkan video offline Anda."
+    }
+  },
+  "faqTitle": "Pertanyaan yang Sering Diajukan",
+  "faq1Question": "1. Apakah menggunakan konverter YouTube ke MP4 itu legal?",
+  "faq1Answer": "Tergantung pada videonya. Anda dapat mengunduh video secara sah yang memiliki lisensi Creative Commons atau yang secara eksplisit diizinkan untuk penggunaan offline. Hindari mengunduh konten berhak cipta tanpa izin untuk tetap berada di sisi hukum. Tip: Selalu periksa ketentuan penggunaan video sebelum mengunduh.",
+  "faq2Question": "2. Bisakah saya menggunakan konverter YouTube ke MP4 di ponsel saya?",
+  "faq2Answer": "Ya! Ini berfungsi di perangkat seluler. Anda dapat menggunakan aplikasi atau situs web yang ramah seluler untuk mengunduh video langsung ke ponsel Anda. Cukup tempelkan tautan video, pilih MP4, dan tekan unduh.",
+  "faq3Question": "3. Apa resolusi terbaik untuk mengunduh video YouTube?",
+  "faq3Answer": "Tergantung pada kebutuhan Anda. Untuk pemutaran kualitas tinggi, pilih HD (720p) atau 4K. Jika Anda menghemat ruang penyimpanan, pilih resolusi lebih rendah seperti 480p. Tip: Seimbangkan kualitas dan ukuran file berdasarkan kapasitas penyimpanan perangkat Anda.",
+  "faq4Question": "4. Apakah konverter YouTube ke MP4 gratis aman?",
+  "faq4Answer": "Meskipun banyak konverter gratis yang mencurigakan, kami sangat peduli dengan keamanan Anda. Konverter kami sepenuhnya berjalan di browser Anda tanpa unduhan atau pop-up mencurigakan. Kami menggunakan enkripsi HTTPS yang aman dan tidak pernah menyimpan data pribadi atau riwayat tontonan Anda. Selain itu, kami secara teratur memeriksa malware dan menjaga layanan kami tetap bersih. Tidak ada perangkat lunak mata-mata, tidak ada perangkat lunak tambahan - hanya konversi video yang dapat dipercaya.",
+  "faq5Question": "5. Siapa yang menggunakan konverter YouTube ke MP4?",
+  "faq5Answer": "Konverter kami sempurna untuk berbagai pengguna. Pembuat konten, pelajar, guru, pelancong, profesional bisnis, dan penonton sehari-hari akan menyukainya. Anda dapat mengonversi video tanpa batasan. Tidak perlu membuat akun atau mengunduh perangkat lunak.",
+  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_videoDownloader": "Pengunduh Video YouTube",
+  "mp3_mp3Converter": "Konverter YouTube ke MP3",
+  "mp3_title": "Konverter YouTube ke MP3",
+  "mp3_description": "Ekstrak audio dari video YouTube dengan konverter MP3 kami yang kuat. Gratis, cepat, dan tidak perlu registrasi.",
+  "mp3_download": "KONVERSI",
+  "mp3_tip": "Harap hormati hak cipta. Alat ini dirancang hanya untuk penggunaan pribadi dan tujuan pendidikan.",
+  "mp3_tooltipText": "Alat ini hanya dapat digunakan untuk penggunaan legal dan tidak melanggar hak cipta. Jika Anda adalah pembuat konten dan ingin mencegah video Anda diunduh menggunakan alat ini, cukup tambahkan #nodownload ke tag atau deskripsi video Anda.",
+  "mp3_formats": "Format Audio",
+  "mp3_formatsTip": "Klik untuk mengunduh",
+  "mp3_reviews": [
+    {
+      "text": "Alat luar biasa untuk membuat playlist saya! Kualitas audio sempurna dan konversinya super cepat.",
+      "author": "PecintaMusik2023"
+    },
+    {
+      "text": "Saya menggunakannya setiap hari untuk menyimpan podcast favorit saya. Kualitas MP3 sangat bagus!",
+      "author": "PenggemarPodcast"
+    },
+    {
+      "text": "Konverter audio terbaik yang pernah saya temukan. Tanpa iklan, tanpa tunggu, hanya kualitas murni.",
+      "author": "PecintaAudio"
+    },
+    {
+      "text": "Sempurna untuk menyimpan audio dari video pendidikan. Sangat andal!",
+      "author": "PembantuSiswa"
+    },
+    {
+      "text": "Antarmuka sederhana dan kualitas audio yang bagus. Sangat direkomendasikan!",
+      "author": "PengulasTeknis"
+    },
+    {
+      "text": "Berfungsi sempurna setiap kali. Konverter MP3 terbaik!",
+      "author": "ProduserMusik"
+    }
+  ],
+  "mp3_howToConvertTitle": "Cara Mengkonversi YouTube ke MP3",
+  "mp3_howToConvertDescription": "Ubah video YouTube favorit Anda menjadi file audio MP3 berkualitas tinggi dalam hitungan detik. Baik membuat playlist, menyimpan podcast, atau mengarsipkan konten pendidikan, konverter kami memudahkan ekstraksi audio dari video YouTube mana pun.",
+  "mp3_step": "Langkah",
+  "mp3_copyUrl": "Salin URL video YouTube",
+  "mp3_clickDownload": "Klik tombol 'Konversi'",
+  "mp3_saveAudio": "Unduh file MP3 Anda",
+  "mp3_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Kualitas Audio Premium",
+      "description": "Ekstrak audio jernih dari video YouTube dengan teknologi konversi canggih kami, memastikan kualitas suara terbaik untuk file MP3 Anda."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Konversi Super Cepat",
+      "description": "Konversi video YouTube ke MP3 dalam hitungan detik. Sistem teroptimasi kami memastikan pemrosesan cepat tanpa mengorbankan kualitas audio."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% Aman",
+      "description": "Konversi video YouTube ke MP3 dengan aman menggunakan platform kami. Tanpa malware, tanpa pelacakan – hanya konversi audio murni."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Konversi Tanpa Batas",
+      "description": "Konversi sebanyak mungkin video YouTube ke MP3 yang Anda inginkan, tanpa batasan harian atau pembatasan pada unduhan audio Anda."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Tidak Perlu Registrasi",
+      "description": "Mulai konversi video ke MP3 segera tanpa membuat akun. Cukup tempelkan tautan Anda dan dapatkan file audio Anda."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Berbagai Format Audio",
+      "description": "Unduh dalam format MP3, M4A, atau format audio lainnya. Pilih kualitas yang paling sesuai dengan kebutuhan Anda."
+    }
+  ],
+  "mp3_downloadNow": "Konversi Sekarang >>",
+  "mp3_featuresConverter": "Fitur Konverter YouTube ke MP3",
+  "mp3_benefits": {
+    "title": "Manfaat Menggunakan Konverter YouTube ke MP3",
+    "convenience": {
+      "title": "Kebebasan Audio",
+      "description": "Buat perpustakaan audio pribadi Anda dari video YouTube. Dengarkan konten favorit Anda secara offline, baik musik, podcast, atau materi pendidikan. Konverter kami memastikan Anda dapat menikmati audio berkualitas tinggi di mana saja, kapan saja."
+    },
+    "avoidAds": {
+      "title": "Mendengarkan Tanpa Iklan",
+      "description": "Nikmati pemutaran audio tanpa gangguan iklan. Setelah mengkonversi video ke MP3, Anda dapat mendengarkannya tanpa gangguan komersial, menciptakan pengalaman mendengarkan yang mulus."
+    },
+    "saveData": {
+      "title": "Penyimpanan Efisien",
+      "description": "File MP3 jauh lebih kecil dari file video, memungkinkan Anda menyimpan lebih banyak konten di perangkat Anda. Sempurna untuk membuat perpustakaan musik yang luas atau koleksi audio tanpa khawatir tentang ruang penyimpanan."
+    },
+    "moreFromDownloads": {
+      "title": "Pengalaman Audio yang Ditingkatkan",
+      "description": "Ubah pengalaman YouTube Anda dengan manfaat audio ini: 1.Buat Playlist Sempurna Anda Buat koleksi musik kustom dari video YouTube mana pun. 2.Dengarkan di Mana Saja Nikmati konten audio Anda secara offline, sempurna untuk perjalanan dan perjalanan. 3.Hemat Bandwidth Unduh audio alih-alih video untuk menghemat data dan ruang penyimpanan."
+    }
+  },
+  "mp3_faqTitle": "FAQ",
+  "mp3_faq1Question": "1. Apakah legal mengkonversi video YouTube ke MP3?",
+  "mp3_faq1Answer": "Legalitas tergantung pada konten dan penggunaan yang dimaksudkan. Anda dapat secara legal mengkonversi video dengan lisensi Creative Commons atau yang secara eksplisit diizinkan untuk ekstraksi audio. Selalu hormati undang-undang hak cipta dan gunakan audio yang dikonversi hanya untuk tujuan pribadi.",
+  "mp3_faq2Question": "2. Kualitas audio apa yang bisa saya harapkan dari konversi MP3?",
+  "mp3_faq2Answer": "Konverter kami menyediakan output MP3 berkualitas tinggi, biasanya hingga 320kbps. Kualitas sebenarnya tergantung pada kualitas audio video sumber. Kami mempertahankan kualitas audio terbaik yang mungkin selama konversi.",
+  "mp3_faq3Question": "3. Bisakah saya mengkonversi video YouTube ke MP3 di perangkat seluler saya?",
+  "mp3_faq3Answer": "Ya! Konverter kami bekerja di semua perangkat, termasuk smartphone dan tablet. Cukup tempelkan URL YouTube dan konversi ke MP3 langsung di perangkat seluler Anda.",
+  "mp3_faq4Question": "4. Apakah ada batasan berapa banyak video yang bisa saya konversi ke MP3?",
+  "mp3_faq4Answer": "Tidak, tidak ada batasan! Anda dapat mengkonversi sebanyak mungkin video YouTube ke MP3 yang Anda inginkan. Layanan kami sepenuhnya gratis dan tanpa batas.",
+  "mp3_faq5Question": "5. Siapa yang bisa menggunakan konverter YouTube ke MP3?",
+  "mp3_faq5Answer": "Konverter kami sempurna untuk pecinta musik, penggemar podcast, siswa, guru, dan siapa pun yang ingin menikmati konten YouTube dalam format audio. Buat playlist, simpan konten pendidikan, atau bangun perpustakaan audio pribadi Anda - semuanya tanpa batasan.",
+  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_videoDownloader": "Pengunduh Video YouTube Gratis",
+  "downloader_mp3Converter": "Konverter YouTube ke MP3",
+  "downloader_title": "Pengunduh Video YouTube Gratis",
+  "downloader_description": "Unduh video YouTube secara instan dengan pengunduh gratis kami. Tanpa pendaftaran, tanpa iklan, unduhan tak terbatas.",
+  "downloader_download": "Unduh Sekarang",
+  "downloader_tip": "Harap hormati hak cipta. Alat ini dirancang untuk mengunduh video untuk penggunaan pribadi.",
+  "downloader_tooltipText": "Alat ini hanya dapat digunakan untuk penggunaan yang legal dan tidak melanggar. Jika Anda adalah pembuat konten dan ingin mencegah video Anda diunduh menggunakan alat ini, cukup tambahkan #nodownload ke tag atau deskripsi video Anda.",
+  "downloader_audioOnly": "Hanya Audio",
+  "downloader_formats": "Format Unduhan",
+  "downloader_formatsTip": "Klik untuk mengunduh",
+  "downloader_reviews": [
+    {
+      "text": "Ini adalah pengunduh video YouTube gratis terbaik yang pernah saya temukan! Bekerja sempurna setiap kali dan menghemat banyak waktu saya.",
+      "author": "PecintaVideo2023"
+    },
+    {
+      "text": "Menggunakannya setiap hari untuk menyimpan konten pendidikan. Sangat cepat dan stabil!",
+      "author": "PembuatKontenEdukasi"
+    },
+    {
+      "text": "Akhirnya menemukan pengunduh gratis yang benar-benar berfungsi! Tidak ada pop-up atau pengalihan yang mengganggu.",
+      "author": "PenjelajahTeknologi"
+    },
+    {
+      "text": "Sempurna untuk menyimpan video musik favorit saya. Kualitasnya luar biasa!",
+      "author": "PecintaMusik"
+    },
+    {
+      "text": "Pilihan sempurna untuk mengunduh video saat bepergian. Bekerja di semua perangkat!",
+      "author": "BloggerPerjalanan"
+    },
+    {
+      "text": "Pengunduh video YouTube gratis tercepat yang pernah saya gunakan. Sangat direkomendasikan!",
+      "author": "DigitalNomad"
+    }
+  ],
+  "downloader_howToConvertTitle": "Cara Mengunduh Video YouTube",
+  "downloader_howToConvertDescription": "Ingin menyimpan video YouTube favorit Anda untuk ditonton secara offline? Pengunduh video gratis kami membuatnya mudah. Baik untuk menyimpan konten pendidikan, video musik, atau blog favorit Anda, unduh dalam hitungan detik dengan beberapa klik.",
+  "downloader_step": "Langkah",
+  "downloader_copyUrl": "Salin URL Video YouTube",
+  "downloader_clickDownload": "Klik tombol 'Unduh Sekarang'",
+  "downloader_saveVideo": "Pilih format yang diinginkan dan simpan",
+  "downloader_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Unduhan Instan",
+      "description": "Unduh video YouTube apa pun secara instan dengan server berkecepatan tinggi. Tanpa waktu tunggu, tanpa buffering - hanya unduhan cepat dan mudah."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Berbagai Opsi Kualitas",
+      "description": "Pilih dari berbagai kualitas video, dari 360p hingga 4K. Pilih kualitas sempurna untuk perangkat dan penyimpanan Anda."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% Gratis dan Aman",
+      "description": "Nikmati unduhan video sepenuhnya gratis di platform yang aman. Tanpa biaya tersembunyi, tanpa malware - hanya unduhan yang aman dan terpercaya."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Unduhan Tak Terbatas",
+      "description": "Unduh video sebanyak yang Anda inginkan. Tanpa batas harian, tanpa batasan - unduh sebanyak yang Anda mau."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Tanpa Pendaftaran",
+      "description": "Mulai mengunduh secara instan tanpa membuat akun. Cukup tempel URL dan unduh - sesederhana itu."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Bekerja di Semua Perangkat",
+      "description": "Unduh video di desktop, tablet, atau ponsel - pengunduh kami bekerja dengan mulus di semua platform."
+    }
+  ],
+  "downloader_downloadNow": "Unduh Sekarang >>",
+  "downloader_featuresConverter": "Fitur Pengunduh Video YouTube Gratis",
+  "downloader_benefits": {
+    "title": "Mengapa Memilih Pengunduh Video YouTube Gratis Kami",
+    "convenience": {
+      "title": "Unduh Kapan Saja, Di Mana Saja",
+      "description": "Jangan khawatir lagi tentang koneksi internet. Unduh video favorit Anda dan tonton secara offline kapan saja. Sempurna untuk penerbangan panjang, perjalanan darat, atau area dengan koneksi internet yang buruk."
+    },
+    "avoidAds": {
+      "title": "Pengalaman Menonton Tanpa Iklan",
+      "description": "Nikmati video yang diunduh tanpa gangguan. Tanpa iklan, tanpa pop-up, tanpa gangguan - hanya hiburan murni."
+    },
+    "saveData": {
+      "title": "Hemat Data Seluler",
+      "description": "Unduh video melalui WiFi dan tonton nanti tanpa menggunakan data seluler. Sempurna untuk pengguna dengan paket data terbatas."
+    },
+    "moreFromDownloads": {
+      "title": "Dapatkan Lebih Banyak dari Unduhan Anda",
+      "description": "Manfaatkan video yang diunduh secara maksimal: 1. Buat Perpustakaan Video Buat koleksi pribadi video favorit Anda 2. Tonton Tanpa Batas Nikmati video kapan saja, di mana saja, tanpa internet 3. Bagikan dengan Teman Bagikan video yang diunduh dengan mudah ke teman dan keluarga"
+    }
+  },
+  "downloader_faqTitle": "Pertanyaan Umum",
+  "downloader_faq1Question": "1. Apakah mengunduh video YouTube itu legal?",
+  "downloader_faq1Answer": "Itu tergantung pada bagaimana Anda menggunakan video yang diunduh. Anda dapat mengunduh video secara legal untuk penggunaan pribadi, tujuan pendidikan, atau konten domain publik. Selalu patuhi undang-undang hak cipta dan ketentuan layanan YouTube.",
+  "downloader_faq2Question": "2. Kualitas video apa yang bisa saya unduh?",
+  "downloader_faq2Answer": "Pengunduh kami mendukung berbagai kualitas video dari 360p hingga 4K, tergantung pada kualitas asli video. Anda dapat memilih kualitas yang sesuai dengan kebutuhan dan penyimpanan perangkat Anda.",
+  "downloader_faq3Question": "3. Bisakah saya mengunduh video di perangkat seluler?",
+  "downloader_faq3Answer": "Ya! Pengunduh video kami bekerja di semua perangkat, termasuk smartphone dan tablet. Cukup kunjungi situs web kami di browser seluler dan mulai mengunduh video secara instan.",
+  "downloader_faq4Question": "4. Apakah pengunduh video YouTube ini benar-benar gratis?",
+  "downloader_faq4Answer": "Ya, pengunduh kami sepenuhnya gratis. Tanpa biaya tersembunyi, tanpa fitur premium, tanpa langganan. Kami mempertahankan layanan melalui iklan non-intrusif minimal.",
+  "downloader_faq5Question": "5. Siapa yang bisa mendapatkan manfaat dari pengunduh video ini?",
+  "downloader_faq5Answer": "Pengunduh kami sempurna untuk siswa, guru, pembuat konten, pelancong, dan siapa saja yang ingin menyimpan video YouTube untuk ditonton secara offline. Sangat berguna untuk pengguna dengan akses internet terbatas atau paket data terbatas."
+}

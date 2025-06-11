@@ -1,0 +1,320 @@
+{
+  "siteName": "Youtubetomp4.pro",
+  "videoDownloader": "YouTube 視頻下載器",
+  "mp3Converter": "YouTube 轉 MP3",
+  "title": "YouTube 轉 MP4 轉換器",
+  "description": "貼上 URL 並快速轉換 YouTube 到 MP4。始終免費，始終可用，無廣告。",
+  "download": "下載",
+  "tip": "下載內容時請注意版權。本工具不適用於下載受版權保護的音樂。",
+  "formats": "所有格式",
+  "formatsTip": "點擊保存",
+  "reviews": [
+    {
+      "text": "Perfeito para salvar meus vídeos favoritos! Downloads rápidos e super simples de usar. Não é necessário registro.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Esta ferramenta é ótima! Eu adoro como é fácil baixar vídeos em vários formatos.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Eu uso isso há meses, e sempre funciona perfeitamente.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Rápido e confiável. O melhor downloader de vídeos!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Fácil de usar e muito eficaz para salvar conteúdo.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Altamente recomendado! Funciona perfeitamente com todos os meus vídeos.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "howToConvertTitle": "如何將 YouTube 視頻轉換為 MP4",
+  "howToConvertDescription": "將 URL 貼上，快速將 YouTube 轉換為 MP4。始終免費，始終可用，無廣告。",
+  "step": "步驟",
+  "copyUrl": "複製 YouTube 視頻 URL",
+  "clickDownload": "直接點擊 ‘下載’ 按鈕",
+  "saveVideo": "等待幾分鐘並保存視頻",
+  "features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "高成功率的 YouTube 下載",
+      "description": "透過我們先進的轉換器，提供業界最高的成功率及所有內容類型的可靠品質保持，輕鬆下載 YouTube 視頻。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "超高速的 YouTube 到 MP4 轉換",
+      "description": "在幾秒鐘內將 YouTube 視頻轉換為高品質 MP4 文件。無需損失視頻質量，體驗無縫且即時的下載。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% 安全可靠",
+      "description": "使用我們乾淨且注重隱私的轉換器，安全地下載 YouTube 視頻。無追蹤，無惡意軟體——僅提供簡單的體驗。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "無限制的下載",
+      "description": "隨心所欲地轉換和儲存 YouTube 視頻。無等待時間或麻煩的下載限制。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "無需登入或安裝軟體",
+      "description": "無需建立帳戶或下載，立即轉換視頻。只需貼上鏈接即可準備就緒 - 無麻煩。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "支持多種格式",
+      "description": "可以下載成 MP4、M4A 或 WEBM 格式。無論您需要什麼格式或品質，我們都能滿足您的需求。"
+    }
+  ],
+  "downloadNow": "下載 >>",
+  "featuresConverter": "YouTube 影片轉換器的功能",
+  "benefits": {
+    "title": "YouTube 轉 MP4 轉換器的優點",
+    "convenience": {
+      "title": "方便性和可接觸性",
+      "description": "曾經有過因為無法上網而無法觀看喜愛的影片的情況嗎？使用 YouTube 到 MP4 轉換器可以解決這個問題。"
+    },
+    "avoidAds": {
+      "title": "避免廣告",
+      "description": "廣告常常會讓人感到困擾，特別是在觀看喜愛的影片時。使用 YouTube MP4 下載器，你可以完全跳過廣告。"
+    },
+    "saveData": {
+      "title": "節省數據和儲存空間",
+      "description": "影片串流會快速消耗你的手機數據，尤其是當你使用限制性計劃時。"
+    },
+    "moreFromDownloads": {
+      "title": "從下載中獲得更多",
+      "description": "告別緩衝和數據消耗！這是如何最大化利用你的離線影片。"
+    }
+  },
+  "faqTitle": "常見問題",
+  "faq1Question": "1. 使用 YouTube 轉 MP4 轉換器是否合法？",
+  "faq1Answer": "這取決於影片。您可以合法下載具有 Creative Commons 許可的影片或那些明確允許離線使用的影片。避免在未經許可的情況下下載受版權保護的內容，以保持合法。建議：在下載之前，請始終檢查影片的使用條款。",
+  "faq2Question": "2. 我可以在手機上使用 YouTube 轉 MP4 轉換器嗎？",
+  "faq2Answer": "是的！它可以在移動設備上使用。您可以使用適合移動設備的應用程式或網站，將影片直接下載到手機中。只需粘貼影片鏈接，選擇 MP4，然後點擊下載。",
+  "faq3Question": "3. 下載 YouTube 影片的最佳解析度是什麼？",
+  "faq3Answer": "這取決於您的需求。如果您想要高質量的播放，選擇 HD（720p）或 4K。如果您想節省存儲空間，可以選擇 480p 等較低解析度。建議：根據您的設備儲存容量，平衡質量和文件大小。",
+  "faq4Question": "4. 免費的 YouTube 轉 MP4 轉換器安全嗎？",
+  "faq4Answer": "儘管許多免費轉換器可能存在風險，但我們非常重視您的安全。我們的轉換器完全在您的瀏覽器中運行，不會出現可疑的下載或彈出窗口。我們使用 HTTPS 加密，並且從不儲存您的個人數據或觀看歷史。此外，我們定期檢查惡意軟體，保持服務清潔。無間諜軟體，無額外程序 - 僅有值得信賴的視頻轉換。",
+  "faq5Question": "5. YouTube 轉 MP4 轉換器是誰在使用？",
+  "faq5Answer": "我們的轉換器非常適合各種類型的使用者。內容創作者、學生、教師、旅遊者、商業專業人士和日常觀眾都會喜歡。您可以無限制地轉換影片。無需創建帳戶或下載軟體。",
+  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_videoDownloader": "YouTube 影片下載器",
+  "mp3_mp3Converter": "YouTube 轉 MP3",
+  "mp3_title": "YouTube 轉 MP3 轉換器",
+  "mp3_description": "使用我們強大的 MP3 轉換器從 YouTube 影片中提取音頻。免費、快速、無需註冊。",
+  "mp3_download": "轉換",
+  "mp3_tip": "請尊重版權。此工具僅用於個人使用和教育目的。",
+  "mp3_tooltipText": "此工具只能用於合法、非侵權的用途。如果您是內容創作者並希望防止使用此工具下載您的影片，只需在您的影片標籤或描述中添加 #nodownload。",
+  "mp3_formats": "音頻格式",
+  "mp3_formatsTip": "點擊下載",
+  "mp3_reviews": [
+    {
+      "text": "創建我的播放列表的絕佳工具！音質完美，轉換速度超快。",
+      "author": "音樂愛好者2023"
+    },
+    {
+      "text": "我每天都用它來保存我喜歡的播客。MP3 音質非常出色！",
+      "author": "播客粉絲"
+    },
+    {
+      "text": "我找到的最好的音頻轉換器。無廣告、無等待，純粹的品質。",
+      "author": "音頻愛好者"
+    },
+    {
+      "text": "非常適合保存教育影片的音頻。非常可靠！",
+      "author": "學生助手"
+    },
+    {
+      "text": "簡單的界面和出色的音質。強烈推薦！",
+      "author": "技術評論員"
+    },
+    {
+      "text": "每次都能完美運作。最好的 MP3 轉換器！",
+      "author": "音樂製作人"
+    }
+  ],
+  "mp3_howToConvertTitle": "如何將 YouTube 轉換為 MP3",
+  "mp3_howToConvertDescription": "在幾秒鐘內將您喜愛的 YouTube 影片轉換為高品質 MP3 音頻文件。無論是創建播放列表、保存播客還是存檔教育內容，我們的轉換器都能輕鬆從任何 YouTube 影片中提取音頻。",
+  "mp3_step": "步驟",
+  "mp3_copyUrl": "複製 YouTube 影片網址",
+  "mp3_clickDownload": "點擊「轉換」按鈕",
+  "mp3_saveAudio": "下載您的 MP3 文件",
+  "mp3_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "高品質音頻",
+      "description": "使用我們先進的轉換技術從 YouTube 影片中提取清晰音頻，為您的 MP3 文件確保最佳音質。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "閃電般快速轉換",
+      "description": "在幾秒鐘內將 YouTube 影片轉換為 MP3。我們的優化系統確保快速處理而不影響音質。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% 安全",
+      "description": "使用我們的安全平台將 YouTube 影片安全轉換為 MP3。無惡意軟件、無追蹤 – 純粹的音頻轉換。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "無限轉換",
+      "description": "隨意轉換任意數量的 YouTube 影片為 MP3，您的音頻下載沒有每日限制或限制。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "無需註冊",
+      "description": "無需創建帳戶即可立即開始將影片轉換為 MP3。只需貼上您的鏈接即可獲取音頻文件。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "多種音頻格式",
+      "description": "以 MP3、M4A 或其他音頻格式下載。選擇最適合您需求的品質。"
+    }
+  ],
+  "mp3_downloadNow": "立即轉換 >>",
+  "mp3_featuresConverter": "YouTube 轉 MP3 轉換器功能",
+  "mp3_benefits": {
+    "title": "使用 YouTube 轉 MP3 轉換器的好處",
+    "convenience": {
+      "title": "音頻自由",
+      "description": "從 YouTube 影片創建您的個人音頻庫。離線收聽您喜愛的內容，無論是音樂、播客還是教育材料。我們的轉換器確保您可以在任何地方、任何時間享受高品質音頻。"
+    },
+    "avoidAds": {
+      "title": "無廣告收聽",
+      "description": "享受無廣告中斷的音頻播放。將影片轉換為 MP3 後，您可以無商業中斷地收聽，創造流暢的收聽體驗。"
+    },
+    "saveData": {
+      "title": "高效存儲",
+      "description": "MP3 文件比視頻文件小得多，讓您可以在設備上存儲更多內容。非常適合創建廣泛的音樂庫或音頻集合，無需擔心存儲空間。"
+    },
+    "moreFromDownloads": {
+      "title": "增強的音頻體驗",
+      "description": "用這些音頻好處改變您的 YouTube 體驗：1.創建您的完美播放列表 從任何 YouTube 影片建立自定義音樂集合。2.隨時隨地收聽 離線享受您的音頻內容，非常適合通勤和旅行。3.節省帶寬 下載音頻而不是視頻，以節省數據和存儲空間。"
+    }
+  },
+  "mp3_faqTitle": "常見問題",
+  "mp3_faq1Question": "1. 將 YouTube 影片轉換為 MP3 是否合法？",
+  "mp3_faq1Answer": "合法性取決於內容和預期用途。您可以合法轉換具有創用共享許可證或明確允許音頻提取的影片。始終尊重版權法，並僅將轉換後的音頻用於個人目的。",
+  "mp3_faq2Question": "2. 我可以從 MP3 轉換中獲得什麼音質？",
+  "mp3_faq2Answer": "我們的轉換器提供高品質 MP3 輸出，通常高達 320kbps。實際品質取決於源影片的音頻品質。我們在轉換過程中保持最佳可能的音頻品質。",
+  "mp3_faq3Question": "3. 我可以在移動設備上將 YouTube 影片轉換為 MP3 嗎？",
+  "mp3_faq3Answer": "是的！我們的轉換器適用於所有設備，包括智能手機和平板電腦。只需貼上 YouTube 網址，即可直接在您的移動設備上轉換為 MP3。",
+  "mp3_faq4Question": "4. 我可以轉換為 MP3 的影片數量有限制嗎？",
+  "mp3_faq4Answer": "不，沒有限制！您可以隨意轉換任意數量的 YouTube 影片為 MP3。我們的服務完全免費且無限制。",
+  "mp3_faq5Question": "5. 誰可以使用 YouTube 轉 MP3 轉換器？",
+  "mp3_faq5Answer": "我們的轉換器非常適合音樂愛好者、播客愛好者、學生、教師以及任何想要以音頻格式享受 YouTube 內容的人。創建播放列表、保存教育內容或建立您的個人音頻庫 - 全部無限制。",
+  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_videoDownloader": "免費 YouTube 影片下載器",
+  "downloader_mp3Converter": "YouTube 轉 MP3",
+  "downloader_title": "免費 YouTube 影片下載器",
+  "downloader_description": "使用免費下載器立即下載 YouTube 影片。無需註冊、無廣告、無限下載。",
+  "downloader_download": "立即下載",
+  "downloader_tip": "請遵守版權法。此工具專為個人使用的影片下載而設計。",
+  "downloader_tooltipText": "此工具僅可用於合法、非侵權的用途。如果您是內容創作者並希望防止使用此工具下載您的影片，只需在影片的標籤或描述中添加 #nodownload。",
+  "downloader_audioOnly": "僅音訊",
+  "downloader_formats": "下載格式",
+  "downloader_formatsTip": "點擊下載",
+  "downloader_reviews": [
+    {
+      "text": "這是我找到的最好的免費 YouTube 影片下載器！每次都能完美運作，為我節省了大量時間。",
+      "author": "影片愛好者2023"
+    },
+    {
+      "text": "每天用它來保存教育內容。速度超快且穩定！",
+      "author": "教育內容創作者"
+    },
+    {
+      "text": "終於找到一個真正能用的免費下載器！沒有煩人的彈窗或重定向。",
+      "author": "科技探索者"
+    },
+    {
+      "text": "非常適合保存喜愛的音樂影片。畫質令人驚嘆！",
+      "author": "音樂愛好者"
+    },
+    {
+      "text": "旅行時下載影片的完美選擇。在所有設備上都能使用！",
+      "author": "旅行部落客"
+    },
+    {
+      "text": "我用過最快的免費 YouTube 影片下載器。強烈推薦！",
+      "author": "數位遊民"
+    }
+  ],
+  "downloader_howToConvertTitle": "如何下載 YouTube 影片",
+  "downloader_howToConvertDescription": "想要保存喜愛的 YouTube 影片以便離線觀看嗎？我們的免費影片下載器讓這變得簡單。無論是保存教育內容、音樂影片還是喜愛的部落格，只需點擊幾下，幾秒內就能完成下載。",
+  "downloader_step": "步驟",
+  "downloader_copyUrl": "複製 YouTube 影片網址",
+  "downloader_clickDownload": "點擊「立即下載」按鈕",
+  "downloader_saveVideo": "選擇偏好的格式並保存",
+  "downloader_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "即時下載",
+      "description": "使用高速伺服器立即下載任何 YouTube 影片。無需等待、無需緩衝 - 只提供快速簡單的下載體驗。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "多種畫質選項",
+      "description": "從 360p 到 4K，選擇各種影片畫質。根據您的設備和儲存空間選擇最適合的畫質。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% 免費且安全",
+      "description": "在安全的平台上享受完全免費的影片下載。無隱藏費用、無惡意軟體 - 只提供安全可靠的下載。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "無限下載",
+      "description": "隨心所欲下載影片。無每日限制、無限制 - 盡情下載。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "無需註冊",
+      "description": "無需創建帳戶即可立即開始下載。只需貼上網址並下載 - 就是這麼簡單。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "適用所有設備",
+      "description": "在桌面電腦、平板或手機等任何設備上下載影片。我們的下載器在所有平台上都能順暢運作。"
+    }
+  ],
+  "downloader_downloadNow": "立即下載 >>",
+  "downloader_featuresConverter": "免費 YouTube 影片下載器的功能",
+  "downloader_benefits": {
+    "title": "為什麼選擇我們的免費 YouTube 影片下載器",
+    "convenience": {
+      "title": "隨時隨地下載",
+      "description": "不再擔心網路連接問題。下載喜愛的影片，隨時離線觀看。非常適合長途飛行、公路旅行或網路連接不穩定的地區。"
+    },
+    "avoidAds": {
+      "title": "無廣告觀看體驗",
+      "description": "無中斷地享受下載的影片。無廣告、無彈窗、無干擾 - 只提供純粹的娛樂體驗。"
+    },
+    "saveData": {
+      "title": "節省行動數據",
+      "description": "透過 WiFi 下載影片，之後無需使用行動數據即可觀看。非常適合有限制數據方案的用戶。"
+    },
+    "moreFromDownloads": {
+      "title": "從下載中獲得更多",
+      "description": "充分利用下載的影片：1.建立影片庫創建喜愛影片的個人收藏2.無限制觀看無需網路，隨時隨地觀看影片3.與朋友分享輕鬆與朋友和家人分享下載的影片"
+    }
+  },
+  "downloader_faqTitle": "常見問題",
+  "downloader_faq1Question": "1. 下載 YouTube 影片是否合法？",
+  "downloader_faq1Answer": "這取決於您如何使用下載的影片。您可以合法下載用於個人使用、教育目的或公共領域的內容。請始終遵守版權法和 YouTube 服務條款。",
+  "downloader_faq2Question": "2. 可以下載什麼畫質的影片？",
+  "downloader_faq2Answer": "我們的下載器支援從 360p 到 4K 的各種影片畫質，取決於原始影片的品質。您可以根據需求和設備儲存空間選擇適合的畫質。",
+  "downloader_faq3Question": "3. 可以在行動設備上下載影片嗎？",
+  "downloader_faq3Answer": "是的！我們的影片下載器適用於所有設備，包括智慧型手機和平板電腦。只需在行動瀏覽器中訪問我們的網站，即可立即開始下載影片。",
+  "downloader_faq4Question": "4. 這個 YouTube 影片下載器真的免費嗎？",
+  "downloader_faq4Answer": "是的，我們的下載器完全免費。無隱藏費用、無高級功能、無需訂閱。我們通過最小化的非侵入式廣告來維持服務。",
+  "downloader_faq5Question": "5. 誰能從使用這個影片下載器中受益？",
+  "downloader_faq5Answer": "我們的下載器非常適合學生、教師、內容創作者、旅行者以及想要保存 YouTube 影片以便離線觀看的任何人。對於網路訪問受限或使用限制數據方案的用戶特別有用。"
+}
