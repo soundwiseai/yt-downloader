@@ -22,6 +22,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
+        '/en',
         '/en/youtube-to-mp3',
         '/en/youtube-video-downloader',
         '/ar/youtube-to-mp3',
