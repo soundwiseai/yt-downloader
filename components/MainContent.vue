@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="container2" v-if="videoData && videoData?.title">
+    <div class="container2" v-if="!loading && videoData && videoData?.title">
       <div class="video-card">
         <div class="video-header">
           <NuxtImg :src="videoData.thumbnail" class="thumbnail" alt="Thumbnail" />
