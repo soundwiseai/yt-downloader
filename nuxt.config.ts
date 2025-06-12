@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', '@nuxt/image'],
   i18n: {
     defaultLocale: 'en',
-    
     locales: [
       { code: 'en', name: 'English', files: 'en.json' },
       { code: 'ar', name: 'العربية', file: 'ar.json' },      
@@ -19,5 +18,35 @@ export default defineNuxtConfig({
       { code: 'vi', name: 'Tiếng Việt', file: 'vi.json' },
       { code: 'zh-TW', name: '繁體中文', file: 'zh-TW.json' }    
     ]
+  },
+  nitro: {
+    prerender: {
+      routes: [
+        '/en/youtube-to-mp3',
+        '/en/youtube-video-downloader',
+        '/ar/youtube-to-mp3',
+        '/ar/youtube-video-downloader',
+        '/es/youtube-to-mp3',
+        '/es/youtube-video-downloader',
+        '/hi/youtube-to-mp3',
+        '/hi/youtube-video-downloader',
+        '/id/youtube-to-mp3',
+        '/id/youtube-video-downloader',
+        '/ja/youtube-to-mp3',
+        '/ja/youtube-video-downloader',
+        '/ko/youtube-to-mp3',
+        '/ko/youtube-video-downloader',
+        '/pt/youtube-to-mp3',
+        '/pt/youtube-video-downloader',
+        '/th/youtube-to-mp3',
+        '/th/youtube-video-downloader',
+        '/vi/youtube-to-mp3',
+        '/vi/youtube-video-downloader',
+        '/zh-TW/youtube-to-mp3',
+        '/zh-TW/youtube-video-downloader',
+        '/youtube-to-mp3',
+        '/youtube-video-downloader'
+      ]
+    }
   }
 })
