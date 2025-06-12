@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-    <MainContent />
-    <Reviews />
-    <VedioConvertDeps/>
-    <Features />
-    <Benefits />
-    <FAQ />
+    <div class="container">
+      <MainContent />
+      <Reviews />
+      <VedioConvertDeps/>
+      <Features />
+      <Benefits />
+      <FAQ />
+    </div>
   </div>
 </template>
 
@@ -25,3 +27,10 @@ defineProps({
   }
 })
 </script>
+
+<style scoped>
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+</style>

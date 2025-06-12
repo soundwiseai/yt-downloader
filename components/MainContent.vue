@@ -119,8 +119,8 @@ const fetchFormats = async () => {
 
   loading.value = true
   try {
-    const response = await axios.post('http://localhost:3001/api/formats', {
-      url: yt_url.value
+    const response = await axios.get('/api/get-formats', {
+      params: { url: yt_url.value }
     })
     videoData.value = response.data
   } catch (error) {
@@ -196,7 +196,8 @@ const fetchFormats = async () => {
   max-width: 500px;
   /* 最大宽度，防止过宽 */
   height: 60px;
-  /* 高度统一 */
+  /* 高度统一 */  
+  background-color: #e8e8e8;
 }
 
 /* 输入框样式 */
@@ -207,10 +208,10 @@ const fetchFormats = async () => {
   border: none;
   outline: none;
   font-size: 1em;
-  background-color: #f1f1f1;
   color: #333;
   height: 100%;
   /* 保证输入框高度与父容器一致 */
+  background: none;
 }
 
 /* 下载按钮样式 */

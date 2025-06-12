@@ -10,31 +10,13 @@
   "formats": "All Formats",
   "formatsTip": "Click to save",
   "reviews": [
-    {
-      "text": "Perfect for saving my favorite videos! Fast downloads and super simple to use. No registration needed.",
-      "author": "Sarah_Bennett92"
-    },
-    {
-      "text": "This tool is great! I love how easy it is to download videos in various formats.",
-      "author": "John_Doe"
-    },
-    {
-      "text": "I've been using this for months, and it always works perfectly.",
-      "author": "Jane_Smith"
-    },
-    {
-      "text": "Fast and reliable. The best video downloader!",
-      "author": "Michael_Johnson"
-    },
-    {
-      "text": "Easy to use and very effective for saving content.",
-      "author": "David_Lee"
-    },
-    {
-      "text": "Highly recommended! Works flawlessly for all my videos.",
-      "author": "Emma_Wilson"
-    }
-  ],
+    { "text": "Perfect for saving my favorite videos! Fast downloads and super simple to use. No registration needed.", "author": "Sarah_Bennett92" },
+    { "text": "This tool is great! I love how easy it is to download videos in various formats.", "author": "John_Doe" },
+    { "text": "I’ve been using this for months, and it always works perfectly.", "author": "Jane_Smith" },
+    { "text": "Fast and reliable. The best video downloader!", "author": "Michael_Johnson" },
+    { "text": "Easy to use and very effective for saving content.", "author": "David_Lee" },
+    { "text": "Highly recommended! Works flawlessly for all my videos.", "author": "Emma_Wilson" }
+],
   "howToConvertTitle": "How to Convert YouTube Video to MP4",
   "howToConvertDescription": "Imagine being on a long flight or in a remote area with no internet access. Streaming your favorite video becomes impossible, right? That's where offline viewing saves the day. By downloading videos in advance, you can enjoy uninterrupted entertainment anytime, anywhere. A YouTube to MP4 converter makes this process seamless. It lets you download YouTube videos quickly and efficiently.",
   "step": "Step",

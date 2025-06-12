@@ -9,30 +9,12 @@
     "formats": "Todos los formatos",
     "formatsTip": "Haga clic para guardar",
     "reviews": [
-        {
-            "text": "¡Perfecto para guardar mis videos favoritos! Descargas rápidas y súper fácil de usar. No se necesita registro.",
-            "author": "Sarah_Bennett92"
-        },
-        {
-            "text": "¡Esta herramienta es genial! Me encanta lo fácil que es descargar videos en varios formatos.",
-            "author": "John_Doe"
-        },
-        {
-            "text": "Llevo meses usándolo, y siempre funciona perfectamente.",
-            "author": "Jane_Smith"
-        },
-        {
-            "text": "Rápido y confiable. ¡El mejor descargador de videos!",
-            "author": "Michael_Johnson"
-        },
-        {
-            "text": "Fácil de usar y muy eficaz para guardar contenido.",
-            "author": "David_Lee"
-        },
-        {
-            "text": "¡Altamente recomendado! Funciona a la perfección con todos mis videos.",
-            "author": "Emma_Wilson"
-        }
+        { "text": "¡Perfecto para guardar mis videos favoritos! Descargas rápidas y súper fácil de usar. No se necesita registro.", "author": "Sarah_Bennett92" },
+        { "text": "¡Esta herramienta es genial! Me encanta lo fácil que es descargar videos en varios formatos.", "author": "John_Doe" },
+        { "text": "Llevo meses usándolo, y siempre funciona perfectamente.", "author": "Jane_Smith" },
+        { "text": "Rápido y confiable. ¡El mejor descargador de videos!", "author": "Michael_Johnson" },
+        { "text": "Fácil de usar y muy eficaz para guardar contenido.", "author": "David_Lee" },
+        { "text": "¡Altamente recomendado! Funciona a la perfección con todos mis videos.", "author": "Emma_Wilson" }
     ],
     "howToConvertTitle": "Cómo convertir un video de YouTube a MP4",
     "howToConvertDescription": "Imagina estar en un largo vuelo o en un área remota sin acceso a Internet. ¿Transmitir tu video favorito se vuelve imposible, verdad? Ahí es donde la visualización sin conexión salva el día. Al descargar videos con anticipación, puedes disfrutar de entretenimiento ininterrumpido en cualquier momento y lugar. Un convertidor de YouTube a MP4 hace que este proceso sea fácil. Te permite descargar videos de YouTube rápida y eficientemente.",
