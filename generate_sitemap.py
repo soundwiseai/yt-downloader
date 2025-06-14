@@ -14,21 +14,36 @@ URLS = [
 ]
 
 def generate_sitemap(static_dir='public'):
+    # 使用 UTC 时间
+    from datetime import datetime, timezone
+    lastmod = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:00:00+00:00')
+    
     sitemap_urls = [
-        f"  <url><loc>{BASE_URL}</loc></url>",
-        f"  <url><loc>{BASE_URL}/privacy-policy</loc></url>",
-        f"  <url><loc>{BASE_URL}/teamof-server</loc></url>",
+        f"""  <url>
+    <loc>{BASE_URL}</loc>
+    <lastmod>{lastmod}</lastmod>
+  </url>""",
+        f"""  <url>
+    <loc>{BASE_URL}/privacy-policy</loc>
+    <lastmod>{lastmod}</lastmod>
+  </url>""",
+        f"""  <url>
+    <loc>{BASE_URL}/teamof-server</loc>
+    <lastmod>{lastmod}</lastmod>
+  </url>""",
     ]
     for locale in SUPPORTED_LOCALES:
         for url in URLS:
             loc = f"{BASE_URL}/{locale}{url}"
-            sitemap_urls.append(f"  <url><loc>{loc}</loc></url>")
+            sitemap_urls.append(f"""  <url>
+    <loc>{loc}</loc>
+    <lastmod>{lastmod}</lastmod>
+  </url>""")
 
-    xml = f'''<?xml version="1.0" encoding="UTF-8"?>
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {chr(10).join(sitemap_urls)}
-</urlset>
-'''
+</urlset>"""
     os.makedirs(static_dir, exist_ok=True)
     output_path = os.path.join(static_dir, 'sitemap.xml')
     with open(output_path, 'w', encoding='utf-8') as f:
