@@ -9,6 +9,13 @@
 <script setup>
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
+
+useHead({
+  link: [
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+  ]
+});
 </script>
 
 <style>
