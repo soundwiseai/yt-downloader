@@ -1,4 +1,22 @@
 {
+  "seo": {
+    "title": "YouTube to MP4 Converter - Download Videos Free | Youtubetomp4.pro",
+    "description": "Convert and download YouTube videos to MP4 format with our fast, free online converter. No registration required, unlimited downloads, high quality videos.",
+    "ogTitle": "Free YouTube to MP4 Converter - Download Videos Instantly",
+    "ogDescription": "Download YouTube videos in MP4 format with our fast, free converter. High quality, no registration, unlimited downloads."
+  },
+  "mp3_seo": {
+    "title": "YouTube to MP3 - Free YouTube to MP3 Converter",
+    "description": "Convert YouTube videos to MP3 for free with high quality. No registration, unlimited downloads, and completely secure.",
+    "ogTitle": "YouTube to MP3 Converter - Free and Fast",
+    "ogDescription": "Convert YouTube videos to MP3 easily. High-quality audio, no registration, unlimited downloads."
+  },
+  "downloader_seo": {
+    "title": "YouTube Video Downloader - Free YouTube Video Downloader",
+    "description": "Download YouTube videos for free with the best quality. Supports multiple formats, unlimited downloads, and completely secure.",
+    "ogTitle": "YouTube Video Downloader - Free and Fast",
+    "ogDescription": "Download YouTube videos easily. High-quality videos, no registration, unlimited downloads."
+  },  
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube Video Downloader",
   "mp3Converter": "YouTube to MP3 Converter",

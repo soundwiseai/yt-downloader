@@ -1,4 +1,22 @@
 {
+  "seo": {
+    "title": "YouTube 影片下載器 - 免費下載 MP4 影片 | Youtubetomp4.pro",
+    "description": "使用我們快速、免費的線上轉換器將 YouTube 影片轉換並下載為 MP4 格式。無需註冊，無限下載，高品質影片。",
+    "ogTitle": "免費 YouTube MP4 下載器 - 立即下載影片",
+    "ogDescription": "使用我們快速、免費的轉換器下載 YouTube MP4 影片。高品質，無需註冊，無限下載。"
+  },
+  "mp3_seo": {
+    "title": "YouTube 轉 MP3 - 免費 YouTube MP3 轉換器",
+    "description": "免費將 YouTube 影片轉換為高品質 MP3。無需註冊，無限下載，完全安全。",
+    "ogTitle": "YouTube MP3 轉換器 - 免費及快速",
+    "ogDescription": "輕鬆將 YouTube 影片轉換為 MP3。高品質音訊，無需註冊，無限下載。"
+  },
+  "downloader_seo": {
+    "title": "YouTube 影片下載器 - 免費 YouTube 影片下載器",
+    "description": "免費下載最高品質的 YouTube 影片。支援多種格式，無限下載，完全安全。",
+    "ogTitle": "YouTube 影片下載器 - 免費及快速",
+    "ogDescription": "輕鬆下載 YouTube 影片。高品質影片，無需註冊，無限下載。"
+  },  
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube 視頻下載器",
   "mp3Converter": "YouTube 轉 MP3",

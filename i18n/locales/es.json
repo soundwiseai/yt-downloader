@@ -1,4 +1,22 @@
 {
+    "seo": {
+        "title": "Descargar videos de YouTube - Guardar gratis en formato MP4 | Youtubetomp4.pro",
+        "description": "Convierte y descarga videos de YouTube a MP4 con nuestro convertidor gratuito y rápido en línea. Sin registro, descargas ilimitadas, videos de alta calidad.",
+        "ogTitle": "Descarga gratuita de YouTube MP4 - Guardado fácil e instantáneo",
+        "ogDescription": "Descarga videos de YouTube en MP4 con nuestro convertidor rápido y gratuito. Alta calidad, sin registro, descargas ilimitadas."
+    },
+    "mp3_seo": {
+        "title": "YouTube a MP3 - Convertidor gratuito de YouTube a MP3",
+        "description": "Convierte videos de YouTube a MP3 gratis con alta calidad. Sin registro, descargas ilimitadas y completamente seguro.",
+        "ogTitle": "Convertidor de YouTube a MP3 - Descarga MP3 desde YouTube",
+        "ogDescription": "Convierte y descarga audio de YouTube rápido y fácil. Excelente calidad de sonido, no se necesita software."
+    },
+    "downloader_seo": {
+        "title": "Descargar videos de YouTube - Descargador gratuito de videos de YouTube",
+        "description": "Descarga videos de YouTube gratis con la mejor calidad. Soporta múltiples formatos, descargas ilimitadas y completamente seguro.",
+        "ogTitle": "Descargador de videos de YouTube - Descarga videos en alta calidad",
+        "ogDescription": "Descarga videos de YouTube rápido y fácil. Soporta todas las resoluciones, desde 360p hasta 4K. No requiere registro."
+    },
     "siteName": "Youtubetomp4.pro",
     "videoDownloader": "Descargador de videos de YouTube",
     "mp3Converter": "Convertidor de YouTube a MP3",

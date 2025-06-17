@@ -1,4 +1,22 @@
 {
+  "seo": {
+    "title": "YouTube 動画ダウンロード - MP4形式で無料保存 | Youtubetomp4.pro",
+    "description": "無料で高速なオンラインコンバーターでYouTube動画をMP4形式に変換してダウンロード。登録不要、無制限ダウンロード、高品質動画。",
+    "ogTitle": "無料YouTube MP4ダウンロード - 簡単即時保存",
+    "ogDescription": "高速で無料のコンバーターでYouTube動画をMP4でダウンロード。高品質、登録不要、無制限ダウンロード。"
+  },
+  "mp3_seo": {
+    "title": "YouTubeからMP3へ - 無料YouTube MP3コンバーター",
+    "description": "高品質でYouTube動画をMP3に無料変換。登録不要、無制限ダウンロード、完全に安全。",
+    "ogTitle": "YouTubeからMP3へのコンバーター - YouTubeからMP3をダウンロード",
+    "ogDescription": "YouTubeから素早く簡単にMP3音声をダウンロード。優れた音質、ソフトウェア不要。"
+  },
+  "downloader_seo": {
+    "title": "YouTube動画ダウンロード - 無料YouTube動画ダウンローダー",
+    "description": "最高品質でYouTube動画を無料ダウンロード。複数のフォーマットに対応、無制限ダウンロード、完全に安全。",
+    "ogTitle": "YouTube動画ダウンローダー - 高品質動画をダウンロード",
+    "ogDescription": "YouTube動画を素早く簡単にダウンロード。360pから4Kまでのすべての解像度に対応。登録不要。"
+  },
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTubeビデオダウンローダー",
   "mp3Converter": "YouTubeからMP3への変換",

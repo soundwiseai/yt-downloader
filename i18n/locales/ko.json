@@ -1,4 +1,22 @@
 {
+  "seo": {
+    "title": "YouTube 동영상 다운로드 - MP4 형식으로 무료 저장 | Youtubetomp4.pro",
+    "description": "무료이며 고속 온라인 변환기로 YouTube 동영상을 MP4로 변환하여 다운로드하세요. 회원가입 불필요, 무제한 다운로드, 고화질 동영상.",
+    "ogTitle": "무료 YouTube MP4 다운로드 - 쉽고 빠른 저장",
+    "ogDescription": "고속 무료 변환기로 YouTube 동영상을 MP4로 다운로드. 고화질, 회원가입 불필요, 무제한 다운로드."
+  },
+  "mp3_seo": {
+    "title": "YouTube에서 MP3로 - 무료 YouTube MP3 변환기",
+    "description": "고품질로 YouTube 동영상을 MP3로 무료 변환. 회원가입 불필요, 무제한 다운로드, 완전히 안전.",
+    "ogTitle": "YouTube에서 MP3로 변환기 - YouTube에서 MP3 다운로드",
+    "ogDescription": "YouTube에서 신속하고 쉽게 MP3 오디오를 다운로드. 우수한 음질, 소프트웨어 불필요."
+  },
+  "downloader_seo": {
+    "title": "YouTube 동영상 다운로드 - 무료 YouTube 동영상 다운로더",
+    "description": "최고 품질로 YouTube 동영상을 무료 다운로드. 다양한 형식 지원, 무제한 다운로드, 완전히 안전.",
+    "ogTitle": "YouTube 동영상 다운로더 - 고화질 동영상 다운로드",
+    "ogDescription": "YouTube 동영상을 신속하고 쉽게 다운로드. 360p부터 4K까지의 모든 해상도 지원. 회원가입 불필요."
+  },
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "유튜브 비디오 다운로더",
   "mp3Converter": "유튜브 MP3 변환기",
@@ -10,23 +28,23 @@
   "formatsTip": "저장하려면 클릭하세요",
   "reviews": [
     {
-      "text": "Perfeito para salvar meus vídeos favoritos! Downloads rápidos e super simples de usar. Não é necessário registro.",
+      "text": "즐겨찾는 동영상을 저장하기에 완벽해요! 다운로드가 빠르고 사용하기 매우 쉬워요. 회원가입도 필요 없어요.",
       "author": "Sarah_Bennett92"
     },
     {
-      "text": "Esta ferramenta é ótima! Eu adoro como é fácil baixar vídeos em vários formatos.",
+      "text": "이 도구는 정말 훌륭해요! 다양한 형식으로 동영상을 다운로드하기가 이렇게 쉽다니 너무 좋아요.",
       "author": "John_Doe"
     },
     {
-      "text": "Eu uso isso há meses, e sempre funciona perfeitamente.",
+      "text": "몇 달 동안 사용해왔는데, 항상 완벽하게 작동해요.",
       "author": "Jane_Smith"
     },
     {
-      "text": "Rápido e confiável. O melhor downloader de vídeos!",
+      "text": "빠르고 안정적이에요. 최고의 동영상 다운로더예요!",
       "author": "Michael_Johnson"
     },
     {
-      "text": "Fácil de usar e muito eficaz para salvar conteúdo.",
+      "text": "사용하기 쉽고 콘텐츠 저장에 매우 효과적이에요.",
       "author": "David_Lee"
     },
     {

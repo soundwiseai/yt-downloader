@@ -1,4 +1,22 @@
 {
+  "seo": {
+    "title": "Tải video YouTube - Lưu miễn phí dưới dạng MP4 | Youtubetomp4.pro",
+    "description": "Chuyển đổi và tải xuống video YouTube sang định dạng MP4 với trình chuyển đổi trực tuyến miễn phí và nhanh chóng của chúng tôi. Không cần đăng ký, không giới hạn tải xuống, video chất lượng cao.",
+    "ogTitle": "Tải xuống YouTube MP4 miễn phí - Lưu dễ dàng và nhanh chóng",
+    "ogDescription": "Tải xuống video YouTube ở định dạng MP4 với trình chuyển đổi nhanh và miễn phí của chúng tôi. Chất lượng cao, không cần đăng ký, không giới hạn tải xuống."
+  },
+  "mp3_seo": {
+    "title": "YouTube sang MP3 - Trình chuyển đổi YouTube sang MP3 miễn phí",
+    "description": "Chuyển đổi video YouTube sang MP3 miễn phí với chất lượng cao. Không cần đăng ký, không giới hạn tải xuống, và hoàn toàn an toàn.",
+    "ogTitle": "Trình chuyển đổi YouTube sang MP3 - Tải nhạc MP3 từ YouTube",
+    "ogDescription": "Chuyển đổi và tải xuống âm thanh MP3 từ YouTube nhanh chóng và dễ dàng. Chất lượng âm thanh tuyệt vời, không cần phần mềm."
+  },
+  "downloader_seo": {
+    "title": "Tải video YouTube - Trình tải xuống video YouTube miễn phí",
+    "description": "Tải xuống video YouTube miễn phí với chất lượng cao nhất. Hỗ trợ nhiều định dạng, không giới hạn tải xuống, và hoàn toàn an toàn.",
+    "ogTitle": "Trình tải xuống video YouTube - Tải video chất lượng cao",
+    "ogDescription": "Tải xuống video YouTube nhanh chóng và dễ dàng. Hỗ trợ tất cả độ phân giải, từ 360p đến 4K. Không cần đăng ký."
+  },
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Trình tải xuống video YouTube",
   "mp3Converter": "Trình chuyển đổi YouTube sang MP3",
