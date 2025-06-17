@@ -6,17 +6,23 @@ export default defineNuxtConfig({
   i18n: {
     defaultLocale: 'en',
     locales: [
-      { code: 'en', name: 'English', files: 'en.json' },
+      { code: 'en', name: 'English', file: 'en.json' },
       { code: 'ar', name: 'العربية', file: 'ar.json' },      
+      { code: 'de', name: 'Deutsch', file: 'de.json' },
       { code: 'es', name: 'Español', file: 'es.json' },
+      { code: 'es-419', name: 'Español (Latinoamérica)', file: 'es-419.json' },
+      { code: 'fr', name: 'Français', file: 'fr.json' },
       { code: 'hi', name: 'हिन्दी', file: 'hi.json' },
       { code: 'id', name: 'Bahasa Indonesia', file: 'id.json' },
+      { code: 'it', name: 'Italiano', file: 'it.json' },
       { code: 'ja', name: '日本語', file: 'ja.json' },
       { code: 'ko', name: '한국어', file: 'ko.json' },
       { code: 'pt', name: 'Português', file: 'pt.json' },
+      { code: 'pt-br', name: 'Português (Brasil)', file: 'pt-br.json' },
       { code: 'th', name: 'ไทย', file: 'th.json' },
+      { code: 'tr', name: 'Türkçe', file: 'tr.json' },
       { code: 'vi', name: 'Tiếng Việt', file: 'vi.json' },
-      { code: 'zh-TW', name: '繁體中文', file: 'zh-TW.json' }    
+      { code: 'zh-TW', name: '繁體中文', file: 'zh-TW.json' }
     ]
   },
   nitro: {

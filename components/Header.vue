@@ -150,7 +150,7 @@ const goHome = () => {
   position: absolute;
   top: 100%;
   right: 0;
-  width: 180px;
+  width: 240px;
   background-color: white;
   border-radius: 4px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15), 0 8px 25px rgba(0, 0, 0, 0.1);
