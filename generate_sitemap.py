@@ -4,7 +4,7 @@ import os
 BASE_URL = 'https://youtubetomp4.pro'
 
 # 支持的语言
-SUPPORTED_LOCALES = ['en', 'es', 'ar', 'hi', 'pt', 'ko', 'ja', 'zh-TW', 'id', 'th', 'vi']
+SUPPORTED_LOCALES = ['en', 'es', 'es-419', 'ar', 'hi', 'pt', 'pt-br', 'ko', 'ja', 'zh-TW', 'id', 'th', 'vi', 'tr', 'fr', 'it', 'de']
 
 # 主要页面路径（不含 locale 前缀）
 URLS = [
