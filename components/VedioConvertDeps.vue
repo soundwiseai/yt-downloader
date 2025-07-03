@@ -9,7 +9,7 @@
       <div v-for="(step, index) in steps" :key="index" class="step">
         <NuxtImg :src="step.image" :alt="step.title" class="step-image"/>
         <p class="step-text">
-          <span class="step-number">{{ _t("step") }} {{ index + 1 }}.</span> {{ _t(step.title) }}
+          <span class="step-number">{{ _t("step") }} {{ index + 1 }}.</span> <span v-html="_t(step.title)"></span>
         </p>
       </div>
     </div>

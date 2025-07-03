@@ -5,6 +5,11 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', '@nuxt/image'],
   i18n: {
     defaultLocale: 'en',
+    langDir: 'locales',
+    compilation: {
+      strictMessage: false,
+      escapeHtml: false
+    },
     locales: [
       { code: 'en', name: 'English', file: 'en.json' },
       { code: 'ar', name: 'العربية', file: 'ar.json' },      

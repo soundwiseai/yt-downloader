@@ -1,50 +1,51 @@
 {
   "seo": {
-    "title": "Baixar Vídeos do YouTube - Salvar Grátis em MP4 | Youtubetomp4.pro",
-    "description": "Converta e baixe vídeos do YouTube para MP4 com nosso conversor online grátis e rápido. Sem registro, downloads ilimitados, vídeos em alta qualidade.",
-    "ogTitle": "Download Gratuito de YouTube MP4 - Salve Fácil e Instantâneo",
-    "ogDescription": "Baixe vídeos do YouTube em MP4 com nosso conversor rápido e gratuito. Alta qualidade, sem registro, downloads ilimitados."
+    "title": "Conversor Gratuito de YouTube para MP4 - Rápido e Seguro | Youtubetomp4.pro",
+    "description": "Converta vídeos do YouTube para MP4 em segundos. O nosso descarregador online gratuito é 100% seguro, não requer anúncios nem login. Suporta formatos MP4, MP3 e mais em alta qualidade.",
+    "ogTitle": "Conversor Gratuito de YouTube para MP4 - Rápido e Seguro | Youtubetomp4.pro",
+    "ogDescription": "Converta vídeos do YouTube para MP4 em segundos. O nosso descarregador online gratuito é 100% seguro, não requer anúncios nem login. Suporta formatos MP4, MP3 e mais em alta qualidade."
   },
   "mp3_seo": {
-    "title": "YouTube para MP3 - Conversor Gratuito de YouTube para MP3",
-    "description": "Converta vídeos do YouTube para MP3 gratuitamente com alta qualidade. Sem registro, downloads ilimitados e totalmente seguro.",
-    "ogTitle": "Conversor de YouTube para MP3 - Gratuito e Rápido",
-    "ogDescription": "Converta vídeos do YouTube para MP3 facilmente. Áudio de alta qualidade, sem registro, downloads ilimitados."
+    "title": "Conversor de URL do YouTube para MP3 - Converta Online, Rápido e Grátis",
+    "description": "Converta rapidamente qualquer URL do YouTube para um ficheiro MP3 de alta qualidade com a nossa ferramenta online gratuita. O nosso conversor é rápido, 100% seguro, sem anúncios e não requer a instalação de software.",
+    "ogTitle": "Conversor de URL do YouTube para MP3 - Converta Online, Rápido e Grátis",
+    "ogDescription": "Converta rapidamente qualquer URL do YouTube para um ficheiro MP3 de alta qualidade com a nossa ferramenta online gratuita. O nosso conversor é rápido, 100% seguro, sem anúncios e não requer a instalação de software."
   },
   "downloader_seo": {
-    "title": "Baixador de Vídeos do YouTube - Baixador Gratuito de Vídeos do YouTube",
-    "description": "Baixe vídeos do YouTube gratuitamente com a melhor qualidade. Suporta múltiplos formatos, downloads ilimitados e totalmente seguro.",
-    "ogTitle": "Baixador de Vídeos do YouTube - Gratuito e Rápido",
-    "ogDescription": "Baixe vídeos do YouTube facilmente. Vídeos em alta qualidade, sem registro, downloads ilimitados."
+    "title": "Downloader de URL do YouTube para MP4, MP3 e Texto | Youtubetomp4.pro",
+    "description": "Baixe vídeos do YouTube instantaneamente, extraia áudio em MP3 ou transcreva qualquer vídeo em texto com nosso downloader de URL gratuito. 100% seguro, não é necessário se registrar.",
+    "ogTitle": "Downloader de URL do YouTube para MP4, MP3 e Texto | Youtubetomp4.pro",
+    "ogDescription": "Baixe vídeos do YouTube instantaneamente, extraia áudio em MP3 ou transcreva qualquer vídeo em texto com nosso downloader de URL gratuito. 100% seguro, não é necessário se registrar."
   },  
+
   "siteName": "Youtubetomp4.pro",
-  "videoDownloader": "Baixador de vídeos do YouTube",
+  "videoDownloader": "Descarregador de Vídeos do YouTube",
   "mp3Converter": "Conversor de YouTube para MP3",
-  "title": "Conversor do YouTube para MP4",
-  "description": "Cole a URL e converta rapidamente o YouTube para MP4. Sempre gratuito, sempre funciona, sem anúncios.",
-  "download": "BAIXAR",
-  "tip": "Esteja ciente dos direitos autorais ao baixar conteúdo. Esta ferramenta não foi projetada para baixar músicas protegidas por direitos autorais.",
-  "formats": "Todos os formatos",
-  "formatsTip": "Clique para salvar",
+  "title": "Conversor de YouTube para MP4",
+  "description": "Cole o URL e converta rapidamente YouTube para MP4. Sempre gratuito, sempre funcional, sem anúncios.",
+  "download": "DESCARREGAR",
+  "tip": "Por favor, respeite os direitos de autor ao descarregar conteúdo. Esta ferramenta não foi concebida para descarregar música protegida por direitos de autor.",
+  "formats": "Todos os Formatos",
+  "formatsTip": "Clique para guardar",
   "reviews": [
     {
-      "text": "Perfeito para salvar meus vídeos favoritos! Downloads rápidos e super simples de usar. Não é necessário registro.",
+      "text": "Perfeito para guardar os meus vídeos favoritos! Descargas rápidas e super simples de usar. Não é necessário registo.",
       "author": "Sarah_Bennett92"
     },
     {
-      "text": "Esta ferramenta é ótima! Eu adoro como é fácil baixar vídeos em vários formatos.",
+      "text": "Esta ferramenta é ótima! Adoro a facilidade de descarregar vídeos em vários formatos.",
       "author": "John_Doe"
     },
     {
-      "text": "Eu uso isso há meses, e sempre funciona perfeitamente.",
+      "text": "Uso isto há meses e funciona sempre perfeitamente.",
       "author": "Jane_Smith"
     },
     {
-      "text": "Rápido e confiável. O melhor downloader de vídeos!",
+      "text": "Rápido e fiável. O melhor descarregador de vídeos!",
       "author": "Michael_Johnson"
     },
     {
-      "text": "Fácil de usar e muito eficaz para salvar conteúdo.",
+      "text": "Fácil de usar e muito eficaz para guardar conteúdo.",
       "author": "David_Lee"
     },
     {
@@ -52,287 +53,285 @@
       "author": "Emma_Wilson"
     }
   ],
-  "howToConvertTitle": "Como Converter Vídeo do YouTube para MP4",
-  "howToConvertDescription": "Cole o URL e converta rapidamente o YouTube para MP4. Sempre gratuito, sempre funciona, sem anúncios.",
+  "howToConvertTitle": "Como Converter Vídeos do YouTube para MP4",
+  "howToConvertDescription": "Imagine estar num voo longo ou numa área remota sem acesso à internet. Transmitir o seu vídeo favorito torna-se impossível, certo? É aqui que a visualização offline salva o dia. Ao descarregar vídeos antecipadamente, pode desfrutar de entretenimento sem interrupções a qualquer momento, em qualquer lugar. Um conversor de YouTube para MP4 torna este processo simples. Permite-lhe descarregar vídeos do YouTube de forma rápida e eficiente.",
   "step": "Passo",
-  "copyUrl": "Copiar o URL do vídeo do YouTube",
-  "clickDownload": "Clique diretamente no botão 'Baixar'",
-  "saveVideo": "Aguarde alguns minutos e salve o vídeo",
+  "copyUrl": "Copie o URL do vídeo do YouTube",
+  "clickDownload": "Clique diretamente no botão 'Descarregar'",
+  "saveVideo": "Aguarde alguns minutos e guarde o vídeo",
   "features": [
     {
       "icon": "/images/yt_feature1.png",
-      "title": "Alta taxa de sucesso em downloads do YouTube",
-      "description": "Baixe vídeos do YouTube sem esforço com nosso conversor avançado, com taxas de sucesso líderes da indústria e preservação confiável de qualidade para todos os tipos de conteúdo."
+      "title": "Descarregamentos do YouTube com Alta Taxa de Sucesso",
+      "description": "Descarregue vídeos do YouTube sem esforço com o nosso conversor avançado, apresentando taxas de sucesso líderes do setor e preservação de qualidade fiável para todos os tipos de conteúdo."
     },
     {
       "icon": "/images/yt_feature2.png",
-      "title": "Conversor YouTube para MP4 super-rápido",
-      "description": "Transforme vídeos do YouTube em arquivos MP4 de alta qualidade em segundos. Experimente downloads instantâneos sem comprometer a qualidade do vídeo."
-    },
-    {
-      "icon": "/images/yt_feature3.png",
-      "title": "100% seguro e protegido",
-      "description": "Baixe vídeos do YouTube com segurança com nosso conversor limpo e focado em privacidade. Sem rastreamento, sem malware – apenas simplicidade pura."
-    },
-    {
-      "icon": "/images/yt_feature4.png",
-      "title": "Downloads ilimitados",
-      "description": "Converta e salve quantos vídeos do YouTube quiser, sem tempo de espera ou limites irritantes de download."
-    },
-    {
-      "icon": "/images/yt_feature5.png",
-      "title": "Sem login e sem instalação de software",
-      "description": "Comece a converter vídeos sem criar contas ou baixar nada. Basta colar seu link e pronto – sem complicações."
-    },
-    {
-      "icon": "/images/yt_feature6.png",
-      "title": "Suporte a vários formatos",
-      "description": "Baixe em MP4, M4A ou WEBM. Qualquer formato ou qualidade que você deseja, nós cobrimos."
-    }
-  ],
-  "downloadNow": "Baixar agora >>",
-  "featuresConverter": "Características do Conversor de Vídeos do YouTube",
-  "benefits": {
-    "title": "Benefícios de usar o Conversor de YouTube para MP4",
-    "convenience": {
-      "title": "Conveniência e Acessibilidade",
-      "description": "Já aconteceu de você estar em algum lugar sem acesso à internet, desejando poder assistir seu vídeo favorito? Um conversor de YouTube para MP4 resolve esse problema."
-    },
-    "avoidAds": {
-      "title": "Evitar Anúncios",
-      "description": "Os anúncios podem ser frustrantes, especialmente quando interrompem seus vídeos favoritos. Com um downloader de YouTube MP4, você pode pular os anúncios completamente."
-    },
-    "saveData": {
-      "title": "Economizar Dados e Armazenamento",
-      "description": "Assistir vídeos em streaming pode rapidamente consumir seus dados móveis, especialmente se você tiver um plano limitado."
-    },
-    "moreFromDownloads": {
-      "title": "Obtenha Mais com Seus Downloads",
-      "description": "Diga adeus ao buffer e ao consumo de dados! Aqui está como você pode aproveitar ao máximo seus vídeos offline."
-    }
-  },
-  "faqTitle": "Perguntas Frequentes",
-  "faq1Question": "1. É legal usar um conversor de YouTube para MP4?",
-  "faq1Answer": "Depende do vídeo. Você pode baixar vídeos legalmente com licença Creative Commons ou aqueles explicitamente permitidos para uso offline. Evite baixar conteúdo com direitos autorais sem permissão para se manter dentro da legalidade. Dica: Sempre verifique os termos de uso do vídeo antes de baixar.",
-  "faq2Question": "2. Posso usar um conversor de YouTube para MP4 no meu telefone?",
-  "faq2Answer": "Sim! Funciona em dispositivos móveis. Você pode usar aplicativos ou sites compatíveis com dispositivos móveis para baixar vídeos diretamente para o seu telefone. Basta colar o link do vídeo, selecionar MP4 e clicar em baixar.",
-  "faq3Question": "3. Qual é a melhor resolução para baixar vídeos do YouTube?",
-  "faq3Answer": "Depende das suas necessidades. Para uma reprodução de alta qualidade, escolha HD (720p) ou 4K. Se você estiver economizando espaço de armazenamento, escolha uma resolução mais baixa, como 480p. Dica: Equilibre qualidade e tamanho do arquivo com base na capacidade de armazenamento do seu dispositivo.",
-  "faq4Question": "4. Os conversores gratuitos de YouTube para MP4 são seguros?",
-  "faq4Answer": "Embora muitos conversores gratuitos possam ser duvidosos, levamos a sua segurança a sério. Nosso conversor funciona totalmente no seu navegador, sem downloads ou pop-ups suspeitos. Usamos criptografia HTTPS segura e nunca armazenamos seus dados pessoais ou histórico de visualização. Além disso, fazemos verificações regulares de malware e mantemos nosso serviço limpo. Sem spyware, sem bloatware - apenas conversão de vídeo confiável.",
-  "faq5Question": "5. Quem usa o conversor de YouTube para MP4?",
-  "faq5Answer": "Nosso conversor é perfeito para todos os tipos de usuários. Criadores de conteúdo, estudantes, professores, viajantes, profissionais de negócios e espectadores do dia a dia vão adorar. Você pode converter vídeos sem limites. Não é necessário criar uma conta ou baixar software.",
-  "mp3_siteName": "Youtubetomp4.pro",
-  "mp3_videoDownloader": "Baixador de vídeos do YouTube",
-  "mp3_mp3Converter": "Conversor de YouTube para MP3",
-  "mp3_title": "Conversor de YouTube para MP3",
-  "mp3_description": "Extraia áudio de vídeos do YouTube com nosso poderoso conversor MP3. Gratuito, rápido e sem necessidade de registro.",
-  "mp3_download": "CONVERTER",
-  "mp3_tip": "Por favor, respeite os direitos autorais. Esta ferramenta foi projetada apenas para uso pessoal e fins educacionais.",
-  "mp3_tooltipText": "Esta ferramenta só pode ser usada para uso legal e não infrator. Se você é um criador de conteúdo e quer evitar que seus vídeos sejam baixados usando esta ferramenta, simplesmente adicione #nodownload às tags ou descrição do seu vídeo.",
-  "mp3_formats": "Formatos de Áudio",
-  "mp3_formatsTip": "Clique para baixar",
-  "mp3_reviews": [
-    {
-      "text": "Ferramenta incrível para criar minha playlist! A qualidade do áudio é perfeita e a conversão é super rápida.",
-      "author": "AmanteDaMúsica2023"
-    },
-    {
-      "text": "Uso diariamente para salvar meus podcasts favoritos. A qualidade MP3 é excelente!",
-      "author": "FãDePodcast"
-    },
-    {
-      "text": "Melhor conversor de áudio que encontrei. Sem anúncios, sem espera, apenas qualidade pura.",
-      "author": "EntusiastaDoÁudio"
-    },
-    {
-      "text": "Perfeito para salvar áudio de vídeos educacionais. Muito confiável!",
-      "author": "AjudanteDeEstudante"
-    },
-    {
-      "text": "Interface simples e ótima qualidade de áudio. Altamente recomendado!",
-      "author": "RevisorTécnico"
-    },
-    {
-      "text": "Funciona perfeitamente todas as vezes. O melhor conversor MP3!",
-      "author": "ProdutorMusical"
-    }
-  ],
-  "mp3_howToConvertTitle": "Como Converter YouTube para MP3",
-  "mp3_howToConvertDescription": "Transforme seus vídeos favoritos do YouTube em arquivos de áudio MP3 de alta qualidade em segundos. Seja criando uma playlist, salvando um podcast ou arquivando conteúdo educacional, nosso conversor facilita a extração de áudio de qualquer vídeo do YouTube.",
-  "mp3_step": "Passo",
-  "mp3_copyUrl": "Copie a URL do vídeo do YouTube",
-  "mp3_clickDownload": "Clique no botão 'Converter'",
-  "mp3_saveAudio": "Baixe seu arquivo MP3",
-  "mp3_features": [
-    {
-      "icon": "/images/yt_feature1.png",
-      "title": "Qualidade de Áudio Premium",
-      "description": "Extraia áudio cristalino de vídeos do YouTube com nossa tecnologia de conversão avançada, garantindo a melhor qualidade de som possível para seus arquivos MP3."
-    },
-    {
-      "icon": "/images/yt_feature2.png",
-      "title": "Conversão Ultra Rápida",
-      "description": "Converta vídeos do YouTube para MP3 em segundos. Nosso sistema otimizado garante processamento rápido sem comprometer a qualidade do áudio."
+      "title": "Conversor Rápido de YouTube para MP4",
+      "description": "Transforme vídeos do YouTube em ficheiros MP4 de alta qualidade em segundos. Experimente descarregamentos instantâneos e sem problemas, sem comprometer a qualidade do vídeo."
     },
     {
       "icon": "/images/yt_feature3.png",
       "title": "100% Seguro",
-      "description": "Converta vídeos do YouTube para MP3 com segurança usando nossa plataforma. Sem malware, sem rastreamento – apenas conversão de áudio pura."
+      "description": "Descarregue vídeos do YouTube em segurança com o nosso conversor limpo e focado na privacidade. Sem rastreio, sem malware - apenas simplicidade pura."
     },
     {
       "icon": "/images/yt_feature4.png",
-      "title": "Conversões Ilimitadas",
-      "description": "Converta quantos vídeos do YouTube para MP3 quiser, sem limites diários ou restrições em seus downloads de áudio."
+      "title": "Descarregamentos Ilimitados",
+      "description": "Converta e guarde quantos vídeos do YouTube desejar, sem tempos de espera ou limites de descarregamento irritantes."
     },
     {
       "icon": "/images/yt_feature5.png",
-      "title": "Sem Necessidade de Registro",
-      "description": "Comece a converter vídeos para MP3 imediatamente sem criar uma conta. Apenas cole seu link e obtenha seu arquivo de áudio."
+      "title": "Sem Login e Sem Instalação de Software",
+      "description": "Comece já a converter vídeos sem criar contas ou descarregar nada. Basta colar o seu link e está pronto a usar - sem complicações."
     },
     {
       "icon": "/images/yt_feature6.png",
-      "title": "Múltiplos Formatos de Áudio",
-      "description": "Baixe em MP3, M4A ou outros formatos de áudio. Escolha a qualidade que melhor atende às suas necessidades."
+      "title": "Suporte para Vários Formatos",
+      "description": "Descarregue em MP4, M4A ou WEBM. Qualquer que seja o formato ou qualidade que procura, temos a solução."
     }
   ],
-  "mp3_downloadNow": "Converter Agora >>",
-  "mp3_featuresConverter": "Recursos do Conversor de YouTube para MP3",
-  "mp3_benefits": {
-    "title": "Benefícios do Conversor de YouTube para MP3",
+  "downloadNow": "Descarregar Agora >>",
+  "featuresConverter": "Funcionalidades do Conversor de Vídeos do YouTube",
+  "benefits": {
+    "title": "Vantagens de Usar um Conversor de YouTube para MP4",
     "convenience": {
-      "title": "Liberdade de Áudio",
-      "description": "Crie sua biblioteca de áudio pessoal a partir de vídeos do YouTube. Ouça seu conteúdo favorito offline, seja música, podcasts ou material educacional. Nosso conversor garante que você possa desfrutar de áudio de alta qualidade em qualquer lugar, a qualquer momento."
+      "title": "Conveniência e Acessibilidade",
+      "description": "Já esteve preso num local sem acesso à internet, desejando poder ver o seu vídeo favorito? Um conversor de YouTube para MP4 resolve este problema. Permite-lhe descarregar vídeos em formato MP4, que funciona em quase qualquer dispositivo. Quer esteja a usar um smartphone, tablet ou portátil, pode desfrutar do seu conteúdo sem se preocupar com compatibilidade.\n\nA visualização offline também facilita a vida quando está a viajar ou em áreas com má conectividade. Não tem de lidar com buffering ou interrupções. Além disso, descarregar vídeos garante que tem sempre acesso a conteúdo de alta qualidade, mesmo quando a internet não é uma opção."
     },
     "avoidAds": {
-      "title": "Ouvir Sem Anúncios",
-      "description": "Desfrute da reprodução de áudio sem interrupções de anúncios. Depois de converter um vídeo para MP3, você pode ouvi-lo sem interrupções comerciais, criando uma experiência de audição perfeita."
+      "title": "Evitar Anúncios",
+      "description": "Os anúncios podem ser frustrantes, especialmente quando interrompem os seus vídeos favoritos. Com um descarregador de MP4 do YouTube, pode saltar os anúncios completamente. Assim que descarregar um vídeo, pode vê-lo sem interrupções. Isto significa não ter de esperar que apareçam os botões 'Saltar Anúncio'.\n\nAo evitar anúncios, poupa tempo e desfruta de uma experiência de visualização mais suave. É como ter o seu próprio serviço de streaming sem anúncios. Quer esteja a ver tutoriais, vídeos musicais ou filmes, um descarregador de MP4 garante que nada atrapalha o seu entretenimento."
     },
     "saveData": {
-      "title": "Armazenamento Eficiente",
-      "description": "Arquivos MP3 são muito menores que arquivos de vídeo, permitindo que você armazene mais conteúdo em seu dispositivo. Perfeito para criar extensas bibliotecas de música ou coleções de áudio sem se preocupar com espaço de armazenamento."
+      "title": "Poupar Dados e Armazenamento",
+      "description": "Transmitir vídeos pode consumir rapidamente os seus dados móveis, especialmente se tiver um plano limitado. Um descarregador de MP4 do YouTube ajuda-o a poupar dados, permitindo-lhe descarregar vídeos através de Wi-Fi. Uma vez descarregados, pode vê-los quantas vezes quiser sem usar dados adicionais.\n\nOutra grande vantagem é a eficiência de armazenamento. Os ficheiros MP4 são compactos, por isso não ocupam muito espaço no seu dispositivo. Pode construir uma biblioteca offline dos seus vídeos favoritos sem se preocupar em ficar sem espaço. Isto torna um site de conversão gratuito numa excelente ferramenta para gerir a sua coleção de vídeos."
     },
     "moreFromDownloads": {
-      "title": "Experiência de Áudio Aprimorada",
-      "description": "Transforme sua experiência no YouTube com estes benefícios de áudio: 1. Crie sua Playlist Perfeita  Construa uma coleção de música personalizada a partir de qualquer vídeo do YouTube. 2. Ouça em Qualquer Lugar Desfrute do seu conteúdo de áudio offline, perfeito para viagens e deslocamentos. 3. Economize Largura de Banda  Baixe áudio em vez de vídeo para economizar dados e espaço de armazenamento."
+      "title": "Obtenha Mais dos Seus Descarregamentos",
+      "description": "Diga adeus ao buffering e ao consumo de dados! Eis como tirar o máximo partido dos seus vídeos offline:\n<strong>1.Crie a Sua Biblioteca de Media Pessoal</strong>\nCrie a sua própria coleção ao estilo Netflix - organizada por pastas e etiquetada para uma navegação fácil.\n<strong>Dica profissional: </strong>Adicione notas rápidas aos seus vídeos e mantenha cópias de segurança num disco externo. O seu entretenimento, as suas regras.\n<strong>2.Viaje Sem Preocupações</strong>\nChega de Wi-Fi instável em aviões ou viagens aborrecidas. Carregue o seu dispositivo antes de sair e terá entretenimento infinito no bolso. Quer esteja a acampar no meio do nada ou preso num túnel de metro, o seu conteúdo favorito está sempre pronto.\n<strong>3.Poupe Esses Preciosos Dados</strong>\nDescarregue através de Wi-Fi, veja quando quiser. Perfeito para:\n - Estudantes que guardam vídeos de aulas para o trajeto\n - Profissionais que guardam apresentações de trabalho\n - Qualquer pessoa cansada de ver o ícone de carregamento em ligações instáveis"
     }
   },
-  "mp3_faqTitle": "Perguntas Frequentes",
-  "mp3_faq1Question": "1. É legal converter vídeos do YouTube para MP3?",
-  "mp3_faq1Answer": "A legalidade depende do conteúdo e do uso pretendido. Você pode converter legalmente vídeos com licenças Creative Commons ou aqueles explicitamente permitidos para extração de áudio. Sempre respeite as leis de direitos autorais e use o áudio convertido apenas para fins pessoais.",
-  "mp3_faq2Question": "2. Qual qualidade de áudio posso esperar da conversão MP3?",
-  "mp3_faq2Answer": "Nosso conversor fornece saída MP3 de alta qualidade, tipicamente até 320kbps. A qualidade real depende da qualidade do áudio do vídeo fonte. Mantemos a melhor qualidade de áudio possível durante a conversão.",
-  "mp3_faq3Question": "3. Posso converter vídeos do YouTube para MP3 no meu dispositivo móvel?",
-  "mp3_faq3Answer": "Sim! Nosso conversor funciona em todos os dispositivos, incluindo smartphones e tablets. Basta colar a URL do YouTube e converter para MP3 diretamente no seu dispositivo móvel.",
-  "mp3_faq4Question": "4. Existem limites para quantos vídeos posso converter para MP3?",
-  "mp3_faq4Answer": "Não, não há limites! Você pode converter quantos vídeos do YouTube para MP3 quiser. Nosso serviço é completamente gratuito e ilimitado.",
-  "mp3_faq5Question": "5. Quem pode se beneficiar do conversor de YouTube para MP3?",
-  "mp3_faq5Answer": "Nosso conversor é perfeito para amantes da música, entusiastas de podcasts, estudantes, professores e qualquer pessoa que queira desfrutar do conteúdo do YouTube em formato de áudio. Crie playlists, salve conteúdo educacional ou construa sua biblioteca de áudio pessoal - tudo sem restrições.",
-  "downloader_siteName": "Youtubetomp4.pro",
-  "downloader_videoDownloader": "Baixador Gratuito de Vídeos do YouTube",
-  "downloader_mp3Converter": "Conversor de YouTube para MP3",
-  "downloader_title": "Baixador Gratuito de Vídeos do YouTube",
-  "downloader_description": "Baixe vídeos do YouTube instantaneamente com nosso baixador gratuito. Sem registro, sem anúncios, downloads ilimitados.",
-  "downloader_download": "BAIXAR AGORA",
-  "downloader_tip": "Por favor, respeite as leis de direitos autorais. Esta ferramenta foi projetada para baixar vídeos apenas para uso pessoal.",
-  "downloader_tooltipText": "Esta ferramenta só pode ser usada para uso legal e não infrator. Se você é um criador de conteúdo e quer evitar que seus vídeos sejam baixados usando esta ferramenta, simplesmente adicione #nodownload às tags ou descrição do seu vídeo.",
-  "downloader_audioOnly": "Apenas Áudio",
-  "downloader_formats": "Formatos de Download",
-  "downloader_formatsTip": "Clique para baixar",
-  "downloader_reviews": [
+  "faqTitle": "FAQ",
+  "faq1Question": "1. É legal usar um conversor de YouTube para MP4?",
+  "faq1Answer": "Depende do vídeo. Pode descarregar legalmente vídeos com licença Creative Commons ou aqueles explicitamente permitidos para uso offline. Evite descarregar conteúdo protegido por direitos de autor sem permissão para ficar do lado correto da lei.\n<strong>Dica:</strong> Verifique sempre os termos de uso do vídeo antes de descarregar.",
+  "faq2Question": "2. Posso usar um conversor de YouTube para MP4 no meu telemóvel?",
+  "faq2Answer": "Sim! Funciona em dispositivos móveis. Pode usar aplicações ou sites otimizados para telemóvel para descarregar vídeos diretamente para o seu telefone. Basta colar o link do vídeo, selecionar MP4 e clicar em descarregar.",
+  "faq3Question": "3. Qual é a melhor resolução para descarregar vídeos do YouTube?",
+  "faq3Answer": "Depende das suas necessidades. Para reprodução de alta qualidade, opte por HD (720p) ou 4K. Se quiser poupar espaço de armazenamento, escolha uma resolução mais baixa como 480p.\n<strong>Dica profissional:</strong> Equilibre qualidade e tamanho do ficheiro com base na capacidade de armazenamento do seu dispositivo.",
+  "faq4Question": "4. Os conversores gratuitos de YouTube para MP4 são seguros?",
+  "faq4Answer": "Embora muitos conversores gratuitos possam ser duvidosos, levamos a sua segurança a sério. O nosso conversor funciona totalmente no seu navegador sem descarregamentos ocultos ou pop-ups suspeitos. Usamos encriptação HTTPS segura e nunca armazenamos os seus dados pessoais ou histórico de visualização. Além disso, verificamos regularmente a presença de malware e mantemos o nosso serviço impecavelmente limpo. Sem spyware, sem bloatware - apenas conversão de vídeo direta em que pode confiar.",
+  "faq5Question": "5. Quem usa o conversor de YouTube para MP4?",
+  "faq5Answer": "O nosso conversor é a ferramenta perfeita para todo o tipo de utilizadores. Eis quem vai adorar:\nCriadores de Conteúdo: Guarde vídeos para a sua próxima grande edição ou remix para redes sociais\nEstudantes e Professores: Armazene tutoriais e aulas para sessões de estudo em qualquer lugar\nViajantes Frequentes: Carregue o seu dispositivo com entretenimento para voos longos e deslocações\nProfissionais de Negócios: Mantenha conteúdo de vídeo importante à mão, com ou sem internet\nEspetadores Casuais: Relaxe e desfrute do seu conteúdo favorito do YouTube em qualquer dispositivo, quando quiser",
+  
+  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_videoDownloader": "Descarregador de Vídeos do YouTube",
+  "mp3_mp3Converter": "Conversor de YouTube para MP3",
+  "mp3_title": "Conversor de URL do YouTube para MP3",
+  "mp3_description": "Extraia áudio de alta qualidade instantaneamente a partir de qualquer URL do YouTube. Converta a sua música, podcasts e palestras favoritos em ficheiros MP3 que pode ouvir em qualquer lugar. Sempre gratuito, rápido e seguro.",
+  "mp3_download": "DESCARREGAR",
+  "mp3_tip": "Por favor, respeite os direitos de autor ao descarregar conteúdo. Esta ferramenta não foi concebida para descarregar música protegida por direitos de autor.",
+  "mp3_tooltipText": "Esta ferramenta só pode ser usada para uso legal e não infrator. Se você é um criador de conteúdo e quer evitar que seus vídeos sejam baixados usando esta ferramenta, simplesmente adicione #nodownload às tags ou descrição do seu vídeo.",
+  "mp3_formats": "Todos os Formatos",
+  "mp3_formatsTip": "Clique para guardar",
+  "mp3_reviews": [
     {
-      "text": "O melhor baixador gratuito de vídeos do YouTube que encontrei! Funciona perfeitamente todas as vezes e me economiza muito tempo.",
-      "author": "EntusiastaDeVideos2023"
+      "text": "Perfeito para guardar os meus vídeos favoritos! Descarregamentos rápidos e super fáceis de usar. Não é necessário registo.",
+      "author": "Sarah_Bennett92"
     },
     {
-      "text": "Uso diariamente para salvar conteúdo educacional. Super rápido e confiável!",
-      "author": "CriadorDeConteudoEdu"
+      "text": "Esta ferramenta é ótima! Adoro a facilidade de descarregar vídeos em vários formatos.",
+      "author": "John_Doe"
     },
     {
-      "text": "Finalmente encontrei um baixador gratuito que realmente funciona! Sem pop-ups irritantes ou redirecionamentos.",
-      "author": "ExploradorTecnologico"
+      "text": "Tenho usado isto durante meses e funciona sempre perfeitamente.",
+      "author": "Jane_Smith"
     },
     {
-      "text": "Perfeito para salvar meus vídeos musicais favoritos. A qualidade é incrível!",
-      "author": "AmanteDaMusica"
+      "text": "Rápido e fiável. O melhor descarregador de vídeos!",
+      "author": "Michael_Johnson"
     },
     {
-      "text": "Excelente para baixar vídeos durante viagens. Funciona em todos os meus dispositivos!",
-      "author": "VloggerDeViagens"
+      "text": "Fácil de usar e muito eficaz para guardar conteúdo.",
+      "author": "David_Lee"
     },
     {
-      "text": "O baixador gratuito de vídeos do YouTube mais rápido que já usei. Altamente recomendado!",
-      "author": "NomadeDigital"
+      "text": "Altamente recomendado! Funciona perfeitamente com todos os meus vídeos.",
+      "author": "Emma_Wilson"
     }
   ],
-  "downloader_howToConvertTitle": "Como Baixar Vídeos do YouTube",
-  "downloader_howToConvertDescription": "Quer salvar seus vídeos favoritos do YouTube para assistir offline? Nosso baixador gratuito de vídeos torna isso fácil. Seja você salvando conteúdo educacional, vídeos musicais ou seus vlogs favoritos, você pode baixá-los em segundos com apenas alguns cliques.",
-  "downloader_step": "Passo",
-  "downloader_copyUrl": "Copiar a URL do vídeo do YouTube",
-  "downloader_clickDownload": "Clicar no botão 'Baixar Agora'",
-  "downloader_saveVideo": "Escolher o formato preferido e salvar",
-  "downloader_features": [
+  "mp3_howToConvertTitle": "Obtenha o Seu Áudio em 3 Passos Simples",
+  "mp3_howToConvertDescription": "Nunca foi tão fácil extrair áudio do YouTube. Basta copiar a ligação, colar aqui e o seu MP3 estará pronto.",
+  "mp3_step": "Passo",
+  "mp3_copyUrl": "<strong>Copie o URL do Vídeo do YouTube</strong>\nEncontre o vídeo do YouTube de onde quer extrair o áudio. Copie o URL completo da barra de endereços do seu navegador.",
+  "mp3_clickDownload": "<strong>Cole a Ligação no Conversor</strong>\nVolte ao nosso site e cole a ligação do YouTube na caixa. O conversor de URL para MP3 começará imediatamente a preparar o seu ficheiro de áudio.",
+  "mp3_saveVideo": "<strong>Descarregue o Seu Ficheiro de Áudio MP3</strong>\nClique no ficheiro convertido para guardar instantaneamente o ficheiro de áudio no seu computador, telefone ou tablet. Sem esperas, sem complicações.",
+  "mp3_features": [
     {
       "icon": "/images/yt_feature1.png",
-      "title": "Downloads Instantâneos",
-      "description": "Baixe qualquer vídeo do YouTube instantaneamente com nossos servidores de alta velocidade. Sem tempo de espera, sem buffering - apenas downloads rápidos e fáceis."
+      "title": "Extração de Áudio de Alta Qualidade",
+      "description": "Processamos o seu ficheiro para fornecer um MP3 de alta qualidade, proporcionando uma excelente experiência de audição com um tamanho de ficheiro gerível, perfeito para qualquer dispositivo."
     },
     {
       "icon": "/images/yt_feature2.png",
-      "title": "Múltiplas Opções de Qualidade",
-      "description": "Escolha entre várias qualidades de vídeo - de 360p a 4K. Selecione a qualidade perfeita para seu dispositivo e espaço de armazenamento."
+      "title": "Conversões Ilimitadas e Gratuitas",
+      "description": "Sem limites diários ou restrições. Converta YouTube para MP3 quantas vezes precisar, quando quiser. Guarde faixas individuais ou construa coleções inteiras sem se preocupar com limites."
     },
     {
       "icon": "/images/yt_feature3.png",
-      "title": "100% Gratuito e Seguro",
-      "description": "Desfrute de downloads de vídeo totalmente gratuitos com nossa plataforma segura. Sem taxas ocultas, sem malware - apenas downloads seguros e confiáveis."
+      "title": "Conversões Super Rápidas",
+      "description": "Como nos focamos apenas em áudio, o processo de conversão é incrivelmente rápido. A maioria das conversões de URL do YouTube para MP3 são concluídas em menos de cinco segundos, obtendo o seu ficheiro quase instantaneamente."
     },
     {
       "icon": "/images/yt_feature4.png",
-      "title": "Downloads Ilimitados",
-      "description": "Baixe quantos vídeos quiser. Sem limites diários, sem restrições - baixe à vontade."
+      "title": "Formato MP3 Universal",
+      "description": "Fornecemos o seu áudio no formato MP3 universalmente compatível. Os ficheiros que descarregar serão reproduzidos perfeitamente em qualquer dispositivo, em qualquer aplicação de música ou sistema de som para carro sem problemas."
     },
     {
       "icon": "/images/yt_feature5.png",
-      "title": "Sem Registro Necessário",
-      "description": "Comece a baixar imediatamente sem criar uma conta. Apenas cole a URL e baixe - é simples assim."
+      "title": "100% Seguro e Sem Anúncios",
+      "description": "Oferecemos uma experiência segura e gratuita de YouTube para MP3. O nosso site está protegido com HTTPS, nunca armazenamos os seus dados e garantimos uma interface limpa e sem anúncios sempre."
     },
     {
       "icon": "/images/yt_feature6.png",
-      "title": "Funciona em Todos os Dispositivos",
-      "description": "Baixe vídeos em qualquer dispositivo - desktop, tablet ou celular. Nosso baixador funciona perfeitamente em todas as plataformas."
+      "title": "Funciona em Qualquer Lugar, Sem Necessidade de Software",
+      "description": "O nosso conversor online funciona diretamente no seu navegador em qualquer dispositivo - PC, Mac, iPhone ou Android. Não é necessário descarregar ou instalar qualquer software suspeito."
     }
   ],
-  "downloader_downloadNow": "Baixar Agora >>",
-  "downloader_featuresConverter": "Recursos do Baixador Gratuito de Vídeos do YouTube",
-  "downloader_benefits": {
-    "title": "Por Que Escolher Nosso Baixador Gratuito de Vídeos do YouTube",
+  "mp3_downloadNow": "Descarregar Agora >>",
+  "mp3_featuresConverter": "Principais Funcionalidades do Nosso Conversor de YouTube para MP3",
+  "mp3_benefits": {
+    "title": "O Seu Áudio, As Suas Regras, A Sua Playlist",
     "convenience": {
-      "title": "Baixe em Qualquer Lugar, a Qualquer Hora",
-      "description": "Nunca mais se preocupe com conectividade à internet. Baixe seus vídeos favoritos e assista offline quando quiser. Perfeito para voos longos, viagens de carro ou áreas com conexão ruim à internet."
+      "title": "Construa a Sua Biblioteca Musical Definitiva",
+      "description": "Encontrou uma performance ao vivo rara, um remix único ou uma versão cover no YouTube que não está nas plataformas de streaming? Descarregue música do YouTube como MP3 e adicione essas faixas valiosas à sua coleção pessoal offline que controla para sempre."
     },
     "avoidAds": {
-      "title": "Experiência de Visualização Sem Anúncios",
-      "description": "Desfrute de seus vídeos baixados sem interrupções. Sem anúncios, sem pop-ups, sem distrações - apenas entretenimento puro."
+      "title": "Ouça e Aprenda em Movimento",
+      "description": "Transforme o seu trajeto, treino ou tarefas domésticas em tempo produtivo. Converta entrevistas longas, podcasts, audiolivros e palestras educacionais do YouTube em MP3. Absorva conhecimento e mantenha-se entretido sem estar colado a um ecrã ou a gastar a bateria."
     },
     "saveData": {
-      "title": "Economize Dados Móveis",
-      "description": "Baixe vídeos via WiFi e assista mais tarde sem usar seus dados móveis. Perfeito para usuários com planos de dados limitados."
+      "title": "Crie Conteúdo e Tons de Chamada",
+      "description": "Precisa de um efeito sonoro específico, uma faixa de ambiente ou uma citação engraçada para o seu projeto de vídeo? Ou quer criar um toque personalizado a partir de um excerto da sua música favorita? A nossa ferramenta dá-lhe o ficheiro de áudio limpo de que precisa para ser criativo."
     },
     "moreFromDownloads": {
-      "title": "Obtenha Mais de Seus Downloads",
-      "description": "Aproveite ao máximo seus vídeos baixados: 1. Crie Sua Biblioteca de Vídeos - Crie sua coleção pessoal de vídeos favoritos; 2. Assista Sem Limites - Desfrute de vídeos a qualquer momento e lugar, mesmo sem internet; 3. Compartilhe com Amigos - Compartilhe facilmente vídeos baixados com amigos e família."
+      "title": "Obtenha Mais Dos Seus Descarregamentos",
+      "description": "Diga adeus ao buffering e ao consumo de dados! Eis como tirar o máximo partido dos seus vídeos offline:<br/><strong>1. Construa a Sua Biblioteca de Media Pessoal</strong><br/>Crie a sua própria coleção estilo Netflix.<br/><strong>2. Viaje Sem Preocupações</strong><br/>Chega de WiFi instável em aviões ou viagens aborrecidas de carro.<br/><strong>3. Poupe Esses Bytes de Dados Preciosos</strong><br/>Descarregue via WiFi, veja quando quiser."
     }
   },
-  "downloader_faqTitle": "Perguntas Frequentes",
-  "downloader_faq1Question": "1. É legal baixar vídeos do YouTube?",
-  "downloader_faq1Answer": "Depende de como você usa os vídeos baixados. Você pode baixar vídeos legalmente para uso pessoal, fins educacionais ou conteúdo que esteja em domínio público. Sempre respeite as leis de direitos autorais e os termos de serviço do YouTube.",
-  "downloader_faq2Question": "2. Quais qualidades de vídeo posso baixar?",
-  "downloader_faq2Answer": "Nosso baixador suporta várias opções de qualidade, de 360p a 4K, dependendo da qualidade original do vídeo. Você pode escolher a qualidade que melhor se adapta às suas necessidades e capacidade de armazenamento do seu dispositivo.",
-  "downloader_faq3Question": "3. Posso baixar vídeos no meu dispositivo móvel?",
-  "downloader_faq3Answer": "Sim! Nosso baixador de vídeos funciona em todos os dispositivos, incluindo smartphones e tablets. Basta visitar nosso site em seu navegador móvel e começar a baixar vídeos instantaneamente.",
-  "downloader_faq4Question": "4. Este baixador de vídeos do YouTube é realmente gratuito?",
-  "downloader_faq4Answer": "Sim, nosso baixador é completamente gratuito. Sem taxas ocultas, sem recursos premium e sem necessidade de assinatura. Mantemos nosso serviço através de anúncios mínimos e não intrusivos.",
-  "downloader_faq5Question": "5. Quem pode se beneficiar usando este baixador de vídeos?",
-  "downloader_faq5Answer": "Nosso baixador é perfeito para estudantes, professores, criadores de conteúdo, viajantes e qualquer pessoa que queira salvar vídeos do YouTube para assistir offline. É especialmente útil para aqueles com acesso limitado à internet ou planos de dados limitados."
+  "mp3_faqTitle": "As Suas Perguntas, Respondidas",
+  "mp3_faq1Question": "1. Qual é a qualidade de áudio (bitrate) dos MP3 descarregados?",
+  "mp3_faq1Answer": "O nosso conversor está otimizado para fornecer o melhor equilíbrio entre fidelidade de áudio e tamanho do ficheiro. Todas as conversões são feitas com um bitrate de alta qualidade de 128kbps. Isto é perfeito para ouvir em tudo, desde auriculares padrão até sistemas de som para carro, sendo praticamente indistinguível de bitrates mais altos para a maioria dos ouvintes, mantendo os tamanhos dos ficheiros pequenos para descarregamentos rápidos e poupando espaço de armazenamento no seu dispositivo.",
+  "mp3_faq2Question": "2. Posso converter um ficheiro longo, como um podcast de 2 horas ou um set de DJ ao vivo?",
+  "mp3_faq2Answer": "Sim. O nosso descarregador de áudio do YouTube não tem restrições quanto à duração do vídeo. Seja uma música de 3 minutos ou uma transmissão ao vivo de 3 horas, a nossa ferramenta consegue lidar com isso. O tempo de conversão será apenas um pouco maior para ficheiros maiores, mas o processo mantém-se o mesmo.",
+  "mp3_faq3Question": "3. Posso extrair o áudio de um vídeo que não seja de música, como um trailer de filme ou um vlog?",
+  "mp3_faq3Answer": "Claro que sim. Extraímos toda a faixa de áudio de qualquer URL público do YouTube que nos forneça. Isto significa que pode guardar diálogos de um vlog, efeitos sonoros de um vídeo de gameplay ou sons ambientes de um documentário sobre natureza tão facilmente como guardar uma música.",
+  "mp3_faq4Question": "4. É legal usar um conversor de URL do YouTube para MP3?",
+  "mp3_faq4Answer": "A legalidade depende muito do conteúdo que está a converter e de como o usa. Geralmente é legal descarregar áudio de conteúdo de domínio público, vídeos com licença Creative Commons ou do seu próprio conteúdo original. Para material com direitos de autor, convertê-lo para MP3 para audição pessoal offline é frequentemente considerado \"uso justo\". No entanto, é ilegal distribuir, partilhar ou usar o áudio descarregado para fins comerciais sem a permissão do detentor dos direitos de autor.",
+  "mp3_faq5Question": "5. Em que é que isto difere de um descarregador de vídeos do YouTube para MP4?",
+  "mp3_faq5Answer": "Está especificamente otimizado para áudio. Enquanto um descarregador MP4 guarda o vídeo e o áudio juntos num ficheiro maior, a nossa ferramenta de URL do YouTube para MP3 descarta completamente os dados de vídeo. O resultado é um ficheiro muito mais pequeno que descarrega mais rápido, ocupa menos espaço no seu dispositivo e é perfeito para reprodução apenas de áudio.",
+  
+  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_videoDownloader": "Descarregador de Vídeos do YouTube",
+  "downloader_mp3Converter": "Conversor de YouTube para MP3",
+  "downloader_title": "O Melhor Descarregador de URLs do YouTube",
+  "downloader_description": "Cole qualquer URL do YouTube para descarregar vídeos instantaneamente em alta qualidade e guardar no seu dispositivo. Rápido, seguro e sem necessidade de instalar software.",
+  "downloader_download": "DESCARREGAR",
+  "downloader_tip": "Por favor, respeite os direitos de autor ao descarregar conteúdo. Esta ferramenta não foi concebida para descarregar música protegida por direitos de autor.",
+  "downloader_tooltipText": "Esta ferramenta só pode ser usada para uso legal e não infrator. Se você é um criador de conteúdo e quer evitar que seus vídeos sejam baixados usando esta ferramenta, simplesmente adicione #nodownload às tags ou descrição do seu vídeo.",
+  "downloader_audioOnly": "Apenas Áudio",
+  "downloader_formats": "Todos os Formatos",
+  "downloader_formatsTip": "Clique para guardar",
+  "downloader_reviews": [
+    {
+      "text": "Perfeito para guardar os meus vídeos favoritos! Descarregamentos rápidos e super simples de usar. Não é necessário registo.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Esta ferramenta é ótima! Adoro como é fácil descarregar vídeos em vários formatos.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Tenho usado isto há meses e funciona sempre perfeitamente.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Rápido e fiável. O melhor descarregador de vídeos!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Fácil de usar e muito eficaz para guardar conteúdo.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Altamente recomendado! Funciona perfeitamente com todos os meus vídeos.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "downloader_howToConvertTitle": "Descarregue Qualquer Vídeo do YouTube em 3 Passos Simples",
+  "downloader_howToConvertDescription": "Guardar os seus conteúdos favoritos nunca foi tão fácil. Basta copiar, colar e descarregar.",
+  "downloader_step": "Passo",
+  "downloader_copyUrl": "<strong>Encontre e Copie o URL do YouTube</strong> \n Navegue até ao vídeo ou playlist do YouTube que deseja guardar. Copie o URL completo da barra de endereços do seu navegador.",
+  "downloader_clickDownload": "<strong>Cole a Ligação do Vídeo no Nosso Descarregador</strong> \n Volte ao nosso site e cole a ligação na caixa de entrada no topo da página. A nossa ferramenta processará automaticamente o URL.",
+  "downloader_saveVideo": "<strong>Escolha o Seu Formato e Descarregue</strong> \n Clique no botão \"Descarregar\" e selecione o formato e resolução da lista de ficheiros, clique no desejado para guardar diretamente no seu dispositivo.",
+  "downloader_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Descarregamentos com Um Clique",
+      "description": "Sem definições confusas com que se preocupar. Basta colar o seu URL do YouTube e a nossa ferramenta fornece automaticamente uma ligação de descarregamento direto para o vídeo em qualidade standard (SD). É a forma perfeita de guardar conteúdo rapidamente para visualização offline."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Extração de Áudio MP3 de Alta Qualidade",
+      "description": "Precisa apenas do áudio? A nossa ferramenta destaca-se como um conversor de URL do YouTube para MP3. Remove o vídeo e fornece-lhe um ficheiro MP3 de alta qualidade, perfeito para ouvir música, podcasts ou aulas em movimento. Esta é uma das nossas funcionalidades mais populares."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "Otimizado para Todos os Dispositivos e Poupança de Dados",
+      "description": "Vídeos em qualidade standard têm tamanhos de ficheiro menores. Isto é uma grande vantagem: os descarregamentos são muito mais rápidos, usam menos dos seus dados móveis e não enchem o armazenamento do seu telemóvel. Os ficheiros são altamente compatíveis e reproduzir-se-ão perfeitamente em qualquer telemóvel, tablet ou computador."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Seguro e Anónimo",
+      "description": "A sua privacidade é inegociável. O nosso descarregador seguro do YouTube opera sem exigir qualquer registo ou informação pessoal. Não rastreamos a sua atividade e o nosso site é analisado regularmente para garantir que está livre de qualquer malware."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Ferramenta Instantânea Baseada no Navegador",
+      "description": "Não há nada para instalar. O nosso descarregador funciona inteiramente no seu navegador web em qualquer sistema operativo - Windows, Mac, iOS ou Android. Basta abrir o nosso site e está pronto a usar."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Bónus: Transcrição de Vídeo Gratuita e Instantânea",
+      "description": "Liberte o texto dentro de qualquer vídeo. A nossa ferramenta também suporta a transcrição do áudio do seu URL do YouTube para um documento de texto completo. O que é perfeito para estudantes, criadores de conteúdo ou investigadores que precisam de analisar conteúdo falado."
+    }
+  ],
+  "downloader_downloadNow": "Descarregar Agora >>",
+  "downloader_featuresConverter": "Funcionalidades Principais do Descarregador de URLs do YouTube",
+  "downloader_benefits": {
+    "title": "Liberte o Seu Conteúdo, À Sua Maneira",
+    "convenience": {
+      "title": "Para Visualização Offline sem Interrupções",
+      "description": "Imagine que está num voo longo, no metro sem sinal ou a acampar numa área remota. Com a nossa ferramenta, pode descarregar vídeos do YouTube antecipadamente para visualização offline. Os seus tutoriais, documentários e entretenimento favoritos estão sempre ao seu alcance - sem buffering, sem necessidade de internet."
+    },
+    "avoidAds": {
+      "title": "Para Criadores de Conteúdo e Editores de Vídeo",
+      "description": "Precisa de um clip específico para um vídeo de reação, uma montagem ou um estudo de caso? Ao usar o nosso descarregador de URLs do YouTube, pode obter rapidamente material de origem de alta qualidade sem marcas de água. Arquive conteúdo importante antes que seja removido e garanta que tem os recursos necessários para o seu próximo projeto criativo."
+    },
+    "saveData": {
+      "title": "Para Educadores e Estudantes",
+      "description": "Construa uma poderosa biblioteca digital de conhecimento. Guarde a partir de URLs do YouTube para manter aulas importantes, demonstrações científicas ou documentários históricos. Os estudantes podem rever materiais offline para estudar a qualquer hora, em qualquer lugar, sem distrações."
+    }
+  },
+  "downloader_faqTitle": "As Suas Perguntas, Respondidas",
+  "downloader_faq1Question": "1. Posso descarregar apenas uma parte específica de um vídeo do YouTube?",
+  "downloader_faq1Answer": "Embora a nossa ferramenta esteja concebida para descarregar o vídeo inteiro a partir do URL, esta é uma necessidade comum para editores. A melhor prática é usar o nosso descarregador para guardar primeiro o ficheiro de vídeo completo em alta qualidade no seu dispositivo. Depois, pode usar qualquer software de edição de vídeo standard (como CapCut, iMovie ou Adobe Premiere) para cortar facilmente o clip exato de que precisa. Isto garante que tem o ficheiro original para qualquer uso futuro.",
+  "downloader_faq2Question": "2. Qual é a diferença entre os formatos MP4, WEBM e MP3?",
+  "downloader_faq2Answer": "Excelente pergunta!\n<strong>- MP4</strong> é o formato de vídeo mais universalmente compatível, funcionando em quase todos os dispositivos e plataformas. Oferece um ótimo equilíbrio entre qualidade e tamanho de ficheiro. Recomendamos este para a maioria dos utilizadores.\n<strong>WEBM</strong> é um formato moderno de código aberto desenvolvido pelo Google, muitas vezes fornecendo tamanhos de ficheiro menores com uma qualidade semelhante ao MP4, mas pode não ser suportado por dispositivos mais antigos ou alguns editores de vídeo.\n<strong>MP3</strong> é um formato apenas de áudio. Escolha esta opção se quiser apenas extrair o áudio de um URL do YouTube, como para um podcast, música ou discurso.",
+  "downloader_faq3Question": "3. É legal descarregar vídeos usando um descarregador de URLs do YouTube?",
+  "downloader_faq3Answer": "A legalidade depende do conteúdo e de como pretende usá-lo. Geralmente é legal descarregar vídeos que estejam no domínio público ou tenham uma licença Creative Commons (CC). Para conteúdo protegido por direitos de autor, descarregar um vídeo para visualização offline pessoal é frequentemente considerado \"uso justo\" em muitas regiões. No entanto, redistribuir, remisturar ou monetizar conteúdo protegido por direitos de autor sem permissão do proprietário é ilegal. Encorajamos-no a respeitar as leis de direitos de autor e os termos de serviço do YouTube.",
+  "downloader_faq4Question": "4. Tentei descarregar um vídeo privado ou com restrição de idade e não funcionou. Porquê?",
+  "downloader_faq4Answer": "A nossa ferramenta respeita a privacidade do utilizador e as regras da plataforma YouTube. Funciona como um \"leitor de vídeo digital\", o que significa que só pode aceder e gravar o que está publicamente disponível. Se um vídeo estiver definido como \"Privado\", \"Não listado\" (a menos que tenha a ligação), ou tiver uma restrição de idade que exija que inicie sessão para verificar a sua idade, o nosso servidor não pode aceder a ele. Não contornamos quaisquer controlos de privacidade ou acesso do YouTube.",
+  "downloader_faq5Question": "5. Existem limites quanto ao número de vídeos que posso descarregar ou à duração dos vídeos?",
+  "downloader_faq5Answer": "Não, não há limites! O nosso serviço é completamente gratuito e ilimitado. Pode descarregar vídeos do YouTube colando o URL quantas vezes quiser, independentemente da duração do vídeo - desde um Short de 10 segundos a um documentário de 10 horas."
 }

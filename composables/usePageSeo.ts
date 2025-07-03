@@ -4,8 +4,10 @@ import { useRoute } from 'vue-router'
 const SUPPORTED_LOCALES = [
   { code: 'en', lang: 'en' },
   { code: 'ar', lang: 'ar' },
+  { code: 'de', lang: 'de' },
   { code: 'es', lang: 'es' },
   { code: 'es-419', lang: 'es-419' },
+  { code: 'fr', lang: 'fr' },
   { code: 'hi', lang: 'hi' },
   { code: 'id', lang: 'id' },
   { code: 'it', lang: 'it' },
@@ -15,8 +17,6 @@ const SUPPORTED_LOCALES = [
   { code: 'pt-br', lang: 'pt-BR' },
   { code: 'th', lang: 'th' },
   { code: 'tr', lang: 'tr' },
-  { code: 'fr', lang: 'fr' },
-  { code: 'de', lang: 'de' },
   { code: 'vi', lang: 'vi' },
   { code: 'zh-TW', lang: 'zh-Hant' }
 ]
@@ -28,22 +28,48 @@ export const usePageSeo = () => {
     const route = useRoute()
     const currentPath = route.path
     const baseUrl = 'https://youtubetomp4.pro'
-    const canonicalPath = currentPath.replace(/^\/[^/]+/, '')
-    const canonicalUrl = `${baseUrl}${canonicalPath}`
+    
+    // 提取语言无关的路径部分
+    const pathWithoutLocale = currentPath.replace(/^\/[a-zA-Z-]+/, '') || '/'
+    
+    // 生成canonical URL (指向英文版本)
+    const canonicalUrl = pathWithoutLocale === '/' 
+      ? baseUrl 
+      : `${baseUrl}${pathWithoutLocale}`
+
+    // 根据页面路径确定SEO字段前缀
+    // 去除尾部斜杠并规范化路径
+    const normalizedPath = currentPath.replace(/\/$/, '')
+    let seoPrefix = 'seo'
+    
+    if (normalizedPath.endsWith('/youtube-to-mp3') || normalizedPath === '/youtube-to-mp3') {
+      seoPrefix = 'mp3_seo'
+    } else if (normalizedPath.endsWith('/youtube-video-downloader') || normalizedPath === '/youtube-video-downloader') {
+      seoPrefix = 'downloader_seo'
+    }
 
     // SEO meta 标签
+    // @ts-ignore
     useSeoMeta({
-      title: () => t('seo.title'),
-      description: () => t('seo.description'),
-      ogTitle: () => t('seo.ogTitle'),
-      ogDescription: () => t('seo.ogDescription'),
+      title: () => t(`${seoPrefix}.title`),
+      description: () => t(`${seoPrefix}.description`),
+      ogTitle: () => t(`${seoPrefix}.ogTitle`),
+      ogDescription: () => t(`${seoPrefix}.ogDescription`),
       ogSiteName: () => t('siteName'),
       canonical: canonicalUrl,
       alternateLanguages: () => {
-        const links = {}
+        const links: Record<string, string> = {}
         SUPPORTED_LOCALES.forEach(({ code, lang }) => {
-          const path = code === 'en' ? currentPath : `/${code}${currentPath}`
-          links[lang] = `${baseUrl}${path}`
+          // 为每个语言生成正确的路径
+          let localizedPath
+          if (code === 'en') {
+            // 英文版本不需要语言前缀
+            localizedPath = pathWithoutLocale === '/' ? '' : pathWithoutLocale
+          } else {
+            // 其他语言需要语言前缀
+            localizedPath = pathWithoutLocale === '/' ? `/${code}` : `/${code}${pathWithoutLocale}`
+          }
+          links[lang] = `${baseUrl}${localizedPath}`
         })
         return links
       }

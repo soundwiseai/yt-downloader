@@ -31,7 +31,7 @@
 
           <!-- 悬停时显示的提示框 -->
           <span class="tooltip">
-            {{ _t("tooltipText") }}
+            <span v-html="_t('tooltipText')"></span>
           </span>
         </span>
       </p>

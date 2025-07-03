@@ -11,7 +11,7 @@
           <span>{{ _t(`reviews[${index}].author`) }}</span>
         </div>
         <div class="review-content">
-          <p>{{ _t(`reviews[${index}].text`) }}</p>
+          <p v-html="_t(`reviews[${index}].text`)"></p>
         </div>
       </div>
     </div>

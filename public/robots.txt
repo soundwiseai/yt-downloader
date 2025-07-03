@@ -1,4 +1,22 @@
-Sitemap: https://youtubetomp4.pro/sitemap.xml
+User-agent: *
+Allow: /
 
-User-Agent: *
-Allow: / 
+Disallow: /*/en/
+Disallow: /*/ar/
+Disallow: /*/de/
+Disallow: /*/es/
+Disallow: /*/es-419/
+Disallow: /*/fr/
+Disallow: /*/hi/
+Disallow: /*/id/
+Disallow: /*/it/
+Disallow: /*/ja/
+Disallow: /*/ko/
+Disallow: /*/pt/
+Disallow: /*/pt-br/
+Disallow: /*/th/
+Disallow: /*/tr/
+Disallow: /*/vi/
+Disallow: /*/zh-TW/
+
+Sitemap: https://youtubetomp4.pro/sitemap.xml

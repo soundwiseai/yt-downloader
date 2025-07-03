@@ -8,7 +8,7 @@
             <span class="faq-question">{{ item.question }}</span>
           </div>
           <div v-if="activeIndex === index" class="faq-content">
-            {{ item.answer }}
+            <div v-html="item.answer"></div>
           </div>
         </div>
       </div>

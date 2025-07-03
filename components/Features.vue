@@ -7,7 +7,7 @@
            <img :src="_t(`features[${index}].icon`)" alt="feature icon" />
         </div>
         <h3>{{ _t(`features[${index}].title`) }}</h3>
-        <p>{{ _t(`features[${index}].description`) }}</p>
+        <p v-html="_t(`features[${index}].description`)"></p>
       </div>
     </div>
     <div class="download-button-container">
