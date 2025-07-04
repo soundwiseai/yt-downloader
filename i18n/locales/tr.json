@@ -219,6 +219,10 @@
     "saveData": {
       "title": "Eğitimciler ve Öğrenciler İçin",
       "description": "Güçlü bir dijital bilgi kütüphanesi oluşturun. Önemli dersleri, bilimsel gösterileri veya tarihi belgeselleri saklamak için YouTube URL'lerini kaydedin. Öğrenciler materyalleri çevrimdışı inceleyerek her yerde, her zaman dikkat dağıtmadan çalışabilirler."
+    },
+    "moreFromDownloads": {
+      "title": "İndirmelerinizden Daha Fazlasını Alın",
+      "description": "Tamponlama ve veri tüketimine elveda deyin! Çevrimdışı videolarınızdan en iyi şekilde yararlanmanın yolu:<br/><strong>1.Kişisel Medya Kütüphanenizi Oluşturun</strong><br/>Kendi Netflix tarzı koleksiyonunuzu oluşturun.<br/><strong>2.Endişesiz Seyahat Edin</strong><br/>Uçakta kesintili WiFi veya sıkıcı yolculuklar yok.<br/><strong>3.Değerli Veri Baytlarınızı Koruyun</strong><br/>WiFi üzerinden indirin, istediğiniz zaman izleyin."
     }
   },
   "downloader_faqTitle": "Sorularınız, Cevaplarımız",

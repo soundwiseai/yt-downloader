@@ -220,6 +220,10 @@
     "saveData": {
       "title": "Per educatori e studenti",
       "description": "Costruisci una potente libreria digitale di conoscenza. Salva da URL YouTube per conservare lezioni importanti, dimostrazioni scientifiche o documentari storici. Gli studenti possono rivedere il materiale offline per studiare in qualsiasi momento e luogo, senza distrazioni."
+    },
+    "moreFromDownloads": {
+      "title": "Ottieni di più dai tuoi download",
+      "description": "Ottieni di più dai tuoi download: 1. Costruisci la tua libreria multimediale personale - Crea la tua collezione in stile Netflix 2. Viaggia senza preoccupazioni - Non c'è più WiFi intermittente in aereo o viaggi in auto noiosi 3. Risparmia quei preziosi byte di dati - Scarica via WiFi, guarda quando vuoi"
     }
   },
   "downloader_faqTitle": "Le tue domande, le nostre risposte",

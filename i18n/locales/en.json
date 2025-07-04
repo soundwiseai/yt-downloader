@@ -220,7 +220,11 @@
         "saveData": {
             "title": "For Educators & Students",
             "description": "Build a powerful digital library of knowledge. Save from YouTube URLs to keep important lectures, scientific demonstrations, or historical documentaries. Students can review materials offline to study anytime, anywhere, without distractions."
-        }
+        },
+        "moreFromDownloads": {
+            "title": "For Parents & Families on the Go",
+            "description": "Keep the family happy on long trips or during appointments. Use our YouTube video downloader to save hours of their favorite cartoons and educational shows directly to a tablet for instant, ad-free entertainment—no Wi-Fi or mobile data required."
+    }
     },
     "downloader_faqTitle": "Your Questions, Answered",
     "downloader_faq1Question": "1. Can I download just a specific part of a YouTube video?",

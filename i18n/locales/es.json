@@ -219,6 +219,10 @@
         "saveData": {
             "title": "Para educadores y estudiantes",
             "description": "Crea una poderosa biblioteca digital de conocimiento. Guarda desde URLs de YouTube para conservar conferencias importantes, demostraciones científicas o documentales históricos. Los estudiantes pueden repasar el material sin conexión para estudiar en cualquier momento y lugar, sin distracciones."
+        },
+        "moreFromDownloads": {
+            "title": "Para padres y familias en movimiento",
+            "description": "Mantén a los padres y familiares felices durante largos viajes o durante citas. Usa nuestro descargador de videos de YouTube para guardar horas de sus programas de televisión favoritos y programas educativos directamente a una tableta para entretenimiento instantán y sin anuncios — sin Wi-Fi o datos móviles."
         }
     },
     "downloader_faqTitle": "Tus preguntas, respondidas",

@@ -320,6 +320,10 @@
     "saveData": {
       "title": "Dành cho giáo viên & Học sinh",
       "description": "Xây dựng thư viện kỹ thuật số kiến thức mạnh mẽ. Lưu từ URL YouTube để giữ các bài giảng quan trọng, trình diễn khoa học hoặc phim tài liệu lịch sử. Học sinh có thể xem lại tài liệu ngoại tuyến để học bất cứ lúc nào, bất cứ nơi đâu, không bị phân tâm."
+    },
+    "moreFromDownloads": {
+      "title": "Tận dụng tối đa từ các bản tải xuống của bạn",
+      "description": "Nói lời tạm biệt với tình trạng tải chậm và hao dữ liệu! Đây là cách tận dụng tối đa video ngoại tuyến của bạn:<br/><strong>1.Xây dựng Thư viện Truyền thông Cá nhân</strong><br/>Tạo bộ sưu tập kiểu Netflix của riêng bạn.<br/><strong>2.Du lịch không lo lắng</strong><br/>Không còn WiFi máy bay chập chờn hoặc chuyến đi đường nhàm chán.<br/><strong>3.Tiết kiệm từng byte dữ liệu quý giá</strong><br/>Tải xuống qua WiFi, xem bất cứ lúc nào."
     }
   },
   "downloader_faqTitle": "Câu hỏi thường gặp",

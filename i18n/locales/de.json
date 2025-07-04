@@ -218,6 +218,10 @@
     "saveData": {
       "title": "Für Pädagogen & Studenten",
       "description": "Erstellen Sie eine mächtige digitale Wissensbibliothek. Speichern Sie von YouTube-URLs wichtige Vorlesungen, wissenschaftliche Demonstrationen oder historische Dokumentationen. Studenten können Materialien offline überprüfen, um jederzeit und überall ohne Ablenkungen zu lernen."
+    },
+    "moreFromDownloads": {
+      "title": "Für Eltern & Familien unterwegs",
+      "description": "Machen Sie lange Fahrten oder Wartezeiten für die Familie angenehmer. Nutzen Sie unseren YouTube Video-Downloader, um stundenlang ihre Lieblings-Cartoons und Bildungssendungen direkt auf ein Tablet herunterzuladen — sofortige, werbefreie Unterhaltung ohne WLAN oder mobile Daten."
     }
   },
   "downloader_faqTitle": "Ihre Fragen, beantwortet",

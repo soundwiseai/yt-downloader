@@ -320,6 +320,10 @@
     "saveData": {
       "title": "為教育者和學生",
       "description": "建立一個強大的數字知識庫。從 YouTube URL 保存重要的講座、科學演示或歷史紀錄片。學生可以離線複習材料，隨時隨地學習，不受干擾。"
+    },
+    "moreFromDownloads": {
+      "title": "為旅途中的父母與家庭",
+      "description": "讓家人在長途旅行或外出等待時也能不無聊。使用我們的 YouTube 影片下載器，將他們喜愛的卡通和教育節目下載到平板電腦，即可隨時享受即時、無廣告的娛樂——無需 Wi-Fi 或行動數據。"
     }
   },
   "downloader_faqTitle": "您的問題，已回答",

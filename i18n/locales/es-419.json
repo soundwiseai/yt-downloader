@@ -156,8 +156,8 @@
       "description": "¿Necesitas un efecto de sonido específico, música de fondo o una frase graciosa para tu proyecto de video? ¿O quieres crear un tono personalizado con un fragmento de tu canción favorita? Nuestra herramienta te da el archivo de audio limpio que necesitas para ser creativo."
     },
     "moreFromDownloads": {
-      "title": "Saca más provecho de tus descargas",
-      "description": "¡Di adiós a la carga lenta y al consumo de datos! Así puedes aprovechar al máximo tus videos offline:<br/><strong>1. Crea tu biblioteca multimedia personal</strong><br/>Haz tu propia colección estilo Netflix.<br/><strong>2. Viaja sin preocupaciones</strong><br/>No más WiFi inestable en aviones o viajes aburridos por carretera.<br/><strong>3. Ahorra esos bytes de datos valiosos</strong><br/>Descarga usando WiFi y mira cuando quieras."
+      "title": "Para padres y familias en movimiento",
+      "description": "Mantén a la familia feliz en viajes largos o durante citas. Usa nuestro descargador de videos de YouTube para guardar horas de sus dibujos animados y programas educativos favoritos directamente en una tableta y disfrutar de entretenimiento instantáneo y sin anuncios, sin necesidad de Wi-Fi ni datos móviles."
     }
   },
   "mp3_faqTitle": "Tus preguntas respondidas",
@@ -220,6 +220,10 @@
     "saveData": {
       "title": "Para educadores y estudiantes",
       "description": "Crea una poderosa biblioteca digital de conocimiento. Guarda URLs de YouTube para conservar conferencias importantes, demostraciones científicas o documentales históricos. Los estudiantes pueden repasar el material sin conexión para estudiar en cualquier momento y lugar, sin distracciones."
+    },
+    "moreFromDownloads": {
+      "title": "Para padres y familias en movimiento",
+      "description": "Mantén a los padres y familiares felices durante largos viajes o durante citas. Usa nuestro descargador de videos de YouTube para guardar horas de sus programas de televisión favoritos y programas educativos directamente a una tableta para entretenimiento instantáneo y sin anuncios — sin Wi-Fi o datos móviles."
     }
   },
   "downloader_faqTitle": "Tus preguntas, respondidas",

@@ -32,10 +32,8 @@ export const usePageSeo = () => {
     // 提取语言无关的路径部分
     const pathWithoutLocale = currentPath.replace(/^\/[a-zA-Z-]+/, '') || '/'
     
-    // 生成canonical URL (指向英文版本)
-    const canonicalUrl = pathWithoutLocale === '/' 
-      ? baseUrl 
-      : `${baseUrl}${pathWithoutLocale}`
+    // 生成canonical URL - 修复：指向当前页面自身
+    const canonicalUrl = `${baseUrl}${currentPath}`
 
     // 根据页面路径确定SEO字段前缀
     // 去除尾部斜杠并规范化路径
@@ -48,31 +46,44 @@ export const usePageSeo = () => {
       seoPrefix = 'downloader_seo'
     }
 
+    // 生成 hreflang 链接
+    const hreflangLinks = SUPPORTED_LOCALES.map(({ code, lang }) => {
+      let localizedPath
+      if (code === 'en') {
+        // 英文版本不需要语言前缀
+        localizedPath = pathWithoutLocale === '/' ? '' : pathWithoutLocale
+      } else {
+        // 其他语言需要语言前缀
+        localizedPath = pathWithoutLocale === '/' ? `/${code}` : `/${code}${pathWithoutLocale}`
+      }
+      
+      return {
+        rel: 'alternate',
+        hreflang: lang,
+        href: `${baseUrl}${localizedPath}`
+      }
+    })
+
     // SEO meta 标签
-    // @ts-ignore
     useSeoMeta({
       title: () => t(`${seoPrefix}.title`),
       description: () => t(`${seoPrefix}.description`),
       ogTitle: () => t(`${seoPrefix}.ogTitle`),
       ogDescription: () => t(`${seoPrefix}.ogDescription`),
-      ogSiteName: () => t('siteName'),
-      canonical: canonicalUrl,
-      alternateLanguages: () => {
-        const links: Record<string, string> = {}
-        SUPPORTED_LOCALES.forEach(({ code, lang }) => {
-          // 为每个语言生成正确的路径
-          let localizedPath
-          if (code === 'en') {
-            // 英文版本不需要语言前缀
-            localizedPath = pathWithoutLocale === '/' ? '' : pathWithoutLocale
-          } else {
-            // 其他语言需要语言前缀
-            localizedPath = pathWithoutLocale === '/' ? `/${code}` : `/${code}${pathWithoutLocale}`
-          }
-          links[lang] = `${baseUrl}${localizedPath}`
-        })
-        return links
-      }
+      ogSiteName: () => t('siteName')
+    })
+
+    // 使用 useHead 设置 canonical 和 hreflang 标签
+    useHead({
+      link: [
+        // Canonical 标签 - 修复：指向当前页面
+        {
+          rel: 'canonical',
+          href: canonicalUrl
+        },
+        // hreflang 标签
+        ...hreflangLinks
+      ]
     })
   }
 

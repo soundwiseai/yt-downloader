@@ -321,6 +321,10 @@
     "saveData": {
       "title": "Untuk Pendidik & Pelajar",
       "description": "Bangun perpustakaan digital pengetahuan yang kuat. Simpan dari URL YouTube untuk menyimpan kuliah penting, demonstrasi ilmiah, atau dokumenter sejarah. Siswa dapat meninjau materi offline untuk belajar kapan saja, di mana saja, tanpa gangguan."
+    },
+    "moreFromDownloads": {
+      "title": "Dapatkan Lebih Banyak dari Unduhan Anda",
+      "description": "Dapatkan lebih banyak dari unduhan Anda: 1. Bangun Perpustakaan Media Pribadi Anda - Buat koleksi gaya Netflix Anda sendiri 2. Bepergian Tanpa Khawatir - Tidak ada lagi WiFi pesawat yang buruk atau perjalanan darat yang membosankan 3. Hemat Byte Data Berharga - Unduh melalui WiFi, tonton kapan saja"
     }
   },
   "downloader_faqTitle": "Pertanyaan Anda, Terjawab",
