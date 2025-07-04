@@ -3,7 +3,7 @@
     <div class="carousel" ref="carousel">
       <div
         class="carousel-item"
-        v-for="(review, index) in reviews"
+        v-for="(review, index) in reviews.length"
         :key="index"
         :class="{'active': activeIndex === index}"
       >
@@ -20,7 +20,7 @@
 
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount, nextTick } from 'vue'
-import { _t } from '@/i18n/utils'
+import { _t, _tm } from '@/i18n/utils'
 
 // 状态
 const activeIndex = ref(0)
@@ -28,7 +28,7 @@ const scrollInterval = ref(null)
 const carousel = ref(null)
 
 // 获取评论列表
-const reviews = computed(() => _t('reviews'))
+const reviews = computed(() => _tm('reviews'))
 
 // 滚动到当前选中项
 const scrollToCurrent = () => {
