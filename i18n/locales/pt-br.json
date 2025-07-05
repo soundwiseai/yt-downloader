@@ -19,7 +19,6 @@
   },
 
   "siteName": "Youtubetomp4.pro",
-  "mp3_siteName": "Youtubetomp4.pro",
   "videoDownloader": "Baixador de Vídeos do YouTube",
   "mp3Converter": "Conversor de YouTube para MP3",
   "title": "Conversor de YouTube para MP4",
@@ -221,6 +220,10 @@
     "saveData": {
       "title": "Para Educadores e Estudantes",
       "description": "Construa uma biblioteca digital poderosa. Salve de URLs do YouTube para guardar aulas importantes, demonstrações científicas ou documentários históricos. Alunos podem revisar materiais offline para estudar a qualquer hora, em qualquer lugar, sem distrações."
+    },
+    "moreFromDownloads": {
+      "title": "Aproveite Mais Seus Downloads",
+      "description": "Diga adeus ao buffering e ao consumo de dados! Veja como aproveitar ao máximo seus vídeos offline:\n<strong>1. Crie Sua Biblioteca de Mídia Pessoal</strong>\nMonte sua própria coleção estilo Netflix - organizada por pastas e com tags para fácil navegação.\n<strong>Dica pro: </strong>Adicione notas rápidas aos vídeos e mantenha backups num HD externo. Seu entretenimento, suas regras.\n<strong>2. Viaje Sem Preocupações</strong>\nChega de Wi-Fi ruim em aviões ou viagens chatas. Carregue seu dispositivo antes de sair e tenha entretenimento infinito no bolso. Esteja você acampando ou preso no metrô, seu conteúdo favorito está sempre pronto.\n<strong>3. Economize Seus Dados Preciosos</strong>\nBaixe pelo Wi-Fi, assista quando quiser. Perfeito para:\n - Estudantes baixando aulas para o trajeto\n - Profissionais salvando apresentações de trabalho\n - Qualquer pessoa cansada daquela rodinha de carregamento em conexões ruins"
     }
   },
   "downloader_faqTitle": "Perguntas Frequentes",
