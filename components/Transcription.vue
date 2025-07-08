@@ -167,7 +167,7 @@ import { _t } from '@/i18n/utils'
 import './toast.css'
 
 // 响应式状态
-const yt_url = ref('https://www.youtube.com/watch?v=z5E_ZZ8Rlm4')
+const yt_url = ref('')
 const videoData = ref({})
 const loading = ref(false)
 const subtitleLoading = ref(false) // 单独的字幕加载状态
@@ -603,7 +603,7 @@ const fetchFormats = async () => {
   loading.value = true
   resetSubtitles()
   try {
-    const response = await axios.get('http://localhost:3001/get-formats', {
+    const response = await axios.get('/api/get-formats', {
       params: { url: yt_url.value }
     })
     videoData.value = response.data
