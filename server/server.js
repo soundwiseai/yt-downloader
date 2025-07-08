@@ -185,6 +185,16 @@ app.get('/get-formats33', async (req, res) => {
 const cookiesPath = './cookies.txt';
 
 app.get('/get-formats', async (req, res) => {
+  // 明确设置 CORS 头信息以允许跨域请求
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  
+  // 如果是 OPTIONS 请求，直接返回 200
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(200);
+  }
+  
   const videoUrl = req.query.url;
 
   console.log("videoUrl spawn yt-dlp========>", videoUrl);
@@ -255,8 +265,8 @@ app.get('/get-formats', async (req, res) => {
         title: videoTitle,
         thumbnail: thumbnailUrl,
         formats: [...videoFormats, ...audioFormats],
-        subtitles: data.subtitles,
-        output: data
+        subtitles: data.subtitles
+        // , output: data
       };
 
       res.json(result);
