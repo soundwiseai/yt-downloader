@@ -102,7 +102,7 @@
                 </div>
                 <div class="dropdown-menu" v-if="isDropdownOpen">
                   <div 
-                    v-for="(formats, lang) in videoData.subtitles" 
+                    v-for="(formats, lang) in sortedSubtitleLanguages" 
                     :key="lang" 
                     class="dropdown-item"
                     @click="selectAndLoadSubtitle(lang)"
@@ -119,9 +119,9 @@
                 class="copy-button" 
                 @click="copySubtitlesToClipboard"
                 :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
-                title="复制字幕内容"
+                :title="_t('copy')"
               >
-                复制
+                {{ _t("copy") }}
               </button>
             </div>
           </div>
@@ -159,7 +159,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, nextTick, watch } from 'vue'
+import { ref, onMounted, nextTick, watch, computed } from 'vue'
 import axios from 'axios'
 import { _t } from '@/i18n/utils'
 
@@ -174,6 +174,24 @@ const subtitleLoading = ref(false) // 单独的字幕加载状态
 const parsedSubtitles = ref([])
 const subtitlesLoaded = ref(false)
 const currentSubtitleLang = ref('')
+
+// 计算属性：按照 languageMap 顺序排序的字幕语言
+const sortedSubtitleLanguages = computed(() => {
+  if (!videoData.value?.subtitles) return {}
+  
+  // 创建一个新对象，按照 languageMap 的顺序排序
+  const sortedSubtitles = {}
+  
+  // 按照 languageMap 中的顺序遍历语言
+  Object.keys(languageMap).forEach(langCode => {
+    // 如果这个语言在视频数据中存在，则添加到排序后的字幕中
+    if (videoData.value.subtitles[langCode]) {
+      sortedSubtitles[langCode] = videoData.value.subtitles[langCode]
+    }
+  })
+  
+  return sortedSubtitles
+})
 
 // Toast 提示相关状态
 const showToast = ref(false)
@@ -339,7 +357,7 @@ const getLanguageName = (langCode) => {
   const name = languageMap[langCode]
   if (!name) {
     console.log(`未找到语言代码 "${langCode}" 的映射`)
-    return ''
+    return langCode // 当找不到映射时，显示语言代码作为后备
   }
   return name
 }
@@ -356,6 +374,7 @@ const selectAndLoadSubtitle = (lang) => {
   selectedLanguage.value = lang
   fetchSrtSubtitle(lang)
   setPlayerSubtitleLanguage(lang)
+  isDropdownOpen.value = false // 选择后关闭下拉菜单
 }
 
 // YouTube播放器API
@@ -716,7 +735,7 @@ const fetchFormats = async () => {
 }
 
 .copy-button {
-  background-color: #2196F3;
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 4px;

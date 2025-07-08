@@ -249,7 +249,7 @@
   "transcript_mp3Converter": "YouTube Subtitle Extractor",
   "transcript_title": "YouTube Transcript Generator",
   "transcript_description": "Extract subtitles and captions from any YouTube video with our free online tool. Get accurate transcripts in seconds without any software installation.",
-  "transcript_download": "EXTRACT",
+  "transcript_download": "Get free transcript",
   "transcript_tip": "Please be mindful of copyright when using extracted transcripts. This tool is designed for educational and accessibility purposes.",
   "transcript_tooltipText": "This tool can only be used for legal, non-infringing use. If you are a content creator and want to prevent your videos' transcripts from being extracted using this tool, simply add #notranscript to your video's tags or description.",
   "transcript_audioOnly": "Text Only",
@@ -260,6 +260,8 @@
   "transcript_viewSubtitles": "View Subtitles",
   "transcript_selectLanguage": "Select Language",
   "transcript_noSubtitlesAvailable": "No subtitles available for this video",
+  "transcript_copy": "Copy",
+  "transcript_unavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
   "transcript_reviews": [
       { "text": "The best free YouTube downloader I've found! Works perfectly every time and saves me so much time.", "author": "VideoEnthusiast2023" },
       { "text": "I use this daily to save educational content. Super fast and reliable!", "author": "EduContentCreator" },
