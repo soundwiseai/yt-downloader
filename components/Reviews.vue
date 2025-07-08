@@ -1,5 +1,5 @@
 <template>
-  <div class="carousel-container">
+  <div class="carousel-container">、
     <div class="carousel" ref="carousel">
       <div
         class="carousel-item"

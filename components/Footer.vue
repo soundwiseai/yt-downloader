@@ -1,22 +1,41 @@
 <template>
-  <div class="footer">
-    <p>&copy;2025 YouTube to MP4 Converter.All Rights Reserved.</p>
-    <p>
-      <router-link 
-      to="/privacy-policy" 
-      @click="handleNavigation($event, '/privacy-policy')"
-    >
-      Privacy Policy
-    </router-link> |
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>site</h3>
+        <div class="footer-link">Youtubetomp4.pro</div>
+      </div>
 
-    <router-link 
-      to="/teamof-server" 
-      @click="handleNavigation($event, '/teamof-server')"
-    >
-      Terms of Service
-    </router-link>
-    </p>
-  </div>
+      <div class="footer-section tools">
+        <h3>tools</h3>
+        <router-link to="/" class="footer-link">youtube downloader</router-link>
+        <router-link to="/youtube-video-downloader" class="footer-link">youtube video</router-link>
+        <router-link to="/youtube-mp3-downloader" class="footer-link">youtube mp3</router-link>
+        <router-link to="/youtube-transcript-generator" class="footer-link">youtube transcript</router-link>
+      </div>
+
+      <div class="footer-section">
+        <div class="comparison">
+          <h3>comparison</h3>
+          <div class="footer-link">permanently free and no registration required</div>
+        </div>
+        <div class="contact">
+          <h3>email</h3>
+          <div class="footer-link">admin@Youtubetomp4.pro</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="language-selector">
+        <router-link to="/en" class="lang-link">privacy policy</router-link>
+        <router-link to="/en" class="lang-link">terms of service</router-link>
+      </div>
+      <div class="copyright">
+        © 2025 Youtubetomp4.pro
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script setup>
@@ -34,20 +53,90 @@ const handleNavigation = (event) => {
 
 <style scoped>
 .footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #f8f9fa;
-  bottom: 0;
+  background-color: #030d24;
+  color: white;
+  padding: 40px 20px 20px;
   width: 100%;
+  box-sizing: border-box;
 }
 
-a, router-link {
-  color: blue;
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+
+.footer h3 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-link {
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  font-size: 14px;
+  display: block  ;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.comparison, .contact {
+  margin-bottom: 30px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 30px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  flex-wrap: wrap;
+}
+
+.language-selector {
+  display: flex;
+  gap: 20px;
+}
+
+.lang-link {
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  font-weight: bold;
+  font-size: 14px;
 }
 
-a:hover, router-link:hover {
+.lang-link:hover {
+  color: white;
   text-decoration: underline;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
 </style>
