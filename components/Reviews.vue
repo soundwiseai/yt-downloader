@@ -27,8 +27,11 @@ const activeIndex = ref(0)
 const scrollInterval = ref(null)
 const carousel = ref(null)
 
+// 在 setup 顶层调用 _tm
+const reviewsData = _tm('reviews')
+
 // 获取评论列表
-const reviews = computed(() => _tm('reviews'))
+const reviews = computed(() => reviewsData)
 
 // 滚动到当前选中项
 const scrollToCurrent = () => {

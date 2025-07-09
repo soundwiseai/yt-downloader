@@ -84,6 +84,8 @@ const changeLanguage = async (langCode) => {
     suffix = '/youtube-to-mp3';
   } else if (path.endsWith('/youtube-video-downloader')) {
     suffix = '/youtube-video-downloader';
+  } else if (path.endsWith('/youtube-transcript-generator')) {
+    suffix = '/youtube-transcript-generator';
   }
 
   // 生成目标路径并跳转

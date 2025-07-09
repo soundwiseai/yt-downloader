@@ -8,10 +8,10 @@
 
       <div class="footer-section tools">
         <h3>tools</h3>
-        <router-link to="/" class="footer-link">youtube downloader</router-link>
-        <router-link to="/youtube-video-downloader" class="footer-link">youtube video</router-link>
-        <router-link to="/youtube-mp3-downloader" class="footer-link">youtube mp3</router-link>
-        <router-link to="/youtube-transcript-generator" class="footer-link">youtube transcript</router-link>
+        <router-link :to="getLocalizedPath('/')" class="footer-link">home</router-link>
+        <router-link :to="getLocalizedPath('/youtube-video-downloader')" class="footer-link">youtube video</router-link>
+        <router-link :to="getLocalizedPath('/youtube-to-mp3')" class="footer-link">youtube mp3</router-link>
+        <router-link :to="getLocalizedPath('/youtube-transcript-generator')" class="footer-link">youtube transcript</router-link>
       </div>
 
       <div class="footer-section">
@@ -28,8 +28,8 @@
 
     <div class="footer-bottom">
       <div class="language-selector">
-        <router-link to="/en" class="lang-link">privacy policy</router-link>
-        <router-link to="/en" class="lang-link">terms of service</router-link>
+        <router-link to="/privacy-policy" class="lang-link">privacy policy</router-link>
+        <router-link to="/terms-of-service" class="lang-link">terms of service</router-link>
       </div>
       <div class="copyright">
         © 2025 Youtubetomp4.pro
@@ -39,9 +39,35 @@
 </template>
 
 <script setup>
-import { useRoute } from 'vue-router'
 
-const route = useRoute()
+const props = defineProps({
+  locale: {
+    type: String,
+    default: ''
+  }
+})
+
+// 获取本地化路径
+const getLocalizedPath = (path) => {
+  const currentLocale = props.locale
+  
+  // 如果 locale 为 'en'，则省略 locale 部分
+  if (currentLocale === 'en') {
+    return path
+  }
+  
+  // 如果当前路径包含 locale，则添加到目标路径中
+  if (currentLocale) {
+    // 处理根路径的特殊情况
+    if (path === '/') {
+      return `/${currentLocale}`
+    }
+    return `/${currentLocale}${path}`
+  }
+  
+  // 如果没有检测到 locale，直接返回原始路径
+  return path
+}
 
 // 处理导航
 const handleNavigation = (event) => {

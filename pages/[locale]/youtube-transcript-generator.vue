@@ -13,12 +13,12 @@
 
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import { usePageSeo } from '../../composables/usePageSeo'
-import Reviews from '../../components/Reviews.vue'
-import VedioConvertDeps from '../../components/VedioConvertDeps.vue'
-import Features from '../../components/Features.vue'
-import Benefits from '../../components/Benefits.vue'
-import FAQ from '../../components/FAQ.vue'
+import { usePageSeo } from '@/composables/usePageSeo'
+import Reviews from '@/components/Reviews.vue'
+import VedioConvertDeps from '@/components/VedioConvertDeps.vue'
+import Features from '@/components/Features.vue'
+import Benefits from '@/components/Benefits.vue'
+import FAQ from '@/components/FAQ.vue'
 
 const route = useRoute()
 const locale = route.params.locale
