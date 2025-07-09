@@ -29,38 +29,68 @@ export const usePageSeo = () => {
     const currentPath = route.path
     const baseUrl = 'https://youtubetomp4.pro'
     
-    // 提取语言无关的路径部分
-    const pathWithoutLocale = currentPath.replace(/^\/[a-zA-Z-]+/, '') || '/'
+    // 修复：更精确地提取页面路径，排除语言前缀
+    let pathWithoutLocale = ''
     
-    // 生成canonical URL - 修复：指向当前页面自身
+    // 检查是否是根路径或首页
+    if (currentPath === '/' || currentPath === '') {
+      pathWithoutLocale = ''
+    } else {
+      // 匹配 /locale 或 /locale/path 格式
+      const localePathMatch = currentPath.match(/^\/([a-zA-Z-]+)(.*)$/)
+      if (localePathMatch) {
+        const locale = localePathMatch[1]
+        const path = localePathMatch[2]
+        
+        // 检查第一部分是否是支持的语言代码
+        const isLocaleCode = SUPPORTED_LOCALES.some(l => l.code === locale)
+        
+        if (isLocaleCode) {
+          // 如果是语言代码，path 是页面路径
+          pathWithoutLocale = path || ''
+        } else {
+          // 如果不是语言代码，整个路径就是页面路径（如英文默认路径）
+          pathWithoutLocale = currentPath
+        }
+      } else {
+        // 没有匹配到格式，直接使用当前路径
+        pathWithoutLocale = currentPath
+      }
+    }
+    
+    // 确保路径格式正确
+    if (pathWithoutLocale && !pathWithoutLocale.startsWith('/')) {
+      pathWithoutLocale = '/' + pathWithoutLocale
+    }
+    
+    // 生成canonical URL - 指向当前页面自身
     const canonicalUrl = `${baseUrl}${currentPath}`
 
     // 根据页面路径确定SEO字段前缀
-    // 去除尾部斜杠并规范化路径
-    const normalizedPath = currentPath.replace(/\/$/, '')
     let seoPrefix = 'seo'
     
-    if (normalizedPath.endsWith('/youtube-to-mp3') || normalizedPath === '/youtube-to-mp3') {
+    if (pathWithoutLocale === '/youtube-to-mp3') {
       seoPrefix = 'mp3_seo'
-    } else if (normalizedPath.endsWith('/youtube-video-downloader') || normalizedPath === '/youtube-video-downloader') {
+    } else if (pathWithoutLocale === '/youtube-video-downloader') {
       seoPrefix = 'downloader_seo'
     }
 
     // 生成 hreflang 链接
     const hreflangLinks = SUPPORTED_LOCALES.map(({ code, lang }) => {
-      let localizedPath
+      let href
+      
       if (code === 'en') {
-        // 英文版本不需要语言前缀
-        localizedPath = pathWithoutLocale === '/' ? '' : pathWithoutLocale
+        // 英文版本：如果是首页则为空，否则直接使用页面路径
+        href = pathWithoutLocale === '' ? baseUrl : `${baseUrl}${pathWithoutLocale}`
       } else {
-        // 其他语言需要语言前缀
-        localizedPath = pathWithoutLocale === '/' ? `/${code}` : `/${code}${pathWithoutLocale}`
+        // 其他语言：添加语言前缀
+        href = pathWithoutLocale === '' ? `${baseUrl}/${code}` : `${baseUrl}/${code}${pathWithoutLocale}`
       }
       
       return {
         rel: 'alternate',
         hreflang: lang,
-        href: `${baseUrl}${localizedPath}`
+        href: href
       }
     })
 
@@ -76,7 +106,7 @@ export const usePageSeo = () => {
     // 使用 useHead 设置 canonical 和 hreflang 标签
     useHead({
       link: [
-        // Canonical 标签 - 修复：指向当前页面
+        // Canonical 标签
         {
           rel: 'canonical',
           href: canonicalUrl
