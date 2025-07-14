@@ -18,7 +18,7 @@
         <div class="input-wrapper">
           <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box" />
           <button class="download-button2" :class="{ 'disabled': loading }" :disabled="loading" @click="fetchFormats">
-            {{ _t("download") }}
+            {{ _t("extract") }}
           </button>
         </div>
       </div>
@@ -123,6 +123,16 @@
               >
                 {{ _t("copy") }}
               </button>
+
+              <!-- 下载字幕按钮 -->
+              <button 
+                class="download-button" 
+                @click="downloadFile(subtitlesLink)"
+                :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
+                :title="_t('download')"
+              >
+                {{ _t("download") }}
+              </button>
             </div>
           </div>
           
@@ -200,6 +210,7 @@ const toastType = ref('success') // success 或 error
 const isDropdownOpen = ref(false)
 const selectedLanguage = ref('')
 const hasSubtitles = ref(false)
+const videoTitle = ref('')
 const showTimestamps = ref(true) // 控制是否显示字幕时间戳
 
 // 从URL中提取YouTube视频ID
@@ -234,6 +245,7 @@ const fetchSrtSubtitle = async (lang) => {
     parsedSubtitles.value = parseSrtContent(srtContent)
     subtitlesLoaded.value = true
     currentSubtitleLang.value = lang
+    videoTitle.value = videoData.value.title
     isDropdownOpen.value = false // 关闭下拉菜单
   } catch (error) {
     console.error('获取字幕内容出错:', error)
@@ -588,20 +600,54 @@ const download = () => {
   alert(`Starting download for: ${yt_url.value}`)
 }
 
+function makeValidFilename(inputString) {
+    // 1. Remove or replace invalid characters
+    // This regex targets common invalid characters across platforms.
+    // It replaces them with a hyphen.
+    let sanitizedString = inputString.replace(/[\\/:*?"<>|]/g, '-');
+
+    // 2. Remove leading/trailing spaces, periods, or hyphens
+    sanitizedString = sanitizedString.replace(/^[ .-]|[. -]$/g, '');
+
+    // 3. Handle reserved names (Windows specific, but good practice)
+    const reservedNames = /^(con|prn|aux|nul|com[0-9]|lpt[0-9])(\.|$)/i;
+    if (reservedNames.test(sanitizedString)) {
+        sanitizedString = '_' + sanitizedString; // Prefix to avoid conflict
+    }
+
+    // 4. Limit length (optional, but good for compatibility)
+    // Some file systems have length limits.
+    const maxLength = 255; // Common limit
+    if (sanitizedString.length > maxLength) {
+        sanitizedString = sanitizedString.substring(0, maxLength);
+    }
+
+    return sanitizedString;
+}
+
 // 下载文件
 const downloadFile = async (link) => {
   try {
-    // 向后端发送请求下载文件
-    const response = await axios.get(link, {
-      responseType: 'blob'  // 设置返回类型为二进制流
-    })
+    if (!subtitlesLoaded.value || parsedSubtitles.value.length === 0) {
+      showToastMessage('没有可用的字幕内容', 'error')
+      return
+    }
+  
+    // 将字幕格式化为纯文本
+    const subtitleText = parsedSubtitles.value.map(subtitle => {
+      if (showTimestamps.value) {
+        return `${subtitle.time}\n${subtitle.text}`
+      } else {
+        return subtitle.text
+      }
+    }).join('\n\n')
 
     // 创建一个临时链接，触发浏览器下载
-    const blob = response.data
+    const blob = new Blob([subtitleText], { type: 'text/plain' })
     const downloadUrl = window.URL.createObjectURL(blob)
     const linkElement = document.createElement('a')
     linkElement.href = downloadUrl
-    linkElement.download = 'video.mp4'  // 可根据需要修改文件名
+    linkElement.download = `${makeValidFilename(videoTitle.value)}.srt`  // 可根据需要修改文件名
     linkElement.click()
 
     // 释放 URL 对象
@@ -734,6 +780,27 @@ const fetchFormats = async () => {
   margin-bottom: 10px;
 }
 
+.download-button, .copy-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.download-button:hover {
+  background-color: #0b7dda;
+}
+
+.download-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
 .copy-button {
   background-color: #007bff;
   color: white;
@@ -743,6 +810,7 @@ const fetchFormats = async () => {
   cursor: pointer;
   font-size: 14px;
   transition: background-color 0.3s;
+  margin-right: 10px;
 }
 
 .copy-button:hover {
@@ -1335,7 +1403,7 @@ input:checked + .slider:before {
   display: flex;
   flex: none;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   font-size: .8em;
   width: 160px;
 }
@@ -1349,7 +1417,7 @@ input:checked + .slider:before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 15px;
+  padding: 7px 15px;
   background-color: #1a73e8;
   color: white;
   border: none;
