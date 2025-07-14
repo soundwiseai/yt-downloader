@@ -18,6 +18,14 @@
     "ogDescription": "Scarica istantaneamente video di YouTube, estrai audio MP3 o trascrivi qualsiasi video in testo con il nostro downloader di URL gratuito. 100% sicuro, nessuna registrazione richiesta."
   },
 
+  "site": "Site",
+  "tools": "Tools",
+  "comparison": "Comparison",
+  "comparisonText": "permanently free and no registration required",
+  "email": "Email",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Scaricatore video YouTube",
   "mp3Converter": "Convertitore da YouTube a MP3",

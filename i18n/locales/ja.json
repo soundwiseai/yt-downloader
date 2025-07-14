@@ -18,6 +18,14 @@
     "ogDescription": "無料のURLダウンローダーで、YouTube動画のダウンロード、MP3音声の抽出、動画からテキストへの文字起こしが即座にできます。100%安全、登録不要。"
   },
 
+  "site": "Site",
+  "tools": "Tools",
+  "comparison": "Comparison",
+  "comparisonText": "permanently free and no registration required",
+  "email": "Email",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube動画ダウンローダー",
   "mp3Converter": "YouTubeからMP3へのコンバーター",

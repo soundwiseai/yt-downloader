@@ -17,6 +17,14 @@
         "ogTitle": "Descargador de URL de YouTube a MP4, MP3 y Texto | Youtubetomp4.pro",
         "ogDescription": "Descarga vídeos de YouTube al instante, extrae audio MP3 o transcribe cualquier vídeo a texto con nuestro descargador de URL gratuito. 100% seguro, no requiere registro."
     },
+
+    "site": "Site",
+    "tools": "Tools",
+    "comparison": "Comparison",
+    "comparisonText": "permanently free and no registration required",
+    "email": "Email",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
     
     "siteName": "Youtubetomp4.pro",
     "videoDownloader": "Descargador de videos de YouTube",

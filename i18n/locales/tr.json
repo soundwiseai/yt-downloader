@@ -17,6 +17,15 @@
     "ogTitle": "YouTube URL'den MP4, MP3 ve Metin İndirici | Youtubetomp4.pro",
     "ogDescription": "Ücretsiz URL indiricimizle YouTube videolarını anında indirin, MP3 ses dosyalarını çıkarın veya herhangi bir videoyu metne dönüştürün. %100 güvenli, kayıt gerektirmez."
   },
+
+  "site": "Site",
+  "tools": "Tools",
+  "comparison": "Comparison",
+  "comparisonText": "permanently free and no registration required",
+  "email": "Email",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube Video İndiricisi",
   "mp3Converter": "YouTube'dan MP3'e Dönüştürücü",

@@ -23,6 +23,15 @@
     "ogTitle": "YouTube 字幕生成器 | Youtubetomp4.pro",
     "ogDescription": "使用我們的免費線上工具，只需點擊幾下即可輕鬆提取字幕、說明文字或隱藏式字幕。"
   },
+
+  "site": "Site",
+  "tools": "Tools",
+  "comparison": "Comparison",
+  "comparisonText": "permanently free and no registration required",
+  "email": "Email",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube 影片下載器",
   "mp3Converter": "YouTube 轉 MP3 轉換器",

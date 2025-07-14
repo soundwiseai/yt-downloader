@@ -18,6 +18,14 @@
     "ogDescription": "Unduh video YouTube secara instan, ekstrak audio MP3, atau transkripsikan video apa pun menjadi teks dengan pengunduh URL gratis kami. 100% aman, tidak perlu registrasi."
   },
 
+  "site": "Site",
+  "tools": "Tools",
+  "comparison": "Comparison",
+  "comparisonText": "permanently free and no registration required",
+  "email": "Email",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Pengunduh Video YouTube",
   "mp3Converter": "Pengonversi YouTube ke MP3",

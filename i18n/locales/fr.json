@@ -18,6 +18,14 @@
     "ogDescription": "Téléchargez instantanément des vidéos YouTube, extrayez l'audio MP3 ou transcrivez n'importe quelle vidéo en texte avec notre téléchargeur d'URL gratuit. 100 % sûr, aucune inscription requise."
   },
 
+  "site": "Site",
+  "tools": "Tools",
+  "comparison": "Comparison",
+  "comparisonText": "permanently free and no registration required",
+  "email": "Email",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Téléchargeur de vidéos YouTube",
   "mp3Converter": "Convertisseur YouTube en MP3",

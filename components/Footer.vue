@@ -2,12 +2,12 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-section">
-        <h3>site</h3>
+        <h3>{{ _t('site') }}</h3>
         <div class="footer-link">Youtubetomp4.pro</div>
       </div>
 
       <div class="footer-section tools">
-        <h3>tools</h3>
+        <h3>{{ _t('tools') }}</h3>
         <router-link :to="getLocalizedPath('/')" class="footer-link">home</router-link>
         <router-link :to="getLocalizedPath('/youtube-video-downloader')" class="footer-link">youtube video</router-link>
         <router-link :to="getLocalizedPath('/youtube-to-mp3')" class="footer-link">youtube mp3</router-link>
@@ -16,11 +16,11 @@
 
       <div class="footer-section">
         <div class="comparison">
-          <h3>comparison</h3>
-          <div class="footer-link">permanently free and no registration required</div>
+          <h3>{{ _t('comparison') }}</h3>
+          <div class="footer-link">{{ _t('comparisonText') }}</div>
         </div>
         <div class="contact">
-          <h3>email</h3>
+          <h3>{{ _t('email') }}</h3>
           <div class="footer-link">admin@Youtubetomp4.pro</div>
         </div>
       </div>
@@ -28,8 +28,8 @@
 
     <div class="footer-bottom">
       <div class="language-selector">
-        <router-link to="/privacy-policy" class="lang-link">privacy policy</router-link>
-        <router-link to="/terms-of-service" class="lang-link">terms of service</router-link>
+        <router-link to="/privacy-policy" class="lang-link">{{ _t('privacyPolicy') }}</router-link>
+        <router-link to="/terms-of-service" class="lang-link">{{ _t('termsOfService') }}</router-link>
       </div>
       <div class="copyright">
         © 2025 Youtubetomp4.pro
@@ -39,6 +39,7 @@
 </template>
 
 <script setup>
+import { _t } from '@/i18n/utils'
 
 const props = defineProps({
   locale: {
