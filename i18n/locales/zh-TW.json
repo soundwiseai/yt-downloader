@@ -354,76 +354,106 @@
   "downloader_faq5Answer": "沒有，沒有任何限制！我們的服務完全免費且無限制。您可以通過貼上 URL 下載 YouTube 影片，無論影片長度如何——從 10 秒的 Short 到 10 小時的紀錄片，都可以隨意下載。",
 
   "transcript_siteName": "Youtubetomp4.pro",
-  "transcript_videoDownloader": "YouTube 影片下載器",
-  "transcript_mp3Converter": "YouTube MP3 轉換器",
-  "transcript_title": "YouTube 字幕生成器",
-  "transcript_description": "貼上網址，快速提取 YouTube 字幕。永久免費、穩定好用、無廣告。",
-  "transcript_extract": "提取字幕",
-  "transcript_download": "下載",
-  "transcript_tip": "請注意版權，使用提取的字幕。此工具設計用於教育和可及性。",
-  "transcript_tooltipText": "此工具只能用於合法、非侵權使用。如果您是內容創作者，希望防止您的視頻字幕被此工具提取，只需在視頻標籤或描述中添加 #notranscript。",
-  "transcript_audioOnly": "純文字",
-  "transcript_formats": "可用格式",
-  "transcript_formatsTip": "點擊語言以查看字幕",
-  "transcript_subtitles": "字幕",
-  "transcript_backToFormats": "返回格式",
-  "transcript_viewSubtitles": "查看字幕",
-  "transcript_selectLanguage": "選擇語言",
-  "transcript_noSubtitlesAvailable": "此視頻沒有字幕",
-  "transcript_copy": "複製",
-  "transcript_unavailable": "字幕不可用或此視頻的字幕已由作者禁用。我們對不便表示歉意。",
-  "transcript_reviews": [
-      { "text": "我找到最好的免費 YouTube 下載器！每次使用都完美無缺，節省我很多時間。", "author": "VideoEnthusiast2023" },
-      { "text": "我每天使用這個工具保存教育內容。超快速且可靠！", "author": "EduContentCreator" },
-      { "text": "最後找到一個免費下載器，真的很好用，沒有廣告，也不需要登入。", "author": "TechExplorer" },
-      { "text": "非常適合保存我最喜愛的音樂影片。畫質真是太棒了！", "author": "MusicLover" },
-      { "text": "非常适合在旅行時下載視頻。可以在所有我的設備上使用！", "author": "TravelVlogger" },
-      { "text": "我用這個工具下載過最快的免費 YouTube 下載器。极力推薦！", "author": "DigitalNomad" }
-  ],
-  "transcript_howToConvertTitle": "提取 YouTube 字幕在 3 步簡單步驟",
-  "transcript_howToConvertDescription": "提取準確的字幕從 YouTube 影片從未如此簡單。只需複製、粘貼和提取即可。",
-  "transcript_step": "步驟",
-  "transcript_copyUrl": "<strong>找到 & 複製 YouTube URL</strong> \n 轉到您想要提取字幕的 YouTube 影片。從您的瀏覽器地址欄複製完整 URL。",
-  "transcript_clickDownload": "<strong>將視頻鏈接粘貼到我們的生成器</strong> \n 返回我們的網站，將連結貼到頁面頂端的輸入框中。我們的工具會自動處理該網址並尋找可用的字幕。",
-  "transcript_saveVideo": "<strong>選擇格式 & 提取</strong> \n 點擊 \"Extract Transcript\" 按鈕並選擇您偏好的格式 (TXT, SRT, VTT)。點擊您的選擇即可直接下載字幕到您的裝置。",
-  "transcript_features": [
-      { "icon": "/images/yt_feature1.png", "title": "一鍵輕鬆獲取字幕", "description": "無需煩惱複雜的設定，只要貼上您的 YouTube 網址，我們的工具就會自動擷取字幕。這是從任何帶有字幕的影片快速取得文字內容的完美方式。" },
-      { "icon": "/images/yt_feature2.png", "title": "多格式支持", "description": "需要不同格式的字幕嗎？我們的工具支持 TXT（純文字）、SRT（標準字幕格式，帶時間戳）和 VTT（網絡視頻文本軌跡）格式。選擇最適合您需求的格式。" },
-      { "icon": "/images/yt_feature3.png", "title": "自動語言檢測", "description": "我們的工具會自動檢測影片中的可用字幕語言。如果有多種語言可供選擇，您可以選擇要提取的語言。對於學習語言和國際內容，這是一個完美的選擇。" },
-      { "icon": "/images/yt_feature4.png", "title": "安全匿名", "description": "您的隱私是我們的首要考慮。我們的字幕生成器不需要任何註冊或個人信息即可運行。我們不會追蹤您的活動，我們的網站定期掃描以確保其免受任何malware的侵害。" },
-      { "icon": "/images/yt_feature5.png", "title": "瀏覽器工具", "description": "我們的字幕生成器不需要任何安裝。它可以在任何操作系統（Windows、Mac、iOS、Android）的 Web瀏覽器中完全運行。您只需要打開我們的網站即可。" },
-      { "icon": "/images/yt_feature6.png", "title": "準確時間戳", "description": "我們的字幕提取會保留原始的時間信息。這使得您可以輕鬆找到內容中的特定時刻，或者使用字幕跟隨視頻。" }
-  ],
-  "transcript_downloadNow": "提取字幕 >>",
-  "transcript_featuresConverter": "YouTube 字幕生成器的主要功能",
-  "transcript_benefits": {
-    "title": "以您的方式解鎖您的內容",
-    "convenience": {
-      "title": "為了不間斷的離線觀看",
-      "description": "想像您正在長途飛行中、沒有信號的地鐵上或在偏遠地區露營。使用我們的工具，您可以提前下載 YouTube 影片以供離線觀看。您最喜歡的教程、紀錄片和娛樂內容隨時隨地都在您的口袋裡——無需緩衝，無需網絡。"
+    "transcript_videoDownloader": "YouTube 影片下載器",
+    "transcript_mp3Converter": "YouTube 轉 MP3 轉換器",
+    "transcript_title": "即時 YouTube 字幕產生器",
+    "transcript_description": "立即取得任何 YouTube 影片的字幕。貼上網址以產生影片字幕的完整文字檔。非常適合研究、內容創作和學習。",
+    "transcript_download": "免費取得字幕",
+    "transcript_tip": "下載內容時請注意版權。本工具並非為下載受版權保護的音樂而設計。",
+    "transcript_formats": "所有格式",
+    "transcript_formatsTip": "點擊儲存",
+    "transcript_reviews": [
+      {
+        "text": "這個工具徹底改變了我的工作流程。我現在可以在幾秒鐘內將20分鐘的YouTube影片轉換為部落格文章的文字，而不是幾個小時。這是我找到的最好的YouTube影片轉文字轉換器。",
+        "author": "Eleanor Vance, 內容行銷專員"
+      },
+      {
+        "text": "作為博士生，我需要準確引用影片來源。這個字幕產生器讓我可以提取確切的引文，為我節省了大量時間。是學術研究的必備工具。",
+        "author": "Ben Carter, 博士生"
+      },
+      {
+        "text": "我用這個工具為競爭對手分析報告取得字幕。它快速、可靠，而且乾淨的文字輸出非常適合貼到我的文件中。它就是好用。",
+        "author": "Sophie Chen, 市場分析師"
+      },
+      {
+        "text": "我把播客節目上傳到YouTube，這個工具對於創建節目筆記來說是救星。我可以立即取得完整的字幕，提取關鍵引文，並為我的網站創建詳細摘要。每週為我節省數小時。",
+        "author": "Marcus Holloway, 播客主持人"
+      },
+      {
+        "text": "這對於學英語太棒了！我可以取得真實對話的字幕，並與之一起閱讀以理解新單詞和片語。時間戳幫助我找到我想再次聆聽的確切部分。它真的提升了我的聽力技能。",
+        "author": "Yuki Tanaka, 語言學習者"
+      },
+      {
+        "text": "作為聽力障礙者，YouTube的字幕在播放器中可能很難閱讀。能夠將字幕下載為文字檔讓我可以按照自己的節奏檢視內容，並確保我不會錯過任何內容。感謝這個重要工具。",
+        "author": "David L., 社群成員"
+      }
+    ],
+    "transcript_howToConvertTitle": "3步驟將YouTube影片轉為純文字",
+    "transcript_howToConvertDescription": "輕鬆解鎖任何影片中的文字。",
+    "transcript_step": "步驟",
+    "transcript_copyUrl": "<strong>找到並複製YouTube網址</strong> \n 導覽到有字幕的YouTube影片（可見\"CC\"圖示）並從瀏覽器複製網址。",
+    "transcript_clickDownload": "<strong>將連結貼入產生器</strong> \n 返回我們的網站，將影片連結貼入輸入框。我們的工具將立即偵測可用的字幕。",
+    "transcript_saveVideo": "<strong>複製或下載完整字幕</strong> \n 您的影片字幕將立即出現。您可以一鍵複製到剪貼簿，或將其下載為乾淨的.txt檔案以供日後使用。",
+    "transcript_features": [
+      {
+        "icon": "/images/yt_feature1.png",
+        "title": "頁面即時產生",
+        "description": "無需等待，沒有額外步驟。貼上您的YouTube連結，完整字幕將在幾秒鐘內直接出現在頁面上。這是立即取得所需文字的最直接方式。"
+      },
+      {
+        "icon": "/images/yt_feature2.png",
+        "title": "一鍵複製與下載",
+        "description": "字幕準備就緒後，您的工作流程很簡單。點擊一個按鈕將整個文字複製到剪貼簿。偏好儲存實體副本？點擊另一個按鈕將完整字幕下載為乾淨的.txt檔案供離線使用。"
+      },
+      {
+        "icon": "/images/yt_feature3.png",
+        "title": "來源語言萃取",
+        "description": "我們的YouTube影片轉文字轉換器忠實地萃取字幕的原始語言，如YouTube影片字幕軌道中所提供的。我們專注於提供來源文字的完美、未經修改的副本，確保與原始字幕100%準確。"
+      },
+      {
+        "icon": "/images/yt_feature4.png",
+        "title": "私人且安全的程序",
+        "description": "我們尊重您的隱私。使用我們的工具無需註冊或登入。我們不儲存您處理的影片網址，確保您的活動始終匿名且安全。"
+      },
+      {
+        "icon": "/images/yt_feature5.png",
+        "title": "適用於任何裝置",
+        "description": "我們的工具專為在任何現代網頁瀏覽器中運作而構建。在您的桌面電腦（Windows、Mac、Linux）、平板電腦或手機上使用，無需安裝任何軟體或擴充功能。"
+      },
+      {
+        "icon": "/images/yt_feature6.png",
+        "title": "乾淨、整潔的文字輸出",
+        "description": "我們的YouTube字幕產生器自動移除所有時間碼和複雜格式。您將得到乾淨、簡單的純文字區塊，易於閱讀、編輯，並可直接貼入您的文章、筆記或社群媒體貼文，無需額外清理。"
+      }
+    ],
+    "transcript_downloadNow": "立即取得字幕 >>",
+    "transcript_featuresConverter": "您的必備字幕工具組",
+    "transcript_benefits": {
+      "title": "將口語轉化為有價值的資產",
+      "convenience": {
+        "title": "用於內容再利用和SEO",
+        "description": "一鍵解鎖數小時的內容。將您的YouTube影片轉換為文字，立即創建搜尋引擎最佳化的部落格文章、播客的詳細節目筆記、引人入勝的Twitter討論串，以及關鍵字豐富的影片描述，以提升您頻道的可見度。"
+      },
+      "avoidAds": {
+        "title": "用於精確研究和引用",
+        "description": "停止無止境地滾動影片時間軸來尋找那個完美的引文。取得可搜尋的YouTube字幕，用Ctrl+F立即找到關鍵資訊，驗證您文章或研究論文的陳述，並以完全的準確性和信心分析訪談。"
+      },
+      "saveData": {
+        "title": "用於增強學習和可及性",
+        "description": "為您的學習課程增能。下載講座字幕以複習關鍵概念，搜尋特定術語，並比僅僅觀看更有效地吸收資訊。這也是創建無障礙內容或供語言學習者研讀對話的重要工具。"
+      }
     },
-    "avoidAds": {
-      "title": "為內容創作者和視頻編輯者",
-      "description": "需要獲取特定片段用於反應視頻、蒙太奇或案例研究嗎？通過使用我們的 YouTube URL 下載器，您可以快速獲得高品質、無水印的源材料。在重要內容被刪除之前存檔，確保您擁有下一個創意項目所需的資源。"
-    },
-    "saveData": {
-      "title": "為教育者和學生",
-      "description": "建立一個強大的數字知識庫。從 YouTube URL 保存重要的講座、科學演示或歷史紀錄片。學生可以離線複習材料，隨時隨地學習，不受干擾。"
-    },
-    "moreFromDownloads": {
-      "title": "為旅途中的父母與家庭",
-      "description": "讓家人在長途旅行或外出等待時也能不無聊。使用我們的 YouTube 影片下載器，將他們喜愛的卡通和教育節目下載到平板電腦，即可隨時享受即時、無廣告的娛樂——無需 Wi-Fi 或行動數據。"
-    }
-  },
-  "transcript_faqTitle": "您的問題，已回答",
-  "transcript_faq1Question": "1. 我可以只下載 YouTube 影片的特定部分嗎？",
-  "transcript_faq1Answer": "雖然我們的工具設計用於從 URL 下載整個影片，但這是編輯者的常見需求。最佳做法是首先使用我們的下載器快速將完整的高品質影片文件保存到您的裝置。然後，您可以使用任何標準的視頻編輯軟體（如 CapCut、iMovie 或 Adobe Premiere）輕鬆剪輯您需要的確切片段。這確保您擁有原始文件以供將來使用。",
-  "transcript_faq2Question": "2. MP4、WEBM 和 MP3 格式之間有什麼區別？",
-  "transcript_faq2Answer": "好問題！\n\n<strong>- MP4</strong> 是最普遍兼容的視頻格式，適用於幾乎所有裝置和平台。它在品質和文件大小之間提供了良好的平衡。我們建議大多數用戶使用此格式。\n\n<strong>WEBM</strong> 是由 Google 開發的現代開源格式，通常在類似品質下提供比 MP4 更小的文件大小，但可能不被舊裝置或某些視頻編輯器支持。\n\n<strong>MP3</strong> 是僅音頻的格式。如果您只想從 YouTube URL 提取音頻（如播客、音樂或演講），請選擇此格式。",
-  "transcript_faq3Question": "3. 提取 YouTube 影片的字幕是否合法？",
-  "transcript_faq3Answer": "合法性取決於內容以及您打算如何使用它。通常情況下，下載公共領域或具有創用共享（CC）許可證的影片是合法的。對於受版權保護的內容，在許多地區，為個人離線觀看下載影片通常被視為「合理使用」。然而，未經所有者許可重新分發、混音或將受版權保護的內容貨幣化是非法的。我們鼓勵您尊重版權法和 YouTube 的服務條款。",
-  "transcript_faq4Question": "4. 我嘗試提取私人或年齡限制的影片的字幕，但沒有成功。為什麼？",
-  "transcript_faq4Answer": "我們的工具尊重用戶隱私和 YouTube 的平台規則。它作為一個數字「錄影機」運作，意味著它只能訪問和記錄公開可用的內容。如果影片設置為「私人」、「未列出」（除非您有連結）或有年齡限制需要登錄驗證年齡，我們的伺服器無法訪問它。我們不會繞過 YouTube 的任何隱私或訪問控制。",
-  "transcript_faq5Question": "5. 對於我可以提取字幕的影片數量或影片長度有任何限制嗎？",
-  "transcript_faq5Answer": "沒有，沒有任何限制！我們的服務完全免費且無限制。您可以通過貼上 URL 提取字幕，無論影片長度如何——從 10 秒的 Short 到 10 小時的紀錄片，都可以隨意下載。"
-}
+    "transcript_faqTitle": "您的深度YouTube字幕問題，已解答",
+    "transcript_faq1Question": "1. 這是AI轉錄嗎？準確度如何？",
+    "transcript_faq1Answer": "這是關鍵問題。我們的工具不是AI轉錄服務。它是字幕擷取器。它直接從YouTube擷取創作者提供的官方字幕或自動產生的字幕。因此，字幕的準確度與您在YouTube播放器本身看到的字幕準確度相同。",
+    "transcript_faq2Question": "2. 如果YouTube影片沒有字幕（CC）會怎樣？",
+    "transcript_faq2Answer": "為了讓我們的YouTube字幕產生器運作，影片必須有可用的字幕軌道——您應該在YouTube播放器上看到\"CC\"圖示。如果影片沒有啟用字幕，我們的產生器無法創建字幕，因為沒有文字資料可擷取。",
+    "transcript_faq3Question": "3. YouTube的自動產生字幕和手動字幕有什麼差別？",
+    "transcript_faq3Answer": "手動創建的字幕由影片創作者上傳，在用詞、拼字和標點符號方面通常非常準確。YouTube的語音辨識演算法創建自動產生的字幕，可能包含錯誤，特別是專有名詞、複雜詞彙或不清楚的音頻。我們的工具將從影片可用的任何版本產生字幕。",
+    "transcript_faq4Question": "4. 我可以從很長的影片取得字幕嗎，比如3小時的網路研討會？",
+    "transcript_faq4Answer": "可以。只要影片有字幕軌道，我們的工具可以產生完整字幕，無論影片長度如何。程序保持同樣快速，因為我們只是擷取現有的文字資料。",
+    "transcript_faq5Question": "5. 我如何最好地使用帶時間戳的字幕？",
+    "transcript_faq5Answer": "帶時間戳的字幕非常有用。對於影片編輯者，它們允許快速找到特定單詞被說出的確切時刻。對於研究者和學生，它們是創建準確引文的必要工具。您也可以用它們創建互動式\"可點擊\"字幕，點擊時間戳將用戶導覽到影片中的該點。",
+    "transcript_faq6Question": "6. 我在產生的字幕中看到一些錯誤。您能修正它們嗎？",
+    "transcript_faq6Answer": "由於我們直接從YouTube資料擷取字幕，用詞或標點符號的任何錯誤都來自來源字幕本身。我們無法自動修正它們。但是，我們以易於編輯的格式（複製貼上或.txt檔案）提供文字，因此您可以快速自行進行任何修正或格式變更。"
+  }

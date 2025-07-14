@@ -253,77 +253,107 @@
   "downloader_faq5Answer": "Non, il n'y a aucune limite ! Notre service est complètement gratuit et illimité. Vous pouvez télécharger des vidéos YouTube en collant l'URL autant de fois que vous voulez, quelle que soit la durée de la vidéo - d'un Short de 10 secondes à un documentaire de 10 heures.",
 
   "transcript_siteName": "Youtubetomp4.pro",
-  "transcript_videoDownloader": "YouTube Video Downloader",
-  "transcript_mp3Converter": "YouTube Subtitle Extractor",
-  "transcript_title": "YouTube Transcript Generator",
-  "transcript_description": "Extract subtitles and captions from any YouTube video with our free online tool. Get accurate transcripts in seconds without any software installation.",
-  "transcript_extract": "Get free transcript",
-  "transcript_download": "download",
-  "transcript_tip": "Please be mindful of copyright when using extracted transcripts. This tool is designed for educational and accessibility purposes.",
-  "transcript_tooltipText": "This tool can only be used for legal, non-infringing use. If you are a content creator and want to prevent your videos' transcripts from being extracted using this tool, simply add #notranscript to your video's tags or description.",
-  "transcript_audioOnly": "Text Only",
-  "transcript_formats": "Available Formats",
-  "transcript_formatsTip": "Click on a language to view subtitles",
-  "transcript_subtitles": "Subtitles",
-  "transcript_backToFormats": "Back to formats",
-  "transcript_viewSubtitles": "View Subtitles",
-  "transcript_selectLanguage": "Select Language",
-  "transcript_noSubtitlesAvailable": "No subtitles available for this video",
-  "transcript_copy": "Copy",
-  "transcript_unavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
-  "transcript_reviews": [
-      { "text": "The best free YouTube downloader I've found! Works perfectly every time and saves me so much time.", "author": "VideoEnthusiast2023" },
-      { "text": "I use this daily to save educational content. Super fast and reliable!", "author": "EduContentCreator" },
-      { "text": "Finally found a free downloader that actually works! No annoying pop-ups or redirects.", "author": "TechExplorer" },
-      { "text": "Perfect for saving my favorite music videos. The quality is amazing!", "author": "MusicLover" },
-      { "text": "Great for downloading videos when I'm traveling. Works on all my devices!", "author": "TravelVlogger" },
-      { "text": "The fastest free YouTube downloader I've ever used. Highly recommended!", "author": "DigitalNomad" }
-  ],
-  "transcript_howToConvertTitle": "Extract YouTube Transcripts in 3 Simple Steps",
-  "transcript_howToConvertDescription": "Getting accurate video transcripts has never been easier. Just copy, paste, and extract.",
-  "transcript_step": "Step",
-  "transcript_copyUrl": "<strong>Find & Copy the YouTube URL</strong> \n Navigate to the YouTube video you want to extract subtitles from. Copy the full URL from your browser's address bar.",
-  "transcript_clickDownload": "<strong>Paste the Video Link into Our Generator</strong> \n Head back to our site and paste the link into the input box at the top of the page. Our tool will automatically process the URL and find available subtitles.",
-  "transcript_saveVideo": "<strong>Choose Your Format & Extract</strong> \n Click the \"Extract Transcript\" button and select your preferred format (TXT, SRT, VTT). Click on your choice to download the transcript directly to your device.",
-  "transcript_features": [
-      { "icon": "/images/yt_feature1.png", "title": "Effortless One-Click Transcript Extraction", "description": "No confusing settings to worry about. Simply paste your YouTube URL, and our tool automatically extracts the subtitles. It's the perfect way to quickly get text content from any video with captions." },
-      { "icon": "/images/yt_feature2.png", "title": "Multiple Format Support", "description": "Need transcripts in different formats? Our tool supports TXT for plain text, SRT for standard subtitle format with timestamps, and VTT for web video text tracks. Choose the format that works best for your needs." },
-      { "icon": "/images/yt_feature3.png", "title": "Auto-Language Detection", "description": "Our tool automatically detects available subtitle languages in the video. If multiple languages are available, you can choose which one to extract. Perfect for language learners and international content." },
-      { "icon": "/images/yt_feature4.png", "title": "Secure & Anonymous", "description": "Your privacy is non-negotiable. Our transcript generator operates without requiring any registration or personal information. We don't track your activity, and our site is scanned regularly to ensure it's free from any malware." },
-      { "icon": "/images/yt_feature5.png", "title": "Instant Browser-Based Tool", "description": "There's nothing to install. Our transcript generator works entirely in your web browser on any operating system—Windows, Mac, iOS, or Android. Just open our site and you're ready to go." },
-      { "icon": "/images/yt_feature6.png", "title": "Accurate Timestamps", "description": "Our transcript extraction preserves the original timing information from the video. This makes it easy to find specific moments in the content or to follow along with the video using the transcript." }
-  ],
-  "transcript_downloadNow": "Extract Now >>",
-  "transcript_featuresConverter": "Core Features of YouTube Transcript Generator",
-  "transcript_benefits": {
-    "title": "Unlock Text from Video Content",
-    "convenience": {
-        "title": "For Students & Researchers",
-        "description": "Transform video lectures and educational content into searchable text documents. Extract transcripts from academic talks, lectures, and documentaries to create study notes, citations, or research materials. No more tedious manual transcription or note-taking."
+    "transcript_videoDownloader": "Téléchargeur de Vidéos YouTube",
+    "transcript_mp3Converter": "Convertisseur YouTube vers MP3",
+    "transcript_title": "Générateur de Transcriptions YouTube Instantané",
+    "transcript_description": "Obtenez instantanément la transcription de n'importe quelle vidéo YouTube. Collez une URL pour générer un fichier texte complet des sous-titres de la vidéo. Parfait pour la recherche, la création de contenu et les études.",
+    "transcript_download": "Obtenir une Transcription Gratuite",
+    "transcript_tip": "Veuillez respecter les droits d'auteur lors du téléchargement de contenu. Cet outil n'est pas conçu pour télécharger de la musique protégée par des droits d'auteur.",
+    "transcript_formats": "Tous les Formats",
+    "transcript_formatsTip": "Cliquez pour enregistrer",
+    "transcript_reviews": [
+      {
+        "text": "Cet outil révolutionne complètement mon flux de travail. Je peux maintenant convertir une vidéo YouTube de 20 minutes en texte pour un article de blog en quelques secondes, pas en heures. C'est le meilleur convertisseur vidéo YouTube vers texte que j'aie trouvé.",
+        "author": "Eleanor Vance, Spécialiste Marketing de Contenu"
+      },
+      {
+        "text": "En tant qu'étudiant en doctorat, je dois citer les sources vidéo avec précision. Ce générateur de transcriptions me permet d'extraire des citations exactes, me faisant gagner un temps considérable. Indispensable pour la recherche académique.",
+        "author": "Ben Carter, Étudiant en Doctorat"
+      },
+      {
+        "text": "J'utilise ceci pour obtenir des transcriptions pour mes rapports d'analyse concurrentielle. C'est rapide, fiable, et le texte propre est parfait pour coller dans mes documents. Ça fonctionne tout simplement.",
+        "author": "Sophie Chen, Analyste de Marché"
+      },
+      {
+        "text": "Je télécharge mes épisodes de podcast sur YouTube, et cet outil est un sauveur pour créer des notes d'épisode. Je peux obtenir la transcription complète instantanément, extraire les citations clés et créer un résumé détaillé pour mon site web. Ça me fait gagner des heures chaque semaine.",
+        "author": "Marcus Holloway, Animateur de Podcast"
+      },
+      {
+        "text": "C'est incroyable pour apprendre l'anglais ! Je peux obtenir la transcription d'une vraie conversation et lire en même temps pour comprendre de nouveaux mots et phrases. Les horodatages m'aident à retrouver la partie exacte que je veux réécouter. Cela a vraiment amélioré mes compétences d'écoute.",
+        "author": "Yuki Tanaka, Apprenant de Langues"
+      },
+      {
+        "text": "En tant que personne malentendante, les sous-titres YouTube peuvent être difficiles à lire dans le lecteur. Pouvoir télécharger la transcription comme fichier texte me permet de réviser le contenu à mon propre rythme et m'assurer de ne rien manquer. Merci pour cet outil essentiel.",
+        "author": "David L., Membre de la Communauté"
+      }
+    ],
+    "transcript_howToConvertTitle": "De Vidéo YouTube à Texte Brut en 3 Étapes",
+    "transcript_howToConvertDescription": "Débloquez le texte dans n'importe quelle vidéo sans effort.",
+    "transcript_step": "Étape",
+    "transcript_copyUrl": "<strong>Trouver et Copier l'URL YouTube</strong> \n Naviguez vers la vidéo YouTube qui a des sous-titres (l'icône \"CC\" est visible) et copiez l'URL depuis votre navigateur.",
+    "transcript_clickDownload": "<strong>Coller le Lien dans le Générateur</strong> \n Retournez sur notre site et collez le lien vidéo dans la zone de saisie. Notre outil détectera immédiatement les transcriptions disponibles.",
+    "transcript_saveVideo": "<strong>Copier ou Télécharger la Transcription Complète</strong> \n La transcription de votre vidéo apparaîtra instantanément. Vous pouvez la copier dans votre presse-papiers d'un clic ou la télécharger comme fichier .txt propre pour une utilisation ultérieure.",
+    "transcript_features": [
+      {
+        "icon": "/images/yt_feature1.png",
+        "title": "Génération Instantanée sur Page",
+        "description": "Pas d'attente, pas d'étapes supplémentaires. Collez votre lien YouTube et la transcription complète apparaît directement sur la page en quelques secondes. C'est la façon la plus directe d'obtenir le texte dont vous avez besoin immédiatement."
+      },
+      {
+        "icon": "/images/yt_feature2.png",
+        "title": "Copie et Téléchargement en Un Clic",
+        "description": "Une fois votre transcription prête, votre flux de travail est simple. Cliquez sur un bouton pour copier tout le texte dans votre presse-papiers. Vous préférez sauvegarder une copie papier ? Cliquez sur un autre pour télécharger la transcription complète comme fichier .txt propre pour utilisation hors ligne."
+      },
+      {
+        "icon": "/images/yt_feature3.png",
+        "title": "Extraction de Langue Source",
+        "description": "Notre convertisseur vidéo YouTube vers texte extrait fidèlement la transcription dans sa langue originale comme fournie dans la piste de sous-titres de la vidéo YouTube. Nous nous concentrons sur la fourniture d'une copie parfaite et inaltérée du texte source, garantissant 100% de précision avec les sous-titres originaux."
+      },
+      {
+        "icon": "/images/yt_feature4.png",
+        "title": "Processus Privé et Sécurisé",
+        "description": "Nous respectons votre vie privée. Aucune inscription ou connexion n'est jamais requise pour utiliser notre outil. Nous ne stockons pas les URLs vidéo que vous traitez, garantissant que votre activité reste toujours anonyme et sécurisée."
+      },
+      {
+        "icon": "/images/yt_feature5.png",
+        "title": "Fonctionne sur N'importe Quel Appareil",
+        "description": "Notre outil est conçu pour fonctionner dans n'importe quel navigateur web moderne. Utilisez-le sur votre ordinateur de bureau (Windows, Mac, Linux), tablette, ou téléphone mobile sans jamais avoir besoin d'installer de logiciel ou d'extensions."
+      },
+      {
+        "icon": "/images/yt_feature6.png",
+        "title": "Sortie de Texte Propre et Dégagée",
+        "description": "Notre Générateur de Transcriptions YouTube supprime automatiquement tous les codes temporels et formatage complexe. Vous obtenez un bloc de texte brut propre et simple qui est facile à lire, éditer et coller directement dans vos articles, notes ou publications sur les réseaux sociaux sans nettoyage supplémentaire requis."
+      }
+    ],
+    "transcript_downloadNow": "Transcription Maintenant >>",
+    "transcript_featuresConverter": "Votre Boîte à Outils Essentielle de Transcriptions",
+    "transcript_benefits": {
+      "title": "Transformez les Mots Parlés en Actifs Précieux",
+      "convenience": {
+        "title": "Pour la Réutilisation de Contenu et le SEO",
+        "description": "Débloquez des heures de contenu d'un seul clic. Convertissez votre vidéo YouTube en texte pour créer instantanément des articles de blog optimisés pour les moteurs de recherche, des notes détaillées d'émissions pour podcasts, des fils Twitter engageants et des descriptions vidéo riches en mots-clés pour améliorer la visibilité de votre chaîne."
+      },
+      "avoidAds": {
+        "title": "Pour la Recherche Précise et la Citation",
+        "description": "Arrêtez de faire défiler indéfiniment les chronologies vidéo pour trouver cette citation parfaite. Obtenez une transcription YouTube recherchable pour trouver instantanément des informations clés avec Ctrl+F, vérifier les déclarations pour votre article ou travail de recherche, et analyser les entrevues avec une précision et confiance complètes."
+      },
+      "saveData": {
+        "title": "Pour l'Apprentissage Amélioré et l'Accessibilité",
+        "description": "Boostez vos sessions d'étude. Téléchargez une transcription de conférence pour réviser les concepts clés, rechercher des termes spécifiques et absorber l'information plus efficacement qu'en regardant seulement. C'est aussi un outil essentiel pour créer du contenu accessible ou pour les apprenants de langues étudiant le dialogue."
+      }
     },
-    "avoidAds": {
-        "title": "For Content Creators & Writers",
-        "description": "Need to quote or reference content from a YouTube video? Our transcript generator gives you accurate text that you can cite properly in your articles, blog posts, or research papers. Create better content by leveraging existing knowledge in video format."
-    },
-    "saveData": {
-        "title": "For Accessibility & Inclusion",
-        "description": "Make content accessible to everyone. Extract transcripts for people with hearing impairments or those who prefer reading to watching videos. Our tool helps bridge the accessibility gap by converting spoken content into readable text."
-    },
-    "moreFromDownloads": {
-        "title": "For Language Learners & Translators",
-        "description": "Study foreign language videos more effectively by extracting subtitles. Read along as you watch to improve comprehension, or translate the extracted text to better understand content in languages you're learning. Perfect for language students and professional translators."
-    }
-  },
-  "transcript_faqTitle": "Your Questions, Answered",
-  "transcript_faq1Question": "1. What if a YouTube video doesn't have subtitles or captions?",
-  "transcript_faq1Answer": "Our tool can only extract transcripts from videos that have subtitles or closed captions available. These can be either manually created by the video uploader or automatically generated by YouTube. If a video doesn't have any subtitles available, our tool will notify you. In such cases, you might want to try our YouTube to MP3 converter and use a separate speech-to-text service for transcription.",
-  "transcript_faq2Question": "2. What's the difference between TXT, SRT, and VTT transcript formats?",
-  "transcript_faq2Answer": "Great question!\n\n<strong>- TXT</strong> is a simple plain text format that contains only the spoken words without any timing information. It's best for when you just need the content for reading or reference.\n\n<strong>- SRT</strong> (SubRip Text) is the most common subtitle format that includes both text and precise timestamps. It's perfect for video editing, creating your own subtitles, or following along with exact timing.\n\n<strong>- VTT</strong> (Web Video Text Tracks) is a modern format designed specifically for web videos. It's similar to SRT but with better support for styling and positioning in web players.",
-  "transcript_faq3Question": "3. Is it legal to extract transcripts from YouTube videos?",
-  "transcript_faq3Answer": "Generally, extracting transcripts for personal use, research, educational purposes, or accessibility is considered fair use in most regions. However, republishing entire transcripts without permission or proper attribution could potentially infringe on copyright. We recommend using extracted transcripts for personal study, research, or accessibility purposes, and always citing the original source appropriately if you quote from them in your own work.",
-  "transcript_faq4Question": "4. I tried to extract a transcript from a private or age-restricted video, and it didn't work. Why?",
-  "transcript_faq4Answer": "Our tool respects user privacy and YouTube's platform rules. It can only access and extract transcripts from videos that are publicly available. If a video is set to \"Private,\" \"Unlisted\" (unless you have the link), or has an age-gate that requires you to be logged in to verify your age, our server cannot access its subtitles. We do not bypass any of YouTube's privacy or access controls.",
-  "transcript_faq5Question": "5. Are there any limits on how many transcripts I can extract or the length of the videos?",
-  "transcript_faq5Answer": "No, there are no limits! Our service is completely free and unlimited. You can extract transcripts by pasting the YouTube URL as many times as you want, regardless of the video's length—from a 30-second clip to a 3-hour lecture. The only limitation is that the video must have subtitles or captions available."
-
+    "transcript_faqTitle": "Vos Questions Approfondies sur les Transcriptions YouTube, Répondues",
+    "transcript_faq1Question": "1. Est-ce une transcription IA, et quelle est sa précision ?",
+    "transcript_faq1Answer": "C'est une question clé. Notre outil n'est pas un service de transcription IA. C'est un extracteur de sous-titres. Il récupère les sous-titres officiels fournis par le créateur ou générés automatiquement directement depuis YouTube. Par conséquent, la précision de la transcription est identique à la précision des sous-titres que vous voyez dans le lecteur YouTube lui-même.",
+    "transcript_faq2Question": "2. Que se passe-t-il si la vidéo YouTube n'a pas de sous-titres (CC) ?",
+    "transcript_faq2Answer": "Pour que notre générateur de transcriptions YouTube fonctionne, la vidéo doit avoir une piste de sous-titres disponible—vous devriez voir l'icône \"CC\" sur le lecteur YouTube. Si une vidéo n'a pas de sous-titres activés, notre générateur ne peut pas créer une transcription parce qu'il n'y a pas de données textuelles à extraire.",
+    "transcript_faq3Question": "3. Quelle est la différence entre les sous-titres générés automatiquement par YouTube et ceux manuels ?",
+    "transcript_faq3Answer": "Les sous-titres créés manuellement sont téléchargés par le créateur de la vidéo et sont généralement très précis en termes de formulation, orthographe et ponctuation. L'algorithme de reconnaissance vocale de YouTube crée des sous-titres générés automatiquement et peut contenir des erreurs, surtout avec les noms propres, le vocabulaire complexe ou l'audio peu clair. Notre outil génèrera la transcription de quelle que soit la version disponible pour la vidéo.",
+    "transcript_faq4Question": "4. Puis-je obtenir une transcription d'une vidéo très longue, comme un webinaire de 3 heures ?",
+    "transcript_faq4Answer": "Oui. Tant que la vidéo a une piste de sous-titres, notre outil peut générer la transcription complète indépendamment de la durée de la vidéo. Le processus reste tout aussi rapide, car nous récupérons simplement des données textuelles existantes.",
+    "transcript_faq5Question": "5. Comment puis-je utiliser au mieux la transcription avec horodatages ?",
+    "transcript_faq5Answer": "Les transcriptions avec horodatages sont incroyablement utiles. Pour les éditeurs vidéo, elles permettent de trouver rapidement le moment exact où un mot spécifique est dit. Pour les chercheurs et étudiants, elles sont essentielles pour créer des citations précises. Vous pouvez aussi les utiliser pour créer des transcriptions interactives \"cliquables\" où cliquer sur un horodatage navigue un utilisateur vers ce point dans la vidéo.",
+    "transcript_faq6Question": "6. Je vois des erreurs dans la transcription générée. Pouvez-vous les corriger ?",
+    "transcript_faq6Answer": "Puisque nous extrayons la transcription directement depuis les données de YouTube, toute erreur de formulation ou ponctuation provient des sous-titres source eux-mêmes. Nous ne pouvons pas les corriger automatiquement. Cependant, nous fournissons le texte dans un format facile à éditer (copier-coller ou fichier .txt) afin que vous puissiez rapidement faire vous-même toute correction ou changement de formatage."
+  
 }
