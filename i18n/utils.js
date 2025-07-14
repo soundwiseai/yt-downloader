@@ -16,6 +16,21 @@ export const _t = (str) => {
     return t(str)
 }
 
+export const _te = (str) => {
+    const route = useRoute()
+    const { te } = useI18n()
+    if(route.path.endsWith('-mp3') && te(`mp3_${str}`)) {
+        return te(`mp3_${str}`)
+    }
+    else if(route.path.endsWith('-downloader') && te(`downloader_${str}`)) {
+        return te(`downloader_${str}`)
+    }
+    else if(route.path.endsWith('-transcript-generator') && te(`transcript_${str}`)) {
+        return te(`transcript_${str}`)
+    }
+    return te(str)
+}
+
 export const _tm = (str) => {
     const route = useRoute()
     const { tm, te } = useI18n()

@@ -17,34 +17,26 @@
   
   <script setup>
   import { ref, computed } from 'vue'
-  import { _t } from '@/i18n/utils'
+  import { _t, _te } from '@/i18n/utils'
 
   // 记录当前展开的索引
   const activeIndex = ref(0)
 
   // FAQ 列表
-  const faqs = computed(() => [
-    {
-      question: _t('faq1Question'),
-      answer: _t('faq1Answer')
-    },
-    {
-      question: _t('faq2Question'),
-      answer: _t('faq2Answer')
-    },
-    {
-      question: _t('faq3Question'),
-      answer: _t('faq3Answer')
-    },
-    {
-      question: _t('faq4Question'),
-      answer: _t('faq4Answer')
-    },
-    {
-      question: _t('faq5Question'),
-      answer: _t('faq5Answer')
+  const faqs = computed(() => {
+    let items = []
+    for(let i=1; i<10; i++) {
+      console.log(`faq${i}Question`, _te(`faq${i}Question`))
+      if(_te(`faq${i}Question`)) {
+        items.push({
+          question: _t(`faq${i}Question`),
+          answer: _t(`faq${i}Answer`)
+        })
+      }
+      else break
     }
-  ])
+    return items
+  })
 
   // 切换 FAQ 展开状态
   const toggleFAQ = (index) => {
