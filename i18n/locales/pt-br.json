@@ -17,6 +17,12 @@
     "ogTitle": "Downloader de URL do YouTube para MP4, MP3 e Texto | Youtubetomp4.pro",
     "ogDescription": "Baixe vídeos do YouTube instantaneamente, extraia áudio em MP3 ou transcreva qualquer vídeo em texto com nosso downloader de URL gratuito. 100% seguro, não é necessário se registrar."
   },
+  "transcript_seo": {
+    "title": "YouTube Transcript Generator | Youtubetomp4.pro",
+    "description": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks.",
+    "ogTitle": "YouTube Transcript Generator | Youtubetomp4.pro",
+    "ogDescription": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks."
+  },  
 
   "site": "Site",
   "tools": "Tools",
