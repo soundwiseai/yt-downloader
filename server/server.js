@@ -185,10 +185,19 @@ app.get('/get-formats33', async (req, res) => {
 const cookiesPath = './cookies.txt';
 
 app.get('/get-formats', async (req, res) => {
-  // 明确设置 CORS 头信息以允许跨域请求
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Methods', 'GET, OPTIONS');
-  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  // 明确设置 CORS 头信息以允许特定域名的跨域请求
+  const allowedOrigins = ['https://yt.4ris.xyz', 'http://localhost:3000', 'http://localhost:3001'];
+  const origin = req.headers.origin;
+  
+  if (allowedOrigins.includes(origin) || !origin) {
+    // 如果请求来自允许的域名或是同源请求（没有 origin 头）
+    res.header('Access-Control-Allow-Origin', origin || '*');
+    res.header('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  } else {
+    // 对于不允许的域名，返回 403 禁止访问
+    return res.status(403).json({ error: '禁止访问：不允许的来源' });
+  }
   
   // 如果是 OPTIONS 请求，直接返回 200
   if (req.method === 'OPTIONS') {
