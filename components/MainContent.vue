@@ -78,6 +78,7 @@ import { _t } from '@/i18n/utils'
 const yt_url = ref('')
 const videoData = ref({})
 const loading = ref(false)
+const errorMessage = ref('')
 
 // 检查剪贴板内容
 const checkClipboard = async () => {
@@ -105,6 +106,7 @@ const checkClipboard = async () => {
 
 // 在组件挂载时检查剪贴板
 onMounted(() => {
+  errorMessage.value = _t("errorGetVideoInfo")
   checkClipboard()
 })
 
@@ -152,8 +154,8 @@ const fetchFormats = async () => {
     })
     videoData.value = response.data
   } catch (error) {
-    console.error('获取视频信息出错:', error)
-    alert('获取视频信息出错，请重试')
+    console.error(errorMessage.value, error)
+    alert(errorMessage.value)
   } finally {
     loading.value = false
     //   if (!this.yt_url) {

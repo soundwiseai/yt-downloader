@@ -184,6 +184,7 @@ const subtitleLoading = ref(false) // 单独的字幕加载状态
 const parsedSubtitles = ref([])
 const subtitlesLoaded = ref(false)
 const currentSubtitleLang = ref('')
+const errorMessage = ref('')
 
 // 计算属性：按照 languageMap 顺序排序的字幕语言
 const sortedSubtitleLanguages = computed(() => {
@@ -576,6 +577,8 @@ onMounted(() => {
       initYouTubePlayer()
     }, 1000) // 增加延迟时间到 1 秒
   })
+
+  errorMessage.value = _t('errorGetVideoInfo')
 })
 
 // 复制字幕到剪切板
@@ -622,10 +625,6 @@ const showToastMessage = (message, type = 'success') => {
   }, 3000)
 }
 
-// 下载方法
-const download = () => {
-  alert(`Starting download for: ${yt_url.value}`)
-}
 
 function makeValidFilename(inputString) {
     // 1. Remove or replace invalid characters
@@ -743,8 +742,8 @@ const fetchFormats = async () => {
       hasSubtitles.value = false
     }
   } catch (error) {
-    console.error('获取视频信息出错:', error)
-    alert('获取视频信息出错，请重试')
+    console.error('get video info error:', error)
+    alert(errorMessage.value)
   } finally {
     loading.value = false
   }

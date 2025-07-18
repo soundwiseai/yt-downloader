@@ -33,6 +33,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
 
+  "errorGetVideoInfo": "get video info error, please try again",
+
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Trình tải video YouTube",
   "mp3Converter": "Chuyển đổi YouTube sang MP3",

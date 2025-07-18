@@ -32,6 +32,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
 
+  "errorGetVideoInfo": "get video info error, please try again",
+
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Baixador de Vídeos do YouTube",
   "mp3Converter": "Conversor de YouTube para MP3",
