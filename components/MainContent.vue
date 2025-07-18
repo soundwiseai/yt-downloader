@@ -70,8 +70,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { useI18n } from 'vue-i18n'
+import { ref, onMounted } from 'vue'
 import axios from 'axios'
 import { _t } from '@/i18n/utils'
 
@@ -79,6 +78,35 @@ import { _t } from '@/i18n/utils'
 const yt_url = ref('')
 const videoData = ref({})
 const loading = ref(false)
+
+// 检查剪贴板内容
+const checkClipboard = async () => {
+  try {
+    // 请求剪贴板权限并读取内容
+    const text = await navigator.clipboard.readText()
+    if(!text){
+      return
+    }
+
+    const regex = /https:\/\/www\.youtube\.com\/watch\?v=\w+/;
+    const result = regex.test(text);
+    
+    // 检查是否包含YouTube链接
+    if (result) {
+      // 设置URL并触发获取格式
+      yt_url.value = text
+      fetchFormats()
+    }
+  } catch (error) {
+    console.log('无法访问剪贴板或剪贴板为空:', error)
+    // 不显示错误提示，静默失败
+  }
+}
+
+// 在组件挂载时检查剪贴板
+onMounted(() => {
+  checkClipboard()
+})
 
 
 // 下载方法

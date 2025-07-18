@@ -531,9 +531,36 @@ const onPlayerReady = (event) => {
   }, 1000)
 }
 
+// 检查剪贴板内容
+const checkClipboard = async () => {
+  try {
+    // 请求剪贴板权限并读取内容
+    const text = await navigator.clipboard.readText()
+    if(!text){
+      return
+    }
+
+    const regex = /https:\/\/www\.youtube\.com\/watch\?v=\w+/;
+    const result = regex.test(text);
+    
+    // 检查是否包含YouTube链接
+    if (result) {
+      // 设置URL并触发获取格式
+      yt_url.value = text
+      fetchFormats()
+    }
+  } catch (error) {
+    console.log('无法访问剪贴板或剪贴板为空:', error)
+    // 不显示错误提示，静默失败
+  }
+}
+
 // 组件挂载后的生命周期钩子
 onMounted(() => {
   console.log('Component mounted')
+  
+  // 检查剪贴板
+  checkClipboard()
   
   // 如果URL中包含YouTube链接，自动获取视频信息
   if (yt_url.value) {
