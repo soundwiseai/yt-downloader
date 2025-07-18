@@ -2,26 +2,21 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-section">
-        <h3>{{ _t('site') }}</h3>
-        <div class="footer-link">Youtubetomp4.pro</div>
+        <h3>{{ _t('resource') }}</h3>
+        <router-link :to="getLocalizedPath('/')" class="footer-link">Youtubetomp4.pro</router-link>
       </div>
 
       <div class="footer-section tools">
         <h3>{{ _t('tools') }}</h3>
-        <router-link :to="getLocalizedPath('/')" class="footer-link">home</router-link>
         <router-link :to="getLocalizedPath('/youtube-video-downloader')" class="footer-link">youtube video</router-link>
         <router-link :to="getLocalizedPath('/youtube-to-mp3')" class="footer-link">youtube mp3</router-link>
         <router-link :to="getLocalizedPath('/youtube-transcript-generator')" class="footer-link">youtube transcript</router-link>
       </div>
 
       <div class="footer-section">
-        <div class="comparison">
-          <h3>{{ _t('comparison') }}</h3>
-          <div class="footer-link">{{ _t('comparisonText') }}</div>
-        </div>
         <div class="contact">
           <h3>{{ _t('email') }}</h3>
-          <div class="footer-link">admin@Youtubetomp4.pro</div>
+          <a href="mailto:team@youtubetomp4.pro" class="footer-link">team@youtubetomp4.pro</a>
         </div>
       </div>
     </div>
