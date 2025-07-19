@@ -135,7 +135,7 @@
           <!-- 无字幕提示 -->
           <div class="no-subtitles" v-if="!hasSubtitles">
             <div>{{ _t("errorTranscriptUnavailable") }}</div>
-            <button class="btn-ai-transcript" @click="gotoAiTranscript">{{ _t("aiTranscript") }}</button>
+            <a href="https://soundwise.ai/" class="btn-ai-transcript" target="_blank">{{ _t("aiTranscript") }}</a>
           </div>
           
           <!-- 字幕加载动画 -->
@@ -559,9 +559,6 @@ const checkClipboard = async () => {
   }
 }
 
-const gotoAiTranscript = () => {
-  window.open('https://soundwise.ai/', '_blank')
-}
 
 // 组件挂载后的生命周期钩子
 onMounted(() => {
@@ -1581,6 +1578,7 @@ input:checked + .slider:before {
   font-weight: 500;
   transition: background-color 0.2s;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .btn-ai-transcript:hover {
