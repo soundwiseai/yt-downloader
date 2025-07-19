@@ -113,27 +113,25 @@
               </div>
             </div>
 
-            <div>
-              <!-- 复制字幕按钮 -->
-              <button 
-                class="copy-button" 
-                @click="copySubtitlesToClipboard"
-                :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
-                :title="_t('copy')"
-              >
-                {{ _t("copy") }}
-              </button>
+            <!-- 复制字幕按钮 -->
+            <button 
+              class="copy-button" 
+              @click="copySubtitlesToClipboard"
+              :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
+              :title="_t('copy')"
+            >
+              {{ _t("copy") }}
+            </button>
 
-              <!-- 下载字幕按钮 -->
-              <button 
-                class="download-button" 
-                @click="downloadFile(subtitlesLink)"
-                :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
-                :title="_t('download')"
-              >
-                {{ _t("download") }}
-              </button>
-            </div>
+            <!-- 下载字幕按钮 -->
+            <button 
+              class="download-button" 
+              @click="downloadFile(subtitlesLink)"
+              :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
+              :title="_t('download')"
+            >
+              {{ _t("download") }}
+            </button>
           </div>
           
           <!-- 无字幕提示 -->
@@ -326,8 +324,14 @@ const toggleDropdown = () => {
 // 语言代码到完整英文名称的映射
 const languageMap = {
   'en': 'English',
+  'en-US': 'English',
+  'en-GB': 'English',
   'es': 'Spanish',
+  'es-ES': 'Spanish',
+  'es-MX': 'Spanish',
   'fr': 'French',
+  'fr-FR': 'French',
+  'fr-CA': 'French',
   'de': 'German',
   'it': 'Italian',
   'pt': 'Portuguese',
@@ -663,22 +667,23 @@ const downloadFile = async (link) => {
       showToastMessage('没有可用的字幕内容', 'error')
       return
     }
+
+    const head = `# Youtubetomp4.pro free youtube transcript
+# ${videoTitle.value}
+# ${yt_url.value}
+`
   
     // 将字幕格式化为纯文本
     const subtitleText = parsedSubtitles.value.map(subtitle => {
-      if (showTimestamps.value) {
-        return `${subtitle.time}\n${subtitle.text}`
-      } else {
-        return subtitle.text
-      }
-    }).join('\n\n')
+      return `${subtitle.time} ${subtitle.text}`
+    }).join('\n')
 
     // 创建一个临时链接，触发浏览器下载
-    const blob = new Blob([subtitleText], { type: 'text/plain' })
+    const blob = new Blob([`${head}\n\n${subtitleText}`], { type: 'text/plain' })
     const downloadUrl = window.URL.createObjectURL(blob)
     const linkElement = document.createElement('a')
     linkElement.href = downloadUrl
-    linkElement.download = `${makeValidFilename(videoTitle.value)}.srt`  // 可根据需要修改文件名
+    linkElement.download = `${makeValidFilename(videoTitle.value)}.txt`  // 可根据需要修改文件名
     linkElement.click()
 
     // 释放 URL 对象
@@ -808,7 +813,7 @@ const fetchFormats = async () => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .download-button, .copy-button {
@@ -820,7 +825,6 @@ const fetchFormats = async () => {
   cursor: pointer;
   font-size: 14px;
   transition: background-color 0.3s;
-  margin-right: 10px;
 }
 
 .download-button:hover {
@@ -841,7 +845,6 @@ const fetchFormats = async () => {
   cursor: pointer;
   font-size: 14px;
   transition: background-color 0.3s;
-  margin-right: 10px;
 }
 
 .copy-button:hover {
@@ -1349,7 +1352,7 @@ const fetchFormats = async () => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
 }
 
 /* 时间戳切换样式 */
@@ -1434,9 +1437,9 @@ input:checked + .slider:before {
   display: flex;
   flex: none;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   font-size: .8em;
-  width: 160px;
+  min-width: 120px;
 }
 
 .dropdown-container {
