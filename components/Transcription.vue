@@ -87,7 +87,7 @@
                   />
                   <span class="slider round"></span>
                 </label>
-                <label for="timestamp-checkbox" class="timestamp-label">timestamp</label>
+                <label for="timestamp-checkbox" class="timestamp-label">{{ _t("timestamp") }}</label>
               </div>
             </div>
             
@@ -111,9 +111,8 @@
               </div>
             </div>
 
-            <div class="buttons-container">
-              <!-- 复制字幕按钮 -->
-              <button 
+            <!-- 复制字幕按钮 -->
+            <button 
                 class="copy-button" 
                 @click="copySubtitlesToClipboard"
                 :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
@@ -131,7 +130,6 @@
               >
                 {{ _t("download") }}
               </button>
-            </div>
           </div>
           
           <!-- 无字幕提示 -->

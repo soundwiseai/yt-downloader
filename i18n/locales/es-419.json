@@ -22,8 +22,7 @@
     "description": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks.",
     "ogTitle": "YouTube Transcript Generator | Youtubetomp4.pro",
     "ogDescription": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks."
-  },  
-  
+  },
   "resource": "Resource",
   "tools": "Tools",
   "comparison": "Comparison",
@@ -31,10 +30,8 @@
   "email": "Email",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
-
   "errorGetVideoInfo": "get video info error, please try again",
   "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
-
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Descargador de videos de YouTube",
   "mp3Converter": "Convertidor de YouTube a MP3",
@@ -46,12 +43,30 @@
   "formats": "Todos los formatos",
   "formatsTip": "Haz clic para guardar",
   "reviews": [
-    { "text": "¡Perfecto para guardar mis videos favoritos! Descargas rápidas y super fácil de usar. No necesita registro.", "author": "Sarah_Bennett92" },
-    { "text": "¡Esta herramienta es genial! Me encanta lo fácil que es descargar videos en diferentes formatos.", "author": "John_Doe" },
-    { "text": "Lo he estado usando por meses y siempre funciona perfecto.", "author": "Jane_Smith" },
-    { "text": "Rápido y confiable. ¡El mejor descargador de videos!", "author": "Michael_Johnson" },
-    { "text": "Fácil de usar y muy efectivo para guardar contenido.", "author": "David_Lee" },
-    { "text": "¡Super recomendado! Funciona perfecto con todos mis videos.", "author": "Emma_Wilson" }
+    {
+      "text": "¡Perfecto para guardar mis videos favoritos! Descargas rápidas y super fácil de usar. No necesita registro.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "¡Esta herramienta es genial! Me encanta lo fácil que es descargar videos en diferentes formatos.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Lo he estado usando por meses y siempre funciona perfecto.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Rápido y confiable. ¡El mejor descargador de videos!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Fácil de usar y muy efectivo para guardar contenido.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "¡Super recomendado! Funciona perfecto con todos mis videos.",
+      "author": "Emma_Wilson"
+    }
   ],
   "howToConvertTitle": "Cómo convertir videos de YouTube a MP4",
   "howToConvertDescription": "Imagina que estás en un vuelo largo o en una zona sin internet. Ver tu video favorito se vuelve imposible, ¿verdad? Para eso sirve ver videos sin conexión. Descargándolos antes, puedes disfrutarlos cuando quieras sin interrupciones. Un convertidor de YouTube a MP4 hace este proceso fácil. Te permite descargar videos de YouTube rápido y sin complicaciones.",
@@ -123,7 +138,6 @@
   "faq4Answer": "Aunque muchos convertidores gratis son sospechosos, nosotros protegemos tu seguridad. Nuestro convertidor funciona en tu navegador sin descargas raras ni pop-ups. Usamos HTTPS seguro y no guardamos tus datos ni historial. Además, revisamos frecuentemente por virus y mantenemos todo limpio. Sin spyware, solo conversión de videos confiable.",
   "faq5Question": "5. ¿Quién usa este convertidor?",
   "faq5Answer": "Nuestro convertidor es perfecto para:\n\nCreadores de contenido: Consigue material para tus edits y redes\n\nEstudiantes y maestros: Guarda clases y tutoriales para estudiar\n\nViajeros: Lleva entretenimiento para vuelos y trayectos largos\n\nProfesionales: Ten videos importantes a la mano, con o sin internet\n\nTodos: Disfruta tu contenido favorito de YouTube en cualquier momento",
-  
   "mp3_siteName": "Youtubetomp4.pro",
   "mp3_videoDownloader": "Descargador de videos de YouTube",
   "mp3_mp3Converter": "Convertidor de YouTube a MP3",
@@ -135,12 +149,30 @@
   "mp3_formats": "Todos los formatos",
   "mp3_formatsTip": "Haz clic para guardar",
   "mp3_reviews": [
-    { "text": "¡Perfecto para guardar mis videos favoritos! Descargas rápidas y súper fácil de usar. No necesitas registrarte.", "author": "Sarah_Bennett92" },
-    { "text": "¡Esta herramienta es genial! Me encanta lo fácil que es descargar videos en diferentes formatos.", "author": "John_Doe" },
-    { "text": "Lo he estado usando por meses y siempre funciona perfecto.", "author": "Jane_Smith" },
-    { "text": "Rápido y confiable. ¡El mejor descargador de videos!", "author": "Michael_Johnson" },
-    { "text": "Fácil de usar y muy efectivo para guardar contenido.", "author": "David_Lee" },
-    { "text": "¡Lo recomiendo mucho! Funciona perfecto con todos mis videos.", "author": "Emma_Wilson" }
+    {
+      "text": "¡Perfecto para guardar mis videos favoritos! Descargas rápidas y súper fácil de usar. No necesitas registrarte.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "¡Esta herramienta es genial! Me encanta lo fácil que es descargar videos en diferentes formatos.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Lo he estado usando por meses y siempre funciona perfecto.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Rápido y confiable. ¡El mejor descargador de videos!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Fácil de usar y muy efectivo para guardar contenido.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "¡Lo recomiendo mucho! Funciona perfecto con todos mis videos.",
+      "author": "Emma_Wilson"
+    }
   ],
   "mp3_howToConvertTitle": "Obtén tu audio en 3 simples pasos",
   "mp3_howToConvertDescription": "Nunca había sido tan fácil extraer audio de YouTube. Solo copia el enlace, pégalo aquí y tu MP3 estará listo.",
@@ -149,12 +181,36 @@
   "mp3_clickDownload": "<strong>Pega el enlace en el convertidor</strong>\nRegresa a nuestro sitio y pega el enlace de YouTube en el cuadro. El convertidor de URL a MP3 comenzará a preparar tu archivo de audio de inmediato.",
   "mp3_saveVideo": "<strong>Descarga tu archivo de audio MP3</strong>\nHaz clic en el archivo convertido para guardar el audio al instante en tu computadora, teléfono o tablet. Sin esperas, sin complicaciones.",
   "mp3_features": [
-    { "icon": "/images/yt_feature1.png", "title": "Extracción de audio de alta calidad", "description": "Procesamos tu archivo para entregarte un MP3 de alta calidad, ofreciendo una excelente experiencia de audio con un tamaño de archivo manejable, perfecto para cualquier dispositivo." },
-    { "icon": "/images/yt_feature2.png", "title": "Conversiones ilimitadas y gratis", "description": "No hay límites diarios ni restricciones. Convierte YouTube a MP3 todas las veces que necesites, cuando quieras. Guarda canciones sueltas o crea colecciones completas sin preocuparte por límites." },
-    { "icon": "/images/yt_feature3.png", "title": "Conversiones superrápidas", "description": "Como nos enfocamos solo en audio, el proceso de conversión es increíblemente rápido. La mayoría de conversiones de URL de YouTube a MP3 se completan en menos de cinco segundos, dándote tu archivo casi al instante." },
-    { "icon": "/images/yt_feature4.png", "title": "Formato MP3 universal", "description": "Te entregamos tu audio en el formato MP3 que es compatible universalmente. Los archivos que descargues se reproducirán perfecto en cualquier dispositivo, app de música o sistema de audio para auto sin problemas." },
-    { "icon": "/images/yt_feature5.png", "title": "100% seguro y sin anuncios", "description": "Ofrecemos una experiencia segura y gratis de YouTube a MP3. Nuestro sitio está protegido con HTTPS, nunca guardamos tus datos y te prometemos una interfaz limpia y sin anuncios siempre." },
-    { "icon": "/images/yt_feature6.png", "title": "Funciona en todos lados, sin necesidad de software", "description": "Nuestro convertidor online funciona directo en tu navegador en cualquier dispositivo: PC, Mac, iPhone o Android. No necesitas descargar ni instalar ningún software sospechoso." }
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Extracción de audio de alta calidad",
+      "description": "Procesamos tu archivo para entregarte un MP3 de alta calidad, ofreciendo una excelente experiencia de audio con un tamaño de archivo manejable, perfecto para cualquier dispositivo."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Conversiones ilimitadas y gratis",
+      "description": "No hay límites diarios ni restricciones. Convierte YouTube a MP3 todas las veces que necesites, cuando quieras. Guarda canciones sueltas o crea colecciones completas sin preocuparte por límites."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "Conversiones superrápidas",
+      "description": "Como nos enfocamos solo en audio, el proceso de conversión es increíblemente rápido. La mayoría de conversiones de URL de YouTube a MP3 se completan en menos de cinco segundos, dándote tu archivo casi al instante."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Formato MP3 universal",
+      "description": "Te entregamos tu audio en el formato MP3 que es compatible universalmente. Los archivos que descargues se reproducirán perfecto en cualquier dispositivo, app de música o sistema de audio para auto sin problemas."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "100% seguro y sin anuncios",
+      "description": "Ofrecemos una experiencia segura y gratis de YouTube a MP3. Nuestro sitio está protegido con HTTPS, nunca guardamos tus datos y te prometemos una interfaz limpia y sin anuncios siempre."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Funciona en todos lados, sin necesidad de software",
+      "description": "Nuestro convertidor online funciona directo en tu navegador en cualquier dispositivo: PC, Mac, iPhone o Android. No necesitas descargar ni instalar ningún software sospechoso."
+    }
   ],
   "mp3_downloadNow": "Descargar ahora >>",
   "mp3_featuresConverter": "Funciones principales de nuestro convertidor de YouTube a MP3",
@@ -188,7 +244,6 @@
   "mp3_faq4Answer": "La legalidad depende mucho del contenido que conviertas y cómo lo uses. Generalmente es legal descargar audio de contenido de dominio público, videos con licencia Creative Commons o tu propio contenido original. Para material con copyright, convertirlo a MP3 para uso personal offline se considera normalmente \"uso justo\". Pero es ilegal distribuir, compartir o usar el audio descargado para fines comerciales sin permiso del dueño de los derechos.",
   "mp3_faq5Question": "5. ¿En qué se diferencia esto de un descargador de videos YouTube a MP4?",
   "mp3_faq5Answer": "Está específicamente optimizado para audio. Mientras un descargador MP4 guarda el video y audio juntos en un archivo más grande, nuestra herramienta de URL de YouTube a MP3 elimina completamente los datos de video. El resultado es un archivo mucho más pequeño que se descarga más rápido, ocupa menos espacio en tu dispositivo y es perfecto para reproducir solo audio.",
-
   "downloader_siteName": "Youtubetomp4.pro",
   "downloader_videoDownloader": "Descargador de videos de YouTube",
   "downloader_mp3Converter": "Conversor de YouTube a MP3",
@@ -201,12 +256,30 @@
   "downloader_formats": "Todos los formatos",
   "downloader_formatsTip": "Haz clic para guardar",
   "downloader_reviews": [
-    { "text": "¡Perfecto para guardar mis videos favoritos! Descargas rápidas y súper fácil de usar. No requiere registro.", "author": "Sarah_Bennett92" },
-    { "text": "¡Esta herramienta es genial! Me encanta lo fácil que es descargar videos en varios formatos.", "author": "John_Doe" },
-    { "text": "Llevo meses usándolo y siempre funciona perfectamente.", "author": "Jane_Smith" },
-    { "text": "Rápido y confiable. ¡El mejor descargador de videos!", "author": "Michael_Johnson" },
-    { "text": "Fácil de usar y muy efectivo para guardar contenido.", "author": "David_Lee" },
-    { "text": "¡Muy recomendado! Funciona perfectamente con todos mis videos.", "author": "Emma_Wilson" }
+    {
+      "text": "¡Perfecto para guardar mis videos favoritos! Descargas rápidas y súper fácil de usar. No requiere registro.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "¡Esta herramienta es genial! Me encanta lo fácil que es descargar videos en varios formatos.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Llevo meses usándolo y siempre funciona perfectamente.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Rápido y confiable. ¡El mejor descargador de videos!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Fácil de usar y muy efectivo para guardar contenido.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "¡Muy recomendado! Funciona perfectamente con todos mis videos.",
+      "author": "Emma_Wilson"
+    }
   ],
   "downloader_howToConvertTitle": "Descarga cualquier video de YouTube en 3 simples pasos",
   "downloader_howToConvertDescription": "Guardar tu contenido favorito nunca ha sido tan fácil. Solo copia, pega y descarga.",
@@ -215,12 +288,36 @@
   "downloader_clickDownload": "<strong>Pega el enlace del video en nuestro descargador</strong> \n Regresa a nuestro sitio y pega el enlace en el cuadro de entrada en la parte superior de la página. Nuestra herramienta procesará automáticamente la URL.",
   "downloader_saveVideo": "<strong>Elige tu formato y descarga</strong> \n Haz clic en el botón \"Descargar\" y selecciona el formato y resolución de la lista de archivos, haz clic en el que desees para guardarlo directamente en tu dispositivo.",
   "downloader_features": [
-    { "icon": "/images/yt_feature1.png", "title": "Descargas con un solo clic", "description": "Sin configuraciones confusas. Simplemente pega tu URL de YouTube y nuestra herramienta proporcionará automáticamente un enlace de descarga directa para el video en calidad estándar (SD). Es la forma perfecta de guardar contenido rápidamente para verlo sin conexión." },
-    { "icon": "/images/yt_feature2.png", "title": "Extracción de audio MP3 en alta calidad", "description": "¿Solo necesitas el audio? Nuestra herramienta funciona excelente como conversor de URL de YouTube a MP3. Extrae el audio y te da un archivo MP3 de alta calidad, perfecto para escuchar música, podcasts o conferencias donde sea. Esta es una de nuestras funciones más populares." },
-    { "icon": "/images/yt_feature3.png", "title": "Optimizado para todos los dispositivos y ahorro de datos", "description": "Los videos en calidad estándar tienen archivos más pequeños. Esto es una gran ventaja: las descargas son mucho más rápidas, usan menos datos móviles y no llenan el almacenamiento de tu teléfono. Los archivos son altamente compatibles y se reproducen perfectamente en cualquier teléfono, tableta o computadora." },
-    { "icon": "/images/yt_feature4.png", "title": "Seguro y anónimo", "description": "Tu privacidad es importante. Nuestro descargador seguro de YouTube funciona sin requerir registro ni información personal. No rastreamos tu actividad y nuestro sitio se escanea regularmente para garantizar que está libre de malware." },
-    { "icon": "/images/yt_feature5.png", "title": "Herramienta instantánea en el navegador", "description": "No hay que instalar nada. Nuestro descargador funciona completamente en tu navegador web en cualquier sistema operativo: Windows, Mac, iOS o Android. Solo abre nuestro sitio y estarás listo." },
-    { "icon": "/images/yt_feature6.png", "title": "Extra: Transcripción de video gratis e instantánea", "description": "Accede al texto dentro de cualquier video. Nuestra herramienta también puede transcribir el audio de tu URL de YouTube a un documento de texto completo. Perfecto para estudiantes, creadores de contenido o investigadores que necesitan analizar contenido hablado." }
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Descargas con un solo clic",
+      "description": "Sin configuraciones confusas. Simplemente pega tu URL de YouTube y nuestra herramienta proporcionará automáticamente un enlace de descarga directa para el video en calidad estándar (SD). Es la forma perfecta de guardar contenido rápidamente para verlo sin conexión."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Extracción de audio MP3 en alta calidad",
+      "description": "¿Solo necesitas el audio? Nuestra herramienta funciona excelente como conversor de URL de YouTube a MP3. Extrae el audio y te da un archivo MP3 de alta calidad, perfecto para escuchar música, podcasts o conferencias donde sea. Esta es una de nuestras funciones más populares."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "Optimizado para todos los dispositivos y ahorro de datos",
+      "description": "Los videos en calidad estándar tienen archivos más pequeños. Esto es una gran ventaja: las descargas son mucho más rápidas, usan menos datos móviles y no llenan el almacenamiento de tu teléfono. Los archivos son altamente compatibles y se reproducen perfectamente en cualquier teléfono, tableta o computadora."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Seguro y anónimo",
+      "description": "Tu privacidad es importante. Nuestro descargador seguro de YouTube funciona sin requerir registro ni información personal. No rastreamos tu actividad y nuestro sitio se escanea regularmente para garantizar que está libre de malware."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Herramienta instantánea en el navegador",
+      "description": "No hay que instalar nada. Nuestro descargador funciona completamente en tu navegador web en cualquier sistema operativo: Windows, Mac, iOS o Android. Solo abre nuestro sitio y estarás listo."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Extra: Transcripción de video gratis e instantánea",
+      "description": "Accede al texto dentro de cualquier video. Nuestra herramienta también puede transcribir el audio de tu URL de YouTube a un documento de texto completo. Perfecto para estudiantes, creadores de contenido o investigadores que necesitan analizar contenido hablado."
+    }
   ],
   "downloader_downloadNow": "Descargar ahora >>",
   "downloader_featuresConverter": "Funciones principales del descargador de URL de YouTube",
@@ -254,110 +351,110 @@
   "downloader_faq4Answer": "Nuestra herramienta respeta la privacidad y las reglas de YouTube. Funciona como una \"grabadora digital\", lo que significa que solo puede acceder y grabar lo que está disponible públicamente. Si un video está configurado como \"Privado\", \"No listado\" (a menos que tengas el enlace) o tiene una restricción de edad que requiere iniciar sesión para verificar tu edad, nuestro servidor no puede acceder a él. No evitamos ninguno de los controles de privacidad o acceso de YouTube.",
   "downloader_faq5Question": "5. ¿Hay límites en cuántos videos puedo descargar o en la duración de los videos?",
   "downloader_faq5Answer": "¡No, no hay límites! Nuestro servicio es completamente gratis y sin límites. Puedes descargar videos de YouTube pegando la URL todas las veces que quieras, sin importar la duración del video, desde un Short de 10 segundos hasta un documental de 10 horas.",
-
   "transcript_siteName": "Youtubetomp4.pro",
-    "transcript_videoDownloader": "Descargador de Videos de YouTube",
-    "transcript_mp3Converter": "Conversor de YouTube a MP3",
-    "transcript_title": "Generador de Transcripciones de YouTube Instantáneo",
-    "transcript_description": "Obtén instantáneamente la transcripción de cualquier video de YouTube. Pega una URL para generar un archivo de texto completo de los subtítulos del video. Perfecto para investigación, creación de contenido y estudios.",
-    "transcript_download": "Obtener Transcripción Gratis",
-    "transcript_tip": "Por favor, ten en cuenta los derechos de autor al descargar contenido. Esta herramienta no está diseñada para descargar música protegida por derechos de autor.",
-    "transcript_formats": "Todos los Formatos",
-    "transcript_formatsTip": "Haz clic para guardar",
-    "transcript_reviews": [
-      {
-        "text": "Esta herramienta es un cambio total para mi flujo de trabajo. Ahora puedo convertir un video de YouTube de 20 minutos en texto para un artículo de blog en segundos, no en horas. Es el mejor conversor de video de YouTube a texto que he encontrado.",
-        "author": "Eleanor Vance, Especialista en Marketing de Contenido"
-      },
-      {
-        "text": "Como estudiante de doctorado, necesito citar fuentes de video con precisión. Este generador de transcripciones me permite extraer citas exactas, ahorrándome una cantidad increíble de tiempo. Imprescindible para la investigación académica.",
-        "author": "Ben Carter, Estudiante de Doctorado"
-      },
-      {
-        "text": "Uso esto para obtener transcripciones para mis informes de análisis de competencia. Es rápido, confiable, y la salida de texto limpia es perfecta para pegar en mis documentos. Simplemente funciona.",
-        "author": "Sophie Chen, Analista de Mercado"
-      },
-      {
-        "text": "Subo los episodios de mi podcast a YouTube, y esta herramienta es un salvavidas para crear notas del programa. Puedo obtener la transcripción completa instantáneamente, extraer citas clave y crear un resumen detallado para mi sitio web. Me ahorra horas cada semana.",
-        "author": "Marcus Holloway, Presentador de Podcast"
-      },
-      {
-        "text": "¡Esto es increíble para aprender inglés! Puedo obtener la transcripción de una conversación real y leer junto con ella para entender nuevas palabras y frases. Las marcas de tiempo me ayudan a encontrar la parte exacta que quiero escuchar de nuevo. Realmente ha mejorado mis habilidades de escucha.",
-        "author": "Yuki Tanaka, Estudiante de Idiomas"
-      },
-      {
-        "text": "Como alguien con problemas de audición, los subtítulos de YouTube pueden ser difíciles de leer en el reproductor. Poder descargar la transcripción como un archivo de texto me permite revisar el contenido a mi propio ritmo y asegurarme de no perder nada. Gracias por esta herramienta esencial.",
-        "author": "David L., Miembro de la Comunidad"
-      }
-    ],
-    "transcript_howToConvertTitle": "De Video de YouTube a Texto Plano en 3 Pasos",
-    "transcript_howToConvertDescription": "Desbloquea el texto dentro de cualquier video sin esfuerzo.",
-    "transcript_step": "Paso",
-    "transcript_copyUrl": "<strong>Encontrar y Copiar la URL de YouTube</strong> \n Navega al video de YouTube que tenga subtítulos (el ícono \"CC\" es visible) y copia la URL desde tu navegador.",
-    "transcript_clickDownload": "<strong>Pegar el Enlace en el Generador</strong> \n Regresa a nuestro sitio y pega el enlace del video en el cuadro de entrada. Nuestra herramienta detectará inmediatamente las transcripciones disponibles.",
-    "transcript_saveVideo": "<strong>Copiar o Descargar la Transcripción Completa</strong> \n La transcripción de tu video aparecerá instantáneamente. Puedes copiarla a tu portapapeles con un clic o descargarla como un archivo .txt limpio para uso posterior.",
-    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
-"transcript_features": [
-      {
-        "icon": "/images/yt_feature1.png",
-        "title": "Generación Instantánea en Página",
-        "description": "Sin espera, sin pasos adicionales. Pega tu enlace de YouTube y la transcripción completa aparece directamente en la página en segundos. Es la forma más directa de obtener el texto que necesitas inmediatamente."
-      },
-      {
-        "icon": "/images/yt_feature2.png",
-        "title": "Copiar y Descargar con Un Clic",
-        "description": "Una vez que tu transcripción esté lista, tu flujo de trabajo es simple. Haz clic en un botón para copiar todo el texto a tu portapapeles. ¿Prefieres guardar una copia física? Haz clic en otro para descargar la transcripción completa como un archivo .txt limpio para uso sin conexión."
-      },
-      {
-        "icon": "/images/yt_feature3.png",
-        "title": "Extracción de Idioma Fuente",
-        "description": "Nuestro conversor de video de YouTube a texto extrae fielmente la transcripción en su idioma original como se proporciona en la pista de subtítulos del video de YouTube. Nos enfocamos en proporcionar una copia perfecta y sin alterar del texto fuente, asegurando 100% de precisión con los subtítulos originales."
-      },
-      {
-        "icon": "/images/yt_feature4.png",
-        "title": "Proceso Privado y Seguro",
-        "description": "Respetamos tu privacidad. Nunca se requiere registro o inicio de sesión para usar nuestra herramienta. No almacenamos las URLs de video que procesas, asegurando que tu actividad sea siempre anónima y segura."
-      },
-      {
-        "icon": "/images/yt_feature5.png",
-        "title": "Funciona en Cualquier Dispositivo",
-        "description": "Nuestra herramienta está diseñada para funcionar en cualquier navegador web moderno. Úsala en tu computadora de escritorio (Windows, Mac, Linux), tableta o teléfono móvil sin necesidad de instalar software o extensiones."
-      },
-      {
-        "icon": "/images/yt_feature6.png",
-        "title": "Salida de Texto Limpia y Despejada",
-        "description": "Nuestro Generador de Transcripciones de YouTube elimina automáticamente todos los códigos de tiempo y formato complejo. Obtienes un bloque limpio y simple de texto plano que es fácil de leer, editar y pegar directamente en tus artículos, notas o publicaciones en redes sociales sin necesidad de limpieza adicional."
-      }
-    ],
-    "transcript_downloadNow": "Transcripción Ahora >>",
-    "transcript_featuresConverter": "Tu Kit de Herramientas Esencial de Transcripciones",
-    "transcript_benefits": {
-      "title": "Transforma Palabras Habladas en Activos Valiosos",
-      "convenience": {
-        "title": "Para Reutilización de Contenido y SEO",
-        "description": "Desbloquea horas de contenido con un solo clic. Convierte tu video de YouTube a texto para crear instantáneamente artículos de blog optimizados para motores de búsqueda, notas detalladas de programas para podcasts, hilos atractivos de Twitter y descripciones de video ricas en palabras clave para mejorar la visibilidad de tu canal."
-      },
-      "avoidAds": {
-        "title": "Para Investigación Precisa y Citado",
-        "description": "Deja de desplazarte infinitamente por las líneas de tiempo de video para encontrar esa cita perfecta. Obtén una transcripción de YouTube que se pueda buscar para encontrar instantáneamente información clave con Ctrl+F, verificar declaraciones para tu artículo o trabajo de investigación, y analizar entrevistas con completa precisión y confianza."
-      },
-      "saveData": {
-        "title": "Para Aprendizaje Mejorado y Accesibilidad",
-        "description": "Potencia tus sesiones de estudio. Descarga una transcripción de conferencia para revisar conceptos clave, buscar términos específicos y absorber información más efectivamente que solo viendo. También es una herramienta esencial para crear contenido accesible o para estudiantes de idiomas que estudian diálogos."
-      }
+  "transcript_videoDownloader": "Descargador de Videos de YouTube",
+  "transcript_mp3Converter": "Conversor de YouTube a MP3",
+  "transcript_title": "Generador de Transcripciones de YouTube Instantáneo",
+  "transcript_description": "Obtén instantáneamente la transcripción de cualquier video de YouTube. Pega una URL para generar un archivo de texto completo de los subtítulos del video. Perfecto para investigación, creación de contenido y estudios.",
+  "transcript_timestamp": "timestamp", 
+  "transcript_copy": "Copy",
+  "transcript_download": "Obtener Transcripción Gratis",
+  "transcript_tip": "Por favor, ten en cuenta los derechos de autor al descargar contenido. Esta herramienta no está diseñada para descargar música protegida por derechos de autor.",
+  "transcript_formats": "Todos los Formatos",
+  "transcript_formatsTip": "Haz clic para guardar",
+  "transcript_reviews": [
+    {
+      "text": "Esta herramienta es un cambio total para mi flujo de trabajo. Ahora puedo convertir un video de YouTube de 20 minutos en texto para un artículo de blog en segundos, no en horas. Es el mejor conversor de video de YouTube a texto que he encontrado.",
+      "author": "Eleanor Vance, Especialista en Marketing de Contenido"
     },
-    "transcript_faqTitle": "Tus Preguntas Detalladas sobre Transcripciones de YouTube, Respondidas",
-    "transcript_faq1Question": "1. ¿Es esta una transcripción de IA, y qué tan precisa es?",
-    "transcript_faq1Answer": "Esta es una pregunta clave. Nuestra herramienta no es un servicio de transcripción de IA. Es un extractor de subtítulos. Obtiene los subtítulos oficiales proporcionados por el creador o generados automáticamente directamente de YouTube. Por lo tanto, la precisión de la transcripción es idéntica a la precisión de los subtítulos que ves en el reproductor de YouTube mismo.",
-    "transcript_faq2Question": "2. ¿Qué pasa si el video de YouTube no tiene subtítulos (CC)?",
-    "transcript_faq2Answer": "Para que funcione nuestro generador de transcripciones de YouTube, el video debe tener una pista de subtítulos disponible—deberías ver el ícono \"CC\" en el reproductor de YouTube. Si un video no tiene subtítulos habilitados, nuestro generador no puede crear una transcripción porque no hay datos de texto para extraer.",
-    "transcript_faq3Question": "3. ¿Cuál es la diferencia entre los subtítulos generados automáticamente de YouTube y los manuales?",
-    "transcript_faq3Answer": "Los subtítulos creados manualmente son subidos por el creador del video y generalmente son muy precisos en términos de redacción, ortografía y puntuación. El algoritmo de reconocimiento de voz de YouTube crea subtítulos generados automáticamente y puede contener errores, especialmente con nombres propios, vocabulario complejo o audio poco claro. Nuestra herramienta generará la transcripción de cualquier versión que esté disponible para el video.",
-    "transcript_faq4Question": "4. ¿Puedo obtener una transcripción de un video muy largo, como un webinar de 3 horas?",
-    "transcript_faq4Answer": "Sí. Mientras el video tenga una pista de subtítulos, nuestra herramienta puede generar la transcripción completa independientemente de la duración del video. El proceso sigue siendo igual de rápido, ya que simplemente estamos obteniendo datos de texto existentes.",
-    "transcript_faq5Question": "5. ¿Cómo puedo usar mejor la transcripción con marcas de tiempo?",
-    "transcript_faq5Answer": "Las transcripciones con marcas de tiempo son increíblemente útiles. Para editores de video, les permiten encontrar rápidamente el momento exacto en que se dice una palabra específica. Para investigadores y estudiantes, son esenciales para crear citas precisas. También puedes usarlas para crear transcripciones interactivas \"clicables\" donde hacer clic en una marca de tiempo navega a un usuario a ese punto en el video.",
-    "transcript_faq6Question": "6. Veo algunos errores en la transcripción generada. ¿Pueden corregirlos?",
-    "transcript_faq6Answer": "Dado que extraemos la transcripción directamente de los datos de YouTube, cualquier error en redacción o puntuación se origina de los subtítulos fuente mismos. No podemos corregirlos automáticamente. Sin embargo, proporcionamos el texto en un formato fácil de editar (copiar-pegar o archivo .txt) para que puedas hacer rápidamente cualquier corrección o cambio de formato tú mismo."
-  
+    {
+      "text": "Como estudiante de doctorado, necesito citar fuentes de video con precisión. Este generador de transcripciones me permite extraer citas exactas, ahorrándome una cantidad increíble de tiempo. Imprescindible para la investigación académica.",
+      "author": "Ben Carter, Estudiante de Doctorado"
+    },
+    {
+      "text": "Uso esto para obtener transcripciones para mis informes de análisis de competencia. Es rápido, confiable, y la salida de texto limpia es perfecta para pegar en mis documentos. Simplemente funciona.",
+      "author": "Sophie Chen, Analista de Mercado"
+    },
+    {
+      "text": "Subo los episodios de mi podcast a YouTube, y esta herramienta es un salvavidas para crear notas del programa. Puedo obtener la transcripción completa instantáneamente, extraer citas clave y crear un resumen detallado para mi sitio web. Me ahorra horas cada semana.",
+      "author": "Marcus Holloway, Presentador de Podcast"
+    },
+    {
+      "text": "¡Esto es increíble para aprender inglés! Puedo obtener la transcripción de una conversación real y leer junto con ella para entender nuevas palabras y frases. Las marcas de tiempo me ayudan a encontrar la parte exacta que quiero escuchar de nuevo. Realmente ha mejorado mis habilidades de escucha.",
+      "author": "Yuki Tanaka, Estudiante de Idiomas"
+    },
+    {
+      "text": "Como alguien con problemas de audición, los subtítulos de YouTube pueden ser difíciles de leer en el reproductor. Poder descargar la transcripción como un archivo de texto me permite revisar el contenido a mi propio ritmo y asegurarme de no perder nada. Gracias por esta herramienta esencial.",
+      "author": "David L., Miembro de la Comunidad"
+    }
+  ],
+  "transcript_howToConvertTitle": "De Video de YouTube a Texto Plano en 3 Pasos",
+  "transcript_howToConvertDescription": "Desbloquea el texto dentro de cualquier video sin esfuerzo.",
+  "transcript_step": "Paso",
+  "transcript_copyUrl": "<strong>Encontrar y Copiar la URL de YouTube</strong> \n Navega al video de YouTube que tenga subtítulos (el ícono \"CC\" es visible) y copia la URL desde tu navegador.",
+  "transcript_clickDownload": "<strong>Pegar el Enlace en el Generador</strong> \n Regresa a nuestro sitio y pega el enlace del video en el cuadro de entrada. Nuestra herramienta detectará inmediatamente las transcripciones disponibles.",
+  "transcript_saveVideo": "<strong>Copiar o Descargar la Transcripción Completa</strong> \n La transcripción de tu video aparecerá instantáneamente. Puedes copiarla a tu portapapeles con un clic o descargarla como un archivo .txt limpio para uso posterior.",
+  "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+  "transcript_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Generación Instantánea en Página",
+      "description": "Sin espera, sin pasos adicionales. Pega tu enlace de YouTube y la transcripción completa aparece directamente en la página en segundos. Es la forma más directa de obtener el texto que necesitas inmediatamente."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Copiar y Descargar con Un Clic",
+      "description": "Una vez que tu transcripción esté lista, tu flujo de trabajo es simple. Haz clic en un botón para copiar todo el texto a tu portapapeles. ¿Prefieres guardar una copia física? Haz clic en otro para descargar la transcripción completa como un archivo .txt limpio para uso sin conexión."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "Extracción de Idioma Fuente",
+      "description": "Nuestro conversor de video de YouTube a texto extrae fielmente la transcripción en su idioma original como se proporciona en la pista de subtítulos del video de YouTube. Nos enfocamos en proporcionar una copia perfecta y sin alterar del texto fuente, asegurando 100% de precisión con los subtítulos originales."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Proceso Privado y Seguro",
+      "description": "Respetamos tu privacidad. Nunca se requiere registro o inicio de sesión para usar nuestra herramienta. No almacenamos las URLs de video que procesas, asegurando que tu actividad sea siempre anónima y segura."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Funciona en Cualquier Dispositivo",
+      "description": "Nuestra herramienta está diseñada para funcionar en cualquier navegador web moderno. Úsala en tu computadora de escritorio (Windows, Mac, Linux), tableta o teléfono móvil sin necesidad de instalar software o extensiones."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Salida de Texto Limpia y Despejada",
+      "description": "Nuestro Generador de Transcripciones de YouTube elimina automáticamente todos los códigos de tiempo y formato complejo. Obtienes un bloque limpio y simple de texto plano que es fácil de leer, editar y pegar directamente en tus artículos, notas o publicaciones en redes sociales sin necesidad de limpieza adicional."
+    }
+  ],
+  "transcript_downloadNow": "Transcripción Ahora >>",
+  "transcript_featuresConverter": "Tu Kit de Herramientas Esencial de Transcripciones",
+  "transcript_benefits": {
+    "title": "Transforma Palabras Habladas en Activos Valiosos",
+    "convenience": {
+      "title": "Para Reutilización de Contenido y SEO",
+      "description": "Desbloquea horas de contenido con un solo clic. Convierte tu video de YouTube a texto para crear instantáneamente artículos de blog optimizados para motores de búsqueda, notas detalladas de programas para podcasts, hilos atractivos de Twitter y descripciones de video ricas en palabras clave para mejorar la visibilidad de tu canal."
+    },
+    "avoidAds": {
+      "title": "Para Investigación Precisa y Citado",
+      "description": "Deja de desplazarte infinitamente por las líneas de tiempo de video para encontrar esa cita perfecta. Obtén una transcripción de YouTube que se pueda buscar para encontrar instantáneamente información clave con Ctrl+F, verificar declaraciones para tu artículo o trabajo de investigación, y analizar entrevistas con completa precisión y confianza."
+    },
+    "saveData": {
+      "title": "Para Aprendizaje Mejorado y Accesibilidad",
+      "description": "Potencia tus sesiones de estudio. Descarga una transcripción de conferencia para revisar conceptos clave, buscar términos específicos y absorber información más efectivamente que solo viendo. También es una herramienta esencial para crear contenido accesible o para estudiantes de idiomas que estudian diálogos."
+    }
+  },
+  "transcript_faqTitle": "Tus Preguntas Detalladas sobre Transcripciones de YouTube, Respondidas",
+  "transcript_faq1Question": "1. ¿Es esta una transcripción de IA, y qué tan precisa es?",
+  "transcript_faq1Answer": "Esta es una pregunta clave. Nuestra herramienta no es un servicio de transcripción de IA. Es un extractor de subtítulos. Obtiene los subtítulos oficiales proporcionados por el creador o generados automáticamente directamente de YouTube. Por lo tanto, la precisión de la transcripción es idéntica a la precisión de los subtítulos que ves en el reproductor de YouTube mismo.",
+  "transcript_faq2Question": "2. ¿Qué pasa si el video de YouTube no tiene subtítulos (CC)?",
+  "transcript_faq2Answer": "Para que funcione nuestro generador de transcripciones de YouTube, el video debe tener una pista de subtítulos disponible—deberías ver el ícono \"CC\" en el reproductor de YouTube. Si un video no tiene subtítulos habilitados, nuestro generador no puede crear una transcripción porque no hay datos de texto para extraer.",
+  "transcript_faq3Question": "3. ¿Cuál es la diferencia entre los subtítulos generados automáticamente de YouTube y los manuales?",
+  "transcript_faq3Answer": "Los subtítulos creados manualmente son subidos por el creador del video y generalmente son muy precisos en términos de redacción, ortografía y puntuación. El algoritmo de reconocimiento de voz de YouTube crea subtítulos generados automáticamente y puede contener errores, especialmente con nombres propios, vocabulario complejo o audio poco claro. Nuestra herramienta generará la transcripción de cualquier versión que esté disponible para el video.",
+  "transcript_faq4Question": "4. ¿Puedo obtener una transcripción de un video muy largo, como un webinar de 3 horas?",
+  "transcript_faq4Answer": "Sí. Mientras el video tenga una pista de subtítulos, nuestra herramienta puede generar la transcripción completa independientemente de la duración del video. El proceso sigue siendo igual de rápido, ya que simplemente estamos obteniendo datos de texto existentes.",
+  "transcript_faq5Question": "5. ¿Cómo puedo usar mejor la transcripción con marcas de tiempo?",
+  "transcript_faq5Answer": "Las transcripciones con marcas de tiempo son increíblemente útiles. Para editores de video, les permiten encontrar rápidamente el momento exacto en que se dice una palabra específica. Para investigadores y estudiantes, son esenciales para crear citas precisas. También puedes usarlas para crear transcripciones interactivas \"clicables\" donde hacer clic en una marca de tiempo navega a un usuario a ese punto en el video.",
+  "transcript_faq6Question": "6. Veo algunos errores en la transcripción generada. ¿Pueden corregirlos?",
+  "transcript_faq6Answer": "Dado que extraemos la transcripción directamente de los datos de YouTube, cualquier error en redacción o puntuación se origina de los subtítulos fuente mismos. No podemos corregirlos automáticamente. Sin embargo, proporcionamos el texto en un formato fácil de editar (copiar-pegar o archivo .txt) para que puedas hacer rápidamente cualquier corrección o cambio de formato tú mismo."
 }

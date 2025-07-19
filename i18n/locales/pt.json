@@ -16,14 +16,13 @@
     "description": "Baixe vídeos do YouTube instantaneamente, extraia áudio em MP3 ou transcreva qualquer vídeo em texto com nosso downloader de URL gratuito. 100% seguro, não é necessário se registrar.",
     "ogTitle": "Downloader de URL do YouTube para MP4, MP3 e Texto | Youtubetomp4.pro",
     "ogDescription": "Baixe vídeos do YouTube instantaneamente, extraia áudio em MP3 ou transcreva qualquer vídeo em texto com nosso downloader de URL gratuito. 100% seguro, não é necessário se registrar."
-  },  
+  },
   "transcript_seo": {
     "title": "YouTube Transcript Generator | Youtubetomp4.pro",
     "description": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks.",
     "ogTitle": "YouTube Transcript Generator | Youtubetomp4.pro",
     "ogDescription": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks."
-  },  
-
+  },
   "resource": "Resource",
   "tools": "Tools",
   "comparison": "Comparison",
@@ -31,10 +30,8 @@
   "email": "Email",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
-
   "errorGetVideoInfo": "get video info error, please try again",
   "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
-
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Descarregador de Vídeos do YouTube",
   "mp3Converter": "Conversor de YouTube para MP3",
@@ -141,7 +138,6 @@
   "faq4Answer": "Embora muitos conversores gratuitos possam ser duvidosos, levamos a sua segurança a sério. O nosso conversor funciona totalmente no seu navegador sem descarregamentos ocultos ou pop-ups suspeitos. Usamos encriptação HTTPS segura e nunca armazenamos os seus dados pessoais ou histórico de visualização. Além disso, verificamos regularmente a presença de malware e mantemos o nosso serviço impecavelmente limpo. Sem spyware, sem bloatware - apenas conversão de vídeo direta em que pode confiar.",
   "faq5Question": "5. Quem usa o conversor de YouTube para MP4?",
   "faq5Answer": "O nosso conversor é a ferramenta perfeita para todo o tipo de utilizadores. Eis quem vai adorar:\nCriadores de Conteúdo: Guarde vídeos para a sua próxima grande edição ou remix para redes sociais\nEstudantes e Professores: Armazene tutoriais e aulas para sessões de estudo em qualquer lugar\nViajantes Frequentes: Carregue o seu dispositivo com entretenimento para voos longos e deslocações\nProfissionais de Negócios: Mantenha conteúdo de vídeo importante à mão, com ou sem internet\nEspetadores Casuais: Relaxe e desfrute do seu conteúdo favorito do YouTube em qualquer dispositivo, quando quiser",
-  
   "mp3_siteName": "Youtubetomp4.pro",
   "mp3_videoDownloader": "Descarregador de Vídeos do YouTube",
   "mp3_mp3Converter": "Conversor de YouTube para MP3",
@@ -248,7 +244,6 @@
   "mp3_faq4Answer": "A legalidade depende muito do conteúdo que está a converter e de como o usa. Geralmente é legal descarregar áudio de conteúdo de domínio público, vídeos com licença Creative Commons ou do seu próprio conteúdo original. Para material com direitos de autor, convertê-lo para MP3 para audição pessoal offline é frequentemente considerado \"uso justo\". No entanto, é ilegal distribuir, partilhar ou usar o áudio descarregado para fins comerciais sem a permissão do detentor dos direitos de autor.",
   "mp3_faq5Question": "5. Em que é que isto difere de um descarregador de vídeos do YouTube para MP4?",
   "mp3_faq5Answer": "Está especificamente otimizado para áudio. Enquanto um descarregador MP4 guarda o vídeo e o áudio juntos num ficheiro maior, a nossa ferramenta de URL do YouTube para MP3 descarta completamente os dados de vídeo. O resultado é um ficheiro muito mais pequeno que descarrega mais rápido, ocupa menos espaço no seu dispositivo e é perfeito para reprodução apenas de áudio.",
-  
   "downloader_siteName": "Youtubetomp4.pro",
   "downloader_videoDownloader": "Descarregador de Vídeos do YouTube",
   "downloader_mp3Converter": "Conversor de YouTube para MP3",
@@ -356,110 +351,110 @@
   "downloader_faq4Answer": "A nossa ferramenta respeita a privacidade do utilizador e as regras da plataforma YouTube. Funciona como um \"leitor de vídeo digital\", o que significa que só pode aceder e gravar o que está publicamente disponível. Se um vídeo estiver definido como \"Privado\", \"Não listado\" (a menos que tenha a ligação), ou tiver uma restrição de idade que exija que inicie sessão para verificar a sua idade, o nosso servidor não pode aceder a ele. Não contornamos quaisquer controlos de privacidade ou acesso do YouTube.",
   "downloader_faq5Question": "5. Existem limites quanto ao número de vídeos que posso descarregar ou à duração dos vídeos?",
   "downloader_faq5Answer": "Não, não há limites! O nosso serviço é completamente gratuito e ilimitado. Pode descarregar vídeos do YouTube colando o URL quantas vezes quiser, independentemente da duração do vídeo - desde um Short de 10 segundos a um documentário de 10 horas.",
-
   "transcript_siteName": "Youtubetomp4.pro",
-    "transcript_videoDownloader": "Descarregador de Vídeos do YouTube",
-    "transcript_mp3Converter": "Conversor YouTube para MP3",
-    "transcript_title": "Gerador de Transcrição do YouTube Instantâneo",
-    "transcript_description": "Obtenha instantaneamente a transcrição de qualquer vídeo do YouTube. Cole um URL para gerar um ficheiro de texto completo das legendas do vídeo. Perfeito para investigação, criação de conteúdo e estudos.",
-    "transcript_download": "Obter Transcrição Gratuita",
-    "transcript_tip": "Por favor considere os direitos de autor ao descarregar conteúdo. Esta ferramenta não foi concebida para descarregar música protegida por direitos de autor.",
-    "transcript_formats": "Todos os Formatos",
-    "transcript_formatsTip": "Clique para guardar",
-    "transcript_reviews": [
-      {
-        "text": "Esta ferramenta é um divisor de águas para o meu fluxo de trabalho. Agora posso converter um vídeo do YouTube de 20 minutos em texto para uma publicação do blogue em segundos, não horas. É o melhor conversor de vídeo do YouTube para texto que já encontrei.",
-        "author": "Eleanor Vance, Profissional de Marketing de Conteúdo"
-      },
-      {
-        "text": "Como estudante de doutoramento, preciso citar fontes de vídeo com precisão. Este gerador de transcrição permite-me extrair citações exactas, poupando-me uma quantidade incrível de tempo. Indispensável para investigação académica.",
-        "author": "Ben Carter, Estudante de Doutoramento"
-      },
-      {
-        "text": "Uso isto para obter transcrições para os meus relatórios de análise da concorrência. É rápido, confiável, e a saída de texto limpa é perfeita para colar nos meus documentos. Simplesmente funciona.",
-        "author": "Sophie Chen, Analista de Mercado"
-      },
-      {
-        "text": "Faço upload dos meus episódios de podcast para o YouTube, e esta ferramenta é uma salvação para criar notas do programa. Posso obter a transcrição completa instantaneamente, extrair citações-chave e criar um resumo detalhado para o meu site. Poupa-me horas todas as semanas.",
-        "author": "Marcus Holloway, Apresentador de Podcast"
-      },
-      {
-        "text": "Isto é incrível para aprender inglês! Posso obter a transcrição de uma conversa real e ler junto para entender novas palavras e frases. Os timestamps ajudam-me a encontrar a parte exacta que quero ouvir novamente. Realmente melhorou as minhas habilidades de escuta.",
-        "author": "Yuki Tanaka, Estudante de Idiomas"
-      },
-      {
-        "text": "Como alguém com deficiência auditiva, as legendas do YouTube podem ser difíceis de ler no leitor. Poder descarregar a transcrição como um ficheiro de texto permite-me rever o conteúdo no meu próprio ritmo e garantir que não perco nada. Obrigado por esta ferramenta essencial.",
-        "author": "David L., Membro da Comunidade"
-      }
-    ],
-    "transcript_howToConvertTitle": "Do Vídeo do YouTube para Texto Simples em 3 Passos",
-    "transcript_howToConvertDescription": "Desbloqueie o texto dentro de qualquer vídeo sem esforço.",
-    "transcript_step": "Passo",
-    "transcript_copyUrl": "<strong>Encontre e Copie o URL do YouTube</strong> \n Navegue até ao vídeo do YouTube que tem legendas (o ícone \"CC\" está visível) e copie o URL do seu navegador.",
-    "transcript_clickDownload": "<strong>Cole a Ligação no Gerador</strong> \n Volte ao nosso site e cole a ligação do vídeo na caixa de entrada. A nossa ferramenta detectará imediatamente as transcrições disponíveis.",
-    "transcript_saveVideo": "<strong>Copie ou Descarregue a Transcrição Completa</strong> \n A transcrição do seu vídeo aparecerá instantaneamente. Pode copiá-la para a área de transferência com um clique ou descarregá-la como um ficheiro .txt limpo para uso posterior.",
-    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
-"transcript_features": [
-      {
-        "icon": "/images/yt_feature1.png",
-        "title": "Geração Instantânea na Página",
-        "description": "Sem espera, sem passos extras. Cole a sua ligação do YouTube e a transcrição completa aparece directamente na página em segundos. É a maneira mais directa de obter o texto que precisa imediatamente."
-      },
-      {
-        "icon": "/images/yt_feature2.png",
-        "title": "Copiar e Descarregar com Um Clique",
-        "description": "Uma vez que a sua transcrição está pronta, o seu fluxo de trabalho é simples. Clique num botão para copiar todo o texto para a sua área de transferência. Prefere guardar uma cópia física? Clique noutro para descarregar a transcrição completa como um ficheiro .txt limpo para uso offline."
-      },
-      {
-        "icon": "/images/yt_feature3.png",
-        "title": "Extracção de Idioma Original",
-        "description": "O nosso conversor de vídeo do YouTube para texto extrai fielmente a transcrição no seu idioma original conforme fornecido na faixa de legendas do vídeo do YouTube. Focamo-nos em fornecer uma cópia perfeita e inalterada do texto fonte, garantindo 100% de precisão com as legendas originais."
-      },
-      {
-        "icon": "/images/yt_feature4.png",
-        "title": "Processo Privado e Seguro",
-        "description": "Respeitamos a sua privacidade. Nenhum registo ou login é necessário para usar a nossa ferramenta. Não armazenamos os URLs dos vídeos que processa, garantindo que a sua actividade permanece sempre anónima e segura."
-      },
-      {
-        "icon": "/images/yt_feature5.png",
-        "title": "Funciona em Qualquer Dispositivo",
-        "description": "A nossa ferramenta é construída para funcionar em qualquer navegador web moderno. Use no seu computador desktop (Windows, Mac, Linux), tablet ou telemóvel sem nunca precisar instalar software ou extensões."
-      },
-      {
-        "icon": "/images/yt_feature6.png",
-        "title": "Saída de Texto Limpa e Organizada",
-        "description": "O nosso Gerador de Transcrição do YouTube remove automaticamente todos os códigos de tempo e formatação complexa. Obtém um bloco limpo e simples de texto plano que é fácil de ler, editar e colar directamente nos seus artigos, notas ou publicações de redes sociais sem necessidade de limpeza adicional."
-      }
-    ],
-    "transcript_downloadNow": "Transcrição Agora >>",
-    "transcript_featuresConverter": "O Seu Kit de Ferramentas Essencial de Transcrição",
-    "transcript_benefits": {
-      "title": "Transforme Palavras Faladas em Activos Valiosos",
-      "convenience": {
-        "title": "Para Reutilização de Conteúdo e SEO",
-        "description": "Desbloqueie horas de conteúdo com um único clique. Converta o seu vídeo do YouTube em texto para criar instantaneamente publicações de blogue optimizadas para motores de busca, notas detalhadas de programas para podcasts, threads envolventes no Twitter e descrições de vídeo ricas em palavras-chave para melhorar a visibilidade do seu canal."
-      },
-      "avoidAds": {
-        "title": "Para Investigação Precisa e Citações",
-        "description": "Pare de rolar infinitamente pelas linhas do tempo do vídeo para encontrar aquela citação perfeita. Obtenha uma transcrição do YouTube pesquisável para encontrar instantaneamente informações-chave com Ctrl+F, verificar declarações para o seu artigo ou trabalho de investigação, e analisar entrevistas com completa precisão e confiança."
-      },
-      "saveData": {
-        "title": "Para Aprendizagem Aprimorada e Acessibilidade",
-        "description": "Potencialize as suas sessões de estudo. Descarregue uma transcrição de palestra para rever conceitos-chave, procurar termos específicos e absorver informações mais eficazmente do que apenas assistindo. É também uma ferramenta essencial para criar conteúdo acessível ou para estudantes de idiomas estudando diálogos."
-      }
+  "transcript_videoDownloader": "Descarregador de Vídeos do YouTube",
+  "transcript_mp3Converter": "Conversor YouTube para MP3",
+  "transcript_title": "Gerador de Transcrição do YouTube Instantâneo",
+  "transcript_description": "Obtenha instantaneamente a transcrição de qualquer vídeo do YouTube. Cole um URL para gerar um ficheiro de texto completo das legendas do vídeo. Perfeito para investigação, criação de conteúdo e estudos.",
+  "transcript_timestamp": "timestamp", 
+  "transcript_copy": "Copy",
+  "transcript_download": "Obter Transcrição Gratuita",
+  "transcript_tip": "Por favor considere os direitos de autor ao descarregar conteúdo. Esta ferramenta não foi concebida para descarregar música protegida por direitos de autor.",
+  "transcript_formats": "Todos os Formatos",
+  "transcript_formatsTip": "Clique para guardar",
+  "transcript_reviews": [
+    {
+      "text": "Esta ferramenta é um divisor de águas para o meu fluxo de trabalho. Agora posso converter um vídeo do YouTube de 20 minutos em texto para uma publicação do blogue em segundos, não horas. É o melhor conversor de vídeo do YouTube para texto que já encontrei.",
+      "author": "Eleanor Vance, Profissional de Marketing de Conteúdo"
     },
-    "transcript_faqTitle": "As Suas Perguntas Detalhadas sobre Transcrição do YouTube, Respondidas",
-    "transcript_faq1Question": "1. Esta é uma transcrição de IA, e quão precisa ela é?",
-    "transcript_faq1Answer": "Esta é uma pergunta-chave. A nossa ferramenta não é um serviço de transcrição de IA. É um extractor de legendas. Ela busca as legendas oficiais fornecidas pelo criador ou geradas automaticamente directamente do YouTube. Portanto, a precisão da transcrição é idêntica à precisão das legendas que vê no leitor do YouTube.",
-    "transcript_faq2Question": "2. O que acontece se o vídeo do YouTube não tiver legendas (CC)?",
-    "transcript_faq2Answer": "Para que o nosso gerador de transcrição do YouTube funcione, o vídeo deve ter uma faixa de legendas disponível—deve ver o ícone \"CC\" no leitor do YouTube. Se um vídeo não tiver legendas habilitadas, o nosso gerador não pode criar uma transcrição porque não há dados de texto para extrair.",
-    "transcript_faq3Question": "3. Qual é a diferença entre legendas geradas automaticamente pelo YouTube e as manuais?",
-    "transcript_faq3Answer": "Legendas criadas manualmente são carregadas pelo criador do vídeo e são geralmente altamente precisas em termos de redacção, ortografia e pontuação. O algoritmo de reconhecimento de fala do YouTube cria legendas geradas automaticamente e pode conter erros, especialmente com nomes próprios, vocabulário complexo ou áudio pouco claro. A nossa ferramenta gerará a transcrição de qualquer versão disponível para o vídeo.",
-    "transcript_faq4Question": "4. Posso obter uma transcrição de um vídeo muito longo, como um webinar de 3 horas?",
-    "transcript_faq4Answer": "Sim. Contanto que o vídeo tenha uma faixa de legendas, a nossa ferramenta pode gerar a transcrição completa independentemente do comprimento do vídeo. O processo permanece igualmente rápido, pois estamos simplesmente buscando dados de texto existentes.",
-    "transcript_faq5Question": "5. Como posso usar melhor a transcrição com timestamps?",
-    "transcript_faq5Answer": "Transcrições com timestamps são incrivelmente úteis. Para editores de vídeo, elas permitem encontrar rapidamente o momento exacto em que uma palavra específica é dita. Para investigadores e estudantes, são essenciais para criar citações precisas. Também pode usá-las para criar transcrições interactivas \"clicáveis\" onde clicar num timestamp navega o utilizador para aquele ponto no vídeo.",
-    "transcript_faq6Question": "6. Vejo alguns erros na transcrição gerada. Podem corrigi-los?",
-    "transcript_faq6Answer": "Como extraímos a transcrição directamente dos dados do YouTube, quaisquer erros de redacção ou pontuação originam-se das próprias legendas fonte. Não podemos corrigi-los automaticamente. No entanto, fornecemos o texto num formato facilmente editável (copiar-colar ou ficheiro .txt) para que possa rapidamente fazer quaisquer correcções ou alterações de formatação você mesmo."
-  
+    {
+      "text": "Como estudante de doutoramento, preciso citar fontes de vídeo com precisão. Este gerador de transcrição permite-me extrair citações exactas, poupando-me uma quantidade incrível de tempo. Indispensável para investigação académica.",
+      "author": "Ben Carter, Estudante de Doutoramento"
+    },
+    {
+      "text": "Uso isto para obter transcrições para os meus relatórios de análise da concorrência. É rápido, confiável, e a saída de texto limpa é perfeita para colar nos meus documentos. Simplesmente funciona.",
+      "author": "Sophie Chen, Analista de Mercado"
+    },
+    {
+      "text": "Faço upload dos meus episódios de podcast para o YouTube, e esta ferramenta é uma salvação para criar notas do programa. Posso obter a transcrição completa instantaneamente, extrair citações-chave e criar um resumo detalhado para o meu site. Poupa-me horas todas as semanas.",
+      "author": "Marcus Holloway, Apresentador de Podcast"
+    },
+    {
+      "text": "Isto é incrível para aprender inglês! Posso obter a transcrição de uma conversa real e ler junto para entender novas palavras e frases. Os timestamps ajudam-me a encontrar a parte exacta que quero ouvir novamente. Realmente melhorou as minhas habilidades de escuta.",
+      "author": "Yuki Tanaka, Estudante de Idiomas"
+    },
+    {
+      "text": "Como alguém com deficiência auditiva, as legendas do YouTube podem ser difíceis de ler no leitor. Poder descarregar a transcrição como um ficheiro de texto permite-me rever o conteúdo no meu próprio ritmo e garantir que não perco nada. Obrigado por esta ferramenta essencial.",
+      "author": "David L., Membro da Comunidade"
+    }
+  ],
+  "transcript_howToConvertTitle": "Do Vídeo do YouTube para Texto Simples em 3 Passos",
+  "transcript_howToConvertDescription": "Desbloqueie o texto dentro de qualquer vídeo sem esforço.",
+  "transcript_step": "Passo",
+  "transcript_copyUrl": "<strong>Encontre e Copie o URL do YouTube</strong> \n Navegue até ao vídeo do YouTube que tem legendas (o ícone \"CC\" está visível) e copie o URL do seu navegador.",
+  "transcript_clickDownload": "<strong>Cole a Ligação no Gerador</strong> \n Volte ao nosso site e cole a ligação do vídeo na caixa de entrada. A nossa ferramenta detectará imediatamente as transcrições disponíveis.",
+  "transcript_saveVideo": "<strong>Copie ou Descarregue a Transcrição Completa</strong> \n A transcrição do seu vídeo aparecerá instantaneamente. Pode copiá-la para a área de transferência com um clique ou descarregá-la como um ficheiro .txt limpo para uso posterior.",
+  "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+  "transcript_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Geração Instantânea na Página",
+      "description": "Sem espera, sem passos extras. Cole a sua ligação do YouTube e a transcrição completa aparece directamente na página em segundos. É a maneira mais directa de obter o texto que precisa imediatamente."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Copiar e Descarregar com Um Clique",
+      "description": "Uma vez que a sua transcrição está pronta, o seu fluxo de trabalho é simples. Clique num botão para copiar todo o texto para a sua área de transferência. Prefere guardar uma cópia física? Clique noutro para descarregar a transcrição completa como um ficheiro .txt limpo para uso offline."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "Extracção de Idioma Original",
+      "description": "O nosso conversor de vídeo do YouTube para texto extrai fielmente a transcrição no seu idioma original conforme fornecido na faixa de legendas do vídeo do YouTube. Focamo-nos em fornecer uma cópia perfeita e inalterada do texto fonte, garantindo 100% de precisão com as legendas originais."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Processo Privado e Seguro",
+      "description": "Respeitamos a sua privacidade. Nenhum registo ou login é necessário para usar a nossa ferramenta. Não armazenamos os URLs dos vídeos que processa, garantindo que a sua actividade permanece sempre anónima e segura."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Funciona em Qualquer Dispositivo",
+      "description": "A nossa ferramenta é construída para funcionar em qualquer navegador web moderno. Use no seu computador desktop (Windows, Mac, Linux), tablet ou telemóvel sem nunca precisar instalar software ou extensões."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Saída de Texto Limpa e Organizada",
+      "description": "O nosso Gerador de Transcrição do YouTube remove automaticamente todos os códigos de tempo e formatação complexa. Obtém um bloco limpo e simples de texto plano que é fácil de ler, editar e colar directamente nos seus artigos, notas ou publicações de redes sociais sem necessidade de limpeza adicional."
+    }
+  ],
+  "transcript_downloadNow": "Transcrição Agora >>",
+  "transcript_featuresConverter": "O Seu Kit de Ferramentas Essencial de Transcrição",
+  "transcript_benefits": {
+    "title": "Transforme Palavras Faladas em Activos Valiosos",
+    "convenience": {
+      "title": "Para Reutilização de Conteúdo e SEO",
+      "description": "Desbloqueie horas de conteúdo com um único clique. Converta o seu vídeo do YouTube em texto para criar instantaneamente publicações de blogue optimizadas para motores de busca, notas detalhadas de programas para podcasts, threads envolventes no Twitter e descrições de vídeo ricas em palavras-chave para melhorar a visibilidade do seu canal."
+    },
+    "avoidAds": {
+      "title": "Para Investigação Precisa e Citações",
+      "description": "Pare de rolar infinitamente pelas linhas do tempo do vídeo para encontrar aquela citação perfeita. Obtenha uma transcrição do YouTube pesquisável para encontrar instantaneamente informações-chave com Ctrl+F, verificar declarações para o seu artigo ou trabalho de investigação, e analisar entrevistas com completa precisão e confiança."
+    },
+    "saveData": {
+      "title": "Para Aprendizagem Aprimorada e Acessibilidade",
+      "description": "Potencialize as suas sessões de estudo. Descarregue uma transcrição de palestra para rever conceitos-chave, procurar termos específicos e absorver informações mais eficazmente do que apenas assistindo. É também uma ferramenta essencial para criar conteúdo acessível ou para estudantes de idiomas estudando diálogos."
+    }
+  },
+  "transcript_faqTitle": "As Suas Perguntas Detalhadas sobre Transcrição do YouTube, Respondidas",
+  "transcript_faq1Question": "1. Esta é uma transcrição de IA, e quão precisa ela é?",
+  "transcript_faq1Answer": "Esta é uma pergunta-chave. A nossa ferramenta não é um serviço de transcrição de IA. É um extractor de legendas. Ela busca as legendas oficiais fornecidas pelo criador ou geradas automaticamente directamente do YouTube. Portanto, a precisão da transcrição é idêntica à precisão das legendas que vê no leitor do YouTube.",
+  "transcript_faq2Question": "2. O que acontece se o vídeo do YouTube não tiver legendas (CC)?",
+  "transcript_faq2Answer": "Para que o nosso gerador de transcrição do YouTube funcione, o vídeo deve ter uma faixa de legendas disponível—deve ver o ícone \"CC\" no leitor do YouTube. Se um vídeo não tiver legendas habilitadas, o nosso gerador não pode criar uma transcrição porque não há dados de texto para extrair.",
+  "transcript_faq3Question": "3. Qual é a diferença entre legendas geradas automaticamente pelo YouTube e as manuais?",
+  "transcript_faq3Answer": "Legendas criadas manualmente são carregadas pelo criador do vídeo e são geralmente altamente precisas em termos de redacção, ortografia e pontuação. O algoritmo de reconhecimento de fala do YouTube cria legendas geradas automaticamente e pode conter erros, especialmente com nomes próprios, vocabulário complexo ou áudio pouco claro. A nossa ferramenta gerará a transcrição de qualquer versão disponível para o vídeo.",
+  "transcript_faq4Question": "4. Posso obter uma transcrição de um vídeo muito longo, como um webinar de 3 horas?",
+  "transcript_faq4Answer": "Sim. Contanto que o vídeo tenha uma faixa de legendas, a nossa ferramenta pode gerar a transcrição completa independentemente do comprimento do vídeo. O processo permanece igualmente rápido, pois estamos simplesmente buscando dados de texto existentes.",
+  "transcript_faq5Question": "5. Como posso usar melhor a transcrição com timestamps?",
+  "transcript_faq5Answer": "Transcrições com timestamps são incrivelmente úteis. Para editores de vídeo, elas permitem encontrar rapidamente o momento exacto em que uma palavra específica é dita. Para investigadores e estudantes, são essenciais para criar citações precisas. Também pode usá-las para criar transcrições interactivas \"clicáveis\" onde clicar num timestamp navega o utilizador para aquele ponto no vídeo.",
+  "transcript_faq6Question": "6. Vejo alguns erros na transcrição gerada. Podem corrigi-los?",
+  "transcript_faq6Answer": "Como extraímos a transcrição directamente dos dados do YouTube, quaisquer erros de redacção ou pontuação originam-se das próprias legendas fonte. Não podemos corrigi-los automaticamente. No entanto, fornecemos o texto num formato facilmente editável (copiar-colar ou ficheiro .txt) para que possa rapidamente fazer quaisquer correcções ou alterações de formatação você mesmo."
 }

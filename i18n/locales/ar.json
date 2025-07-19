@@ -30,10 +30,8 @@
   "email": "Email",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
-
   "errorGetVideoInfo": "get video info error, please try again",
   "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
-
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "تحميل فيديو من اليوتيوب",
   "mp3Converter": "تحويل اليوتيوب إلى MP3",
@@ -358,6 +356,8 @@
   "transcript_mp3Converter": "محول YouTube إلى MP3",
   "transcript_title": "مولد نص YouTube الفوري",
   "transcript_description": "احصل على نص أي فيديو YouTube على الفور. الصق الرابط لإنشاء ملف نصي كامل من تسميات الفيديو. مثالي للبحث وإنشاء المحتوى والدراسة.",
+  "transcript_timestamp": "timestamp", 
+  "transcript_copy": "Copy",
   "transcript_download": "احصل على النص مجاناً",
   "transcript_tip": "يرجى مراعاة حقوق الطبع والنشر عند تنزيل المحتوى. هذه الأداة غير مصممة لتنزيل الموسيقى المحمية بحقوق الطبع والنشر.",
   "transcript_formats": "جميع الصيغ",

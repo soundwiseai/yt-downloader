@@ -179,6 +179,9 @@ const fetchFormats = async () => {
   text-align: center;
   font-family: Arial, sans-serif;
   padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .converter-container {
