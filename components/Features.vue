@@ -52,7 +52,7 @@ const goHome = () => {
   /* 每行显示三个卡片 */
   grid-gap: 20px;
   margin: 0 auto;
-  width: 88%;
+  width: 100%;
 }
 
 .feature-item {
@@ -108,8 +108,5 @@ const goHome = () => {
     /* 在小屏幕下每行显示一个卡片 */
   }
 
-  .feature-item {
-    width: 100%;
-  }
 }
 </style>

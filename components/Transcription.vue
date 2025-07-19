@@ -90,8 +90,6 @@
                 <label for="timestamp-checkbox" class="timestamp-label">timestamp</label>
               </div>
             </div>
-
-            <div style="flex: 1;"> </div>
             
             <!-- 字幕语言下拉菜单 -->
             <div class="subtitle-dropdown">
@@ -113,25 +111,27 @@
               </div>
             </div>
 
-            <!-- 复制字幕按钮 -->
-            <button 
-              class="copy-button" 
-              @click="copySubtitlesToClipboard"
-              :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
-              :title="_t('copy')"
-            >
-              {{ _t("copy") }}
-            </button>
+            <div class="buttons-container">
+              <!-- 复制字幕按钮 -->
+              <button 
+                class="copy-button" 
+                @click="copySubtitlesToClipboard"
+                :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
+                :title="_t('copy')"
+              >
+                {{ _t("copy") }}
+              </button>
 
-            <!-- 下载字幕按钮 -->
-            <button 
-              class="download-button" 
-              @click="downloadFile(subtitlesLink)"
-              :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
-              :title="_t('download')"
-            >
-              {{ _t("download") }}
-            </button>
+              <!-- 下载字幕按钮 -->
+              <button 
+                class="download-button" 
+                @click="downloadFile(subtitlesLink)"
+                :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
+                :title="_t('download')"
+              >
+                {{ _t("download") }}
+              </button>
+            </div>
           </div>
           
           <!-- 无字幕提示 -->
@@ -861,10 +861,15 @@ const fetchFormats = async () => {
   text-align: center;
   font-family: Arial, sans-serif;
   padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .converter-container {
   padding: 40px 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .icon-container {
@@ -902,13 +907,15 @@ const fetchFormats = async () => {
 .input-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 8px;
-  overflow: hidden;
   width: 100%;
   max-width: 500px;
   /* 最大宽度，防止过宽 */
   height: 60px;
-  /* 高度统一 */  
+  /* 高度统一 */ 
+  gap: 10px;   
+  box-sizing: border-box;
   background-color: #e8e8e8;
 }
 
@@ -916,14 +923,15 @@ const fetchFormats = async () => {
 .input-box {
   flex: 1;
   /* 填满剩余空间 */
-  padding: 12px;
+  padding: 0 12px;
   border: none;
   outline: none;
   font-size: 1em;
   color: #333;
   height: 100%;
   /* 保证输入框高度与父容器一致 */
-  background: none;
+  background-color: #e8e8e8;
+  border-radius: 8px;
 }
 
 /* 下载按钮样式 */
@@ -960,8 +968,10 @@ const fetchFormats = async () => {
 
 .container2 {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .transcript-layout {
@@ -972,11 +982,44 @@ const fetchFormats = async () => {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 @media (max-width: 992px) {
   .transcript-layout {
     flex-direction: column;
+    width: 100%;
+  }
+  
+  .main-content {
+    padding: 10px;
+  }
+  
+  .container2 {
+    padding: 10px;
+  }
+  
+  /* 移动端下字幕控制区域垂直排列 */
+  .subtitles-controls {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  /* 移动端下调整字幕下拉菜单宽度 */
+  .subtitle-dropdown, .dropdown-container {
+    width: 100%;
+  }
+  
+  /* 移动端下调整复制和下载按钮 */
+  .copy-button, .download-button {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  /* 移动端下调整时间戳切换开关位置 */
+  .subtitles-controls-row {
+    width: 100%;
   }
 }
 
@@ -1236,20 +1279,18 @@ const fetchFormats = async () => {
     /* 宽度充满屏幕 */
     height: auto;
     /* 使容器的高度适应内容 */
+    background-color: transparent;
   }
 
   .input-box {
     width: 100%;
-    margin-bottom: 10px;
-    /* 输入框和按钮之间的间距 */
+    margin-bottom: 0px;
     padding: 18px;
   }
 
   .download-button2 {
     width: 160px;
     /* 按钮在小屏幕上占满宽度 */
-    margin-top: 10px;
-    /* 按钮与输入框之间的间距 */
     padding: 16px 0;
     /* 增加按钮的高度 */
   }
@@ -1352,7 +1393,7 @@ const fetchFormats = async () => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
 }
 
 /* 时间戳切换样式 */

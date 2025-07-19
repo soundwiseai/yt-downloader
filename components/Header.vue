@@ -130,6 +130,22 @@ const goHome = () => {
   cursor: pointer;
 }
 
+/* 移动端下语言选择器样式 */
+@media (max-width: 599px) {
+  .language-selector {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: -8px;
+  }
+  
+  .selected-language {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+}
+
 .selected-language {
   display: flex;
   align-items: center;
@@ -186,11 +202,13 @@ const goHome = () => {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start; /* 改为左对齐 */
   padding: 1rem;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* ✅ Logo 样式 */
@@ -203,12 +221,14 @@ const goHome = () => {
   cursor: pointer;
 }
 
-/* ✅ 导航栏默认居中 */
+/* ✅ 导航栏默认左对齐 */
 .nav {
   display: flex;
   flex-direction: column; /* ✅ 移动端上下排列 */
   gap: 10px;
   margin-top: 10px;
+  width: 100%; /* 确保导航栏占满宽度 */
+  align-items: flex-start; /* 左对齐 */
 }
 
 /* ✅ 导航栏样式 */
@@ -243,6 +263,8 @@ const goHome = () => {
     flex-direction: row;
     gap: 15px;
     margin-left: auto; /* ✅ 让导航栏靠右对齐 */
+    width: auto; /* 重置宽度 */
+    align-items: center; /* 居中对齐 */
   }
 
   .nav-link {

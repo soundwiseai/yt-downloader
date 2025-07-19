@@ -220,13 +220,15 @@ const fetchFormats = async () => {
 .input-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 8px;
-  overflow: hidden;
   width: 100%;
   max-width: 500px;
   /* 最大宽度，防止过宽 */
   height: 60px;
-  /* 高度统一 */  
+  /* 高度统一 */
+  gap: 10px;
+  box-sizing: border-box;
   background-color: #e8e8e8;
 }
 
@@ -234,14 +236,15 @@ const fetchFormats = async () => {
 .input-box {
   flex: 1;
   /* 填满剩余空间 */
-  padding: 12px;
+  padding: 0 12px;
   border: none;
   outline: none;
   font-size: 1em;
   color: #333;
   height: 100%;
   /* 保证输入框高度与父容器一致 */
-  background: none;
+  background-color: #e8e8e8;
+  border-radius: 8px;
 }
 
 /* 下载按钮样式 */
@@ -486,20 +489,18 @@ const fetchFormats = async () => {
     /* 宽度充满屏幕 */
     height: auto;
     /* 使容器的高度适应内容 */
+    background-color: transparent;
   }
 
   .input-box {
     width: 100%;
-    margin-bottom: 10px;
-    /* 输入框和按钮之间的间距 */
+    margin-bottom: 0px;
     padding: 18px;
   }
 
   .download-button2 {
     width: 160px;
     /* 按钮在小屏幕上占满宽度 */
-    margin-top: 10px;
-    /* 按钮与输入框之间的间距 */
     padding: 16px 0;
     /* 增加按钮的高度 */
   }
