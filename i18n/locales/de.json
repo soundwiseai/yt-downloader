@@ -33,6 +33,7 @@
   "termsOfService": "Terms of Service",
 
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
 
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube Video Downloader",
@@ -41,6 +42,7 @@
   "description": "URL einfügen und schnell YouTube zu MP4 konvertieren. Immer kostenlos, funktioniert immer, keine Werbung.",
   "download": "HERUNTERLADEN",
   "tip": "Bitte achten Sie beim Herunterladen von Inhalten auf das Urheberrecht. Dieses Tool ist nicht für das Herunterladen urheberrechtlich geschützter Musik gedacht.",
+  "tooltipText": "Dieses Tool darf nur für legale, nicht verletzende Zwecke verwendet werden. Wenn Sie ein Inhaltsersteller sind und verhindern möchten, dass Ihre Videos mit diesem Tool heruntergeladen werden, fügen Sie einfach #nodownload zu den Tags oder der Beschreibung Ihres Videos hinzu.",
   "formats": "Alle Formate",
   "formatsTip": "Klicken zum Speichern",
   "reviews": [
@@ -193,7 +195,6 @@
   "downloader_description": "Fügen Sie einfach eine YouTube-URL ein, um Videos sofort in hoher Qualität herunterzuladen und auf Ihrem Gerät zu speichern. Schnell, sicher und ohne Software-Installation.",
   "downloader_download": "HERUNTERLADEN",
   "downloader_tip": "Bitte achten Sie beim Herunterladen von Inhalten auf das Urheberrecht. Dieses Tool ist nicht für das Herunterladen urheberrechtlich geschützter Musik gedacht.",
-  "downloader_tooltipText": "Dieses Tool darf nur für legale, nicht verletzende Zwecke verwendet werden. Wenn Sie ein Inhaltsersteller sind und verhindern möchten, dass Ihre Videos mit diesem Tool heruntergeladen werden, fügen Sie einfach #nodownload zu den Tags oder der Beschreibung Ihres Videos hinzu.",
   "downloader_audioOnly": "Nur Audio",
   "downloader_formats": "Alle Formate",
   "downloader_formatsTip": "Zum Speichern klicken",
@@ -293,7 +294,8 @@
     "transcript_copyUrl": "<strong>YouTube-URL finden und kopieren</strong> \n Navigieren Sie zu dem YouTube-Video mit Untertiteln (das \"CC\"-Symbol ist sichtbar) und kopieren Sie die URL aus Ihrem Browser.",
     "transcript_clickDownload": "<strong>Link in den Generator einfügen</strong> \n Kehren Sie zu unserer Seite zurück und fügen Sie den Videolink in das Eingabefeld ein. Unser Tool erkennt sofort die verfügbaren Transkripte.",
     "transcript_saveVideo": "<strong>Vollständiges Transkript kopieren oder herunterladen</strong> \n Ihr Videotranskript erscheint sofort. Sie können es mit einem Klick in die Zwischenablage kopieren oder als saubere .txt-Datei für spätere Verwendung herunterladen.",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "Sofortige Seiten-Generierung",

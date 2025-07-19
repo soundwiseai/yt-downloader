@@ -32,7 +32,8 @@
   "termsOfService": "Terms of Service",
 
   "errorGetVideoInfo": "get video info error, please try again",
-  
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
+
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "تحميل فيديو من اليوتيوب",
   "mp3Converter": "تحويل اليوتيوب إلى MP3",
@@ -40,6 +41,7 @@
   "description": "الصق أي رابط يوتيوب لتحميل الفيديوهات فورًا بجودة عالية وحفظها على جهازك. سريع، آمن، ولا يتطلب تثبيت أي برامج.",
   "download": "تحميل",
   "tip": "يرجى مراعاة حقوق النشر عند تحميل المحتوى. هذه الأداة غير مخصصة لتحميل الموسيقى المحمية بحقوق النشر.",
+  "tooltipText": "يمكن استخدام هذه الأداة فقط للاستخدام القانوني وغير المنتهك. إذا كنت منشئ محتوى وتريد منع تحميل فيديوهاتك باستخدام هذه الأداة، ما عليك سوى إضافة #nodownload إلى علامات أو وصف الفيديو الخاص بك.",
   "formats": "جميع الصيغ",
   "formatsTip": "انقر للحفظ",
   "reviews": [
@@ -392,6 +394,7 @@
   "transcript_copyUrl": "<strong>البحث عن رابط YouTube ونسخه</strong> \n انتقل إلى فيديو YouTube الذي يحتوي على تسميات (رمز \"CC\" مرئي) وانسخ الرابط من متصفحك.",
   "transcript_clickDownload": "<strong>الصق الرابط في المولد</strong> \n ارجع إلى موقعنا والصق رابط الفيديو في صندوق الإدخال. ستكتشف أداتنا النصوص المتاحة على الفور.",
   "transcript_saveVideo": "<strong>انسخ أو حمل النص الكامل</strong> \n سيظهر نص الفيديو الخاص بك على الفور. يمكنك نسخه إلى الحافظة بنقرة واحدة أو تنزيله كملف .txt نظيف للاستخدام اللاحق.",
+  "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
   "transcript_features": [
     {
       "icon": "/images/yt_feature1.png",

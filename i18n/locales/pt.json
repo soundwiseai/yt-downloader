@@ -33,6 +33,7 @@
   "termsOfService": "Terms of Service",
 
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
 
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Descarregador de Vídeos do YouTube",
@@ -41,6 +42,7 @@
   "description": "Cole o URL e converta rapidamente YouTube para MP4. Sempre gratuito, sempre funcional, sem anúncios.",
   "download": "DESCARREGAR",
   "tip": "Por favor, respeite os direitos de autor ao descarregar conteúdo. Esta ferramenta não foi concebida para descarregar música protegida por direitos de autor.",
+  "tooltipText": "Esta ferramenta só pode ser usada para uso legal e não infrator. Se você é um criador de conteúdo e quer evitar que seus vídeos sejam baixados usando esta ferramenta, simplesmente adicione #nodownload às tags ou descrição do seu vídeo.",
   "formats": "Todos os Formatos",
   "formatsTip": "Clique para guardar",
   "reviews": [
@@ -396,7 +398,8 @@
     "transcript_copyUrl": "<strong>Encontre e Copie o URL do YouTube</strong> \n Navegue até ao vídeo do YouTube que tem legendas (o ícone \"CC\" está visível) e copie o URL do seu navegador.",
     "transcript_clickDownload": "<strong>Cole a Ligação no Gerador</strong> \n Volte ao nosso site e cole a ligação do vídeo na caixa de entrada. A nossa ferramenta detectará imediatamente as transcrições disponíveis.",
     "transcript_saveVideo": "<strong>Copie ou Descarregue a Transcrição Completa</strong> \n A transcrição do seu vídeo aparecerá instantaneamente. Pode copiá-la para a área de transferência com um clique ou descarregá-la como um ficheiro .txt limpo para uso posterior.",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "Geração Instantânea na Página",

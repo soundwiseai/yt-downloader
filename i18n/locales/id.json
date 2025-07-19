@@ -33,6 +33,7 @@
   "termsOfService": "Terms of Service",
 
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
 
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Pengunduh Video YouTube",
@@ -41,6 +42,7 @@
   "description": "Tempel URL dan Konversi Cepat YouTube ke MP4. Selalu gratis, selalu berfungsi, tanpa iklan.",
   "download": "UNDUH",
   "tip": "Harap perhatikan hak cipta saat mengunduh konten. Alat ini tidak dirancang untuk mengunduh musik berhak cipta.",
+  "tooltipText": "Alat ini hanya dapat digunakan untuk penggunaan legal dan tidak melanggar hak cipta. Jika Anda adalah pembuat konten dan ingin mencegah video Anda diunduh menggunakan alat ini, cukup tambahkan #nodownload ke tag atau deskripsi video Anda.",
   "formats": "Semua Format",
   "formatsTip": "Klik untuk menyimpan",
   "reviews": [
@@ -396,7 +398,8 @@
     "transcript_copyUrl": "<strong>Temukan dan Salin URL YouTube</strong> \n Navigasi ke video YouTube yang memiliki caption (ikon \"CC\" terlihat) dan salin URL dari browser Anda.",
     "transcript_clickDownload": "<strong>Tempel Link ke Generator</strong> \n Kembali ke situs kami dan tempel link video ke dalam kotak input. Alat kami akan langsung mendeteksi transkrip yang tersedia.",
     "transcript_saveVideo": "<strong>Salin atau Unduh Transkrip Lengkap</strong> \n Transkrip video Anda akan muncul secara instan. Anda dapat menyalinnya ke clipboard dengan satu klik atau mengunduhnya sebagai file .txt bersih untuk penggunaan nanti.",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "Generasi Instan di Halaman",

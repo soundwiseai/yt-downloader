@@ -33,6 +33,7 @@
   "termsOfService": "Terms of Service",
 
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
 
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube動画ダウンローダー",
@@ -41,6 +42,7 @@
   "description": "URLを貼り付けてYouTubeをMP4に素早く変換。常に無料、常に動作し、広告なし。",
   "download": "ダウンロード",
   "tip": "コンテンツをダウンロードする際は著作権にご注意ください。このツールは著作権で保護された音楽のダウンロードを目的としていません。",
+  "tooltipText": "このツールは合法的で著作権を侵害しない用途にのみ使用できます。コンテンツクリエイターで、このツールを使用して動画がダウンロードされることを防ぎたい場合は、動画のタグまたは説明に #nodownload を追加するだけです。",
   "formats": "全ての形式",
   "formatsTip": "クリックして保存",
   "reviews": [
@@ -354,7 +356,8 @@
     "transcript_copyUrl": "<strong>YouTube URLを見つけてコピー</strong> \nキャプションがあるYouTube動画（「CC」アイコンが表示されている）にナビゲートし、ブラウザからURLをコピーします。",
     "transcript_clickDownload": "<strong>ジェネレーターにリンクを貼り付け</strong> \n当サイトに戻り、動画リンクを入力ボックスに貼り付けます。当ツールは利用可能な文字起こしを即座に検出します。",
     "transcript_saveVideo": "<strong>完全な文字起こしをコピーまたはダウンロード</strong> \n動画の文字起こしが瞬時に表示されます。ワンクリックでクリップボードにコピーするか、後で使用するためにクリーンな.txtファイルとしてダウンロードできます。",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "瞬時ページ生成",

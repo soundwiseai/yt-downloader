@@ -138,7 +138,8 @@
           
           <!-- 无字幕提示 -->
           <div class="no-subtitles" v-if="!hasSubtitles">
-            {{ _t("noSubtitlesAvailable") }}
+            <div>{{ _t("errorTranscriptUnavailable") }}</div>
+            <button class="btn-ai-transcript" @click="gotoAiTranscript">{{ _t("aiTranscript") }}</button>
           </div>
           
           <!-- 字幕加载动画 -->
@@ -554,6 +555,10 @@ const checkClipboard = async () => {
     console.log('无法访问剪贴板或剪贴板为空:', error)
     // 不显示错误提示，静默失败
   }
+}
+
+const gotoAiTranscript = () => {
+  window.open('https://soundwise.ai/', '_blank')
 }
 
 // 组件挂载后的生命周期钩子
@@ -1184,7 +1189,7 @@ const fetchFormats = async () => {
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
-  width: 100px;
+  width: 240px;
   background-color: white;
   color: black;
   text-align: left;
@@ -1517,6 +1522,32 @@ input:checked + .slider:before {
   border-radius: 5px;
   text-align: center;
   color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.btn-ai-transcript {
+  padding: 8px 15px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.btn-ai-transcript:hover {
+  background-color: #1558b7;
+}
+
+.btn-ai-transcript:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 
 /* 字幕加载指示器样式 */

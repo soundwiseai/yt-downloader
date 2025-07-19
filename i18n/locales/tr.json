@@ -33,6 +33,7 @@
   "termsOfService": "Terms of Service",
 
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
 
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube Video İndiricisi",
@@ -295,7 +296,8 @@
     "transcript_copyUrl": "<strong>YouTube URL'sini Bulun ve Kopyalayın</strong> \n Altyazıları olan YouTube videosuna gidin (\"CC\" simgesi görünür) ve tarayıcınızdan URL'yi kopyalayın.",
     "transcript_clickDownload": "<strong>Linki Oluşturucuya Yapıştırın</strong> \n Sitemize dönün ve video linkini giriş kutusuna yapıştırın. Aracımız mevcut transkriptleri hemen algılayacak.",
     "transcript_saveVideo": "<strong>Tam Transkripti Kopyalayın veya İndirin</strong> \n Videonuzun transkripti anında görünecek. Tek tıklamayla panonuza kopyalayabilir veya daha sonra kullanmak için temiz .txt dosyası olarak indirebilirsiniz.",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "Sayfada Anlık Oluşturma",

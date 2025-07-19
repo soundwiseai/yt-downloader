@@ -33,6 +33,7 @@
     "termsOfService": "Terms of Service",
 
     "errorGetVideoInfo": "get video info error, please try again",
+    "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
     
     "siteName": "Youtubetomp4.pro",
     "videoDownloader": "Descargador de videos de YouTube",
@@ -41,6 +42,7 @@
     "description": "Pega la URL y convierte rápidamente YouTube a MP4. Siempre gratis, siempre funciona, sin anuncios.",
     "download": "DESCARGAR",
     "tip": "Por favor, ten en cuenta los derechos de autor al descargar contenido. Esta herramienta no está diseñada para descargar música con derechos de autor.",
+    "mp3_tooltipText": "Esta herramienta solo puede usarse para uso legal y no infractor. Si eres un creador de contenido y quieres evitar que tus videos se descarguen usando esta herramienta, simplemente agrega #nodownload a las etiquetas o descripción de tu video.",
     "formats": "Todos los formatos",
     "formatsTip": "Haz clic para guardar",
     "reviews": [
@@ -294,7 +296,8 @@
     "transcript_copyUrl": "<strong>Encontrar y Copiar la URL de YouTube</strong> \n Navega al vídeo de YouTube que tenga subtítulos (el icono \"CC\" es visible) y copia la URL desde tu navegador.",
     "transcript_clickDownload": "<strong>Pegar el Enlace en el Generador</strong> \n Regresa a nuestro sitio y pega el enlace del vídeo en el cuadro de entrada. Nuestra herramienta detectará inmediatamente las transcripciones disponibles.",
     "transcript_saveVideo": "<strong>Copiar o Descargar la Transcripción Completa</strong> \n La transcripción de tu vídeo aparecerá instantáneamente. Puedes copiarla a tu portapapeles con un clic o descargarla como un archivo .txt limpio para uso posterior.",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "Generación Instantánea en Página",

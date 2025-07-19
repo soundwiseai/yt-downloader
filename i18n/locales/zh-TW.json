@@ -33,6 +33,7 @@
   "termsOfService": "使用條款",
 
   "errorGetVideoInfo": "獲取影片信息錯誤，請再試一次",
+  "errorTranscriptUnavailable": "無法取得逐字稿，或是該影片的字幕功能已被作者關閉。造成不便，敬請見諒。",
 
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube 影片下載器",
@@ -41,6 +42,7 @@
   "description": "貼上網址，快速將 YouTube 轉換為 MP4。永久免費、穩定好用、無廣告。",
   "download": "下載",
   "tip": "下載內容時請注意版權問題。本工具不適用於下載受版權保護的音樂。",
+  "tooltipText": "此工具只能用於合法、非侵權的用途。如果您是內容創作者並希望防止使用此工具下載您的影片，只需在您的影片標籤或描述中添加 #nodownload。",
   "formats": "所有格式",
   "formatsTip": "點擊儲存",
   "reviews": [
@@ -396,6 +398,7 @@
     "transcript_copyUrl": "<strong>找到並複製YouTube網址</strong> \n 導覽到有字幕的YouTube影片（可見\"CC\"圖示）並從瀏覽器複製網址。",
     "transcript_clickDownload": "<strong>將連結貼入產生器</strong> \n 返回我們的網站，將影片連結貼入輸入框。我們的工具將立即偵測可用的字幕。",
     "transcript_saveVideo": "<strong>複製或下載完整字幕</strong> \n 您的影片字幕將立即出現。您可以一鍵複製到剪貼簿，或將其下載為乾淨的.txt檔案以供日後使用。",
+    "transcript_aiTranscript": "立即開始 AI 影片轉文字，永久免費！",
     "transcript_features": [
       {
         "icon": "/images/yt_feature1.png",

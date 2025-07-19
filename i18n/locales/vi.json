@@ -34,6 +34,7 @@
   "termsOfService": "Terms of Service",
 
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
 
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Trình tải video YouTube",
@@ -42,6 +43,7 @@
   "description": "Dán URL và chuyển đổi YouTube sang MP4 nhanh chóng. Luôn miễn phí, hoạt động ổn định, không có quảng cáo.",
   "download": "TẢI XUỐNG",
   "tip": "Vui lòng lưu ý bản quyền khi tải nội dung. Công cụ này không dùng để tải nhạc có bản quyền.",
+  "tooltipText": "Công cụ này chỉ có thể được sử dụng cho mục đích hợp pháp và không vi phạm. Nếu bạn là người tạo nội dung và muốn ngăn video của mình được tải xuống bằng công cụ này, chỉ cần thêm #nodownload vào thẻ hoặc mô tả video của bạn.",
   "formats": "Tất cả định dạng",
   "formatsTip": "Nhấp để lưu",
   "reviews": [
@@ -396,7 +398,8 @@
     "transcript_copyUrl": "<strong>Tìm và Sao chép URL YouTube</strong> \n Điều hướng đến video YouTube có phụ đề (biểu tượng \"CC\" hiển thị) và sao chép URL từ trình duyệt của bạn.",
     "transcript_clickDownload": "<strong>Dán Liên kết vào Trình Tạo</strong> \n Quay lại trang web của chúng tôi và dán liên kết video vào hộp nhập. Công cụ của chúng tôi sẽ ngay lập tức phát hiện các bản ghi có sẵn.",
     "transcript_saveVideo": "<strong>Sao chép hoặc Tải xuống Bản Ghi Hoàn chỉnh</strong> \n Bản ghi video của bạn sẽ xuất hiện ngay lập tức. Bạn có thể sao chép nó vào clipboard bằng một cú nhấp hoặc tải xuống dưới dạng tệp .txt sạch để sử dụng sau.",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "Tạo Tức Thì Trên Trang",

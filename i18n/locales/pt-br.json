@@ -33,6 +33,7 @@
   "termsOfService": "Terms of Service",
 
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
 
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Baixador de Vídeos do YouTube",
@@ -291,7 +292,8 @@
     "transcript_copyUrl": "<strong>Encontre e Copie a URL do YouTube</strong> \n Navegue até o vídeo do YouTube que tem legendas (o ícone \"CC\" está visível) e copie a URL do seu navegador.",
     "transcript_clickDownload": "<strong>Cole o Link no Gerador</strong> \n Volte ao nosso site e cole o link do vídeo na caixa de entrada. Nossa ferramenta detectará imediatamente as transcrições disponíveis.",
     "transcript_saveVideo": "<strong>Copie ou Baixe a Transcrição Completa</strong> \n A transcrição do seu vídeo aparecerá instantaneamente. Você pode copiá-la para a área de transferência com um clique ou baixá-la como um arquivo .txt limpo para uso posterior.",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "Geração Instantânea na Página",

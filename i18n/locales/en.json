@@ -31,8 +31,9 @@
   "email": "Email",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
-  
+
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
   
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube Video Downloader",
@@ -295,7 +296,8 @@
     "transcript_copyUrl": "<strong>Find and Copy the YouTube URL</strong> \n Navigate to the YouTube video that has captions (the \"CC\" icon is visible) and copy the URL from your browser.",
     "transcript_clickDownload": "<strong>Paste the Link into the Generator</strong> \n Return to our site and paste the video link into the input box. Our tool will immediately detect the available transcripts.",
     "transcript_saveVideo": "<strong>Copy or Download the Full Transcript</strong> \n Your video's transcript will appear instantly. You can copy it to your clipboard with one click or download it as a clean .txt file for later use.",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "Instant On-Page Generation",

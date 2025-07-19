@@ -33,6 +33,7 @@
   "termsOfService": "Terms of Service",
 
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
 
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "ดาวน์โหลดวิดีโอ YouTube",
@@ -41,6 +42,7 @@
   "description": "วาง URL และแปลง YouTube เป็น MP4 ได้อย่างรวดเร็ว ฟรีตลอดเวลา ใช้งานได้จริง ไม่มีโฆษณา",
   "download": "ดาวน์โหลด",
   "tip": "โปรดคำนึงถึงลิขสิทธิ์เมื่อดาวน์โหลดเนื้อหา เครื่องมือนี้ไม่ได้ออกแบบมาสำหรับดาวน์โหลดเพลงที่มีลิขสิทธิ์",
+  "tooltipText": "เครื่องมือนี้สามารถใช้ได้เฉพาะสำหรับการใช้งานที่ถูกกฎหมายและไม่ละเมิดลิขสิทธิ์เท่านั้น หากคุณเป็นผู้สร้างเนื้อหาและต้องการป้องกันไม่ให้วิดีโอของคุณถูกดาวน์โหลดโดยใช้เครื่องมือนี้ เพียงเพิ่ม #nodownload ในแท็กหรือคำอธิบายของวิดีโอของคุณ",
   "formats": "ทุกรูปแบบ",
   "formatsTip": "คลิกเพื่อบันทึก",
   "reviews": [
@@ -396,7 +398,8 @@
     "transcript_copyUrl": "<strong>ค้นหาและคัดลอก URL ของ YouTube</strong> \n ไปยังวิดีโอ YouTube ที่มีคำบรรยาย (ไอคอน \"CC\" จะปรากฏ) และคัดลอก URL จากเบราว์เซอร์ของคุณ",
     "transcript_clickDownload": "<strong>วางลิงก์ลงในเครื่องมือสร้าง</strong> \n กลับไปที่เว็บไซต์ของเราและวางลิงก์วิดีโอลงในช่องป้อนข้อมูล เครื่องมือของเราจะตรวจจับคำบรรยายที่มีอยู่ทันที",
     "transcript_saveVideo": "<strong>คัดลอกหรือดาวน์โหลดคำบรรยายทั้งหมด</strong> \n คำบรรยายวิดีโอของคุณจะปรากฏขึ้นทันที คุณสามารถคัดลอกไปยังคลิปบอร์ดด้วยคลิกเดียว หรือดาวน์โหลดเป็นไฟล์ .txt ที่สะอาดเพื่อใช้ในภายหลัง",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "การสร้างทันทีบนหน้า",

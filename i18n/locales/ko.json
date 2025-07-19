@@ -33,6 +33,7 @@
   "termsOfService": "Terms of Service",
 
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
 
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "유튜브 동영상 다운로더",
@@ -41,6 +42,7 @@
   "description": "URL을 붙여넣기만 하면 유튜브를 MP4로 빠르게 변환합니다. 항상 무료, 항상 작동, 광고 없음.",
   "download": "다운로드",
   "tip": "콘텐츠를 다운로드할 때 저작권에 유의해 주세요. 이 도구는 저작권이 있는 음악을 다운로드하기 위한 것이 아닙니다.",
+  "tooltipText": "이 도구는 합법적이고 저작권을 침해하지 않는 용도로만 사용할 수 있습니다. 콘텐츠 제작자이고 이 도구를 사용하여 동영상이 다운로드되는 것을 방지하려면 동영상 태그나 설명에 #nodownload를 추가하기만 하면 됩니다.",
   "formats": "모든 형식",
   "formatsTip": "저장하려면 클릭",
   "reviews": [
@@ -354,7 +356,8 @@
     "transcript_copyUrl": "<strong>YouTube URL 찾기 및 복사</strong> \n 자막이 있는 YouTube 동영상(\"CC\" 아이콘이 보임)으로 이동하여 브라우저에서 URL을 복사합니다.",
     "transcript_clickDownload": "<strong>생성기에 링크 붙여넣기</strong> \n 우리 사이트로 돌아가서 동영상 링크를 입력 상자에 붙여넣으세요. 우리 도구는 사용 가능한 대본을 즉시 감지합니다.",
     "transcript_saveVideo": "<strong>전체 대본 복사 또는 다운로드</strong> \n 동영상의 대본이 즉시 나타납니다. 한 번의 클릭으로 클립보드에 복사하거나 나중에 사용하기 위해 깨끗한 .txt 파일로 다운로드할 수 있습니다.",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "즉석 페이지 생성",

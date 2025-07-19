@@ -33,6 +33,7 @@
     "termsOfService": "Terms of Service",
 
     "errorGetVideoInfo": "get video info error, please try again",
+    "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
     
     "siteName": "Youtubetomp4.pro",
     "videoDownloader": "YouTube वीडियो डाउनलोडर",
@@ -41,6 +42,7 @@
     "description": "URL पेस्ट करें और YouTube को MP4 में तुरंत कन्वर्ट करें। हमेशा मुफ्त, हमेशा काम करता है, कोई विज्ञापन नहीं।",
     "download": "डाउनलोड",
     "tip": "कंटेंट डाउनलोड करते समय कॉपीराइट का ध्यान रखें। यह टूल कॉपीराइटेड संगीत डाउनलोड करने के लिए नहीं बनाया गया है।",
+    "tooltipText": "यह टूल केवल कानूनी, गैर-उल्लंघनकारी उपयोग के लिए इस्तेमाल किया जा सकता है। यदि आप एक कंटेंट क्रिएटर हैं और इस टूल का उपयोग करके अपने वीडियो डाउनलोड होने से रोकना चाहते हैं, तो बस अपने वीडियो के टैग या विवरण में #nodownload जोड़ें।",
     "formats": "सभी फॉर्मेट्स",
     "formatsTip": "सेव करने के लिए क्लिक करें",
     "reviews": [
@@ -354,7 +356,8 @@
     "transcript_copyUrl": "<strong>YouTube URL खोजें और कॉपी करें</strong> \n उस YouTube वीडियो पर जाएं जिसमें कैप्शन हैं (\"CC\" आइकन दिखाई देता है) और अपने ब्राउज़र से URL कॉपी करें।",
     "transcript_clickDownload": "<strong>जेनरेटर में लिंक पेस्ट करें</strong> \n हमारी साइट पर वापस जाएं और वीडियो लिंक को इनपुट बॉक्स में पेस्ट करें। हमारा उपकरण तुरंत उपलब्ध ट्रांसक्रिप्ट का पता लगाएगा।",
     "transcript_saveVideo": "<strong>पूरा ट्रांसक्रिप्ट कॉपी या डाउनलोड करें</strong> \n आपके वीडियो का ट्रांसक्रिप्ट तुरंत दिखाई देगा। आप इसे एक क्लिक में अपने क्लिपबोर्ड पर कॉपी कर सकते हैं या बाद में उपयोग के लिए साफ .txt फाइल के रूप में डाउनलोड कर सकते हैं।",
-    "transcript_features": [
+    "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+"transcript_features": [
       {
         "icon": "/images/yt_feature1.png",
         "title": "तुरंत पेज जेनरेशन",
