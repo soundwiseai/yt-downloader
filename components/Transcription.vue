@@ -62,7 +62,7 @@
             <!-- 使用标准 iframe 嵌入方式，添加 enablejsapi=1 参数启用 API -->
             <iframe 
               id="youtube-player"
-              :src="`https://www.youtube.com/embed/${getVideoId(yt_url)}?enablejsapi=1&cc_load_policy=1&cc_lang_pref=en`" 
+              :src="`https://www.youtube.com/embed/${getVideoId(yt_url1)}?enablejsapi=1&cc_load_policy=1&cc_lang_pref=en`" 
               frameborder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowfullscreen
@@ -175,6 +175,7 @@ import './toast.css'
 
 // 响应式状态
 const yt_url = ref('')
+const yt_url1 = ref('')
 const videoData = ref({})
 const loading = ref(false)
 const subtitleLoading = ref(false) // 单独的字幕加载状态
@@ -667,10 +668,13 @@ const downloadFile = async (link) => {
 # ${videoTitle.value}
 # ${yt_url.value}
 `
-  
     // 将字幕格式化为纯文本
     const subtitleText = parsedSubtitles.value.map(subtitle => {
-      return `${subtitle.time} ${subtitle.text}`
+      if (showTimestamps.value) {
+        return `${subtitle.time}\n${subtitle.text}`
+      } else {
+        return subtitle.text
+      }
     }).join('\n')
 
     // 创建一个临时链接，触发浏览器下载
@@ -702,6 +706,7 @@ const fetchFormats = async () => {
     const response = await axios.get('https://youtubetomp4.pro/api/get-formats', {
       params: { url: yt_url.value }
     })
+    yt_url1.value = yt_url.value // 此时更新 yt_url1，更新播放器视频
     videoData.value = response.data
     console.log('视频数据:', videoData.value)
     
