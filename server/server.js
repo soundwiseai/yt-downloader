@@ -274,7 +274,7 @@ app.get('/get-formats', async (req, res) => {
         title: videoTitle,
         thumbnail: thumbnailUrl,
         formats: [...videoFormats, ...audioFormats],
-        subtitles: data.subtitles
+        subtitles: {...data.automatic_captions, ...data.subtitles}
         // , output: data
       };
 
