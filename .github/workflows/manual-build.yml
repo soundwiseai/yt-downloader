@@ -1,0 +1,60 @@
+name: 手动打包项目
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: '选择要打包的分支'
+        required: true
+        default: 'main'
+        type: choice
+        options:
+          - main
+          - nuxt
+          - transcription
+      cache:
+        description: '是否使用缓存'
+        required: true
+        default: 'true'
+        type: boolean
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+          fetch-depth: 0
+      
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'yarn'
+          cache-dependency-path: yarn.lock
+      
+      - name: 安装依赖
+        if: ${{ github.event.inputs.cache == 'true' }}
+        run: yarn install --frozen-lockfile
+      
+      - name: 安装依赖 (无缓存)
+        if: ${{ github.event.inputs.cache == 'false' }}
+        run: yarn install --frozen-lockfile --force
+      
+      - name: 构建项目
+        run: yarn build
+      
+      - name: 打包构建产物
+        run: |
+          cd .output
+          zip -r ../build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip .
+      
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-${{ github.event.inputs.branch }}-${{ github.run_number }}
+          path: build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip
+          retention-days: 30
