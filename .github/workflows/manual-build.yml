@@ -56,7 +56,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build-${{ github.event.inputs.branch }}-${{ github.run_number }}
-          path: build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip
+          path: .output/build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip
           retention-days: 30
 
       - name: transfer
@@ -66,7 +66,7 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           key: ${{ secrets.VPS_SSH_KEY }}
           port: 22
-          source: "build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip"
+          source: ".output/build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip"
           target: "/yt"
 
       - name: deploy
