@@ -17,37 +17,41 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: 检出代码
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y%m%d')"
+      
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.inputs.branch }}
           fetch-depth: 0
       
-      - name: 设置 Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
           cache: 'yarn'
           cache-dependency-path: yarn.lock
       
-      - name: 安装依赖
+      - name: Install dependencies
         run: yarn install --frozen-lockfile
       
-      - name: generate
+      - name: Generate
         run: yarn generate
       
-      - name: pack
+      - name: Pack
         run: |
           cd .output/public
-          zip -r ../build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip .
+          zip -r ../build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip .
           # 将构建产物复制到工作目录根目录
-          cp ../build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip ../../
+          cp ../build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip ../../
       
       - name: upload
         uses: actions/upload-artifact@v4
         with:
-          name: build-${{ github.event.inputs.branch }}-${{ github.run_number }}
-          path: build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip
+          name: build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}
+          path: build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip
           retention-days: 30
 
       - name: transfer
@@ -57,7 +61,7 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }} 
           port: 22
-          source: "build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip"
+          source: "build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip"
           target: "/yt"
 
       - name: deploy
@@ -79,15 +83,15 @@ jobs:
             echo "开始解压文件..."
             
             # 解压文件
-            unzip -o build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip -d dist_${{ github.event.inputs.branch }}-${{ github.run_number }}
+            unzip -o build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip -d dist_${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}
             
             # 检查解压结果
             echo "解压后的目录内容:"
-            ls -la dist_${{ github.event.inputs.branch }}-${{ github.run_number }}
+            ls -la dist_${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}
             
             # 替换目录
             echo "替换目录..."
-            rm -rf dist1
-            mv dist_${{ github.event.inputs.branch }}-${{ github.run_number }} dist1
+            rm -rf dist
+            cp -r dist_${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }} dist
             echo "部署完成"
             
