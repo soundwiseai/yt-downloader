@@ -77,8 +77,26 @@ jobs:
           password: ${{ secrets.VPS_PASSWORD }} 
           port: 22
           script: |
+            # 安装必要工具
+            which unzip || sudo apt-get update && sudo apt-get install -y unzip
+            
+            # 调试信息
             cd /yt
-            unzip build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip -d dist_${{ github.event.inputs.branch }}-${{ github.run_number }}
+            echo "当前目录: $(pwd)"
+            echo "目录内容:"
+            ls -la
+            echo "开始解压文件..."
+            
+            # 解压文件
+            unzip -o build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip -d dist_${{ github.event.inputs.branch }}-${{ github.run_number }}
+            
+            # 检查解压结果
+            echo "解压后的目录内容:"
+            ls -la dist_${{ github.event.inputs.branch }}-${{ github.run_number }}
+            
+            # 替换目录
+            echo "替换目录..."
             rm -rf dist1
             mv dist_${{ github.event.inputs.branch }}-${{ github.run_number }} dist1
+            echo "部署完成"
             
