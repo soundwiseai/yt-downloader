@@ -6,10 +6,9 @@ on:
       branch:
         description: '选择要打包的分支'
         required: true
-        default: 'main'
+        default: 'transcription'
         type: choice
         options:
-          - main
           - nuxt
           - transcription
 jobs:
@@ -43,15 +42,15 @@ jobs:
       - name: Pack
         run: |
           cd .output/public
-          zip -r ../build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip .
+          zip -r ../dist-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip .
           # 将构建产物复制到工作目录根目录
-          cp ../build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip ../../
+          cp ../dist-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip ../../
       
       - name: upload
         uses: actions/upload-artifact@v4
         with:
-          name: build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}
-          path: build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip
+          name: dist-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}
+          path: dist-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip
           retention-days: 30
 
       - name: transfer
@@ -61,7 +60,7 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }} 
           port: 22
-          source: "build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip"
+          source: "dist-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip"
           target: "/yt"
 
       - name: deploy
@@ -83,15 +82,15 @@ jobs:
             echo "开始解压文件..."
             
             # 解压文件
-            unzip -o build-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip -d dist_${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}
+            unzip -o dist-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}.zip -d dist-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}
             
             # 检查解压结果
             echo "解压后的目录内容:"
-            ls -la dist_${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}
+            ls -la dist-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }}
             
             # 替换目录
             echo "替换目录..."
-            rm -rf dist1
-            cp -r dist_${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }} dist1
+            rm -rf dist
+            cp -r dist-${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }} dist
             echo "部署完成"
             
