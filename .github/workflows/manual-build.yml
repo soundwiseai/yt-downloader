@@ -40,12 +40,14 @@ jobs:
         run: |
           cd .output/public
           zip -r ../build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip .
+          # 将构建产物复制到工作目录根目录
+          cp ../build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip ../../
       
       - name: upload
         uses: actions/upload-artifact@v4
         with:
           name: build-${{ github.event.inputs.branch }}-${{ github.run_number }}
-          path: .output/build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip
+          path: build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip
           retention-days: 30
 
       - name: transfer
@@ -55,7 +57,7 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }} 
           port: 22
-          source: ".output/build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip"
+          source: "build-${{ github.event.inputs.branch }}-${{ github.run_number }}.zip"
           target: "/yt"
 
       - name: deploy
