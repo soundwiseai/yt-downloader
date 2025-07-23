@@ -33,9 +33,9 @@ const locale = computed(() => {
   const fromParams = route.params.locale
   const fromPath = getLocaleFromPath(route.path)
   const result = fromParams || fromPath || 'en'
-  console.log('路由参数:', route.params);
-  console.log('当前路径:', route.path);
-  console.log('当前使用的 locale:', result);
+  // console.log('路由参数:', route.params);
+  // console.log('当前路径:', route.path);
+  // console.log('当前使用的 locale:', result);
   return result
 })
 

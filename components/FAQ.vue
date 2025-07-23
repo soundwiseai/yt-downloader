@@ -26,7 +26,6 @@
   const faqs = computed(() => {
     let items = []
     for(let i=1; i<10; i++) {
-      console.log(`faq${i}Question`, _te(`faq${i}Question`))
       if(_te(`faq${i}Question`)) {
         items.push({
           question: _t(`faq${i}Question`),
