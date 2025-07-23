@@ -91,7 +91,7 @@ jobs:
             
             # 替换目录
             echo "替换目录..."
-            rm -rf dist
-            cp -r dist_${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }} dist
+            rm -rf dist1
+            cp -r dist_${{ github.event.inputs.branch }}-${{ github.run_number }}-${{ steps.date.outputs.date }} dist1
             echo "部署完成"
             
