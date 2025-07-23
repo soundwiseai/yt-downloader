@@ -12,12 +12,6 @@ on:
           - main
           - nuxt
           - transcription
-      cache:
-        description: '是否使用缓存'
-        required: true
-        default: 'true'
-        type: boolean
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -37,12 +31,7 @@ jobs:
           cache-dependency-path: yarn.lock
       
       - name: 安装依赖
-        if: ${{ github.event.inputs.cache == 'true' }}
         run: yarn install --frozen-lockfile
-      
-      - name: 安装依赖 (无缓存)
-        if: ${{ github.event.inputs.cache == 'false' }}
-        run: yarn install --frozen-lockfile --force
       
       - name: generate
         run: yarn generate
@@ -78,7 +67,7 @@ jobs:
           port: 22
           script: |
             # 安装必要工具
-            which unzip || sudo apt-get update && sudo apt-get install -y unzip
+            which unzip || apt-get update && apt-get install -y unzip
             
             # 调试信息
             cd /yt
