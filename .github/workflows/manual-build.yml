@@ -9,6 +9,7 @@ on:
         default: 'transcription'
         type: choice
         options:
+          - main
           - nuxt
           - transcription
 jobs:
