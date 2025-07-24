@@ -44,6 +44,9 @@ useHead({
     { rel: 'icon', type: 'image/png', href: '/favicon.png' },
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
   ],
+  meta: [
+    { name: 'server-locale', content: locale.value },
+  ],
   script: [
     {
       src: 'https://www.googletagmanager.com/gtag/js?id=G-90XNEYE25X',
