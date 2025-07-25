@@ -18,20 +18,20 @@
     "ogDescription": "Tải xuống video YouTube, trích xuất âm thanh MP3 hoặc chuyển đổi mọi video thành văn bản ngay lập tức với trình tải URL miễn phí của chúng tôi. An toàn 100%, không cần đăng ký."
   },
   "transcript_seo": {
-    "title": "YouTube Transcript Generator | Youtubetomp4.pro",
-    "description": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks.",
-    "ogTitle": "YouTube Transcript Generator | Youtubetomp4.pro",
-    "ogDescription": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks."
+    "title": "Trình tạo phụ đề YouTube miễn phí vĩnh viễn – Không cần đăng ký | Youtubetomp4.pro",
+    "description": "Miễn phí vĩnh viễn, không cần đăng ký và sử dụng không giới hạn — tạo bản chép YouTube ngay lập tức với công cụ trực tuyến của chúng tôi. Trích xuất phụ đề chỉ với vài cú nhấp chuột.",
+    "ogTitle": "Trình tạo phụ đề YouTube miễn phí vĩnh viễn – Không cần đăng ký | Youtubetomp4.pro",
+    "ogDescription": "Miễn phí vĩnh viễn, không cần đăng ký và sử dụng không giới hạn — tạo bản chép YouTube ngay lập tức với công cụ trực tuyến của chúng tôi. Trích xuất phụ đề chỉ với vài cú nhấp chuột."
   },
-  "resource": "Resource",
-  "tools": "Tools",
+  "resource": "Tài nguyên",
+  "tools": "Công cụ",
   "comparison": "Comparison",
   "comparisonText": "permanently free and no registration required",
   "email": "Email",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
-  "errorGetVideoInfo": "get video info error, please try again",
-  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
+  "errorGetVideoInfo": "Liên kết video không đúng. Không thể lấy video. Vui lòng kiểm tra lại liên kết.",
+  "errorTranscriptUnavailable": "Không thể lấy bản chép lại hoặc phụ đề cho video này đã bị tác giả tắt. Xin lỗi vì sự bất tiện này.",
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Trình tải video YouTube",
   "mp3Converter": "Chuyển đổi YouTube sang MP3",
@@ -355,8 +355,8 @@
   "transcript_mp3Converter": "Trình Chuyển Đổi YouTube sang MP3",
   "transcript_title": "Trình Tạo Bản Ghi YouTube Tức Thì",
   "transcript_description": "Nhận bản ghi của bất kỳ video YouTube nào ngay lập tức. Dán URL để tạo tệp văn bản hoàn chỉnh từ phụ đề video. Hoàn hảo cho nghiên cứu, tạo nội dung và học tập.",
-  "transcript_timestamp": "timestamp", 
-  "transcript_copy": "Copy",
+  "transcript_timestamp": "Hiển thị dấu thời gian", 
+  "transcript_copy": "Sao chép",
   "transcript_download": "Nhận Bản Ghi Miễn Phí",
   "transcript_tip": "Vui lòng chú ý đến bản quyền khi tải xuống nội dung. Công cụ này không được thiết kế để tải xuống nhạc có bản quyền.",
   "transcript_formats": "Tất Cả Định Dạng",
@@ -393,7 +393,7 @@
   "transcript_copyUrl": "<strong>Tìm và Sao chép URL YouTube</strong> \n Điều hướng đến video YouTube có phụ đề (biểu tượng \"CC\" hiển thị) và sao chép URL từ trình duyệt của bạn.",
   "transcript_clickDownload": "<strong>Dán Liên kết vào Trình Tạo</strong> \n Quay lại trang web của chúng tôi và dán liên kết video vào hộp nhập. Công cụ của chúng tôi sẽ ngay lập tức phát hiện các bản ghi có sẵn.",
   "transcript_saveVideo": "<strong>Sao chép hoặc Tải xuống Bản Ghi Hoàn chỉnh</strong> \n Bản ghi video của bạn sẽ xuất hiện ngay lập tức. Bạn có thể sao chép nó vào clipboard bằng một cú nhấp hoặc tải xuống dưới dạng tệp .txt sạch để sử dụng sau.",
-  "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+  "transcript_aiTranscript": "Bắt đầu chuyển video thành văn bản bằng AI ngay—Miễn phí vĩnh viễn!",
   "transcript_features": [
     {
       "icon": "/images/yt_feature1.png",

@@ -18,20 +18,20 @@
     "ogDescription": "Scarica istantaneamente video di YouTube, estrai audio MP3 o trascrivi qualsiasi video in testo con il nostro downloader di URL gratuito. 100% sicuro, nessuna registrazione richiesta."
   },
   "transcript_seo": {
-    "title": "YouTube Transcript Generator | Youtubetomp4.pro",
-    "description": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks.",
-    "ogTitle": "YouTube Transcript Generator | Youtubetomp4.pro",
-    "ogDescription": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks."
+    "title": "Generatore di Trascrizioni YouTube Gratis per Sempre – Nessuna Registrazione | Youtubetomp4.pro",
+    "description": "Gratis per sempre, nessuna registrazione e uso illimitato — genera subito trascrizioni di video YouTube con il nostro strumento online. Estrai i sottotitoli con pochi clic.",
+    "ogTitle": "Generatore di Trascrizioni YouTube Gratis per Sempre – Nessuna Registrazione | Youtubetomp4.pro",
+    "ogDescription": "Gratis per sempre, nessuna registrazione e uso illimitato — genera subito trascrizioni di video YouTube con il nostro strumento online. Estrai i sottotitoli con pochi clic."
   },
-  "resource": "Resource",
-  "tools": "Tools",
+  "resource": "Risorse",
+  "tools": "Strumenti",
   "comparison": "Comparison",
   "comparisonText": "permanently free and no registration required",
   "email": "Email",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
-  "errorGetVideoInfo": "get video info error, please try again",
-  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
+  "errorGetVideoInfo": "Errore nel link del video. Impossibile recuperare il video. Controlla il link.",
+  "errorTranscriptUnavailable": "Trascrizione non disponibile o la funzione sottotitoli per questo video è stata disattivata dall'autore. Ci scusiamo per il disagio.",
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Scaricatore video YouTube",
   "mp3Converter": "Convertitore da YouTube a MP3",
@@ -356,8 +356,8 @@
   "transcript_mp3Converter": "Convertitore YouTube in MP3",
   "transcript_title": "Generatore di Trascrizioni YouTube Istantaneo",
   "transcript_description": "Ottieni istantaneamente la trascrizione di qualsiasi video YouTube. Incolla un URL per generare un file di testo completo dei sottotitoli del video. Perfetto per ricerca, creazione di contenuti e studio.",
-  "transcript_timestamp": "timestamp", 
-  "transcript_copy": "Copy",
+  "transcript_timestamp": "Mostra i timestamp", 
+  "transcript_copy": "Copia",
   "transcript_download": "Ottieni Trascrizione Gratis",
   "transcript_tip": "Si prega di rispettare i diritti d'autore durante il download del contenuto. Questo strumento non è progettato per scaricare musica protetta da copyright.",
   "transcript_formats": "Tutti i Formati",
@@ -394,7 +394,7 @@
   "transcript_copyUrl": "<strong>Trova e Copia l'URL di YouTube</strong> \n Naviga al video YouTube che ha i sottotitoli (l'icona \"CC\" è visibile) e copia l'URL dal tuo browser.",
   "transcript_clickDownload": "<strong>Incolla il Link nel Generatore</strong> \n Torna al nostro sito e incolla il link del video nella casella di input. Il nostro strumento rileverà immediatamente le trascrizioni disponibili.",
   "transcript_saveVideo": "<strong>Copia o Scarica la Trascrizione Completa</strong> \n La trascrizione del tuo video apparirà istantaneamente. Puoi copiarla negli appunti con un clic o scaricarla come file .txt pulito per uso successivo.",
-  "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+  "transcript_aiTranscript": "Inizia subito la conversione da video a testo con l'IA—Gratis per sempre!",
   "transcript_features": [
     {
       "icon": "/images/yt_feature1.png",

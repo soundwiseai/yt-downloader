@@ -18,20 +18,20 @@
     "ogDescription": "Unduh video YouTube secara instan, ekstrak audio MP3, atau transkripsikan video apa pun menjadi teks dengan pengunduh URL gratis kami. 100% aman, tidak perlu registrasi."
   },
   "transcript_seo": {
-    "title": "YouTube Transcript Generator | Youtubetomp4.pro",
-    "description": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks.",
-    "ogTitle": "YouTube Transcript Generator | Youtubetomp4.pro",
-    "ogDescription": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks."
+    "title": "Generator Transkrip YouTube Gratis Selamanya – Tanpa Daftar | Youtubetomp4.pro",
+    "description": "Gratis selamanya, tanpa perlu daftar, dan penggunaan tak terbatas — langsung buat transkrip video YouTube dengan alat online kami. Ekstrak subtitle hanya dalam beberapa klik.",
+    "ogTitle": "Generator Transkrip YouTube Gratis Selamanya – Tanpa Daftar | Youtubetomp4.pro",
+    "ogDescription": "Gratis selamanya, tanpa perlu daftar, dan penggunaan tak terbatas — langsung buat transkrip video YouTube dengan alat online kami. Ekstrak subtitle hanya dalam beberapa klik."
   },
-  "resource": "Resource",
-  "tools": "Tools",
+  "resource": "Sumber Daya",
+  "tools": "Alat",
   "comparison": "Comparison",
   "comparisonText": "permanently free and no registration required",
   "email": "Email",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
-  "errorGetVideoInfo": "get video info error, please try again",
-  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
+  "errorGetVideoInfo": "Tautan video salah. Tidak dapat mengambil video. Silakan periksa tautannya.",
+  "errorTranscriptUnavailable": "Transkrip tidak tersedia atau fitur subtitle pada video ini telah dinonaktifkan oleh pembuatnya. Mohon maaf atas ketidaknyamanannya.",
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "Pengunduh Video YouTube",
   "mp3Converter": "Pengonversi YouTube ke MP3",
@@ -356,8 +356,8 @@
   "transcript_mp3Converter": "YouTube ke MP3 Converter",
   "transcript_title": "Generator Transkrip YouTube Instan",
   "transcript_description": "Dapatkan transkrip dari video YouTube mana pun secara instan. Tempel URL untuk menghasilkan file teks lengkap dari caption video. Sempurna untuk penelitian, pembuatan konten, dan belajar.",
-  "transcript_timestamp": "timestamp", 
-  "transcript_copy": "Copy",
+  "transcript_timestamp": "Tampilkan cap waktu", 
+  "transcript_copy": "Salin",
   "transcript_download": "Dapatkan Transkrip Gratis",
   "transcript_tip": "Harap perhatikan hak cipta saat mengunduh konten. Alat ini tidak dirancang untuk mengunduh musik berlisensi.",
   "transcript_formats": "Semua Format",
@@ -394,7 +394,7 @@
   "transcript_copyUrl": "<strong>Temukan dan Salin URL YouTube</strong> \n Navigasi ke video YouTube yang memiliki caption (ikon \"CC\" terlihat) dan salin URL dari browser Anda.",
   "transcript_clickDownload": "<strong>Tempel Link ke Generator</strong> \n Kembali ke situs kami dan tempel link video ke dalam kotak input. Alat kami akan langsung mendeteksi transkrip yang tersedia.",
   "transcript_saveVideo": "<strong>Salin atau Unduh Transkrip Lengkap</strong> \n Transkrip video Anda akan muncul secara instan. Anda dapat menyalinnya ke clipboard dengan satu klik atau mengunduhnya sebagai file .txt bersih untuk penggunaan nanti.",
-  "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+  "transcript_aiTranscript": "Mulai konversi video ke teks dengan AI sekarang—Gratis selamanya!",
   "transcript_features": [
     {
       "icon": "/images/yt_feature1.png",

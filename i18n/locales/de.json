@@ -18,20 +18,20 @@
     "ogDescription": "Laden Sie YouTube-Videos sofort herunter, extrahieren Sie MP3-Audio oder transkribieren Sie jedes Video in Text mit unserem kostenlosen URL-Downloader. 100 % sicher, keine Registrierung erforderlich."
   },
   "transcript_seo": {
-    "title": "YouTube Transcript Generator | Youtubetomp4.pro",
-    "description": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks.",
-    "ogTitle": "YouTube Transcript Generator | Youtubetomp4.pro",
-    "ogDescription": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks."
+    "title": "Für immer kostenloser YouTube Transkript-Generator – Keine Anmeldung | Youtubetomp4.pro",
+    "description": "Für immer kostenlos, keine Anmeldung notwendig und unbegrenzte Nutzung — erstellen Sie sofort Transkripte für YouTube-Videos mit unserem Online-Tool. Untertitel in nur wenigen Klicks extrahieren.",
+    "ogTitle": "Für immer kostenloser YouTube Transkript-Generator – Keine Anmeldung | Youtubetomp4.pro",
+    "ogDescription": "Für immer kostenlos, keine Anmeldung notwendig und unbegrenzte Nutzung — erstellen Sie sofort Transkripte für YouTube-Videos mit unserem Online-Tool. Untertitel in nur wenigen Klicks extrahieren."
   },
-  "resource": "Resource",
+  "resource": "Ressourcen",
   "tools": "Tools",
   "comparison": "Comparison",
   "comparisonText": "permanently free and no registration required",
-  "email": "Email",
+  "email": "E-Mail",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
-  "errorGetVideoInfo": "get video info error, please try again",
-  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
+  "errorGetVideoInfo": "Video-Link-Fehler. Das Video konnte nicht abgerufen werden. Bitte überprüfen Sie den Link.",
+  "errorTranscriptUnavailable": "Transkript nicht verfügbar oder die Untertitelfunktion für dieses Video wurde vom Autor deaktiviert. Wir entschuldigen uns für die Unannehmlichkeiten.",
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "YouTube Video Downloader",
   "mp3Converter": "YouTube zu MP3 Konverter",
@@ -354,8 +354,8 @@
   "transcript_mp3Converter": "YouTube zu MP3 Konverter",
   "transcript_title": "Sofortiger YouTube Transkript Generator",
   "transcript_description": "Holen Sie sich sofort das Transkript von jedem YouTube-Video. Fügen Sie eine URL ein, um eine vollständige Textdatei der Videountertitel zu erstellen. Perfekt für Forschung, Content-Erstellung und Lernen.",
-  "transcript_timestamp": "timestamp", 
-  "transcript_copy": "Copy",
+  "transcript_timestamp": "Zeitstempel anzeigen", 
+  "transcript_copy": "Kopieren",
   "transcript_download": "Kostenloses Transkript erhalten",
   "transcript_tip": "Bitte beachten Sie das Urheberrecht beim Herunterladen von Inhalten. Dieses Tool ist nicht für das Herunterladen urheberrechtlich geschützter Musik konzipiert.",
   "transcript_formats": "Alle Formate",
@@ -392,7 +392,7 @@
   "transcript_copyUrl": "<strong>YouTube-URL finden und kopieren</strong> \n Navigieren Sie zu dem YouTube-Video mit Untertiteln (das \"CC\"-Symbol ist sichtbar) und kopieren Sie die URL aus Ihrem Browser.",
   "transcript_clickDownload": "<strong>Link in den Generator einfügen</strong> \n Kehren Sie zu unserer Seite zurück und fügen Sie den Videolink in das Eingabefeld ein. Unser Tool erkennt sofort die verfügbaren Transkripte.",
   "transcript_saveVideo": "<strong>Vollständiges Transkript kopieren oder herunterladen</strong> \n Ihr Videotranskript erscheint sofort. Sie können es mit einem Klick in die Zwischenablage kopieren oder als saubere .txt-Datei für spätere Verwendung herunterladen.",
-  "transcript_aiTranscript": "Start AI Video to Text Now—Free Forever!",
+  "transcript_aiTranscript": "Starte jetzt die KI-Video-zu-Text-Umwandlung—Für immer kostenlos!",
   "transcript_features": [
     {
       "icon": "/images/yt_feature1.png",
