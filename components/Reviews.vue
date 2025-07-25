@@ -90,7 +90,7 @@ onBeforeUnmount(() => {
   /* 容器，限制卡片滚动区域 */
   .carousel-container {
     width: 100%;
-    height: 200px; /* 设置卡片容器高度 */
+    min-height: 200px; /* 设置卡片容器最小高度 */
     overflow: hidden; /* 隐藏超出部分 */
     position: relative;
     margin-top: 40px;
