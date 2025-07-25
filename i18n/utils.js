@@ -16,16 +16,17 @@ export const _t = (str) => {
     return t(str)
 }
 
+// 判断各子站路径是否存在对应的 i18n 字符串
 export const _te = (str) => {
     const route = useRoute()
     const { te } = useI18n()
-    if(route.path.endsWith('-mp3') && te(`mp3_${str}`)) {
+    if(route.path.endsWith('-mp3')) {
         return te(`mp3_${str}`)
     }
-    else if(route.path.endsWith('-downloader') && te(`downloader_${str}`)) {
+    else if(route.path.endsWith('-downloader')) {
         return te(`downloader_${str}`)
     }
-    else if(route.path.endsWith('-transcript-generator') && te(`transcript_${str}`)) {
+    else if(route.path.endsWith('-transcript-generator')) {
         return te(`transcript_${str}`)
     }
     return te(str)
