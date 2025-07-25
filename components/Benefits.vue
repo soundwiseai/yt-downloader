@@ -19,30 +19,42 @@
 
 <script setup>
 import { computed } from 'vue'
-import { _t } from '@/i18n/utils'
+import { _t, _te } from '@/i18n/utils'
 
-const benefits = computed(() => [
-  {
-    title: _t('benefits.convenience.title'),
-    description: _t('benefits.convenience.description'),
-    image: '/images/yt_benefits1.png',
-  },
-  {
-    title: _t('benefits.avoidAds.title'),
-    description: _t('benefits.avoidAds.description'),
-    image: '/images/yt_benefits2.png',
-  },
-  {
-    title: _t('benefits.saveData.title'),
-    description: _t('benefits.saveData.description'),
-    image: '/images/yt_benefits3.png',
-  },
-  {
-    title: _t('benefits.moreFromDownloads.title'),
-    description: _t('benefits.moreFromDownloads.description'),
-    image: '/images/yt_benefits4.png',
+const benefits = computed(() => {
+  let items = []
+  // 检查每个翻译是否存在, 只有存在时才添加到 items 中
+  if(_te('benefits.convenience.title')) {
+    items.push({
+      title: _t('benefits.convenience.title'),
+      description: _t('benefits.convenience.description'),
+      image: '/images/yt_benefits1.png',
+    })
   }
-])
+  if(_te('benefits.avoidAds.title')) {
+    items.push({
+      title: _t('benefits.avoidAds.title'),
+      description: _t('benefits.avoidAds.description'),
+      image: '/images/yt_benefits2.png',
+    })
+  }
+  if(_te('benefits.saveData.title')) {
+    items.push({
+      title: _t('benefits.saveData.title'),
+      description: _t('benefits.saveData.description'),
+      image: '/images/yt_benefits3.png',
+    })
+  }
+  if(_te('benefits.moreFromDownloads.title')) {
+    items.push({
+      title: _t('benefits.moreFromDownloads.title'),
+      description: _t('benefits.moreFromDownloads.description'),
+      image: '/images/yt_benefits4.png',
+    })
+  }
+  return items
+})
+
 </script>
 
 <style scoped>
