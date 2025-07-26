@@ -16,7 +16,7 @@
 
       <div class="container">
         <div class="input-wrapper">
-          <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box" />
+          <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box" @paste="onPaste"/>
           <button class="download-button2" :class="{ 'disabled': loading }" :disabled="loading" @click="fetchFormats">
             {{ _t("extract") }}
           </button>
@@ -536,43 +536,21 @@ const onPlayerReady = (event) => {
   }, 1000)
 }
 
-// 检查剪贴板内容
-const checkClipboard = async () => {
-  try {
-    // 请求剪贴板权限并读取内容
-    const text = await navigator.clipboard.readText()
-    if(!text){
-      return
-    }
-
-    const regex = /https:\/\/www\.youtube\.com\/watch\?v=\w+/;
-    const result = regex.test(text);
-    
-    // 检查是否包含YouTube链接
-    if (result) {
-      // 设置URL并触发获取格式
-      yt_url.value = text
-      fetchFormats()
-    }
-  } catch (error) {
-    console.log('无法访问剪贴板或剪贴板为空:', error)
-    // 不显示错误提示，静默失败
-  }
+const isValidYoutubeUrl = (url) => {
+  return url.includes('youtube.');
 }
 
+// 处理粘贴事件
+const onPaste = (event) => {  
+  let text = (event.clipboardData || window.clipboardData).getData("text");
+  yt_url.value = text
+  fetchFormats()
+}
 
 // 组件挂载后的生命周期钩子
 onMounted(() => {
   console.log('Component mounted')
-  
-  // 检查剪贴板
-  checkClipboard()
-  
-  // 如果URL中包含YouTube链接，自动获取视频信息
-  if (yt_url.value) {
-    fetchFormats()
-  }
-  
+
   // 等待 DOM 完全渲染后再初始化播放器
   // 使用 nextTick 确保所有的渲染更新已完成
   nextTick(() => {
@@ -695,7 +673,7 @@ const downloadFile = async (link) => {
 
 // 获取视频格式
 const fetchFormats = async () => {
-  if (!yt_url.value) {
+  if (!yt_url.value || !isValidYoutubeUrl(yt_url.value)) {
     alert('请输入有效的 YouTube 视频 URL')
     return
   }

@@ -16,7 +16,7 @@
 
       <div class="container">
         <div class="input-wrapper">
-          <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box" />
+          <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box"  @paste="onPaste"/>
           <button class="download-button2" :class="{ 'disabled': loading }" :disabled="loading" @click="fetchFormats">
             {{ _t("download") }}
           </button>
@@ -80,69 +80,25 @@ const videoData = ref({})
 const loading = ref(false)
 const errorMessage = ref('')
 
-// 检查剪贴板内容
-const checkClipboard = async () => {
-  try {
-    // 请求剪贴板权限并读取内容
-    const text = await navigator.clipboard.readText()
-    if(!text){
-      return
-    }
-
-    const regex = /https:\/\/www\.youtube\.com\/watch\?v=\w+/;
-    const result = regex.test(text);
-    
-    // 检查是否包含YouTube链接
-    if (result) {
-      // 设置URL并触发获取格式
-      yt_url.value = text
-      fetchFormats()
-    }
-  } catch (error) {
-    console.log('无法访问剪贴板或剪贴板为空:', error)
-    // 不显示错误提示，静默失败
-  }
-}
-
 // 在组件挂载时检查剪贴板
 onMounted(() => {
   errorMessage.value = _t("errorGetVideoInfo")
-  checkClipboard()
 })
 
-
-// 下载方法
-const download = () => {
-  alert(`Starting download for: ${yt_url.value}`)
+const isValidYoutubeUrl = (url) => {
+  return url.includes('youtube.');
 }
 
-// 下载文件
-const downloadFile = async (link) => {
-  try {
-    // 向后端发送请求下载文件
-    const response = await axios.get(link, {
-      responseType: 'blob'  // 设置返回类型为二进制流
-    })
-
-    // 创建一个临时链接，触发浏览器下载
-    const blob = response.data
-    const downloadUrl = window.URL.createObjectURL(blob)
-    const linkElement = document.createElement('a')
-    linkElement.href = downloadUrl
-    linkElement.download = 'video.mp4'  // 可根据需要修改文件名
-    linkElement.click()
-
-    // 释放 URL 对象
-    window.URL.revokeObjectURL(downloadUrl)
-  } catch (error) {
-    console.error('下载出错:', error)
-    alert('下载出错，请重试')
-  }
+// 处理粘贴事件
+const onPaste = (event) => {
+  let text = (event.clipboardData || window.clipboardData).getData("text");
+  yt_url.value = text
+  fetchFormats()
 }
 
 // 获取视频格式
 const fetchFormats = async () => {
-  if (!yt_url.value) {
+  if (!yt_url.value || !isValidYoutubeUrl(yt_url.value)) {
     alert('请输入有效的 YouTube 视频 URL')
     return
   }
@@ -158,16 +114,6 @@ const fetchFormats = async () => {
     alert(errorMessage.value)
   } finally {
     loading.value = false
-    //   if (!this.yt_url) {
-    //     alert('请输入有效的 YouTube 视频 URL');
-    //     return;
-    //   }
-    //   const videoStream = ytdl(this.yt_url);
-    //   videoStream.pipe(fs.createWriteStream('video.mp4'));
-    //   videoStream.on('end',()=>{
-    //       console.log("downlaod ==========");
-    //   });
-    // }
   }
 }
 </script>
