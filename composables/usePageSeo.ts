@@ -44,6 +44,8 @@ export const usePageSeo = () => {
       seoPrefix = 'mp3_seo'
     } else if (normalizedPath.endsWith('/youtube-video-downloader') || normalizedPath === '/youtube-video-downloader') {
       seoPrefix = 'downloader_seo'
+    } else if (normalizedPath.endsWith('/youtube-transcript-generator') || normalizedPath === '/youtube-transcript-generator') {
+      seoPrefix = 'transcript_seo'
     }
 
     // 生成 hreflang 链接
