@@ -32,6 +32,7 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "رابط الفيديو غير صحيح. لا يمكن جلب الفيديو. يرجى التحقق من الرابط.",
   "errorTranscriptUnavailable": "التفريغ غير متاح أو أن خاصية الترجمة لهذا الفيديو تم تعطيلها من قبل المؤلف. نعتذر عن الإزعاج.",
+  "transcribeGenerator": "مولد ترجمات YouTube",
   "siteName": "Youtubetomp4.pro",
   "videoDownloader": "تحميل فيديو من اليوتيوب",
   "mp3Converter": "تحويل اليوتيوب إلى MP3",

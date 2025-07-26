@@ -8,9 +8,9 @@
 
       <div class="footer-section tools">
         <h3>{{ _t('tools') }}</h3>
-        <router-link :to="getLocalizedPath('/youtube-video-downloader')" class="footer-link">youtube video</router-link>
-        <router-link :to="getLocalizedPath('/youtube-to-mp3')" class="footer-link">youtube mp3</router-link>
-        <router-link :to="getLocalizedPath('/youtube-transcript-generator')" class="footer-link">youtube transcript</router-link>
+        <router-link :to="getLocalizedPath('/youtube-video-downloader')" class="footer-link">{{ _t('videoDownloader') }}</router-link>
+        <router-link :to="getLocalizedPath('/youtube-to-mp3')" class="footer-link">{{ _t('mp3Converter') }}</router-link>
+        <router-link :to="getLocalizedPath('/youtube-transcript-generator')" class="footer-link">{{ _t('transcribeGenerator') }}</router-link>
       </div>
 
       <div class="footer-section">

@@ -18,7 +18,7 @@
         <div class="input-wrapper">
           <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box" @paste="onPaste"/>
           <button class="download-button2" :class="{ 'disabled': loading }" :disabled="loading" @click="fetchFormats">
-            {{ _t("extract") }}
+            {{ _t("download") }}
           </button>
         </div>
       </div>
@@ -126,9 +126,9 @@
                 class="download-button" 
                 @click="downloadFile(subtitlesLink)"
                 :disabled="!subtitlesLoaded || parsedSubtitles.length === 0"
-                :title="_t('download')"
+                :title="_t('downloadNow')"
               >
-                {{ _t("download") }}
+                {{ _t("downloadNow") }}
               </button>
           </div>
           

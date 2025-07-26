@@ -10,7 +10,8 @@ SUPPORTED_LOCALES = ['en', 'es', 'es-419', 'ar', 'hi', 'pt', 'pt-br', 'ko', 'ja'
 URLS = [
     '',  # 首页
     '/youtube-to-mp3',
-    '/youtube-video-downloader'
+    '/youtube-video-downloader',
+    '/youtube-transcript-generator'
 ]
 
 def generate_sitemap(static_dir='public'):
