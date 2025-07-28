@@ -926,6 +926,8 @@ const fetchFormats = async () => {
   /* 左右内边距 */
   border-radius: 8px;
   transition: background 0.3s, color 0.3s;
+  word-wrap: break-word;
+  max-width: 200px;
 }
 
 /* 按钮 hover 样式 */

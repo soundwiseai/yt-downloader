@@ -19,8 +19,8 @@ const getLocaleFromPath = (path) => {
   const pathParts = path.split('/')
   // 检查是否是根路径下的 locale，如 /zh-TW
   if (pathParts.length > 1 && pathParts[1]) {
-    // 检查是否符合语言代码格式（如 'en', 'zh-TW', 'zh-CN' 等）
-    const localePattern = /^[a-z]{2}(-[A-Z]{2})?$/
+    // 检查是否符合语言代码格式（如 'en', 'zh-TW', 'zh-CN', 'es-419' 等）
+    const localePattern = /^[a-z]{2}(-\w+)?$/
     if (localePattern.test(pathParts[1])) {
       return pathParts[1]
     }
