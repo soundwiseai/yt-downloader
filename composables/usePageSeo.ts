@@ -1,5 +1,6 @@
 import { useI18n } from 'vue-i18n'
 import { useRoute } from 'vue-router'
+import sites from '@/sites'
 
 const SUPPORTED_LOCALES = [
   { code: 'en', lang: 'en' },
@@ -40,12 +41,12 @@ export const usePageSeo = () => {
     const normalizedPath = currentPath.replace(/\/$/, '')
     let seoPrefix = 'seo'
     
-    if (normalizedPath.endsWith('/youtube-to-mp3') || normalizedPath === '/youtube-to-mp3') {
-      seoPrefix = 'mp3_seo'
-    } else if (normalizedPath.endsWith('/youtube-video-downloader') || normalizedPath === '/youtube-video-downloader') {
-      seoPrefix = 'downloader_seo'
-    } else if (normalizedPath.endsWith('/youtube-transcript-generator') || normalizedPath === '/youtube-transcript-generator') {
-      seoPrefix = 'transcript_seo'
+    // 从 sites 配置中查找匹配的站点
+    for (const site of sites) {
+      if (normalizedPath.endsWith(site.url) || normalizedPath === site.url) {
+        seoPrefix = site.seo
+        break
+      }
     }
 
     // 生成 hreflang 链接

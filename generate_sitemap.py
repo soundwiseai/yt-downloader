@@ -1,4 +1,5 @@
 import os
+import json
 
 # 修改为你的正式域名（如未定可先用占位符）
 BASE_URL = 'https://youtubetomp4.pro'
@@ -6,13 +7,42 @@ BASE_URL = 'https://youtubetomp4.pro'
 # 支持的语言
 SUPPORTED_LOCALES = ['en', 'es', 'es-419', 'ar', 'hi', 'pt', 'pt-br', 'ko', 'ja', 'zh-TW', 'id', 'th', 'vi', 'tr', 'fr', 'it', 'de']
 
+# 从 sites.ts 读取站点配置
+def read_sites_config():
+    try:
+        # 读取 sites.ts 文件
+        with open('sites.ts', 'r', encoding='utf-8') as f:
+            content = f.read()
+            
+        # 提取数组部分
+        start = content.find('[') 
+        end = content.rfind(']') + 1
+        if start == -1 or end == 0:
+            print("Error: Could not find array in sites.ts")
+            return []
+            
+        # 将 TypeScript 数组转换为可解析的 JSON
+        array_content = content[start:end]
+        # 将单引号替换为双引号，以符合 JSON 格式
+        array_content = array_content.replace("'", '"')
+        # 删除尾随逗号
+        array_content = array_content.replace(',\n]', '\n]')
+        
+        # 解析为 Python 对象
+        sites = json.loads(array_content)
+        return [site['url'] for site in sites]
+    except Exception as e:
+        print(f"Error reading sites.ts: {e}")
+        # 如果出错，返回默认值
+        return [
+            '',  # 首页
+            '/youtube-to-mp3',
+            '/youtube-video-downloader',
+            '/youtube-transcript-generator'
+        ]
+
 # 主要页面路径（不含 locale 前缀）
-URLS = [
-    '',  # 首页
-    '/youtube-to-mp3',
-    '/youtube-video-downloader',
-    '/youtube-transcript-generator'
-]
+URLS = read_sites_config()
 
 def generate_sitemap(static_dir='public'):
     # 使用 UTC 时间

@@ -32,45 +32,31 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: [
-        '/en',
-        '/en/youtube-to-mp3',
-        '/en/youtube-video-downloader',
-        '/ar/youtube-to-mp3',
-        '/ar/youtube-video-downloader',
-        '/de/youtube-to-mp3',
-        '/de/youtube-video-downloader',
-        '/es/youtube-to-mp3',
-        '/es/youtube-video-downloader',
-        '/es-419/youtube-to-mp3',
-        '/es-419/youtube-video-downloader',
-        '/fr/youtube-to-mp3',
-        '/fr/youtube-video-downloader',
-        '/hi/youtube-to-mp3',
-        '/hi/youtube-video-downloader',
-        '/id/youtube-to-mp3',
-        '/id/youtube-video-downloader',
-        '/it/youtube-to-mp3',
-        '/it/youtube-video-downloader',
-        '/ja/youtube-to-mp3',
-        '/ja/youtube-video-downloader',
-        '/ko/youtube-to-mp3',
-        '/ko/youtube-video-downloader',
-        '/pt/youtube-to-mp3',
-        '/pt/youtube-video-downloader',
-        '/pt-br/youtube-to-mp3',
-        '/pt-br/youtube-video-downloader',
-        '/th/youtube-to-mp3',
-        '/th/youtube-video-downloader',
-        '/tr/youtube-to-mp3',
-        '/tr/youtube-video-downloader',
-        '/vi/youtube-to-mp3',
-        '/vi/youtube-video-downloader',
-        '/zh-TW/youtube-to-mp3',
-        '/zh-TW/youtube-video-downloader',
-        '/youtube-to-mp3',
-        '/youtube-video-downloader'
-      ]
+      routes: (() => {
+        // 导入站点配置
+        const sites = require('./sites').default;
+        const locales = [
+          'en', 'ar', 'de', 'es', 'es-419', 'fr', 'hi', 'id', 'it',
+          'ja', 'ko', 'pt', 'pt-br', 'th', 'tr', 'vi', 'zh-TW'
+        ];
+        
+        // 生成所有语言的根路径
+        const rootRoutes = locales.map(locale => locale === 'en' ? '/' : `/${locale}`);
+        
+        // 生成所有语言的所有站点路径
+        const siteRoutes: string[] = [];
+        locales.forEach(locale => {
+          sites.forEach((site: {url: string}) => {
+            if (locale === 'en') {
+              siteRoutes.push(site.url);
+            } else {
+              siteRoutes.push(`/${locale}${site.url}`);
+            }
+          });
+        });
+        
+        return [...rootRoutes, ...siteRoutes];
+      })()
     }
   }
 })

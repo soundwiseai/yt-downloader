@@ -8,9 +8,14 @@
 
       <div class="footer-section tools">
         <h3>{{ _t('tools') }}</h3>
-        <router-link :to="getLocalizedPath('/youtube-video-downloader')" class="footer-link">{{ _t('videoDownloader') }}</router-link>
-        <router-link :to="getLocalizedPath('/youtube-to-mp3')" class="footer-link">{{ _t('mp3Converter') }}</router-link>
-        <router-link :to="getLocalizedPath('/youtube-transcript-generator')" class="footer-link">{{ _t('transcribeGenerator') }}</router-link>
+        <router-link 
+          v-for="site in sites.filter(site => site.footer)" 
+          :key="site.url" 
+          :to="getLocalizedPath(site.url)" 
+          class="footer-link"
+        >
+          {{ _t(site.name) }}
+        </router-link>
       </div>
 
       <div class="footer-section">
@@ -27,25 +32,30 @@
         <router-link to="/terms-of-service" class="lang-link">{{ _t('termsOfService') }}</router-link>
       </div>
       <div class="copyright">
-        © 2025 Youtubetomp4.pro
+        2025 Youtubetomp4.pro
       </div>
     </div>
   </footer>
 </template>
 
-<script setup>
-import { _t } from '@/i18n/utils'
+<script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+import sites from '@/sites'
 
-const props = defineProps({
-  locale: {
-    type: String,
-    default: ''
-  }
-})
+const { t: _t } = useI18n()
 
 // 获取本地化路径
-const getLocalizedPath = (path) => {
-  const currentLocale = props.locale
+const getLocalizedPath = (path: string) => {
+  // 使用 useRoute 获取当前路径
+  const route = useRoute()
+  const currentPath = route.path
+  const pathParts = currentPath.split('/')
+  let currentLocale = ''
+  
+  // 检查是否有语言代码
+  if (pathParts.length > 1 && /^[a-z]{2}(-\w+)?$/.test(pathParts[1])) {
+    currentLocale = pathParts[1]
+  }
   
   // 如果 locale 为 'en'，则省略 locale 部分
   if (currentLocale === 'en') {
@@ -66,8 +76,9 @@ const getLocalizedPath = (path) => {
 }
 
 // 处理导航
-const handleNavigation = (event) => {
-  if (route.path !== '/') {
+const handleNavigation = (event: Event) => {
+  const currentPath = window.location.pathname
+  if (currentPath !== '/') {
     event.preventDefault() // 阻止跳转
   }
 }

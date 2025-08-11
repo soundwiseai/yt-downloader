@@ -7,8 +7,15 @@
       </div>
       <!-- 右侧导航 -->
       <nav class="nav">
-        <a href="#" class="nav-link" @click.prevent="goDownloader">{{ _t("videoDownloader") }} &gt;</a>
-        <a href="#" class="nav-link" @click.prevent="goMp3">{{ _t("mp3Converter") }} &gt;</a>
+        <a 
+          v-for="site in sites.filter(site => site.header)" 
+          :key="site.url" 
+          href="#" 
+          class="nav-link" 
+          @click.prevent="goToSite(site.url)"
+        >
+          {{ _t(site.name) }} &gt;
+        </a>
         
         <!-- 语言选择下拉菜单 -->
         <div class="language-selector">
@@ -36,6 +43,7 @@ import { ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { _t } from '@/i18n/utils'
+import sites from '@/sites'
 
 const { locale, locales, setLocale } = useI18n();
 const route = useRoute();
@@ -45,18 +53,11 @@ const showLanguageMenu = ref(false);
 // 从 i18n 配置中获取语言列表
 const languages = locales.value;
 
-// 跳转到当前语言的 /downloader
-const goDownloader = () => {
+// 跳转到指定站点
+const goToSite = (url) => {
   const lang = locale.value;
   const prefix = lang === 'en' ? '' : `/${lang}`;
-  router.push({ path: `${prefix}/youtube-video-downloader` });
-};
-
-// 跳转到当前语言的 /mp3
-const goMp3 = () => {
-  const lang = locale.value;
-  const prefix = lang === 'en' ? '' : `/${lang}`;
-  router.push({ path: `${prefix}/youtube-to-mp3` });
+  router.push({ path: `${prefix}${url}` });
 };
 
 // 切换语言菜单显示/隐藏
@@ -109,12 +110,19 @@ watch(route, () => {
 import { onMounted, onUnmounted } from 'vue';
 
 onMounted(() => {
-  window.addEventListener('click', closeLanguageMenu);
+  document.addEventListener('click', closeLanguageMenu);
 });
 
 onUnmounted(() => {
-  window.removeEventListener('click', closeLanguageMenu);
+  document.removeEventListener('click', closeLanguageMenu);
 });
+
+const handleNavigation = (event) => {
+  const currentRoute = useRoute()
+  if (currentRoute.path !== '/') {
+    event.preventDefault() // 阻止跳转
+  }
+}
 
 const goHome = () => {
   if (route.path !== '/') {
