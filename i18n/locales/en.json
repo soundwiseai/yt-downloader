@@ -505,32 +505,32 @@
   "m4a_featuresConverter": "Core Features for the YouTube to M4A Download",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature.png",
+      "icon": "/images/yt_feature1.png",
       "title": "Optimized for the Apple Ecosystem",
       "description": "M4A is the standard format for audio on Apple devices. SoundWise.ai conversions are perfect for seamless integration with iTunes and the Music app, ensuring compatibility and quality on your iPhone, iPad, Mac, and Apple Watch."
     },
     {
-      "icon": "@/assets/yt_feature.png",
+      "icon": "/images/yt_feature2.png",
       "title": "Superior AAC Audio Encoding",
       "description": "SoundWise.ai utilizes Advanced Audio Coding (AAC), a more sophisticated compression algorithm than the MP3 format. This means you get a richer, more detailed sound experience while benefiting from a smaller, more efficient file size."
     },
     {
-      "icon": "@/assets/yt_feature.png",
+      "icon": "/images/yt_feature3.png",
       "title": "High-Fidelity Audio Preservation",
       "description": "We download M4A from YouTube while preserving the highest possible fidelity from the original source audio. It ensures a clean, crisp, and artifact-free listening experience, true to the creator's intent."
     },
     {
-      "icon": "@/assets/yt_feature.png",
+      "icon": "/images/yt_feature4.png",
       "title": "Unlimited & Anonymous Conversions",
       "description": "There are no limits on how many files you can convert. SoundWise.ai is completely free and requires no registration. Your privacy is protected as we do not track or store your download history."
     },
     {
-      "icon": "@/assets/yt_feature.png",
+      "icon": "/images/yt_feature5.png",
       "title": "Direct Browser-Based Tool",
       "description": "No software installation is necessary. The online tool to create M4A files works directly in Safari, Chrome, or any other modern browser on your computer or mobile device."
     },
     {
-      "icon": "@/assets/yt_feature.png",
+      "icon": "/images/yt_feature6.png",
       "title": "Clean and Uncluttered Interface",
       "description": "We provide a straightforward, ad-free experience. Just paste your link and download your file, without navigating through confusing pop-ups or menus."
     }

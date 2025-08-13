@@ -505,32 +505,32 @@
   "m4a_featuresConverter": "Funzionalità principali per il download da YouTube a M4A",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature1.png",
+      "icon": "/images/yt_feature1.png",
       "title": "Ottimizzato per l'ecosistema Apple",
       "description": "M4A è il formato standard per l'audio sui dispositivi Apple. Le conversioni di SoundWise.ai sono perfette per l'integrazione senza problemi con iTunes e l'app Musica, garantendo compatibilità e qualità su iPhone, iPad, Mac e Apple Watch."
     },
     {
-      "icon": "@/assets/yt_feature2.png",
+      "icon": "/images/yt_feature2.png",
       "title": "Codifica audio AAC superiore",
       "description": "SoundWise.ai utilizza l'Advanced Audio Coding (AAC), un algoritmo di compressione più sofisticato rispetto al formato MP3. Ciò significa che otterrai un'esperienza sonora più ricca e dettagliata beneficiando di dimensioni di file più piccole ed efficienti."
     },
     {
-      "icon": "@/assets/yt_feature3.png",
+      "icon": "/images/yt_feature3.png",
       "title": "Preservazione audio ad alta fedeltà",
       "description": "Scarichiamo M4A da YouTube preservando la massima fedeltà possibile dall'audio sorgente originale. Garantisce un'esperienza di ascolto pulita, nitida e priva di artefatti, fedele all'intento del creatore."
     },
     {
-      "icon": "@/assets/yt_feature4.png",
+      "icon": "/images/yt_feature4.png",
       "title": "Conversioni illimitate e anonime",
       "description": "Non ci sono limiti al numero di file che puoi convertire. SoundWise.ai è completamente gratuito e non richiede registrazione. La tua privacy è protetta poiché non tracciamo né memorizziamo la tua cronologia di download."
     },
     {
-      "icon": "@/assets/yt_feature5.png",
+      "icon": "/images/yt_feature5.png",
       "title": "Strumento diretto basato su browser",
       "description": "Non è necessaria l'installazione di software. Lo strumento online per creare file M4A funziona direttamente in Safari, Chrome o qualsiasi altro browser moderno sul tuo computer o dispositivo mobile."
     },
     {
-      "icon": "@/assets/yt_feature6.png",
+      "icon": "/images/yt_feature6.png",
       "title": "Interfaccia pulita e senza disordine",
       "description": "Forniamo un'esperienza diretta e senza pubblicità. Basta incollare il tuo link e scaricare il file, senza dover navigare tra pop-up o menu confusi."
     }

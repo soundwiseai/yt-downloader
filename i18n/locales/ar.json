@@ -505,32 +505,32 @@
   "m4a_featuresConverter": "الميزات الأساسية لتحميل YouTube إلى M4A",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature1.png",
+      "icon": "/images/yt_feature1.png",
       "title": "مُحسّن لنظام Apple البيئي",
       "description": "M4A هي الصيغة القياسية للصوت على أجهزة Apple. تحويلات SoundWise.ai مثالية للتكامل السلس مع iTunes وتطبيق Music، مما يضمن التوافق والجودة على iPhone وiPad وMac وApple Watch."
     },
     {
-      "icon": "@/assets/yt_feature2.png",
+      "icon": "/images/yt_feature2.png",
       "title": "ترميز صوت AAC المتفوق",
       "description": "يستخدم SoundWise.ai ترميز الصوت المتقدم (AAC)، وهو خوارزمية ضغط أكثر تطورًا من صيغة MP3. هذا يعني أنك تحصل على تجربة صوت أكثر ثراءً وتفصيلاً مع الاستفادة من حجم ملف أصغر وأكثر كفاءة."
     },
     {
-      "icon": "@/assets/yt_feature3.png",
+      "icon": "/images/yt_feature3.png",
       "title": "الحفاظ على جودة الصوت العالية",
       "description": "نقوم بتحميل M4A من YouTube مع الحفاظ على أعلى جودة ممكنة من الصوت الأصلي. يضمن ذلك تجربة استماع نظيفة وصافية وخالية من التشوهات، وفقًا لنية المنشئ."
     },
     {
-      "icon": "@/assets/yt_feature4.png",
+      "icon": "/images/yt_feature4.png",
       "title": "تحويلات غير محدودة ومجهولة",
       "description": "لا توجد حدود لعدد الملفات التي يمكنك تحويلها. SoundWise.ai مجاني تمامًا ولا يتطلب تسجيلًا. خصوصيتك محمية لأننا لا نتتبع أو نخزن سجل التحميل الخاص بك."
     },
     {
-      "icon": "@/assets/yt_feature5.png",
+      "icon": "/images/yt_feature5.png",
       "title": "أداة تعمل مباشرة عبر المتصفح",
       "description": "لا حاجة لتثبيت أي برنامج. تعمل الأداة عبر الإنترنت لإنشاء ملفات M4A مباشرة في Safari أو Chrome أو أي متصفح حديث آخر على جهاز الكمبيوتر أو الجهاز المحمول."
     },
     {
-      "icon": "@/assets/yt_feature6.png",
+      "icon": "/images/yt_feature6.png",
       "title": "واجهة نظيفة وخالية من الفوضى",
       "description": "نوفر تجربة مباشرة وخالية من الإعلانات. ما عليك سوى لصق الرابط الخاص بك وتحميل ملفك، دون الحاجة إلى التنقل بين النوافذ المنبثقة أو القوائم المربكة."
     }

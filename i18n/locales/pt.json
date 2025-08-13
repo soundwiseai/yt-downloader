@@ -505,32 +505,32 @@
   "m4a_featuresConverter": "Funcionalidades Principais para o Descarregamento de YouTube para M4A",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature1.png",
+      "icon": "/images/yt_feature1.png",
       "title": "Otimizado para o Ecossistema Apple",
       "description": "M4A é o formato padrão para áudio em dispositivos Apple. As conversões do SoundWise.ai são perfeitas para integração perfeita com o iTunes e a aplicação Música, garantindo compatibilidade e qualidade no seu iPhone, iPad, Mac e Apple Watch."
     },
     {
-      "icon": "@/assets/yt_feature2.png",
+      "icon": "/images/yt_feature2.png",
       "title": "Codificação de Áudio AAC Superior",
       "description": "O SoundWise.ai utiliza Advanced Audio Coding (AAC), um algoritmo de compressão mais sofisticado que o formato MP3. Isto significa que obtém uma experiência sonora mais rica e detalhada, beneficiando ainda de um tamanho de ficheiro mais pequeno e eficiente."
     },
     {
-      "icon": "@/assets/yt_feature3.png",
+      "icon": "/images/yt_feature3.png",
       "title": "Preservação de Áudio de Alta Fidelidade",
       "description": "Descarregamos M4A do YouTube preservando a máxima fidelidade possível do áudio original. Garante uma experiência de audição limpa, nítida e sem artefactos, fiel à intenção do criador."
     },
     {
-      "icon": "@/assets/yt_feature4.png",
+      "icon": "/images/yt_feature4.png",
       "title": "Conversões Ilimitadas e Anónimas",
       "description": "Não há limites no número de ficheiros que pode converter. O SoundWise.ai é completamente gratuito e não requer registo. A sua privacidade está protegida, pois não rastreamos nem armazenamos o seu histórico de descarregamentos."
     },
     {
-      "icon": "@/assets/yt_feature5.png",
+      "icon": "/images/yt_feature5.png",
       "title": "Ferramenta Direta Baseada no Navegador",
       "description": "Não é necessária instalação de software. A ferramenta online para criar ficheiros M4A funciona diretamente no Safari, Chrome ou qualquer outro navegador moderno no seu computador ou dispositivo móvel."
     },
     {
-      "icon": "@/assets/yt_feature6.png",
+      "icon": "/images/yt_feature6.png",
       "title": "Interface Limpa e Desimpedida",
       "description": "Fornecemos uma experiência direta, sem publicidade. Basta colar a sua ligação e descarregar o seu ficheiro, sem navegar por pop-ups ou menus confusos."
     }

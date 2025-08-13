@@ -505,32 +505,32 @@
   "m4a_featuresConverter": "Fonctionnalités principales pour le téléchargement YouTube vers M4A",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature1.png",
+      "icon": "/images/yt_feature1.png",
       "title": "Optimisé pour l'écosystème Apple",
       "description": "Le M4A est le format audio standard pour les appareils Apple. Les conversions SoundWise.ai s'intègrent parfaitement avec iTunes et l'application Musique, garantissant compatibilité et qualité sur votre iPhone, iPad, Mac et Apple Watch."
     },
     {
-      "icon": "@/assets/yt_feature2.png",
+      "icon": "/images/yt_feature2.png",
       "title": "Encodage audio AAC supérieur",
       "description": "SoundWise.ai utilise le codage audio avancé (AAC), un algorithme de compression plus sophistiqué que le format MP3. Vous bénéficiez ainsi d'une expérience sonore plus riche et détaillée tout en profitant d'une taille de fichier réduite et plus efficace."
     },
     {
-      "icon": "@/assets/yt_feature3.png",
+      "icon": "/images/yt_feature3.png",
       "title": "Préservation audio Haute Fidélité",
       "description": "Nous téléchargeons le M4A depuis YouTube tout en préservant la plus haute fidélité possible de la source audio originale. Cela garantit une expérience d'écoute claire, nette et sans artefacts, fidèle à l'intention du créateur."
     },
     {
-      "icon": "@/assets/yt_feature4.png",
+      "icon": "/images/yt_feature4.png",
       "title": "Conversions illimitées et anonymes",
       "description": "Aucune limite sur le nombre de fichiers à convertir. SoundWise.ai est entièrement gratuit et ne nécessite aucune inscription. Votre vie privée est protégée car nous ne suivons ni ne stockons votre historique de téléchargement."
     },
     {
-      "icon": "@/assets/yt_feature5.png",
+      "icon": "/images/yt_feature5.png",
       "title": "Outil direct basé sur navigateur",
       "description": "Aucune installation de logiciel nécessaire. L'outil en ligne pour créer des fichiers M4A fonctionne directement dans Safari, Chrome ou tout autre navigateur moderne sur votre ordinateur ou appareil mobile."
     },
     {
-      "icon": "@/assets/yt_feature6.png",
+      "icon": "/images/yt_feature6.png",
       "title": "Interface épurée et sans encombrement",
       "description": "Nous offrons une expérience simple et sans publicité. Collez simplement votre lien et téléchargez votre fichier, sans avoir à naviguer parmi des fenêtres pop-up ou menus déroutants."
     }

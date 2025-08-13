@@ -505,32 +505,32 @@
   "m4a_featuresConverter": "YouTubeからM4Aへのダウンロードの主な機能",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature1.png",
+      "icon": "/images/yt_feature1.png",
       "title": "Appleエコシステムに最適化",
       "description": "M4AはAppleデバイスの標準オーディオ形式です。SoundWise.aiの変換はiTunesやMusicアプリとのシームレスな統合に最適で、iPhone、iPad、Mac、Apple Watchでの互換性と品質を保証します。"
     },
     {
-      "icon": "@/assets/yt_feature2.png",
+      "icon": "/images/yt_feature2.png",
       "title": "優れたAACオーディオエンコーディング",
       "description": "SoundWise.aiはMP3形式よりも洗練された圧縮アルゴリズムであるAdvanced Audio Coding（AAC）を採用しています。これにより、より豊かで詳細なサウンド体験を得ながら、より小さく効率的なファイルサイズを実現できます。"
     },
     {
-      "icon": "@/assets/yt_feature3.png",
+      "icon": "/images/yt_feature3.png",
       "title": "高音質オーディオの保存",
       "description": "YouTubeからM4Aをダウンロードする際、オリジナルソースオーディオから可能な限り最高の忠実度を保持します。クリエイターの意図に忠実な、クリーンで鮮明な、アーティファクトのないリスニング体験を保証します。"
     },
     {
-      "icon": "@/assets/yt_feature4.png",
+      "icon": "/images/yt_feature4.png",
       "title": "無制限＆匿名変換",
       "description": "変換できるファイル数に制限はありません。SoundWise.aiは完全無料で登録不要です。ダウンロード履歴を追跡・保存しないため、プライバシーが保護されます。"
     },
     {
-      "icon": "@/assets/yt_feature5.png",
+      "icon": "/images/yt_feature5.png",
       "title": "直接ブラウザベースのツール",
       "description": "ソフトウェアのインストールは不要です。M4Aファイルを作成するオンラインツールは、コンピュータやモバイルデバイスのSafari、Chrome、その他の最新ブラウザで直接動作します。"
     },
     {
-      "icon": "@/assets/yt_feature6.png",
+      "icon": "/images/yt_feature6.png",
       "title": "クリーンで整理されたインターフェース",
       "description": "わかりやすく広告のない体験を提供します。リンクを貼り付けてファイルをダウンロードするだけで、混乱を招くポップアップやメニューを操作する必要はありません。"
     }

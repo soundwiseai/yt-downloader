@@ -504,32 +504,32 @@
   "m4a_featuresConverter": "Tính năng Cốt lõi cho Tải xuống YouTube sang M4A",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature1.png",
+      "icon": "/images/yt_feature1.png",
       "title": "Tối ưu hóa cho Hệ sinh thái Apple",
       "description": "M4A là định dạng tiêu chuẩn cho âm thanh trên thiết bị Apple. Chuyển đổi từ SoundWise.ai hoàn hảo để tích hợp liền mạch với iTunes và ứng dụng Music, đảm bảo khả năng tương thích và chất lượng trên iPhone, iPad, Mac và Apple Watch của bạn."
     },
     {
-      "icon": "@/assets/yt_feature2.png",
+      "icon": "/images/yt_feature2.png",
       "title": "Mã hóa Âm thanh AAC Ưu việt",
       "description": "SoundWise.ai sử dụng Advanced Audio Coding (AAC), một thuật toán nén tinh vi hơn so với định dạng MP3. Điều này có nghĩa là bạn sẽ có trải nghiệm âm thanh phong phú, chi tiết hơn trong khi tệp có kích thước nhỏ hơn và hiệu quả hơn."
     },
     {
-      "icon": "@/assets/yt_feature3.png",
+      "icon": "/images/yt_feature3.png",
       "title": "Bảo toàn Âm thanh Độ trung thực Cao",
       "description": "Chúng tôi tải M4A từ YouTube trong khi giữ nguyên độ trung thực cao nhất từ nguồn âm thanh gốc. Nó đảm bảo trải nghiệm nghe sạch, rõ ràng và không có nhiễu, đúng với ý định của người sáng tạo."
     },
     {
-      "icon": "@/assets/yt_feature4.png",
+      "icon": "/images/yt_feature4.png",
       "title": "Chuyển đổi Không giới hạn & Ẩn danh",
       "description": "Không có giới hạn về số lượng tệp bạn có thể chuyển đổi. SoundWise.ai hoàn toàn miễn phí và không yêu cầu đăng ký. Quyền riêng tư của bạn được bảo vệ vì chúng tôi không theo dõi hoặc lưu lịch sử tải xuống của bạn."
     },
     {
-      "icon": "@/assets/yt_feature5.png",
+      "icon": "/images/yt_feature5.png",
       "title": "Công cụ Trực tiếp trên Trình duyệt",
       "description": "Không cần cài đặt phần mềm. Công cụ trực tuyến để tạo tệp M4A hoạt động trực tiếp trên Safari, Chrome hoặc bất kỳ trình duyệt hiện đại nào khác trên máy tính hoặc thiết bị di động của bạn."
     },
     {
-      "icon": "@/assets/yt_feature6.png",
+      "icon": "/images/yt_feature6.png",
       "title": "Giao diện Sạch sẽ và Không lộn xộn",
       "description": "Chúng tôi cung cấp trải nghiệm đơn giản, không có quảng cáo. Chỉ cần dán liên kết của bạn và tải xuống tệp của bạn mà không phải điều hướng qua các cửa sổ bật lên hoặc menu khó hiểu."
     }

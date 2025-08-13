@@ -503,32 +503,32 @@
   "m4a_featuresConverter": "Kernfunktionen für den YouTube zu M4A Download",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature1.png",
+      "icon": "/images/yt_feature1.png",
       "title": "Optimiert für das Apple-Ökosystem",
       "description": "M4A ist das Standardformat für Audio auf Apple-Geräten. SoundWise.ai-Konvertierungen sind perfekt für die nahtlose Integration mit iTunes und der Music-App, was Kompatibilität und Qualität auf Ihrem iPhone, iPad, Mac und Apple Watch gewährleistet."
     },
     {
-      "icon": "@/assets/yt_feature2.png",
+      "icon": "/images/yt_feature2.png",
       "title": "Überlegene AAC-Audio-Codierung",
       "description": "SoundWise.ai nutzt Advanced Audio Coding (AAC), einen ausgefeilteren Komprimierungsalgorithmus als das MP3-Format. Das bedeutet, Sie erhalten ein reichhaltigeres, detaillierteres Klangerlebnis bei gleichzeitig kleinerer, effizienterer Dateigröße."
     },
     {
-      "icon": "@/assets/yt_feature3.png",
+      "icon": "/images/yt_feature3.png",
       "title": "High-Fidelity Audioerhaltung",
       "description": "Wir laden M4A von YouTube herunter und bewahren dabei die bestmögliche Qualität des Original-Audios. Es gewährleistet ein sauberes, klares und artefaktfreies Hörerlebnis, das der Absicht des Erstellers entspricht."
     },
     {
-      "icon": "@/assets/yt_feature4.png",
+      "icon": "/images/yt_feature4.png",
       "title": "Unbegrenzte & anonyme Konvertierungen",
       "description": "Es gibt keine Grenzen für die Anzahl der Dateien, die Sie konvertieren können. SoundWise.ai ist komplett kostenlos und erfordert keine Registrierung. Ihre Privatsphäre ist geschützt, da wir Ihren Download-Verlauf nicht verfolgen oder speichern."
     },
     {
-      "icon": "@/assets/yt_feature5.png",
+      "icon": "/images/yt_feature5.png",
       "title": "Direktes browserbasiertes Tool",
       "description": "Keine Softwareinstallation erforderlich. Das Online-Tool zur Erstellung von M4A-Dateien funktioniert direkt in Safari, Chrome oder jedem anderen modernen Browser auf Ihrem Computer oder Mobilgerät."
     },
     {
-      "icon": "@/assets/yt_feature6.png",
+      "icon": "/images/yt_feature6.png",
       "title": "Saubere und übersichtliche Oberfläche",
       "description": "Wir bieten ein unkompliziertes, werbefreies Erlebnis. Fügen Sie einfach Ihren Link ein und laden Sie Ihre Datei herunter, ohne sich durch verwirrende Pop-ups oder Menüs navigieren zu müssen."
     }

@@ -505,32 +505,32 @@
   "m4a_featuresConverter": "Características principales para descargar YouTube a M4A",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature1.png",
+      "icon": "/images/yt_feature1.png",
       "title": "Optimizado para el ecosistema Apple",
       "description": "M4A es el formato estándar para audio en dispositivos Apple. Las conversiones de SoundWise.ai son perfectas para integración con iTunes y la app Música, garantizando compatibilidad y calidad en tu iPhone, iPad, Mac y Apple Watch."
     },
     {
-      "icon": "@/assets/yt_feature2.png",
+      "icon": "/images/yt_feature2.png",
       "title": "Codificación de audio AAC superior",
       "description": "SoundWise.ai utiliza Codificación de Audio Avanzada (AAC), un algoritmo de compresión más sofisticado que el formato MP3. Obtienes una experiencia de sonido más rica y detallada con un tamaño de archivo más pequeño y eficiente."
     },
     {
-      "icon": "@/assets/yt_feature3.png",
+      "icon": "/images/yt_feature3.png",
       "title": "Preservación de audio de alta fidelidad",
       "description": "Descargamos M4A de YouTube preservando la máxima fidelidad del audio original. Garantiza una experiencia de escucha limpia, nítida y sin artefactos, fiel a la intención del creador."
     },
     {
-      "icon": "@/assets/yt_feature4.png",
+      "icon": "/images/yt_feature4.png",
       "title": "Conversiones ilimitadas y anónimas",
       "description": "No hay límites en la cantidad de archivos que puedes convertir. SoundWise.ai es completamente gratis y no requiere registro. Tu privacidad está protegida ya que no rastreamos ni almacenamos tu historial de descargas."
     },
     {
-      "icon": "@/assets/yt_feature5.png",
+      "icon": "/images/yt_feature5.png",
       "title": "Herramienta directa en el navegador",
       "description": "No requiere instalación de software. La herramienta en línea para crear archivos M4A funciona directamente en Safari, Chrome o cualquier navegador moderno en tu computadora o móvil."
     },
     {
-      "icon": "@/assets/yt_feature6.png",
+      "icon": "/images/yt_feature6.png",
       "title": "Interfaz limpia y sin distracciones",
       "description": "Ofrecemos una experiencia sencilla y sin anuncios. Solo pega tu enlace y descarga tu archivo, sin navegar por ventanas emergentes o menús confusos."
     }

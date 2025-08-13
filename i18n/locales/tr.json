@@ -505,32 +505,32 @@
   "m4a_featuresConverter": "YouTube'dan M4A İndirme için Temel Özellikler",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature1.png",
+      "icon": "/images/yt_feature1.png",
       "title": "Apple Ekosistemi için Optimize Edilmiş",
       "description": "M4A, Apple cihazları için standart ses formatıdır. SoundWise.ai dönüşümleri, iPhone, iPad, Mac ve Apple Watch'ta uyumluluk ve kaliteyi garanti ederek iTunes ve Music uygulamasıyla sorunsuz entegrasyon sağlar."
     },
     {
-      "icon": "@/assets/yt_feature2.png",
+      "icon": "/images/yt_feature2.png",
       "title": "Üstün AAC Ses Kodlaması",
       "description": "SoundWise.ai, MP3 formatından daha gelişmiş bir sıkıştırma algoritması olan Gelişmiş Ses Kodlamasını (AAC) kullanır. Bu, daha küçük ve daha verimli bir dosya boyutundan yararlanırken daha zengin, daha detaylı bir ses deneyimi elde ettiğiniz anlamına gelir."
     },
     {
-      "icon": "@/assets/yt_feature3.png",
+      "icon": "/images/yt_feature3.png",
       "title": "Yüksek Kaliteli Ses Koruma",
       "description": "YouTube'dan M4A indirirken orijinal kaynak sesinden mümkün olan en yüksek kaliteyi koruyoruz. Bu, yaratıcının niyetine sadık, temiz, net ve bozulma olmayan bir dinleme deneyimi sağlar."
     },
     {
-      "icon": "@/assets/yt_feature4.png",
+      "icon": "/images/yt_feature4.png",
       "title": "Sınırsız ve Anonim Dönüşümler",
       "description": "Kaç dosya dönüştürebileceğiniz konusunda bir sınır yoktur. SoundWise.ai tamamen ücretsizdir ve kayıt gerektirmez. Gizliliğiniz korunur çünkü indirme geçmişinizi takip etmiyor veya saklamıyoruz."
     },
     {
-      "icon": "@/assets/yt_feature5.png",
+      "icon": "/images/yt_feature5.png",
       "title": "Doğrudan Tarayıcı Tabanlı Araç",
       "description": "Yazılım yüklemesi gerekmez. M4A dosyaları oluşturmak için çevrimiçi araç, bilgisayarınızda veya mobil cihazınızda Safari, Chrome veya diğer modern tarayıcılarda doğrudan çalışır."
     },
     {
-      "icon": "@/assets/yt_feature6.png",
+      "icon": "/images/yt_feature6.png",
       "title": "Temiz ve Sade Arayüz",
       "description": "Kafa karıştırıcı açılır pencereler veya menülerle uğraşmadan sadece bağlantınızı yapıştırın ve dosyanızı indirin."
     }

@@ -505,32 +505,32 @@
   "m4a_featuresConverter": "YouTube 轉 M4A 下載的核心功能",
   "m4a_features": [
     {
-      "icon": "@/assets/yt_feature1.png",
+      "icon": "/images/yt_feature1.png",
       "title": "為 Apple 生態系統優化",
       "description": "M4A 是 Apple 設備的標準音頻格式。SoundWise.ai 的轉換完美兼容 iTunes 和 Music 應用，確保在您的 iPhone、iPad、Mac 和 Apple Watch 上的兼容性和質量。"
     },
     {
-      "icon": "@/assets/yt_feature2.png",
+      "icon": "/images/yt_feature2.png",
       "title": "卓越的 AAC 音頻編碼",
       "description": "SoundWise.ai 使用高級音頻編碼 (AAC)，這是一種比 MP3 格式更先進的壓縮算法。這意味著您能獲得更豐富、更細膩的音頻體驗，同時享受更小、更高效的文件體積。"
     },
     {
-      "icon": "@/assets/yt_feature3.png",
+      "icon": "/images/yt_feature3.png",
       "title": "高保真音頻保留",
       "description": "我們從 YouTube 下載 M4A 時會保留原始音源的最高保真度。確保清晰、純淨且無失真的聆聽體驗，忠實呈現創作者的意圖。"
     },
     {
-      "icon": "@/assets/yt_feature4.png",
+      "icon": "/images/yt_feature4.png",
       "title": "無限且匿名的轉換",
       "description": "轉換文件數量沒有限制。SoundWise.ai 完全免費且無需註冊。您的隱私受到保護，我們不會追蹤或存儲您的下載記錄。"
     },
     {
-      "icon": "@/assets/yt_feature5.png",
+      "icon": "/images/yt_feature5.png",
       "title": "直接基於瀏覽器的工具",
       "description": "無需安裝任何軟體。創建 M4A 文件的線上工具可直接在 Safari、Chrome 或任何其他現代瀏覽器中使用，無論是電腦還是移動設備。"
     },
     {
-      "icon": "@/assets/yt_feature6.png",
+      "icon": "/images/yt_feature6.png",
       "title": "簡潔無廣告的界面",
       "description": "我們提供直觀、無廣告的體驗。只需貼上您的連結並下載文件，無需應對繁瑣的彈出窗口或菜單。"
     }
