@@ -23,6 +23,12 @@
     "ogTitle": "Sonsuza Dek Ücretsiz YouTube Transkript Oluşturucu – Kayıt Gerekmez | Youtubetomp4.pro",
     "ogDescription": "Sonsuza dek ücretsiz, kayıt gerekmez ve sınırsız kullanım — YouTube videoları için anında transkript oluşturun. Altyazıları sadece birkaç tıklamayla çıkarın."
   },
+  "m4a_seo": {
+    "title": "Apple Music ve iTunes için YouTube'dan M4A'ya Dönüştürücü",
+    "description": "YouTube videolarını kolayca yüksek kaliteli M4A (AAC) ses dosyalarına dönüştürün. Apple Music ve iTunes arşiviniz için mükemmel format, daha küçük dosya boyutuyla üstün ses kalitesi sunar.",
+    "ogTitle": "Apple Music ve iTunes için YouTube'dan M4A'ya Dönüştürücü",
+    "ogDescription": "YouTube videolarını kolayca yüksek kaliteli M4A (AAC) ses dosyalarına dönüştürün. Apple Music ve iTunes arşiviniz için mükemmel format, daha küçük dosya boyutuyla üstün ses kalitesi sunar."
+  },
   "resource": "Kaynaklar",
   "tools": "Araçlar",
   "comparison": "Comparison",
@@ -357,7 +363,7 @@
   "transcript_mp3Converter": "YouTube MP3 Dönüştürücü",
   "transcript_title": "Anlık YouTube Transkript Oluşturucu",
   "transcript_description": "Herhangi bir YouTube videosunun transkriptini anında alın. Video altyazılarının tam metin dosyasını oluşturmak için URL yapıştırın. Araştırma, içerik oluşturma ve çalışma için mükemmel.",
-  "transcript_timestamp": "Zaman damgalarını göster", 
+  "transcript_timestamp": "Zaman damgalarını göster",
   "transcript_copy": "Kopyala",
   "transcript_download": "Ücretsiz Transkript Al",
   "transcript_tip": "İçerik indirirken lütfen telif haklarını göz önünde bulundurun. Bu araç telif hakkı korumalı müzik indirmek için tasarlanmamıştır.",
@@ -457,5 +463,100 @@
   "transcript_faq5Question": "5. Zaman damgalı transkripti en iyi nasıl kullanabilirim?",
   "transcript_faq5Answer": "Zaman damgalı transkriptler inanılmaz derecede faydalıdır. Video editörleri için belirli bir kelimenin söylendiği tam anı hızlıca bulmalarını sağlar. Araştırmacılar ve öğrenciler için doğru alıntılar oluşturmak için temeldir. Ayrıca zaman damgasına tıklamanın kullanıcıyı videodaki o noktaya yönlendirdiği etkileşimli \"tıklanabilir\" transkriptler oluşturmak için de kullanabilirsiniz.",
   "transcript_faq6Question": "6. Oluşturulan transkriptte bazı hatalar görüyorum. Bunları düzeltebilir misiniz?",
-  "transcript_faq6Answer": "Transkripti doğrudan YouTube verilerinden çıkardığımız için ifade veya noktalamadaki herhangi bir hata kaynak altyazıların kendisinden kaynaklanır. Bunları otomatik olarak düzeltemeyiz. Ancak metni kolayca düzenlenebilir formatta (kopyala-yapıştır veya .txt dosyası) sağlıyoruz böylece herhangi bir düzeltme veya biçimlendirme değişikliğini hızlıca kendiniz yapabilirsiniz."
+  "transcript_faq6Answer": "Transkripti doğrudan YouTube verilerinden çıkardığımız için ifade veya noktalamadaki herhangi bir hata kaynak altyazıların kendisinden kaynaklanır. Bunları otomatik olarak düzeltemeyiz. Ancak metni kolayca düzenlenebilir formatta (kopyala-yapıştır veya .txt dosyası) sağlıyoruz böylece herhangi bir düzeltme veya biçimlendirme değişikliğini hızlıca kendiniz yapabilirsiniz.",
+  "m4a_title": "Yüksek Kaliteli YouTube'dan M4A Dönüştürücü",
+  "m4a_description": "YouTube'dan M4A'ya dönüştürmenin ideal yolu. Daha küçük dosya boyutunda üstün ses kalitesi elde edin, iTunes kütüphaneniz, Apple Music, iPhone ve Mac'iniz için mükemmel.",
+  "m4a_download": "İNDİR",
+  "m4a_tip": "İçerik indirirken lütfen telif hakkına dikkat edin. Bu araç telif hakkı korunan müzikleri indirmek için tasarlanmamıştır.",
+  "m4a_formats": "Tüm Formatlar",
+  "m4a_formatsTip": "Kaydetmek için tıklayın",
+  "m4a_howToConvertTitle": "YouTube'dan Müzik Kütüphanenize 3 Adımda",
+  "m4a_howToConvertDescription": "Apple ekosistemi için tasarlanmış sorunsuz bir süreç, tek ihtiyacınız olan güvenilir bir YouTube'dan M4A indirici.",
+  "m4a_step": "Adım",
+  "m4a_copyUrl": "**YouTube Video Bağlantısını Kopyala** \n İstediğiniz sesi içeren YouTube videosunu bulun. Tarayıcınızdan tam URL'yi kopyalayın.",
+  "m4a_clickDownload": "**M4A Dönüştürücüye Yapıştır** \n SoundWise.ai'ye geri dönün ve bağlantıyı dönüştürme kutusuna yapıştırın. Yüksek kaliteli ses akışını hazırlayacaktır.",
+  "m4a_saveVideo": "**İndir ve Apple Kütüphanene Ekle** \n \"İndir\" butonuna tıklayarak dosya listesini alın ve M4A olarak indirmek için tıklayın. Ardından, M4A dosyasını Mac'inizdeki Music uygulamasına veya PC'nizdeki iTunes'a sürükleyip bırakarak cihazlarınızla senkronize edin.",
+  "m4a_reviews": [
+    {
+      "text": "Favori videolarımı kaydetmek için mükemmel! Hızlı indirme ve kullanımı çok basit. Kayıt gerekmiyor.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Bu araç harika! Çeşitli formatlarda video indirmenin bu kadar kolay olmasına bayılıyorum.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Bunu aylardır kullanıyorum ve her zaman mükemmel çalışıyor.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Hızlı ve güvenilir. En iyi video indirici!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Kullanımı kolay ve içerik kaydetmek için çok etkili.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Şiddetle tavsiye ederim! Tüm videolarımda kusursuz çalışıyor.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "m4a_featuresConverter": "YouTube'dan M4A İndirme için Temel Özellikler",
+  "m4a_features": [
+    {
+      "icon": "@/assets/yt_feature1.png",
+      "title": "Apple Ekosistemi için Optimize Edilmiş",
+      "description": "M4A, Apple cihazları için standart ses formatıdır. SoundWise.ai dönüşümleri, iPhone, iPad, Mac ve Apple Watch'ta uyumluluk ve kaliteyi garanti ederek iTunes ve Music uygulamasıyla sorunsuz entegrasyon sağlar."
+    },
+    {
+      "icon": "@/assets/yt_feature2.png",
+      "title": "Üstün AAC Ses Kodlaması",
+      "description": "SoundWise.ai, MP3 formatından daha gelişmiş bir sıkıştırma algoritması olan Gelişmiş Ses Kodlamasını (AAC) kullanır. Bu, daha küçük ve daha verimli bir dosya boyutundan yararlanırken daha zengin, daha detaylı bir ses deneyimi elde ettiğiniz anlamına gelir."
+    },
+    {
+      "icon": "@/assets/yt_feature3.png",
+      "title": "Yüksek Kaliteli Ses Koruma",
+      "description": "YouTube'dan M4A indirirken orijinal kaynak sesinden mümkün olan en yüksek kaliteyi koruyoruz. Bu, yaratıcının niyetine sadık, temiz, net ve bozulma olmayan bir dinleme deneyimi sağlar."
+    },
+    {
+      "icon": "@/assets/yt_feature4.png",
+      "title": "Sınırsız ve Anonim Dönüşümler",
+      "description": "Kaç dosya dönüştürebileceğiniz konusunda bir sınır yoktur. SoundWise.ai tamamen ücretsizdir ve kayıt gerektirmez. Gizliliğiniz korunur çünkü indirme geçmişinizi takip etmiyor veya saklamıyoruz."
+    },
+    {
+      "icon": "@/assets/yt_feature5.png",
+      "title": "Doğrudan Tarayıcı Tabanlı Araç",
+      "description": "Yazılım yüklemesi gerekmez. M4A dosyaları oluşturmak için çevrimiçi araç, bilgisayarınızda veya mobil cihazınızda Safari, Chrome veya diğer modern tarayıcılarda doğrudan çalışır."
+    },
+    {
+      "icon": "@/assets/yt_feature6.png",
+      "title": "Temiz ve Sade Arayüz",
+      "description": "Kafa karıştırıcı açılır pencereler veya menülerle uğraşmadan sadece bağlantınızı yapıştırın ve dosyanızı indirin."
+    }
+  ],
+  "m4a_downloadNow": "Hemen İndir >>",
+  "m4a_benefitsTitle": "Kişisel Ses Koleksiyonunuzu Geliştirin",
+  "m4a_benefitsConvenienceTitle": "Titiz iTunes Küratörleri İçin",
+  "m4a_benefitsConvenienceDescription": "Müzik kütüphanenizi düzenlemek için saatler harcıyorsunuz. Düşük kaliteli formatlarla yetinmeyin. YouTube'dan M4A'ya dönüştürerek nadir canlı performansları, B yüzlerini veya özel remiksleri yüksek kaliteli ses ve mükemmel uyumlulukla kütüphanenize ekleyin.",
+  "m4a_benefitsAvoidAdsTitle": "iPhone ve iPad Depolama Alanınızı Maksimize Etmek İçin",
+  "m4a_benefitsAvoidAdsDescription": "Uzun bir yolculuk için iPhone'unuza saatlerce podcast ve sesli kitap yüklemek ister misiniz? M4A'nın verimli dosya boyutu, ses kalitesinden ödün vermeden önemli ölçüde daha fazla içerik depolayabileceğiniz anlamına gelir, böylece fotoğraflarınız, uygulamalarınız ve videolarınız için daha değerli alan kalır.",
+  "m4a_benefitsSaveDataTitle": "Hareket Halindeki Modern Audiophile'lar İçin",
+  "m4a_benefitsSaveDataDescription": "Sesin nüanslarını takdir ediyorsunuz. AAC'nin MP3'ten daha temiz bir ses sahnesi sunan daha gelişmiş bir codec olduğunu biliyorsunuz. SoundWise.ai'yi kullanarak YouTube ses kaynaklarından yüksek kaliteli M4A dosyaları oluşturun ve yüksek kaliteli kulaklıklarınızda ve hoparlörlerinizde üstün bir dinleme deneyimi yaşayın.",
+  "m4a_faqTitle": "Derinlemesine M4A Sorularınız, Cevaplar",
+  "m4a_faq1Question": "1. M4A dosyası tam olarak nedir ve neden MP3'ten daha iyidir?",
+  "m4a_faq1Answer": "M4A, tipik olarak MP3 formatından daha modern ve verimli bir sıkıştırma algoritması olan Gelişmiş Ses Kodlamasını (AAC) kullanan bir ses dosyası kabıdır. Ana avantajı, aynı dosya boyutu için M4A/AAC'nin genellikle daha fazla netlik ve detayla daha iyi ses kalitesi sunmasıdır. Apple'ın iTunes Store ve Apple Music için bu nedenle kullandığı standart formattır.",
+  "m4a_faq2Question": "2. M4A dosyaları Windows PC veya Android telefon gibi Apple olmayan cihazlarda çalışacak mı?",
+  "m4a_faq2Answer": "Evet, çoğu durumda çalışacaktır. Windows'taki (VLC, Windows Media Player gibi) ve Android'deki çoğu modern medya oynatıcı M4A dosyalarını yerel olarak destekler. Ancak, geniş çapta uyumlu olsalar da, Apple ekosistemi için yerel, varsayılan formattır ve bu cihazlarda en sorunsuz deneyimi garanti eder.",
+  "m4a_faq3Question": "3. M4A'ya dönüştürmek aslında orijinal YouTube ses kalitesini iyileştirir mi?",
+  "m4a_faq3Answer": "Harika soru. Hiçbir dönüştürücü orijinal kaynakta olmayan kaliteyi yaratamaz. SoundWise.ai, YouTube'un sağladığı en yüksek kaliteli ses akışını sadakatle yakalar. M4A'ya dönüştürmenin avantajı, bu kaliteyi MP3'e kıyasla daha küçük bir dosyada korumak için daha verimli bir kodlama yöntemi (AAC) kullanmasıdır. Kaynak sesin mümkün olan en iyi versiyonunu üstün bir formatta elde edersiniz.",
+  "m4a_faq4Question": "4. İndirilen M4A dosyasını iPhone'un Music uygulamasına nasıl aktarırım?",
+  "m4a_faq4Answer": "En kolay yol bir bilgisayar kullanmaktır. Önce M4A dosyasını Mac'inize veya Windows PC'nize indirin. Mac'te \"Music\" uygulamasını açın ve M4A dosyasını kütüphane penceresine sürükleyip bırakın. Windows PC'de \"iTunes\" uygulamasıyla aynısını yapın. Kütüphanenize eklendikten sonra, iPhone'unuzu bilgisayarınızla senkronize edin ve parça Music uygulamanızda görünecektir.",
+  "m4a_faq5Question": "5. M4A formatı 'kayıpsız' ses olarak kabul edilir mi?",
+  "m4a_faq5Answer": "Hayır, AAC kodlaması kullanan standart M4A dosyaları, tıpkı MP3 gibi 'kayıplı' bir formattır. Bu, dosya boyutunu küçültmek için bazı ses verilerinin atıldığı anlamına gelir. Ancak, AAC daha gelişmiş kabul edilir, bu nedenle benzer bit hızlarında daha iyi ses verir. Apple'ın ALAC (Apple Lossless Audio Codec) adında .m4a uzantısını da kullanan kendi kayıpsız formatı vardır, ancak YouTube'un kaynak sesi kayıpsız değildir, bu nedenle dönüştürme standart, yüksek kaliteli AAC formatında olacaktır.",
+  "m4a_faq6Question": "6. Doğru YouTube'dan M4A dönüştürücüyü nasıl seçerim?",
+  "m4a_faq6Answer": "Eğer bir Apple kullanıcısıysanız, ses kalitesine öncelik veriyorsanız veya depolama alanından tasarruf etmek istiyorsanız doğru YouTube'dan M4A dönüştürücüyü seçin. Müzik kütüphanenizle mükemmel şekilde entegre olan, karşılaştırılabilir boyutta daha iyi ses veren ve cihazlarınızda daha fazla depolamanıza izin veren bir dosya elde edersiniz.",
+  "m4a_seo_title": "Yüksek Kaliteli YouTube'dan M4A Dönüştürücü",
+  "m4a_seo_description": "YouTube'dan M4A'ya dönüştürmenin ideal yolu. Daha küçük dosya boyutunda üstün ses kalitesi elde edin, iTunes kütüphaneniz, Apple Music, iPhone ve Mac'iniz için mükemmel.",
+  "youtube2m4a": "Yüksek Kaliteli YouTube'dan M4A Dönüştürücü"
 }

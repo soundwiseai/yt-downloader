@@ -27,7 +27,9 @@ export default defineNuxtConfig({
       { code: 'th', name: 'ไทย', file: 'th.json' },
       { code: 'tr', name: 'Türkçe', file: 'tr.json' },
       { code: 'vi', name: 'Tiếng Việt', file: 'vi.json' },
-      { code: 'zh-TW', name: '繁體中文', file: 'zh-TW.json' }
+      { code: 'zh-TW', name: '繁體中文', file: 'zh-TW.json' },
+      { code: 'zh-CN', name: '简体中文', file: 'zh-CN.json' },
+      { code: 'ru', name: 'Русский', file: 'ru.json' }
     ]
   },
   nitro: {
@@ -37,7 +39,7 @@ export default defineNuxtConfig({
         const sites = require('./sites').default;
         const locales = [
           'en', 'ar', 'de', 'es', 'es-419', 'fr', 'hi', 'id', 'it',
-          'ja', 'ko', 'pt', 'pt-br', 'th', 'tr', 'vi', 'zh-TW'
+          'ja', 'ko', 'pt', 'pt-br', 'th', 'tr', 'vi', 'zh-TW', 'zh-CN', 'ru'
         ];
         
         // 生成所有语言的根路径

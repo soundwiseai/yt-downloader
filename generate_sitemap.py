@@ -5,7 +5,7 @@ import json
 BASE_URL = 'https://youtubetomp4.pro'
 
 # 支持的语言
-SUPPORTED_LOCALES = ['en', 'es', 'es-419', 'ar', 'hi', 'pt', 'pt-br', 'ko', 'ja', 'zh-TW', 'id', 'th', 'vi', 'tr', 'fr', 'it', 'de']
+SUPPORTED_LOCALES = ['en', 'es', 'es-419', 'ar', 'hi', 'pt', 'pt-br', 'ko', 'ja', 'zh-TW', 'zh-CN', 'ru', 'id', 'th', 'vi', 'tr', 'fr', 'it', 'de']
 
 # 从 sites.ts 读取站点配置
 def read_sites_config():
@@ -25,8 +25,13 @@ def read_sites_config():
         array_content = content[start:end]
         # 将单引号替换为双引号，以符合 JSON 格式
         array_content = array_content.replace("'", '"')
+        # 为对象的键添加引号 (name, i18n, seo, url, header, footer)
+        import re
+        array_content = re.sub(r'(\w+):', r'"\1":', array_content)
+        # 修复布尔值
+        array_content = array_content.replace('true', 'true').replace('false', 'false')
         # 删除尾随逗号
-        array_content = array_content.replace(',\n]', '\n]')
+        array_content = re.sub(r',(\s*[}\]])', r'\1', array_content)
         
         # 解析为 Python 对象
         sites = json.loads(array_content)
@@ -54,16 +59,22 @@ def generate_sitemap(static_dir='public'):
     <loc>{BASE_URL}</loc>
     <lastmod>{lastmod}</lastmod>
   </url>""",
-        f"""  <url>
-    <loc>{BASE_URL}/privacy-policy</loc>
-    <lastmod>{lastmod}</lastmod>
-  </url>""",
-        f"""  <url>
-    <loc>{BASE_URL}/teamof-server</loc>
-    <lastmod>{lastmod}</lastmod>
-  </url>""",
     ]
+    
+    # Add English pages without /en prefix (except homepage which is already added)
+    for url in URLS:
+        if url:  # Skip empty string (homepage)
+            loc = f"{BASE_URL}{url}"
+            sitemap_urls.append(f"""  <url>
+    <loc>{loc}</loc>
+    <lastmod>{lastmod}</lastmod>
+  </url>""")
+    
+    # Add other language pages with locale prefix
     for locale in SUPPORTED_LOCALES:
+        # Skip /en URLs since they redirect to /
+        if locale == 'en':
+            continue
         for url in URLS:
             loc = f"{BASE_URL}/{locale}{url}"
             sitemap_urls.append(f"""  <url>

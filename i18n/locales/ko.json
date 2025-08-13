@@ -23,6 +23,12 @@
     "ogTitle": "영원히 무료 YouTube 자막 생성기 – 가입 불필요 | Youtubetomp4.pro",
     "ogDescription": "영구 무료, 가입 없이 무제한 사용 — 온라인 도구로 YouTube 영상 자막을 즉시 생성하세요. 몇 번의 클릭으로 자막을 추출할 수 있습니다."
   },
+  "m4a_seo": {
+    "title": "Apple Music 및 iTunes용 YouTube M4A 변환기",
+    "description": "유튜브 동영상을 고품질 M4A (AAC) 오디오 파일로 쉽게 변환하세요. 더 작은 파일 크기로 우수한 사운드를 제공하여 Apple Music 및 iTunes 보관함에 가장 완벽한 포맷입니다.",
+    "ogTitle": "Apple Music 및 iTunes용 YouTube M4A 변환기",
+    "ogDescription": "유튜브 동영상을 고품질 M4A (AAC) 오디오 파일로 쉽게 변환하세요. 더 작은 파일 크기로 우수한 사운드를 제공하여 Apple Music 및 iTunes 보관함에 가장 완벽한 포맷입니다."
+  },
   "resource": "자료실",
   "tools": "도구",
   "comparison": "Comparison",
@@ -357,7 +363,7 @@
   "transcript_mp3Converter": "YouTube MP3 변환기",
   "transcript_title": "즉석 YouTube 대본 생성기",
   "transcript_description": "모든 YouTube 동영상의 대본을 즉시 가져오세요. URL을 붙여넣어 동영상 자막의 완전한 텍스트 파일을 생성합니다. 연구, 콘텐츠 제작, 학습에 완벽합니다.",
-  "transcript_timestamp": "시간 표시 보기", 
+  "transcript_timestamp": "시간 표시 보기",
   "transcript_copy": "복사",
   "transcript_download": "무료 대본 받기",
   "transcript_tip": "콘텐츠를 다운로드할 때 저작권을 주의하세요. 이 도구는 저작권 보호 음악 다운로드용으로 설계되지 않았습니다.",
@@ -457,5 +463,100 @@
   "transcript_faq5Question": "5. 타임스탬프가 있는 대본을 가장 잘 사용하는 방법은 무엇인가요?",
   "transcript_faq5Answer": "타임스탬프가 있는 대본은 매우 유용합니다. 동영상 편집자에게는 특정 단어가 말해진 정확한 순간을 빠르게 찾을 수 있게 해줍니다. 연구자와 학생에게는 정확한 인용을 생성하는 데 필수적입니다. 타임스탬프를 클릭하면 사용자를 동영상의 해당 지점으로 이동시키는 상호작용 \"클릭 가능한\" 대본을 만드는 데도 사용할 수 있습니다.",
   "transcript_faq6Question": "6. 생성된 대본에 몇 가지 오류가 보입니다. 수정해주실 수 있나요?",
-  "transcript_faq6Answer": "우리는 YouTube 데이터에서 직접 대본을 추출하므로 문구나 구두점의 오류는 소스 자막 자체에서 발생합니다. 자동으로 수정할 수 없습니다. 하지만 편집하기 쉬운 형식(복사-붙여넣기 또는 .txt 파일)으로 텍스트를 제공하므로 수정이나 서식 변경을 빠르게 직접 할 수 있습니다."
+  "transcript_faq6Answer": "우리는 YouTube 데이터에서 직접 대본을 추출하므로 문구나 구두점의 오류는 소스 자막 자체에서 발생합니다. 자동으로 수정할 수 없습니다. 하지만 편집하기 쉬운 형식(복사-붙여넣기 또는 .txt 파일)으로 텍스트를 제공하므로 수정이나 서식 변경을 빠르게 직접 할 수 있습니다.",
+  "m4a_title": "고음질 유튜브 M4A 변환기",
+  "m4a_description": "유튜브를 M4A로 변환하는 가장 이상적인 방법입니다. 더 작은 파일 크기로 우수한 오디오 품질을 얻을 수 있으며, iTunes 라이브러리, Apple Music, iPhone 및 Mac에 완벽하게 적합합니다.",
+  "m4a_download": "다운로드",
+  "m4a_tip": "콘텐츠를 다운로드할 때 저작권에 유의해 주세요. 이 도구는 저작권이 있는 음악을 다운로드하기 위해 설계되지 않았습니다.",
+  "m4a_formats": "모든 형식",
+  "m4a_formatsTip": "저장하려면 클릭",
+  "m4a_howToConvertTitle": "3단계로 유튜브 음악을 라이브러리에 추가",
+  "m4a_howToConvertDescription": "Apple 생태계를 위해 설계된 원활한 프로세스로, 신뢰할 수 있는 유튜브 M4A 다운로더만 있으면 됩니다.",
+  "m4a_step": "단계",
+  "m4a_copyUrl": "<strong>유튜브 동영상 링크 복사</strong>\n원하는 오디오가 포함된 유튜브 동영상을 찾으세요. 브라우저에서 전체 URL을 복사합니다.",
+  "m4a_clickDownload": "<strong>M4A 변환기에 붙여넣기</strong>\nSoundWise.ai로 돌아가 링크를 변환 상자에 붙여넣습니다. 고음질 오디오 스트림을 준비합니다.",
+  "m4a_saveVideo": "<strong>다운로드 및 Apple 라이브러리에 추가</strong>\n\\",
+  "m4a_reviews": [
+    {
+      "text": "좋아하는 동영상을 저장하기에 완벽합니다! 빠른 다운로드와 사용이 매우 간편합니다. 회원가입 불필요.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "이 도구는 훌륭합니다! 다양한 형식으로 동영상을 쉽게 다운로드할 수 있어 좋습니다.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "몇 달 동안 사용해왔는데 항상 완벽하게 작동합니다.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "빠르고 안정적입니다. 최고의 동영상 다운로더!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "사용하기 쉽고 콘텐츠 저장에 매우 효과적입니다.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "적극 추천합니다! 모든 동영상에서 완벽하게 작동합니다.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "m4a_featuresConverter": "유튜브 M4A 다운로드의 핵심 기능",
+  "m4a_features": [
+    {
+      "icon": "@/assets/yt_feature.png",
+      "title": "Apple 생태계 최적화",
+      "description": "M4A는 Apple 기기의 표준 오디오 형식입니다. SoundWise.ai 변환은 iTunes 및 Music 앱과 완벽하게 통합되어 iPhone, iPad, Mac 및 Apple Watch에서 호환성과 품질을 보장합니다."
+    },
+    {
+      "icon": "@/assets/yt_feature.png",
+      "title": "우수한 AAC 오디오 인코딩",
+      "description": "SoundWise.ai는 MP3 형식보다 더 정교한 압축 알고리즘인 고급 오디오 코딩(AAC)을 사용합니다. 이는 더 작고 효율적인 파일 크기로 더 풍부하고 디테일한 사운드 경험을 제공합니다."
+    },
+    {
+      "icon": "@/assets/yt_feature.png",
+      "title": "고음질 오디오 보존",
+      "description": "우리는 유튜브에서 M4A를 다운로드할 때 원본 소스 오디오의 최고 충실도를 유지합니다. 깨끗하고 선명하며 잡음 없는 청취 경험을 보장하여 창작자의 의도를 정확히 전달합니다."
+    },
+    {
+      "icon": "@/assets/yt_feature.png",
+      "title": "무제한 및 익명 변환",
+      "description": "변환할 파일 수에 제한이 없습니다. SoundWise.ai는 완전히 무료이며 회원가입이 필요하지 않습니다. 다운로드 기록을 추적하거나 저장하지 않으므로 개인정보가 보호됩니다."
+    },
+    {
+      "icon": "@/assets/yt_feature.png",
+      "title": "직접 브라우저 기반 도구",
+      "description": "소프트웨어 설치가 필요 없습니다. M4A 파일을 생성하는 온라인 도구는 컴퓨터나 모바일 기기의 Safari, Chrome 또는 기타 최신 브라우저에서 직접 작동합니다."
+    },
+    {
+      "icon": "@/assets/yt_feature.png",
+      "title": "깔끔하고 간결한 인터페이스",
+      "description": "직관적이고 광고 없는 경험을 제공합니다. 혼란스러운 팝업이나 메뉴를 탐색할 필요 없이 링크를 붙여넣고 파일을 다운로드하기만 하면 됩니다."
+    }
+  ],
+  "m4a_downloadNow": "지금 다운로드 >>",
+  "m4a_benefitsTitle": "개인 오디오 컬렉션 업그레이드",
+  "m4a_benefitsConvenienceTitle": "꼼꼼한 iTunes 큐레이터를 위해",
+  "m4a_benefitsConvenienceDescription": "Music 라이브러리를 정리하는 데 몇 시간을 보냅니다. 품질이 낮은 형식으로 타협하지 마세요. YouTube를 M4A로 변환하여 희귀한 라이브 트랙, B-side 또는 독점 리믹스를 큐레이션된 라이브러리에 걸맞는 고품질 오디오와 완벽한 호환성으로 추가하세요.",
+  "m4a_benefitsAvoidAdsTitle": "iPhone 및 iPad 저장 공간 최대화",
+  "m4a_benefitsAvoidAdsDescription": "긴 여행을 위해 iPhone에 몇 시간 분량의 팟캐스트와 오디오북을 로드하고 싶으신가요? M4A의 효율적인 파일 크기는 오디오 품질을 희생하지 않고도 훨씬 더 많은 콘텐츠를 저장할 수 있어 사진, 앱 및 비디오를 위한 더 많은 공간을 남겨둡니다.",
+  "m4a_benefitsSaveDataTitle": "이동 중인 현대 오디오 애호가를 위해",
+  "m4a_benefitsSaveDataDescription": "당신은 사운드의 뉘앙스를 알아봅니다. AAC가 MP3보다 더 깨끗한 사운드스테이지를 제공하는 고급 코덱이라는 것을 알고 있습니다. SoundWise.ai를 사용하여 YouTube 오디오 소스에서 고충실도 M4A 파일을 생성하고 고품질 헤드폰과 스피커에서 우수한 청취 경험을 즐기세요.",
+  "m4a_faqTitle": "M4A에 대한 심층 질문 답변",
+  "m4a_faq1Question": "1. M4A 파일이 정확히 무엇이며 MP3보다 왜 더 좋은가요?",
+  "m4a_faq1Answer": "M4A는 일반적으로 고급 오디오 코딩(AAC)을 사용하는 오디오 파일 컨테이너로, MP3 형식보다 더 현대적이고 효율적인 압축 알고리즘입니다. 주요 장점은 동일한 파일 크기에 대해 M4A/AAC가 일반적으로 더 선명하고 디테일한 오디오 품질을 제공한다는 것입니다. 이 때문에 Apple이 iTunes Store 및 Apple Music에서 사용하는 표준 형식입니다.",
+  "m4a_faq2Question": "2. M4A 파일은 Windows PC나 Android 휴대폰과 같은 비 Apple 기기에서 작동하나요?",
+  "m4a_faq2Answer": "대부분의 경우 작동합니다. Windows(예: VLC, Windows Media Player) 및 Android의 대부분의 최신 미디어 플레이어는 M4A 파일을 기본적으로 지원합니다. 그러나 널리 호환되지만 Apple 생태계의 기본 형식이므로 해당 기기에서 가장 원활한 경험을 보장합니다.",
+  "m4a_faq3Question": "3. M4A로 변환하면 실제로 원본 유튜브 오디오 품질이 개선되나요?",
+  "m4a_faq3Answer": "좋은 질문입니다. 어떤 변환기도 원본 소스에 없던 품질을 만들 수 없습니다. SoundWise.ai는 유튜브가 제공하는 최고 품질의 오디오 스트림을 충실히 캡처합니다. M4A로 변환하는 장점은 MP3에 비해 더 효율적인 인코딩 방법(AAC)을 사용하여 더 작은 파일에서 해당 품질을 유지한다는 것입니다. 우수한 형식으로 원본 오디오의 최상의 버전을 얻을 수 있습니다.",
+  "m4a_faq4Question": "4. 다운로드한 M4A 파일을 iPhone의 Music 앱에 어떻게 넣나요?",
+  "m4a_faq4Answer": "가장 쉬운 방법은 컴퓨터를 사용하는 것입니다. 먼저 M4A 파일을 Mac 또는 Windows PC에 다운로드합니다. Mac에서는 \\",
+  "m4a_faq5Question": "5. M4A 형식은 '무손실' 오디오로 간주되나요?",
+  "m4a_faq5Answer": "아니요, AAC 인코딩을 사용하는 표준 M4A 파일은 MP3와 마찬가지로 '손실' 형식입니다. 이는 파일 크기를 줄이기 위해 일부 오디오 데이터가 삭제된다는 것을 의미합니다. 그러나 AAC는 더 진보된 것으로 간주되므로 유사한 비트레이트에서 더 나은 사운드를 제공합니다. Apple은 .m4a 확장자를 사용하는 자체 무손실 형식인 ALAC(Apple Lossless Audio Codec)을 가지고 있지만, 유튜브의 소스 오디오는 무손실이 아니므로 변환은 표준 고품질 AAC 형식으로 이루어집니다.",
+  "m4a_faq6Question": "6. 적합한 유튜브 M4A 변환기를 선택하는 방법은 무엇인가요?",
+  "m4a_faq6Answer": "Apple 사용자이거나 오디오 품질을 우선시하거나 저장 공간을 절약하려는 경우 적합한 유튜브 M4A 변환기를 선택하세요. Music 라이브러리와 완벽하게 통합되고, 비슷한 크기에서 더 나은 사운드를 제공하며, 기기에 더 많은 콘텐츠를 저장할 수 있는 파일을 얻을 수 있습니다.",
+  "m4a_seo_title": "고음질 유튜브 M4A 변환기",
+  "m4a_seo_description": "유튜브를 M4A로 변환하는 가장 이상적인 방법입니다. 더 작은 파일 크기로 우수한 오디오 품질을 얻을 수 있으며, iTunes 라이브러리, Apple Music, iPhone 및 Mac에 완벽하게 적합합니다.",
+  "youtube2m4a": "고음질 유튜브 M4A 변환기"
 }

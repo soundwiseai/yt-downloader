@@ -19,7 +19,9 @@ const SUPPORTED_LOCALES = [
   { code: 'th', lang: 'th' },
   { code: 'tr', lang: 'tr' },
   { code: 'vi', lang: 'vi' },
-  { code: 'zh-TW', lang: 'zh-Hant' }
+  { code: 'zh-TW', lang: 'zh-Hant' },
+  { code: 'zh-CN', lang: 'zh-Hans' },
+  { code: 'ru', lang: 'ru' }
 ]
 
 export const usePageSeo = () => {

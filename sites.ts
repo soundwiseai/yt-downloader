@@ -26,7 +26,7 @@ export default [
         i18n: 'mp3',
         seo: 'mp3_seo',
         url: '/youtube-to-mp3',
-        header: true,
+        header: false,
         footer: true
     },
     {
@@ -34,6 +34,14 @@ export default [
         i18n: 'transcript',
         seo: 'transcript_seo',
         url: '/youtube-transcript-generator',
+        header: true,
+        footer: true
+    },
+    {
+        name: 'youtube2m4a',
+        i18n: 'm4a',
+        seo: 'm4a_seo',
+        url: '/youtube-to-m4a',
         header: false,
         footer: true
     }

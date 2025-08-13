@@ -23,6 +23,12 @@
     "ogTitle": "Generator Transkrip YouTube Gratis Selamanya – Tanpa Daftar | Youtubetomp4.pro",
     "ogDescription": "Gratis selamanya, tanpa perlu daftar, dan penggunaan tak terbatas — langsung buat transkrip video YouTube dengan alat online kami. Ekstrak subtitle hanya dalam beberapa klik."
   },
+  "m4a_seo": {
+    "title": "Konverter YouTube ke M4A untuk Apple Music & iTunes",
+    "description": "Ubah video YouTube dengan mudah menjadi file audio M4A (AAC) berkualitas tinggi. Format yang sempurna untuk perpustakaan Apple Music & iTunes Anda, menawarkan suara superior dengan ukuran file lebih kecil.",
+    "ogTitle": "Konverter YouTube ke M4A untuk Apple Music & iTunes",
+    "ogDescription": "Ubah video YouTube dengan mudah menjadi file audio M4A (AAC) berkualitas tinggi. Format yang sempurna untuk perpustakaan Apple Music & iTunes Anda, menawarkan suara superior dengan ukuran file lebih kecil."
+  },
   "resource": "Sumber Daya",
   "tools": "Alat",
   "comparison": "Comparison",
@@ -357,7 +363,7 @@
   "transcript_mp3Converter": "YouTube ke MP3 Converter",
   "transcript_title": "Generator Transkrip YouTube Instan",
   "transcript_description": "Dapatkan transkrip dari video YouTube mana pun secara instan. Tempel URL untuk menghasilkan file teks lengkap dari caption video. Sempurna untuk penelitian, pembuatan konten, dan belajar.",
-  "transcript_timestamp": "Tampilkan cap waktu", 
+  "transcript_timestamp": "Tampilkan cap waktu",
   "transcript_copy": "Salin",
   "transcript_download": "Dapatkan Transkrip Gratis",
   "transcript_tip": "Harap perhatikan hak cipta saat mengunduh konten. Alat ini tidak dirancang untuk mengunduh musik berlisensi.",
@@ -457,5 +463,100 @@
   "transcript_faq5Question": "5. Bagaimana saya bisa menggunakan transkrip dengan timestamp dengan baik?",
   "transcript_faq5Answer": "Transkrip dengan timestamp sangat berguna. Untuk editor video, mereka memungkinkan Anda dengan cepat menemukan momen tepat ketika kata tertentu diucapkan. Untuk peneliti dan siswa, mereka penting untuk membuat kutipan yang akurat. Anda juga dapat menggunakannya untuk membuat transkrip interaktif \"dapat diklik\" di mana mengklik timestamp mengarahkan pengguna ke titik tersebut dalam video.",
   "transcript_faq6Question": "6. Saya melihat beberapa kesalahan dalam transkrip yang dihasilkan. Bisakah Anda memperbaikinya?",
-  "transcript_faq6Answer": "Karena kami mengekstrak transkrip langsung dari data YouTube, setiap kesalahan dalam kata-kata atau tanda baca berasal dari caption sumber itu sendiri. Kami tidak dapat memperbaikinya secara otomatis. Namun, kami menyediakan teks dalam format yang mudah diedit (copy-paste atau file .txt) sehingga Anda dapat dengan cepat melakukan koreksi atau perubahan format sendiri."
+  "transcript_faq6Answer": "Karena kami mengekstrak transkrip langsung dari data YouTube, setiap kesalahan dalam kata-kata atau tanda baca berasal dari caption sumber itu sendiri. Kami tidak dapat memperbaikinya secara otomatis. Namun, kami menyediakan teks dalam format yang mudah diedit (copy-paste atau file .txt) sehingga Anda dapat dengan cepat melakukan koreksi atau perubahan format sendiri.",
+  "m4a_title": "हाई-फिडेलिटी YouTube से M4A कन्वर्टर",
+  "m4a_description": "YouTube को M4A में बदलने का आदर्श तरीका। अपनी iTunes लाइब्रेरी, Apple Music, iPhone और Mac के लिए बेहतर ऑडियो क्वालिटी छोटे फाइल आकार में प्राप्त करें।",
+  "m4a_download": "डाउनलोड",
+  "m4a_tip": "कॉपीराइट सामग्री डाउनलोड करते समय सावधान रहें। यह टूल कॉपीराइटेड संगीत डाउनलोड करने के लिए नहीं बनाया गया है।",
+  "m4a_formats": "सभी फॉर्मेट",
+  "m4a_formatsTip": "सेव करने के लिए क्लिक करें",
+  "m4a_howToConvertTitle": "YouTube से आपकी म्यूजिक लाइब्रेरी तक सिर्फ 3 चरणों में",
+  "m4a_howToConvertDescription": "Apple इकोसिस्टम के लिए डिज़ाइन की गई एक सहज प्रक्रिया, आपको बस एक विश्वसनीय YouTube से M4A डाउनलोडर की आवश्यकता है।",
+  "m4a_step": "चरण",
+  "m4a_copyUrl": "**YouTube वीडियो लिंक कॉपी करें** \n वह YouTube वीडियो ढूंढें जिसमें आपको वांछित ऑडियो मिले। अपने ब्राउज़र से पूरा URL कॉपी करें।",
+  "m4a_clickDownload": "**इसे M4A कन्वर्टर में पेस्ट करें** \n SoundWise.ai पर वापस आएं और लिंक को कन्वर्ज़न बॉक्स में पेस्ट करें। यह हाई-फिडेलिटी ऑडियो स्ट्रीम तैयार करेगा।",
+  "m4a_saveVideo": "**डाउनलोड करें और अपनी Apple लाइब्रेरी में जोड़ें** \n \"डाउनलोड\" पर क्लिक करें और M4A में डाउनलोड करने के लिए फाइल सूची पर क्लिक करें। फिर, बस M4A फाइल को अपने Mac पर Music ऐप या PC पर iTunes में ड्रैग और ड्रॉप करें ताकि यह आपके डिवाइस के साथ सिंक हो जाए।",
+  "m4a_reviews": [
+    {
+      "text": "मेरे पसंदीदा वीडियो सेव करने के लिए बिल्कुल सही! तेज डाउनलोड और उपयोग में बहुत आसान। रजिस्ट्रेशन की जरूरत नहीं।",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "यह टूल बहुत अच्छा है! मुझे पसंद है कि यह विभिन्न फॉर्मेट में वीडियो डाउनलोड करना कितना आसान बनाता है।",
+      "author": "John_Doe"
+    },
+    {
+      "text": "मैं महीनों से इसका उपयोग कर रहा हूं, और यह हमेशा बिल्कुल सही काम करता है।",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "तेज और विश्वसनीय। सबसे अच्छा वीडियो डाउनलोडर!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "उपयोग में आसान और सामग्री सेव करने के लिए बहुत प्रभावी।",
+      "author": "David_Lee"
+    },
+    {
+      "text": "अत्यधिक अनुशंसित! मेरे सभी वीडियो के लिए निर्दोष रूप से काम करता है।",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "m4a_featuresConverter": "YouTube से M4A डाउनलोड के लिए मुख्य विशेषताएं",
+  "m4a_features": [
+    {
+      "icon": "@/assets/yt_feature1.png",
+      "title": "Apple इकोसिस्टम के लिए ऑप्टिमाइज़्ड",
+      "description": "M4A Apple डिवाइस पर ऑडियो के लिए स्टैंडर्ड फॉर्मेट है। SoundWise.ai कन्वर्ज़न iTunes और Music ऐप के साथ सहज एकीकरण के लिए बिल्कुल सही हैं, जो आपके iPhone, iPad, Mac और Apple Watch पर कम्पेटिबिलिटी और क्वालिटी सुनिश्चित करते हैं।"
+    },
+    {
+      "icon": "@/assets/yt_feature2.png",
+      "title": "सुपीरियर AAC ऑडियो एन्कोडिंग",
+      "description": "SoundWise.ai एडवांस्ड ऑडियो कोडिंग (AAC) का उपयोग करता है, जो MP3 फॉर्मेट की तुलना में अधिक परिष्कृत कम्प्रेशन एल्गोरिदम है। इसका मतलब है कि आपको छोटे और अधिक कुशल फाइल आकार के साथ एक समृद्ध, अधिक विस्तृत साउंड अनुभव मिलता है।"
+    },
+    {
+      "icon": "@/assets/yt_feature3.png",
+      "title": "हाई-फिडेलिटी ऑडियो प्रिजर्वेशन",
+      "description": "हम YouTube से M4A डाउनलोड करते समय मूल स्रोत ऑडियो से उच्चतम संभव फिडेलिटी को बनाए रखते हैं। यह क्रिएटर के इरादे के अनुसार एक साफ, क्रिस्प और आर्टिफैक्ट-मुक्त लिसनिंग अनुभव सुनिश्चित करता है।"
+    },
+    {
+      "icon": "@/assets/yt_feature4.png",
+      "title": "असीमित और अनाम कन्वर्ज़न",
+      "description": "आप कितनी फाइल कन्वर्ट कर सकते हैं इसकी कोई सीमा नहीं है। SoundWise.ai पूरी तरह से मुफ्त है और कोई रजिस्ट्रेशन की आवश्यकता नहीं है। आपकी प्राइवेसी सुरक्षित है क्योंकि हम आपका डाउनलोड इतिहास ट्रैक या स्टोर नहीं करते।"
+    },
+    {
+      "icon": "@/assets/yt_feature5.png",
+      "title": "डायरेक्ट ब्राउज़र-आधारित टूल",
+      "description": "किसी सॉफ्टवेयर इंस्टॉलेशन की आवश्यकता नहीं है। M4A फाइल बनाने के लिए ऑनलाइन टूल सीधे Safari, Chrome या आपके कंप्यूटर या मोबाइल डिवाइस पर किसी अन्य मॉडर्न ब्राउज़र में काम करता है।"
+    },
+    {
+      "icon": "@/assets/yt_feature6.png",
+      "title": "साफ और अनक्लटर्ड इंटरफेस",
+      "description": "हम एक सीधा, विज्ञापन-मुक्त अनुभव प्रदान करते हैं। बस अपना लिंक पेस्ट करें और भ्रमित करने वाले पॉप-अप या मेन्यू के बिना अपनी फाइल डाउनलोड करें।"
+    }
+  ],
+  "m4a_downloadNow": "अभी डाउनलोड करें >>",
+  "m4a_benefitsTitle": "अपने निजी ऑडियो संग्रह को उन्नत करें",
+  "m4a_benefitsConvenienceTitle": "सावधान iTunes क्यूरेटर के लिए",
+  "m4a_benefitsConvenienceDescription": "आप अपनी Music लाइब्रेरी को व्यवस्थित करने में घंटों खर्च करते हैं। निम्न फॉर्मेट के साथ समझौता न करें। YouTube को M4A में कन्वर्ट करके उन दुर्लभ लाइव ट्रैक, B-साइड या एक्सक्लूसिव रीमिक्स को उच्च गुणवत्ता वाले ऑडियो और सही कम्पेटिबिलिटी के साथ जोड़ें जिसके आपकी क्यूरेटेड लाइब्रेरी हकदार है।",
+  "m4a_benefitsAvoidAdsTitle": "अपने iPhone और iPad स्टोरेज को अधिकतम करने के लिए",
+  "m4a_benefitsAvoidAdsDescription": "क्या आप लंबी यात्रा के लिए अपने iPhone को पॉडकास्ट और ऑडियोबुक के घंटों से भरना चाहते हैं? M4A का कुशल फाइल आकार मतलब है कि आप ऑडियो क्वालिटी से समझौता किए बिना काफी अधिक सामग्री स्टोर कर सकते हैं, जिससे आपके फोटो, ऐप्स और वीडियो के लिए अधिक जगह बचती है।",
+  "m4a_benefitsSaveDataTitle": "आधुनिक ऑडियोफाइल के लिए जो हमेशा चलते-फिरते रहते हैं",
+  "m4a_benefitsSaveDataDescription": "आप ध्वनि में बारीकियों की सराहना करते हैं। आप जानते हैं कि AAC एक अधिक उन्नत कोडेक है, जो MP3 की तुलना में क्लीनर साउंडस्टेज प्रदान करता है। SoundWise.ai का उपयोग YouTube ऑडियो स्रोतों से हाई-फिडेलिटी M4A फाइल बनाने के लिए करें और अपने उच्च गुणवत्ता वाले हेडफोन और स्पीकर्स पर एक बेहतर लिसनिंग अनुभव का आनंद लें।",
+  "m4a_faqTitle": "आपके गहन M4A प्रश्नों के उत्तर",
+  "m4a_faq1Question": "1. M4A फाइल वास्तव में क्या है, और यह MP3 से बेहतर क्यों है?",
+  "m4a_faq1Answer": "M4A एक ऑडियो फाइल कंटेनर है जो आमतौर पर एडवांस्ड ऑडियो कोडिंग (AAC) का उपयोग करता है, जो MP3 फॉर्मेट की तुलना में अधिक आधुनिक और कुशल कम्प्रेशन एल्गोरिदम है। मुख्य लाभ यह है कि समान फाइल आकार के लिए, M4A/AAC आमतौर पर अधिक स्पष्टता और विस्तार के साथ बेहतर ऑडियो क्वालिटी प्रदान करता है। यही कारण है कि यह iTunes स्टोर और Apple Music द्वारा उपयोग किया जाने वाला स्टैंडर्ड फॉर्मेट है।",
+  "m4a_faq2Question": "2. क्या M4A फाइलें मेरे गैर-Apple डिवाइस पर काम करेंगी, जैसे Windows PC या Android फोन?",
+  "m4a_faq2Answer": "हां, ज्यादातर मामलों में। Windows (जैसे VLC, Windows Media Player) और Android पर अधिकांश मॉडर्न मीडिया प्लेयर M4A फाइलों को नेटिवली सपोर्ट करते हैं। हालांकि, जबकि वे व्यापक रूप से कम्पेटिबल हैं, वे Apple इकोसिस्टम के लिए नेटिव, डिफॉल्ट फॉर्मेट हैं, जो उन डिवाइस पर सबसे सहज अनुभव की गारंटी देते हैं।",
+  "m4a_faq3Question": "3. क्या M4A में कन्वर्ट करने से वास्तव में मूल YouTube ऑडियो क्वालिटी में सुधार होता है?",
+  "m4a_faq3Answer": "अच्छा सवाल। कोई भी कन्वर्टर उस क्वालिटी को नहीं बना सकता जो मूल स्रोत में नहीं थी। SoundWise.ai YouTube द्वारा प्रदान की गई उच्चतम क्वालिटी ऑडियो स्ट्रीम को विश्वसनीय रूप से कैप्चर करता है। M4A में कन्वर्ट करने का लाभ यह है कि यह उस क्वालिटी को MP3 की तुलना में छोटी फाइल में संरक्षित करने के लिए अधिक कुशल एन्कोडिंग विधि (AAC) का उपयोग करता है। आपको स्रोत ऑडियो का सर्वोत्तम संभव संस्करण एक बेहतर फॉर्मेट में मिलता है।",
+  "m4a_faq4Question": "4. मैं डाउनलोड की गई M4A फाइल को अपने iPhone के Music ऐप में कैसे प्राप्त करूं?",
+  "m4a_faq4Answer": "सबसे आसान तरीका है कंप्यूटर का उपयोग करना। पहले, M4A फाइल को अपने Mac या Windows PC पर डाउनलोड करें। Mac पर, \"Music\" ऐप खोलें और M4A फाइल को लाइब्रेरी विंडो में ड्रैग और ड्रॉप करें। Windows PC पर, \"iTunes\" एप्लिकेशन के साथ ऐसा ही करें। एक बार जब यह आपकी लाइब्रेरी में हो जाता है, तो बस अपने iPhone को अपने कंप्यूटर के साथ सिंक करें, और ट्रैक आपके Music ऐप में दिखाई देगा।",
+  "m4a_faq5Question": "5. क्या M4A फॉर्मेट को 'लॉसलेस' ऑडियो माना जाता है?",
+  "m4a_faq5Answer": "नहीं, AAC एन्कोडिंग का उपयोग करने वाली स्टैंडर्ड M4A फाइलें MP3 की तरह ही \"लॉसी\" फॉर्मेट हैं। इसका मतलब है कि फाइल आकार को कम करने के लिए कुछ ऑडियो डेटा को हटा दिया जाता है। हालांकि, AAC को अधिक उन्नत माना जाता है, इसलिए यह समान बिटरेट पर बेहतर सुनाई देता है। Apple का अपना लॉसलेस फॉर्मेट है जिसे ALAC (Apple Lossless Audio Codec) कहा जाता है, जो .m4a एक्सटेंशन का भी उपयोग करता है, लेकिन YouTube का स्रोत ऑडियो लॉसलेस नहीं है, इसलिए कन्वर्ज़न स्टैंडर्ड, हाई-क्वालिटी AAC फॉर्मेट में होगा।",
+  "m4a_faq6Question": "6. सही YouTube से M4A कन्वर्टर कैसे चुनें?",
+  "m4a_faq6Answer": "सही YouTube से M4A कन्वर्टर चुनें यदि आप Apple उपयोगकर्ता हैं, ऑडियो क्वालिटी को प्राथमिकता देते हैं, या स्टोरेज स्पेस बचाना चाहते हैं। आपको एक फाइल मिलती है जो आपकी Music लाइब्रेरी के साथ पूरी तरह से इंटीग्रेटेड है, तुलनीय आकार में बेहतर सुनाई देती है, और आपको अपने डिवाइस पर अधिक स्टोर करने की अनुमति देती है।",
+  "m4a_seo_title": "हाई-फिडेलिटी YouTube से M4A कन्वर्टर",
+  "m4a_seo_description": "YouTube को M4A में बदलने का आदर्श तरीका। अपनी iTunes लाइब्रेरी, Apple Music, iPhone और Mac के लिए बेहतर ऑडियो क्वालिटी छोटे फाइल आकार में प्राप्त करें।",
+  "youtube2m4a": "हाई-फिडेलिटी YouTube से M4A कन्वर्टर"
 }
