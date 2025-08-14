@@ -75,9 +75,18 @@ def generate_sitemap(static_dir='public'):
         # Skip /en URLs since they redirect to /
         if locale == 'en':
             continue
+        
+        # Add language root page (e.g., /zh-TW)
+        sitemap_urls.append(f"""  <url>
+    <loc>{BASE_URL}/{locale}</loc>
+    <lastmod>{lastmod}</lastmod>
+  </url>""")
+        
+        # Add language-specific sub-pages
         for url in URLS:
-            loc = f"{BASE_URL}/{locale}{url}"
-            sitemap_urls.append(f"""  <url>
+            if url:  # Skip empty string (homepage is already handled above)
+                loc = f"{BASE_URL}/{locale}{url}"
+                sitemap_urls.append(f"""  <url>
     <loc>{loc}</loc>
     <lastmod>{lastmod}</lastmod>
   </url>""")
