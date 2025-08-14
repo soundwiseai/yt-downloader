@@ -13,6 +13,9 @@ export const _t = (str) => {
     else if(route.path.endsWith('-transcript-generator') && te(`transcript_${str}`)) {
         return t(`transcript_${str}`)
     }
+    else if(route.path.endsWith('-m4a') && te(`m4a_${str}`)) {
+        return t(`m4a_${str}`)
+    }
     return t(str)
 }
 
@@ -29,6 +32,9 @@ export const _te = (str) => {
     else if(route.path.endsWith('-transcript-generator')) {
         return te(`transcript_${str}`)
     }
+    else if(route.path.endsWith('-m4a')) {
+        return te(`m4a_${str}`)
+    }
     return te(str)
 }
 
@@ -43,6 +49,9 @@ export const _tm = (str) => {
     }
     else if(route.path.endsWith('-transcript-generator') && te(`transcript_${str}`)) {
         return tm(`transcript_${str}`)
+    }
+    else if(route.path.endsWith('-m4a') && te(`m4a_${str}`)) {
+        return tm(`m4a_${str}`)
     }
     return tm(str)
 }
