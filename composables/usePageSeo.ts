@@ -33,7 +33,7 @@ export const usePageSeo = () => {
     const baseUrl = 'https://youtubetomp4.pro'
     
     // 提取语言无关的路径部分
-    const pathWithoutLocale = currentPath.replace(/^\/[a-zA-Z-]+/, '') || '/'
+    const pathWithoutLocale = currentPath.replace(/^\/[a-zA-Z]{2}(-[a-zA-Z0-9]{2,})?(?=\/|$)/, '') || '/'
     
     // 生成canonical URL - 修复：指向当前页面自身
     const canonicalUrl = `${baseUrl}${currentPath}`
