@@ -23,9 +23,6 @@ export const _te = (str) => {
             return te(`${site.i18n}_${str}`)
         }
     }
-    else if(route.path.endsWith('-m4a')) {
-        return te(`m4a_${str}`)
-    }
     return te(str)
 }
 
@@ -36,9 +33,6 @@ export const _tm = (str) => {
         if (route.path.endsWith(site.url) && te(`${site.i18n}_${str}`)) {
             return tm(`${site.i18n}_${str}`)
         }
-    }
-    else if(route.path.endsWith('-m4a') && te(`m4a_${str}`)) {
-        return tm(`m4a_${str}`)
     }
     return tm(str)
 }
