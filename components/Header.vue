@@ -81,14 +81,11 @@ const changeLanguage = async (langCode) => {
   // 判断当前页面是否为 mp3 或 downloader
   const path = route.path;
   let suffix = '';
-  if (path.endsWith('/youtube-to-mp3')) {
-    suffix = '/youtube-to-mp3';
-  } else if (path.endsWith('/youtube-video-downloader')) {
-    suffix = '/youtube-video-downloader';
-  } else if (path.endsWith('/youtube-transcript-generator')) {
-    suffix = '/youtube-transcript-generator';
-  } else if (path.endsWith('/youtube-to-m4a')) {
-    suffix = '/youtube-to-m4a';
+  for (const site of sites) {
+    if (path.endsWith(site.url)) {
+        suffix = site.url;
+        break;
+    }
   }
 
   // 生成目标路径并跳转
