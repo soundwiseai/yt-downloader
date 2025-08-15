@@ -11,9 +11,6 @@ export const _t = (str) => {
             return t(`${site.i18n}_${str}`)
         }
     }
-    else if(route.path.endsWith('-m4a') && te(`m4a_${str}`)) {
-        return t(`m4a_${str}`)
-    }
     return t(str)
 }
 
