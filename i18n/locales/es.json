@@ -46,6 +46,7 @@
   "description": "Pega la URL y convierte rápidamente YouTube a MP4. Siempre gratis, siempre funciona, sin anuncios.",
   "download": "DESCARGAR",
   "tip": "Por favor, ten en cuenta los derechos de autor al descargar contenido. Esta herramienta no está diseñada para descargar música con derechos de autor.",
+  "tooltipText": "Esta herramienta solo puede usarse para uso legal y no infractor. Si eres un creador de contenido y quieres evitar que tus videos se descarguen usando esta herramienta, simplemente agrega #nodownload a las etiquetas o descripción de tu video.",
   "mp3_tooltipText": "Esta herramienta solo puede usarse para uso legal y no infractor. Si eres un creador de contenido y quieres evitar que tus videos se descarguen usando esta herramienta, simplemente agrega #nodownload a las etiquetas o descripción de tu video.",
   "formats": "Todos los formatos",
   "formatsTip": "Haz clic para guardar",

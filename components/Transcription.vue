@@ -27,7 +27,7 @@
         {{ _t("tip") }}
         <span class="info-container">
           <!-- 信息图标 -->
-          <NuxtImg class="info-icon" :src="`/images/yt_tips.png`"/>
+          <NuxtImg class="info-icon" :src="`/images/yt_tips.png`" alt="YouTube URL tips icon"/>
 
           <!-- 悬停时显示的提示框 -->
           <span class="tooltip">
