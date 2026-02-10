@@ -3,7 +3,7 @@
     <div class="footer-content">
       <div class="footer-section">
         <h3>{{ _t('resource') }}</h3>
-        <router-link :to="getLocalizedPath('/')" class="footer-link">Youtubetomp4.pro</router-link>
+        <router-link :to="getLocalizedPath('/')" class="footer-link">Y2mp4.com</router-link>
       </div>
 
       <div class="footer-section tools">
@@ -21,7 +21,7 @@
       <div class="footer-section">
         <div class="contact">
           <h3>{{ _t('email') }}</h3>
-          <a href="mailto:team@youtubetomp4.pro" class="footer-link">team@youtubetomp4.pro</a>
+          <a href="mailto:team@y2mp4.com" class="footer-link">team@y2mp4.com</a>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@
         <router-link to="/terms-of-service" class="lang-link">{{ _t('termsOfService') }}</router-link>
       </div>
       <div class="copyright">
-        2025 Youtubetomp4.pro
+        2025 Y2mp4.com
       </div>
     </div>
   </footer>

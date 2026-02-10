@@ -105,7 +105,7 @@ const fetchFormats = async () => {
 
   loading.value = true
   try {
-    const response = await axios.get('https://youtubetomp4.pro/api/get-formats', {
+    const response = await axios.get('/api/get-formats', {
       params: { url: yt_url.value }
     })
     videoData.value = response.data

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://youtubetomp4.pro/sitemap.xml
+Sitemap: https://y2mp4.com/sitemap.xml

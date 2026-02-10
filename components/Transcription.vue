@@ -642,7 +642,7 @@ const downloadFile = async (link) => {
       return
     }
 
-    const head = `# Youtubetomp4.pro free youtube transcript
+    const head = `# Y2mp4.com free youtube transcript
 # ${videoTitle.value}
 # ${yt_url.value}
 `
@@ -681,7 +681,7 @@ const fetchFormats = async () => {
   loading.value = true
   resetSubtitles()
   try {
-    const response = await axios.get('https://youtubetomp4.pro/api/get-formats', {
+    const response = await axios.get('/api/get-formats', {
       params: { url: yt_url.value }
     })
     yt_url1.value = yt_url.value // 此时更新 yt_url1，更新播放器视频

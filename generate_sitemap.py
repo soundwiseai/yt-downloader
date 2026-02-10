@@ -2,7 +2,7 @@ import os
 import json
 
 # 修改为你的正式域名（如未定可先用占位符）
-BASE_URL = 'https://youtubetomp4.pro'
+BASE_URL = 'https://y2mp4.com'
 
 # 支持的语言
 SUPPORTED_LOCALES = ['en', 'es', 'es-419', 'ar', 'hi', 'pt', 'pt-br', 'ko', 'ja', 'zh-TW', 'zh-CN', 'ru', 'id', 'th', 'vi', 'tr', 'fr', 'it', 'de']

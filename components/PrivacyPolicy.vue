@@ -9,7 +9,7 @@
     </p>
     <p>
       This policy applies to all products and services provided by 
-      <a href="https://youtubetomp4.pro/" target="_blank">Youtubetomp4.pro</a>.
+      <a href="https://y2mp4.com/" target="_blank">Y2mp4.com</a>.
     </p>
 
     <h2>What We Collect and Why</h2>
@@ -25,10 +25,10 @@
     <h3>Data Security and Integrity</h3>
     <p>
       We commit to securing your personal data with SSL encryption and additional safeguards 
-      against unauthorized access or alteration. Access is limited to Youtubetomp4.pro employees 
+      against unauthorized access or alteration. Access is limited to Y2mp4.com employees 
       under strict confidentiality agreements. However, no security system is infallible; we 
       cannot guarantee absolute protection. By using our services, you acknowledge this and 
-      agree that Youtubetomp4.pro is not liable for damages resulting from security breaches 
+      agree that Y2mp4.com is not liable for damages resulting from security breaches 
       beyond our control.
     </p>
 
@@ -59,7 +59,7 @@
       A cookie is a text file stored by your browser that may help remember login information and site preferences. 
       It might also collect information such as your browser type, operating system, visited web pages, 
       visit duration, viewed content, and other click-stream data. You can adjust cookie retention settings 
-      and accept or block individual cookies in your browser settings, although Youtubetomp4.pro may not 
+      and accept or block individual cookies in your browser settings, although Y2mp4.com may not 
       function properly if you disable cookies.
     </p>
 
@@ -83,7 +83,7 @@
       </li>
       <li>When required under applicable law.</li>
     </ol>
-    <p>Youtubetomp4.pro's primary data infrastructure is located in the United States.</p>
+    <p>Y2mp4.com's primary data infrastructure is located in the United States.</p>
 
     <h2>Government Requests for User Data</h2>
     <p>
@@ -112,7 +112,7 @@
 
     <h2>Location of Site and Data</h2>
     <p>
-      Youtubetomp4.pro is operated in the United States. If you are located in the European 
+      Y2mp4.com is operated in the United States. If you are located in the European 
       Union, UK, or elsewhere outside of the United States, please be aware that any information 
       you provide to us will be transferred to and stored in the United States. By using our 
       website or services and/or providing us with your personal information, you consent to 
@@ -128,7 +128,7 @@
     <p>
       Have any questions, comments, or concerns about this privacy policy, your data, or your 
       rights with respect to your information? Please contact us at 
-      <a href="mailto:team@youtubetomp4.pro">team@youtubetomp4.pro</a> and we'll be happy to help!
+      <a href="mailto:team@y2mp4.com">team@y2mp4.com</a> and we'll be happy to help!
     </p>
   </div>
 </template>

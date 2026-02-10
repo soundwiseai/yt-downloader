@@ -3,9 +3,9 @@ import json
 import xml.etree.ElementTree as ET
 
 # 替换为你的信息
-HOST = "youtubetomp4.pro"  # 你的主域名
+HOST = "y2mp4.com"  # 你的主域名
 KEY = "7878c216bd9c42e4bb6736efc77a86b4"  # 你的IndexNow key
-KEY_LOCATION = "https://youtubetomp4.pro/7878c216bd9c42e4bb6736efc77a86b4.txt"  # key文件的URL
+KEY_LOCATION = "https://y2mp4.com/7878c216bd9c42e4bb6736efc77a86b4.txt"  # key文件的URL
 
 # 读取 sitemap.xml 并提取所有 <loc> 链接
 sitemap_path = "public/sitemap.xml"  # 如你的 sitemap 路径不同请修改

@@ -30,7 +30,7 @@ export const usePageSeo = () => {
   const setSeoMeta = () => {
     const route = useRoute()
     const currentPath = route.path
-    const baseUrl = 'https://youtubetomp4.pro'
+    const baseUrl = 'https://y2mp4.com'
     
     // 提取语言无关的路径部分
     const pathWithoutLocale = currentPath.replace(/^\/[a-zA-Z]{2}(-[a-zA-Z0-9]{2,})?(?=\/|$)/, '') || '/'
