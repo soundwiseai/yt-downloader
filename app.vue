@@ -78,31 +78,11 @@ useHead({
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
-  color: #1e293b;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  text-decoration: none;
-}
-
-#app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
 }
 </style>

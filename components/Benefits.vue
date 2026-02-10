@@ -5,9 +5,8 @@
     <div class="benefit-item"
          v-for="(benefit, index) in benefits"
          :key="index"
-         :class="{'reverse-layout': index % 2 !== 0, 'alt-bg': index % 2 !== 0}">
+         :class="{'reverse-layout': index % 2 !== 0}">
       <div class="benefit-text">
-        <div class="benefit-badge">{{ String(index + 1).padStart(2, '0') }}</div>
         <h3>{{ benefit.title }}</h3>
         <p v-html="benefit.description.replace(/\n/g, '<br>')"></p>
       </div>
@@ -61,34 +60,24 @@ const benefits = computed(() => {
 <style scoped>
 .benefits {
   text-align: center;
-  padding: 60px 20px;
+  padding: 20px;
 }
 
 .benefits h2 {
-  font-size: 2.2rem;
-  color: #1e293b;
-  margin-bottom: 56px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-size: 2rem;
+  color: #1A3B8C;
+  margin-bottom: 40px;
 }
 
 .benefit-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0;
-  gap: 48px;
+  margin-bottom: 40px;
+  gap: 20px;
   width: 88%;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 48px 40px;
-  border-radius: 20px;
+  margin: 0 auto;
   transition: transform 0.3s ease-in-out;
-}
-
-.benefit-item.alt-bg {
-  background-color: #f8fafc;
 }
 
 .benefit-item.reverse-layout {
@@ -96,108 +85,44 @@ const benefits = computed(() => {
 }
 
 .benefit-text {
-  width: 55%;
+  width: 60%;
   text-align: left;
 }
 
-.benefit-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 0.9rem;
-  margin-bottom: 16px;
-}
-
 .benefit-text h3 {
-  font-size: 1.6rem;
-  color: #1e293b;
-  margin-bottom: 16px;
-  margin-top: 0;
-  font-weight: 700;
-  line-height: 1.3;
+  font-size: 1.5rem;
+  color: #1A3B8C;
+  margin-bottom: 15px;
 }
 
 .benefit-text p {
-  font-size: 1rem;
-  color: #64748b;
+  font-size: 0.9rem;
+  color: #3E3E3E;
   white-space: pre-wrap;
-  line-height: 1.8;
-  margin: 0;
-}
-
-.benefit-image {
-  width: 42%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  line-height: 24px;
 }
 
 .benefit-image img {
-  max-width: 100%;
+  max-width: 420px;
   height: auto;
-  border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.benefit-item:hover .benefit-image img {
-  transform: scale(1.02);
-  box-shadow: 0 16px 48px rgba(37, 99, 235, 0.1), 0 4px 16px rgba(0, 0, 0, 0.06);
-}
-
-@media (max-width: 1024px) {
-  .benefit-item {
-    width: 94%;
-    gap: 32px;
-    padding: 36px 28px;
-  }
+  border-radius: 8px;
 }
 
 @media (max-width: 768px) {
-  .benefits {
-    padding: 40px 16px;
-  }
-
-  .benefits h2 {
-    font-size: 1.7rem;
-    margin-bottom: 36px;
-  }
-
   .benefit-item {
     flex-direction: column;
     text-align: center;
-    padding: 32px 20px;
-    gap: 24px;
-    width: 100%;
-  }
-
-  .benefit-item.reverse-layout {
-    flex-direction: column;
   }
 
   .benefit-text {
     width: 100%;
-    text-align: center;
-  }
-
-  .benefit-badge {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .benefit-image {
-    width: 100%;
   }
 
   .benefit-image img {
-    width: 85%;
-    max-width: 360px;
+    width: 80%;
   }
+  .benefit-item.reverse-layout {
+  flex-direction:column;
+}
 }
 </style>
