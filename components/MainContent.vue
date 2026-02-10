@@ -1,66 +1,100 @@
 <template>
   <main class="main-content">
-    <div class="converter-container">
-      <!-- 图标 -->
-      <div class="icon-container">
-        <NuxtImg src="/images/yt_icon.png" alt="YouTube Icon" class="icon" />
-      </div>
-
-      <!-- 标题 -->
-      <h1 class="title">{{ _t("title") }}</h1>
-
-      <!-- 描述 -->
-      <p class="description">
-        {{ _t("description") }}
-      </p>
-
-      <div class="container">
-        <div class="input-wrapper">
-          <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box"  @paste="onPaste"/>
-          <button class="download-button2" :class="{ 'disabled': loading }" :disabled="loading" @click="fetchFormats">
-            {{ _t("download") }}
-          </button>
+    <div class="hero-section">
+      <div class="converter-container">
+        <!-- Icon -->
+        <div class="icon-container">
+          <div class="icon-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="yt-svg-icon">
+              <path d="M43.2 12.3c-.5-1.8-1.9-3.2-3.7-3.7C36.2 7.6 24 7.6 24 7.6s-12.2 0-15.5 1c-1.8.5-3.2 1.9-3.7 3.7C3.8 15.6 3.8 24 3.8 24s0 8.4 1 11.7c.5 1.8 1.9 3.2 3.7 3.7 3.3 1 15.5 1 15.5 1s12.2 0 15.5-1c1.8-.5 3.2-1.9 3.7-3.7 1-3.3 1-11.7 1-11.7s0-8.4-1-11.7z" fill="#FF0000"/>
+              <path d="M19.2 31.2l10.4-7.2-10.4-7.2z" fill="#fff"/>
+            </svg>
+          </div>
         </div>
-      </div>
 
-      <p class="converter-container-tip">
-        {{ _t("tip") }}
-        <span class="info-container">
-          <!-- 信息图标 -->
-          <NuxtImg class="info-icon" :src="`/images/yt_tips.png`" alt="YouTube URL tips icon"/>
+        <!-- Title -->
+        <h1 class="title">{{ _t("title") }}</h1>
 
-          <!-- 悬停时显示的提示框 -->
-          <span class="tooltip">
-            <span v-html="_t('tooltipText')"></span>
+        <!-- Description -->
+        <p class="description">
+          {{ _t("description") }}
+        </p>
+
+        <div class="container">
+          <div class="input-wrapper">
+            <div class="input-inner">
+              <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+              </svg>
+              <input type="text" v-model="yt_url" placeholder="https://www.youtube.com/watch?v=..." class="input-box" @paste="onPaste"/>
+            </div>
+            <button class="download-button2" :class="{ 'disabled': loading }" :disabled="loading" @click="fetchFormats">
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              {{ _t("download") }}
+            </button>
+          </div>
+        </div>
+
+        <p class="converter-container-tip">
+          {{ _t("tip") }}
+          <span class="info-container">
+            <!-- Info icon -->
+            <span class="info-icon-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="12" y1="16" x2="12" y2="12"/>
+                <line x1="12" y1="8" x2="12.01" y2="8"/>
+              </svg>
+            </span>
+
+            <!-- Tooltip on hover -->
+            <span class="tooltip">
+              <span v-html="_t('tooltipText')"></span>
+            </span>
           </span>
-        </span>
-      </p>
+        </p>
 
-      <!-- 加载动画 -->
-      <div v-if="loading" class="loading-indicator">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+        <!-- Loading animation -->
+        <div v-if="loading" class="loading-indicator">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
       </div>
     </div>
 
-    <div class="container2" v-if="!loading && videoData && videoData?.title">
-      <div class="video-card">
-        <div class="video-header">
-          <NuxtImg :src="videoData.thumbnail" class="thumbnail" alt="Thumbnail" />
-          <h2 class="title">{{ videoData.title }}</h2>
-        </div>
-        <h3 class="formats-title">{{ _t("formats") }}</h3>
-        <p class="formats-title-tip">{{ _t("formatsTip") }}</p>
-        <div class="formats-list">
-          <div v-for="format in videoData.formats" :key="format.format_id" class="format-item">
-            <span class="download-icon">⬇️</span>
-            <div class="format-details">
-              <a :href="format.url" class="download-link" target="_blank">
-                {{ videoData.title }}.{{ format.ext }}
-              </a>
-              <span class="format-info">{{ format.resolution || _t('audioOnly') }} • {{ (format.filesize / (1024 *
-                1024)).toFixed(2) }} MB</span>
+    <div class="results-section" v-if="!loading && videoData && videoData?.title">
+      <div class="container2">
+        <div class="video-card">
+          <div class="video-header">
+            <NuxtImg :src="videoData.thumbnail" class="thumbnail" alt="Thumbnail" />
+            <h2 class="video-title">{{ videoData.title }}</h2>
+          </div>
+          <div class="formats-section">
+            <h3 class="formats-title">{{ _t("formats") }}</h3>
+            <p class="formats-title-tip">{{ _t("formatsTip") }}</p>
+            <div class="formats-list">
+              <div v-for="format in videoData.formats" :key="format.format_id" class="format-item">
+                <span class="download-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                  </svg>
+                </span>
+                <div class="format-details">
+                  <a :href="format.url" class="download-link" target="_blank">
+                    {{ videoData.title }}.{{ format.ext }}
+                  </a>
+                  <span class="format-info">{{ format.resolution || _t('audioOnly') }} • {{ (format.filesize / (1024 *
+                    1024)).toFixed(2) }} MB</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -120,406 +154,259 @@ const fetchFormats = async () => {
 
 
 <style scoped>
-/* 全局样式 */
+/* =============================================
+   HERO SECTION & MAIN LAYOUT
+   ============================================= */
 .main-content {
   text-align: center;
-  font-family: Arial, sans-serif;
-  padding: 20px;
+  font-family: 'DM Sans', Arial, sans-serif;
   width: 100%;
   box-sizing: border-box;
   overflow-x: hidden;
 }
 
-.converter-container {
-  padding: 40px 20px;
+.hero-section {
+  background: linear-gradient(165deg, #e8f4fd 0%, #f0f0ff 40%, #ffffff 100%);
+  padding: 0 20px 60px;
 }
 
+.converter-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 20px 0;
+}
+
+/* =============================================
+   ICON
+   ============================================= */
 .icon-container {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
-.icon {
-  width: 285px;
-  height: auto;
+.icon-badge {
+  width: 72px;
+  height: 72px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
+.yt-svg-icon {
+  width: 44px;
+  height: 44px;
+}
+
+/* =============================================
+   TITLE & DESCRIPTION
+   ============================================= */
 .title {
-  font-size: 32px;
-  font-weight: bold;
-  color: #113b92;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 12px;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
 }
 
 .description {
-  font-size: 16px;
-  color: #555;
-  margin: 10px 0 20px;
+  font-size: 17px;
+  color: #64748b;
+  margin: 0 0 36px;
+  line-height: 1.6;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* 最外层容器居中 */
+/* =============================================
+   INPUT AREA
+   ============================================= */
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
 }
 
-/* 输入框和按钮的整体外层 */
 .input-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 8px;
   width: 100%;
-  max-width: 500px;
-  /* 最大宽度，防止过宽 */
-  height: 60px;
-  /* 高度统一 */
-  gap: 10px;
-  box-sizing: border-box;
-  background-color: #e8e8e8;
+  max-width: 600px;
+  gap: 12px;
 }
 
-/* 输入框样式 */
+.input-inner {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 0 16px;
+  height: 56px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.input-inner:focus-within {
+  border-color: #6366f1;
+  box-shadow: 0 2px 20px rgba(99, 102, 241, 0.12);
+}
+
+.input-icon {
+  width: 20px;
+  height: 20px;
+  color: #94a3b8;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
 .input-box {
   flex: 1;
-  /* 填满剩余空间 */
-  padding: 0 12px;
   border: none;
   outline: none;
-  font-size: 1em;
-  color: #333;
+  font-size: 15px;
+  color: #334155;
+  background: transparent;
   height: 100%;
-  /* 保证输入框高度与父容器一致 */
-  background-color: #e8e8e8;
-  border-radius: 8px;
+  font-family: 'DM Sans', Arial, sans-serif;
 }
 
-/* 下载按钮样式 */
+/* =============================================
+   DOWNLOAD BUTTON
+   ============================================= */
 .download-button2 {
-  background-color: #027AFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
   color: white;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 600;
   border: none;
   cursor: pointer;
-  height: 100%;
-  /* 保证按钮高度与输入框一致 */
-  padding: 0 20px;
-  /* 左右内边距 */
-  border-radius: 8px;
-  transition: background 0.3s, color 0.3s;
-  word-wrap: break-word;
-  max-width: 200px;
+  height: 56px;
+  padding: 0 28px;
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+  font-family: 'DM Sans', Arial, sans-serif;
 }
 
-/* 按钮 hover 样式 */
 .download-button2:hover {
-  background-color: #027AFF;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.45);
+}
+
+.download-button2:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
 }
 
 .download-button2.disabled {
-  background-color: #ccc;
-  color: #888;
+  background: #cbd5e1;
+  color: #94a3b8;
   cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
 }
 
-.converter-container-tip {
-  font-size: 12px;
-  margin-top: 20px;
+.btn-icon {
+  width: 18px;
+  height: 18px;
 }
 
-.container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.video-card {
-  background: #f1f1f1;
-  padding: 20px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 600px;
-}
-
-.video-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.thumbnail {
-  width: 120px;
-  height: 80px;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-.title {
-  font-size: 16px;
-  font-weight: bold;
-  flex-grow: 1;
-}
-
-.formats-title {
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.formats-title-tip {
-  font-size: 12px;
-  margin-top: -10px;
-}
-
-.formats-list {
-  margin-top: 20px;
-}
-
-.format-item {
-  display: flex;
-  align-items: center;
-  /* 垂直居中 */
-  background: #ffffff;
-  padding: 16px;
-  border-radius: 5px;
-  margin-bottom: 16px;
-  justify-content: space-between;
-  /* 图标和内容之间保持间距 */
-}
-
-.download-icon {
-  font-size: 36px;
-  margin-right: 10px;
-}
-
-.format-details {
-  display: flex;
-  flex-direction: column;
-  /* 垂直排列内容 */
-  align-items: flex-start;
-  /* 让文本居左 */
-  flex-grow: 1;
-  /* 使format-details占据剩余空间 */
-  justify-content: center;
-  /* 保证内容垂直居中 */
-  text-align: left;
-}
-
-.download-link {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.download-link:hover {
-  text-decoration: underline;
-}
-
-.format-info {
-  font-size: 12px;
-  color: #666;
-  margin-top: 2px;
-}
-
-/* 标准写法 */
-::placeholder {
-  color: #999;
-  opacity: 1;
-}
-
-/* 兼容 WebKit (Chrome, Safari, Edge) */
-::-webkit-input-placeholder {
-  color: #999;
-}
-
-/* 兼容 Mozilla Firefox */
-::-moz-placeholder {
-  color: #999;
-}
-
-/* 兼容 Microsoft Edge (旧版) */
-:-ms-input-placeholder {
-  color: #999;
-}
-
-/* 兼容 Internet Explorer */
-:-moz-placeholder {
-  color: #999;
-}
-
-/* 信息图标样式 */
-.info-container {
-  display: inline-block;
-  position: relative;
-}
-
-
+/* =============================================
+   TIP & TOOLTIP
+   ============================================= */
 .converter-container-tip {
   display: inline-flex;
   align-items: center;
-  /* 保持垂直居中 */
   gap: 6px;
-  /* 文字和图标之间增加间距 */
+  font-size: 13px;
+  color: #94a3b8;
+  margin-top: 20px;
 }
 
 .info-container {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
 }
 
-.info-icon {
-  font-size: 14px;
-  cursor: pointer;
-  width: 18px;
-  height: 18px;
-  display: flex;
+.info-icon-svg {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #555;
-  font-weight: bold;
+  color: #94a3b8;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 2px;
+  transition: color 0.2s ease, background 0.2s ease;
 }
 
-.info-icon:hover {
-  background-color: #ddd;
+.info-icon-svg:hover {
+  color: #6366f1;
+  background: rgba(99, 102, 241, 0.08);
 }
 
-/* 提示框样式 */
 .tooltip {
   position: absolute;
-  bottom: 30px;
+  bottom: 34px;
   left: 50%;
   transform: translateX(-50%);
-  width: 240px;
-  background-color: white;
-  color: black;
+  width: 260px;
+  background-color: #1e293b;
+  color: #f1f5f9;
   text-align: left;
-  padding: 10px;
-  border-radius: 6px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  font-size: 14px;
-  line-height: 1.4;
+  padding: 12px 14px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  font-size: 13px;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
   z-index: 100;
 }
 
-/* 悬停时显示提示框 */
 .info-container:hover .tooltip {
   visibility: visible;
   opacity: 1;
 }
 
-/* 小三角形 */
 .tooltip::before {
   content: "";
   position: absolute;
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  border-width: 8px;
+  border-width: 7px;
   border-style: solid;
-  border-color: white transparent transparent transparent;
+  border-color: #1e293b transparent transparent transparent;
 }
 
-/* 响应式设计 */
-@media screen and (max-width: 768px) {
-
-  /* 移动端：输入框和按钮纵向排列 */
-  .input-wrapper {
-    flex-direction: column;
-    /* 输入框和按钮纵向排列 */
-    width: 100%;
-    /* 宽度充满屏幕 */
-    height: auto;
-    /* 使容器的高度适应内容 */
-    background-color: transparent;
-  }
-
-  .input-box {
-    width: 100%;
-    margin-bottom: 0px;
-    padding: 18px;
-  }
-
-  .download-button2 {
-    width: 160px;
-    /* 按钮在小屏幕上占满宽度 */
-    padding: 16px 0;
-    /* 增加按钮的高度 */
-  }
-
-  .video-card {
-    width: 100%;
-    max-width: none;
-  }
-
-  .formats-list {
-    width: 100%;
-  }
-
-  .format-item {
-    align-items: flex-start;
-    /* 确保所有内容都对齐 */
-    text-align: left;
-  }
-
-  .download-icon {
-    margin-bottom: 10px;
-    /* 图标和内容之间的间距 */
-  }
-
-  .format-details {
-    align-items: flex-start;
-    /* 让文本靠左 */
-    width: 100%;
-    /* 保证格式信息区占据剩余空间 */
-  }
-
-  .download-link {
-    font-size: 14px;
-  }
-
-  .format-info {
-    font-size: 12px;
-  }
-
-  .icon {
-    width: 185px;
-    height: auto;
-  }
-}
-
-/* Web端样式 */
-@media screen and (min-width: 769px) {
-  .container {
-    justify-content: center;
-  }
-
-  .input-wrapper {
-    width: 44%;
-  }
-}
-
-
+/* =============================================
+   LOADING ANIMATION
+   ============================================= */
 .loading-indicator {
   display: flex;
   justify-content: center;
+  gap: 4px;
   margin-top: 40px;
 }
 
 .loading-indicator .bar {
-  width: 10px;
-  height: 30px;
-  margin: 0 3px;
-  background-color: #1A3B8C;
+  width: 8px;
+  height: 28px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
   animation: loadingAnimation 1.2s infinite;
 }
 
@@ -536,15 +423,292 @@ const fetchFormats = async () => {
 }
 
 @keyframes loadingAnimation {
-
   0%,
   80%,
   100% {
     transform: scaleY(0.4);
   }
-
   40% {
     transform: scaleY(1);
+  }
+}
+
+/* =============================================
+   RESULTS SECTION
+   ============================================= */
+.results-section {
+  padding: 0 20px 60px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -20px;
+}
+
+.video-card {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 640px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+  border: 1px solid #f1f5f9;
+}
+
+.video-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.thumbnail {
+  width: 140px;
+  height: 90px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.video-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  line-height: 1.4;
+  text-align: left;
+  margin: 0;
+}
+
+.formats-section {
+  margin-top: 20px;
+}
+
+.formats-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #334155;
+  margin: 0 0 4px;
+  text-align: left;
+}
+
+.formats-title-tip {
+  font-size: 13px;
+  color: #94a3b8;
+  margin: 0 0 16px;
+  text-align: left;
+}
+
+.formats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.format-item {
+  display: flex;
+  align-items: center;
+  background: #f8fafc;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #f1f5f9;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.format-item:hover {
+  background: #f1f5f9;
+  border-color: #e2e8f0;
+}
+
+.download-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: white;
+  flex-shrink: 0;
+  margin-right: 14px;
+}
+
+.format-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  justify-content: center;
+  text-align: left;
+  min-width: 0;
+}
+
+.download-link {
+  text-decoration: none;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+  transition: color 0.2s ease;
+}
+
+.download-link:hover {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.format-info {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 3px;
+}
+
+/* =============================================
+   PLACEHOLDER STYLES
+   ============================================= */
+::placeholder {
+  color: #94a3b8;
+  opacity: 1;
+}
+
+::-webkit-input-placeholder {
+  color: #94a3b8;
+}
+
+::-moz-placeholder {
+  color: #94a3b8;
+}
+
+:-ms-input-placeholder {
+  color: #94a3b8;
+}
+
+/* =============================================
+   RESPONSIVE - MOBILE (max-width: 768px)
+   ============================================= */
+@media screen and (max-width: 768px) {
+  .hero-section {
+    padding: 0 16px 40px;
+  }
+
+  .converter-container {
+    padding: 32px 0 0;
+  }
+
+  .icon-badge {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+  }
+
+  .yt-svg-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .title {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+
+  .description {
+    font-size: 15px;
+    margin-bottom: 28px;
+    padding: 0 8px;
+  }
+
+  .input-wrapper {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .input-inner {
+    width: 100%;
+    height: 52px;
+    box-sizing: border-box;
+  }
+
+  .download-button2 {
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    padding: 0 24px;
+    border-radius: 12px;
+  }
+
+  .results-section {
+    padding: 0 16px 40px;
+  }
+
+  .container2 {
+    margin-top: 0;
+  }
+
+  .video-card {
+    padding: 20px;
+    border-radius: 14px;
+    max-width: none;
+  }
+
+  .video-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .video-title {
+    font-size: 15px;
+  }
+
+  .format-item {
+    padding: 12px 14px;
+  }
+
+  .download-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    margin-right: 12px;
+  }
+
+  .download-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .download-link {
+    font-size: 13px;
+  }
+
+  .format-info {
+    font-size: 11px;
+  }
+}
+
+/* =============================================
+   RESPONSIVE - DESKTOP (min-width: 769px)
+   ============================================= */
+@media screen and (min-width: 769px) {
+  .container {
+    justify-content: center;
+  }
+
+  .input-wrapper {
+    width: 100%;
+    max-width: 600px;
   }
 }
 </style>

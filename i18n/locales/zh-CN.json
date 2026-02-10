@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "免费 YouTube 转 MP4 转换器 - 快速安全 | Youtubetomp4.pro",
+    "title": "免费 YouTube 转 MP4 转换器 - 快速安全 | Y2mp4.com",
     "description": "在数秒内将 YouTube 视频转换为 MP4。我们的免费视频下载器 100% 安全，无广告，无需登录。支持高质量的 MP4、MP3 及更多格式。",
-    "ogTitle": "免费 YouTube 转 MP4 转换器 - 快速安全 | Youtubetomp4.pro",
+    "ogTitle": "免费 YouTube 转 MP4 转换器 - 快速安全 | Y2mp4.com",
     "ogDescription": "在数秒内将 YouTube 视频转换为 MP4。我们的免费视频下载器 100% 安全，无广告，无需登录。支持高质量的 MP4、MP3 及更多格式。"
   },
   "mp3_seo": {
@@ -12,15 +12,15 @@
     "ogDescription": "使用我们的免费在线工具，快速将任何 YouTube 网址转换为高质量 MP3 文件。转换速度快，100% 安全，无广告，无需安装任何软件。"
   },
   "downloader_seo": {
-    "title": "YouTube 网址下载器 - 转为 MP4、MP3 和字幕 | Youtubetomp4.pro",
+    "title": "YouTube 网址下载器 - 转为 MP4、MP3 和字幕 | Y2mp4.com",
     "description": "使用我们的免费网址下载器，即时下载 YouTube 视频、提取 MP3 音频，或将任何视频转录为字幕。100% 安全，无需注册。",
-    "ogTitle": "YouTube 网址下载器 - 转为 MP4、MP3 和字幕 | Youtubetomp4.pro",
+    "ogTitle": "YouTube 网址下载器 - 转为 MP4、MP3 和字幕 | Y2mp4.com",
     "ogDescription": "使用我们的免费网址下载器，即时下载 YouTube 视频、提取 MP3 音频，或将任何视频转录为字幕。100% 安全，无需注册。"
   },
   "transcript_seo": {
-    "title": "YouTube 字幕生成器 | Youtubetomp4.pro",
+    "title": "YouTube 字幕生成器 | Y2mp4.com",
     "description": "使用我们的免费在线工具，只需几次点击即可轻松提取字幕、说明文字或隐藏式字幕。",
-    "ogTitle": "YouTube 字幕生成器 | Youtubetomp4.pro",
+    "ogTitle": "YouTube 字幕生成器 | Y2mp4.com",
     "ogDescription": "使用我们的免费在线工具，只需几次点击即可轻松提取字幕、说明文字或隐藏式字幕。"
   },
   "m4a_seo": {
@@ -38,7 +38,7 @@
   "termsOfService": "服务条款",
   "errorGetVideoInfo": "获取视频信息出错，请重试",
   "errorTranscriptUnavailable": "无法获取字幕，或该视频的字幕功能已被作者关闭。对此造成的不便，我们深表歉意。",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube 视频下载器",
   "mp3Converter": "YouTube 转 MP3 转换器",
   "transcribeGenerator": "YouTube 字幕生成器",
@@ -145,7 +145,7 @@
   "faq4Answer": "虽然有些免费转换器可能不可靠，但我们非常重视安全性。我们的转换器完全在浏览器运行，无需下载或安装，使用 HTTPS 加密，不收集任何个人信息，并定期扫描以防恶意软件。",
   "faq5Question": "5. 谁会使用 YouTube 转 MP4 转换器？",
   "faq5Answer": "我们的转换器适合各种用户：\n内容创作者：获取视频素材进行创作或混剪\n学生和教师：收集课程视频和教学资料\n旅行人士：下载娱乐内容随时播放\n商务人士：随时访问重要视频\n普通观众：随时随地享受喜爱的视频",
-  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_siteName": "Y2mp4.com",
   "mp3_videoDownloader": "YouTube 视频下载器",
   "mp3_mp3Converter": "YouTube 转 MP3 转换器",
   "mp3_title": "YouTube 链接转 MP3 转换器",
@@ -209,7 +209,7 @@
   "mp3_faq4Answer": "合法性取决于内容和用途。公共领域、Creative Commons 许可或您原创内容的音频一般合法。个人离线收听通常属“合理使用”，但未经许可的分发、分享、商用是非法的。",
   "mp3_faq5Question": "5. 与 YouTube 转 MP4 下载器有何不同？",
   "mp3_faq5Answer": "MP4 下载器保存视频+音频，文件较大；我们的 MP3 转换器只保留音频，文件更小、下载更快、更省空间。",
-  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_siteName": "Y2mp4.com",
   "downloader_videoDownloader": "YouTube 视频下载器",
   "downloader_mp3Converter": "YouTube 转 MP3 转换器",
   "downloader_title": "终极 YouTube URL 下载器",
@@ -274,7 +274,7 @@
   "downloader_faq4Answer": "我们遵守 YouTube 平台规则，只能下载公开可访问的内容，无法绕过隐私或年龄验证限制。",
   "downloader_faq5Question": "5. 下载数量或时长有限制吗？",
   "downloader_faq5Answer": "没有限制！无论是 10 秒的短视频还是 10 小时的纪录片，都可免费下载。",
-  "transcript_siteName": "Youtubetomp4.pro",
+  "transcript_siteName": "Y2mp4.com",
   "transcript_videoDownloader": "YouTube 视频下载器",
   "transcript_mp3Converter": "YouTube 转 MP3 转换器",
   "transcript_title": "即时 YouTube 字幕生成器",

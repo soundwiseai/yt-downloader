@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Conversor de YouTube para MP4 Grátis - Rápido e Seguro | Youtubetomp4.pro",
+    "title": "Conversor de YouTube para MP4 Grátis - Rápido e Seguro | Y2mp4.com",
     "description": "Converta vídeos do YouTube para MP4 em segundos. Nosso baixador online grátis é 100% seguro, não exige anúncios nem login. Suporta MP4, MP3 e outros formatos em alta qualidade.",
-    "ogTitle": "Conversor de YouTube para MP4 Grátis - Rápido e Seguro | Youtubetomp4.pro",
+    "ogTitle": "Conversor de YouTube para MP4 Grátis - Rápido e Seguro | Y2mp4.com",
     "ogDescription": "Converta vídeos do YouTube para MP4 em segundos. Nosso baixador online grátis é 100% seguro, não exige anúncios nem login. Suporta MP4, MP3 e outros formatos em alta qualidade."
   },
   "mp3_seo": {
@@ -12,15 +12,15 @@
     "ogDescription": "Converta rapidamente qualquer URL do YouTube para um arquivo MP3 de alta qualidade com nossa ferramenta online gratuita. Nosso conversor é rápido, 100% seguro, sem anúncios e não requer a instalação de software."
   },
   "downloader_seo": {
-    "title": "Downloader de URL do YouTube para MP4, MP3 e Texto | Youtubetomp4.pro",
+    "title": "Downloader de URL do YouTube para MP4, MP3 e Texto | Y2mp4.com",
     "description": "Baixe vídeos do YouTube instantaneamente, extraia áudio em MP3 ou transcreva qualquer vídeo em texto com nosso downloader de URL gratuito. 100% seguro, não é necessário se registrar.",
-    "ogTitle": "Downloader de URL do YouTube para MP4, MP3 e Texto | Youtubetomp4.pro",
+    "ogTitle": "Downloader de URL do YouTube para MP4, MP3 e Texto | Y2mp4.com",
     "ogDescription": "Baixe vídeos do YouTube instantaneamente, extraia áudio em MP3 ou transcreva qualquer vídeo em texto com nosso downloader de URL gratuito. 100% seguro, não é necessário se registrar."
   },
   "transcript_seo": {
-    "title": "Gerador de Transcrição do YouTube Grátis para Sempre – Sem Cadastro | Youtubetomp4.pro",
+    "title": "Gerador de Transcrição do YouTube Grátis para Sempre – Sem Cadastro | Y2mp4.com",
     "description": "Totalmente gratuito, sem cadastro e com uso ilimitado — gere transcrições de vídeos do YouTube em segundos com nossa ferramenta online. Extraia legendas facilmente com poucos cliques.",
-    "ogTitle": "Gerador de Transcrição do YouTube Grátis para Sempre – Sem Cadastro | Youtubetomp4.pro",
+    "ogTitle": "Gerador de Transcrição do YouTube Grátis para Sempre – Sem Cadastro | Y2mp4.com",
     "ogDescription": "Totalmente gratuito, sem cadastro e com uso ilimitado — gere transcrições de vídeos do YouTube em segundos com nossa ferramenta online. Extraia legendas facilmente com poucos cliques."
   },
   "m4a_seo": {
@@ -38,7 +38,7 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Erro no link do vídeo. Não foi possível obter o vídeo. Por favor, verifique o link.",
   "errorTranscriptUnavailable": "A transcrição não está disponível ou foi desativada pelo autor deste vídeo. Pedimos desculpas pelo transtorno.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "Baixador de Vídeos do YouTube",
   "mp3Converter": "Conversor de YouTube para MP3",
   "transcribeGenerator": "Gerador de Legendas do YouTube",
@@ -145,7 +145,7 @@
   "faq4Answer": "Embora muitos conversores gratuitos sejam duvidosos, levamos sua segurança a sério. Nosso conversor roda totalmente no seu navegador, sem downloads escondidos ou pop-ups suspeitos. Usamos criptografia HTTPS e nunca armazenamos seus dados pessoais ou histórico. Além disso, fazemos varreduras regulares contra malware para manter nosso serviço limpo. Sem spyware, sem bloatware - apenas conversão de vídeo direta e confiável.",
   "faq5Question": "5. Quem usa o conversor de YouTube para MP4?",
   "faq5Answer": "Nosso conversor é perfeito para todo tipo de usuário. Veja quem vai amar:\n\nCriadores de Conteúdo: Capture vídeos para sua próxima edição ou remix para redes sociais\n\nEstudantes e Professores: Estoque tutoriais e aulas para estudar em qualquer lugar\n\nViajantes: Encha seu dispositivo com entretenimento para voos longos e deslocamentos\n\nProfissionais: Mantenha conteúdo de vídeo importante à mão, com ou sem internet\n\nPúblico em Geral: Relaxe e curta seus vídeos favoritos do YouTube em qualquer dispositivo, quando quiser",
-  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_siteName": "Y2mp4.com",
   "mp3_videoDownloader": "Baixador de Vídeos do YouTube",
   "mp3_mp3Converter": "Conversor de YouTube para MP3",
   "mp3_title": "Conversor de URL do YouTube para MP3",
@@ -251,7 +251,7 @@
   "mp3_faq4Answer": "A legalidade depende muito do conteúdo que você está convertendo e de como o usa. Geralmente, é legal baixar áudio de conteúdo de domínio público, vídeos com licença Creative Commons ou seu próprio conteúdo original. Para material protegido por direitos autorais, convertê-lo para MP3 para uso pessoal offline geralmente é considerado \"uso justo\". No entanto, é ilegal distribuir, compartilhar ou usar o áudio baixado para fins comerciais sem permissão do detentor dos direitos autorais.",
   "mp3_faq5Question": "5. Qual a diferença entre isso e um baixador de vídeos YouTube para MP4?",
   "mp3_faq5Answer": "Este é especificamente otimizado para áudio. Enquanto um baixador de MP4 salva o vídeo e o áudio juntos em um arquivo maior, nossa ferramenta de URL para MP3 descarta completamente os dados de vídeo. O resultado é um arquivo muito menor, que baixa mais rápido, ocupa menos espaço no seu dispositivo e é perfeito para reprodução apenas de áudio.",
-  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_siteName": "Y2mp4.com",
   "downloader_videoDownloader": "Baixador de Vídeos do YouTube",
   "downloader_mp3Converter": "Conversor de YouTube para MP3",
   "downloader_title": "O Melhor Baixador de URLs do YouTube",
@@ -354,7 +354,7 @@
   "downloader_faq4Answer": "Nossa ferramenta respeita privacidade e as regras do YouTube. Funciona como um \"gravador digital\", só acessando conteúdo público. Se um vídeo está como \"Privado\", \"Não listado\" (sem o link) ou tem restrição de idade que exige login, nosso servidor não consegue acessar. Não burlamos controles de privacidade do YouTube.",
   "downloader_faq5Question": "5. Tem limite de vídeos que posso baixar ou do tamanho deles?",
   "downloader_faq5Answer": "Não, sem limites! Nosso serviço é totalmente gratuito e ilimitado. Você pode baixar vídeos do YouTube colando o URL quantas vezes quiser, independente da duração - desde Shorts de 10 segundos até documentários de 10 horas.",
-  "transcript_siteName": "Youtubetomp4.pro",
+  "transcript_siteName": "Y2mp4.com",
   "transcript_videoDownloader": "Baixador de Vídeos do YouTube",
   "transcript_mp3Converter": "Conversor YouTube para MP3",
   "transcript_title": "Gerador de Transcrição do YouTube Instantâneo",

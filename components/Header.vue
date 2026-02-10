@@ -1,32 +1,43 @@
 <template>
   <header class="header">
     <div class="container">
-      <!-- 左侧 Logo -->
-      <div class="logo">
-        <span class="site-name" @click="goHome">{{ _t("siteName") }}</span>
+      <!-- Logo -->
+      <div class="logo" @click="goHome">
+        <span class="logo-icon">&#9654;</span>
+        <span class="site-name">Y2mp4</span>
+        <span class="site-domain">.com</span>
       </div>
-      <!-- 右侧导航 -->
+      <!-- Navigation -->
       <nav class="nav">
-        <a 
-          v-for="site in sites.filter(site => site.header)" 
-          :key="site.url" 
-          href="#" 
-          class="nav-link" 
+        <a
+          v-for="site in sites.filter(site => site.header)"
+          :key="site.url"
+          href="#"
+          class="nav-link"
           @click.prevent="goToSite(site.url)"
         >
-          {{ _t(site.name) }} &gt;
+          {{ _t(site.name) }}
         </a>
-        
-        <!-- 语言选择下拉菜单 -->
+
+        <!-- Language selector dropdown -->
         <div class="language-selector">
           <div class="selected-language" @click="toggleLanguageMenu">
-            {{ getCurrentLanguageName() }} <span class="dropdown-arrow">▼</span>
+            <svg class="globe-icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+              <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm6.918 6h-3.215c-.354-1.594-.947-2.975-1.726-3.906A8.035 8.035 0 0115.918 6zM10 2c.94 0 2.16 1.641 2.697 4H7.303C7.84 3.641 9.06 2 10 2zM2 10c0-.69.098-1.36.276-2h3.588c-.07.65-.114 1.32-.114 2s.044 1.35.114 2H2.276A7.96 7.96 0 012 10zm2.082 4h3.215c.354 1.594.947 2.975 1.726 3.906A8.035 8.035 0 014.082 14zm0-8a8.035 8.035 0 014.941-3.906C8.244 3.025 7.65 4.406 7.297 6H4.082zM10 18c-.94 0-2.16-1.641-2.697-4h5.394C12.16 16.359 10.94 18 10 18zm3.25-6H6.75c-.08-.65-.125-1.318-.125-2s.046-1.35.125-2h6.5c.079.65.125 1.318.125 2s-.046 1.35-.125 2zm.773 5.906c.78-.931 1.372-2.312 1.726-3.906h3.215a8.035 8.035 0 01-4.941 3.906zM14.25 12c.07-.65.114-1.32.114-2s-.044-1.35-.114-2h3.588c.178.64.276 1.31.276 2s-.098 1.36-.276 2H14.25z"/>
+            </svg>
+            {{ getCurrentLanguageName() }}
+            <span class="dropdown-arrow">
+              <svg viewBox="0 0 10 6" fill="currentColor" width="10" height="6">
+                <path d="M1 1l4 4 4-4"/>
+              </svg>
+            </span>
           </div>
           <div class="language-dropdown" v-if="showLanguageMenu">
-            <div 
-              v-for="lang in languages" 
-              :key="lang.code" 
-              class="language-option" 
+            <div
+              v-for="lang in languages"
+              :key="lang.code"
+              class="language-option"
+              :class="{ active: lang.code === locale }"
               @click="changeLanguage(lang.code)"
             >
               {{ lang.name }}
@@ -131,86 +142,22 @@ const goHome = () => {
 </script>
 
 <style scoped>
-.language-selector {
-  position: relative;
-  margin-left: 20px;
-  cursor: pointer;
-}
-
-/* 移动端下语言选择器样式 */
-@media (max-width: 599px) {
-  .language-selector {
-    margin-left: 0;
-    width: 100%;
-    margin-top: 5px;
-    margin-left: -8px;
-  }
-  
-  .selected-language {
-    width: 100%;
-    box-sizing: border-box;
-    justify-content: space-between;
-  }
-}
-
-.selected-language {
-  display: flex;
-  align-items: center;
-  padding: 5px 10px;
-  border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color 0.3s;
-}
-
-.selected-language:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.dropdown-arrow {
-  font-size: 10px;
-  margin-left: 5px;
-}
-
-.language-dropdown {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  width: 240px;
-  background-color: white;
-  border-radius: 4px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15), 0 8px 25px rgba(0, 0, 0, 0.1);
-  z-index: 100;
-  margin-top: 5px;
-  max-height: 300px;
-  overflow-y: auto;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-.language-option {
-  padding: 10px 15px;
-  color: #333;
-  transition: background-color 0.2s;
-}
-
-.language-option:hover {
-  background-color: #f5f5f5;
-}
-</style>
-
-<style scoped>
-/* 📱 默认：移动端优先（Logo + 导航栏 垂直排列） */
+/* ---- Header ---- */
 .header {
-  background-color: #1A3B8C38; /* 背景颜色 */
-  padding: 15px 0;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  padding: 0;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-/* ✅ 让 `container` 默认是垂直布局 */
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* 改为左对齐 */
-  padding: 1rem;
+  align-items: flex-start;
+  padding: 12px 20px;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -218,84 +165,225 @@ const goHome = () => {
   box-sizing: border-box;
 }
 
-/* ✅ Logo 样式 */
-.logo .site-name {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  color: #113b92;
-  white-space: nowrap; /* 防止换行 */
+/* ---- Logo ---- */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 2px;
   cursor: pointer;
+  user-select: none;
+  transition: opacity 0.2s;
 }
 
-/* ✅ 导航栏默认左对齐 */
+.logo:hover {
+  opacity: 0.85;
+}
+
+.logo-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  border-radius: 6px;
+  font-size: 12px;
+  color: #fff;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.site-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.3px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.site-domain {
+  font-size: 20px;
+  font-weight: 700;
+  color: #60a5fa;
+  letter-spacing: -0.3px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ---- Navigation ---- */
 .nav {
   display: flex;
-  flex-direction: column; /* ✅ 移动端上下排列 */
-  gap: 10px;
-  margin-top: 10px;
-  width: 100%; /* 确保导航栏占满宽度 */
-  align-items: flex-start; /* 左对齐 */
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 12px;
+  width: 100%;
+  align-items: flex-start;
 }
 
-/* ✅ 导航栏样式 */
 .nav-link {
   font-size: 14px;
-  color: #000;
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   font-weight: 500;
-  white-space: nowrap; /* 避免导航项换行 */
-  margin-right: 40px;
+  white-space: nowrap;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: color 0.2s, background-color 0.2s;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
 }
 
-/* 📱✅ 渐进式增强：平板 (≥600px) */
+/* ---- Language Selector ---- */
+.language-selector {
+  position: relative;
+  cursor: pointer;
+}
+
+.selected-language {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s, background-color 0.2s;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.selected-language:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.globe-icon {
+  flex-shrink: 0;
+  opacity: 0.8;
+}
+
+.dropdown-arrow {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 2px;
+  opacity: 0.6;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  width: 220px;
+  background-color: #1e293b;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  z-index: 200;
+  max-height: 320px;
+  overflow-y: auto;
+  padding: 4px;
+}
+
+.language-option {
+  padding: 8px 12px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  border-radius: 6px;
+  transition: color 0.15s, background-color 0.15s;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.language-option:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+}
+
+.language-option.active {
+  background-color: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+}
+
+/* ---- Tablet (>= 600px) ---- */
 @media (min-width: 600px) {
   .container {
-    flex-direction: row; /* ✅ 变成水平排列 */
-    justify-content: space-between; /* ✅ 两端对齐，让导航栏靠右 */
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 24px;
+    height: 56px;
   }
 
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-
-  /* ✅ 导航栏靠右对齐 */
   .nav {
     flex-direction: row;
-    gap: 15px;
-    margin-left: auto; /* ✅ 让导航栏靠右对齐 */
-    width: auto; /* 重置宽度 */
-    align-items: center; /* 居中对齐 */
+    gap: 2px;
+    margin-top: 0;
+    margin-left: auto;
+    width: auto;
+    align-items: center;
   }
 
-  .nav-link {
-    font-size: 16px;
+  .language-selector {
+    margin-left: 4px;
   }
 }
 
-/* 🖥️ 桌面端优化（≥1024px） */
+/* ---- Desktop (>= 1024px) ---- */
 @media (min-width: 1024px) {
   .container {
     max-width: 1200px;
-    margin: 0 auto;
+    padding: 0 32px;
+    height: 60px;
   }
 
-  .logo .site-name {
-    font-size: 24px;
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .site-name,
+  .site-domain {
+    font-size: 22px;
   }
 
   .nav {
-    gap: 20px; /* 增加间距 */
+    gap: 4px;
   }
 
   .nav-link {
-    font-size: 18px;
+    font-size: 15px;
+    padding: 8px 14px;
+  }
+
+  .selected-language {
+    font-size: 15px;
+    padding: 8px 14px;
+  }
+}
+
+/* ---- Mobile (< 600px) ---- */
+@media (max-width: 599px) {
+  .container {
+    padding: 12px 16px;
+  }
+
+  .language-selector {
+    width: 100%;
+  }
+
+  .selected-language {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+
+  .language-dropdown {
+    left: 0;
+    right: 0;
+    width: auto;
   }
 }
 </style>

@@ -1,38 +1,50 @@
 <template>
   <footer class="footer">
     <div class="footer-content">
+      <!-- Brand column -->
+      <div class="footer-section footer-brand">
+        <div class="footer-logo">
+          <span class="footer-logo-icon">&#9654;</span>
+          <span class="footer-logo-name">Y2mp4</span>
+          <span class="footer-logo-domain">.com</span>
+        </div>
+        <p class="footer-tagline">Fast, free YouTube video downloader. Convert and download videos in MP4 and MP3 formats.</p>
+      </div>
+
+      <!-- Resources column -->
       <div class="footer-section">
         <h3>{{ _t('resource') }}</h3>
         <router-link :to="getLocalizedPath('/')" class="footer-link">Y2mp4.com</router-link>
       </div>
 
-      <div class="footer-section tools">
+      <!-- Tools column -->
+      <div class="footer-section">
         <h3>{{ _t('tools') }}</h3>
-        <router-link 
-          v-for="site in sites.filter(site => site.footer)" 
-          :key="site.url" 
-          :to="getLocalizedPath(site.url)" 
+        <router-link
+          v-for="site in sites.filter(site => site.footer)"
+          :key="site.url"
+          :to="getLocalizedPath(site.url)"
           class="footer-link"
         >
           {{ _t(site.name) }}
         </router-link>
       </div>
 
+      <!-- Contact column -->
       <div class="footer-section">
-        <div class="contact">
-          <h3>{{ _t('email') }}</h3>
-          <a href="mailto:team@y2mp4.com" class="footer-link">team@y2mp4.com</a>
-        </div>
+        <h3>{{ _t('email') }}</h3>
+        <a href="mailto:team@y2mp4.com" class="footer-link">team@y2mp4.com</a>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <div class="language-selector">
-        <router-link to="/privacy-policy" class="lang-link">{{ _t('privacyPolicy') }}</router-link>
-        <router-link to="/terms-of-service" class="lang-link">{{ _t('termsOfService') }}</router-link>
+      <div class="footer-legal">
+        <router-link to="/privacy-policy" class="legal-link">{{ _t('privacyPolicy') }}</router-link>
+        <span class="legal-separator"></span>
+        <router-link to="/terms-of-service" class="legal-link">{{ _t('termsOfService') }}</router-link>
       </div>
       <div class="copyright">
-        2025 Y2mp4.com
+        &copy; 2025 Y2mp4.com. All rights reserved.
       </div>
     </div>
   </footer>
@@ -86,48 +98,91 @@ const handleNavigation = (event: Event) => {
 
 <style scoped>
 .footer {
-  background-color: #030d24;
-  color: white;
-  padding: 40px 20px 20px;
+  background: linear-gradient(180deg, #0f172a 0%, #020617 100%);
+  color: #e2e8f0;
+  padding: 48px 24px 24px;
   width: 100%;
   box-sizing: border-box;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 .footer-content {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
-.footer-section {
-  flex: 1;
-  margin-bottom: 20px;
+.footer-brand {
+  padding-right: 24px;
 }
 
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 12px;
+}
 
-.footer h3 {
-  color: white;
-  margin-bottom: 15px;
+.footer-logo-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  border-radius: 5px;
+  font-size: 11px;
+  color: #fff;
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+.footer-logo-name {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.3px;
+}
+
+.footer-logo-domain {
+  font-size: 18px;
+  font-weight: 700;
+  color: #60a5fa;
+  letter-spacing: -0.3px;
+}
+
+.footer-tagline {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 280px;
+}
+
+.footer-section h3 {
+  color: #ffffff;
+  margin: 0 0 16px 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
 }
 
 .footer-link {
+  display: block;
   margin-bottom: 10px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
   font-size: 14px;
-  display: block  ;
+  text-decoration: none;
+  transition: color 0.2s;
+  line-height: 1.5;
 }
 
 .footer-link:hover {
-  color: white;
-}
-
-.comparison, .contact {
-  margin-bottom: 30px;
+  color: #60a5fa;
 }
 
 .footer-bottom {
@@ -135,41 +190,76 @@ const handleNavigation = (event: Event) => {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  margin: 30px auto 0;
+  margin: 40px auto 0;
   padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
   flex-wrap: wrap;
 }
 
-.language-selector {
+.footer-legal {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 16px;
 }
 
-.lang-link {
-  color: rgba(255, 255, 255, 0.7);
+.legal-link {
+  color: rgba(255, 255, 255, 0.4);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
+  transition: color 0.2s;
 }
 
-.lang-link:hover {
-  color: white;
-  text-decoration: underline;
+.legal-link:hover {
+  color: #60a5fa;
+}
+
+.legal-separator {
+  width: 1px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .copyright {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 13px;
 }
 
+/* ---- Tablet ---- */
 @media (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
+  .footer {
+    padding: 40px 20px 20px;
   }
-  
+
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+    padding-right: 0;
+  }
+
+  .footer-tagline {
+    max-width: 100%;
+  }
+}
+
+/* ---- Mobile ---- */
+@media (max-width: 480px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
   .footer-bottom {
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .footer-legal {
+    justify-content: center;
   }
 }
 </style>
