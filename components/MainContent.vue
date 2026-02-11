@@ -96,7 +96,7 @@ onMounted(() => {
 })
 
 const isValidYoutubeUrl = (url) => {
-  return url.includes('youtube.');
+  return url.includes('youtube.') || url.includes('youtu.be');
 }
 
 // 处理粘贴事件
