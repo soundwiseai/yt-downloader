@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Free YouTube to MP4 Converter - Fast & Safe | Youtubetomp4.pro",
+    "title": "Free YouTube to MP4 Converter - Fast & Safe | Y2mp4.com",
     "description": "Convert YouTube videos to MP4 in seconds. Our free online downloader is 100% safe, requires no ads, and no login. Supports high-quality MP4, MP3 & more formats.",
-    "ogTitle": "Free YouTube to MP4 Converter - Fast & Safe | Youtubetomp4.pro",
+    "ogTitle": "Free YouTube to MP4 Converter - Fast & Safe | Y2mp4.com",
     "ogDescription": "Convert YouTube videos to MP4 in seconds. Our free online downloader is 100% safe, requires no ads, and no login. Supports high-quality MP4, MP3 & more formats."
   },
   "mp3_seo": {
@@ -12,15 +12,15 @@
     "ogDescription": "Quickly convert any YouTube URL to a high-quality MP3 file with our free online tool. Our converter is fast, 100% safe, ad-free, and requires no software installation."
   },
   "downloader_seo": {
-    "title": "YouTube URL Downloader to MP4, MP3 & Text | Youtubetomp4.pro",
+    "title": "YouTube URL Downloader to MP4, MP3 & Text | Y2mp4.com",
     "description": "Instantly download YouTube videos, extract MP3 audio, or transcribe any video to text with our free URL downloader. 100% safe, no registration required.",
-    "ogTitle": "YouTube URL Downloader to MP4, MP3 & Text | Youtubetomp4.pro",
+    "ogTitle": "YouTube URL Downloader to MP4, MP3 & Text | Y2mp4.com",
     "ogDescription": "Instantly download YouTube videos, extract MP3 audio, or transcribe any video to text with our free URL downloader. 100% safe, no registration required."
   },
   "transcript_seo": {
-    "title": "YouTube Transcript Generator | Youtubetomp4.pro",
+    "title": "YouTube Transcript Generator | Y2mp4.com",
     "description": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks.",
-    "ogTitle": "YouTube Transcript Generator | Youtubetomp4.pro",
+    "ogTitle": "YouTube Transcript Generator | Y2mp4.com",
     "ogDescription": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks."
   },
   "m4a_seo": {
@@ -38,7 +38,7 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "get video info error, please try again",
   "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube Video Downloader",
   "mp3Converter": "YouTube to MP3 Converter",
   "transcribeGenerator": "YouTube Transcript Generator",
@@ -145,7 +145,7 @@
   "faq4Answer": "While many free converters out there can be sketchy, we take your security seriously. Our converter runs entirely in your browser without any sneaky downloads or suspicious pop-ups. We use secure HTTPS encryption and never store your personal data or viewing history. Plus, we regularly scan for malware and keep our service squeaky clean. No spyware, no bloatware - just straightforward video conversion you can trust.",
   "faq5Question": "5. Who uses the YouTube to MP4 converter?",
   "faq5Answer": "Our converter is the perfect tool for all sorts of users. Here's who'll love it:\n\nContent Creators: Snag videos for your next big edit or social media remix\n\nStudents & Teachers: Stock up on tutorials and lectures for study sessions anywhere\n\nRoad Warriors: Load up your device with entertainment for those long flights and commutes \n\nBusiness Pros: Keep important video content at your fingertips, internet or not \n\nEveryday Viewers: Kick back and enjoy your favorite YouTube content on any device, whenever you want",
-  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_siteName": "Y2mp4.com",
   "mp3_videoDownloader": "YouTube Video Downloader",
   "mp3_mp3Converter": "YouTube to MP3 Converter",
   "mp3_title": "YouTube to MP3 Converter",
@@ -251,7 +251,7 @@
   "mp3_faq4Answer": "No, there are no limits! You can convert as many YouTube videos to MP3 as you want. Our service is completely free and unlimited.",
   "mp3_faq5Question": "5. Who can benefit from using the YouTube to MP3 converter?",
   "mp3_faq5Answer": "Our converter is perfect for music lovers, podcast enthusiasts, students, teachers, and anyone who wants to enjoy YouTube content in audio format. Create playlists, save educational content, or build your personal audio library - all without any restrictions.",
-  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_siteName": "Y2mp4.com",
   "downloader_videoDownloader": "YouTube Video Downloader",
   "downloader_mp3Converter": "YouTube to MP3 Converter",
   "downloader_title": "The Ultimate YouTube URL Downloader",
@@ -358,7 +358,7 @@
   "downloader_faq4Answer": "Our tool respects user privacy and YouTube's platform rules. It functions as a digital \"VCR,\" meaning it can only access and record what is publicly available. If a video is set to \"Private,\" \"Unlisted\" (unless you have the link), or has an age-gate that requires you to be logged in to verify your age, our server cannot access it. We do not bypass any of YouTube's privacy or access controls.",
   "downloader_faq5Question": "5. Are there any limits on how many videos I can download or the length of the videos?",
   "downloader_faq5Answer": "No, there are no limits! Our service is completely free and unlimited. You can download YouTube videos by pasting the URL as many times as you want, regardless of the video's length—from a 10-second Short to a 10-hour documentary.",
-  "transcript_siteName": "Youtubetomp4.pro",
+  "transcript_siteName": "Y2mp4.com",
   "transcript_videoDownloader": "YouTube Video Downloader",
   "transcript_mp3Converter": "YouTube to MP3 Converter",
   "transcript_title": "Instant YouTube Transcript Generator",
@@ -558,5 +558,6 @@
   "m4a_faq6Answer": "Choose the right YouTube to M4A converter if you are an Apple user, prioritize audio quality, or want to save storage space. You get a file that is perfectly integrated with your Music library, sounds better at a comparable size, and allows you to store more on your devices. ",
   "m4a_seo_title": "High-Fidelity YouTube to M4A Converter",
   "m4a_seo_description": "The ideal way to convert YouTube to M4A. Get superior audio quality in a smaller file size, perfect for your iTunes library, Apple Music, iPhone, and Mac.",
-  "youtube2m4a": "YouTube to M4A"
+  "youtube2m4a": "YouTube to M4A",
+  "saveTip": "Tip: Right-click the download button and select \"Save As\" to save directly"
 }

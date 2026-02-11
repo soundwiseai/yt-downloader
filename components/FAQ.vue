@@ -58,46 +58,57 @@
     margin-bottom: 20px;
   }
   
-  /* FAQ 列表整体的背景和边框 */
+  /* FAQ 列表 */
   .faq-wrapper {
-    border: 1px solid #3b82f6;
-    background-color: #f8fafc;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
   }
-  
+
   /* FAQ 每一项 */
   .faq-item {
-    border-bottom: 0.5px solid #3b82f6;
+    border-bottom: 1px solid #E2E8F0;
   }
-  
+
   /* 最后一项去掉底部边框 */
   .faq-item:last-child {
     border-bottom: none;
   }
-  
+
   /* FAQ 标题 */
   .faq-header {
     display: flex;
     align-items: center;
-    padding: 15px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #1e3a8a;
+    padding: 18px 0;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: #1E293B;
     cursor: pointer;
+    transition: color 200ms ease-out;
   }
-  
+
+  .faq-header:hover {
+    color: #2563EB;
+  }
+
   /* 箭头图标 */
   .arrow {
-    margin-right: 10px;
-    font-size: 14px;
-    transition: transform 0.2s ease;
+    margin-right: 12px;
+    font-size: 12px;
+    color: #94A3B8;
+    transition: transform 0.2s ease, color 0.2s ease;
   }
-  
-  /* FAQ 内容（无额外背景） */
+
+  .faq-header:hover .arrow {
+    color: #2563EB;
+  }
+
+  /* FAQ 内容 */
   .faq-content {
-    padding: 5px 15px 40px 40px;
-    font-size: 0.9em;
-    color: #333;
+    padding: 0 0 24px 24px;
+    font-size: 0.9375rem;
+    color: #475569;
+    line-height: 1.7;
     white-space: pre-line;
   }
 

@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "免费 YouTube 转 MP4 转换器 - 快速安全 | Youtubetomp4.pro",
+    "title": "免费 YouTube 转 MP4 转换器 - 快速安全 | Y2mp4.com",
     "description": "在数秒内将 YouTube 视频转换为 MP4。我们的免费视频下载器 100% 安全，无广告，无需登录。支持高质量的 MP4、MP3 及更多格式。",
-    "ogTitle": "免费 YouTube 转 MP4 转换器 - 快速安全 | Youtubetomp4.pro",
+    "ogTitle": "免费 YouTube 转 MP4 转换器 - 快速安全 | Y2mp4.com",
     "ogDescription": "在数秒内将 YouTube 视频转换为 MP4。我们的免费视频下载器 100% 安全，无广告，无需登录。支持高质量的 MP4、MP3 及更多格式。"
   },
   "mp3_seo": {
@@ -12,15 +12,15 @@
     "ogDescription": "使用我们的免费在线工具，快速将任何 YouTube 网址转换为高质量 MP3 文件。转换速度快，100% 安全，无广告，无需安装任何软件。"
   },
   "downloader_seo": {
-    "title": "YouTube 网址下载器 - 转为 MP4、MP3 和字幕 | Youtubetomp4.pro",
+    "title": "YouTube 网址下载器 - 转为 MP4、MP3 和字幕 | Y2mp4.com",
     "description": "使用我们的免费网址下载器，即时下载 YouTube 视频、提取 MP3 音频，或将任何视频转录为字幕。100% 安全，无需注册。",
-    "ogTitle": "YouTube 网址下载器 - 转为 MP4、MP3 和字幕 | Youtubetomp4.pro",
+    "ogTitle": "YouTube 网址下载器 - 转为 MP4、MP3 和字幕 | Y2mp4.com",
     "ogDescription": "使用我们的免费网址下载器，即时下载 YouTube 视频、提取 MP3 音频，或将任何视频转录为字幕。100% 安全，无需注册。"
   },
   "transcript_seo": {
-    "title": "YouTube 字幕生成器 | Youtubetomp4.pro",
+    "title": "YouTube 字幕生成器 | Y2mp4.com",
     "description": "使用我们的免费在线工具，只需几次点击即可轻松提取字幕、说明文字或隐藏式字幕。",
-    "ogTitle": "YouTube 字幕生成器 | Youtubetomp4.pro",
+    "ogTitle": "YouTube 字幕生成器 | Y2mp4.com",
     "ogDescription": "使用我们的免费在线工具，只需几次点击即可轻松提取字幕、说明文字或隐藏式字幕。"
   },
   "m4a_seo": {
@@ -38,7 +38,7 @@
   "termsOfService": "服务条款",
   "errorGetVideoInfo": "获取视频信息出错，请重试",
   "errorTranscriptUnavailable": "无法获取字幕，或该视频的字幕功能已被作者关闭。对此造成的不便，我们深表歉意。",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube 视频下载器",
   "mp3Converter": "YouTube 转 MP3 转换器",
   "transcribeGenerator": "YouTube 字幕生成器",
@@ -145,7 +145,7 @@
   "faq4Answer": "虽然有些免费转换器可能不可靠，但我们非常重视安全性。我们的转换器完全在浏览器运行，无需下载或安装，使用 HTTPS 加密，不收集任何个人信息，并定期扫描以防恶意软件。",
   "faq5Question": "5. 谁会使用 YouTube 转 MP4 转换器？",
   "faq5Answer": "我们的转换器适合各种用户：\n内容创作者：获取视频素材进行创作或混剪\n学生和教师：收集课程视频和教学资料\n旅行人士：下载娱乐内容随时播放\n商务人士：随时访问重要视频\n普通观众：随时随地享受喜爱的视频",
-  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_siteName": "Y2mp4.com",
   "mp3_videoDownloader": "YouTube 视频下载器",
   "mp3_mp3Converter": "YouTube 转 MP3 转换器",
   "mp3_title": "YouTube 链接转 MP3 转换器",
@@ -156,12 +156,30 @@
   "mp3_formats": "所有格式",
   "mp3_formatsTip": "点击保存",
   "mp3_reviews": [
-    { "text": "保存我最喜欢的视频非常完美！下载速度快且超级简单易用，无需注册。", "author": "Sarah_Bennett92" },
-    { "text": "这个工具太棒了！我喜欢它可以轻松下载各种格式的视频。", "author": "John_Doe" },
-    { "text": "我已经使用这个工具好几个月了，它一直运行完美。", "author": "Jane_Smith" },
-    { "text": "快速又可靠。最好的视频下载器！", "author": "Michael_Johnson" },
-    { "text": "简单易用，保存内容非常高效。", "author": "David_Lee" },
-    { "text": "强烈推荐！对我所有的视频都能完美运行。", "author": "Emma_Wilson" }
+    {
+      "text": "保存我最喜欢的视频非常完美！下载速度快且超级简单易用，无需注册。",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "这个工具太棒了！我喜欢它可以轻松下载各种格式的视频。",
+      "author": "John_Doe"
+    },
+    {
+      "text": "我已经使用这个工具好几个月了，它一直运行完美。",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "快速又可靠。最好的视频下载器！",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "简单易用，保存内容非常高效。",
+      "author": "David_Lee"
+    },
+    {
+      "text": "强烈推荐！对我所有的视频都能完美运行。",
+      "author": "Emma_Wilson"
+    }
   ],
   "mp3_howToConvertTitle": "只需 3 个简单步骤即可获取音频",
   "mp3_howToConvertDescription": "从 YouTube 提取音频从未如此简单。只需复制链接、粘贴到这里，您的 MP3 就准备好了。",
@@ -170,12 +188,36 @@
   "mp3_clickDownload": "<strong>将链接粘贴到转换器</strong>\n回到我们的网站，将 YouTube 链接粘贴到输入框中。链接转 MP3 转换器会立即开始准备您的音频文件。",
   "mp3_saveVideo": "<strong>下载您的 MP3 音频文件</strong>\n点击转换完成的文件，即可将音频保存到您的电脑、手机或平板，立即收听，轻松快捷。",
   "mp3_features": [
-    { "icon": "/images/yt_feature1.png", "title": "高质量音频提取", "description": "我们优化处理您的文件，输出高质量 MP3，带来卓越的聆听体验，文件体积适中，适合任何设备。" },
-    { "icon": "/images/yt_feature2.png", "title": "无限免费转换", "description": "没有每日上限或次数限制。随时随地将 YouTube 转为 MP3，保存单曲或建立完整收藏，无需担心限制。" },
-    { "icon": "/images/yt_feature3.png", "title": "极速转换", "description": "专注音频处理，让转换速度极快。大部分 YouTube 转 MP3 操作可在 5 秒内完成，几乎瞬间获取文件。" },
-    { "icon": "/images/yt_feature4.png", "title": "通用 MP3 格式", "description": "输出通用兼容的 MP3 文件，可在任何设备、音乐应用或汽车音响系统上完美播放。" },
-    { "icon": "/images/yt_feature5.png", "title": "100% 安全且无广告", "description": "安全、无广告的 YouTube 转 MP3 体验。使用 HTTPS 加密，不存储用户数据，每次访问都干净清爽。" },
-    { "icon": "/images/yt_feature6.png", "title": "随处可用，无需软件", "description": "完全基于浏览器运行，支持 PC、Mac、iPhone、Android，无需下载或安装任何软件。" }
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "高质量音频提取",
+      "description": "我们优化处理您的文件，输出高质量 MP3，带来卓越的聆听体验，文件体积适中，适合任何设备。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "无限免费转换",
+      "description": "没有每日上限或次数限制。随时随地将 YouTube 转为 MP3，保存单曲或建立完整收藏，无需担心限制。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "极速转换",
+      "description": "专注音频处理，让转换速度极快。大部分 YouTube 转 MP3 操作可在 5 秒内完成，几乎瞬间获取文件。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "通用 MP3 格式",
+      "description": "输出通用兼容的 MP3 文件，可在任何设备、音乐应用或汽车音响系统上完美播放。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "100% 安全且无广告",
+      "description": "安全、无广告的 YouTube 转 MP3 体验。使用 HTTPS 加密，不存储用户数据，每次访问都干净清爽。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "随处可用，无需软件",
+      "description": "完全基于浏览器运行，支持 PC、Mac、iPhone、Android，无需下载或安装任何软件。"
+    }
   ],
   "mp3_downloadNow": "立即下载 >>",
   "mp3_featuresConverter": "我们的 YouTube 转 MP3 转换器核心功能",
@@ -209,7 +251,7 @@
   "mp3_faq4Answer": "合法性取决于内容和用途。公共领域、Creative Commons 许可或您原创内容的音频一般合法。个人离线收听通常属“合理使用”，但未经许可的分发、分享、商用是非法的。",
   "mp3_faq5Question": "5. 与 YouTube 转 MP4 下载器有何不同？",
   "mp3_faq5Answer": "MP4 下载器保存视频+音频，文件较大；我们的 MP3 转换器只保留音频，文件更小、下载更快、更省空间。",
-  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_siteName": "Y2mp4.com",
   "downloader_videoDownloader": "YouTube 视频下载器",
   "downloader_mp3Converter": "YouTube 转 MP3 转换器",
   "downloader_title": "终极 YouTube URL 下载器",
@@ -221,12 +263,30 @@
   "downloader_formats": "所有格式",
   "downloader_formatsTip": "点击保存",
   "downloader_reviews": [
-    { "text": "非常适合保存我最喜欢的视频！下载速度快且超级简单易用，无需注册。", "author": "Sarah_Bennett92" },
-    { "text": "这个工具很棒！我喜欢它能轻松下载各种格式的视频。", "author": "John_Doe" },
-    { "text": "我已经使用这个工具好几个月了，它一直运行完美。", "author": "Jane_Smith" },
-    { "text": "快速又可靠。最好的视频下载器！", "author": "Michael_Johnson" },
-    { "text": "易用高效，保存内容很方便。", "author": "David_Lee" },
-    { "text": "强烈推荐！我所有的视频都能完美下载。", "author": "Emma_Wilson" }
+    {
+      "text": "非常适合保存我最喜欢的视频！下载速度快且超级简单易用，无需注册。",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "这个工具很棒！我喜欢它能轻松下载各种格式的视频。",
+      "author": "John_Doe"
+    },
+    {
+      "text": "我已经使用这个工具好几个月了，它一直运行完美。",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "快速又可靠。最好的视频下载器！",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "易用高效，保存内容很方便。",
+      "author": "David_Lee"
+    },
+    {
+      "text": "强烈推荐！我所有的视频都能完美下载。",
+      "author": "Emma_Wilson"
+    }
   ],
   "downloader_howToConvertTitle": "3 个简单步骤下载任何 YouTube 视频",
   "downloader_howToConvertDescription": "保存您喜爱的内容从未如此简单。只需复制、粘贴、下载即可完成。",
@@ -235,12 +295,36 @@
   "downloader_clickDownload": "<strong>将链接粘贴到下载器</strong>\n回到我们的网站，将视频链接粘贴到输入框中，我们的工具会自动解析。",
   "downloader_saveVideo": "<strong>选择格式并下载</strong>\n点击“下载”按钮，从文件列表中选择所需的格式与分辨率，即可直接保存到您的设备。",
   "downloader_features": [
-    { "icon": "/images/yt_feature1.png", "title": "一键轻松下载", "description": "无需复杂设置，粘贴 YouTube 链接即可生成直接下载地址，快速保存视频以便离线观看。" },
-    { "icon": "/images/yt_feature2.png", "title": "高质量 MP3 音频提取", "description": "只需要音频？本工具可将 YouTube 链接直接转换为高质量 MP3 文件，非常适合音乐、播客和讲座收听。" },
-    { "icon": "/images/yt_feature3.png", "title": "为所有设备优化并节省流量", "description": "标准清晰度视频文件小，下载更快、流量消耗更少，不占用太多存储，且兼容所有设备播放。" },
-    { "icon": "/images/yt_feature4.png", "title": "安全且匿名", "description": "完全在线运行，无需注册或提供个人信息。不跟踪用户行为，网站定期安全扫描，杜绝恶意软件。" },
-    { "icon": "/images/yt_feature5.png", "title": "即时浏览器工具", "description": "无需下载软件，直接在浏览器中使用，支持 Windows、Mac、iOS、Android 等系统。" },
-    { "icon": "/images/yt_feature6.png", "title": "额外功能：免费即时视频转录", "description": "可将 YouTube 视频音频转录为文本，方便学生、内容创作者或研究人员分析使用。" }
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "一键轻松下载",
+      "description": "无需复杂设置，粘贴 YouTube 链接即可生成直接下载地址，快速保存视频以便离线观看。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "高质量 MP3 音频提取",
+      "description": "只需要音频？本工具可将 YouTube 链接直接转换为高质量 MP3 文件，非常适合音乐、播客和讲座收听。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "为所有设备优化并节省流量",
+      "description": "标准清晰度视频文件小，下载更快、流量消耗更少，不占用太多存储，且兼容所有设备播放。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "安全且匿名",
+      "description": "完全在线运行，无需注册或提供个人信息。不跟踪用户行为，网站定期安全扫描，杜绝恶意软件。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "即时浏览器工具",
+      "description": "无需下载软件，直接在浏览器中使用，支持 Windows、Mac、iOS、Android 等系统。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "额外功能：免费即时视频转录",
+      "description": "可将 YouTube 视频音频转录为文本，方便学生、内容创作者或研究人员分析使用。"
+    }
   ],
   "downloader_downloadNow": "立即下载 >>",
   "downloader_featuresConverter": "YouTube URL 下载器核心功能",
@@ -274,7 +358,7 @@
   "downloader_faq4Answer": "我们遵守 YouTube 平台规则，只能下载公开可访问的内容，无法绕过隐私或年龄验证限制。",
   "downloader_faq5Question": "5. 下载数量或时长有限制吗？",
   "downloader_faq5Answer": "没有限制！无论是 10 秒的短视频还是 10 小时的纪录片，都可免费下载。",
-  "transcript_siteName": "Youtubetomp4.pro",
+  "transcript_siteName": "Y2mp4.com",
   "transcript_videoDownloader": "YouTube 视频下载器",
   "transcript_mp3Converter": "YouTube 转 MP3 转换器",
   "transcript_title": "即时 YouTube 字幕生成器",
@@ -286,12 +370,30 @@
   "transcript_formats": "所有格式",
   "transcript_formatsTip": "点击保存",
   "transcript_reviews": [
-    { "text": "这个工具彻底改变了我的工作流程。我现在可以在几秒内将 20 分钟的 YouTube 视频转成博客文章的文字，而不是几个小时。是我用过最好的 YouTube 视频转文字工具。", "author": "Eleanor Vance, 内容营销专员" },
-    { "text": "作为博士生，我需要精确引用视频来源。这个字幕生成器让我能提取准确引文，节省了大量时间，是学术研究必备工具。", "author": "Ben Carter, 博士生" },
-    { "text": "我用它为竞争分析报告获取字幕。快速、可靠，输出的纯净文本非常适合直接贴到文档中。", "author": "Sophie Chen, 市场分析师" },
-    { "text": "我把播客节目传到 YouTube，这个工具是做节目笔记的救星。我能立刻拿到完整字幕，提取关键引文，还能为网站生成详细摘要。每周省下数小时。", "author": "Marcus Holloway, 播客主持人" },
-    { "text": "对学英语的人来说太棒了！我可以获取真实对话字幕，对照学习新单词和短语。时间戳帮助我快速找到需要回听的部分，听力水平显著提高。", "author": "Yuki Tanaka, 语言学习者" },
-    { "text": "作为听力障碍者，YouTube 播放器的字幕有时难以阅读。下载成文本文件让我可以按自己的节奏查看，确保不错过任何信息。感谢这个重要的工具。", "author": "David L., 社区成员" }
+    {
+      "text": "这个工具彻底改变了我的工作流程。我现在可以在几秒内将 20 分钟的 YouTube 视频转成博客文章的文字，而不是几个小时。是我用过最好的 YouTube 视频转文字工具。",
+      "author": "Eleanor Vance, 内容营销专员"
+    },
+    {
+      "text": "作为博士生，我需要精确引用视频来源。这个字幕生成器让我能提取准确引文，节省了大量时间，是学术研究必备工具。",
+      "author": "Ben Carter, 博士生"
+    },
+    {
+      "text": "我用它为竞争分析报告获取字幕。快速、可靠，输出的纯净文本非常适合直接贴到文档中。",
+      "author": "Sophie Chen, 市场分析师"
+    },
+    {
+      "text": "我把播客节目传到 YouTube，这个工具是做节目笔记的救星。我能立刻拿到完整字幕，提取关键引文，还能为网站生成详细摘要。每周省下数小时。",
+      "author": "Marcus Holloway, 播客主持人"
+    },
+    {
+      "text": "对学英语的人来说太棒了！我可以获取真实对话字幕，对照学习新单词和短语。时间戳帮助我快速找到需要回听的部分，听力水平显著提高。",
+      "author": "Yuki Tanaka, 语言学习者"
+    },
+    {
+      "text": "作为听力障碍者，YouTube 播放器的字幕有时难以阅读。下载成文本文件让我可以按自己的节奏查看，确保不错过任何信息。感谢这个重要的工具。",
+      "author": "David L., 社区成员"
+    }
   ],
   "transcript_howToConvertTitle": "3 步将 YouTube 视频转为纯文本",
   "transcript_howToConvertDescription": "轻松解锁视频中的所有文字内容。",
@@ -301,20 +403,53 @@
   "transcript_saveVideo": "<strong>复制或下载完整字幕</strong>\n字幕会立刻生成，您可以一键复制到剪贴板，或下载为干净的 .txt 文件以便日后使用。",
   "transcript_aiTranscript": "立即开始 AI 视频转文字，永久免费！",
   "transcript_features": [
-    { "icon": "/images/yt_feature1.png", "title": "即时页面生成", "description": "无需等待，无额外步骤。粘贴链接后，完整字幕会在几秒内出现在页面上。" },
-    { "icon": "/images/yt_feature2.png", "title": "一键复制与下载", "description": "字幕生成后，可一键复制到剪贴板，或下载为干净的 .txt 文件离线使用。" },
-    { "icon": "/images/yt_feature3.png", "title": "保留原始语言", "description": "忠实提取视频字幕轨道中的原文，100% 保持与原始字幕一致。" },
-    { "icon": "/images/yt_feature4.png", "title": "隐私安全", "description": "无需注册登录，不保存处理的视频链接，您的操作完全匿名、安全。" },
-    { "icon": "/images/yt_feature5.png", "title": "适配所有设备", "description": "可在任意设备浏览器中使用，无需安装任何软件或扩展。" },
-    { "icon": "/images/yt_feature6.png", "title": "干净的文本输出", "description": "自动去除时间码和复杂格式，输出清晰易用的纯文本，方便编辑和发布。" }
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "即时页面生成",
+      "description": "无需等待，无额外步骤。粘贴链接后，完整字幕会在几秒内出现在页面上。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "一键复制与下载",
+      "description": "字幕生成后，可一键复制到剪贴板，或下载为干净的 .txt 文件离线使用。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "保留原始语言",
+      "description": "忠实提取视频字幕轨道中的原文，100% 保持与原始字幕一致。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "隐私安全",
+      "description": "无需注册登录，不保存处理的视频链接，您的操作完全匿名、安全。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "适配所有设备",
+      "description": "可在任意设备浏览器中使用，无需安装任何软件或扩展。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "干净的文本输出",
+      "description": "自动去除时间码和复杂格式，输出清晰易用的纯文本，方便编辑和发布。"
+    }
   ],
   "transcript_downloadNow": "立即获取字幕 >>",
   "transcript_featuresConverter": "必备字幕工具集",
   "transcript_benefits": {
     "title": "将口语转化为可用资源",
-    "convenience": { "title": "内容再利用与 SEO", "description": "一键解锁数小时内容，生成博客文章、播客笔记、推文话题和关键词丰富的视频描述，提升频道可见度。" },
-    "avoidAds": { "title": "精准研究与引用", "description": "可搜索字幕，用 Ctrl+F 快速定位关键信息，支持学术写作与精准分析。" },
-    "saveData": { "title": "提升学习与可及性", "description": "下载课程字幕方便复习和检索，助力语言学习与无障碍内容创作。" }
+    "convenience": {
+      "title": "内容再利用与 SEO",
+      "description": "一键解锁数小时内容，生成博客文章、播客笔记、推文话题和关键词丰富的视频描述，提升频道可见度。"
+    },
+    "avoidAds": {
+      "title": "精准研究与引用",
+      "description": "可搜索字幕，用 Ctrl+F 快速定位关键信息，支持学术写作与精准分析。"
+    },
+    "saveData": {
+      "title": "提升学习与可及性",
+      "description": "下载课程字幕方便复习和检索，助力语言学习与无障碍内容创作。"
+    }
   },
   "transcript_faqTitle": "常见字幕问题解答",
   "transcript_faq1Question": "1. 这是 AI 转录吗？准确度如何？",
@@ -342,21 +477,63 @@
   "m4a_clickDownload": "**粘贴到 M4A 转换器**\n将链接粘贴到转换框，高保真音频流将立即准备好。",
   "m4a_saveVideo": "**下载并添加到 Apple 音乐库**\n点击“下载”选择 M4A 格式，保存文件后将其拖入 Music 应用或 iTunes 同步到设备。",
   "m4a_reviews": [
-    { "text": "保存我喜欢的视频非常完美！下载快、操作简单，无需注册。", "author": "Sarah_Bennett92" },
-    { "text": "很棒的工具！轻松下载多种格式。", "author": "John_Doe" },
-    { "text": "用了几个月，一直很稳定。", "author": "Jane_Smith" },
-    { "text": "快速可靠，最好的下载器！", "author": "Michael_Johnson" },
-    { "text": "易用高效，保存方便。", "author": "David_Lee" },
-    { "text": "强烈推荐！适配所有视频。", "author": "Emma_Wilson" }
+    {
+      "text": "保存我喜欢的视频非常完美！下载快、操作简单，无需注册。",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "很棒的工具！轻松下载多种格式。",
+      "author": "John_Doe"
+    },
+    {
+      "text": "用了几个月，一直很稳定。",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "快速可靠，最好的下载器！",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "易用高效，保存方便。",
+      "author": "David_Lee"
+    },
+    {
+      "text": "强烈推荐！适配所有视频。",
+      "author": "Emma_Wilson"
+    }
   ],
   "m4a_featuresConverter": "YouTube 转 M4A 核心功能",
   "m4a_features": [
-    { "icon": "/images/yt_feature1.png", "title": "为 Apple 生态优化", "description": "M4A 是 Apple 标准音频格式，完美兼容 iTunes 和 Music 应用。" },
-    { "icon": "/images/yt_feature2.png", "title": "先进的 AAC 编码", "description": "采用高效 AAC 压缩，比 MP3 更细腻、更节省空间。" },
-    { "icon": "/images/yt_feature3.png", "title": "高保真音质保留", "description": "保留 YouTube 提供的最高音质，确保清晰、纯净的聆听体验。" },
-    { "icon": "/images/yt_feature4.png", "title": "无限免费转换", "description": "无次数限制，无需注册，隐私安全。" },
-    { "icon": "/images/yt_feature5.png", "title": "基于浏览器的工具", "description": "支持所有现代浏览器，无需安装软件。" },
-    { "icon": "/images/yt_feature6.png", "title": "简洁无广告界面", "description": "无弹窗、无干扰，专注下载。" }
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "为 Apple 生态优化",
+      "description": "M4A 是 Apple 标准音频格式，完美兼容 iTunes 和 Music 应用。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "先进的 AAC 编码",
+      "description": "采用高效 AAC 压缩，比 MP3 更细腻、更节省空间。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "高保真音质保留",
+      "description": "保留 YouTube 提供的最高音质，确保清晰、纯净的聆听体验。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "无限免费转换",
+      "description": "无次数限制，无需注册，隐私安全。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "基于浏览器的工具",
+      "description": "支持所有现代浏览器，无需安装软件。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "简洁无广告界面",
+      "description": "无弹窗、无干扰，专注下载。"
+    }
   ],
   "m4a_downloadNow": "立即下载 >>",
   "m4a_benefitsTitle": "提升个人音频收藏",
@@ -381,5 +558,6 @@
   "m4a_faq6Answer": "Apple 用户或追求高音质的人应选择与 iTunes 完美兼容的 M4A 转换器。",
   "m4a_seo_title": "高音质 YouTube 转 M4A 转换器",
   "m4a_seo_description": "将 YouTube 转换为 M4A 的理想方式。高音质、更小文件，完美适配 Apple Music 与 iTunes。",
-  "youtube2m4a": "高音质 YouTube 转 M4A 转换器"
+  "youtube2m4a": "高音质 YouTube 转 M4A 转换器",
+  "saveTip": "提示：右键点击下载按钮，选择「另存为」可直接保存到本地"
 }

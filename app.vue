@@ -78,11 +78,29 @@ useHead({
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFFFFF;
+  color: #1E293B;
   margin: 0;
   padding: 0;
-  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
 </style>

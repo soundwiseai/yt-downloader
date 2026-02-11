@@ -128,7 +128,7 @@
     <p>
       Have any questions, comments, or concerns about this privacy policy, your data, or your 
       rights with respect to your information? Please contact us at 
-      <a href="mailto:team@y2mp4.com">team@y2mp4.com</a> and we'll be happy to help!
+      <a href="mailto:hello@y2mp4.com">hello@y2mp4.com</a> and we'll be happy to help!
     </p>
   </div>
 </template>
