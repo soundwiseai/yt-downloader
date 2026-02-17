@@ -58,7 +58,7 @@
         <div class="formats-save-tip-wrapper">
           <span class="formats-save-tip">{{ _t("saveTip") }}</span>
           <div class="save-tip-tooltip">
-            <NuxtImg src="/images/yt_save_tip.png" alt="Right-click to save video" class="save-tip-img" />
+            <img src="https://media.y2mp4.com/Gemini_Generated_Image_hqs51shqs51shqs5.png" alt="Right-click to save video" class="save-tip-img" />
           </div>
         </div>
         <div class="formats-list">
