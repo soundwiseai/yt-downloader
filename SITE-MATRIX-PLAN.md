@@ -13,7 +13,7 @@
 |------|------|-------------|-------------|
 | MP4 站 | y2mp4.com | 视频下载（MP4） | youtube to mp4, youtube video downloader |
 | MP3 站 | y2bmp3.com | 音频下载（M4A/MP3） | youtube to mp3, youtube audio downloader |
-| 字幕站 | ytbscript.com | 字幕/转录提取 | youtube transcript, youtube subtitles |
+| 字幕站 | y2script.com | 字幕/转录提取 | youtube transcript, youtube subtitles |
 
 **架构决策：三个独立 GitHub 仓库**
 
@@ -107,7 +107,7 @@ yt-downloader/
 
 #### 三站总览对比
 
-| 维度 | y2mp4.com | y2bmp3.com | ytbscript.com |
+| 维度 | y2mp4.com | y2bmp3.com | y2script.com |
 |------|-----------|------------|---------------|
 | **风格方向** | Flat-Minimal（现状保留） | Warm Analog（暖色模拟感） | Editorial Precision（编辑排版感） |
 | **品牌联想** | 科技工具、可靠 | 黑胶唱片、暖声、模拟音频 | 杂志版面、精确、文字之美 |
@@ -211,7 +211,7 @@ Review Card 作者名: #C2410C
 
 ---
 
-#### ytbscript.com 完整设计方案 — "Editorial Precision"（编辑排版风）
+#### y2script.com 完整设计方案 — "Editorial Precision"（编辑排版风）
 
 **设计理念**：
 灵感来自高端杂志的编辑排版 — The New Yorker、Monocle 那种"文字即设计"的美感。
@@ -309,7 +309,7 @@ Review Card 作者名: #047857
 
 ### 3.2 功能差异化
 
-| 功能 | y2mp4.com | y2bmp3.com | ytbscript.com |
+| 功能 | y2mp4.com | y2bmp3.com | y2script.com |
 |------|-----------|------------|---------------|
 | **首页** | 视频下载（MP4） | 音频下载（显示为 MP3） | 字幕/转录提取 |
 | **导航栏工具** | MP4(首页) / MP3 / 字幕 | MP3(首页) / MP4 / 字幕 | 字幕(首页) / MP4 / MP3 |
@@ -322,7 +322,7 @@ Review Card 作者名: #047857
 |------|---------|
 | Google Analytics ID | 三个不同的 GA-4 Property |
 | Microsoft Clarity ID | 三个不同的 Project |
-| 站点名称（siteName） | Y2mp4.com / Y2bmp3.com / YtbScript.com |
+| 站点名称（siteName） | Y2mp4.com / Y2bmp3.com / Y2Script.com |
 | 所有 SEO title/description | 完全不同的文案（运营负责） |
 | og:image | 三套不同的社交分享图 |
 | 站点互链 | **不互链**，或仅 nofollow |
@@ -337,7 +337,7 @@ Review Card 作者名: #047857
 ```
                     ┌─── Cloudflare (y2mp4.com)    → IP: 104.21.x.x
 用户 ───→ DNS ──────┼─── Cloudflare (y2bmp3.com)   → IP: 172.67.x.x
-                    └─── Cloudflare (ytbscript.com) → IP: 104.21.y.y
+                    └─── Cloudflare (y2script.com) → IP: 104.21.y.y
                                     │
                                     ▼
                          VPS: 65.49.205.191
@@ -404,8 +404,8 @@ www.y2bmp3.com {
 }
 
 # ============ 字幕站 ============
-ytbscript.com {
-    tls /etc/ssl/ytbscript.com/cert.pem /etc/ssl/ytbscript.com/key.pem
+y2script.com {
+    tls /etc/ssl/y2script.com/cert.pem /etc/ssl/y2script.com/key.pem
     handle_path /api/* {
         reverse_proxy localhost:3000
     }
@@ -415,9 +415,9 @@ ytbscript.com {
         try_files {path} {path}/index.html
     }
 }
-www.ytbscript.com {
-    tls /etc/ssl/ytbscript.com/cert.pem /etc/ssl/ytbscript.com/key.pem
-    redir https://ytbscript.com{uri} permanent
+www.y2script.com {
+    tls /etc/ssl/y2script.com/cert.pem /etc/ssl/y2script.com/key.pem
+    redir https://y2script.com{uri} permanent
 }
 ```
 
@@ -428,7 +428,7 @@ www.ytbscript.com {
 const allowedOrigins = [
     'https://y2mp4.com',
     'https://y2bmp3.com',
-    'https://ytbscript.com',
+    'https://y2script.com',
     'http://localhost:3000',
     'http://localhost:3001'
 ];
@@ -455,9 +455,9 @@ const allowedOrigins = [
 | 0.3 | fork 当前代码到 y2bmp3 本地目录 | 🤖 | `cp -r yt-downloader yt-y2bmp3` + 设置新 remote |
 | 0.4 | fork 当前代码到 ytbscript 本地目录 | 🤖 | `cp -r yt-downloader yt-ytbscript` + 设置新 remote |
 | 0.5 | 注册 y2bmp3.com 的 Google Analytics Property | 👤 | 拿到新的 GA-4 Measurement ID |
-| 0.6 | 注册 ytbscript.com 的 Google Analytics Property | 👤 | 拿到新的 GA-4 Measurement ID |
+| 0.6 | 注册 y2script.com 的 Google Analytics Property | 👤 | 拿到新的 GA-4 Measurement ID |
 | 0.7 | 注册 y2bmp3.com 的 Microsoft Clarity Project | 👤 | 拿到新的 Clarity ID |
-| 0.8 | 注册 ytbscript.com 的 Microsoft Clarity Project | 👤 | 拿到新的 Clarity ID |
+| 0.8 | 注册 y2script.com 的 Microsoft Clarity Project | 👤 | 拿到新的 Clarity ID |
 | 0.9 | 确认两个新域名的 WHOIS 隐私保护已开启 | 👤 | 在域名注册商后台检查 |
 
 ---
@@ -532,7 +532,7 @@ const allowedOrigins = [
 
 ---
 
-### Phase 2：ytbscript.com（字幕站）前端改造
+### Phase 2：y2script.com（字幕站）前端改造
 
 > 与 Phase 1 结构相同，以下只列出差异点
 
@@ -540,8 +540,8 @@ const allowedOrigins = [
 
 | # | 任务 | 负责 | 详细操作 |
 |---|------|------|---------|
-| 2.1.1 | 修改 `nuxt.config.ts` | 🤖 | proxy target → `ytbscript.com` |
-| 2.1.2 | 修改 `usePageSeo.ts` | 🤖 | 域名替换为 `ytbscript.com` |
+| 2.1.1 | 修改 `nuxt.config.ts` | 🤖 | proxy target → `y2script.com` |
+| 2.1.2 | 修改 `usePageSeo.ts` | 🤖 | 域名替换为 `y2script.com` |
 | 2.1.3 | 修改 `app.vue` — GA/Clarity | 👤🤖 | 你提供 ID，我替换 |
 | 2.1.4 | 修改 `app.vue` — 字体 | 🤖 | 改为 Nunito + Lato |
 | 2.1.5 | 修改 robots.txt / sitemap.xml | 🤖 | 域名替换 |
@@ -564,7 +564,7 @@ const allowedOrigins = [
 | 2.3.4 | 卡片风格 | 🤖 | 细边框 1px solid #D6D3D1（Stone-300），无阴影，hover border→#047857 |
 | 2.3.5 | Hero 布局 | 🤖 | 左文右图双栏布局 |
 | 2.3.6 | Section 顺序 | 🤖 | Hero→Benefits→Features→FAQ→Reviews |
-| 2.3.7 | Footer 样式 | 🤖 | 底色→#022C22（Emerald-950 墨绿）+ 品牌名 YtbScript.com |
+| 2.3.7 | Footer 样式 | 🤖 | 底色→#022C22（Emerald-950 墨绿）+ 品牌名 Y2Script.com |
 | 2.3.8 | 字体替换 | 🤖 | Poppins→Fraunces 衬线体（标题），Open Sans→Plus Jakarta Sans（正文） |
 | 2.3.9 | `design-spec.jsonc` 更新 | 🤖 | 记录 "Editorial Precision" 完整设计规范 |
 
@@ -579,16 +579,16 @@ const allowedOrigins = [
 | # | 任务 | 负责 | 详细操作 |
 |---|------|------|---------|
 | 3.1 | Cloudflare 添加 y2bmp3.com | 👤 | 添加站点 → 设置 DNS A 记录 → 开启 Proxy（橙色云朵） |
-| 3.2 | Cloudflare 添加 ytbscript.com | 👤 | 同上 |
+| 3.2 | Cloudflare 添加 y2script.com | 👤 | 同上 |
 | 3.3 | Cloudflare 申请 Origin Certificate（y2bmp3） | 👤 | SSL/TLS → Origin Server → Create Certificate |
 | 3.4 | Cloudflare 申请 Origin Certificate（ytbscript） | 👤 | 同上 |
-| 3.5 | VPS 上传 SSL 证书 | 👤 | 将证书文件放到 `/etc/ssl/y2bmp3.com/` 和 `/etc/ssl/ytbscript.com/` |
+| 3.5 | VPS 上传 SSL 证书 | 👤 | 将证书文件放到 `/etc/ssl/y2bmp3.com/` 和 `/etc/ssl/y2script.com/` |
 | 3.6 | VPS 创建部署目录 | 🤖 | `mkdir -p /yt/dist-y2bmp3 /yt/dist-ytbscript` （需 SSH 访问） |
 | 3.7 | 更新 Caddy 配置 | 👤🤖 | 我提供配置内容（见上文 4.3），你 SSH 到 VPS 写入 Caddyfile |
 | 3.8 | 重启 Caddy | 👤 | `systemctl reload caddy` |
 | 3.9 | 更新后端 CORS | 👤🤖 | 我提供代码改动，你 SSH 到 VPS 更新 server.js 并重启 |
 | 3.10 | 验证 Cloudflare Proxy 生效 | 👤 | `dig y2bmp3.com` 确认解析到 Cloudflare IP（非 VPS 真实 IP） |
-| 3.11 | Google Search Console 注册新站 | 👤 | 为 y2bmp3.com 和 ytbscript.com 各注册一个 Property |
+| 3.11 | Google Search Console 注册新站 | 👤 | 为 y2bmp3.com 和 y2script.com 各注册一个 Property |
 | 3.12 | 提交 sitemap 到 Search Console | 👤 | 每个站提交各自的 sitemap.xml |
 
 ---
@@ -691,7 +691,7 @@ Week 4-5: Phase 3（基础设施部署）
 ### ✍️ 运营/内容团队负责的
 
 1. 重写 y2bmp3.com 全部文案（19 种语言 × 1 套内容）
-2. 重写 ytbscript.com 全部文案（19 种语言 × 1 套内容）
+2. 重写 y2script.com 全部文案（19 种语言 × 1 套内容）
 3. SEO 关键词策略规划
 4. 上线后的外链建设
 
