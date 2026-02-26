@@ -101,19 +101,150 @@ yt-downloader/
 
 为防止搜索引擎将三站识别为站群，以下维度必须不同：
 
+#### 三站总览对比
+
 | 维度 | y2mp4.com | y2bmp3.com | ytbscript.com |
 |------|-----------|------------|---------------|
-| **主色** | #2563EB（蓝） | #7C3AED（紫） | #0891B2（青） |
-| **CTA 色** | #F97316（橙） | #10B981（绿） | #F59E0B（黄） |
-| **标题字体** | Poppins | Inter | Nunito |
-| **正文字体** | Open Sans | Roboto | Lato |
-| **按钮圆角** | 8px | 24px（全圆角） | 4px（直角风格） |
-| **卡片风格** | 有边框阴影 | 无边框纯背景色 | 边框无阴影 |
+| **品牌调性** | 科技工具感 | 音乐活力感 | 文档专业感 |
+| **主色** | #2563EB 蓝 🔵 | #E11D48 玫瑰红 🔴 | #0D9488 青绿 🟢 |
+| **CTA 色** | #F97316 橙 🟠 | #0891B2 青 🔵 | #D97706 琥珀 🟡 |
+| **配色逻辑** | 冷主 + 暖 CTA | 暖主 + 冷 CTA | 冷主 + 暖 CTA |
+| **标题字体** | Poppins（几何无衬线） | Montserrat（粗犷无衬线） | Merriweather（衬线体） |
+| **正文字体** | Open Sans | Source Sans 3 | Inter |
+| **按钮圆角** | 8px（标准圆角） | 24px（药丸形） | 4px（直角方正） |
+| **卡片风格** | 边框 + 阴影 | 无边框，浅玫瑰底色 | 细边框，无阴影 |
+| **Hero 背景** | 浅蓝渐变 #EFF6FF→#FFF | 浅玫瑰渐变 #FFF1F2→#FFF | 浅青绿渐变 #F0FDFA→#FFF |
+| **Footer 底色** | #0F172A 深石板色 | #18181B 暖黑色 | #134E4A 深青绿色 |
 | **首页 Hero 布局** | 居中对齐 | 左对齐 | 左文右图 |
 | **Section 顺序** | Hero→Reviews→Features→Benefits→FAQ | Hero→Features→Benefits→Reviews→FAQ | Hero→Benefits→Features→FAQ→Reviews |
-| **Logo** | 完全不同的三套 | | |
-| **Favicon** | 完全不同 | | |
+| **Logo / Favicon** | 各站完全不同 | | |
 | **所有配图** | 完全不同的三套（18+ 张） | | |
+
+---
+
+#### y2bmp3.com 完整配色方案（MP3 音频站 — 玫瑰红 + 青）
+
+**设计理念**：玫瑰红传递音乐的热情与活力，青色 CTA 形成冷暖互补，视觉冲击力强。
+药丸形按钮 + 无边框卡片营造年轻、流行的氛围。
+
+```
+主色 (Primary)
+├── 50:   #FFF1F2   ← 卡片/Section 浅底色
+├── 100:  #FFE4E6   ← 图标背景色
+├── 200:  #FECDD3   ← 边框色（轻量使用）
+├── 500:  #F43F5E   ← 次要强调
+├── 600:  #E11D48   ← 主色 DEFAULT（链接、标题、导航高亮）
+├── 700:  #BE123C   ← Hover 状态
+└── 900:  #881337   ← 极深强调
+
+CTA (Call-to-Action)
+├── DEFAULT: #0891B2  ← 按钮背景（青色，白字可读 ✓）
+└── Hover:   #0E7490  ← 按钮悬停
+
+背景 & 文字
+├── Background:    #FFFFFF
+├── Alt Background:#FFF1F2  ← 浅玫瑰（区别于 y2mp4 的浅蓝）
+├── Text:          #1E293B
+├── Text Muted:    #64748B
+└── Border:        #FECDD3  ← 玫瑰色边框（而非灰色）
+
+Footer
+├── Background:  #18181B  ← Zinc 900（暖黑，区别于 y2mp4 的冷石板）
+├── Heading:     #FFFFFF
+└── Text:        rgba(255, 255, 255, 0.7)
+
+Hero 区域
+└── Background: linear-gradient(135deg, #FFF1F2 0%, #FFFFFF 100%)
+
+组件
+├── Input Focus Border: #E11D48（玫瑰主色）
+├── Feature Card Icon BG: #FFE4E6（Rose 100）
+├── Review Card Author: #E11D48
+└── Focus Ring: 0 0 0 3px rgba(225, 29, 72, 0.3)
+```
+
+**字体**
+```
+标题: Montserrat (600, 700) — 粗犷有力，音乐/品牌感强
+正文: Source Sans 3 (300, 400, 500, 600) — 清晰易读
+Google Fonts: @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+```
+
+**按钮/卡片样式**
+```
+按钮: border-radius: 24px（药丸形），更圆润年轻
+卡片: 无边框，background: #FFF1F2，hover 时 background: #FFE4E6
+阴影: 不使用阴影（扁平风格，与 y2mp4 的阴影风格形成差异）
+```
+
+---
+
+#### ytbscript.com 完整配色方案（字幕站 — 青绿 + 琥珀）
+
+**设计理念**：青绿色代表清晰、准确，契合文字/字幕的"精确提取"定位。
+琥珀色 CTA 带来温暖的信任感。衬线标题字体 + 直角按钮强调"文档/文字"的专业属性。
+
+```
+主色 (Primary)
+├── 50:   #F0FDFA   ← 卡片/Section 浅底色
+├── 100:  #CCFBF1   ← 图标背景色
+├── 200:  #99F6E4   ← 边框色
+├── 500:  #14B8A6   ← 次要强调
+├── 600:  #0D9488   ← 主色 DEFAULT（链接、标题、导航高亮）
+├── 700:  #0F766E   ← Hover 状态
+└── 900:  #134E4A   ← Footer 背景 / 极深强调
+
+CTA (Call-to-Action)
+├── DEFAULT: #D97706  ← 按钮背景（琥珀色，白字可读 ✓）
+└── Hover:   #B45309  ← 按钮悬停
+
+背景 & 文字
+├── Background:    #FFFFFF
+├── Alt Background:#F0FDFA  ← 浅青绿
+├── Text:          #1E293B
+├── Text Muted:    #64748B
+└── Border:        #99F6E4  ← 青绿色边框
+
+Footer
+├── Background:  #134E4A  ← Teal 900（深青绿，品牌一致）
+├── Heading:     #FFFFFF
+└── Text:        rgba(255, 255, 255, 0.7)
+
+Hero 区域
+└── Background: linear-gradient(135deg, #F0FDFA 0%, #FFFFFF 100%)
+
+组件
+├── Input Focus Border: #0D9488（青绿主色）
+├── Feature Card Icon BG: #CCFBF1（Teal 100）
+├── Review Card Author: #0D9488
+└── Focus Ring: 0 0 0 3px rgba(13, 148, 136, 0.3)
+```
+
+**字体**
+```
+标题: Merriweather (700, 900) — 衬线体，强调文字/阅读属性，与另外两站形成根本性差异
+正文: Inter (300, 400, 500, 600) — 现代、高可读性
+Google Fonts: @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Inter:wght@300;400;500;600&display=swap');
+```
+
+**按钮/卡片样式**
+```
+按钮: border-radius: 4px（方正直角），精确、专业感
+卡片: 细边框 1px solid #99F6E4，无阴影，hover 时 border-color: #0D9488
+阴影: 不使用（干净利落，文档风格）
+```
+
+---
+
+#### 为什么这组配色比之前好？
+
+| 之前的问题 | 现在的改进 |
+|-----------|-----------|
+| 紫 #7C3AED + 绿 #10B981 → 色相跳跃大，搭配生硬 | 玫瑰 #E11D48 + 青 #0891B2 → 互补色对，和谐且有张力 |
+| 青 #0891B2 + 黄 #F59E0B → 黄色太亮做按钮白字不清 | 青绿 #0D9488 + 琥珀 #D97706 → 自然互补，按钮白字清晰 |
+| 三站按钮都是 8px 圆角 → 同质化 | 8px / 24px / 4px → 三种按钮形态，视觉指纹完全不同 |
+| 三站都用无衬线字体 → 差异不够 | 无衬线 / 粗犷无衬线 / 衬线体 → 字体DNA完全不同 |
+| 三站卡片风格相同 → 结构指纹一致 | 阴影卡片 / 纯色背景卡片 / 细边框卡片 → HTML/CSS结构不同 |
 
 ### 3.2 功能差异化
 
@@ -297,14 +428,15 @@ const allowedOrigins = [
 
 | # | 任务 | 负责 | 详细操作 |
 |---|------|------|---------|
-| 1.3.1 | 全局配色替换 | 🤖 | 主色 #2563EB→#7C3AED，CTA #F97316→#10B981，全组件更新 |
-| 1.3.2 | 按钮样式修改 | 🤖 | 圆角从 8px 改为 24px（pill 风格） |
-| 1.3.3 | 卡片样式修改 | 🤖 | 去掉边框和阴影，改用浅紫色背景 |
+| 1.3.1 | 全局配色替换 | 🤖 | 主色 #2563EB→#E11D48（玫瑰），CTA #F97316→#0891B2（青），全组件更新 |
+| 1.3.2 | 按钮样式修改 | 🤖 | 圆角从 8px 改为 24px（药丸形 pill 风格） |
+| 1.3.3 | 卡片样式修改 | 🤖 | 去掉边框和阴影，改用浅玫瑰背景 #FFF1F2 |
 | 1.3.4 | Header 组件样式 | 🤖 | 配色更新 + logo 位置调整 |
-| 1.3.5 | Footer 组件样式 | 🤖 | 配色更新 + 品牌名改为 Y2bmp3.com |
-| 1.3.6 | Hero 区域布局 | 🤖 | 从居中对齐改为左对齐风格 |
+| 1.3.5 | Footer 组件样式 | 🤖 | 底色改为 #18181B（暖黑）+ 品牌名改为 Y2bmp3.com |
+| 1.3.6 | Hero 区域布局 | 🤖 | 从居中对齐改为左对齐风格，背景渐变 #FFF1F2→#FFF |
 | 1.3.7 | 首页 Section 顺序调整 | 🤖 | 改为 Hero→Features→Benefits→Reviews→FAQ |
-| 1.3.8 | `design-spec.jsonc` 更新 | 🤖 | 记录 MP3 站的设计规范 |
+| 1.3.8 | 字体替换 | 🤖 | Poppins→Montserrat（标题），Open Sans→Source Sans 3（正文） |
+| 1.3.9 | `design-spec.jsonc` 更新 | 🤖 | 记录 MP3 站完整设计规范（配色/字体/组件） |
 
 #### 1.4 图片资源替换
 
@@ -364,12 +496,14 @@ const allowedOrigins = [
 
 | # | 任务 | 负责 | 详细操作 |
 |---|------|------|---------|
-| 2.3.1 | 全局配色 | 🤖 | 主色 #0891B2（青），CTA #F59E0B（黄） |
-| 2.3.2 | 按钮风格 | 🤖 | 圆角 4px（直角方正风格） |
-| 2.3.3 | 卡片风格 | 🤖 | 细边框 + 无阴影 |
-| 2.3.4 | Hero 布局 | 🤖 | 左文右图双栏布局 |
+| 2.3.1 | 全局配色 | 🤖 | 主色 #0D9488（青绿），CTA #D97706（琥珀），全组件更新 |
+| 2.3.2 | 按钮风格 | 🤖 | 圆角 4px（直角方正，精确专业感） |
+| 2.3.3 | 卡片风格 | 🤖 | 细边框 1px solid #99F6E4，无阴影，hover 变深 |
+| 2.3.4 | Hero 布局 | 🤖 | 左文右图双栏布局，背景渐变 #F0FDFA→#FFF |
 | 2.3.5 | Section 顺序 | 🤖 | Hero→Benefits→Features→FAQ→Reviews |
-| 2.3.6 | Header/Footer 品牌名 | 🤖 | 改为 YtbScript.com |
+| 2.3.6 | Footer 样式 | 🤖 | 底色 #134E4A（深青绿）+ 品牌名 YtbScript.com |
+| 2.3.7 | 字体替换 | 🤖 | Poppins→Merriweather 衬线体（标题），Open Sans→Inter（正文） |
+| 2.3.8 | `design-spec.jsonc` 更新 | 🤖 | 记录字幕站完整设计规范 |
 
 #### 2.4 图片 / 文案 / CI/CD
 
