@@ -8,9 +8,10 @@
   "termsOfService": "使用條款",
   "errorGetVideoInfo": "獲取影片信息錯誤，請再試一次",
   "errorTranscriptUnavailable": "無法取得逐字稿，或是該影片的字幕功能已被作者關閉。造成不便，敬請見諒。",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube 影片下載器",
   "mp3Converter": "YouTube 轉 MP3 轉換器",
   "transcribeGenerator": "YouTube 字幕生成器",
-  "youtube2m4a": "高音質 YouTube 轉 M4A 轉換器"
+  "youtube2m4a": "高音質 YouTube 轉 M4A 轉換器",
+  "saveTip": "提示：右鍵點擊下載按鈕，選擇「另存新檔」可直接儲存到本機"
 }

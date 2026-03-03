@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Video bağlantı hatası. Video alınamıyor. Lütfen bağlantıyı kontrol edin.",
   "errorTranscriptUnavailable": "Transkript kullanılamıyor veya bu videonun transkripti yazar tarafından devre dışı bırakılmış. Verdiğimiz rahatsızlıktan dolayı özür dileriz.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube Video İndiricisi",
   "mp3Converter": "YouTube'dan MP3'e Dönüştürücü",
   "transcribeGenerator": "YouTube Altyazı Oluşturucu",
-  "youtube2m4a": "Yüksek Kaliteli YouTube'dan M4A Dönüştürücü"
+  "youtube2m4a": "Yüksek Kaliteli YouTube'dan M4A Dönüştürücü",
+  "saveTip": "İpucu: İndirme düğmesine sağ tıklayın ve \"Farklı Kaydet\" seçeneğini seçin"
 }

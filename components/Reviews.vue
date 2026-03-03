@@ -87,88 +87,122 @@ onBeforeUnmount(() => {
 </script>
   
   <style scoped>
-  /* 容器，限制卡片滚动区域 */
+  /* Container - limits card scroll area */
   .carousel-container {
     width: 100%;
-    min-height: 200px; /* 设置卡片容器最小高度 */
-    overflow: hidden; /* 隐藏超出部分 */
+    min-height: 200px;
+    overflow: hidden;
     position: relative;
-    margin-top: 40px;
+    margin-top: 3rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
   }
-  
-  /* 滚动区域，卡片水平排列 */
+
+  /* Scroll area - horizontal card layout */
   .carousel {
     display: flex;
     overflow-x: auto;
-    scroll-snap-type: x mandatory; /* 强制对齐 */
-    gap: 10px; /* 卡片间距 */
-    padding: 20px 0;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    padding: 1.5rem 0;
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch; /* 让滚动更平滑 */
+    -webkit-overflow-scrolling: touch;
   }
-  
-  /* 隐藏滚动条 */
+
+  /* Hide scrollbar - Webkit */
   .carousel::-webkit-scrollbar {
     display: none;
   }
-  
-  /* 隐藏滚动条（对于 Firefox） */
+
+  /* Hide scrollbar - Firefox */
   .carousel {
     scrollbar-width: none;
   }
-  
-  /* 卡片样式 */
+
+  /* Card styles */
   .carousel-item {
-    background-color: #f1f1f1;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 33.33%; /* 每个卡片占容器的三分之一宽度 */
-    flex-shrink: 0; /* 防止卡片缩小 */
-    scroll-snap-align: center; /* 卡片居中对齐 */
-    transition: transform 0.3s ease;
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 33.33%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+    box-sizing: border-box;
   }
-  
+
+  .carousel-item:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
   .carousel-item .quote-icon {
-    font-size: 3rem;
-    color: #007bff;
+    font-size: 2rem;
+    color: #2563EB;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 0.75rem;
+    left: 0.75rem;
   }
-  
+
   .carousel-item .review-content {
-    font-size: 1.1rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .carousel-item .review-author {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    color: #007bff;
-    font-weight: bold;
+    color: #334155;
+    line-height: 1.6;
+    margin-bottom: 1rem;
   }
-  
-  /* 使左右的卡片稍微外露 */
+
+  .carousel-item .review-author {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    color: #2563EB;
+    font-weight: 600;
+  }
+
+  /* Soft edge fade on left and right */
   .carousel-container::before,
   .carousel-container::after {
     content: "";
     position: absolute;
     top: 0;
-    width: 15%; /* 让左右卡片外露 */
+    width: 10%;
     height: 100%;
     z-index: 2;
     pointer-events: none;
   }
-  
+
   .carousel-container::before {
     left: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.9), transparent);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.7), transparent);
   }
-  
+
   .carousel-container::after {
     right: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.9), transparent);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.7), transparent);
+  }
+
+  /* Responsive - tablet */
+  @media (max-width: 1024px) {
+    .carousel-item {
+      width: 45%;
+    }
+  }
+
+  /* Responsive - mobile */
+  @media (max-width: 768px) {
+    .carousel-container {
+      margin-top: 2rem;
+    }
+
+    .carousel-item {
+      width: 80%;
+      padding: 1.25rem;
+    }
+
+    .carousel {
+      gap: 0.75rem;
+      padding: 1rem 0;
+    }
   }
   </style>
   

@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Liên kết video không đúng. Không thể lấy video. Vui lòng kiểm tra lại liên kết.",
   "errorTranscriptUnavailable": "Không thể lấy bản chép lại hoặc phụ đề cho video này đã bị tác giả tắt. Xin lỗi vì sự bất tiện này.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "Trình tải video YouTube",
   "mp3Converter": "Chuyển đổi YouTube sang MP3",
   "transcribeGenerator": "Trình tạo phụ đề YouTube",
-  "youtube2m4a": "Công cụ chuyển đổi YouTube sang M4A chất lượng cao"
+  "youtube2m4a": "Công cụ chuyển đổi YouTube sang M4A chất lượng cao",
+  "saveTip": "Mẹo: Nhấp chuột phải vào nút tải xuống và chọn \"Lưu dưới dạng\" để lưu trực tiếp"
 }

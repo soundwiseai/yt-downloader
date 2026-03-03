@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "get video info error, please try again",
   "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube Video Downloader",
   "mp3Converter": "YouTube to MP3 Converter",
   "transcribeGenerator": "YouTube Transcript Generator",
-  "youtube2m4a": "YouTube to M4A"
+  "youtube2m4a": "YouTube to M4A",
+  "saveTip": "Tip: Right-click the download button and select \"Save As\" to save directly"
 }

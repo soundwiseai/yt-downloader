@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "ビデオリンクエラー。動画を取得できません。リンクをご確認ください。",
   "errorTranscriptUnavailable": "逐字起こしは利用できないか、この動画の字幕機能は投稿者によって無効にされています。ご不便をおかけして申し訳ありません。",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube動画ダウンローダー",
   "mp3Converter": "YouTubeからMP3へのコンバーター",
   "transcribeGenerator": "YouTube字幕生成ツール",
-  "youtube2m4a": "高音質 YouTubeからM4Aへのコンバーター"
+  "youtube2m4a": "高音質 YouTubeからM4Aへのコンバーター",
+  "saveTip": "ヒント：ダウンロードボタンを右クリックし「名前を付けて保存」を選択すると直接保存できます"
 }

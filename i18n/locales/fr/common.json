@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Erreur de lien vidéo. Impossible d'obtenir la vidéo. Veuillez vérifier le lien.",
   "errorTranscriptUnavailable": "La transcription est indisponible ou les sous-titres de cette vidéo ont été désactivés par l’auteur. Nous vous prions de nous excuser pour la gêne occasionnée.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "Téléchargeur de vidéos YouTube",
   "mp3Converter": "Convertisseur YouTube en MP3",
   "transcribeGenerator": "Générateur de Sous-titres YouTube",
-  "youtube2m4a": "Convertisseur YouTube vers M4A Haute Fidélité"
+  "youtube2m4a": "Convertisseur YouTube vers M4A Haute Fidélité",
+  "saveTip": "Astuce : Cliquez droit sur le bouton de téléchargement et sélectionnez \"Enregistrer sous\""
 }

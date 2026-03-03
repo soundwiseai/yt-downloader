@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Erro no link do vídeo. Não foi possível obter o vídeo. Por favor, verifique o link.",
   "errorTranscriptUnavailable": "A transcrição não está disponível ou foi desativada pelo autor deste vídeo. Pedimos desculpas pelo transtorno.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "Baixador de Vídeos do YouTube",
   "mp3Converter": "Conversor de YouTube para MP3",
   "transcribeGenerator": "Gerador de Legendas do YouTube",
-  "youtube2m4a": "Conversor de YouTube para M4A de Alta Fidelidade"
+  "youtube2m4a": "Conversor de YouTube para M4A de Alta Fidelidade",
+  "saveTip": "Dica: Clique com o botão direito no botão de download e selecione \"Salvar como\""
 }

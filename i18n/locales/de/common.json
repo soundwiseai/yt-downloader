@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Video-Link-Fehler. Das Video konnte nicht abgerufen werden. Bitte überprüfen Sie den Link.",
   "errorTranscriptUnavailable": "Transkript nicht verfügbar oder die Untertitelfunktion für dieses Video wurde vom Autor deaktiviert. Wir entschuldigen uns für die Unannehmlichkeiten.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube Video Downloader",
   "mp3Converter": "YouTube zu MP3 Konverter",
   "transcribeGenerator": "YouTube Untertitel-Generator",
-  "youtube2m4a": "YouTube zu M4A Konverter"
+  "youtube2m4a": "YouTube zu M4A Konverter",
+  "saveTip": "Tipp: Rechtsklicken Sie auf den Download-Button und wählen Sie \"Speichern unter\""
 }

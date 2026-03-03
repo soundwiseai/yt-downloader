@@ -21,7 +21,7 @@
       <div class="footer-section">
         <div class="contact">
           <h3>{{ _t('email') }}</h3>
-          <a href="mailto:team@y2mp4.com" class="footer-link">team@y2mp4.com</a>
+          <a href="mailto:hello@y2mp4.com" class="footer-link">hello@y2mp4.com</a>
         </div>
       </div>
     </div>
@@ -86,11 +86,12 @@ const handleNavigation = (event: Event) => {
 
 <style scoped>
 .footer {
-  background-color: #030d24;
+  background-color: #0F172A;
   color: white;
-  padding: 40px 20px 20px;
+  padding: 3rem 1.5rem 1.5rem;
   width: 100%;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .footer-content {
@@ -99,35 +100,38 @@ const handleNavigation = (event: Event) => {
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .footer-section {
   flex: 1;
-  margin-bottom: 20px;
+  min-width: 160px;
 }
 
-
 .footer h3 {
-  color: white;
-  margin-bottom: 15px;
-  font-size: 18px;
-  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .footer-link {
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
   color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
-  font-size: 14px;
-  display: block  ;
+  font-size: 0.875rem;
+  display: block;
+  text-decoration: none;
+  transition: color 200ms ease-out;
 }
 
 .footer-link:hover {
-  color: white;
+  color: #FFFFFF;
 }
 
 .comparison, .contact {
-  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
 }
 
 .footer-bottom {
@@ -135,41 +139,53 @@ const handleNavigation = (event: Event) => {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  margin: 30px auto 0;
-  padding-top: 20px;
+  margin: 2rem auto 0;
+  padding-top: 1.5rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   flex-wrap: wrap;
 }
 
 .language-selector {
   display: flex;
-  gap: 20px;
+  gap: 1.5rem;
 }
 
 .lang-link {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: color 200ms ease-out;
 }
 
 .lang-link:hover {
-  color: white;
+  color: #FFFFFF;
   text-decoration: underline;
 }
 
 .copyright {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8125rem;
 }
 
 @media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1rem 1rem;
+  }
+
   .footer-content {
     flex-direction: column;
+    gap: 1.5rem;
   }
-  
+
   .footer-bottom {
     flex-direction: column;
-    gap: 15px;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .language-selector {
+    justify-content: center;
   }
 }
 </style>

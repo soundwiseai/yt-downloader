@@ -37,76 +37,111 @@ const goHome = () => {
 <style scoped>
 .features {
   text-align: center;
-  padding: 20px 20px;
+  padding: 3rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .features h2 {
-  font-size: 2rem;
-  margin-bottom: 40px;
-  color: #1A3B8C;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: #1E293B;
 }
 
 .features-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* 每行显示三个卡片 */
-  grid-gap: 20px;
+  gap: 1.5rem;
   margin: 0 auto;
   width: 100%;
 }
 
 .feature-item {
-  background-color: #f1f1f1;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 2rem 1.5rem;
   text-align: center;
+  transition: box-shadow 200ms ease-out, transform 200ms ease-out;
+}
+
+.feature-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .feature-icon img {
-  width: 116px;
-  height: 116px;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 1rem;
 }
 
 .feature-item h3 {
-  font-size: 1.3rem;
-  color: #1A3B8C;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1E293B;
+  margin-bottom: 0.5rem;
 }
 
 .feature-item p {
-  font-size: 0.9rem;
-  color: #3E3E3E;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  color: #475569;
+  line-height: 1.6;
 }
 
 .download-button-container {
-  margin-top: 40px;
+  margin-top: 3rem;
 }
 
 .download-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   padding: 12px 24px;
-  background-color: #007bff;
-  color: white;
+  background-color: #2563EB;
+  color: #FFFFFF;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.125rem;
+  transition: background-color 200ms ease-out;
 }
 
 .download-button:hover {
-  background-color: #0056b3;
+  background-color: #1D4ED8;
 }
 
 @media (max-width: 1024px) {
   .features-container {
-    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
 }
 
 @media (max-width: 768px) {
-  .features-container {
-    grid-template-columns: 1fr;
-    /* 在小屏幕下每行显示一个卡片 */
+  .features {
+    padding: 2rem 1rem;
   }
 
+  .features h2 {
+    font-size: 1.875rem;
+    margin-bottom: 2rem;
+  }
+
+  .features-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .feature-item {
+    padding: 1.5rem 1rem;
+  }
+
+  .download-button-container {
+    margin-top: 2rem;
+  }
 }
 </style>

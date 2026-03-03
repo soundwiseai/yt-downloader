@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "ลิงก์วิดีโอไม่ถูกต้อง ไม่สามารถดึงวิดีโอได้ กรุณาตรวจสอบลิงก์",
   "errorTranscriptUnavailable": "ไม่สามารถดึงถอดความได้ หรือเจ้าของวิดีโอได้ปิดใช้งานคำบรรยายไว้ ขออภัยในความไม่สะดวก",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "ดาวน์โหลดวิดีโอ YouTube",
   "mp3Converter": "แปลง YouTube เป็น MP3",
   "transcribeGenerator": "เครื่องสร้างคำบรรยาย YouTube",
-  "youtube2m4a": "ตัวแปลง YouTube เป็น M4A คุณภาพสูง"
+  "youtube2m4a": "ตัวแปลง YouTube เป็น M4A คุณภาพสูง",
+  "saveTip": "เคล็ดลับ: คลิกขวาที่ปุ่มดาวน์โหลดและเลือก \"บันทึกเป็น\" เพื่อบันทึกโดยตรง"
 }

@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "비디오 링크 오류. 영상을 가져올 수 없습니다. 링크를 확인하세요.",
   "errorTranscriptUnavailable": "해당 영상의 글자 기록을 가져올 수 없거나 작성자가 자막 기능을 비활성화했습니다. 불편을 드려 죄송합니다.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "유튜브 동영상 다운로더",
   "mp3Converter": "유튜브 MP3 변환기",
   "transcribeGenerator": "YouTube 자막 생성기",
-  "youtube2m4a": "고음질 유튜브 M4A 변환기"
+  "youtube2m4a": "고음질 유튜브 M4A 변환기",
+  "saveTip": "팁: 다운로드 버튼을 마우스 오른쪽 버튼으로 클릭하고 \"다른 이름으로 저장\"을 선택하면 바로 저장됩니다"
 }

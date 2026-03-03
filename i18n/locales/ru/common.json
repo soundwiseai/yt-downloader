@@ -8,9 +8,10 @@
   "termsOfService": "Условия использования",
   "errorGetVideoInfo": "Ошибка получения информации о видео, попробуйте еще раз",
   "errorTranscriptUnavailable": "Невозможно получить транскрипт, или функция субтитров для этого видео отключена автором. Приносим извинения за неудобства.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "Загрузчик видео YouTube",
   "mp3Converter": "Конвертер YouTube в MP3",
   "transcribeGenerator": "Генератор субтитров YouTube",
-  "youtube2m4a": "Конвертер YouTube в M4A"
+  "youtube2m4a": "Конвертер YouTube в M4A",
+  "saveTip": "Совет: Нажмите правой кнопкой мыши на кнопку скачивания и выберите \"Сохранить как\""
 }

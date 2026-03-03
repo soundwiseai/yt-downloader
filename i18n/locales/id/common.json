@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Tautan video salah. Tidak dapat mengambil video. Silakan periksa tautannya.",
   "errorTranscriptUnavailable": "Transkrip tidak tersedia atau fitur subtitle pada video ini telah dinonaktifkan oleh pembuatnya. Mohon maaf atas ketidaknyamanannya.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "Pengunduh Video YouTube",
   "mp3Converter": "Pengonversi YouTube ke MP3",
   "transcribeGenerator": "Generator Subtitle YouTube",
-  "youtube2m4a": "हाई-फिडेलिटी YouTube से M4A कन्वर्टर"
+  "youtube2m4a": "हाई-फिडेलिटी YouTube से M4A कन्वर्टर",
+  "saveTip": "Tips: Klik kanan tombol unduh dan pilih \"Simpan Sebagai\" untuk menyimpan langsung"
 }

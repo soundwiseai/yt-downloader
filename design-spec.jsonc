@@ -1,0 +1,225 @@
+{
+  // Y2mp4.com Design Specification
+  // Style: Flat Design + Minimal & Direct (SaaS Tool)
+  // Generated from ui-ux-pro-max design intelligence
+
+  "style": "flat-minimal",
+  "styleDescription": "Clean, white-space heavy, direct messaging, typography-focused, fast-loading",
+
+  "colors": {
+    "primary": {
+      "50": "#EFF6FF",
+      "100": "#DBEAFE",
+      "200": "#BFDBFE",
+      "300": "#93C5FD",
+      "400": "#60A5FA",
+      "500": "#3B82F6",
+      "600": "#2563EB",
+      "700": "#1D4ED8",
+      "800": "#1E40AF",
+      "900": "#1E3A8A",
+      "DEFAULT": "#2563EB"
+    },
+    "cta": {
+      "DEFAULT": "#F97316",
+      "hover": "#EA580C"
+    },
+    "gray": {
+      "50": "#F8FAFC",
+      "100": "#F1F5F9",
+      "200": "#E2E8F0",
+      "300": "#CBD5E1",
+      "400": "#94A3B8",
+      "500": "#64748B",
+      "600": "#475569",
+      "700": "#334155",
+      "800": "#1E293B",
+      "900": "#0F172A",
+      "950": "#020617"
+    },
+    "background": "#FFFFFF",
+    "backgroundAlt": "#F8FAFC",
+    "text": "#1E293B",
+    "textMuted": "#475569",
+    "border": "#E2E8F0",
+    "success": "#22C55E",
+    "error": "#EF4444",
+    "footer": {
+      "background": "#0F172A",
+      "text": "rgba(255, 255, 255, 0.7)",
+      "heading": "#FFFFFF"
+    }
+  },
+
+  "typography": {
+    "fontFamily": {
+      "heading": ["Poppins", "sans-serif"],
+      "body": ["Open Sans", "sans-serif"]
+    },
+    "googleFontsImport": "@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');",
+    "fontSize": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem"
+    },
+    "fontWeight": {
+      "normal": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+
+  "spacing": {
+    "xs": "0.25rem",
+    "sm": "0.5rem",
+    "md": "1rem",
+    "lg": "1.5rem",
+    "xl": "2rem",
+    "2xl": "3rem",
+    "3xl": "4rem"
+  },
+
+  "borderRadius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "16px",
+    "full": "9999px"
+  },
+
+  "shadows": {
+    "sm": "0 1px 2px rgba(0, 0, 0, 0.05)",
+    "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+    "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
+    "input": "0 1px 3px rgba(0, 0, 0, 0.08)"
+  },
+
+  "layout": {
+    "type": "header",
+    "maxWidth": "1200px",
+    "headerHeight": "64px",
+    "breakpoints": {
+      "sm": "640px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px"
+    },
+    "sectionOrder": [
+      "Header",
+      "Hero (MainContent - input area)",
+      "Reviews carousel",
+      "Features grid",
+      "Benefits alternating",
+      "Footer"
+    ]
+  },
+
+  "components": {
+    "header": {
+      "background": "#FFFFFF",
+      "borderBottom": "1px solid #E2E8F0",
+      "logo": {
+        "font": "Poppins 700",
+        "color": "#2563EB",
+        "size": "1.5rem"
+      },
+      "nav": {
+        "color": "#475569",
+        "hoverColor": "#2563EB",
+        "fontSize": "0.875rem",
+        "fontWeight": 500
+      }
+    },
+    "hero": {
+      "background": "linear-gradient(135deg, #EFF6FF 0%, #FFFFFF 100%)",
+      "title": {
+        "color": "#1E293B",
+        "fontSize": "2.25rem",
+        "fontWeight": 700
+      },
+      "description": {
+        "color": "#475569",
+        "fontSize": "1.125rem"
+      }
+    },
+    "inputBar": {
+      "background": "#FFFFFF",
+      "border": "2px solid #E2E8F0",
+      "borderFocus": "2px solid #2563EB",
+      "borderRadius": "12px",
+      "height": "56px",
+      "shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.05)",
+      "button": {
+        "background": "#2563EB",
+        "hoverBackground": "#1D4ED8",
+        "color": "#FFFFFF",
+        "borderRadius": "8px",
+        "fontWeight": 600
+      }
+    },
+    "videoCard": {
+      "background": "#FFFFFF",
+      "border": "1px solid #E2E8F0",
+      "borderRadius": "12px",
+      "shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1)"
+    },
+    "featureCard": {
+      "background": "#FFFFFF",
+      "border": "1px solid #E2E8F0",
+      "borderRadius": "12px",
+      "shadow": "0 1px 3px rgba(0, 0, 0, 0.08)",
+      "hoverShadow": "0 4px 12px rgba(0, 0, 0, 0.12)",
+      "iconBackground": "#EFF6FF",
+      "titleColor": "#1E293B",
+      "textColor": "#475569"
+    },
+    "reviewCard": {
+      "background": "#F8FAFC",
+      "border": "1px solid #E2E8F0",
+      "borderRadius": "12px",
+      "authorColor": "#2563EB",
+      "textColor": "#334155"
+    },
+    "button": {
+      "primary": {
+        "background": "#2563EB",
+        "hover": "#1D4ED8",
+        "color": "#FFFFFF",
+        "borderRadius": "8px",
+        "padding": "12px 24px",
+        "fontWeight": 600,
+        "transition": "background-color 200ms ease-out"
+      },
+      "cta": {
+        "background": "#F97316",
+        "hover": "#EA580C",
+        "color": "#FFFFFF"
+      }
+    },
+    "footer": {
+      "background": "#0F172A",
+      "headingColor": "#FFFFFF",
+      "textColor": "rgba(255, 255, 255, 0.7)",
+      "linkHoverColor": "#FFFFFF",
+      "borderColor": "rgba(255, 255, 255, 0.1)"
+    }
+  },
+
+  "transitions": {
+    "default": "200ms ease-out",
+    "slow": "300ms ease-out",
+    "fast": "150ms ease-out"
+  },
+
+  "accessibility": {
+    "minContrastRatio": "4.5:1",
+    "focusRing": "0 0 0 3px rgba(37, 99, 235, 0.3)",
+    "reducedMotion": "respect prefers-reduced-motion"
+  }
+}

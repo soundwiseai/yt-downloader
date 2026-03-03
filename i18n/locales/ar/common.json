@@ -8,9 +8,10 @@
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "رابط الفيديو غير صحيح. لا يمكن جلب الفيديو. يرجى التحقق من الرابط.",
   "errorTranscriptUnavailable": "التفريغ غير متاح أو أن خاصية الترجمة لهذا الفيديو تم تعطيلها من قبل المؤلف. نعتذر عن الإزعاج.",
-  "siteName": "Youtubetomp4.pro",
+  "siteName": "Y2mp4.com",
   "videoDownloader": "تحميل فيديو من اليوتيوب",
   "mp3Converter": "تحويل اليوتيوب إلى MP3",
   "transcribeGenerator": "مولد ترجمات YouTube",
-  "youtube2m4a": "محول YouTube إلى M4A بجودة عالية"
+  "youtube2m4a": "محول YouTube إلى M4A بجودة عالية",
+  "saveTip": "نصيحة: انقر بزر الماوس الأيمن على زر التنزيل واختر \"حفظ باسم\" للحفظ مباشرة"
 }
