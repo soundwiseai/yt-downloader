@@ -42,6 +42,17 @@ export default defineNuxtConfig({
       ]
     })()
   },
+  vite: {
+    server: {
+      proxy: {
+        '/api': {
+          target: 'https://y2mp4.com',
+          changeOrigin: true,
+          secure: true
+        }
+      }
+    }
+  },
   nitro: {
     prerender: {
       routes: (() => {
