@@ -1,0 +1,108 @@
+{
+  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_videoDownloader": "Pengunduh Video YouTube",
+  "mp3_mp3Converter": "Pengubah YouTube ke MP3",
+  "mp3_title": "Pengubah URL YouTube ke MP3",
+  "mp3_description": "Ekstrak audio berkualitas tinggi secara instan dari URL YouTube apa pun. Ubah musik, podcast, dan kuliah favorit Anda menjadi file MP3 yang bisa didengarkan di mana saja. Selalu gratis, cepat, dan aman.",
+  "mp3_download": "UNDUH",
+  "mp3_tip": "Harap perhatikan hak cipta saat mengunduh konten. Alat ini tidak dirancang untuk mengunduh musik yang dilindungi hak cipta.",
+  "mp3_tooltipText": "Alat ini hanya dapat digunakan untuk penggunaan legal dan tidak melanggar hak cipta. Jika Anda adalah pembuat konten dan ingin mencegah video Anda diunduh menggunakan alat ini, cukup tambahkan #nodownload ke tag atau deskripsi video Anda.",
+  "mp3_formats": "Semua Format",
+  "mp3_formatsTip": "Klik untuk menyimpan",
+  "mp3_reviews": [
+    {
+      "text": "Sempurna untuk menyimpan video favorit saya! Unduhan cepat dan sangat mudah digunakan. Tidak perlu registrasi.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Alat ini hebat! Saya suka betapa mudahnya mengunduh video dalam berbagai format.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Saya telah menggunakan ini selama berbulan-bulan, dan selalu bekerja dengan sempurna.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Cepat dan andal. Pengunduh video terbaik!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Mudah digunakan dan sangat efektif untuk menyimpan konten.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Sangat direkomendasikan! Berfungsi sempurna untuk semua video saya.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "mp3_howToConvertTitle": "Dapatkan Audio Anda dalam 3 Langkah Sederhana",
+  "mp3_howToConvertDescription": "Tidak pernah semudah ini mengekstrak audio dari YouTube. Cukup salin tautan, tempel di sini, dan MP3 Anda siap.",
+  "mp3_step": "Langkah",
+  "mp3_copyUrl": "<strong>Salin URL Video YouTube</strong>\nTemukan video YouTube yang ingin Anda ekstrak audionya. Salin URL lengkap dari bilah alamat browser Anda.",
+  "mp3_clickDownload": "<strong>Tempel Tautan ke Pengubah</strong>\nKembali ke situs kami dan tempel tautan YouTube ke dalam kotak. Pengubah URL ke MP3 akan segera mulai menyiapkan file audio Anda.",
+  "mp3_saveAudio": "<strong>Unduh File Audio MP3 Anda</strong>\nKlik file yang telah diubah untuk langsung menyimpan file audio ke komputer, ponsel, atau tablet Anda. Tanpa menunggu, tanpa ribet.",
+  "mp3_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Ekstraksi Audio Berkualitas Tinggi",
+      "description": "Kami memproses file Anda untuk memberikan MP3 berkualitas tinggi, memberikan pengalaman mendengarkan yang sangat baik dengan ukuran file yang mudah dikelola, sempurna untuk perangkat apa pun."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Konversi Gratis Tanpa Batas",
+      "description": "Tidak ada batasan atau pembatasan harian. Ubah YouTube ke MP3 sebanyak yang Anda butuhkan, kapan pun Anda mau. Simpan trek tunggal atau buat seluruh koleksi tanpa khawatir tentang batasan."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "Konversi Super Cepat",
+      "description": "Karena kami fokus hanya pada audio, proses konversi sangat cepat. Sebagian besar konversi dari URL YouTube ke MP3 selesai dalam waktu kurang dari lima detik, membuat Anda mendapatkan file hampir seketika."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Format MP3 Universal",
+      "description": "Kami menyediakan audio Anda dalam format MP3 yang kompatibel secara universal. File yang Anda unduh akan diputar dengan sempurna di perangkat apa pun, di aplikasi musik apa pun, atau di sistem stereo mobil tanpa masalah."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "100% Aman dan Bebas Iklan",
+      "description": "Kami menyediakan pengalaman YouTube ke MP3 yang aman dan gratis. Situs kami dilindungi dengan HTTPS, kami tidak pernah menyimpan data Anda, dan kami menjamin antarmuka yang bersih dan bebas iklan setiap saat."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Bekerja di Mana Saja, Tanpa Perlu Perangkat Lunak",
+      "description": "Pengubah online kami bekerja langsung di browser Anda di perangkat apa pun - PC, Mac, iPhone, atau Android. Tidak perlu mengunduh atau menginstal perangkat lunak mencurigakan apa pun."
+    }
+  ],
+  "mp3_downloadNow": "Unduh Sekarang >>",
+  "mp3_featuresConverter": "Fitur Inti dari Pengubah YouTube ke MP3 Kami",
+  "mp3_benefits": {
+    "title": "Audio Anda, Aturan Anda, Daftar Putar Anda",
+    "convenience": {
+      "title": "Bangun Perpustakaan Musik Terbaik Anda",
+      "description": "Menemukan pertunjukan langsung langka, remix unik, atau lagu cover di YouTube yang tidak ada di platform streaming? Unduh musik YouTube sebagai MP3 dan tambahkan lagu-lagu berharga itu ke koleksi pribadi offline Anda yang Anda kendalikan selamanya."
+    },
+    "avoidAds": {
+      "title": "Dengarkan & Pelajari di Mana Saja",
+      "description": "Ubah perjalanan, olahraga, atau pekerjaan rumah Anda menjadi waktu yang produktif. Ubah wawancara panjang, podcast, buku audio, dan pembicaraan pendidikan dari YouTube menjadi MP3. Serap pengetahuan dan tetap terhibur tanpa harus menatap layar atau menguras baterai Anda."
+    },
+    "saveData": {
+      "title": "Buat Konten & Nada Dering",
+      "description": "Membutuhkan efek suara tertentu, trek latar belakang, atau kutipan lucu untuk proyek video Anda sendiri? Atau ingin membuat nada dering khusus dari klip lagu favorit? Alat kami memberi Anda file audio bersih yang Anda butuhkan untuk berkreasi."
+    },
+    "moreFromDownloads": {
+      "title": "Dapatkan Lebih Banyak dari Unduhan Anda",
+      "description": "Ucapkan selamat tinggal pada buffering dan boros data! Berikut cara memaksimalkan video offline Anda:<br/><strong>1. Bangun Perpustakaan Media Pribadi Anda</strong><br/>Buat koleksi gaya Netflix Anda sendiri.<br/><strong>2. Bepergian Tanpa Khawatir</strong><br/>Tidak ada lagi WiFi pesawat yang buruk atau perjalanan darat yang membosankan.<br/><strong>3. Hemat Byte Data Berharga</strong><br/>Unduh melalui WiFi, tonton kapan saja."
+    }
+  },
+  "mp3_faqTitle": "Pertanyaan Anda, Terjawab",
+  "mp3_faq1Question": "1. Bagaimana kualitas audio (bitrate) dari MP3 yang diunduh?",
+  "mp3_faq1Answer": "Pengubah kami dioptimalkan untuk memberikan keseimbangan terbaik antara kualitas audio dan ukuran file. Semua konversi dilakukan dengan bitrate berkualitas tinggi 128kbps. Ini sempurna untuk mendengarkan di segala perangkat, mulai dari earphone standar hingga stereo mobil, dan hampir tidak bisa dibedakan dari bitrate yang lebih tinggi bagi kebanyakan pendengar, sambil menjaga ukuran file tetap kecil untuk unduhan cepat dan menghemat ruang penyimpanan di perangkat Anda.",
+  "mp3_faq2Question": "2. Bisakah saya mengonversi file panjang, seperti podcast 2 jam atau set DJ langsung?",
+  "mp3_faq2Answer": "Ya. Pengunduh audio YouTube kami tidak memiliki batasan durasi video. Baik itu lagu 3 menit atau siaran langsung 3 jam, alat kami bisa menanganinya. Waktu konversi hanya akan sedikit lebih lama untuk file yang lebih besar, tetapi prosesnya tetap sama.",
+  "mp3_faq3Question": "3. Bisakah saya mengekstrak audio dari video non-musik, seperti trailer film atau vlog?",
+  "mp3_faq3Answer": "Tentu saja. Kami mengekstrak seluruh trek audio dari URL YouTube publik yang Anda berikan. Artinya Anda bisa menyimpan dialog dari vlog, efek suara dari video gameplay, atau suara latar dari film dokumenter alam semudah menyimpan lagu.",
+  "mp3_faq4Question": "4. Apakah legal menggunakan pengubah URL YouTube ke MP3?",
+  "mp3_faq4Answer": "Legalitas sangat tergantung pada konten yang Anda konversi dan cara Anda menggunakannya. Umumnya legal untuk mengunduh audio dari konten domain publik, video dengan lisensi Creative Commons, atau konten orisinal Anda sendiri. Untuk materi berhak cipta, mengubahnya ke MP3 untuk didengarkan secara pribadi dan offline sering dianggap sebagai \"penggunaan wajar\". Namun, ilegal untuk mendistribusikan, berbagi, atau menggunakan audio yang diunduh untuk tujuan komersial tanpa izin pemegang hak cipta.",
+  "mp3_faq5Question": "5. Apa perbedaan ini dengan pengunduh video YouTube ke MP4?",
+  "mp3_faq5Answer": "Ini khusus dioptimalkan untuk audio. Sementara pengunduh MP4 menyimpan video dan audio bersama dalam file yang lebih besar, alat URL YouTube ke MP3 kami membuang seluruh data video. Hasilnya adalah file yang jauh lebih kecil yang mengunduh lebih cepat, memakan lebih sedikit ruang di perangkat Anda, dan sempurna untuk pemutaran audio saja."
+}

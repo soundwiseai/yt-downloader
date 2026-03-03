@@ -1,0 +1,108 @@
+{
+  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_videoDownloader": "YouTube Video Downloader",
+  "mp3_mp3Converter": "YouTube zu MP3 Konverter",
+  "mp3_title": "YouTube URL zu MP3 Konverter",
+  "mp3_description": "Extrahieren Sie sofort hochwertige Audio-Dateien von jeder YouTube URL. Konvertieren Sie Ihre Lieblingsmusik, Podcasts und Vorlesungen in MP3-Dateien, die Sie überall anhören können. Immer kostenlos, schnell und sicher.",
+  "mp3_download": "HERUNTERLADEN",
+  "mp3_tip": "Bitte beachten Sie das Urheberrecht beim Herunterladen von Inhalten. Dieses Tool ist nicht für das Herunterladen urheberrechtlich geschützter Musik gedacht.",
+  "mp3_tooltipText": "This tool can only be used for legal, non-infringing use. If you are a content creator and want to prevent your videos from being downloaded using this tool, simply add #nodownload to your video's tags or description.",
+  "mp3_formats": "Alle Formate",
+  "mp3_formatsTip": "Zum Speichern klicken",
+  "mp3_reviews": [
+    {
+      "text": "Perfekt zum Speichern meiner Lieblingsvideos! Schnelle Downloads und super einfach zu bedienen. Keine Registrierung erforderlich.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Dieses Tool ist großartig! Ich liebe, wie einfach es ist, Videos in verschiedenen Formaten herunterzuladen.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Ich benutze das seit Monaten und es funktioniert immer perfekt.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Schnell und zuverlässig. Der beste Video-Downloader!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Einfach zu bedienen und sehr effektiv zum Speichern von Inhalten.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Sehr zu empfehlen! Funktioniert einwandfrei für alle meine Videos.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "mp3_howToConvertTitle": "Holen Sie sich Ihre Audio-Datei in 3 einfachen Schritten",
+  "mp3_howToConvertDescription": "Es war noch nie einfacher, Audio von YouTube zu extrahieren. Kopieren Sie einfach den Link, fügen Sie ihn hier ein und Ihr MP3 ist fertig.",
+  "mp3_step": "Schritt",
+  "mp3_copyUrl": "<strong>Kopieren Sie die YouTube Video URL</strong>\nFinden Sie das YouTube-Video, von dem Sie den Audio-Track möchten. Kopieren Sie die vollständige URL aus der Adressleiste Ihres Browsers.",
+  "mp3_clickDownload": "<strong>Fügen Sie den Link in den Konverter ein</strong>\nKehren Sie zu unserer Website zurück und fügen Sie den YouTube-Link in das Feld ein. Der URL-zu-MP3-Konverter beginnt sofort mit der Vorbereitung Ihrer Audio-Datei.",
+  "mp3_saveAudio": "<strong>Laden Sie Ihre MP3-Audio-Datei herunter</strong>\nKlicken Sie auf die konvertierte Datei, um die Audio-Datei sofort auf Ihrem Computer, Telefon oder Tablet zu speichern. Kein Warten, kein Ärger.",
+  "mp3_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Hochwertige Audio-Extraktion",
+      "description": "Wir verarbeiten Ihre Datei, um eine hochwertige MP3-Datei zu liefern, die ein hervorragendes Hörerlebnis mit einer überschaubaren Dateigröße bietet - perfekt für jedes Gerät."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Unbegrenzte kostenlose Konvertierungen",
+      "description": "Es gibt keine täglichen Limits oder Einschränkungen. Konvertieren Sie YouTube zu MP3 so oft Sie wollen. Speichern Sie einzelne Tracks oder erstellen Sie ganze Sammlungen, ohne sich Gedanken über Limits machen zu müssen."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "Blitzschnelle Konvertierungen",
+      "description": "Da wir uns ausschließlich auf Audio konzentrieren, ist der Konvertierungsprozess unglaublich schnell. Die meisten Konvertierungen von einer YouTube URL zu MP3 werden in weniger als fünf Sekunden abgeschlossen, sodass Sie Ihre Datei fast sofort erhalten."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Universelles MP3-Format",
+      "description": "Wir liefern Ihre Audio-Datei im universell kompatiblen MP3-Format. Die heruntergeladenen Dateien spielen auf jedem Gerät, in jeder Musik-App oder in jedem Auto-Stereo-System ohne Probleme."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "100% sicher und werbefrei",
+      "description": "Wir bieten eine sichere und kostenlose YouTube-zu-MP3-Erfahrung. Unsere Website ist mit HTTPS geschützt, wir speichern niemals Ihre Daten und garantieren jedes Mal eine saubere, werbefreie Oberfläche."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Funktioniert überall, keine Software erforderlich",
+      "description": "Unser Online-Konverter funktioniert direkt in Ihrem Browser auf jedem Gerät - PC, Mac, iPhone oder Android. Es ist nicht nötig, verdächtige Software herunterzuladen oder zu installieren."
+    }
+  ],
+  "mp3_downloadNow": "Jetzt herunterladen >>",
+  "mp3_featuresConverter": "Kernfunktionen unseres YouTube-zu-MP3-Konverters",
+  "mp3_benefits": {
+    "title": "Ihre Audio-Dateien, Ihre Regeln, Ihre Playlist",
+    "convenience": {
+      "title": "Erstellen Sie Ihre ultimative Musikbibliothek",
+      "description": "Haben Sie eine seltene Live-Aufführung, ein einzigartiges Remix oder ein Cover-Lied auf YouTube gefunden, das nicht auf Streaming-Plattformen verfügbar ist? Laden Sie YouTube-Musik als MP3 herunter und fügen Sie diese unschätzbaren Tracks zu Ihrer persönlichen Offline-Sammlung hinzu, die Sie für immer kontrollieren."
+    },
+    "avoidAds": {
+      "title": "Unterwegs hören & lernen",
+      "description": "Machen Sie Ihren Arbeitsweg, Ihr Training oder Hausarbeiten zu produktiver Zeit. Konvertieren Sie lange Interviews, Podcasts, Hörbücher und Bildungsvorträge von YouTube in MP3s. Nehmen Sie Wissen auf und bleiben Sie unterhalten, ohne auf einen Bildschirm starren oder Ihren Akku belasten zu müssen."
+    },
+    "saveData": {
+      "title": "Inhalte & Klingeltöne erstellen",
+      "description": "Brauchen Sie einen bestimmten Soundeffekt, einen Hintergrund-Ambiente-Track oder ein lustiges Zitat für Ihr eigenes Videoprojekt? Oder möchten Sie einen individuellen Klingelton aus einem Lieblingssong-Ausschnitt erstellen? Unser Tool gibt Ihnen die saubere Audio-Datei, die Sie für Ihre Kreativität benötigen."
+    },
+    "moreFromDownloads": {
+      "title": "Mehr aus Ihren Downloads herausholen",
+      "description": "Sagen Sie Buffering und Datenverbrauch Lebewohl! So nutzen Sie Ihre Offline-Videos optimal:<br/><strong>1. Erstellen Sie Ihre persönliche Medienbibliothek</strong><br/>Erstellen Sie Ihre eigene Netflix-ähnliche Sammlung.<br/><strong>2. Reisen Sie sorgenfrei</strong><br/>Kein lästiges Flugzeug-WiFi mehr oder langweilige Autofahrten.<br/><strong>3. Sparen Sie wertvolle Daten</strong><br/>Laden Sie über WiFi herunter und schauen Sie jederzeit."
+    }
+  },
+  "mp3_faqTitle": "Ihre Fragen, beantwortet",
+  "mp3_faq1Question": "1. Wie ist die Audio-Qualität (Bitrate) der heruntergeladenen MP3s?",
+  "mp3_faq1Answer": "Unser Konverter ist optimiert, um das beste Gleichgewicht zwischen Audio-Treue und Dateigröße zu bieten. Alle Konvertierungen werden mit einer hochwertigen 128kbps Bitrate durchgeführt. Dies ist perfekt für das Hören auf allem von Standard-Ohrhörern bis zu Auto-Stereoanlagen und für die meisten Hörer praktisch nicht von höheren Bitraten zu unterscheiden, während die Dateigrößen klein bleiben für schnelle Downloads und um Speicherplatz auf Ihrem Gerät zu sparen.",
+  "mp3_faq2Question": "2. Kann ich eine lange Datei konvertieren, wie einen 2-stündigen Podcast oder ein Live-DJ-Set?",
+  "mp3_faq2Answer": "Ja. Unser YouTube-Audio-Downloader hat keine Beschränkungen bei der Videolänge. Egal ob es sich um einen 3-minütigen Song oder einen 3-stündigen Livestream handelt, unser Tool kann damit umgehen. Die Konvertierungszeit ist lediglich etwas länger für größere Dateien, aber der Prozess bleibt derselbe.",
+  "mp3_faq3Question": "3. Kann ich Audio aus einem Nicht-Musik-Video extrahieren, wie einem Film-Trailer oder einem Vlog?",
+  "mp3_faq3Answer": "Natürlich. Wir extrahieren den gesamten Audio-Track von jeder öffentlichen YouTube-URL, die Sie angeben. Das bedeutet, Sie können Dialoge aus einem Vlog, Soundeffekte aus einem Gameplay-Video oder Umgebungsgeräusche aus einer Natur-Dokumentation genauso einfach speichern wie einen Song.",
+  "mp3_faq4Question": "4. Ist die Verwendung eines YouTube-URL-zu-MP3-Konverters legal?",
+  "mp3_faq4Answer": "Die Legalität hängt stark vom Inhalt, den Sie konvertieren, und dessen Verwendung ab. Es ist generell legal, Audio von Public-Domain-Inhalten, Videos mit Creative-Commons-Lizenz oder Ihren eigenen Originalinhalten herunterzuladen. Für urheberrechtlich geschütztes Material wird das Konvertieren zu MP3 zum persönlichen, offline Hören oft als \"Fair Use\" betrachtet. Es ist jedoch illegal, die heruntergeladenen Audio-Dateien ohne Erlaubnis des Rechteinhabers zu verbreiten, zu teilen oder für kommerzielle Zwecke zu nutzen.",
+  "mp3_faq5Question": "5. Wie unterscheidet sich dies von einem YouTube-zu-MP4-Video-Downloader?",
+  "mp3_faq5Answer": "Es ist speziell für Audio optimiert. Während ein MP4-Downloader Video und Audio zusammen in einer größeren Datei speichert, verwirft unser YouTube-URL-zu-MP3-Tool die Videodaten vollständig. Das Ergebnis ist eine viel kleinere Datei, die schneller heruntergeladen wird, weniger Speicherplatz auf Ihrem Gerät beansprucht und perfekt für die reine Audio-Wiedergabe ist."
+}

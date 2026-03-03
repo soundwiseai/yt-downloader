@@ -1,0 +1,109 @@
+{
+  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_videoDownloader": "YouTube 影片下載器",
+  "downloader_mp3Converter": "YouTube 轉 MP3 轉換器",
+  "downloader_title": "終極 YouTube URL 下載器",
+  "downloader_description": "貼上任何 YouTube URL 即可立即下載高品質影片並保存到您的裝置。快速、安全且無需安裝軟體。",
+  "downloader_download": "下載",
+  "downloader_tip": "下載內容時請注意版權問題。此工具並非設計用於下載受版權保護的音樂。",
+  "downloader_tooltipText": "此工具僅可用於合法、非侵權的用途。如果您是內容創作者並希望防止使用此工具下載您的影片，只需在影片的標籤或描述中添加 #nodownload。",
+  "downloader_audioOnly": "僅音訊",
+  "downloader_formats": "所有格式",
+  "downloader_formatsTip": "點擊保存",
+  "downloader_reviews": [
+    {
+      "text": "非常適合保存我最喜歡的影片！下載速度快且超級簡單易用。無需註冊。",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "這個工具很棒！我喜歡它能夠輕鬆下載各種格式的影片。",
+      "author": "John_Doe"
+    },
+    {
+      "text": "我已經使用這個工具好幾個月了，它總是完美運作。",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "快速且可靠。最棒的影片下載器！",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "易於使用且對於保存內容非常有效。",
+      "author": "David_Lee"
+    },
+    {
+      "text": "強烈推薦！對於我所有的影片都能完美運作。",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "downloader_howToConvertTitle": "3 個簡單步驟下載任何 YouTube 影片",
+  "downloader_howToConvertDescription": "保存您最喜歡的內容從未如此簡單。只需複製、貼上並下載。",
+  "downloader_step": "步驟",
+  "downloader_copyUrl": "<strong>找到並複製 YouTube URL</strong> \n 導航到您想要保存的 YouTube 影片或播放清單。從瀏覽器的地址欄複製完整 URL。",
+  "downloader_clickDownload": "<strong>將影片連結貼到我們的下載器中</strong> \n 返回我們的網站並將連結貼到頁面頂部的輸入框中。我們的工具將自動處理 URL。",
+  "downloader_saveVideo": "<strong>選擇您的格式並下載</strong> \n 點擊「下載」按鈕並從文件列表中選擇格式和解析度，點擊所需的選項直接保存到您的裝置。",
+  "downloader_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "輕鬆一鍵下載",
+      "description": "無需擔心複雜的設置。只需貼上您的 YouTube URL，我們的工具會自動提供標準品質（SD）影片的直接下載連結。這是快速保存內容以供離線觀看的完美方式。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "高品質 MP3 音頻提取",
+      "description": "只需要音頻？我們的工具作為 YouTube URL 轉 MP3 轉換器表現出色。它會去除視頻並提供高品質的 MP3 文件，非常適合在旅途中收聽音樂、播客或講座。這是我們最受歡迎的功能之一。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "為所有裝置優化並節省數據",
+      "description": "標準品質的影片文件較小。這是一個巨大的優勢：下載速度更快，使用的移動數據更少，且不會佔用手機存儲空間。這些文件具有高度兼容性，可以在任何手機、平板或電腦上完美播放。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "安全且匿名",
+      "description": "您的隱私不容妥協。我們的安全 YouTube 下載器在線運作，無需任何註冊或個人信息。我們不追蹤您的活動，並且我們的網站會定期掃描以確保其免受任何惡意軟體的侵害。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "即時瀏覽器工具",
+      "description": "無需安裝任何東西。我們的下載器完全在您的網頁瀏覽器中運作，適用於任何操作系統——Windows、Mac、iOS 或 Android。只需打開我們的網站，您就可以開始使用了。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "額外功能：免費即時影片轉錄",
+      "description": "解鎖任何影片中的文字。我們的工具還支持將 YouTube URL 中的音頻轉錄為完整的文本文檔。這對於需要分析口語內容的學生、內容創作者或研究人員來說非常完美。"
+    }
+  ],
+  "downloader_downloadNow": "立即下載 >>",
+  "downloader_featuresConverter": "YouTube URL 下載器的核心功能",
+  "downloader_benefits": {
+    "title": "以您的方式解鎖您的內容",
+    "convenience": {
+      "title": "為了不間斷的離線觀看",
+      "description": "想像您正在長途飛行中、沒有信號的地鐵上或在偏遠地區露營。使用我們的工具，您可以提前下載 YouTube 影片以供離線觀看。您最喜歡的教程、紀錄片和娛樂內容隨時隨地都在您的口袋裡——無需緩衝，無需網絡。"
+    },
+    "avoidAds": {
+      "title": "為內容創作者和視頻編輯者",
+      "description": "需要獲取特定片段用於反應視頻、蒙太奇或案例研究嗎？通過使用我們的 YouTube URL 下載器，您可以快速獲得高品質、無水印的源材料。在重要內容被刪除之前存檔，確保您擁有下一個創意項目所需的資源。"
+    },
+    "saveData": {
+      "title": "為教育者和學生",
+      "description": "建立一個強大的數字知識庫。從 YouTube URL 保存重要的講座、科學演示或歷史紀錄片。學生可以離線複習材料，隨時隨地學習，不受干擾。"
+    },
+    "moreFromDownloads": {
+      "title": "為旅途中的父母與家庭",
+      "description": "讓家人在長途旅行或外出等待時也能不無聊。使用我們的 YouTube 影片下載器，將他們喜愛的卡通和教育節目下載到平板電腦，即可隨時享受即時、無廣告的娛樂——無需 Wi-Fi 或行動數據。"
+    }
+  },
+  "downloader_faqTitle": "您的問題，已回答",
+  "downloader_faq1Question": "1. 我可以只下載 YouTube 影片的特定部分嗎？",
+  "downloader_faq1Answer": "雖然我們的工具設計用於從 URL 下載整個影片，但這是編輯者的常見需求。最佳做法是首先使用我們的下載器快速將完整的高品質影片文件保存到您的裝置。然後，您可以使用任何標準的視頻編輯軟體（如 CapCut、iMovie 或 Adobe Premiere）輕鬆剪輯您需要的確切片段。這確保您擁有原始文件以供將來使用。",
+  "downloader_faq2Question": "2. MP4、WEBM 和 MP3 格式之間有什麼區別？",
+  "downloader_faq2Answer": "好問題！\n\n<strong>- MP4</strong> 是最普遍兼容的視頻格式，適用於幾乎所有裝置和平台。它在品質和文件大小之間提供了良好的平衡。我們建議大多數用戶使用此格式。\n\n<strong>WEBM</strong> 是由 Google 開發的現代開源格式，通常在類似品質下提供比 MP4 更小的文件大小，但可能不被舊裝置或某些視頻編輯器支持。\n\n<strong>MP3</strong> 是僅音頻的格式。如果您只想從 YouTube URL 提取音頻（如播客、音樂或演講），請選擇此格式。",
+  "downloader_faq3Question": "3. 使用 YouTube URL 下載器下載影片是否合法？",
+  "downloader_faq3Answer": "合法性取決於內容以及您打算如何使用它。通常情況下，下載公共領域或具有創用共享（CC）許可證的影片是合法的。對於受版權保護的內容，在許多地區，為個人離線觀看下載影片通常被視為「合理使用」。然而，未經所有者許可重新分發、混音或將受版權保護的內容貨幣化是非法的。我們鼓勵您尊重版權法和 YouTube 的服務條款。",
+  "downloader_faq4Question": "4. 我嘗試下載私人或年齡限制的影片，但沒有成功。為什麼？",
+  "downloader_faq4Answer": "我們的工具尊重用戶隱私和 YouTube 的平台規則。它作為一個數字「錄影機」運作，意味著它只能訪問和記錄公開可用的內容。如果影片設置為「私人」、「未列出」（除非您有連結）或有年齡限制需要登錄驗證年齡，我們的伺服器無法訪問它。我們不會繞過 YouTube 的任何隱私或訪問控制。",
+  "downloader_faq5Question": "5. 對於我可以下載的影片數量或影片長度有任何限制嗎？",
+  "downloader_faq5Answer": "沒有，沒有任何限制！我們的服務完全免費且無限制。您可以通過貼上 URL 下載 YouTube 影片，無論影片長度如何——從 10 秒的 Short 到 10 小時的紀錄片，都可以隨意下載。"
+}

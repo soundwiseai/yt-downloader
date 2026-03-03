@@ -1,0 +1,108 @@
+{
+  "mp3_siteName": "Youtubetomp4.pro",
+  "mp3_videoDownloader": "YouTube 影片下載器",
+  "mp3_mp3Converter": "YouTube 轉 MP3 轉換器",
+  "mp3_title": "YouTube 網址轉 MP3 轉換器",
+  "mp3_description": "立即從任何 YouTube 網址提取高品質音頻。將您喜愛的音樂、播客和講座轉換為可隨時隨地收聽的 MP3 檔案。完全免費、快速且安全。",
+  "mp3_download": "下載",
+  "mp3_tip": "下載內容時請注意版權問題。此工具並非用於下載受版權保護的音樂。",
+  "mp3_tooltipText": "此工具只能用於合法、非侵權的用途。如果您是內容創作者並希望防止使用此工具下載您的影片，只需在您的影片標籤或描述中添加 #nodownload。",
+  "mp3_formats": "所有格式",
+  "mp3_formatsTip": "點擊保存",
+  "mp3_reviews": [
+    {
+      "text": "保存我最愛的影片非常完美！下載速度快且超級簡單易用。無需註冊。",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "這個工具太棒了！我喜歡它能輕鬆下載各種格式的影片。",
+      "author": "John_Doe"
+    },
+    {
+      "text": "我已經使用這個工具好幾個月了，它總是完美運作。",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "快速又可靠。最棒的影片下載器！",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "簡單易用，保存內容非常有效。",
+      "author": "David_Lee"
+    },
+    {
+      "text": "強烈推薦！對我所有的影片都能完美運作。",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "mp3_howToConvertTitle": "只需3個簡單步驟即可獲取音頻",
+  "mp3_howToConvertDescription": "從 YouTube 提取音頻從未如此簡單。只需複製連結，貼上到這裡，您的 MP3 就準備好了。",
+  "mp3_step": "步驟",
+  "mp3_copyUrl": "<strong>複製 YouTube 影片網址</strong>\n找到您想要音頻的 YouTube 影片。從瀏覽器的網址列複製完整網址。",
+  "mp3_clickDownload": "<strong>將連結貼到轉換器中</strong>\n返回我們的網站並將 YouTube 連結貼到輸入框中。網址轉 MP3 轉換器將立即開始準備您的音頻檔案。",
+  "mp3_saveAudio": "<strong>下載您的 MP3 音頻檔案</strong>\n點擊轉換後的檔案，立即將音頻檔案保存到您的電腦、手機或平板。無需等待，輕鬆簡單。",
+  "mp3_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "高品質音頻提取",
+      "description": "我們處理您的檔案以提供高品質 MP3，帶來卓越的聆聽體驗，檔案大小適中，適合任何裝置。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "無限免費轉換",
+      "description": "沒有每日上限或限制。隨時隨地根據需要將 YouTube 轉換為 MP3。保存單曲或建立完整收藏，無需擔心限制。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "極速轉換",
+      "description": "由於我們專注於音頻，轉換過程極其快速。大多數從 YouTube 網址轉 MP3 的過程在五秒內完成，幾乎瞬間獲取檔案。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "通用 MP3 格式",
+      "description": "我們提供通用兼容的 MP3 格式音頻。您下載的檔案可以在任何裝置、音樂應用或汽車音響系統上完美播放。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "100% 安全且無廣告",
+      "description": "我們提供安全且免費的 YouTube 轉 MP3 體驗。我們的網站使用 HTTPS 保護，絕不存儲您的數據，並承諾每次都有乾淨無廣告的界面。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "隨處可用，無需軟體",
+      "description": "我們的線上轉換器可直接在您的瀏覽器中使用，適用於任何裝置——PC、Mac、iPhone 或 Android。無需下載或安裝任何可疑軟體。"
+    }
+  ],
+  "mp3_downloadNow": "立即下載 >>",
+  "mp3_featuresConverter": "我們的 YouTube 轉 MP3 轉換器核心功能",
+  "mp3_benefits": {
+    "title": "您的音頻，您的規則，您的播放清單",
+    "convenience": {
+      "title": "建立您的終極音樂庫",
+      "description": "在 YouTube 上發現了稀有的現場表演、獨特的混音或翻唱歌曲，而這些在串流平台上找不到？將 YouTube 音樂下載為 MP3，並將這些無價的曲目添加到您永久控制的個人離線收藏中。"
+    },
+    "avoidAds": {
+      "title": "隨時隨地聆聽與學習",
+      "description": "將通勤、鍛煉或家務時間變成高效時間。將長時間的訪談、播客、有聲書和教育講座從 YouTube 轉換為 MP3。吸收知識並保持娛樂，無需緊盯螢幕或耗盡電池。"
+    },
+    "saveData": {
+      "title": "創作內容與鈴聲",
+      "description": "需要特定的音效、背景氛圍音樂或有趣的台詞用於您的影片專案？或者想從喜愛的歌曲片段創建自訂鈴聲？我們的工具為您提供所需的乾淨音頻檔案，讓您發揮創意。"
+    },
+    "moreFromDownloads": {
+      "title": "充分利用您的下載內容",
+      "description": "告別緩衝和數據消耗！以下是充分利用離線影片的方法：\n<strong>1.建立您的個人媒體庫</strong>\n創建自己的 Netflix 風格收藏。\n<strong>2.無憂旅行</strong>\n不再擔心飛機 WiFi 不穩定或無聊的公路旅行。\n<strong>3.節省寶貴的數據流量</strong>\n透過 WiFi 下載，隨時觀看。"
+    }
+  },
+  "mp3_faqTitle": "您的問題，已解答",
+  "mp3_faq1Question": "1. 下載的 MP3 音質（位元率）如何？",
+  "mp3_faq1Answer": "我們的轉換器經過優化，可在音頻保真度和檔案大小之間提供最佳平衡。所有轉換均以高品質的 128kbps 位元率完成。這對於從標準耳機到汽車音響的所有設備都非常適合，對大多數聽眾來說幾乎無法與更高位元率區分，同時保持檔案小巧以便快速下載並節省設備存儲空間。",
+  "mp3_faq2Question": "2. 我可以轉換長時間的檔案嗎，例如 2 小時的播客或現場 DJ 表演？",
+  "mp3_faq2Answer": "可以。我們的 YouTube 音頻下載器對影片長度沒有限制。無論是 3 分鐘的歌曲還是 3 小時的直播，我們的工具都能處理。轉換時間對於較大的檔案會稍長一些，但過程保持不變。",
+  "mp3_faq3Question": "3. 我可以從非音樂影片（如電影預告或 vlog）中提取音頻嗎？",
+  "mp3_faq3Answer": "當然可以。我們從您提供的任何公開 YouTube 網址提取完整音軌。這意味著您可以輕鬆保存 vlog 中的對話、遊戲影片中的音效或自然紀錄片中的環境聲音，就像保存歌曲一樣簡單。",
+  "mp3_faq4Question": "4. 使用 YouTube 網址轉 MP3 轉換器是否合法？",
+  "mp3_faq4Answer": "合法性很大程度上取決於您轉換的內容及其用途。從公共領域內容、具有 Creative Commons 許可的影片或您自己的原創內容下載音頻通常是合法的。對於受版權保護的內容，將其轉換為 MP3 供個人離線聆聽通常被視為「合理使用」。然而，未經版權持有者許可，將下載的音頻用於分發、分享或商業用途是非法的。",
+  "mp3_faq5Question": "5. 這與 YouTube 轉 MP4 影片下載器有何不同？",
+  "mp3_faq5Answer": "它專門針對音頻進行了優化。MP4 下載器將影片和音頻一起保存在較大的檔案中，而我們的 YouTube 網址轉 MP3 工具則完全捨棄影片數據。結果是檔案小得多，下載更快，佔用設備空間更少，非常適合僅播放音頻。"
+}

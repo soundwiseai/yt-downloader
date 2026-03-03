@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Free YouTube to MP4 Converter - Fast & Safe | Youtubetomp4.pro",
+    "description": "Convert YouTube videos to MP4 in seconds. Our free online downloader is 100% safe, requires no ads, and no login. Supports high-quality MP4, MP3 & more formats.",
+    "ogTitle": "Free YouTube to MP4 Converter - Fast & Safe | Youtubetomp4.pro",
+    "ogDescription": "Convert YouTube videos to MP4 in seconds. Our free online downloader is 100% safe, requires no ads, and no login. Supports high-quality MP4, MP3 & more formats."
+  },
+  "mp3_seo": {
+    "title": "YouTube URL to MP3 Converter - Convert Fast & Free Online",
+    "description": "Quickly convert any YouTube URL to a high-quality MP3 file with our free online tool. Our converter is fast, 100% safe, ad-free, and requires no software installation.",
+    "ogTitle": "YouTube URL to MP3 Converter - Convert Fast & Free Online",
+    "ogDescription": "Quickly convert any YouTube URL to a high-quality MP3 file with our free online tool. Our converter is fast, 100% safe, ad-free, and requires no software installation."
+  },
+  "downloader_seo": {
+    "title": "YouTube URL Downloader to MP4, MP3 & Text | Youtubetomp4.pro",
+    "description": "Instantly download YouTube videos, extract MP3 audio, or transcribe any video to text with our free URL downloader. 100% safe, no registration required.",
+    "ogTitle": "YouTube URL Downloader to MP4, MP3 & Text | Youtubetomp4.pro",
+    "ogDescription": "Instantly download YouTube videos, extract MP3 audio, or transcribe any video to text with our free URL downloader. 100% safe, no registration required."
+  },
+  "transcript_seo": {
+    "title": "YouTube Transcript Generator | Youtubetomp4.pro",
+    "description": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks.",
+    "ogTitle": "YouTube Transcript Generator | Youtubetomp4.pro",
+    "ogDescription": "Instantly generate transcripts for YouTube videos with our free online tool. Extract subtitles, captions, or closed captions in just a few clicks."
+  },
+  "m4a_seo": {
+    "title": "YouTube to M4A Converter for Apple Music & iTunes",
+    "description": "Easily convert YouTube videos to high-quality M4A (AAC) audio files. The perfect format for your Apple Music & iTunes library, offering superior sound with a smaller file size.",
+    "ogTitle": "YouTube to M4A Converter for Apple Music & iTunes",
+    "ogDescription": "Easily convert YouTube videos to high-quality M4A (AAC) audio files. The perfect format for your Apple Music & iTunes library, offering superior sound with a smaller file size."
+  },
+  "resource": "Resource",
+  "tools": "Tools",
+  "comparison": "Comparison",
+  "comparisonText": "permanently free and no registration required",
+  "email": "Email",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "errorGetVideoInfo": "get video info error, please try again",
+  "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
+  "siteName": "Youtubetomp4.pro",
+  "videoDownloader": "YouTube Video Downloader",
+  "mp3Converter": "YouTube to MP3 Converter",
+  "transcribeGenerator": "YouTube Transcript Generator",
+  "youtube2m4a": "YouTube to M4A"
+}

@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Conversor Gratuito de YouTube para MP4 - Rápido e Seguro | Youtubetomp4.pro",
+    "description": "Converta vídeos do YouTube para MP4 em segundos. O nosso descarregador online gratuito é 100% seguro, não requer anúncios nem login. Suporta formatos MP4, MP3 e mais em alta qualidade.",
+    "ogTitle": "Conversor Gratuito de YouTube para MP4 - Rápido e Seguro | Youtubetomp4.pro",
+    "ogDescription": "Converta vídeos do YouTube para MP4 em segundos. O nosso descarregador online gratuito é 100% seguro, não requer anúncios nem login. Suporta formatos MP4, MP3 e mais em alta qualidade."
+  },
+  "mp3_seo": {
+    "title": "Conversor de URL do YouTube para MP3 - Converta Online, Rápido e Grátis",
+    "description": "Converta rapidamente qualquer URL do YouTube para um ficheiro MP3 de alta qualidade com a nossa ferramenta online gratuita. O nosso conversor é rápido, 100% seguro, sem anúncios e não requer a instalação de software.",
+    "ogTitle": "Conversor de URL do YouTube para MP3 - Converta Online, Rápido e Grátis",
+    "ogDescription": "Converta rapidamente qualquer URL do YouTube para um ficheiro MP3 de alta qualidade com a nossa ferramenta online gratuita. O nosso conversor é rápido, 100% seguro, sem anúncios e não requer a instalação de software."
+  },
+  "downloader_seo": {
+    "title": "Downloader de URL do YouTube para MP4, MP3 e Texto | Youtubetomp4.pro",
+    "description": "Baixe vídeos do YouTube instantaneamente, extraia áudio em MP3 ou transcreva qualquer vídeo em texto com nosso downloader de URL gratuito. 100% seguro, não é necessário se registrar.",
+    "ogTitle": "Downloader de URL do YouTube para MP4, MP3 e Texto | Youtubetomp4.pro",
+    "ogDescription": "Baixe vídeos do YouTube instantaneamente, extraia áudio em MP3 ou transcreva qualquer vídeo em texto com nosso downloader de URL gratuito. 100% seguro, não é necessário se registrar."
+  },
+  "transcript_seo": {
+    "title": "Gerador de Transcrição do YouTube Grátis para Sempre – Sem Cadastro | Youtubetomp4.pro",
+    "description": "Grátis para sempre, sem necessidade de cadastro e uso ilimitado — gere transcrições de vídeos do YouTube instantaneamente com a nossa ferramenta online. Extraia legendas com apenas alguns cliques.",
+    "ogTitle": "Gerador de Transcrição do YouTube Grátis para Sempre – Sem Cadastro | Youtubetomp4.pro",
+    "ogDescription": "Grátis para sempre, sem necessidade de cadastro e uso ilimitado — gere transcrições de vídeos do YouTube instantaneamente com a nossa ferramenta online. Extraia legendas com apenas alguns cliques."
+  },
+  "m4a_seo": {
+    "title": "Conversor de YouTube para M4A para Apple Music e iTunes",
+    "description": "Converta facilmente vídeos do YouTube para ficheiros de áudio M4A (AAC) de alta qualidade. O formato perfeito para a sua biblioteca do Apple Music e iTunes, oferecendo um som superior com um tamanho de ficheiro mais pequeno.",
+    "ogTitle": "Conversor de YouTube para M4A para Apple Music e iTunes",
+    "ogDescription": "Converta facilmente vídeos do YouTube para ficheiros de áudio M4A (AAC) de alta qualidade. O formato perfeito para a sua biblioteca do Apple Music e iTunes, oferecendo um som superior com um tamanho de ficheiro mais pequeno."
+  },
+  "resource": "Recursos",
+  "tools": "Ferramentas",
+  "comparison": "Comparison",
+  "comparisonText": "permanently free and no registration required",
+  "email": "E-mail",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "errorGetVideoInfo": "Erro no link do vídeo. Não foi possível obter o vídeo. Por favor, verifique o link.",
+  "errorTranscriptUnavailable": "A transcrição não está disponível ou foi desativada pelo autor deste vídeo. Pedimos desculpa pelo incómodo.",
+  "siteName": "Youtubetomp4.pro",
+  "videoDownloader": "Descarregador de Vídeos do YouTube",
+  "mp3Converter": "Conversor de YouTube para MP3",
+  "transcribeGenerator": "Gerador de Legendas do YouTube",
+  "youtube2m4a": "Conversor de YouTube para M4A de Alta Fidelidade"
+}

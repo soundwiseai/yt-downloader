@@ -1,0 +1,109 @@
+{
+  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_videoDownloader": "Pengunduh Video YouTube",
+  "downloader_mp3Converter": "Konverter YouTube ke MP3",
+  "downloader_title": "Pengunduh URL YouTube Terbaik",
+  "downloader_description": "Tempel URL YouTube apa pun untuk mengunduh video secara instan dalam kualitas tinggi dan menyimpannya ke perangkat Anda. Cepat, aman, dan tidak perlu instalasi software.",
+  "downloader_download": "UNDUH",
+  "downloader_tip": "Harap perhatikan hak cipta saat mengunduh konten. Alat ini tidak dirancang untuk mengunduh musik berhak cipta.",
+  "downloader_tooltipText": "Alat ini hanya dapat digunakan untuk penggunaan yang legal dan tidak melanggar. Jika Anda adalah pembuat konten dan ingin mencegah video Anda diunduh menggunakan alat ini, cukup tambahkan #nodownload ke tag atau deskripsi video Anda.",
+  "downloader_audioOnly": "Hanya Audio",
+  "downloader_formats": "Semua Format",
+  "downloader_formatsTip": "Klik untuk menyimpan",
+  "downloader_reviews": [
+    {
+      "text": "Sempurna untuk menyimpan video favorit saya! Unduhan cepat dan sangat mudah digunakan. Tidak perlu registrasi.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Alat ini hebat! Saya suka betapa mudahnya mengunduh video dalam berbagai format.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Saya sudah menggunakan ini selama berbulan-bulan, dan selalu bekerja dengan sempurna.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Cepat dan andal. Pengunduh video terbaik!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Mudah digunakan dan sangat efektif untuk menyimpan konten.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Sangat direkomendasikan! Berfungsi dengan sempurna untuk semua video saya.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "downloader_howToConvertTitle": "Unduh Video YouTube Apa Pun dalam 3 Langkah Sederhana",
+  "downloader_howToConvertDescription": "Menyimpan konten favorit Anda tidak pernah semudah ini. Cukup salin, tempel, dan unduh.",
+  "downloader_step": "Langkah",
+  "downloader_copyUrl": "<strong>Temukan & Salin URL YouTube</strong> \n Buka video atau playlist YouTube yang ingin Anda simpan. Salin URL lengkap dari bilah alamat browser Anda.",
+  "downloader_clickDownload": "<strong>Tempel Tautan Video ke Pengunduh Kami</strong> \n Kembali ke situs kami dan tempel tautan ke kotak input di bagian atas halaman. Alat kami akan secara otomatis memproses URL.",
+  "downloader_saveVideo": "<strong>Pilih Format & Unduh</strong> \n Klik tombol \"Unduh\" dan pilih format serta resolusi dari daftar file, klik yang diinginkan untuk menyimpan langsung ke perangkat Anda.",
+  "downloader_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Unduhan Satu Klik Tanpa Ribet",
+      "description": "Tidak ada pengaturan membingungkan yang perlu dikhawatirkan. Cukup tempel URL YouTube Anda, dan alat kami secara otomatis menyediakan tautan unduhan langsung untuk video kualitas standar (SD). Cara sempurna untuk cepat menyimpan konten untuk ditonton offline."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Ekstraksi Audio MP3 Berkualitas Tinggi",
+      "description": "Hanya butuh audio? Alat kami unggul sebagai konverter URL YouTube ke MP3. Ini menghilangkan video dan memberi Anda file MP3 berkualitas tinggi, sempurna untuk mendengarkan musik, podcast, atau kuliah di mana saja. Ini salah satu fitur paling populer kami."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "Dioptimalkan untuk Semua Perangkat & Hemat Data",
+      "description": "Video kualitas standar memiliki ukuran file lebih kecil. Ini keunggulan besar: unduhan jauh lebih cepat, menggunakan lebih sedikit data seluler, dan tidak memenuhi penyimpanan ponsel Anda. File sangat kompatibel dan akan diputar dengan sempurna di ponsel, tablet, atau komputer apa pun."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Aman & Anonim",
+      "description": "Privasi Anda tidak bisa ditawar. Pengunduh YouTube online kami yang aman beroperasi tanpa memerlukan registrasi atau informasi pribadi apa pun. Kami tidak melacak aktivitas Anda, dan situs kami dipindai secara teratur untuk memastikan bebas dari malware apa pun."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Alat Berbasis Browser Instan",
+      "description": "Tidak perlu menginstal apa pun. Pengunduh kami bekerja sepenuhnya di browser web Anda pada sistem operasi apa pun—Windows, Mac, iOS, atau Android. Cukup buka situs kami dan Anda siap meluncur."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Bonus: Transkripsi Video Gratis & Instan",
+      "description": "Buka kunci teks dalam video apa pun. Alat kami juga mendukung transkripsi audio dari URL YouTube Anda ke dalam dokumen teks lengkap. Sempurna untuk pelajar, pembuat konten, atau peneliti yang perlu menganalisis konten lisan."
+    }
+  ],
+  "downloader_downloadNow": "Unduh Sekarang >>",
+  "downloader_featuresConverter": "Fitur Inti Pengunduh URL YouTube",
+  "downloader_benefits": {
+    "title": "Buka Kunci Konten Anda, Sesuai Keinginan Anda",
+    "convenience": {
+      "title": "Untuk Menonton Offline Tanpa Gangguan",
+      "description": "Bayangkan Anda dalam penerbangan panjang, kereta bawah tanah tanpa sinyal, atau berkemah di area terpencil. Dengan alat kami, Anda dapat mengunduh video YouTube terlebih dahulu untuk ditonton offline. Tutorial, dokumenter, dan hiburan favorit Anda selalu siap—tanpa buffering, tidak perlu internet."
+    },
+    "avoidAds": {
+      "title": "Untuk Pembuat Konten & Editor Video",
+      "description": "Perlu mengambil klip spesifik untuk video reaksi, montase, atau studi kasus? Dengan menggunakan pengunduh URL YouTube kami, Anda bisa cepat mendapatkan materi sumber berkualitas tinggi tanpa watermark. Arsipkan konten penting sebelum dihapus dan pastikan Anda memiliki aset yang dibutuhkan untuk proyek kreatif berikutnya."
+    },
+    "saveData": {
+      "title": "Untuk Pendidik & Pelajar",
+      "description": "Bangun perpustakaan digital pengetahuan yang kuat. Simpan dari URL YouTube untuk menyimpan kuliah penting, demonstrasi ilmiah, atau dokumenter sejarah. Siswa dapat meninjau materi offline untuk belajar kapan saja, di mana saja, tanpa gangguan."
+    },
+    "moreFromDownloads": {
+      "title": "Dapatkan Lebih Banyak dari Unduhan Anda",
+      "description": "Dapatkan lebih banyak dari unduhan Anda: 1. Bangun Perpustakaan Media Pribadi Anda - Buat koleksi gaya Netflix Anda sendiri 2. Bepergian Tanpa Khawatir - Tidak ada lagi WiFi pesawat yang buruk atau perjalanan darat yang membosankan 3. Hemat Byte Data Berharga - Unduh melalui WiFi, tonton kapan saja"
+    }
+  },
+  "downloader_faqTitle": "Pertanyaan Anda, Terjawab",
+  "downloader_faq1Question": "1. Bisakah saya mengunduh hanya bagian tertentu dari video YouTube?",
+  "downloader_faq1Answer": "Meskipun alat kami dirancang untuk mengunduh seluruh video dari URL, ini kebutuhan umum bagi editor. Praktik terbaik adalah menggunakan pengunduh kami untuk menyimpan file video lengkap berkualitas tinggi ke perangkat Anda terlebih dahulu. Kemudian, Anda bisa menggunakan software editing video standar (seperti CapCut, iMovie, atau Adobe Premiere) untuk memotong klip yang Anda butuhkan. Ini memastikan Anda memiliki file asli untuk penggunaan di masa depan.",
+  "downloader_faq2Question": "2. Apa perbedaan antara format MP4, WEBM, dan MP3?",
+  "downloader_faq2Answer": "Pertanyaan bagus!\n<strong>- MP4</strong> adalah format video yang paling kompatibel secara universal, bekerja di hampir semua perangkat dan platform. Ini menawarkan keseimbangan bagus antara kualitas dan ukuran file. Kami merekomendasikan ini untuk sebagian besar pengguna.\n<strong>WEBM</strong> adalah format open-source modern yang dikembangkan Google, sering menyediakan ukuran file lebih kecil dengan kualitas mirip MP4, tetapi mungkin tidak didukung perangkat lama atau beberapa editor video.\n<strong>MP3</strong> adalah format audio saja. Pilih ini jika Anda hanya ingin mengekstrak audio dari URL YouTube, seperti untuk podcast, musik, atau pidato",
+  "downloader_faq3Question": "3. Apakah legal mengunduh video menggunakan pengunduh URL YouTube?",
+  "downloader_faq3Answer": "Legalitas tergantung pada konten dan bagaimana Anda berniat menggunakannya. Umumnya legal mengunduh video yang berada di domain publik atau memiliki lisensi Creative Commons (CC). Untuk konten berhak cipta, mengunduh video untuk ditonton offline pribadi sering dianggap \"penggunaan wajar\" di banyak wilayah. Namun, mendistribusikan ulang, menggubah, atau memonetisasi konten berhak cipta tanpa izin pemilik adalah ilegal. Kami mendorong Anda untuk menghormati hukum hak cipta dan ketentuan layanan YouTube.",
+  "downloader_faq4Question": "4. Saya mencoba mengunduh video pribadi atau terbatas usia, dan tidak berhasil. Mengapa?",
+  "downloader_faq4Answer": "Alat kami menghormati privasi pengguna dan aturan platform YouTube. Ini berfungsi sebagai \"VCR digital\", artinya hanya dapat mengakses dan merekam apa yang tersedia untuk publik. Jika video diatur ke \"Privat\", \"Tidak terdaftar\" (kecuali Anda memiliki tautan), atau memiliki gerbang usia yang mengharuskan Anda login untuk memverifikasi usia, server kami tidak dapat mengaksesnya. Kami tidak melewati kontrol privasi atau akses YouTube.",
+  "downloader_faq5Question": "5. Apakah ada batasan berapa banyak video yang bisa saya unduh atau durasi videonya?",
+  "downloader_faq5Answer": "Tidak, tidak ada batasan! Layanan kami sepenuhnya gratis dan tanpa batas. Anda dapat mengunduh video YouTube dengan menempelkan URL sebanyak yang Anda mau, terlepas dari durasi video—dari Short 10 detik hingga dokumenter 10 jam."
+}

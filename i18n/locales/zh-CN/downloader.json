@@ -1,0 +1,109 @@
+{
+  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_videoDownloader": "YouTube 视频下载器",
+  "downloader_mp3Converter": "YouTube 转 MP3 转换器",
+  "downloader_title": "终极 YouTube URL 下载器",
+  "downloader_description": "粘贴任何 YouTube 链接，即可立即下载高质量视频并保存到您的设备。快速、安全、无需安装软件。",
+  "downloader_download": "下载",
+  "downloader_tip": "下载内容时请注意版权问题。本工具并非用于下载受版权保护的音乐。",
+  "downloader_tooltipText": "此工具仅可用于合法、非侵权用途。如果您是内容创作者并希望阻止使用此工具下载您的视频，只需在视频标签或描述中添加 #nodownload。",
+  "downloader_audioOnly": "仅音频",
+  "downloader_formats": "所有格式",
+  "downloader_formatsTip": "点击保存",
+  "downloader_reviews": [
+    {
+      "text": "非常适合保存我最喜欢的视频！下载速度快且超级简单易用，无需注册。",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "这个工具很棒！我喜欢它能轻松下载各种格式的视频。",
+      "author": "John_Doe"
+    },
+    {
+      "text": "我已经使用这个工具好几个月了，它一直运行完美。",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "快速又可靠。最好的视频下载器！",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "易用高效，保存内容很方便。",
+      "author": "David_Lee"
+    },
+    {
+      "text": "强烈推荐！我所有的视频都能完美下载。",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "downloader_howToConvertTitle": "3 个简单步骤下载任何 YouTube 视频",
+  "downloader_howToConvertDescription": "保存您喜爱的内容从未如此简单。只需复制、粘贴、下载即可完成。",
+  "downloader_step": "步骤",
+  "downloader_copyUrl": "<strong>找到并复制 YouTube 链接</strong>\n进入您要保存的视频或播放列表页面，从浏览器地址栏复制完整链接。",
+  "downloader_clickDownload": "<strong>将链接粘贴到下载器</strong>\n回到我们的网站，将视频链接粘贴到输入框中，我们的工具会自动解析。",
+  "downloader_saveVideo": "<strong>选择格式并下载</strong>\n点击“下载”按钮，从文件列表中选择所需的格式与分辨率，即可直接保存到您的设备。",
+  "downloader_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "一键轻松下载",
+      "description": "无需复杂设置，粘贴 YouTube 链接即可生成直接下载地址，快速保存视频以便离线观看。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "高质量 MP3 音频提取",
+      "description": "只需要音频？本工具可将 YouTube 链接直接转换为高质量 MP3 文件，非常适合音乐、播客和讲座收听。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "为所有设备优化并节省流量",
+      "description": "标准清晰度视频文件小，下载更快、流量消耗更少，不占用太多存储，且兼容所有设备播放。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "安全且匿名",
+      "description": "完全在线运行，无需注册或提供个人信息。不跟踪用户行为，网站定期安全扫描，杜绝恶意软件。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "即时浏览器工具",
+      "description": "无需下载软件，直接在浏览器中使用，支持 Windows、Mac、iOS、Android 等系统。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "额外功能：免费即时视频转录",
+      "description": "可将 YouTube 视频音频转录为文本，方便学生、内容创作者或研究人员分析使用。"
+    }
+  ],
+  "downloader_downloadNow": "立即下载 >>",
+  "downloader_featuresConverter": "YouTube URL 下载器核心功能",
+  "downloader_benefits": {
+    "title": "按您的方式解锁内容",
+    "convenience": {
+      "title": "无中断的离线观看",
+      "description": "无论是长途飞行、地铁无信号，还是野外露营，都可提前下载视频随时播放，无需缓冲、无需网络。"
+    },
+    "avoidAds": {
+      "title": "为创作者与视频编辑服务",
+      "description": "需要素材片段用于反应视频、剪辑或案例研究？本工具可快速获取高质量、无水印的原始文件，避免内容下架的风险。"
+    },
+    "saveData": {
+      "title": "适合教育工作者和学生",
+      "description": "保存讲座、实验视频或纪录片，建立离线学习资料库，随时随地复习内容，无需依赖网络。"
+    },
+    "moreFromDownloads": {
+      "title": "旅途中的家庭娱乐",
+      "description": "提前下载卡通和教育节目，出行途中让孩子也能获得无广告的即时娱乐。"
+    }
+  },
+  "downloader_faqTitle": "常见问题",
+  "downloader_faq1Question": "1. 可以只下载 YouTube 视频的部分片段吗？",
+  "downloader_faq1Answer": "本工具默认下载完整视频。如需片段，建议先下载完整文件，再使用视频编辑软件（如 CapCut、iMovie、Adobe Premiere）裁剪需要的部分。",
+  "downloader_faq2Question": "2. MP4、WEBM 和 MP3 有何区别？",
+  "downloader_faq2Answer": "<strong>- MP4</strong> 兼容性最佳，适合大多数设备，画质与文件大小平衡。\n<strong>- WEBM</strong> 文件更小但兼容性稍差。\n<strong>- MP3</strong> 仅音频格式，适合提取音乐、播客或演讲音频。",
+  "downloader_faq3Question": "3. 使用 YouTube URL 下载器合法吗？",
+  "downloader_faq3Answer": "下载公共领域视频或 Creative Commons 授权视频是合法的。受版权保护的内容仅可用于个人离线观看，禁止擅自分发或商用。",
+  "downloader_faq4Question": "4. 为什么下载私人或年龄限制视频失败？",
+  "downloader_faq4Answer": "我们遵守 YouTube 平台规则，只能下载公开可访问的内容，无法绕过隐私或年龄验证限制。",
+  "downloader_faq5Question": "5. 下载数量或时长有限制吗？",
+  "downloader_faq5Answer": "没有限制！无论是 10 秒的短视频还是 10 小时的纪录片，都可免费下载。"
+}

@@ -1,0 +1,109 @@
+{
+  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_videoDownloader": "YouTube Video Downloader",
+  "downloader_mp3Converter": "YouTube zu MP3 Konverter",
+  "downloader_title": "Der ultimative YouTube URL Downloader",
+  "downloader_description": "Fügen Sie einfach eine YouTube-URL ein, um Videos sofort in hoher Qualität herunterzuladen und auf Ihrem Gerät zu speichern. Schnell, sicher und ohne Software-Installation.",
+  "downloader_download": "HERUNTERLADEN",
+  "downloader_tip": "Bitte achten Sie beim Herunterladen von Inhalten auf das Urheberrecht. Dieses Tool ist nicht für das Herunterladen urheberrechtlich geschützter Musik gedacht.",
+  "downloader_tooltipText": "This tool can only be used for legal, non-infringing use. If you are a content creator and want to prevent your videos from being downloaded using this tool, simply add #nodownload to your video's tags or description.",
+  "downloader_audioOnly": "Nur Audio",
+  "downloader_formats": "Alle Formate",
+  "downloader_formatsTip": "Zum Speichern klicken",
+  "downloader_reviews": [
+    {
+      "text": "Der beste kostenlose YouTube-Downloader, den ich gefunden habe! Funktioniert jedes Mal perfekt und spart mir so viel Zeit.",
+      "author": "Video-Enthusiast2023"
+    },
+    {
+      "text": "Ich benutze dies täglich, um Bildungsinhalte zu speichern. Super schnell und zuverlässig!",
+      "author": "Bildungsinhalt-Ersteller"
+    },
+    {
+      "text": "Endlich einen kostenlosen Downloader gefunden, der wirklich funktioniert! Keine nervigen Pop-ups oder Weiterleitungen.",
+      "author": "Tech-Entdecker"
+    },
+    {
+      "text": "Perfekt zum Speichern meiner Lieblingsmusikvideos. Die Qualität ist erstaunlich!",
+      "author": "Musikliebhaber"
+    },
+    {
+      "text": "Großartig zum Herunterladen von Videos, wenn ich auf Reisen bin. Funktioniert auf all meinen Geräten!",
+      "author": "Reise-Vlogger"
+    },
+    {
+      "text": "Der schnellste kostenlose YouTube-Downloader, den ich je benutzt habe. Sehr zu empfehlen!",
+      "author": "Digitaler-Nomade"
+    }
+  ],
+  "downloader_howToConvertTitle": "Laden Sie jedes YouTube-Video in 3 einfachen Schritten herunter",
+  "downloader_howToConvertDescription": "Das Speichern Ihrer Lieblingsinhalte war noch nie einfacher. Einfach kopieren, einfügen und herunterladen.",
+  "downloader_step": "Schritt",
+  "downloader_copyUrl": "<strong>Finden & Kopieren Sie die YouTube-URL</strong> \n Navigieren Sie zu dem YouTube-Video oder der Playlist, die Sie speichern möchten. Kopieren Sie die vollständige URL aus der Adressleiste Ihres Browsers.",
+  "downloader_clickDownload": "<strong>Fügen Sie den Video-Link in unseren Downloader ein</strong> \n Kehren Sie zu unserer Website zurück und fügen Sie den Link in das Eingabefeld oben auf der Seite ein. Unser Tool verarbeitet die URL automatisch.",
+  "downloader_saveVideo": "<strong>Wählen Sie Ihr Format & Laden Sie herunter</strong> \n Klicken Sie auf die Schaltfläche \"Herunterladen\" und wählen Sie das Format und die Auflösung aus der Dateiliste. Klicken Sie auf die gewünschte Datei, um sie direkt auf Ihrem Gerät zu speichern.",
+  "downloader_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Mühelose Ein-Klick-Downloads",
+      "description": "Keine verwirrenden Einstellungen, um die Sie sich sorgen müssen. Fügen Sie einfach Ihre YouTube-URL ein, und unser Tool stellt automatisch einen direkten Download-Link für das Video in Standardqualität (SD) bereit. Es ist der perfekte Weg, um schnell Inhalte für die Offline-Ansicht zu speichern."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Hochwertige MP3-Audio-Extraktion",
+      "description": "Brauchen Sie nur das Audio? Unser Tool ist hervorragend als YouTube-URL-zu-MP3-Konverter geeignet. Es entfernt das Video und gibt Ihnen eine hochwertige MP3-Datei, perfekt zum Anhören von Musik, Podcasts oder Vorlesungen unterwegs. Das ist eine unserer beliebtesten Funktionen."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "Optimiert für alle Geräte & Datensparen",
+      "description": "Videos in Standardqualität haben kleinere Dateigrößen. Das ist ein riesiger Vorteil: Downloads sind viel schneller, sie verbrauchen weniger Ihrer mobilen Daten und füllen nicht den Speicher Ihres Telefons auf. Die Dateien sind hochkompatibel und spielen perfekt auf jedem Telefon, Tablet oder Computer."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Sicher & Anonym",
+      "description": "Ihre Privatsphäre ist nicht verhandelbar. Unser sicherer YouTube-Downloader online funktioniert ohne Registrierung oder persönliche Informationen. Wir verfolgen Ihre Aktivitäten nicht, und unsere Website wird regelmäßig gescannt, um sicherzustellen, dass sie frei von Malware ist."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Sofortiges Browser-basiertes Tool",
+      "description": "Es gibt nichts zu installieren. Unser Downloader funktioniert vollständig in Ihrem Webbrowser auf jedem Betriebssystem - Windows, Mac, iOS oder Android. Öffnen Sie einfach unsere Website und Sie sind bereit loszulegen."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Bonus: Kostenlose & Sofortige Video-Transkription",
+      "description": "Entschlüsseln Sie den Text in jedem Video. Unser Tool unterstützt auch die Transkription des Audios von Ihrer YouTube-URL in ein vollständiges Textdokument. Das ist perfekt für Studenten, Content-Ersteller oder Forscher, die gesprochene Inhalte analysieren müssen."
+    }
+  ],
+  "downloader_downloadNow": "Jetzt Herunterladen >>",
+  "downloader_featuresConverter": "Kernfunktionen des YouTube URL Downloaders",
+  "downloader_benefits": {
+    "title": "Entschlüsseln Sie Ihre Inhalte, auf Ihre Weise",
+    "convenience": {
+      "title": "Für ununterbrochenes Offline-Ansehen",
+      "description": "Stellen Sie sich vor, Sie sind auf einem langen Flug, in einer U-Bahn ohne Signal oder campen in einem abgelegenen Gebiet. Mit unserem Tool können Sie YouTube-Videos für die Offline-Ansicht im Voraus herunterladen. Ihre Lieblings-Tutorials, Dokumentationen und Unterhaltung sind immer in Ihrer Tasche - kein Puffern, kein Internet nötig."
+    },
+    "avoidAds": {
+      "title": "Für Content-Ersteller & Video-Editoren",
+      "description": "Benötigen Sie einen spezifischen Clip für ein Reaktionsvideo, eine Montage oder eine Fallstudie? Durch die Verwendung unseres YouTube URL Downloaders können Sie schnell hochwertiges, wasserzeichenfreies Quellmaterial erhalten. Archivieren Sie wichtige Inhalte, bevor sie entfernt werden, und stellen Sie sicher, dass Sie die Assets haben, die Sie für Ihr nächstes kreatives Projekt benötigen."
+    },
+    "saveData": {
+      "title": "Für Pädagogen & Studenten",
+      "description": "Erstellen Sie eine mächtige digitale Wissensbibliothek. Speichern Sie von YouTube-URLs wichtige Vorlesungen, wissenschaftliche Demonstrationen oder historische Dokumentationen. Studenten können Materialien offline überprüfen, um jederzeit und überall ohne Ablenkungen zu lernen."
+    },
+    "moreFromDownloads": {
+      "title": "Für Eltern & Familien unterwegs",
+      "description": "Machen Sie lange Fahrten oder Wartezeiten für die Familie angenehmer. Nutzen Sie unseren YouTube Video-Downloader, um stundenlang ihre Lieblings-Cartoons und Bildungssendungen direkt auf ein Tablet herunterzuladen — sofortige, werbefreie Unterhaltung ohne WLAN oder mobile Daten."
+    }
+  },
+  "downloader_faqTitle": "Ihre Fragen, beantwortet",
+  "downloader_faq1Question": "1. Kann ich nur einen bestimmten Teil eines YouTube-Videos herunterladen?",
+  "downloader_faq1Answer": "Während unser Tool darauf ausgelegt ist, das gesamte Video von der URL herunterzuladen, ist dies ein häufiger Bedarf für Editoren. Die beste Praxis ist, unseren Downloader zu verwenden, um zunächst die vollständige, hochwertige Videodatei auf Ihrem Gerät zu speichern. Dann können Sie jede Standard-Videobearbeitungssoftware (wie CapCut, iMovie oder Adobe Premiere) verwenden, um den exakten Clip zu schneiden, den Sie benötigen. Dies stellt sicher, dass Sie die Originaldatei für zukünftige Verwendung haben.",
+  "downloader_faq2Question": "2. Was ist der Unterschied zwischen MP4-, WEBM- und MP3-Formaten?",
+  "downloader_faq2Answer": "Großartige Frage!\n\n<strong>- MP4</strong> ist das universell kompatible Videoformat, das auf fast allen Geräten und Plattformen funktioniert. Es bietet ein großartiges Gleichgewicht zwischen Qualität und Dateigröße. Wir empfehlen dies für die meisten Benutzer.\n\n<strong>WEBM</strong> ist ein modernes, Open-Source-Format von Google entwickelt, das oft kleinere Dateigrößen bei ähnlicher Qualität wie MP4 bietet, aber es wird möglicherweise nicht von älteren Geräten oder einigen Video-Editoren unterstützt.\n\n<strong>MP3</strong> ist ein reines Audio-Format. Wählen Sie dies, wenn Sie nur das Audio von einer YouTube-URL extrahieren möchten, wie für einen Podcast, Musik oder Sprache",
+  "downloader_faq3Question": "3. Ist es legal, Videos mit einem YouTube URL Downloader herunterzuladen?",
+  "downloader_faq3Answer": "Die Legalität hängt vom Inhalt und davon ab, wie Sie ihn verwenden möchten. Es ist generell legal, Videos herunterzuladen, die gemeinfrei sind oder eine Creative Commons (CC) Lizenz haben. Für urheberrechtlich geschützte Inhalte wird das Herunterladen eines Videos für Ihren eigenen persönlichen, offline Gebrauch oft als \"Fair Use\" in vielen Regionen betrachtet. Jedoch ist die Weiterverbreitung, das Remixen oder die Monetarisierung urheberrechtlich geschützter Inhalte ohne Erlaubnis des Eigentümers illegal. Wir ermutigen Sie, die Urheberrechtsgesetze und die Nutzungsbedingungen von YouTube zu respektieren.",
+  "downloader_faq4Question": "4. Ich habe versucht, ein privates oder altersgeschütztes Video herunterzuladen, und es hat nicht funktioniert. Warum?",
+  "downloader_faq4Answer": "Unser Tool respektiert die Privatsphäre der Benutzer und YouTubes Plattformregeln. Es funktioniert als digitaler \"Videorekorder\", was bedeutet, dass es nur auf das zugreifen und aufzeichnen kann, was öffentlich verfügbar ist. Wenn ein Video auf \"Privat\" gesetzt ist, \"Nicht gelistet\" (es sei denn, Sie haben den Link) oder eine Altersschranke hat, die eine Anmeldung zur Altersverifikation erfordert, kann unser Server nicht darauf zugreifen. Wir umgehen keine von YouTubes Privatsphäre- oder Zugangskontrollen.",
+  "downloader_faq5Question": "5. Gibt es Beschränkungen für die Anzahl der Videos, die ich herunterladen kann, oder die Länge der Videos?",
+  "downloader_faq5Answer": "Nein, es gibt keine Beschränkungen! Unser Service ist völlig kostenlos und unbegrenzt. Sie können YouTube-Videos durch Einfügen der URL so oft herunterladen, wie Sie möchten, unabhängig von der Videolänge - von einem 10-Sekunden-Short bis zu einer 10-Stunden-Dokumentation."
+}

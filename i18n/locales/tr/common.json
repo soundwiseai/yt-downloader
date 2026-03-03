@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Ücretsiz YouTube'dan MP4'e Dönüştürücü - Hızlı ve Güvenli | Youtubetomp4.pro",
+    "description": "YouTube videolarını saniyeler içinde MP4'e dönüştürün. Ücretsiz çevrimiçi indiricimiz %100 güvenlidir, reklam ve giriş gerektirmez. Yüksek kaliteli MP4, MP3 ve daha fazla formatı destekler.",
+    "ogTitle": "Ücretsiz YouTube'dan MP4'e Dönüştürücü - Hızlı ve Güvenli | Youtubetomp4.pro",
+    "ogDescription": "YouTube videolarını saniyeler içinde MP4'e dönüştürün. Ücretsiz çevrimiçi indiricimiz %100 güvenlidir, reklam ve giriş gerektirmez. Yüksek kaliteli MP4, MP3 ve daha fazla formatı destekler."
+  },
+  "mp3_seo": {
+    "title": "YouTube URL'den MP3'e Dönüştürücü - Hızlı ve Ücretsiz Çevrimiçi Dönüştürün",
+    "description": "Ücretsiz çevrimiçi aracımızla herhangi bir YouTube URL'sini hızla yüksek kaliteli bir MP3 dosyasına dönüştürün. Dönüştürücümüz hızlı, %100 güvenli, reklamsızdır ve yazılım kurulumu gerektirmez.",
+    "ogTitle": "YouTube URL'den MP3'e Dönüştürücü - Hızlı ve Ücretsiz Çevrimiçi Dönüştürün",
+    "ogDescription": "Ücretsiz çevrimiçi aracımızla herhangi bir YouTube URL'sini hızla yüksek kaliteli bir MP3 dosyasına dönüştürün. Dönüştürücümüz hızlı, %100 güvenli, reklamsızdır ve yazılım kurulumu gerektirmez."
+  },
+  "downloader_seo": {
+    "title": "YouTube URL'den MP4, MP3 ve Metin İndirici | Youtubetomp4.pro",
+    "description": "Ücretsiz URL indiricimizle YouTube videolarını anında indirin, MP3 ses dosyalarını çıkarın veya herhangi bir videoyu metne dönüştürün. %100 güvenli, kayıt gerektirmez.",
+    "ogTitle": "YouTube URL'den MP4, MP3 ve Metin İndirici | Youtubetomp4.pro",
+    "ogDescription": "Ücretsiz URL indiricimizle YouTube videolarını anında indirin, MP3 ses dosyalarını çıkarın veya herhangi bir videoyu metne dönüştürün. %100 güvenli, kayıt gerektirmez."
+  },
+  "transcript_seo": {
+    "title": "Sonsuza Dek Ücretsiz YouTube Transkript Oluşturucu – Kayıt Gerekmez | Youtubetomp4.pro",
+    "description": "Sonsuza dek ücretsiz, kayıt gerekmez ve sınırsız kullanım — YouTube videoları için anında transkript oluşturun. Altyazıları sadece birkaç tıklamayla çıkarın.",
+    "ogTitle": "Sonsuza Dek Ücretsiz YouTube Transkript Oluşturucu – Kayıt Gerekmez | Youtubetomp4.pro",
+    "ogDescription": "Sonsuza dek ücretsiz, kayıt gerekmez ve sınırsız kullanım — YouTube videoları için anında transkript oluşturun. Altyazıları sadece birkaç tıklamayla çıkarın."
+  },
+  "m4a_seo": {
+    "title": "Apple Music ve iTunes için YouTube'dan M4A'ya Dönüştürücü",
+    "description": "YouTube videolarını kolayca yüksek kaliteli M4A (AAC) ses dosyalarına dönüştürün. Apple Music ve iTunes arşiviniz için mükemmel format, daha küçük dosya boyutuyla üstün ses kalitesi sunar.",
+    "ogTitle": "Apple Music ve iTunes için YouTube'dan M4A'ya Dönüştürücü",
+    "ogDescription": "YouTube videolarını kolayca yüksek kaliteli M4A (AAC) ses dosyalarına dönüştürün. Apple Music ve iTunes arşiviniz için mükemmel format, daha küçük dosya boyutuyla üstün ses kalitesi sunar."
+  },
+  "resource": "Kaynaklar",
+  "tools": "Araçlar",
+  "comparison": "Comparison",
+  "comparisonText": "permanently free and no registration required",
+  "email": "E-posta",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "errorGetVideoInfo": "Video bağlantı hatası. Video alınamıyor. Lütfen bağlantıyı kontrol edin.",
+  "errorTranscriptUnavailable": "Transkript kullanılamıyor veya bu videonun transkripti yazar tarafından devre dışı bırakılmış. Verdiğimiz rahatsızlıktan dolayı özür dileriz.",
+  "siteName": "Youtubetomp4.pro",
+  "videoDownloader": "YouTube Video İndiricisi",
+  "mp3Converter": "YouTube'dan MP3'e Dönüştürücü",
+  "transcribeGenerator": "YouTube Altyazı Oluşturucu",
+  "youtube2m4a": "Yüksek Kaliteli YouTube'dan M4A Dönüştürücü"
+}

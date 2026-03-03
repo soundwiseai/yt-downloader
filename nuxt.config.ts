@@ -10,27 +10,37 @@ export default defineNuxtConfig({
       strictMessage: false,
       escapeHtml: false
     },
-    locales: [
-      { code: 'en', name: 'English', file: 'en.json' },
-      { code: 'ar', name: 'العربية', file: 'ar.json' },      
-      { code: 'de', name: 'Deutsch', file: 'de.json' },
-      { code: 'es', name: 'Español', file: 'es.json' },
-      { code: 'es-419', name: 'Español (Latinoamérica)', file: 'es-419.json' },
-      { code: 'fr', name: 'Français', file: 'fr.json' },
-      { code: 'hi', name: 'हिन्दी', file: 'hi.json' },
-      { code: 'id', name: 'Bahasa Indonesia', file: 'id.json' },
-      { code: 'it', name: 'Italiano', file: 'it.json' },
-      { code: 'ja', name: '日本語', file: 'ja.json' },
-      { code: 'ko', name: '한국어', file: 'ko.json' },
-      { code: 'pt', name: 'Português', file: 'pt.json' },
-      { code: 'pt-br', name: 'Português (Brasil)', file: 'pt-br.json' },
-      { code: 'th', name: 'ไทย', file: 'th.json' },
-      { code: 'tr', name: 'Türkçe', file: 'tr.json' },
-      { code: 'vi', name: 'Tiếng Việt', file: 'vi.json' },
-      { code: 'zh-TW', name: '繁體中文', file: 'zh-TW.json' },
-      { code: 'zh-CN', name: '简体中文', file: 'zh-CN.json' },
-      { code: 'ru', name: 'Русский', file: 'ru.json' }
-    ]
+    locales: (() => {
+      const i18nFiles = (code: string) => [
+        `${code}/common.json`,
+        `${code}/mp4.json`,
+        `${code}/mp3.json`,
+        `${code}/downloader.json`,
+        `${code}/transcript.json`,
+        `${code}/m4a.json`,
+      ]
+      return [
+        { code: 'en', name: 'English', files: i18nFiles('en') },
+        { code: 'ar', name: 'العربية', files: i18nFiles('ar') },
+        { code: 'de', name: 'Deutsch', files: i18nFiles('de') },
+        { code: 'es', name: 'Español', files: i18nFiles('es') },
+        { code: 'es-419', name: 'Español (Latinoamérica)', files: i18nFiles('es-419') },
+        { code: 'fr', name: 'Français', files: i18nFiles('fr') },
+        { code: 'hi', name: 'हिन्दी', files: i18nFiles('hi') },
+        { code: 'id', name: 'Bahasa Indonesia', files: i18nFiles('id') },
+        { code: 'it', name: 'Italiano', files: i18nFiles('it') },
+        { code: 'ja', name: '日本語', files: i18nFiles('ja') },
+        { code: 'ko', name: '한국어', files: i18nFiles('ko') },
+        { code: 'pt', name: 'Português', files: i18nFiles('pt') },
+        { code: 'pt-br', name: 'Português (Brasil)', files: i18nFiles('pt-br') },
+        { code: 'th', name: 'ไทย', files: i18nFiles('th') },
+        { code: 'tr', name: 'Türkçe', files: i18nFiles('tr') },
+        { code: 'vi', name: 'Tiếng Việt', files: i18nFiles('vi') },
+        { code: 'zh-TW', name: '繁體中文', files: i18nFiles('zh-TW') },
+        { code: 'zh-CN', name: '简体中文', files: i18nFiles('zh-CN') },
+        { code: 'ru', name: 'Русский', files: i18nFiles('ru') },
+      ]
+    })()
   },
   nitro: {
     prerender: {

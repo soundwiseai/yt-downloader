@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "無料YouTube MP4変換サイト - 高速・安全 | Youtubetomp4.pro",
+    "description": "YouTube動画を数秒でMP4に変換。当サイトの無料オンラインダウンローダーは100%安全で、広告やログインは不要です。高品質なMP4、MP3、その他多くの形式に対応。",
+    "ogTitle": "無料YouTube MP4変換サイト - 高速・安全 | Youtubetomp4.pro",
+    "ogDescription": "YouTube動画を数秒でMP4に変換。当サイトの無料オンラインダウンローダーは100%安全で、広告やログインは不要です。高品質なMP4、MP3、その他多くの形式に対応。"
+  },
+  "mp3_seo": {
+    "title": "YouTube URLをMP3へ変換 - 高速・無料オンラインコンバーター",
+    "description": "無料のオンラインツールで、あらゆるYouTube URLを高品質なMP3ファイルへ迅速に変換します。当社のコンバーターは高速、100%安全、広告なしで、ソフトウェアのインストールは不要です。",
+    "ogTitle": "YouTube URLをMP3へ変換 - 高速・無料オンラインコンバーター",
+    "ogDescription": "無料のオンラインツールで、あらゆるYouTube URLを高品質なMP3ファイルへ迅速に変換します。当社のコンバーターは高速、100%安全、広告なしで、ソフトウェアのインストールは不要です。"
+  },
+  "downloader_seo": {
+    "title": "YouTube URLダウンローダー：MP4、MP3、テキストに変換 | Youtubetomp4.pro",
+    "description": "無料のURLダウンローダーで、YouTube動画のダウンロード、MP3音声の抽出、動画からテキストへの文字起こしが即座にできます。100%安全、登録不要。",
+    "ogTitle": "YouTube URLダウンローダー：MP4、MP3、テキストに変換 | Youtubetomp4.pro",
+    "ogDescription": "無料のURLダウンローダーで、YouTube動画のダウンロード、MP3音声の抽出、動画からテキストへの文字起こしが即座にできます。100%安全、登録不要。"
+  },
+  "transcript_seo": {
+    "title": "永久無料のYouTube文字起こし生成ツール – 登録不要 | Youtubetomp4.pro",
+    "description": "登録不要、永久無料、無制限に使える — オンラインツールでYouTube動画の文字起こしをすぐに生成。数クリックで字幕やキャプションを抽出できます。",
+    "ogTitle": "永久無料のYouTube文字起こし生成ツール – 登録不要 | Youtubetomp4.pro",
+    "ogDescription": "登録不要、永久無料、無制限に使える — オンラインツールでYouTube動画の文字起こしをすぐに生成。数クリックで字幕やキャプションを抽出できます。"
+  },
+  "m4a_seo": {
+    "title": "YouTube M4A 変換：Apple Music & iTunesに最適",
+    "description": "YouTube動画を高品質なM4A (AAC)オーディオファイルに簡単に変換。Apple MusicやiTunesライブラリに最適なフォーマットで、より小さいファイルサイズで優れたサウンドを提供します。",
+    "ogTitle": "YouTube M4A 変換：Apple Music & iTunesに最適",
+    "ogDescription": "YouTube動画を高品質なM4A (AAC)オーディオファイルに簡単に変換。Apple MusicやiTunesライブラリに最適なフォーマットで、より小さいファイルサイズで優れたサウンドを提供します。"
+  },
+  "resource": "リソース",
+  "tools": "ツール",
+  "comparison": "Comparison",
+  "comparisonText": "permanently free and no registration required",
+  "email": "メールアドレス",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "errorGetVideoInfo": "ビデオリンクエラー。動画を取得できません。リンクをご確認ください。",
+  "errorTranscriptUnavailable": "逐字起こしは利用できないか、この動画の字幕機能は投稿者によって無効にされています。ご不便をおかけして申し訳ありません。",
+  "siteName": "Youtubetomp4.pro",
+  "videoDownloader": "YouTube動画ダウンローダー",
+  "mp3Converter": "YouTubeからMP3へのコンバーター",
+  "transcribeGenerator": "YouTube字幕生成ツール",
+  "youtube2m4a": "高音質 YouTubeからM4Aへのコンバーター"
+}

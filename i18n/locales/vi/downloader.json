@@ -1,0 +1,109 @@
+{
+  "downloader_siteName": "Youtubetomp4.pro",
+  "downloader_videoDownloader": "Trình tải video YouTube",
+  "downloader_mp3Converter": "Chuyển đổi YouTube sang MP3",
+  "downloader_title": "Trình tải video YouTube từ URL tốt nhất",
+  "downloader_description": "Dán bất kỳ URL YouTube nào để tải ngay video chất lượng cao và lưu vào thiết bị của bạn. Nhanh chóng, an toàn và không cần cài đặt phần mềm.",
+  "downloader_download": "TẢI XUỐNG",
+  "downloader_tip": "Vui lòng lưu ý về bản quyền khi tải nội dung. Công cụ này không dùng để tải nhạc có bản quyền.",
+  "downloader_tooltipText": "Công cụ này chỉ có thể được sử dụng cho mục đích hợp pháp và không vi phạm. Nếu bạn là người tạo nội dung và muốn ngăn video của mình được tải xuống bằng công cụ này, chỉ cần thêm #nodownload vào thẻ hoặc mô tả video của bạn.",
+  "downloader_audioOnly": "Chỉ âm thanh",
+  "downloader_formats": "Tất cả định dạng",
+  "downloader_formatsTip": "Nhấp để lưu",
+  "downloader_reviews": [
+    {
+      "text": "Hoàn hảo để lưu video yêu thích của tôi! Tải nhanh và cực kỳ dễ sử dụng. Không cần đăng ký.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Công cụ này thật tuyệt! Tôi thích cách dễ dàng tải video ở nhiều định dạng.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Tôi đã sử dụng công cụ này nhiều tháng và nó luôn hoạt động hoàn hảo.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Nhanh và đáng tin cậy. Trình tải video tốt nhất!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Dễ sử dụng và rất hiệu quả để lưu nội dung.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Rất được khuyên dùng! Hoạt động hoàn hảo với mọi video của tôi.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "downloader_howToConvertTitle": "Tải bất kỳ video YouTube nào chỉ với 3 bước đơn giản",
+  "downloader_howToConvertDescription": "Lưu nội dung yêu thích của bạn chưa bao giờ dễ dàng đến thế. Chỉ cần sao chép, dán và tải xuống.",
+  "downloader_step": "Bước",
+  "downloader_copyUrl": "<strong>Tìm & Sao chép URL YouTube</strong> \n Đi đến video hoặc danh sách phát YouTube bạn muốn lưu. Sao chép toàn bộ URL từ thanh địa chỉ trình duyệt.",
+  "downloader_clickDownload": "<strong>Dán liên kết video vào trình tải của chúng tôi</strong> \n Quay lại trang web của chúng tôi và dán liên kết vào ô nhập ở đầu trang. Công cụ của chúng tôi sẽ tự động xử lý URL.",
+  "downloader_saveVideo": "<strong>Chọn định dạng & Tải xuống</strong> \n Nhấp vào nút \"Tải xuống\" và chọn định dạng cùng độ phân giải từ danh sách tệp, nhấp vào định dạng mong muốn để lưu trực tiếp vào thiết bị của bạn.",
+  "downloader_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Tải xuống một cú nhấp chuột",
+      "description": "Không cần lo lắng về các cài đặt phức tạp. Chỉ cần dán URL YouTube của bạn và công cụ của chúng tôi sẽ tự động cung cấp liên kết tải xuống trực tiếp cho video chất lượng tiêu chuẩn (SD). Cách hoàn hảo để nhanh chóng lưu nội dung để xem ngoại tuyến."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Trích xuất âm thanh MP3 chất lượng cao",
+      "description": "Chỉ cần âm thanh? Công cụ của chúng tôi hoạt động xuất sắc như một bộ chuyển đổi URL YouTube sang MP3. Nó sẽ tách video và cung cấp cho bạn tệp MP3 chất lượng cao, hoàn hảo để nghe nhạc, podcast hoặc bài giảng khi di chuyển. Đây là một trong những tính năng phổ biến nhất của chúng tôi."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "Tối ưu cho mọi thiết bị & Tiết kiệm dữ liệu",
+      "description": "Video chất lượng tiêu chuẩn có kích thước tệp nhỏ hơn. Đây là lợi thế lớn: tải xuống nhanh hơn nhiều, sử dụng ít dữ liệu di động hơn và không chiếm dung lượng lưu trữ điện thoại của bạn. Các tệp có khả năng tương thích cao và sẽ phát hoàn hảo trên mọi điện thoại, máy tính bảng hoặc máy tính."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "An toàn & Ẩn danh",
+      "description": "Quyền riêng tư của bạn là không thể thương lượng. Trình tải YouTube an toàn của chúng tôi hoạt động mà không yêu cầu đăng ký hoặc thông tin cá nhân. Chúng tôi không theo dõi hoạt động của bạn và trang web của chúng tôi được quét thường xuyên để đảm bảo không có phần mềm độc hại."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Công cụ dựa trên trình duyệt tức thì",
+      "description": "Không cần cài đặt gì. Trình tải của chúng tôi hoạt động hoàn toàn trong trình duyệt web của bạn trên mọi hệ điều hành - Windows, Mac, iOS hoặc Android. Chỉ cần mở trang web của chúng tôi và bạn đã sẵn sàng."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Tiện ích: Chuyển lời video miễn phí & tức thì",
+      "description": "Mở khóa văn bản trong bất kỳ video nào. Công cụ của chúng tôi cũng hỗ trợ chuyển lời từ âm thanh URL YouTube của bạn thành tài liệu văn bản đầy đủ. Hoàn hảo cho sinh viên, người sáng tạo nội dung hoặc nhà nghiên cứu cần phân tích nội dung bằng lời nói."
+    }
+  ],
+  "downloader_downloadNow": "Tải ngay >>",
+  "downloader_featuresConverter": "Tính năng chính của trình tải URL YouTube",
+  "downloader_benefits": {
+    "title": "Mở khóa nội dung theo cách của bạn",
+    "convenience": {
+      "title": "Để xem ngoại tuyến không gián đoạn",
+      "description": "Hãy tưởng tượng bạn đang trên chuyến bay dài, tàu điện ngầm không có tín hiệu hoặc cắm trại ở khu vực xa xôi. Với công cụ của chúng tôi, bạn có thể tải video YouTube trước để xem ngoại tuyến. Các hướng dẫn, phim tài liệu và giải trí yêu thích của bạn luôn trong tầm tay - không cần đệm, không cần internet."
+    },
+    "avoidAds": {
+      "title": "Dành cho người sáng tạo nội dung & Biên tập video",
+      "description": "Cần lấy một đoạn clip cụ thể cho video phản ứng, dựng phim hoặc nghiên cứu tình huống? Bằng cách sử dụng trình tải URL YouTube của chúng tôi, bạn có thể nhanh chóng có được tài liệu nguồn chất lượng cao không có hình mờ. Lưu trữ nội dung quan trọng trước khi bị gỡ xuống và đảm bảo bạn có tài nguyên cần thiết cho dự án sáng tạo tiếp theo."
+    },
+    "saveData": {
+      "title": "Dành cho giáo viên & Học sinh",
+      "description": "Xây dựng thư viện kỹ thuật số kiến thức mạnh mẽ. Lưu từ URL YouTube để giữ các bài giảng quan trọng, trình diễn khoa học hoặc phim tài liệu lịch sử. Học sinh có thể xem lại tài liệu ngoại tuyến để học bất cứ lúc nào, bất cứ nơi đâu, không bị phân tâm."
+    },
+    "moreFromDownloads": {
+      "title": "Tận dụng tối đa từ các bản tải xuống của bạn",
+      "description": "Nói lời tạm biệt với tình trạng tải chậm và hao dữ liệu! Đây là cách tận dụng tối đa video ngoại tuyến của bạn:<br/><strong>1.Xây dựng Thư viện Truyền thông Cá nhân</strong><br/>Tạo bộ sưu tập kiểu Netflix của riêng bạn.<br/><strong>2.Du lịch không lo lắng</strong><br/>Không còn WiFi máy bay chập chờn hoặc chuyến đi đường nhàm chán.<br/><strong>3.Tiết kiệm từng byte dữ liệu quý giá</strong><br/>Tải xuống qua WiFi, xem bất cứ lúc nào."
+    }
+  },
+  "downloader_faqTitle": "Câu hỏi thường gặp",
+  "downloader_faq1Question": "1. Tôi có thể tải chỉ một phần cụ thể của video YouTube không?",
+  "downloader_faq1Answer": "Mặc dù công cụ của chúng tôi được thiết kế để tải toàn bộ video từ URL, đây là nhu cầu phổ biến của biên tập viên. Cách tốt nhất là sử dụng trình tải của chúng tôi để nhanh chóng lưu tệp video chất lượng cao đầy đủ vào thiết bị trước. Sau đó, bạn có thể sử dụng bất kỳ phần mềm chỉnh sửa video tiêu chuẩn nào (như CapCut, iMovie hoặc Adobe Premiere) để dễ dàng cắt đoạn clip chính xác bạn cần. Điều này đảm bảo bạn có tệp gốc cho bất kỳ mục đích sử dụng nào trong tương lai.",
+  "downloader_faq2Question": "2. Sự khác biệt giữa các định dạng MP4, WEBM và MP3 là gì?",
+  "downloader_faq2Answer": "Câu hỏi hay!\n<strong>- MP4</strong> là định dạng video tương thích phổ biến nhất, hoạt động trên hầu hết mọi thiết bị và nền tảng. Nó mang lại sự cân bằng tuyệt vời giữa chất lượng và kích thước tệp. Chúng tôi khuyên dùng điều này cho hầu hết người dùng.\n<strong>WEBM</strong> là định dạng mã nguồn mở hiện đại do Google phát triển, thường cung cấp kích thước tệp nhỏ hơn với chất lượng tương tự MP4, nhưng có thể không được hỗ trợ bởi các thiết bị cũ hoặc một số trình chỉnh sửa video.\n<strong>MP3</strong> là định dạng chỉ âm thanh. Chọn điều này nếu bạn chỉ muốn trích xuất âm thanh từ URL YouTube, như cho podcast, nhạc hoặc bài phát biểu",
+  "downloader_faq3Question": "3. Việc tải video bằng trình tải URL YouTube có hợp pháp không?",
+  "downloader_faq3Answer": "Tính hợp pháp phụ thuộc vào nội dung và cách bạn định sử dụng nó. Thông thường, việc tải video thuộc phạm vi công cộng hoặc có giấy phép Creative Commons (CC) là hợp pháp. Đối với nội dung có bản quyền, việc tải video để xem ngoại tuyến cá nhân thường được coi là \"sử dụng hợp lý\" ở nhiều khu vực. Tuy nhiên, phân phối lại, phối lại hoặc kiếm tiền từ nội dung có bản quyền mà không có sự cho phép của chủ sở hữu là bất hợp pháp. Chúng tôi khuyến khích bạn tôn trọng luật bản quyền và điều khoản dịch vụ của YouTube.",
+  "downloader_faq4Question": "4. Tôi đã thử tải video riêng tư hoặc bị giới hạn độ tuổi nhưng không thành công. Tại sao?",
+  "downloader_faq4Answer": "Công cụ của chúng tôi tôn trọng quyền riêng tư của người dùng và quy tắc nền tảng của YouTube. Nó hoạt động như một \"máy ghi hình kỹ thuật số\", nghĩa là nó chỉ có thể truy cập và ghi lại những gì được công khai. Nếu video được đặt thành \"Riêng tư\", \"Không liệt kê\" (trừ khi bạn có liên kết) hoặc có cổng kiểm soát độ tuổi yêu cầu bạn đăng nhập để xác minh tuổi, máy chủ của chúng tôi không thể truy cập được. Chúng tôi không bỏ qua bất kỳ kiểm soát quyền riêng tư hoặc truy cập nào của YouTube.",
+  "downloader_faq5Question": "5. Có giới hạn nào về số lượng video tôi có thể tải hoặc độ dài video không?",
+  "downloader_faq5Answer": "Không, không có giới hạn nào! Dịch vụ của chúng tôi hoàn toàn miễn phí và không giới hạn. Bạn có thể tải video YouTube bằng cách dán URL bao nhiêu lần tùy thích, bất kể độ dài video - từ Short 10 giây đến phim tài liệu 10 giờ."
+}

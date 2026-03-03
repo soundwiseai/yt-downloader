@@ -1,0 +1,105 @@
+{
+  "title": "Conversor de YouTube para MP4",
+  "description": "Cole o URL e converta rapidamente YouTube para MP4. Sempre gratuito, sempre funcional, sem anúncios.",
+  "download": "DESCARREGAR",
+  "tip": "Por favor, respeite os direitos de autor ao descarregar conteúdo. Esta ferramenta não foi concebida para descarregar música protegida por direitos de autor.",
+  "tooltipText": "Esta ferramenta só pode ser usada para uso legal e não infrator. Se você é um criador de conteúdo e quer evitar que seus vídeos sejam baixados usando esta ferramenta, simplesmente adicione #nodownload às tags ou descrição do seu vídeo.",
+  "formats": "Todos os Formatos",
+  "formatsTip": "Clique para guardar",
+  "reviews": [
+    {
+      "text": "Perfeito para guardar os meus vídeos favoritos! Descargas rápidas e super simples de usar. Não é necessário registo.",
+      "author": "Sarah_Bennett92"
+    },
+    {
+      "text": "Esta ferramenta é ótima! Adoro a facilidade de descarregar vídeos em vários formatos.",
+      "author": "John_Doe"
+    },
+    {
+      "text": "Uso isto há meses e funciona sempre perfeitamente.",
+      "author": "Jane_Smith"
+    },
+    {
+      "text": "Rápido e fiável. O melhor descarregador de vídeos!",
+      "author": "Michael_Johnson"
+    },
+    {
+      "text": "Fácil de usar e muito eficaz para guardar conteúdo.",
+      "author": "David_Lee"
+    },
+    {
+      "text": "Altamente recomendado! Funciona perfeitamente com todos os meus vídeos.",
+      "author": "Emma_Wilson"
+    }
+  ],
+  "howToConvertTitle": "Como Converter Vídeos do YouTube para MP4",
+  "howToConvertDescription": "Imagine estar num voo longo ou numa área remota sem acesso à internet. Transmitir o seu vídeo favorito torna-se impossível, certo? É aqui que a visualização offline salva o dia. Ao descarregar vídeos antecipadamente, pode desfrutar de entretenimento sem interrupções a qualquer momento, em qualquer lugar. Um conversor de YouTube para MP4 torna este processo simples. Permite-lhe descarregar vídeos do YouTube de forma rápida e eficiente.",
+  "step": "Passo",
+  "copyUrl": "Copie o URL do vídeo do YouTube",
+  "clickDownload": "Clique diretamente no botão 'Descarregar'",
+  "saveVideo": "Aguarde alguns minutos e guarde o vídeo",
+  "features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "Descarregamentos do YouTube com Alta Taxa de Sucesso",
+      "description": "Descarregue vídeos do YouTube sem esforço com o nosso conversor avançado, apresentando taxas de sucesso líderes do setor e preservação de qualidade fiável para todos os tipos de conteúdo."
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "Conversor Rápido de YouTube para MP4",
+      "description": "Transforme vídeos do YouTube em ficheiros MP4 de alta qualidade em segundos. Experimente descarregamentos instantâneos e sem problemas, sem comprometer a qualidade do vídeo."
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "100% Seguro",
+      "description": "Descarregue vídeos do YouTube em segurança com o nosso conversor limpo e focado na privacidade. Sem rastreio, sem malware - apenas simplicidade pura."
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "Descarregamentos Ilimitados",
+      "description": "Converta e guarde quantos vídeos do YouTube desejar, sem tempos de espera ou limites de descarregamento irritantes."
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "Sem Login e Sem Instalação de Software",
+      "description": "Comece já a converter vídeos sem criar contas ou descarregar nada. Basta colar o seu link e está pronto a usar - sem complicações."
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "Suporte para Vários Formatos",
+      "description": "Descarregue em MP4, M4A ou WEBM. Qualquer que seja o formato ou qualidade que procura, temos a solução."
+    }
+  ],
+  "downloadNow": "Descarregar Agora >>",
+  "featuresConverter": "Funcionalidades do Conversor de Vídeos do YouTube",
+  "benefits": {
+    "title": "Vantagens de Usar um Conversor de YouTube para MP4",
+    "convenience": {
+      "title": "Conveniência e Acessibilidade",
+      "description": "Já esteve preso num local sem acesso à internet, desejando poder ver o seu vídeo favorito? Um conversor de YouTube para MP4 resolve este problema. Permite-lhe descarregar vídeos em formato MP4, que funciona em quase qualquer dispositivo. Quer esteja a usar um smartphone, tablet ou portátil, pode desfrutar do seu conteúdo sem se preocupar com compatibilidade.\n\nA visualização offline também facilita a vida quando está a viajar ou em áreas com má conectividade. Não tem de lidar com buffering ou interrupções. Além disso, descarregar vídeos garante que tem sempre acesso a conteúdo de alta qualidade, mesmo quando a internet não é uma opção."
+    },
+    "avoidAds": {
+      "title": "Evitar Anúncios",
+      "description": "Os anúncios podem ser frustrantes, especialmente quando interrompem os seus vídeos favoritos. Com um descarregador de MP4 do YouTube, pode saltar os anúncios completamente. Assim que descarregar um vídeo, pode vê-lo sem interrupções. Isto significa não ter de esperar que apareçam os botões 'Saltar Anúncio'.\n\nAo evitar anúncios, poupa tempo e desfruta de uma experiência de visualização mais suave. É como ter o seu próprio serviço de streaming sem anúncios. Quer esteja a ver tutoriais, vídeos musicais ou filmes, um descarregador de MP4 garante que nada atrapalha o seu entretenimento."
+    },
+    "saveData": {
+      "title": "Poupar Dados e Armazenamento",
+      "description": "Transmitir vídeos pode consumir rapidamente os seus dados móveis, especialmente se tiver um plano limitado. Um descarregador de MP4 do YouTube ajuda-o a poupar dados, permitindo-lhe descarregar vídeos através de Wi-Fi. Uma vez descarregados, pode vê-los quantas vezes quiser sem usar dados adicionais.\n\nOutra grande vantagem é a eficiência de armazenamento. Os ficheiros MP4 são compactos, por isso não ocupam muito espaço no seu dispositivo. Pode construir uma biblioteca offline dos seus vídeos favoritos sem se preocupar em ficar sem espaço. Isto torna um site de conversão gratuito numa excelente ferramenta para gerir a sua coleção de vídeos."
+    },
+    "moreFromDownloads": {
+      "title": "Obtenha Mais dos Seus Descarregamentos",
+      "description": "Diga adeus ao buffering e ao consumo de dados! Eis como tirar o máximo partido dos seus vídeos offline:\n<strong>1.Crie a Sua Biblioteca de Media Pessoal</strong>\nCrie a sua própria coleção ao estilo Netflix - organizada por pastas e etiquetada para uma navegação fácil.\n<strong>Dica profissional: </strong>Adicione notas rápidas aos seus vídeos e mantenha cópias de segurança num disco externo. O seu entretenimento, as suas regras.\n<strong>2.Viaje Sem Preocupações</strong>\nChega de Wi-Fi instável em aviões ou viagens aborrecidas. Carregue o seu dispositivo antes de sair e terá entretenimento infinito no bolso. Quer esteja a acampar no meio do nada ou preso num túnel de metro, o seu conteúdo favorito está sempre pronto.\n<strong>3.Poupe Esses Preciosos Dados</strong>\nDescarregue através de Wi-Fi, veja quando quiser. Perfeito para:\n - Estudantes que guardam vídeos de aulas para o trajeto\n - Profissionais que guardam apresentações de trabalho\n - Qualquer pessoa cansada de ver o ícone de carregamento em ligações instáveis"
+    }
+  },
+  "faqTitle": "FAQ",
+  "faq1Question": "1. É legal usar um conversor de YouTube para MP4?",
+  "faq1Answer": "Depende do vídeo. Pode descarregar legalmente vídeos com licença Creative Commons ou aqueles explicitamente permitidos para uso offline. Evite descarregar conteúdo protegido por direitos de autor sem permissão para ficar do lado correto da lei.\n<strong>Dica:</strong> Verifique sempre os termos de uso do vídeo antes de descarregar.",
+  "faq2Question": "2. Posso usar um conversor de YouTube para MP4 no meu telemóvel?",
+  "faq2Answer": "Sim! Funciona em dispositivos móveis. Pode usar aplicações ou sites otimizados para telemóvel para descarregar vídeos diretamente para o seu telefone. Basta colar o link do vídeo, selecionar MP4 e clicar em descarregar.",
+  "faq3Question": "3. Qual é a melhor resolução para descarregar vídeos do YouTube?",
+  "faq3Answer": "Depende das suas necessidades. Para reprodução de alta qualidade, opte por HD (720p) ou 4K. Se quiser poupar espaço de armazenamento, escolha uma resolução mais baixa como 480p.\n<strong>Dica profissional:</strong> Equilibre qualidade e tamanho do ficheiro com base na capacidade de armazenamento do seu dispositivo.",
+  "faq4Question": "4. Os conversores gratuitos de YouTube para MP4 são seguros?",
+  "faq4Answer": "Embora muitos conversores gratuitos possam ser duvidosos, levamos a sua segurança a sério. O nosso conversor funciona totalmente no seu navegador sem descarregamentos ocultos ou pop-ups suspeitos. Usamos encriptação HTTPS segura e nunca armazenamos os seus dados pessoais ou histórico de visualização. Além disso, verificamos regularmente a presença de malware e mantemos o nosso serviço impecavelmente limpo. Sem spyware, sem bloatware - apenas conversão de vídeo direta em que pode confiar.",
+  "faq5Question": "5. Quem usa o conversor de YouTube para MP4?",
+  "faq5Answer": "O nosso conversor é a ferramenta perfeita para todo o tipo de utilizadores. Eis quem vai adorar:\nCriadores de Conteúdo: Guarde vídeos para a sua próxima grande edição ou remix para redes sociais\nEstudantes e Professores: Armazene tutoriais e aulas para sessões de estudo em qualquer lugar\nViajantes Frequentes: Carregue o seu dispositivo com entretenimento para voos longos e deslocações\nProfissionais de Negócios: Mantenha conteúdo de vídeo importante à mão, com ou sem internet\nEspetadores Casuais: Relaxe e desfrute do seu conteúdo favorito do YouTube em qualquer dispositivo, quando quiser"
+}

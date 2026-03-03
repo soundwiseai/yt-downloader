@@ -1,0 +1,108 @@
+{
+  "transcript_siteName": "Youtubetomp4.pro",
+  "transcript_videoDownloader": "YouTube 视频下载器",
+  "transcript_mp3Converter": "YouTube 转 MP3 转换器",
+  "transcript_title": "即时 YouTube 字幕生成器",
+  "transcript_description": "立即获取任何 YouTube 视频的字幕。粘贴网址即可生成完整的字幕文本文件，非常适合研究、内容创作和学习。",
+  "transcript_timestamp": "时间戳",
+  "transcript_copy": "复制",
+  "transcript_download": "免费获取字幕",
+  "transcript_tip": "下载内容时请注意版权。本工具并非用于下载受版权保护的音乐。",
+  "transcript_formats": "所有格式",
+  "transcript_formatsTip": "点击保存",
+  "transcript_reviews": [
+    {
+      "text": "这个工具彻底改变了我的工作流程。我现在可以在几秒内将 20 分钟的 YouTube 视频转成博客文章的文字，而不是几个小时。是我用过最好的 YouTube 视频转文字工具。",
+      "author": "Eleanor Vance, 内容营销专员"
+    },
+    {
+      "text": "作为博士生，我需要精确引用视频来源。这个字幕生成器让我能提取准确引文，节省了大量时间，是学术研究必备工具。",
+      "author": "Ben Carter, 博士生"
+    },
+    {
+      "text": "我用它为竞争分析报告获取字幕。快速、可靠，输出的纯净文本非常适合直接贴到文档中。",
+      "author": "Sophie Chen, 市场分析师"
+    },
+    {
+      "text": "我把播客节目传到 YouTube，这个工具是做节目笔记的救星。我能立刻拿到完整字幕，提取关键引文，还能为网站生成详细摘要。每周省下数小时。",
+      "author": "Marcus Holloway, 播客主持人"
+    },
+    {
+      "text": "对学英语的人来说太棒了！我可以获取真实对话字幕，对照学习新单词和短语。时间戳帮助我快速找到需要回听的部分，听力水平显著提高。",
+      "author": "Yuki Tanaka, 语言学习者"
+    },
+    {
+      "text": "作为听力障碍者，YouTube 播放器的字幕有时难以阅读。下载成文本文件让我可以按自己的节奏查看，确保不错过任何信息。感谢这个重要的工具。",
+      "author": "David L., 社区成员"
+    }
+  ],
+  "transcript_howToConvertTitle": "3 步将 YouTube 视频转为纯文本",
+  "transcript_howToConvertDescription": "轻松解锁视频中的所有文字内容。",
+  "transcript_step": "步骤",
+  "transcript_copyUrl": "<strong>找到并复制 YouTube 链接</strong>\n进入带字幕的 YouTube 视频（带“CC”图标），复制浏览器地址栏中的链接。",
+  "transcript_clickDownload": "<strong>将链接粘贴到生成器</strong>\n返回我们的网站，将视频链接粘贴到输入框，我们会立即检测可用字幕。",
+  "transcript_saveVideo": "<strong>复制或下载完整字幕</strong>\n字幕会立刻生成，您可以一键复制到剪贴板，或下载为干净的 .txt 文件以便日后使用。",
+  "transcript_aiTranscript": "立即开始 AI 视频转文字，永久免费！",
+  "transcript_features": [
+    {
+      "icon": "/images/yt_feature1.png",
+      "title": "即时页面生成",
+      "description": "无需等待，无额外步骤。粘贴链接后，完整字幕会在几秒内出现在页面上。"
+    },
+    {
+      "icon": "/images/yt_feature2.png",
+      "title": "一键复制与下载",
+      "description": "字幕生成后，可一键复制到剪贴板，或下载为干净的 .txt 文件离线使用。"
+    },
+    {
+      "icon": "/images/yt_feature3.png",
+      "title": "保留原始语言",
+      "description": "忠实提取视频字幕轨道中的原文，100% 保持与原始字幕一致。"
+    },
+    {
+      "icon": "/images/yt_feature4.png",
+      "title": "隐私安全",
+      "description": "无需注册登录，不保存处理的视频链接，您的操作完全匿名、安全。"
+    },
+    {
+      "icon": "/images/yt_feature5.png",
+      "title": "适配所有设备",
+      "description": "可在任意设备浏览器中使用，无需安装任何软件或扩展。"
+    },
+    {
+      "icon": "/images/yt_feature6.png",
+      "title": "干净的文本输出",
+      "description": "自动去除时间码和复杂格式，输出清晰易用的纯文本，方便编辑和发布。"
+    }
+  ],
+  "transcript_downloadNow": "立即获取字幕 >>",
+  "transcript_featuresConverter": "必备字幕工具集",
+  "transcript_benefits": {
+    "title": "将口语转化为可用资源",
+    "convenience": {
+      "title": "内容再利用与 SEO",
+      "description": "一键解锁数小时内容，生成博客文章、播客笔记、推文话题和关键词丰富的视频描述，提升频道可见度。"
+    },
+    "avoidAds": {
+      "title": "精准研究与引用",
+      "description": "可搜索字幕，用 Ctrl+F 快速定位关键信息，支持学术写作与精准分析。"
+    },
+    "saveData": {
+      "title": "提升学习与可及性",
+      "description": "下载课程字幕方便复习和检索，助力语言学习与无障碍内容创作。"
+    }
+  },
+  "transcript_faqTitle": "常见字幕问题解答",
+  "transcript_faq1Question": "1. 这是 AI 转录吗？准确度如何？",
+  "transcript_faq1Answer": "本工具并非 AI 转录，而是直接提取 YouTube 官方或自动字幕，准确度与视频播放器显示一致。",
+  "transcript_faq2Question": "2. 如果视频没有字幕怎么办？",
+  "transcript_faq2Answer": "视频必须有字幕轨道（带“CC”图标）才能生成，否则无法提取任何文本。",
+  "transcript_faq3Question": "3. 自动字幕与人工字幕有何区别？",
+  "transcript_faq3Answer": "人工字幕更准确，自动字幕可能存在识别错误。我们会提取视频中可用的任一版本。",
+  "transcript_faq4Question": "4. 可以提取长视频字幕吗？",
+  "transcript_faq4Answer": "可以，只要有字幕轨道，无论视频多长都能完整提取。",
+  "transcript_faq5Question": "5. 如何使用带时间戳的字幕？",
+  "transcript_faq5Answer": "可用于快速定位视频片段、创建互动字幕或精确引用。",
+  "transcript_faq6Question": "6. 生成的字幕有错误怎么办？",
+  "transcript_faq6Answer": "字幕错误来自源文件，您可在下载的文本中自行修改。"
+}
