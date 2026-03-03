@@ -51,22 +51,33 @@ export const usePageSeo = () => {
       }
     }
 
+    // 生成英文版 URL（用于 x-default 和 og:url）
+    const englishPath = pathWithoutLocale === '/' ? '' : pathWithoutLocale
+    const englishUrl = `${baseUrl}${englishPath}`
+
     // 生成 hreflang 链接
     const hreflangLinks = SUPPORTED_LOCALES.map(({ code, lang }) => {
       let localizedPath
       if (code === 'en') {
         // 英文版本不需要语言前缀
-        localizedPath = pathWithoutLocale === '/' ? '' : pathWithoutLocale
+        localizedPath = englishPath
       } else {
         // 其他语言需要语言前缀
         localizedPath = pathWithoutLocale === '/' ? `/${code}` : `/${code}${pathWithoutLocale}`
       }
-      
+
       return {
         rel: 'alternate',
         hreflang: lang,
         href: `${baseUrl}${localizedPath}`
       }
+    })
+
+    // 添加 x-default，指向英文版
+    hreflangLinks.push({
+      rel: 'alternate',
+      hreflang: 'x-default',
+      href: englishUrl
     })
 
     // SEO meta 标签
@@ -75,7 +86,14 @@ export const usePageSeo = () => {
       description: () => t(`${seoPrefix}.description`),
       ogTitle: () => t(`${seoPrefix}.ogTitle`),
       ogDescription: () => t(`${seoPrefix}.ogDescription`),
-      ogSiteName: () => t('siteName')
+      ogSiteName: () => t('siteName'),
+      ogImage: `${baseUrl}/images/logo.png`,
+      ogUrl: canonicalUrl,
+      ogType: 'website',
+      twitterCard: 'summary',
+      twitterTitle: () => t(`${seoPrefix}.ogTitle`),
+      twitterDescription: () => t(`${seoPrefix}.ogDescription`),
+      twitterImage: `${baseUrl}/images/logo.png`
     })
 
     // 使用 useHead 设置 canonical 和 hreflang 标签
