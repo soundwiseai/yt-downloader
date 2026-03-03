@@ -11,17 +11,14 @@ import sys
 
 LOCALES_DIR = os.path.join(os.path.dirname(__file__), '..', 'i18n', 'locales')
 
-# Keys that go into common.json (shared across all pages)
+# Keys that go into common.json (Header/Footer/errors only)
+# SEO dicts go into their respective page files for easier maintenance
 COMMON_KEYS = {
-    'seo', 'mp3_seo', 'downloader_seo', 'transcript_seo', 'm4a_seo',
     'resource', 'tools', 'comparison', 'comparisonText', 'email',
     'privacyPolicy', 'termsOfService', 'errorGetVideoInfo',
     'errorTranscriptUnavailable', 'siteName', 'videoDownloader',
     'mp3Converter', 'transcribeGenerator', 'youtube2m4a', 'saveTip',
 }
-
-# SEO dict keys that belong in common.json (not in page files)
-SEO_KEYS_IN_COMMON = {'mp3_seo', 'downloader_seo', 'transcript_seo', 'm4a_seo'}
 
 # Prefix-to-file mapping (order matters: longer prefixes first if needed)
 PAGE_PREFIXES = [
@@ -37,7 +34,7 @@ def categorize_key(key):
     if key in COMMON_KEYS:
         return 'common.json'
     for prefix, filename in PAGE_PREFIXES:
-        if key.startswith(prefix) and key not in SEO_KEYS_IN_COMMON:
+        if key.startswith(prefix):
             return filename
     # Everything else (no prefix) is MP4 default page
     return 'mp4.json'

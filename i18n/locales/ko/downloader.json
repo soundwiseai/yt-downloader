@@ -1,4 +1,10 @@
 {
+  "downloader_seo": {
+    "title": "YouTube URL 다운로더 - MP4, MP3 & 텍스트 변환 | Youtubetomp4.pro",
+    "description": "무료 URL 다운로더를 사용하여 유튜브 동영상을 즉시 다운로드하고, MP3 오디오를 추출하거나, 모든 동영상을 텍스트로 변환하세요. 100% 안전하며, 가입이 필요 없습니다.",
+    "ogTitle": "YouTube URL 다운로더 - MP4, MP3 & 텍스트 변환 | Youtubetomp4.pro",
+    "ogDescription": "무료 URL 다운로더를 사용하여 유튜브 동영상을 즉시 다운로드하고, MP3 오디오를 추출하거나, 모든 동영상을 텍스트로 변환하세요. 100% 안전하며, 가입이 필요 없습니다."
+  },
   "downloader_siteName": "Youtubetomp4.pro",
   "downloader_videoDownloader": "유튜브 동영상 다운로더",
   "downloader_mp3Converter": "유튜브 MP3 변환기",
