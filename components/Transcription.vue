@@ -675,7 +675,7 @@ const downloadFile = async (link) => {
 // 获取视频格式
 const fetchFormats = async () => {
   if (!yt_url.value || !isValidYoutubeUrl(yt_url.value)) {
-    alert('请输入有效的 YouTube 视频 URL')
+    alert(_t('errorInvalidUrl'))
     return
   }
 
@@ -688,12 +688,12 @@ const fetchFormats = async () => {
     yt_url1.value = yt_url.value // 此时更新 yt_url1，更新播放器视频
     videoData.value = response.data
     console.log('视频数据:', videoData.value)
-    
+
     // 根据 languageMap 中定义的语言顺序过滤并排序字幕
     if (response.data.subtitles) {
       // 先过滤出在 languageMap 中定义的语言
       const filteredSubtitles = {}
-      
+
       // 按照 languageMap 中的顺序遍历语言
       Object.keys(languageMap).forEach(langCode => {
         // 如果这个语言在响应数据中存在，则添加到过滤后的字幕中
@@ -701,7 +701,7 @@ const fetchFormats = async () => {
           filteredSubtitles[langCode] = response.data.subtitles[langCode]
         }
       })
-      
+
       // 将过滤后的字幕赋值给 videoData.value.subtitles
       videoData.value.subtitles = filteredSubtitles
       console.log('过滤并排序后的字幕:', Object.keys(filteredSubtitles))
@@ -713,15 +713,15 @@ const fetchFormats = async () => {
       // 记录所有可用的语言
       const languages = Object.keys(videoData.value.subtitles)
       console.log(`可用的字幕语言: ${languages.join(', ')}`)
-      
+
       hasSubtitles.value = languages.length > 0
-      
+
       // 如果有字幕语言，自动选择并加载第一项
       if (hasSubtitles.value && languages.length > 0) {
         // 选择第一个可用的字幕语言
         const firstLanguage = languages[0]
         console.log(`自动选择并加载字幕语言: ${firstLanguage}`)
-        
+
         // 调用选择并加载字幕的函数
         nextTick(() => {
           selectAndLoadSubtitle(firstLanguage)
@@ -731,8 +731,15 @@ const fetchFormats = async () => {
       hasSubtitles.value = false
     }
   } catch (error) {
-    console.error('get video info error:', error)
-    alert(errorMessage.value)
+    console.error('fetchFormats error:', error)
+    const errorType = error.response?.data?.errorType
+    if (errorType === 'video_unavailable') {
+      alert(_t('errorVideoUnavailable'))
+    } else if (errorType === 'invalid_url') {
+      alert(_t('errorInvalidUrl'))
+    } else {
+      alert(_t('errorGetVideoInfo'))
+    }
   } finally {
     loading.value = false
   }

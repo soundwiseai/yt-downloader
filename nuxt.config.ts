@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
+  devServer: { port: 45330 },
   modules: ['@nuxtjs/i18n', '@nuxt/image'],
   i18n: {
     defaultLocale: 'en',

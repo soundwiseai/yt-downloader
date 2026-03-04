@@ -7,6 +7,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "رابط الفيديو غير صحيح. لا يمكن جلب الفيديو. يرجى التحقق من الرابط.",
+  "errorVideoUnavailable": "هذا الفيديو غير متاح للتحميل. ربما تم حذفه أو تعيينه كخاص أو تقييده من قبل صاحب القناة.",
+  "errorInvalidUrl": "يرجى إدخال رابط فيديو يوتيوب صالح",
   "errorTranscriptUnavailable": "التفريغ غير متاح أو أن خاصية الترجمة لهذا الفيديو تم تعطيلها من قبل المؤلف. نعتذر عن الإزعاج.",
   "siteName": "Y2mp4.com",
   "videoDownloader": "تحميل فيديو من اليوتيوب",

@@ -7,6 +7,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Error en el enlace del video. No se puede obtener el video. Revisa el enlace, por favor.",
+  "errorVideoUnavailable": "Este video no está disponible para descargar. Es posible que haya sido eliminado, configurado como privado o restringido por el creador.",
+  "errorInvalidUrl": "Por favor, ingresa una URL válida de video de YouTube",
   "errorTranscriptUnavailable": "La transcripción no está disponible o el autor ha desactivado los subtítulos de este video. Lamentamos los inconvenientes.",
   "siteName": "Y2mp4.com",
   "videoDownloader": "Descargador de videos de YouTube",

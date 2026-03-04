@@ -7,6 +7,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "get video info error, please try again",
+  "errorVideoUnavailable": "This video is not available for download. It may have been removed, set to private, or restricted by the uploader.",
+  "errorInvalidUrl": "Please enter a valid YouTube video URL.",
   "errorTranscriptUnavailable": "Transcript unavailable or the transcription on this video is disabled by the author. We apologize for the inconvenience.",
   "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube Video Downloader",

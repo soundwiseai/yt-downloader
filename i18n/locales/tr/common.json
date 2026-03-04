@@ -7,6 +7,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Video bağlantı hatası. Video alınamıyor. Lütfen bağlantıyı kontrol edin.",
+  "errorVideoUnavailable": "Bu video indirilemez. Silinmiş, gizli olarak ayarlanmış veya yükleyen tarafından kısıtlanmış olabilir.",
+  "errorInvalidUrl": "Lütfen geçerli bir YouTube video URL'si girin",
   "errorTranscriptUnavailable": "Transkript kullanılamıyor veya bu videonun transkripti yazar tarafından devre dışı bırakılmış. Verdiğimiz rahatsızlıktan dolayı özür dileriz.",
   "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube Video İndiricisi",

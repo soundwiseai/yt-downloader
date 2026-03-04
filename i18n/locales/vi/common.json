@@ -7,6 +7,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Liên kết video không đúng. Không thể lấy video. Vui lòng kiểm tra lại liên kết.",
+  "errorVideoUnavailable": "Video này không có sẵn để tải xuống. Video có thể đã bị xóa, đặt ở chế độ riêng tư hoặc bị hạn chế bởi người tải lên.",
+  "errorInvalidUrl": "Vui lòng nhập URL video YouTube hợp lệ",
   "errorTranscriptUnavailable": "Không thể lấy bản chép lại hoặc phụ đề cho video này đã bị tác giả tắt. Xin lỗi vì sự bất tiện này.",
   "siteName": "Y2mp4.com",
   "videoDownloader": "Trình tải video YouTube",

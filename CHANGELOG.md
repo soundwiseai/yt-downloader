@@ -1,5 +1,28 @@
 # Changelog
 
+## 2026-03-03
+
+### Fixed (SEO P0)
+- Sitemap.xml `lastmod` updated from `2025-02-12` to `2026-03-03`
+- Added `hreflang="x-default"` on all pages, pointing to English version
+- Added missing OG tags: `og:image`, `og:url`, `og:type` on all 5 pages
+- Added Twitter Card tags: `twitter:card`, `twitter:title`, `twitter:description`, `twitter:image`
+
+### Changed
+- i18n file split: 19 monolithic JSONs → 19 directories × 6 files (114 total)
+  - Files: `common.json`, `mp4.json`, `mp3.json`, `downloader.json`, `transcript.json`, `m4a.json`
+  - `nuxt.config.ts` updated: `file` → `files` array per locale
+  - Zero functional/SEO impact — pure organizational improvement
+- SEO dicts moved from `common.json` to respective page files for easier maintenance
+- Added `vite.server.proxy` for `/api` → `https://y2mp4.com` (dev mode only)
+
+### DevOps
+- VPS health check script deployed (`/root/health_check.sh`)
+  - 9 checks: 5 pages × SEO full check + 2 coming-soon sites + i18n spot check + API deep check
+  - Telegram alerts via 「报错小能手」Bot, every 8 hours (Beijing 01:00 / 09:00 / 17:00)
+- PM2 auto-start on boot configured (`pm2 startup systemd`)
+- GitHub Actions `VPS_PASSWORD` secret needs update (old password expired)
+
 ## 2026-02-18
 
 ### Changed

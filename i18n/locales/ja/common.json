@@ -7,6 +7,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "ビデオリンクエラー。動画を取得できません。リンクをご確認ください。",
+  "errorVideoUnavailable": "この動画はダウンロードできません。削除された、非公開に設定された、またはアップロード者によってアクセスが制限されている可能性があります。",
+  "errorInvalidUrl": "有効な YouTube 動画の URL を入力してください",
   "errorTranscriptUnavailable": "逐字起こしは利用できないか、この動画の字幕機能は投稿者によって無効にされています。ご不便をおかけして申し訳ありません。",
   "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube動画ダウンローダー",

@@ -7,6 +7,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "ลิงก์วิดีโอไม่ถูกต้อง ไม่สามารถดึงวิดีโอได้ กรุณาตรวจสอบลิงก์",
+  "errorVideoUnavailable": "วิดีโอนี้ไม่สามารถดาวน์โหลดได้ อาจถูกลบ ตั้งค่าเป็นส่วนตัว หรือถูกจำกัดโดยผู้อัปโหลด",
+  "errorInvalidUrl": "กรุณาป้อน URL วิดีโอ YouTube ที่ถูกต้อง",
   "errorTranscriptUnavailable": "ไม่สามารถดึงถอดความได้ หรือเจ้าของวิดีโอได้ปิดใช้งานคำบรรยายไว้ ขออภัยในความไม่สะดวก",
   "siteName": "Y2mp4.com",
   "videoDownloader": "ดาวน์โหลดวิดีโอ YouTube",

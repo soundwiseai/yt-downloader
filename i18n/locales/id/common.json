@@ -7,6 +7,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "Tautan video salah. Tidak dapat mengambil video. Silakan periksa tautannya.",
+  "errorVideoUnavailable": "Video ini tidak tersedia untuk diunduh. Mungkin telah dihapus, disetel sebagai pribadi, atau dibatasi oleh pengunggah.",
+  "errorInvalidUrl": "Silakan masukkan URL video YouTube yang valid",
   "errorTranscriptUnavailable": "Transkrip tidak tersedia atau fitur subtitle pada video ini telah dinonaktifkan oleh pembuatnya. Mohon maaf atas ketidaknyamanannya.",
   "siteName": "Y2mp4.com",
   "videoDownloader": "Pengunduh Video YouTube",

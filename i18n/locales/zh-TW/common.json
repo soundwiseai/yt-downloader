@@ -7,6 +7,8 @@
   "privacyPolicy": "隱私政策",
   "termsOfService": "使用條款",
   "errorGetVideoInfo": "獲取影片信息錯誤，請再試一次",
+  "errorVideoUnavailable": "此影片無法下載。可能已被刪除、設為私人，或被上傳者限制存取。",
+  "errorInvalidUrl": "請輸入有效的 YouTube 影片連結",
   "errorTranscriptUnavailable": "無法取得逐字稿，或是該影片的字幕功能已被作者關閉。造成不便，敬請見諒。",
   "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube 影片下載器",

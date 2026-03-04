@@ -7,6 +7,8 @@
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
   "errorGetVideoInfo": "वीडियो लिंक में त्रुटि है। वीडियो प्राप्त नहीं किया जा सका। कृपया लिंक जांचें।",
+  "errorVideoUnavailable": "यह वीडियो डाउनलोड के लिए उपलब्ध नहीं है। इसे हटा दिया गया हो सकता है, निजी पर सेट किया गया हो, या अपलोडर द्वारा प्रतिबंधित किया गया हो।",
+  "errorInvalidUrl": "कृपया एक मान्य YouTube वीडियो URL दर्ज करें",
   "errorTranscriptUnavailable": "ट्रांसक्रिप्ट उपलब्ध नहीं है या इस वीडियो पर ट्रांसक्रिप्शन सुविधा लेखक द्वारा बंद कर दी गई है। असुविधा के लिए खेद है।",
   "siteName": "Y2mp4.com",
   "videoDownloader": "YouTube वीडियो डाउनलोडर",

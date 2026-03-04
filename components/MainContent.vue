@@ -110,7 +110,7 @@ const onPaste = (event) => {
 // 获取视频格式
 const fetchFormats = async () => {
   if (!yt_url.value || !isValidYoutubeUrl(yt_url.value)) {
-    alert('请输入有效的 YouTube 视频 URL')
+    alert(_t('errorInvalidUrl'))
     return
   }
 
@@ -121,8 +121,15 @@ const fetchFormats = async () => {
     })
     videoData.value = response.data
   } catch (error) {
-    console.error(errorMessage.value, error)
-    alert(errorMessage.value)
+    console.error('fetchFormats error:', error)
+    const errorType = error.response?.data?.errorType
+    if (errorType === 'video_unavailable') {
+      alert(_t('errorVideoUnavailable'))
+    } else if (errorType === 'invalid_url') {
+      alert(_t('errorInvalidUrl'))
+    } else {
+      alert(_t('errorGetVideoInfo'))
+    }
   } finally {
     loading.value = false
   }
