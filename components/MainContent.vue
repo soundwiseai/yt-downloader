@@ -88,11 +88,16 @@ import { _t } from '@/i18n/utils'
 const yt_url = ref('')
 const videoData = ref({})
 const loading = ref(false)
-const errorMessage = ref('')
 
-// 在组件挂载时检查剪贴板
+// 预先计算错误消息（_t 使用 Vue composable，不能在 await 之后调用）
+const msgVideoUnavailable = ref('')
+const msgInvalidUrl = ref('')
+const msgGenericError = ref('')
+
 onMounted(() => {
-  errorMessage.value = _t("errorGetVideoInfo")
+  msgVideoUnavailable.value = _t('errorVideoUnavailable')
+  msgInvalidUrl.value = _t('errorInvalidUrl')
+  msgGenericError.value = _t('errorGetVideoInfo')
 })
 
 const isValidYoutubeUrl = (url) => {
@@ -110,7 +115,7 @@ const onPaste = (event) => {
 // 获取视频格式
 const fetchFormats = async () => {
   if (!yt_url.value || !isValidYoutubeUrl(yt_url.value)) {
-    alert(_t('errorInvalidUrl'))
+    alert(msgInvalidUrl.value)
     return
   }
 
@@ -124,11 +129,11 @@ const fetchFormats = async () => {
     console.error('fetchFormats error:', error)
     const errorType = error.response?.data?.errorType
     if (errorType === 'video_unavailable') {
-      alert(_t('errorVideoUnavailable'))
+      alert(msgVideoUnavailable.value)
     } else if (errorType === 'invalid_url') {
-      alert(_t('errorInvalidUrl'))
+      alert(msgInvalidUrl.value)
     } else {
-      alert(_t('errorGetVideoInfo'))
+      alert(msgGenericError.value)
     }
   } finally {
     loading.value = false

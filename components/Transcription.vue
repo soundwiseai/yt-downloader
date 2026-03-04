@@ -182,7 +182,10 @@ const subtitleLoading = ref(false) // 单独的字幕加载状态
 const parsedSubtitles = ref([])
 const subtitlesLoaded = ref(false)
 const currentSubtitleLang = ref('')
-const errorMessage = ref('')
+// 预先计算错误消息（_t 使用 Vue composable，不能在 await 之后调用）
+const msgVideoUnavailable = ref('')
+const msgInvalidUrl = ref('')
+const msgGenericError = ref('')
 
 // 计算属性：按照 languageMap 顺序排序的字幕语言
 const sortedSubtitleLanguages = computed(() => {
@@ -562,7 +565,9 @@ onMounted(() => {
     }, 1000) // 增加延迟时间到 1 秒
   })
 
-  errorMessage.value = _t('errorGetVideoInfo')
+  msgVideoUnavailable.value = _t('errorVideoUnavailable')
+  msgInvalidUrl.value = _t('errorInvalidUrl')
+  msgGenericError.value = _t('errorGetVideoInfo')
 })
 
 // 复制字幕到剪切板
@@ -675,7 +680,7 @@ const downloadFile = async (link) => {
 // 获取视频格式
 const fetchFormats = async () => {
   if (!yt_url.value || !isValidYoutubeUrl(yt_url.value)) {
-    alert(_t('errorInvalidUrl'))
+    alert(msgInvalidUrl.value)
     return
   }
 
@@ -734,11 +739,11 @@ const fetchFormats = async () => {
     console.error('fetchFormats error:', error)
     const errorType = error.response?.data?.errorType
     if (errorType === 'video_unavailable') {
-      alert(_t('errorVideoUnavailable'))
+      alert(msgVideoUnavailable.value)
     } else if (errorType === 'invalid_url') {
-      alert(_t('errorInvalidUrl'))
+      alert(msgInvalidUrl.value)
     } else {
-      alert(_t('errorGetVideoInfo'))
+      alert(msgGenericError.value)
     }
   } finally {
     loading.value = false
