@@ -537,12 +537,13 @@ const onPlayerReady = (event) => {
 }
 
 const isValidYoutubeUrl = (url) => {
-  return url.includes('youtube.');
+  return url.includes('youtube.') || url.includes('youtu.be');
 }
 
 // 处理粘贴事件
-const onPaste = (event) => {  
-  let text = (event.clipboardData || window.clipboardData).getData("text");
+const onPaste = (event) => {
+  event.preventDefault()
+  let text = (event.clipboardData || window.clipboardData).getData("text").trim()
   yt_url.value = text
   fetchFormats()
 }

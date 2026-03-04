@@ -101,7 +101,8 @@ const isValidYoutubeUrl = (url) => {
 
 // 处理粘贴事件
 const onPaste = (event) => {
-  let text = (event.clipboardData || window.clipboardData).getData("text");
+  event.preventDefault()
+  let text = (event.clipboardData || window.clipboardData).getData("text").trim()
   yt_url.value = text
   fetchFormats()
 }
