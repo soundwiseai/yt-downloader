@@ -6,7 +6,7 @@
         <p class="promo-text">
           <span class="promo-title">{{ _t('promoTitle') }}</span>
           {{ _t('promoDesc') }}
-          <a href="https://musely.io" target="_blank" rel="noopener" class="promo-link">{{ _t('promoProduct') }}</a>。
+          <a href="https://musely.io" target="_blank" rel="noopener nofollow" class="promo-link">{{ _t('promoProduct') }}</a>。
         </p>
         <p class="promo-bonus">
           <span class="promo-bonus-icon">✨</span>
@@ -14,7 +14,7 @@
         </p>
       </div>
       <div class="promo-cta-wrap">
-        <a href="https://musely.io" target="_blank" rel="noopener" class="promo-cta">
+        <a href="https://musely.io" target="_blank" rel="noopener nofollow" class="promo-cta">
           {{ _t('promoCta') }} <span class="promo-arrow">→</span>
         </a>
       </div>
