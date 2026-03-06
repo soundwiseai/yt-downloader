@@ -15,5 +15,10 @@
   "mp3Converter": "YouTubeからMP3へのコンバーター",
   "transcribeGenerator": "YouTube字幕生成ツール",
   "youtube2m4a": "高音質 YouTubeからM4Aへのコンバーター",
-  "saveTip": "ヒント：ダウンロードボタンを右クリックし「名前を付けて保存」を選択すると直接保存できます"
+  "saveTip": "ヒント：ダウンロードボタンを右クリックし「名前を付けて保存」を選択すると直接保存できます",
+  "promoTitle": "私たちも広告が大嫌いです。",
+  "promoDesc": "このサイトを広告なしに保つため、サーバー維持費を他のプロジェクトで賄っています。動画のBGMが必要なら、ぜひ ",
+  "promoProduct": "Musely.io（AI音楽ジェネレーター）",
+  "promoBonus": "無料クレジット付き — AI音楽制作をフルでお試しください。",
+  "promoCta": "試してみる"
 }

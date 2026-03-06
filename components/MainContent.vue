@@ -76,6 +76,9 @@
         </div>
       </div>
     </div>
+
+    <!-- 开发者推荐位 -->
+    <PromoAd />
   </main>
 </template>
 

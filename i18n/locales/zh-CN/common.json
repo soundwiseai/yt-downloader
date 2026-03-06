@@ -15,5 +15,10 @@
   "mp3Converter": "YouTube 转 MP3 转换器",
   "transcribeGenerator": "YouTube 字幕生成器",
   "youtube2m4a": "高音质 YouTube 转 M4A 转换器",
-  "saveTip": "提示：右键点击下载按钮，选择「另存为」可直接保存到本地"
+  "saveTip": "提示：右键点击下载按钮，选择「另存为」可直接保存到本地",
+  "promoTitle": "我们也非常讨厌广告。",
+  "promoDesc": "为了保持本站无广告，我们依赖自家其他项目来支付服务器维护支出。如果您需要为视频配乐，可以试试我们的 ",
+  "promoProduct": "Musely.io（AI 音乐生成器）",
+  "promoBonus": "附赠初始免费额度，欢迎体验完整的 AI 创作。",
+  "promoCta": "去看看"
 }

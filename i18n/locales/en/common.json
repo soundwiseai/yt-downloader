@@ -15,5 +15,10 @@
   "mp3Converter": "YouTube to MP3 Converter",
   "transcribeGenerator": "YouTube Transcript Generator",
   "youtube2m4a": "YouTube to M4A",
-  "saveTip": "Tip: Right-click the download button and select \"Save As\" to save directly"
+  "saveTip": "Tip: Right-click the download button and select \"Save As\" to save directly",
+  "promoTitle": "We hate ads too. ",
+  "promoDesc": "To keep this site ad-free, we rely on our other projects to cover server costs. If you need background music for your videos, try our ",
+  "promoProduct": "Musely.io (AI Music Generator)",
+  "promoBonus": "Free credits included — explore the full AI music creation experience.",
+  "promoCta": "Try it"
 }

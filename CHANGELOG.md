@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-03-04
+
+### Fixed
+- Fixed onPaste URL duplication: added `event.preventDefault()` + `.trim()` in MainContent.vue & Transcription.vue
+- Fixed error alerts not showing: `_t()` uses Vue composables that fail in async catch blocks; pre-compute all error messages in `onMounted` as refs
+- Added `youtu.be` short URL support to Transcription.vue `isValidYoutubeUrl`
+
+### Improved
+- Backend error classification: `server.js` now returns `errorType` field (`video_unavailable` / `invalid_url` / `generic_error`)
+- User-friendly error messages: "video unavailable" clearly indicates it's a YouTube/uploader issue, not our site
+- Replaced hardcoded Chinese alert text with i18n `_t()` calls
+- Added `errorVideoUnavailable` and `errorInvalidUrl` i18n keys (19 locales)
+
+### DevOps
+- Added `devServer: { port: 45330 }` to `nuxt.config.ts`
+- Added `localhost:45330` to backend CORS whitelist
+- All changes synced to y2bmp3 and y2script projects
+
 ## 2026-03-03
 
 ### Fixed (SEO P0)
