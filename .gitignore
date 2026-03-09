@@ -32,16 +32,8 @@ __pycache__/
 *$py.class
 *.pyc
 
-# CMS
-cms/node_modules/
-cms/.next/
-cms/database.db
-cms/*.db
-cms/payload-types.ts
-cms/tsconfig.tsbuildinfo
-cms/.env
-cms/.env.local
-cms/.vercel
+# CMS（独立 repo: Ericgood/musely-cms）
+cms/
 .vercel
 
 # Playwright MCP screenshots
