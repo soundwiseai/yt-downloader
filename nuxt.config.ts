@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  devServer: { port: 45330 },
+  devServer: { port: 3088 },
   modules: ['@nuxtjs/i18n', '@nuxt/image'],
   i18n: {
     defaultLocale: 'en',
@@ -43,6 +43,9 @@ export default defineNuxtConfig({
       ]
     })()
   },
+  watch: {
+    ignored: ['**/node_modules/**', '**/.git/**', '**/.output/**']
+  },
   vite: {
     server: {
       proxy: {
@@ -51,6 +54,11 @@ export default defineNuxtConfig({
           changeOrigin: true,
           secure: true
         }
+      },
+      watch: {
+        usePolling: true,
+        interval: 1000,
+        ignored: ['**/node_modules/**', '**/.git/**', '**/dist/**', '**/.output/**', '**/.nuxt/**']
       }
     }
   },

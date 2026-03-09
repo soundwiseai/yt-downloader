@@ -1,0 +1,10 @@
+node_modules/
+.next/
+database.db
+*.db
+.env
+.env.*
+.env.local
+payload-types.ts
+.vercel
+.env*.local

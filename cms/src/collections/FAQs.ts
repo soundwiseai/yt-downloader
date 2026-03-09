@@ -1,0 +1,80 @@
+import type { CollectionConfig } from 'payload'
+
+export const FAQs: CollectionConfig = {
+  slug: 'faqs',
+  labels: {
+    singular: '常见问题',
+    plural: '常见问题',
+  },
+  admin: {
+    useAsTitle: 'question',
+    defaultColumns: ['pageKey', 'locale', 'question', 'order'],
+    description: '管理各页面的 FAQ 问答内容',
+  },
+  fields: [
+    {
+      name: 'pageKey',
+      type: 'select',
+      required: true,
+      label: '页面类型',
+      options: [
+        { label: 'MP4 下载器', value: 'mp4' },
+        { label: 'MP3 转换器', value: 'mp3' },
+        { label: '视频下载器', value: 'downloader' },
+        { label: '字幕提取器', value: 'transcript' },
+        { label: 'M4A 转换器', value: 'm4a' },
+      ],
+    },
+    {
+      name: 'locale',
+      type: 'select',
+      required: true,
+      label: '语言',
+      options: [
+        { label: 'English', value: 'en' },
+        { label: '简体中文', value: 'zh-CN' },
+        { label: '繁體中文', value: 'zh-TW' },
+        { label: '日本語', value: 'ja' },
+        { label: '한국어', value: 'ko' },
+        { label: 'Español', value: 'es' },
+        { label: 'Español (Latam)', value: 'es-419' },
+        { label: 'Français', value: 'fr' },
+        { label: 'Deutsch', value: 'de' },
+        { label: 'Português', value: 'pt' },
+        { label: 'Português (BR)', value: 'pt-br' },
+        { label: 'Italiano', value: 'it' },
+        { label: 'Русский', value: 'ru' },
+        { label: 'العربية', value: 'ar' },
+        { label: 'हिन्दी', value: 'hi' },
+        { label: 'Türkçe', value: 'tr' },
+        { label: 'Tiếng Việt', value: 'vi' },
+        { label: 'ภาษาไทย', value: 'th' },
+        { label: 'Bahasa Indonesia', value: 'id' },
+        { label: 'Bahasa Melayu', value: 'ms' },
+        { label: 'Filipino', value: 'fil' },
+      ],
+    },
+    {
+      name: 'question',
+      type: 'text',
+      required: true,
+      label: '问题',
+    },
+    {
+      name: 'answer',
+      type: 'richText',
+      required: true,
+      label: '回答',
+    },
+    {
+      name: 'order',
+      type: 'number',
+      required: true,
+      defaultValue: 0,
+      label: '排序',
+      admin: {
+        description: '数字越小越靠前',
+      },
+    },
+  ],
+}

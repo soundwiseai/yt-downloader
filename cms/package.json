@@ -1,0 +1,35 @@
+{
+  "name": "y2mp4-cms",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--no-deprecation __NEXT_PRIVATE_STANDALONE_CONFIG= TURBOPACK= next dev -p 3089",
+    "build": "cross-env NODE_OPTIONS=--no-deprecation __NEXT_PRIVATE_STANDALONE_CONFIG= TURBOPACK= next build",
+    "start": "cross-env NODE_OPTIONS=--no-deprecation __NEXT_PRIVATE_STANDALONE_CONFIG= TURBOPACK= next start -p 3089",
+    "export": "tsx scripts/export.ts",
+    "seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "@payloadcms/db-postgres": "^3.79.0",
+    "@payloadcms/db-sqlite": "^3.79.0",
+    "@payloadcms/next": "^3.79.0",
+    "@payloadcms/plugin-multi-tenant": "^3.79.0",
+    "@payloadcms/richtext-lexical": "^3.79.0",
+    "@payloadcms/ui": "^3.79.0",
+    "cross-env": "^7.0.3",
+    "graphql": "^16.8.1",
+    "next": "^15.2.9",
+    "payload": "^3.79.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.97.3",
+    "sharp": "^0.34.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

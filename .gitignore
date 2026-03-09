@@ -31,3 +31,22 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
+
+# CMS
+cms/node_modules/
+cms/.next/
+cms/database.db
+cms/*.db
+cms/payload-types.ts
+cms/tsconfig.tsbuildinfo
+cms/.env
+cms/.env.local
+cms/.vercel
+.vercel
+
+# Playwright MCP screenshots
+.playwright-mcp/
+
+# Temporary screenshots
+*.png
+!public/**/*.png
