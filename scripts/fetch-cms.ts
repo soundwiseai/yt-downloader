@@ -52,6 +52,7 @@ type PageDoc = {
   pageKey: string
   locale: string
   content: Record<string, any> | null
+  navTitle?: string
   urlPath?: string
   template?: string
   i18nPrefix?: string
@@ -118,9 +119,11 @@ async function main() {
   let pageCount = 0
   const routeMap = new Map<string, SiteConfig>()
   const allLocales = new Set<string>()
+  // 收集各语言的导航锚文本 { locale: { pageKey: navTitle } }
+  const navTitlesByLocale = new Map<string, Record<string, string>>()
 
   for (const doc of pageDocs) {
-    const { pageKey, locale, content, urlPath, template, i18nPrefix, seoPrefix, showInHeader, showInFooter } = doc
+    const { pageKey, locale, content, navTitle, urlPath, template, i18nPrefix, seoPrefix, showInHeader, showInFooter } = doc
     allLocales.add(locale)
 
     // 写 i18n JSON
@@ -130,6 +133,14 @@ async function main() {
       const filePath = path.join(dir, `${pageKey}.json`)
       fs.writeFileSync(filePath, JSON.stringify(content, null, 2) + '\n', 'utf-8')
       pageCount++
+    }
+
+    // 收集导航锚文本
+    if (navTitle?.trim()) {
+      if (!navTitlesByLocale.has(locale)) {
+        navTitlesByLocale.set(locale, {})
+      }
+      navTitlesByLocale.get(locale)![pageKey] = navTitle.trim()
     }
 
     // 收集路由配置（只从有 urlPath 的记录中提取，每个 pageKey 取第一个）
@@ -157,10 +168,25 @@ async function main() {
     allLocales.add(locale)
 
     if (content && Object.keys(content).length > 0) {
+      // 合并该语言的导航锚文本到 common.json
+      const navTitles = navTitlesByLocale.get(locale) || {}
+      const merged = { ...content, ...navTitles }
+
       const dir = path.join(I18N_DIR, locale)
       fs.mkdirSync(dir, { recursive: true })
       const filePath = path.join(dir, 'common.json')
-      fs.writeFileSync(filePath, JSON.stringify(content, null, 2) + '\n', 'utf-8')
+      fs.writeFileSync(filePath, JSON.stringify(merged, null, 2) + '\n', 'utf-8')
+      commonCount++
+    }
+  }
+
+  // 对于有 navTitle 但没有 common-content 的语言，也要写入 common.json
+  for (const [locale, titles] of navTitlesByLocale) {
+    const dir = path.join(I18N_DIR, locale)
+    const filePath = path.join(dir, 'common.json')
+    if (!fs.existsSync(filePath)) {
+      fs.mkdirSync(dir, { recursive: true })
+      fs.writeFileSync(filePath, JSON.stringify(titles, null, 2) + '\n', 'utf-8')
       commonCount++
     }
   }
