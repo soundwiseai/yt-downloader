@@ -1,30 +1,33 @@
 /**
- * 多站点配置文件
+ * 多站点配置文件（由构建脚本从 CMS 自动生成，请勿手动编辑）
  *
- * 此文件集中管理所有站点的配置信息，包括：
- * - name: 站点名称 / pageKey（页面标识符）
- * - i18n: 国际化前缀，用于 i18n 文件中的键名前缀
- * - seo: SEO 相关配置的前缀
- * - url: 站点的 URL 路径
- * - template: 渲染模板（home = 下载器通用 / transcript = 字幕提取）
- * - header: 是否在顶部导航栏显示
- * - footer: 是否在底部导航栏显示
+ * 生成时间: 2026-03-13T16:05:24.754Z
+ * 数据来源: https://cms.musely.io / tenant: y2mp4
  *
- * 注意：此文件可由 CMS export 脚本自动生成。
- * 如果 CMS 中配置了路由字段，运行 cd cms && npm run export 会覆盖此文件。
+ * 要修改站点配置，请在 CMS 后台的「页面内容 → 路由 & 站点配置」中编辑，
+ * 下次构建时会自动更新。
  */
 export default [
     {
-        name: 'videoDownloader',
-        i18n: 'downloader',
-        seo: 'downloader_seo',
-        url: '/youtube-video-downloader',
+        name: 'mp4',
+        i18n: 'mp4',
+        seo: 'mp4_seo',
+        url: '/',
         template: 'home',
-        header: true,
+        header: false,
+        footer: false
+    },
+    {
+        name: 'm4a',
+        i18n: 'm4a',
+        seo: 'm4a_seo',
+        url: '/youtube-to-m4a',
+        template: 'home',
+        header: false,
         footer: true
     },
     {
-        name: 'mp3Converter',
+        name: 'mp3',
         i18n: 'mp3',
         seo: 'mp3_seo',
         url: '/youtube-to-mp3',
@@ -33,7 +36,7 @@ export default [
         footer: true
     },
     {
-        name: 'transcribeGenerator',
+        name: 'transcript',
         i18n: 'transcript',
         seo: 'transcript_seo',
         url: '/youtube-transcript-generator',
@@ -42,12 +45,12 @@ export default [
         footer: true
     },
     {
-        name: 'youtube2m4a',
-        i18n: 'm4a',
-        seo: 'm4a_seo',
-        url: '/youtube-to-m4a',
+        name: 'downloader',
+        i18n: 'downloader',
+        seo: 'downloader_seo',
+        url: '/youtube-video-downloader',
         template: 'home',
-        header: false,
+        header: true,
         footer: true
     }
 ]

@@ -1,21 +1,16 @@
 {
   "transcript_seo": {
     "title": "永久無料のYouTube文字起こし生成ツール – 登録不要 | Y2mp4.com",
-    "description": "登録不要、永久無料、無制限に使える — オンラインツールでYouTube動画の文字起こしをすぐに生成。数クリックで字幕やキャプションを抽出できます。",
     "ogTitle": "永久無料のYouTube文字起こし生成ツール – 登録不要 | Y2mp4.com",
+    "description": "登録不要、永久無料、無制限に使える — オンラインツールでYouTube動画の文字起こしをすぐに生成。数クリックで字幕やキャプションを抽出できます。",
     "ogDescription": "登録不要、永久無料、無制限に使える — オンラインツールでYouTube動画の文字起こしをすぐに生成。数クリックで字幕やキャプションを抽出できます。"
   },
-  "transcript_siteName": "Y2mp4.com",
-  "transcript_videoDownloader": "YouTube動画ダウンローダー",
-  "transcript_mp3Converter": "YouTube MP3コンバーター",
-  "transcript_title": "瞬時YouTube文字起こしジェネレーター",
-  "transcript_description": "あらゆるYouTube動画の文字起こしを瞬時に取得できます。URLを貼り付けて、動画のキャプションの完全なテキストファイルを生成します。研究、コンテンツ作成、学習に最適です。",
-  "transcript_timestamp": "タイムスタンプを表示",
-  "transcript_copy": "コピー",
-  "transcript_download": "無料文字起こしを取得",
   "transcript_tip": "コンテンツをダウンロードする際は著作権にご注意ください。このツールは著作権保護された音楽のダウンロード用に設計されていません。",
+  "transcript_copy": "コピー",
+  "transcript_step": "ステップ",
+  "transcript_title": "瞬時YouTube文字起こしジェネレーター",
+  "transcript_copyUrl": "<strong>YouTube URLを見つけてコピー</strong> \nキャプションがあるYouTube動画（「CC」アイコンが表示されている）にナビゲートし、ブラウザからURLをコピーします。",
   "transcript_formats": "すべてのフォーマット",
-  "transcript_formatsTip": "クリックして保存",
   "transcript_reviews": [
     {
       "text": "このツールは私のワークフローを完全に変えました。20分のYouTube動画を数時間ではなく数秒でブログ記事のテキストに変換できるようになりました。これまで見つけた中で最高のYouTube動画からテキストへのコンバーターです。",
@@ -42,13 +37,23 @@
       "author": "David L., コミュニティメンバー"
     }
   ],
-  "transcript_howToConvertTitle": "YouTube動画からプレーンテキストへ3ステップ",
-  "transcript_howToConvertDescription": "あらゆる動画内のテキストを簡単に解放します。",
-  "transcript_step": "ステップ",
-  "transcript_copyUrl": "<strong>YouTube URLを見つけてコピー</strong> \nキャプションがあるYouTube動画（「CC」アイコンが表示されている）にナビゲートし、ブラウザからURLをコピーします。",
-  "transcript_clickDownload": "<strong>ジェネレーターにリンクを貼り付け</strong> \n当サイトに戻り、動画リンクを入力ボックスに貼り付けます。当ツールは利用可能な文字起こしを即座に検出します。",
-  "transcript_saveVideo": "<strong>完全な文字起こしをコピーまたはダウンロード</strong> \n動画の文字起こしが瞬時に表示されます。ワンクリックでクリップボードにコピーするか、後で使用するためにクリーンな.txtファイルとしてダウンロードできます。",
-  "transcript_aiTranscript": "今すぐAIで動画を文字起こし—永久無料！",
+  "transcript_benefits": {
+    "title": "話し言葉を価値ある資産に変換",
+    "avoidAds": {
+      "title": "正確な研究と引用用",
+      "description": "完璧な引用を見つけるために動画タイムラインを無限にスクロールするのをやめましょう。検索可能なYouTube文字起こしを取得して、Ctrl+Fで重要な情報を瞬時に見つけ、記事や研究論文の記述を検証し、完全な精度と信頼性でインタビューを分析します。"
+    },
+    "saveData": {
+      "title": "強化された学習とアクセシビリティ用",
+      "description": "学習セッションを強化します。講義の文字起こしをダウンロードして重要な概念を復習し、特定の用語を検索し、視聴するだけよりも効果的に情報を吸収します。アクセシブルなコンテンツを作成したり、言語学習者が対話を学習するための重要なツールでもあります。"
+    },
+    "convenience": {
+      "title": "コンテンツ再利用とSEO用",
+      "description": "ワンクリックで何時間ものコンテンツを解放します。YouTube動画をテキストに変換して、検索エンジン最適化されたブログ記事、ポッドキャスト用の詳細なショーノート、魅力的なTwitterスレッド、チャンネルの可視性を向上させるキーワードリッチな動画説明を瞬時に作成します。"
+    }
+  },
+  "transcript_download": "無料文字起こしを取得",
+  "transcript_faqTitle": "詳細なYouTube文字起こしの質問、回答済み",
   "transcript_features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -81,34 +86,29 @@
       "description": "当社のYouTube文字起こしジェネレーターは、すべてのタイムコードと複雑なフォーマットを自動的に削除します。読みやすく、編集しやすく、追加のクリーンアップを必要とせずに記事、メモ、またはソーシャルメディア投稿に直接貼り付けられるクリーンでシンプルなプレーンテキストのブロックを取得できます。"
     }
   ],
-  "transcript_downloadNow": "今すぐ文字起こし >>",
-  "transcript_featuresConverter": "あなたの必須文字起こしツールキット",
-  "transcript_benefits": {
-    "title": "話し言葉を価値ある資産に変換",
-    "convenience": {
-      "title": "コンテンツ再利用とSEO用",
-      "description": "ワンクリックで何時間ものコンテンツを解放します。YouTube動画をテキストに変換して、検索エンジン最適化されたブログ記事、ポッドキャスト用の詳細なショーノート、魅力的なTwitterスレッド、チャンネルの可視性を向上させるキーワードリッチな動画説明を瞬時に作成します。"
-    },
-    "avoidAds": {
-      "title": "正確な研究と引用用",
-      "description": "完璧な引用を見つけるために動画タイムラインを無限にスクロールするのをやめましょう。検索可能なYouTube文字起こしを取得して、Ctrl+Fで重要な情報を瞬時に見つけ、記事や研究論文の記述を検証し、完全な精度と信頼性でインタビューを分析します。"
-    },
-    "saveData": {
-      "title": "強化された学習とアクセシビリティ用",
-      "description": "学習セッションを強化します。講義の文字起こしをダウンロードして重要な概念を復習し、特定の用語を検索し、視聴するだけよりも効果的に情報を吸収します。アクセシブルなコンテンツを作成したり、言語学習者が対話を学習するための重要なツールでもあります。"
-    }
-  },
-  "transcript_faqTitle": "詳細なYouTube文字起こしの質問、回答済み",
-  "transcript_faq1Question": "1. これはAI文字起こしですか？精度はどの程度ですか？",
+  "transcript_siteName": "Y2mp4.com",
+  "transcript_saveVideo": "<strong>完全な文字起こしをコピーまたはダウンロード</strong> \n動画の文字起こしが瞬時に表示されます。ワンクリックでクリップボードにコピーするか、後で使用するためにクリーンな.txtファイルとしてダウンロードできます。",
+  "transcript_timestamp": "タイムスタンプを表示",
   "transcript_faq1Answer": "これは重要な質問です。当ツールはAI文字起こしサービスではありません。キャプション抽出器です。YouTubeから直接、クリエイターが提供した公式キャプションまたは自動生成されたキャプションを取得します。したがって、文字起こしの精度は、YouTubeプレーヤー自体で見るキャプションの精度と同じです。",
-  "transcript_faq2Question": "2. YouTube動画にキャプション（CC）がない場合はどうなりますか？",
   "transcript_faq2Answer": "当社のYouTube文字起こしジェネレーターが動作するには、動画に利用可能なキャプショントラックが必要です—YouTubeプレーヤーで「CC」アイコンが表示されているはずです。動画でキャプションが有効になっていない場合、抽出するテキストデータがないため、当ジェネレーターは文字起こしを作成できません。",
-  "transcript_faq3Question": "3. YouTubeの自動生成キャプションと手動キャプションの違いは何ですか？",
   "transcript_faq3Answer": "手動で作成されたキャプションは動画のクリエイターによってアップロードされ、通常、文言、スペル、句読点の点で非常に正確です。YouTubeの音声認識アルゴリズムは自動生成キャプションを作成し、特に固有名詞、複雑な語彙、または不明確な音声で誤りを含む可能性があります。当ツールは、動画で利用可能なバージョンから文字起こしを生成します。",
-  "transcript_faq4Question": "4. 3時間のウェビナーのような非常に長い動画から文字起こしを取得できますか？",
   "transcript_faq4Answer": "はい。動画にキャプショントラックがある限り、当ツールは動画の長さに関係なく完全な文字起こしを生成できます。既存のテキストデータを取得するだけなので、プロセスは同じように高速です。",
-  "transcript_faq5Question": "5. タイムスタンプ付きの文字起こしを最適に使用するにはどうすればよいですか？",
   "transcript_faq5Answer": "タイムスタンプ付きの文字起こしは非常に便利です。動画編集者にとって、特定の単語が言われる正確な瞬間を素早く見つけることができます。研究者や学生にとって、正確な引用を作成するために不可欠です。タイムスタンプをクリックするとユーザーを動画のその地点にナビゲートする、インタラクティブな「クリック可能な」文字起こしを作成するためにも使用できます。",
+  "transcript_faq6Answer": "YouTubeのデータから直接文字起こしを抽出しているため、文言や句読点の誤りはソースキャプション自体に由来します。自動的に修正することはできません。ただし、編集しやすい形式（コピー・ペーストまたは.txtファイル）でテキストを提供しているため、任意の修正やフォーマット変更を素早く自分で行うことができます。",
+  "transcript_formatsTip": "クリックして保存",
+  "transcript_description": "あらゆるYouTube動画の文字起こしを瞬時に取得できます。URLを貼り付けて、動画のキャプションの完全なテキストファイルを生成します。研究、コンテンツ作成、学習に最適です。",
+  "transcript_downloadNow": "今すぐ文字起こし >>",
+  "transcript_aiTranscript": "今すぐAIで動画を文字起こし—永久無料！",
+  "transcript_faq1Question": "1. これはAI文字起こしですか？精度はどの程度ですか？",
+  "transcript_faq2Question": "2. YouTube動画にキャプション（CC）がない場合はどうなりますか？",
+  "transcript_faq3Question": "3. YouTubeの自動生成キャプションと手動キャプションの違いは何ですか？",
+  "transcript_faq4Question": "4. 3時間のウェビナーのような非常に長い動画から文字起こしを取得できますか？",
+  "transcript_faq5Question": "5. タイムスタンプ付きの文字起こしを最適に使用するにはどうすればよいですか？",
   "transcript_faq6Question": "6. 生成された文字起こしにいくつかの誤りが見られます。修正していただけますか？",
-  "transcript_faq6Answer": "YouTubeのデータから直接文字起こしを抽出しているため、文言や句読点の誤りはソースキャプション自体に由来します。自動的に修正することはできません。ただし、編集しやすい形式（コピー・ペーストまたは.txtファイル）でテキストを提供しているため、任意の修正やフォーマット変更を素早く自分で行うことができます。"
+  "transcript_mp3Converter": "YouTube MP3コンバーター",
+  "transcript_clickDownload": "<strong>ジェネレーターにリンクを貼り付け</strong> \n当サイトに戻り、動画リンクを入力ボックスに貼り付けます。当ツールは利用可能な文字起こしを即座に検出します。",
+  "transcript_videoDownloader": "YouTube動画ダウンローダー",
+  "transcript_featuresConverter": "あなたの必須文字起こしツールキット",
+  "transcript_howToConvertTitle": "YouTube動画からプレーンテキストへ3ステップ",
+  "transcript_howToConvertDescription": "あらゆる動画内のテキストを簡単に解放します。"
 }

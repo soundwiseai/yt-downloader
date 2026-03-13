@@ -217,6 +217,7 @@ const selectedLanguage = ref('')
 const hasSubtitles = ref(false)
 const videoTitle = ref('')
 const showTimestamps = ref(true) // 控制是否显示字幕时间戳
+const siteName = computed(() => _t('siteName'))
 
 // 从URL中提取YouTube视频ID
 const getVideoId = (url) => {
@@ -651,7 +652,7 @@ const downloadFile = async (link) => {
       return
     }
 
-    const head = `# Y2mp4.com free youtube transcript
+    const head = `# ${siteName.value} free youtube transcript
 # ${videoTitle.value}
 # ${yt_url.value}
 `

@@ -17,19 +17,17 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { _t, _tm } from '@/i18n/utils'
+import { buildLocalizedPath, getLocaleFromPath } from '@/utils/site-config'
 
 const router = useRouter()
+const route = useRoute()
 
 // 返回首页
 const goHome = () => {
-  router.push('/').then(() => {
-    window.scrollTo(0, 0)  // 先滚动到顶部
-    setTimeout(() => {
-      location.reload()  // 刷新页面
-    }, 100)  // 延迟一点，确保滚动生效
+  router.push(buildLocalizedPath('/', getLocaleFromPath(route.path))).then(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   })
 }
 </script>

@@ -1,21 +1,16 @@
 {
   "transcript_seo": {
     "title": "Generador de Transcripciones de YouTube Gratis para Siempre – Sin Registro | Y2mp4.com",
-    "description": "Gratis para siempre, sin registro y con uso ilimitado — genera transcripciones de videos de YouTube al instante con nuestra herramienta en línea. Extrae subtítulos o subtítulos ocultos en solo unos clics.",
     "ogTitle": "Generador de Transcripciones de YouTube Gratis para Siempre – Sin Registro | Y2mp4.com",
+    "description": "Gratis para siempre, sin registro y con uso ilimitado — genera transcripciones de videos de YouTube al instante con nuestra herramienta en línea. Extrae subtítulos o subtítulos ocultos en solo unos clics.",
     "ogDescription": "Gratis para siempre, sin registro y con uso ilimitado — genera transcripciones de videos de YouTube al instante con nuestra herramienta en línea. Extrae subtítulos o subtítulos ocultos en solo unos clics."
   },
-  "transcript_siteName": "Y2mp4.com",
-  "transcript_videoDownloader": "Descargador de Vídeos de YouTube",
-  "transcript_mp3Converter": "Conversor de YouTube a MP3",
-  "transcript_title": "Generador de Transcripciones de YouTube Instantáneo",
-  "transcript_description": "Obtén instantáneamente la transcripción de cualquier vídeo de YouTube. Pega una URL para generar un archivo de texto completo de los subtítulos del vídeo. Perfecto para investigación, creación de contenido y estudios.",
-  "transcript_timestamp": "Mostrar marcas de tiempo",
-  "transcript_copy": "Copiar",
-  "transcript_download": "Obtener Transcripción Gratis",
   "transcript_tip": "Por favor, ten en cuenta los derechos de autor al descargar contenido. Esta herramienta no está diseñada para descargar música protegida por derechos de autor.",
+  "transcript_copy": "Copiar",
+  "transcript_step": "Paso",
+  "transcript_title": "Generador de Transcripciones de YouTube Instantáneo",
+  "transcript_copyUrl": "<strong>Encontrar y Copiar la URL de YouTube</strong> \n Navega al vídeo de YouTube que tenga subtítulos (el icono \"CC\" es visible) y copia la URL desde tu navegador.",
   "transcript_formats": "Todos los Formatos",
-  "transcript_formatsTip": "Haz clic para guardar",
   "transcript_reviews": [
     {
       "text": "Esta herramienta es un cambio total para mi flujo de trabajo. Ahora puedo convertir un vídeo de YouTube de 20 minutos en texto para un artículo de blog en segundos, no en horas. Es el mejor conversor de vídeo de YouTube a texto que he encontrado.",
@@ -42,13 +37,23 @@
       "author": "David L., Miembro de la Comunidad"
     }
   ],
-  "transcript_howToConvertTitle": "De Vídeo de YouTube a Texto Plano en 3 Pasos",
-  "transcript_howToConvertDescription": "Desbloquea el texto dentro de cualquier vídeo sin esfuerzo.",
-  "transcript_step": "Paso",
-  "transcript_copyUrl": "<strong>Encontrar y Copiar la URL de YouTube</strong> \n Navega al vídeo de YouTube que tenga subtítulos (el icono \"CC\" es visible) y copia la URL desde tu navegador.",
-  "transcript_clickDownload": "<strong>Pegar el Enlace en el Generador</strong> \n Regresa a nuestro sitio y pega el enlace del vídeo en el cuadro de entrada. Nuestra herramienta detectará inmediatamente las transcripciones disponibles.",
-  "transcript_saveVideo": "<strong>Copiar o Descargar la Transcripción Completa</strong> \n La transcripción de tu vídeo aparecerá instantáneamente. Puedes copiarla a tu portapapeles con un clic o descargarla como un archivo .txt limpio para uso posterior.",
-  "transcript_aiTranscript": "¡Empieza a convertir videos en texto con IA ahora—gratis para siempre!",
+  "transcript_benefits": {
+    "title": "Transforma Palabras Habladas en Activos Valiosos",
+    "avoidAds": {
+      "title": "Para Investigación Precisa y Citado",
+      "description": "Deja de desplazarte infinitamente por las líneas de tiempo de vídeo para encontrar esa cita perfecta. Obtén una transcripción de YouTube que se pueda buscar para encontrar instantáneamente información clave con Ctrl+F, verificar declaraciones para tu artículo o trabajo de investigación, y analizar entrevistas con completa precisión y confianza."
+    },
+    "saveData": {
+      "title": "Para Aprendizaje Mejorado y Accesibilidad",
+      "description": "Potencia tus sesiones de estudio. Descarga una transcripción de conferencia para revisar conceptos clave, buscar términos específicos y absorber información más efectivamente que solo viendo. También es una herramienta esencial para crear contenido accesible o para estudiantes de idiomas que estudian diálogos."
+    },
+    "convenience": {
+      "title": "Para Reutilización de Contenido y SEO",
+      "description": "Desbloquea horas de contenido con un solo clic. Convierte tu vídeo de YouTube a texto para crear instantáneamente artículos de blog optimizados para motores de búsqueda, notas detalladas de programas para podcasts, hilos atractivos de Twitter y descripciones de vídeo ricas en palabras clave para mejorar la visibilidad de tu canal."
+    }
+  },
+  "transcript_download": "Obtener Transcripción Gratis",
+  "transcript_faqTitle": "Tus Preguntas Detalladas sobre Transcripciones de YouTube, Respondidas",
   "transcript_features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -81,34 +86,29 @@
       "description": "Nuestro Generador de Transcripciones de YouTube elimina automáticamente todos los códigos de tiempo y formato complejo. Obtienes un bloque limpio y simple de texto plano que es fácil de leer, editar y pegar directamente en tus artículos, notas o publicaciones en redes sociales sin necesidad de limpieza adicional."
     }
   ],
-  "transcript_downloadNow": "Transcripción Ahora >>",
-  "transcript_featuresConverter": "Tu Kit de Herramientas Esencial de Transcripciones",
-  "transcript_benefits": {
-    "title": "Transforma Palabras Habladas en Activos Valiosos",
-    "convenience": {
-      "title": "Para Reutilización de Contenido y SEO",
-      "description": "Desbloquea horas de contenido con un solo clic. Convierte tu vídeo de YouTube a texto para crear instantáneamente artículos de blog optimizados para motores de búsqueda, notas detalladas de programas para podcasts, hilos atractivos de Twitter y descripciones de vídeo ricas en palabras clave para mejorar la visibilidad de tu canal."
-    },
-    "avoidAds": {
-      "title": "Para Investigación Precisa y Citado",
-      "description": "Deja de desplazarte infinitamente por las líneas de tiempo de vídeo para encontrar esa cita perfecta. Obtén una transcripción de YouTube que se pueda buscar para encontrar instantáneamente información clave con Ctrl+F, verificar declaraciones para tu artículo o trabajo de investigación, y analizar entrevistas con completa precisión y confianza."
-    },
-    "saveData": {
-      "title": "Para Aprendizaje Mejorado y Accesibilidad",
-      "description": "Potencia tus sesiones de estudio. Descarga una transcripción de conferencia para revisar conceptos clave, buscar términos específicos y absorber información más efectivamente que solo viendo. También es una herramienta esencial para crear contenido accesible o para estudiantes de idiomas que estudian diálogos."
-    }
-  },
-  "transcript_faqTitle": "Tus Preguntas Detalladas sobre Transcripciones de YouTube, Respondidas",
-  "transcript_faq1Question": "1. ¿Es esta una transcripción de IA, y qué tan precisa es?",
+  "transcript_siteName": "Y2mp4.com",
+  "transcript_saveVideo": "<strong>Copiar o Descargar la Transcripción Completa</strong> \n La transcripción de tu vídeo aparecerá instantáneamente. Puedes copiarla a tu portapapeles con un clic o descargarla como un archivo .txt limpio para uso posterior.",
+  "transcript_timestamp": "Mostrar marcas de tiempo",
   "transcript_faq1Answer": "Esta es una pregunta clave. Nuestra herramienta no es un servicio de transcripción de IA. Es un extractor de subtítulos. Obtiene los subtítulos oficiales proporcionados por el creador o generados automáticamente directamente de YouTube. Por lo tanto, la precisión de la transcripción es idéntica a la precisión de los subtítulos que ves en el reproductor de YouTube mismo.",
-  "transcript_faq2Question": "2. ¿Qué pasa si el vídeo de YouTube no tiene subtítulos (CC)?",
   "transcript_faq2Answer": "Para que funcione nuestro generador de transcripciones de YouTube, el vídeo debe tener una pista de subtítulos disponible—deberías ver el icono \"CC\" en el reproductor de YouTube. Si un vídeo no tiene subtítulos habilitados, nuestro generador no puede crear una transcripción porque no hay datos de texto para extraer.",
-  "transcript_faq3Question": "3. ¿Cuál es la diferencia entre los subtítulos generados automáticamente de YouTube y los manuales?",
   "transcript_faq3Answer": "Los subtítulos creados manualmente son subidos por el creador del vídeo y generalmente son muy precisos en términos de redacción, ortografía y puntuación. El algoritmo de reconocimiento de voz de YouTube crea subtítulos generados automáticamente y puede contener errores, especialmente con nombres propios, vocabulario complejo o audio poco claro. Nuestra herramienta generará la transcripción de cualquier versión que esté disponible para el vídeo.",
-  "transcript_faq4Question": "4. ¿Puedo obtener una transcripción de un vídeo muy largo, como un webinar de 3 horas?",
   "transcript_faq4Answer": "Sí. Mientras el vídeo tenga una pista de subtítulos, nuestra herramienta puede generar la transcripción completa independientemente de la duración del vídeo. El proceso sigue siendo igual de rápido, ya que simplemente estamos obteniendo datos de texto existentes.",
-  "transcript_faq5Question": "5. ¿Cómo puedo usar mejor la transcripción con marcas de tiempo?",
   "transcript_faq5Answer": "Las transcripciones con marcas de tiempo son increíblemente útiles. Para editores de vídeo, les permiten encontrar rápidamente el momento exacto en que se dice una palabra específica. Para investigadores y estudiantes, son esenciales para crear citas precisas. También puedes usarlas para crear transcripciones interactivas \"clicables\" donde hacer clic en una marca de tiempo navega a un usuario a ese punto en el vídeo.",
+  "transcript_faq6Answer": "Dado que extraemos la transcripción directamente de los datos de YouTube, cualquier error en redacción o puntuación se origina de los subtítulos fuente mismos. No podemos corregirlos automáticamente. Sin embargo, proporcionamos el texto en un formato fácil de editar (copiar-pegar o archivo .txt) para que puedas hacer rápidamente cualquier corrección o cambio de formato tú mismo.",
+  "transcript_formatsTip": "Haz clic para guardar",
+  "transcript_description": "Obtén instantáneamente la transcripción de cualquier vídeo de YouTube. Pega una URL para generar un archivo de texto completo de los subtítulos del vídeo. Perfecto para investigación, creación de contenido y estudios.",
+  "transcript_downloadNow": "Transcripción Ahora >>",
+  "transcript_aiTranscript": "¡Empieza a convertir videos en texto con IA ahora—gratis para siempre!",
+  "transcript_faq1Question": "1. ¿Es esta una transcripción de IA, y qué tan precisa es?",
+  "transcript_faq2Question": "2. ¿Qué pasa si el vídeo de YouTube no tiene subtítulos (CC)?",
+  "transcript_faq3Question": "3. ¿Cuál es la diferencia entre los subtítulos generados automáticamente de YouTube y los manuales?",
+  "transcript_faq4Question": "4. ¿Puedo obtener una transcripción de un vídeo muy largo, como un webinar de 3 horas?",
+  "transcript_faq5Question": "5. ¿Cómo puedo usar mejor la transcripción con marcas de tiempo?",
   "transcript_faq6Question": "6. Veo algunos errores en la transcripción generada. ¿Pueden corregirlos?",
-  "transcript_faq6Answer": "Dado que extraemos la transcripción directamente de los datos de YouTube, cualquier error en redacción o puntuación se origina de los subtítulos fuente mismos. No podemos corregirlos automáticamente. Sin embargo, proporcionamos el texto en un formato fácil de editar (copiar-pegar o archivo .txt) para que puedas hacer rápidamente cualquier corrección o cambio de formato tú mismo."
+  "transcript_mp3Converter": "Conversor de YouTube a MP3",
+  "transcript_clickDownload": "<strong>Pegar el Enlace en el Generador</strong> \n Regresa a nuestro sitio y pega el enlace del vídeo en el cuadro de entrada. Nuestra herramienta detectará inmediatamente las transcripciones disponibles.",
+  "transcript_videoDownloader": "Descargador de Vídeos de YouTube",
+  "transcript_featuresConverter": "Tu Kit de Herramientas Esencial de Transcripciones",
+  "transcript_howToConvertTitle": "De Vídeo de YouTube a Texto Plano en 3 Pasos",
+  "transcript_howToConvertDescription": "Desbloquea el texto dentro de cualquier vídeo sin esfuerzo."
 }

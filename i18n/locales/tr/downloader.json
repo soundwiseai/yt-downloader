@@ -1,21 +1,15 @@
 {
   "downloader_seo": {
     "title": "YouTube URL'den MP4, MP3 ve Metin İndirici | Y2mp4.com",
-    "description": "Ücretsiz URL indiricimizle YouTube videolarını anında indirin, MP3 ses dosyalarını çıkarın veya herhangi bir videoyu metne dönüştürün. %100 güvenli, kayıt gerektirmez.",
     "ogTitle": "YouTube URL'den MP4, MP3 ve Metin İndirici | Y2mp4.com",
+    "description": "Ücretsiz URL indiricimizle YouTube videolarını anında indirin, MP3 ses dosyalarını çıkarın veya herhangi bir videoyu metne dönüştürün. %100 güvenli, kayıt gerektirmez.",
     "ogDescription": "Ücretsiz URL indiricimizle YouTube videolarını anında indirin, MP3 ses dosyalarını çıkarın veya herhangi bir videoyu metne dönüştürün. %100 güvenli, kayıt gerektirmez."
   },
-  "downloader_siteName": "Y2mp4.com",
-  "downloader_videoDownloader": "YouTube Video İndirici",
-  "downloader_mp3Converter": "YouTube'dan MP3 Dönüştürücü",
-  "downloader_title": "En İyi YouTube URL İndirici",
-  "downloader_description": "YouTube URL'sini yapıştırarak videoları yüksek kalitede anında indirin ve cihazınıza kaydedin. Hızlı, güvenli ve yazılım yükleme gerektirmez.",
-  "downloader_download": "İNDİR",
   "downloader_tip": "İçerik indirirken telif haklarına dikkat edin. Bu araç telifli müzik indirmek için tasarlanmamıştır.",
-  "downloader_tooltipText": "Bu araç sadece yasal, ihlal etmeyen kullanım için kullanılabilir. Eğer bir içerik üreticisiyseniz ve videolarınızın bu araçla indirilmesini engellemek istiyorsanız, videonuzun etiketlerine veya açıklamasına #nodownload ekleyin.",
-  "downloader_audioOnly": "Sadece Ses",
+  "downloader_step": "Adım",
+  "downloader_title": "En İyi YouTube URL İndirici",
+  "downloader_copyUrl": "<strong>YouTube URL'sini Bulun ve Kopyalayın</strong> \n Kaydetmek istediğiniz YouTube videosuna veya çalma listesine gidin. Tarayıcınızın adres çubuğundan tam URL'yi kopyalayın.",
   "downloader_formats": "Tüm Formatlar",
-  "downloader_formatsTip": "Kaydetmek için tıklayın",
   "downloader_reviews": [
     {
       "text": "Favori videolarımı kaydetmek için mükemmel! Hızlı indirme ve kullanımı çok basit. Kayıt gerekmiyor.",
@@ -42,12 +36,27 @@
       "author": "Emma_Wilson"
     }
   ],
-  "downloader_howToConvertTitle": "Herhangi Bir YouTube Videosunu 3 Basit Adımda İndirin",
-  "downloader_howToConvertDescription": "Favori içeriğinizi kaydetmek hiç bu kadar kolay olmamıştı. Sadece kopyalayın, yapıştırın ve indirin.",
-  "downloader_step": "Adım",
-  "downloader_copyUrl": "<strong>YouTube URL'sini Bulun ve Kopyalayın</strong> \n Kaydetmek istediğiniz YouTube videosuna veya çalma listesine gidin. Tarayıcınızın adres çubuğundan tam URL'yi kopyalayın.",
-  "downloader_clickDownload": "<strong>Video Bağlantısını İndiricimize Yapıştırın</strong> \n Sitemize geri dönün ve bağlantıyı sayfanın üst kısmındaki giriş kutusuna yapıştırın. Aracımız URL'yi otomatik olarak işleyecektir.",
-  "downloader_saveVideo": "<strong>Formatınızı Seçin ve İndirin</strong> \n \"İndir\" butonuna tıklayın ve dosya listesinden istediğiniz formatı ve çözünürlüğü seçin, doğrudan cihazınıza kaydetmek için istediğinize tıklayın.",
+  "downloader_benefits": {
+    "title": "İçeriğinizin Kilidini Açın, Sizin Yönteminizle",
+    "avoidAds": {
+      "title": "İçerik Üreticileri ve Video Editörleri İçin",
+      "description": "Bir tepki videosu, montaj veya vaka çalışması için belirli bir klip mi lazım? YouTube URL indiricimizi kullanarak hızlıca yüksek kaliteli, filigransız kaynak materyal elde edebilirsiniz. Önemli içerikleri kaldırılmadan önce arşivleyin ve bir sonraki yaratıcı projeniz için ihtiyacınız olan varlıklara sahip olduğunuzdan emin olun."
+    },
+    "saveData": {
+      "title": "Eğitimciler ve Öğrenciler İçin",
+      "description": "Güçlü bir dijital bilgi kütüphanesi oluşturun. Önemli dersleri, bilimsel gösterileri veya tarihi belgeselleri saklamak için YouTube URL'lerini kaydedin. Öğrenciler materyalleri çevrimdışı inceleyerek her yerde, her zaman dikkat dağıtmadan çalışabilirler."
+    },
+    "convenience": {
+      "title": "Kesintisiz Çevrimdışı İzleme İçin",
+      "description": "Uzun bir uçuşta, sinyalin olmadığı bir metroda veya uzak bir bölgede kamp yaparken olduğunuzu hayal edin. Aracımızla YouTube videolarını önceden çevrimdışı izlemek için indirebilirsiniz. Favori eğitim videolarınız, belgeselleriniz ve eğlence içerikleriniz her zaman cebinizde - buffering yok, internete gerek yok."
+    },
+    "moreFromDownloads": {
+      "title": "İndirmelerinizden Daha Fazlasını Alın",
+      "description": "Tamponlama ve veri tüketimine elveda deyin! Çevrimdışı videolarınızdan en iyi şekilde yararlanmanın yolu:<br/><strong>1.Kişisel Medya Kütüphanenizi Oluşturun</strong><br/>Kendi Netflix tarzı koleksiyonunuzu oluşturun.<br/><strong>2.Endişesiz Seyahat Edin</strong><br/>Uçakta kesintili WiFi veya sıkıcı yolculuklar yok.<br/><strong>3.Değerli Veri Baytlarınızı Koruyun</strong><br/>WiFi üzerinden indirin, istediğiniz zaman izleyin."
+    }
+  },
+  "downloader_download": "İNDİR",
+  "downloader_faqTitle": "Sorularınız, Cevaplarımız",
   "downloader_features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -80,36 +89,27 @@
       "description": "Herhangi bir videodaki metnin kilidini açın. Aracımız ayrıca YouTube URL'nizdeki sesi tam bir metin belgesine dönüştürmeyi destekler. Konuşulan içeriği analiz etmek isteyen öğrenciler, içerik üreticileri veya araştırmacılar için mükemmeldir."
     }
   ],
-  "downloader_downloadNow": "Hemen İndir >>",
-  "downloader_featuresConverter": "YouTube URL İndirici Temel Özellikleri",
-  "downloader_benefits": {
-    "title": "İçeriğinizin Kilidini Açın, Sizin Yönteminizle",
-    "convenience": {
-      "title": "Kesintisiz Çevrimdışı İzleme İçin",
-      "description": "Uzun bir uçuşta, sinyalin olmadığı bir metroda veya uzak bir bölgede kamp yaparken olduğunuzu hayal edin. Aracımızla YouTube videolarını önceden çevrimdışı izlemek için indirebilirsiniz. Favori eğitim videolarınız, belgeselleriniz ve eğlence içerikleriniz her zaman cebinizde - buffering yok, internete gerek yok."
-    },
-    "avoidAds": {
-      "title": "İçerik Üreticileri ve Video Editörleri İçin",
-      "description": "Bir tepki videosu, montaj veya vaka çalışması için belirli bir klip mi lazım? YouTube URL indiricimizi kullanarak hızlıca yüksek kaliteli, filigransız kaynak materyal elde edebilirsiniz. Önemli içerikleri kaldırılmadan önce arşivleyin ve bir sonraki yaratıcı projeniz için ihtiyacınız olan varlıklara sahip olduğunuzdan emin olun."
-    },
-    "saveData": {
-      "title": "Eğitimciler ve Öğrenciler İçin",
-      "description": "Güçlü bir dijital bilgi kütüphanesi oluşturun. Önemli dersleri, bilimsel gösterileri veya tarihi belgeselleri saklamak için YouTube URL'lerini kaydedin. Öğrenciler materyalleri çevrimdışı inceleyerek her yerde, her zaman dikkat dağıtmadan çalışabilirler."
-    },
-    "moreFromDownloads": {
-      "title": "İndirmelerinizden Daha Fazlasını Alın",
-      "description": "Tamponlama ve veri tüketimine elveda deyin! Çevrimdışı videolarınızdan en iyi şekilde yararlanmanın yolu:<br/><strong>1.Kişisel Medya Kütüphanenizi Oluşturun</strong><br/>Kendi Netflix tarzı koleksiyonunuzu oluşturun.<br/><strong>2.Endişesiz Seyahat Edin</strong><br/>Uçakta kesintili WiFi veya sıkıcı yolculuklar yok.<br/><strong>3.Değerli Veri Baytlarınızı Koruyun</strong><br/>WiFi üzerinden indirin, istediğiniz zaman izleyin."
-    }
-  },
-  "downloader_faqTitle": "Sorularınız, Cevaplarımız",
-  "downloader_faq1Question": "1. YouTube videosunun sadece belirli bir bölümünü indirebilir miyim?",
+  "downloader_siteName": "Y2mp4.com",
+  "downloader_audioOnly": "Sadece Ses",
+  "downloader_saveVideo": "<strong>Formatınızı Seçin ve İndirin</strong> \n \"İndir\" butonuna tıklayın ve dosya listesinden istediğiniz formatı ve çözünürlüğü seçin, doğrudan cihazınıza kaydetmek için istediğinize tıklayın.",
   "downloader_faq1Answer": "Aracımız URL'den tüm videoyu indirmek için tasarlanmış olsa da, bu editörler için yaygın bir ihtiyaçtır. En iyi uygulama, önce yüksek kaliteli tam video dosyasını cihazınıza hızlıca kaydetmek için indiricimizi kullanmaktır. Ardından, ihtiyacınız olan kesin klibi kolayca kesmek için herhangi bir standart video düzenleme yazılımını (CapCut, iMovie veya Adobe Premiere gibi) kullanabilirsiniz. Bu, gelecekteki kullanımlar için orijinal dosyaya sahip olmanızı sağlar.",
-  "downloader_faq2Question": "2. MP4, WEBM ve MP3 formatları arasındaki fark nedir?",
   "downloader_faq2Answer": "Harika soru!\n<strong>- MP4</strong> hemen hemen tüm cihazlarda ve platformlarda çalışan, en evrensel uyumlu video formatıdır. Kalite ve dosya boyutu arasında mükemmel bir denge sunar. Çoğu kullanıcı için bunu öneririz.\n<strong>WEBM</strong> Google tarafından geliştirilen, MP4 ile benzer kalitede daha küçük dosya boyutları sunan modern, açık kaynaklı bir formattır, ancak eski cihazlarda veya bazı video düzenleyicilerde desteklenmeyebilir.\n<strong>MP3</strong> sadece ses formatıdır. Bir podcast, müzik veya konuşma gibi sadece sesi çıkarmak istiyorsanız bunu seçin.",
-  "downloader_faq3Question": "3. YouTube URL indirici kullanarak video indirmek yasal mı?",
   "downloader_faq3Answer": "Yasallık, içeriğe ve nasıl kullanmayı planladığınıza bağlıdır. Kamu malı olan veya Creative Commons (CC) lisansına sahip videoları indirmek genellikle yasaldır. Telif hakkı olan içerikler için, kişisel çevrimdışı izleme amacıyla video indirmek birçok bölgede \"adil kullanım\" olarak kabul edilir. Ancak, telif hakkı olan içeriği sahibinden izinsiz olarak yeniden dağıtmak, remixlemek veya ticari kazanç sağlamak yasa dışıdır. Telif hakkı yasalarına ve YouTube'un hizmet şartlarına saygı göstermenizi öneririz.",
-  "downloader_faq4Question": "4. Özel veya yaş sınırlı bir video indirmeye çalıştım ve çalışmadı. Neden?",
   "downloader_faq4Answer": "Aracımız kullanıcı gizliliğine ve YouTube'un platform kurallarına saygı duyar. Dijital bir \"VCR\" gibi çalışır, yani yalnızca halka açık olan içeriğe erişebilir ve kayıt yapabilir. Bir video \"Özel\", \"Listelenmemiş\" (bağlantıya sahip olmadıkça) veya yaşınızı doğrulamak için giriş yapmanızı gerektiren bir yaş sınırı varsa, sunucumuz ona erişemez. YouTube'un gizlilik veya erişim kontrollerini atlamayız.",
+  "downloader_faq5Answer": "Hayır, hiçbir sınır yok! Hizmetimiz tamamen ücretsiz ve limitsizdir. YouTube videolarını URL'yi yapıştırarak istediğiniz kadar indirebilirsiniz - 10 saniyelik bir Short'tan 10 saatlik bir belgesele kadar - videonun uzunluğu fark etmez.",
+  "downloader_formatsTip": "Kaydetmek için tıklayın",
+  "downloader_description": "YouTube URL'sini yapıştırarak videoları yüksek kalitede anında indirin ve cihazınıza kaydedin. Hızlı, güvenli ve yazılım yükleme gerektirmez.",
+  "downloader_downloadNow": "Hemen İndir >>",
+  "downloader_tooltipText": "Bu araç sadece yasal, ihlal etmeyen kullanım için kullanılabilir. Eğer bir içerik üreticisiyseniz ve videolarınızın bu araçla indirilmesini engellemek istiyorsanız, videonuzun etiketlerine veya açıklamasına #nodownload ekleyin.",
+  "downloader_faq1Question": "1. YouTube videosunun sadece belirli bir bölümünü indirebilir miyim?",
+  "downloader_faq2Question": "2. MP4, WEBM ve MP3 formatları arasındaki fark nedir?",
+  "downloader_faq3Question": "3. YouTube URL indirici kullanarak video indirmek yasal mı?",
+  "downloader_faq4Question": "4. Özel veya yaş sınırlı bir video indirmeye çalıştım ve çalışmadı. Neden?",
   "downloader_faq5Question": "5. İndirebileceğim video sayısı veya videoların uzunluğu için herhangi bir sınır var mı?",
-  "downloader_faq5Answer": "Hayır, hiçbir sınır yok! Hizmetimiz tamamen ücretsiz ve limitsizdir. YouTube videolarını URL'yi yapıştırarak istediğiniz kadar indirebilirsiniz - 10 saniyelik bir Short'tan 10 saatlik bir belgesele kadar - videonun uzunluğu fark etmez."
+  "downloader_mp3Converter": "YouTube'dan MP3 Dönüştürücü",
+  "downloader_clickDownload": "<strong>Video Bağlantısını İndiricimize Yapıştırın</strong> \n Sitemize geri dönün ve bağlantıyı sayfanın üst kısmındaki giriş kutusuna yapıştırın. Aracımız URL'yi otomatik olarak işleyecektir.",
+  "downloader_videoDownloader": "YouTube Video İndirici",
+  "downloader_featuresConverter": "YouTube URL İndirici Temel Özellikleri",
+  "downloader_howToConvertTitle": "Herhangi Bir YouTube Videosunu 3 Basit Adımda İndirin",
+  "downloader_howToConvertDescription": "Favori içeriğinizi kaydetmek hiç bu kadar kolay olmamıştı. Sadece kopyalayın, yapıştırın ve indirin."
 }

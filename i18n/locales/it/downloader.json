@@ -1,21 +1,15 @@
 {
   "downloader_seo": {
     "title": "Downloader URL YouTube per MP4, MP3 e Testo | Y2mp4.com",
-    "description": "Scarica istantaneamente video di YouTube, estrai audio MP3 o trascrivi qualsiasi video in testo con il nostro downloader di URL gratuito. 100% sicuro, nessuna registrazione richiesta.",
     "ogTitle": "Downloader URL YouTube per MP4, MP3 e Testo | Y2mp4.com",
+    "description": "Scarica istantaneamente video di YouTube, estrai audio MP3 o trascrivi qualsiasi video in testo con il nostro downloader di URL gratuito. 100% sicuro, nessuna registrazione richiesta.",
     "ogDescription": "Scarica istantaneamente video di YouTube, estrai audio MP3 o trascrivi qualsiasi video in testo con il nostro downloader di URL gratuito. 100% sicuro, nessuna registrazione richiesta."
   },
-  "downloader_siteName": "Y2mp4.com",
-  "downloader_videoDownloader": "Scarica video da YouTube",
-  "downloader_mp3Converter": "Convertitore YouTube to MP3",
-  "downloader_title": "Il miglior strumento per scaricare video da YouTube",
-  "downloader_description": "Incolla qualsiasi URL di YouTube per scaricare istantaneamente video in alta qualità e salvarli sul tuo dispositivo. Veloce, sicuro e senza bisogno di installare software.",
-  "downloader_download": "SCARICA",
   "downloader_tip": "Per favore rispetta i diritti d'autore quando scarichi contenuti. Questo strumento non è pensato per scaricare musica protetta da copyright.",
-  "downloader_tooltipText": "Questo strumento può essere utilizzato solo per scopi legali e non di violazione. Se sei un creatore di contenuti e vuoi impedire che i tuoi video vengano scaricati tramite questo strumento, aggiungi semplicemente #nodownload ai tag o alla descrizione del tuo video.",
-  "downloader_audioOnly": "Solo Audio",
+  "downloader_step": "Passo",
+  "downloader_title": "Il miglior strumento per scaricare video da YouTube",
+  "downloader_copyUrl": "<strong>Trova e copia l'URL di YouTube</strong> \n Vai al video o playlist di YouTube che vuoi salvare. Copia l'URL completo dalla barra degli indirizzi del tuo browser.",
   "downloader_formats": "Tutti i formati",
-  "downloader_formatsTip": "Clicca per salvare",
   "downloader_reviews": [
     {
       "text": "Perfetto per salvare i miei video preferiti! Download veloci e super semplice da usare. Nessuna registrazione richiesta.",
@@ -42,12 +36,27 @@
       "author": "Emma_Wilson"
     }
   ],
-  "downloader_howToConvertTitle": "Scarica qualsiasi video YouTube in 3 semplici passaggi",
-  "downloader_howToConvertDescription": "Salvare i tuoi contenuti preferiti non è mai stato così facile. Basta copiare, incollare e scaricare.",
-  "downloader_step": "Passo",
-  "downloader_copyUrl": "<strong>Trova e copia l'URL di YouTube</strong> \n Vai al video o playlist di YouTube che vuoi salvare. Copia l'URL completo dalla barra degli indirizzi del tuo browser.",
-  "downloader_clickDownload": "<strong>Incolla il link video nel nostro strumento</strong> \n Torna sul nostro sito e incolla il link nella casella di input in cima alla pagina. Il nostro strumento elaborerà automaticamente l'URL.",
-  "downloader_saveVideo": "<strong>Scegli il formato e scarica</strong> \n Clicca il pulsante \"Scarica\" e seleziona il formato e la risoluzione dalla lista dei file, clicca su quello desiderato per salvarlo direttamente sul tuo dispositivo.",
+  "downloader_benefits": {
+    "title": "Sblocca i tuoi contenuti, a modo tuo",
+    "avoidAds": {
+      "title": "Per creatori di contenuti e editori video",
+      "description": "Hai bisogno di un clip specifico per un video di reazione, un montaggio o uno studio di caso? Usando il nostro scaricatore URL YouTube puoi ottenere rapidamente materiale sorgente di alta qualità senza filigrana. Archivia contenuti importanti prima che vengano rimossi e assicurati di avere tutto ciò che ti serve per il tuo prossimo progetto creativo."
+    },
+    "saveData": {
+      "title": "Per educatori e studenti",
+      "description": "Costruisci una potente libreria digitale di conoscenza. Salva da URL YouTube per conservare lezioni importanti, dimostrazioni scientifiche o documentari storici. Gli studenti possono rivedere il materiale offline per studiare in qualsiasi momento e luogo, senza distrazioni."
+    },
+    "convenience": {
+      "title": "Per una visione offline senza interruzioni",
+      "description": "Immagina di essere su un lungo volo, in metropolitana senza segnale o in campeggio in un'area remota. Con il nostro strumento puoi scaricare video YouTube in anticipo per vederli offline. I tuoi tutorial, documentari e contenuti di intrattenimento preferiti sono sempre a portata di mano - nessun buffering, nessun bisogno di internet."
+    },
+    "moreFromDownloads": {
+      "title": "Ottieni di più dai tuoi download",
+      "description": "Ottieni di più dai tuoi download: 1. Costruisci la tua libreria multimediale personale - Crea la tua collezione in stile Netflix 2. Viaggia senza preoccupazioni - Non c'è più WiFi intermittente in aereo o viaggi in auto noiosi 3. Risparmia quei preziosi byte di dati - Scarica via WiFi, guarda quando vuoi"
+    }
+  },
+  "downloader_download": "SCARICA",
+  "downloader_faqTitle": "Le tue domande, le nostre risposte",
   "downloader_features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -80,36 +89,27 @@
       "description": "Sblocca il testo all'interno di qualsiasi video. Il nostro strumento supporta anche la trascrizione dell'audio dal tuo URL YouTube in un documento di testo completo. Perfetto per studenti, creatori di contenuti o ricercatori che hanno bisogno di analizzare contenuti parlati."
     }
   ],
-  "downloader_downloadNow": "Scarica ora >>",
-  "downloader_featuresConverter": "Funzionalità principali dello scaricatore URL YouTube",
-  "downloader_benefits": {
-    "title": "Sblocca i tuoi contenuti, a modo tuo",
-    "convenience": {
-      "title": "Per una visione offline senza interruzioni",
-      "description": "Immagina di essere su un lungo volo, in metropolitana senza segnale o in campeggio in un'area remota. Con il nostro strumento puoi scaricare video YouTube in anticipo per vederli offline. I tuoi tutorial, documentari e contenuti di intrattenimento preferiti sono sempre a portata di mano - nessun buffering, nessun bisogno di internet."
-    },
-    "avoidAds": {
-      "title": "Per creatori di contenuti e editori video",
-      "description": "Hai bisogno di un clip specifico per un video di reazione, un montaggio o uno studio di caso? Usando il nostro scaricatore URL YouTube puoi ottenere rapidamente materiale sorgente di alta qualità senza filigrana. Archivia contenuti importanti prima che vengano rimossi e assicurati di avere tutto ciò che ti serve per il tuo prossimo progetto creativo."
-    },
-    "saveData": {
-      "title": "Per educatori e studenti",
-      "description": "Costruisci una potente libreria digitale di conoscenza. Salva da URL YouTube per conservare lezioni importanti, dimostrazioni scientifiche o documentari storici. Gli studenti possono rivedere il materiale offline per studiare in qualsiasi momento e luogo, senza distrazioni."
-    },
-    "moreFromDownloads": {
-      "title": "Ottieni di più dai tuoi download",
-      "description": "Ottieni di più dai tuoi download: 1. Costruisci la tua libreria multimediale personale - Crea la tua collezione in stile Netflix 2. Viaggia senza preoccupazioni - Non c'è più WiFi intermittente in aereo o viaggi in auto noiosi 3. Risparmia quei preziosi byte di dati - Scarica via WiFi, guarda quando vuoi"
-    }
-  },
-  "downloader_faqTitle": "Le tue domande, le nostre risposte",
-  "downloader_faq1Question": "1. Posso scaricare solo una parte specifica di un video YouTube?",
+  "downloader_siteName": "Y2mp4.com",
+  "downloader_audioOnly": "Solo Audio",
+  "downloader_saveVideo": "<strong>Scegli il formato e scarica</strong> \n Clicca il pulsante \"Scarica\" e seleziona il formato e la risoluzione dalla lista dei file, clicca su quello desiderato per salvarlo direttamente sul tuo dispositivo.",
   "downloader_faq1Answer": "Sebbene il nostro strumento sia progettato per scaricare l'intero video dall'URL, questa è un'esigenza comune per gli editori. La migliore pratica è usare il nostro scaricatore per salvare prima il file video completo in alta qualità sul tuo dispositivo. Poi puoi usare qualsiasi software di editing video standard (come CapCut, iMovie o Adobe Premiere) per ritagliare facilmente l'esatto clip di cui hai bisogno. Questo ti assicura di avere il file originale per qualsiasi uso futuro.",
-  "downloader_faq2Question": "2. Qual è la differenza tra i formati MP4, WEBM e MP3?",
   "downloader_faq2Answer": "Ottima domanda!\n<strong>- MP4</strong> è il formato video più universalmente compatibile, funziona su quasi tutti i dispositivi e piattaforme. Offre un ottimo equilibrio tra qualità e dimensione del file. Lo raccomandiamo per la maggior parte degli utenti.\n<strong>WEBM</strong> è un formato moderno open-source sviluppato da Google, spesso offre dimensioni di file più piccole con una qualità simile a MP4, ma potrebbe non essere supportato da dispositivi più vecchi o alcuni editor video.\n<strong>MP3</strong> è un formato solo audio. Scegli questa opzione se vuoi solo estrarre l'audio da un URL YouTube, come per un podcast, musica o discorsi.",
-  "downloader_faq3Question": "3. È legale scaricare video usando uno scaricatore URL YouTube?",
   "downloader_faq3Answer": "La legalità dipende dal contenuto e da come intendi usarlo. È generalmente legale scaricare video che sono di pubblico dominio o hanno una licenza Creative Commons (CC). Per i contenuti protetti da copyright, scaricare un video per uso personale offline è spesso considerato \"fair use\" in molte regioni. Tuttavia, ridistribuire, remixare o monetizzare contenuti protetti da copyright senza il permesso del proprietario è illegale. Ti incoraggiamo a rispettare le leggi sul copyright e i termini di servizio di YouTube.",
-  "downloader_faq4Question": "4. Ho provato a scaricare un video privato o con restrizioni d'età e non ha funzionato. Perché?",
   "downloader_faq4Answer": "Il nostro strumento rispetta la privacy degli utenti e le regole della piattaforma YouTube. Funziona come un \"videoregistratore digitale\", cioè può accedere e registrare solo ciò che è pubblicamente disponibile. Se un video è impostato come \"Privato\", \"Non in elenco\" (a meno che tu non abbia il link), o ha una restrizione d'età che richiede di essere loggato per verificare la tua età, il nostro server non può accedervi. Non aggiriamo alcun controllo della privacy o di accesso di YouTube.",
+  "downloader_faq5Answer": "No, non ci sono limiti! Il nostro servizio è completamente gratuito e illimitato. Puoi scaricare video YouTube incollando l'URL quante volte vuoi, indipendentemente dalla durata del video - da un Short di 10 secondi a un documentario di 10 ore.",
+  "downloader_formatsTip": "Clicca per salvare",
+  "downloader_description": "Incolla qualsiasi URL di YouTube per scaricare istantaneamente video in alta qualità e salvarli sul tuo dispositivo. Veloce, sicuro e senza bisogno di installare software.",
+  "downloader_downloadNow": "Scarica ora >>",
+  "downloader_tooltipText": "Questo strumento può essere utilizzato solo per scopi legali e non di violazione. Se sei un creatore di contenuti e vuoi impedire che i tuoi video vengano scaricati tramite questo strumento, aggiungi semplicemente #nodownload ai tag o alla descrizione del tuo video.",
+  "downloader_faq1Question": "1. Posso scaricare solo una parte specifica di un video YouTube?",
+  "downloader_faq2Question": "2. Qual è la differenza tra i formati MP4, WEBM e MP3?",
+  "downloader_faq3Question": "3. È legale scaricare video usando uno scaricatore URL YouTube?",
+  "downloader_faq4Question": "4. Ho provato a scaricare un video privato o con restrizioni d'età e non ha funzionato. Perché?",
   "downloader_faq5Question": "5. Ci sono limiti a quanti video posso scaricare o alla loro durata?",
-  "downloader_faq5Answer": "No, non ci sono limiti! Il nostro servizio è completamente gratuito e illimitato. Puoi scaricare video YouTube incollando l'URL quante volte vuoi, indipendentemente dalla durata del video - da un Short di 10 secondi a un documentario di 10 ore."
+  "downloader_mp3Converter": "Convertitore YouTube to MP3",
+  "downloader_clickDownload": "<strong>Incolla il link video nel nostro strumento</strong> \n Torna sul nostro sito e incolla il link nella casella di input in cima alla pagina. Il nostro strumento elaborerà automaticamente l'URL.",
+  "downloader_videoDownloader": "Scarica video da YouTube",
+  "downloader_featuresConverter": "Funzionalità principali dello scaricatore URL YouTube",
+  "downloader_howToConvertTitle": "Scarica qualsiasi video YouTube in 3 semplici passaggi",
+  "downloader_howToConvertDescription": "Salvare i tuoi contenuti preferiti non è mai stato così facile. Basta copiare, incollare e scaricare."
 }

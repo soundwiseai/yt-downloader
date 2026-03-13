@@ -4,9 +4,9 @@
       <p class="last-updated">Last updated: February 19, 2025</p>
       
       <section class="terms-paragraph">
-        <p>Thank you for using Youtubetomp4.pro!</p>
-        <p>When we say "Company", "we", "our", or "us" in this document, we are referring to Youtubetomp4.pro.</p>
-        <p>When we say "Services", we mean any product or service created and maintained by Youtubetomp4.pro...</p>
+        <p>Thank you for using {{ siteName }}!</p>
+        <p>When we say "Company", "we", "our", or "us" in this document, we are referring to {{ siteName }}.</p>
+        <p>When we say "Services", we mean any product or service created and maintained by {{ siteName }}...</p>
       </section>
   
       <section class="section-header">
@@ -33,7 +33,7 @@
           <li>You are solely responsible for ensuring you have the right to download any content through our Services.</li>
           <li>We do not store or host any converted content on our servers.</li>
           <li>We reserve the right to refuse service to anyone who violates copyright laws or these Terms of Service.</li>
-          <li>The names, look, and feel of the Services are copyright© to Youtubetomp4.pro. All rights reserved.</li>
+          <li>The names, look, and feel of the Services are copyright© to {{ siteName }}. All rights reserved.</li>
           <li>You must not modify another website so as to falsely imply that it is associated with our Services.</li>
         </ol>
       </section>
@@ -71,17 +71,21 @@
   
       <section class="section-header">
         <h2>Contact</h2>
-        <p>If you have questions about these Terms of Service, please contact us at <a href="mailto:joy@soundwise.ai" class="terms-link">joy@soundwise.ai</a>.</p>
+        <p>If you have questions about these Terms of Service, please contact us at <a :href="`mailto:${supportEmail}`" class="terms-link">{{ supportEmail }}</a>.</p>
       </section>
-  
+
       <section class="terms-paragraph">
-        <p>Your use of Youtubetomp4.pro indicates your acceptance of these Terms of Service.</p>
+        <p>Your use of {{ siteName }} indicates your acceptance of these Terms of Service.</p>
       </section>
     </div>
   </template>
   
-  <script setup>
-  // 由于是静态页面，不需要额外的逻辑
+  <script setup lang="ts">
+  const { t } = useI18n()
+  const runtimeConfig = useRuntimeConfig()
+
+  const siteName = computed(() => t('siteName'))
+  const supportEmail = runtimeConfig.public.supportEmail as string
   </script>
   
   <style scoped>

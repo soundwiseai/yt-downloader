@@ -22,20 +22,17 @@ bun install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Start the frontend development server on `http://localhost:3088`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
 # yarn
 yarn dev
+```
 
-# bun
-bun run dev
+Start the local API server on `http://localhost:45331`:
+
+```bash
+yarn dev:api
 ```
 
 ## Production
@@ -81,4 +78,3 @@ google GA
 bing
 
 yandex
-

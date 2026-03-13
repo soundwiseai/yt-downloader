@@ -1,20 +1,15 @@
 {
   "mp3_seo": {
     "title": "网址转 MP3 转换器 - 在线快速免费转换",
-    "description": "使用我们的免费在线工具，快速将任何 YouTube 网址转换为高质量 MP3 文件。转换速度快，100% 安全，无广告，无需安装任何软件。",
     "ogTitle": "网址转 MP3 转换器 - 在线快速免费转换",
+    "description": "使用我们的免费在线工具，快速将任何 YouTube 网址转换为高质量 MP3 文件。转换速度快，100% 安全，无广告，无需安装任何软件。",
     "ogDescription": "使用我们的免费在线工具，快速将任何 YouTube 网址转换为高质量 MP3 文件。转换速度快，100% 安全，无广告，无需安装任何软件。"
   },
-  "mp3_siteName": "Y2mp4.com",
-  "mp3_videoDownloader": "YouTube 视频下载器",
-  "mp3_mp3Converter": "YouTube 转 MP3 转换器",
-  "mp3_title": "YouTube 链接转 MP3 转换器",
-  "mp3_description": "立即从任何 YouTube 链接提取高质量音频。将您喜爱的音乐、播客和讲座转换为可随时随地收听的 MP3 文件。完全免费、快速且安全。",
-  "mp3_download": "下载",
   "mp3_tip": "下载内容时请注意版权问题。本工具不适用于下载受版权保护的音乐。",
-  "mp3_tooltipText": "此工具仅可用于合法、非侵权用途。如果您是内容创作者并希望阻止使用此工具下载您的视频，只需在视频标签或描述中添加 #nodownload。",
+  "mp3_step": "步骤",
+  "mp3_title": "YouTube 链接转 MP3 转换器",
+  "mp3_copyUrl": "<strong>复制 YouTube 视频链接</strong>\n找到您想提取音频的 YouTube 视频，并从浏览器地址栏复制完整链接。",
   "mp3_formats": "所有格式",
-  "mp3_formatsTip": "点击保存",
   "mp3_reviews": [
     {
       "text": "保存我最喜欢的视频非常完美！下载速度快且超级简单易用，无需注册。",
@@ -41,12 +36,27 @@
       "author": "Emma_Wilson"
     }
   ],
-  "mp3_howToConvertTitle": "只需 3 个简单步骤即可获取音频",
-  "mp3_howToConvertDescription": "从 YouTube 提取音频从未如此简单。只需复制链接、粘贴到这里，您的 MP3 就准备好了。",
-  "mp3_step": "步骤",
-  "mp3_copyUrl": "<strong>复制 YouTube 视频链接</strong>\n找到您想提取音频的 YouTube 视频，并从浏览器地址栏复制完整链接。",
-  "mp3_clickDownload": "<strong>将链接粘贴到转换器</strong>\n回到我们的网站，将 YouTube 链接粘贴到输入框中。链接转 MP3 转换器会立即开始准备您的音频文件。",
-  "mp3_saveAudio": "<strong>下载您的 MP3 音频文件</strong>\n点击转换完成的文件，即可将音频保存到您的电脑、手机或平板，立即收听，轻松快捷。",
+  "mp3_benefits": {
+    "title": "您的音频，您的规则，您的播放清单",
+    "avoidAds": {
+      "title": "随时随地聆听与学习",
+      "description": "将通勤、锻炼或做家务的时间变成高效时刻。将长访谈、播客、有声书、讲座转为 MP3，无需盯着屏幕即可吸收内容，并节省电量。"
+    },
+    "saveData": {
+      "title": "创作内容与铃声",
+      "description": "需要背景音乐、音效或台词用于视频创作？或想从喜欢的歌曲中制作专属铃声？我们的工具为您提供干净的音频文件，助您创作。"
+    },
+    "convenience": {
+      "title": "建立您的终极音乐库",
+      "description": "在 YouTube 上发现稀有的现场表演、独特混音或翻唱歌曲，这些可能在流媒体平台上找不到？将它们下载为 MP3，加入您的个人离线收藏，永久掌控。"
+    },
+    "moreFromDownloads": {
+      "title": "充分利用您的下载",
+      "description": "告别缓冲与流量消耗！\n<strong>1. 建立个人媒体库</strong>\n像 Netflix 一样分类收藏。\n<strong>2. 无忧旅行</strong>\n出行前加载喜爱的内容。\n<strong>3. 节省宝贵流量</strong>\n通过 Wi-Fi 下载，随时收听。"
+    }
+  },
+  "mp3_download": "下载",
+  "mp3_faqTitle": "常见问题",
   "mp3_features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -79,36 +89,26 @@
       "description": "完全基于浏览器运行，支持 PC、Mac、iPhone、Android，无需下载或安装任何软件。"
     }
   ],
-  "mp3_downloadNow": "立即下载 >>",
-  "mp3_featuresConverter": "我们的 YouTube 转 MP3 转换器核心功能",
-  "mp3_benefits": {
-    "title": "您的音频，您的规则，您的播放清单",
-    "convenience": {
-      "title": "建立您的终极音乐库",
-      "description": "在 YouTube 上发现稀有的现场表演、独特混音或翻唱歌曲，这些可能在流媒体平台上找不到？将它们下载为 MP3，加入您的个人离线收藏，永久掌控。"
-    },
-    "avoidAds": {
-      "title": "随时随地聆听与学习",
-      "description": "将通勤、锻炼或做家务的时间变成高效时刻。将长访谈、播客、有声书、讲座转为 MP3，无需盯着屏幕即可吸收内容，并节省电量。"
-    },
-    "saveData": {
-      "title": "创作内容与铃声",
-      "description": "需要背景音乐、音效或台词用于视频创作？或想从喜欢的歌曲中制作专属铃声？我们的工具为您提供干净的音频文件，助您创作。"
-    },
-    "moreFromDownloads": {
-      "title": "充分利用您的下载",
-      "description": "告别缓冲与流量消耗！\n<strong>1. 建立个人媒体库</strong>\n像 Netflix 一样分类收藏。\n<strong>2. 无忧旅行</strong>\n出行前加载喜爱的内容。\n<strong>3. 节省宝贵流量</strong>\n通过 Wi-Fi 下载，随时收听。"
-    }
-  },
-  "mp3_faqTitle": "常见问题",
-  "mp3_faq1Question": "1. 下载的 MP3 音质是多少？",
+  "mp3_siteName": "Y2mp4.com",
+  "mp3_saveAudio": "<strong>下载您的 MP3 音频文件</strong>\n点击转换完成的文件，即可将音频保存到您的电脑、手机或平板，立即收听，轻松快捷。",
   "mp3_faq1Answer": "我们的转换器经过优化，在音质与文件大小之间保持最佳平衡。默认输出高质量 128kbps，比特率适合大多数设备播放，且文件小巧便于存储和快速下载。",
-  "mp3_faq2Question": "2. 可以转换长时间音频吗，例如 2 小时的播客？",
   "mp3_faq2Answer": "可以，我们对视频时长没有限制。无论是 3 分钟歌曲还是 3 小时直播，都能处理。大型文件转换时间稍长，但流程相同。",
-  "mp3_faq3Question": "3. 可以从非音乐视频中提取音频吗？",
   "mp3_faq3Answer": "当然。我们可提取任何公共 YouTube 链接的完整音轨，包括 vlog 对话、游戏音效、纪录片背景声等。",
-  "mp3_faq4Question": "4. 使用 YouTube 链接转 MP3 转换器合法吗？",
   "mp3_faq4Answer": "合法性取决于内容和用途。公共领域、Creative Commons 许可或您原创内容的音频一般合法。个人离线收听通常属“合理使用”，但未经许可的分发、分享、商用是非法的。",
+  "mp3_faq5Answer": "MP4 下载器保存视频+音频，文件较大；我们的 MP3 转换器只保留音频，文件更小、下载更快、更省空间。",
+  "mp3_formatsTip": "点击保存",
+  "mp3_description": "立即从任何 YouTube 链接提取高质量音频。将您喜爱的音乐、播客和讲座转换为可随时随地收听的 MP3 文件。完全免费、快速且安全。",
+  "mp3_downloadNow": "立即下载 >>",
+  "mp3_tooltipText": "此工具仅可用于合法、非侵权用途。如果您是内容创作者并希望阻止使用此工具下载您的视频，只需在视频标签或描述中添加 #nodownload。",
+  "mp3_faq1Question": "1. 下载的 MP3 音质是多少？",
+  "mp3_faq2Question": "2. 可以转换长时间音频吗，例如 2 小时的播客？",
+  "mp3_faq3Question": "3. 可以从非音乐视频中提取音频吗？",
+  "mp3_faq4Question": "4. 使用 YouTube 链接转 MP3 转换器合法吗？",
   "mp3_faq5Question": "5. 与 YouTube 转 MP4 下载器有何不同？",
-  "mp3_faq5Answer": "MP4 下载器保存视频+音频，文件较大；我们的 MP3 转换器只保留音频，文件更小、下载更快、更省空间。"
+  "mp3_mp3Converter": "YouTube 转 MP3 转换器",
+  "mp3_clickDownload": "<strong>将链接粘贴到转换器</strong>\n回到我们的网站，将 YouTube 链接粘贴到输入框中。链接转 MP3 转换器会立即开始准备您的音频文件。",
+  "mp3_videoDownloader": "YouTube 视频下载器",
+  "mp3_featuresConverter": "我们的 YouTube 转 MP3 转换器核心功能",
+  "mp3_howToConvertTitle": "只需 3 个简单步骤即可获取音频",
+  "mp3_howToConvertDescription": "从 YouTube 提取音频从未如此简单。只需复制链接、粘贴到这里，您的 MP3 就准备好了。"
 }

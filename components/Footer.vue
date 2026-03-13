@@ -3,7 +3,7 @@
     <div class="footer-content">
       <div class="footer-section">
         <h3>{{ _t('resource') }}</h3>
-        <router-link :to="getLocalizedPath('/')" class="footer-link">Y2mp4.com</router-link>
+        <router-link :to="getLocalizedPath('/')" class="footer-link">{{ siteName }}</router-link>
       </div>
 
       <div class="footer-section tools">
@@ -14,73 +14,52 @@
           :to="getLocalizedPath(site.url)" 
           class="footer-link"
         >
-          {{ _t(site.name) }}
+          {{ getSiteLabel(site) }}
         </router-link>
       </div>
 
       <div class="footer-section">
         <div class="contact">
           <h3>{{ _t('email') }}</h3>
-          <a href="mailto:hello@y2mp4.com" class="footer-link">hello@y2mp4.com</a>
+          <a :href="`mailto:${supportEmail}`" class="footer-link">{{ supportEmail }}</a>
         </div>
       </div>
     </div>
 
     <div class="footer-bottom">
       <div class="language-selector">
-        <router-link to="/privacy-policy" class="lang-link">{{ _t('privacyPolicy') }}</router-link>
-        <router-link to="/terms-of-service" class="lang-link">{{ _t('termsOfService') }}</router-link>
+        <router-link :to="getLocalizedPath('/privacy-policy')" class="lang-link">{{ _t('privacyPolicy') }}</router-link>
+        <router-link :to="getLocalizedPath('/terms-of-service')" class="lang-link">{{ _t('termsOfService') }}</router-link>
       </div>
       <div class="copyright">
-        2025 Y2mp4.com
+        {{ currentYear }} {{ siteName }}
       </div>
     </div>
   </footer>
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import sites from '@/sites'
+import { buildLocalizedPath, getLocaleFromPath, getSiteLabelKeyCandidates } from '@/utils/site-config'
 
-const { t: _t } = useI18n()
+const { t: _t, te } = useI18n()
+const route = useRoute()
+const runtimeConfig = useRuntimeConfig()
+
+const currentYear = new Date().getFullYear()
+const supportEmail = runtimeConfig.public.supportEmail as string
+const siteName = computed(() => _t('siteName'))
 
 // 获取本地化路径
 const getLocalizedPath = (path: string) => {
-  // 使用 useRoute 获取当前路径
-  const route = useRoute()
-  const currentPath = route.path
-  const pathParts = currentPath.split('/')
-  let currentLocale = ''
-  
-  // 检查是否有语言代码
-  if (pathParts.length > 1 && /^[a-z]{2}(-\w+)?$/.test(pathParts[1])) {
-    currentLocale = pathParts[1]
-  }
-  
-  // 如果 locale 为 'en'，则省略 locale 部分
-  if (currentLocale === 'en') {
-    return path
-  }
-  
-  // 如果当前路径包含 locale，则添加到目标路径中
-  if (currentLocale) {
-    // 处理根路径的特殊情况
-    if (path === '/') {
-      return `/${currentLocale}`
-    }
-    return `/${currentLocale}${path}`
-  }
-  
-  // 如果没有检测到 locale，直接返回原始路径
-  return path
+  return buildLocalizedPath(path, getLocaleFromPath(route.path))
 }
 
-// 处理导航
-const handleNavigation = (event: Event) => {
-  const currentPath = window.location.pathname
-  if (currentPath !== '/') {
-    event.preventDefault() // 阻止跳转
-  }
+const getSiteLabel = (site: { name: string; i18n: string }) => {
+  const key = getSiteLabelKeyCandidates(site).find((candidate) => te(candidate))
+  return key ? _t(key) : site.name
 }
 </script>
 

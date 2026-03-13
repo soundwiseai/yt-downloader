@@ -1,15 +1,13 @@
-
-import sites from "~/sites"
+import { resolveSiteForPath } from "@/utils/site-config"
 
 // 根据子站路径返回对应的 i18n 字符串
 // 如果子站路径不存在，则返回默认的 i18n 字符串
 export const _t = (str) => {
     const route = useRoute()
     const { t, te } = useI18n()
-    for (const site of sites) {
-        if (route.path.endsWith(site.url) && te(`${site.i18n}_${str}`)) {
-            return t(`${site.i18n}_${str}`)
-        }
+    const activeSite = resolveSiteForPath(route.path)
+    if (activeSite && te(`${activeSite.i18n}_${str}`)) {
+        return t(`${activeSite.i18n}_${str}`)
     }
     return t(str)
 }
@@ -18,10 +16,9 @@ export const _t = (str) => {
 export const _te = (str) => {
     const route = useRoute()
     const { te } = useI18n()
-    for (const site of sites) {
-        if (route.path.endsWith(site.url) && te(`${site.i18n}_${str}`)) {
-            return te(`${site.i18n}_${str}`)
-        }
+    const activeSite = resolveSiteForPath(route.path)
+    if (activeSite && te(`${activeSite.i18n}_${str}`)) {
+        return te(`${activeSite.i18n}_${str}`)
     }
     return te(str)
 }
@@ -33,11 +30,10 @@ const _isNonEmpty = (v) => v != null && (Array.isArray(v) ? v.length > 0 : typeo
 export const _tm = (str) => {
     const route = useRoute()
     const { tm } = useI18n()
-    for (const site of sites) {
-        if (route.path.endsWith(site.url)) {
-            const result = tm(`${site.i18n}_${str}`)
-            if (_isNonEmpty(result)) return result
-        }
+    const activeSite = resolveSiteForPath(route.path)
+    if (activeSite) {
+        const result = tm(`${activeSite.i18n}_${str}`)
+        if (_isNonEmpty(result)) return result
     }
     return tm(str)
 }

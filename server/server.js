@@ -7,7 +7,32 @@ const cors = require('cors');
 const fs = require('fs');
 
 const app = express();
-const port = 3000;
+const DEFAULT_PORT = process.env.NODE_ENV === 'production' ? 3000 : 45331;
+const parsedPort = Number.parseInt(process.env.PORT || '', 10);
+const port = Number.isNaN(parsedPort) ? DEFAULT_PORT : parsedPort;
+const defaultAllowedOrigins = [
+  'https://y2mp4.com',
+  'https://www.y2mp4.com',
+  'https://y2bmp3.com',
+  'https://www.y2bmp3.com',
+  'https://staging.y2bmp3.com',
+  'https://y2script.com',
+  'https://www.y2script.com',
+  'https://staging.y2script.com',
+  'https://yt.4ris.xyz',
+  'http://localhost:3000',
+  'http://localhost:3001',
+  'http://localhost:3088',
+  'http://localhost:45331',
+  `http://localhost:${port}`
+];
+const allowedOrigins = (
+  process.env.ALLOWED_ORIGINS ||
+  defaultAllowedOrigins.join(',')
+)
+  .split(',')
+  .map(origin => origin.trim())
+  .filter(Boolean);
 
 //const ytDlpPath = '/opt/homebrew/Caskroom/miniconda/base/bin'
 //const ytDlpPath = '/usr/bin';
@@ -186,7 +211,6 @@ const cookiesPath = './cookies.txt';
 
 app.get('/get-formats', async (req, res) => {
   // 明确设置 CORS 头信息以允许特定域名的跨域请求
-  const allowedOrigins = ['https://yt.4ris.xyz', 'http://localhost:3000', 'http://localhost:3001'];
   const origin = req.headers.origin;
   
   if (allowedOrigins.includes(origin) || !origin) {

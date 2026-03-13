@@ -1,0 +1,68 @@
+name: CMS 内容更新自动部署
+
+on:
+  repository_dispatch:
+    types: [cms-content-updated]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: '部署目标'
+        required: true
+        default: 'production'
+        type: choice
+        options:
+          - production
+          - staging
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      DEPLOY_TARGET: ${{ github.event.inputs.target || github.event.client_payload.target || 'production' }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+          cache-dependency-path: yarn.lock
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Fetch CMS content & Generate
+        run: yarn generate
+        env:
+          CMS_API_URL: https://cms.musely.io
+          TENANT_SLUG: y2mp4
+          SITE_DOMAIN: https://y2mp4.com
+
+      - name: Deploy to VPS
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.VPS_IP }}
+          username: ${{ secrets.VPS_USERNAME }}
+          password: ${{ secrets.VPS_PASSWORD }}
+          port: 22
+          source: ".output/public/*"
+          target: "/yt/${{ env.DEPLOY_TARGET == 'production' && 'dist' || 'dist-y2mp4' }}"
+          strip_components: 2
+
+      - name: Verify deployment
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.VPS_IP }}
+          username: ${{ secrets.VPS_USERNAME }}
+          password: ${{ secrets.VPS_PASSWORD }}
+          port: 22
+          script: |
+            TARGET=${{ env.DEPLOY_TARGET == 'production' && 'dist' || 'dist-y2mp4' }}
+            echo "Deployed to /yt/$TARGET"
+            ls /yt/$TARGET/ | head -10
+            echo "File count: $(find /yt/$TARGET -type f | wc -l)"

@@ -1,114 +1,114 @@
 {
   "mp3_seo": {
-    "title": "Chuyển đổi URL YouTube sang MP3 - Nhanh chóng & Miễn phí Trực tuyến",
-    "description": "Chuyển đổi nhanh chóng mọi URL YouTube sang tệp MP3 chất lượng cao bằng công cụ trực tuyến miễn phí của chúng tôi. Bộ chuyển đổi của chúng tôi nhanh, an toàn 100%, không có quảng cáo và không yêu cầu cài đặt phần mềm.",
-    "ogTitle": "Chuyển đổi URL YouTube sang MP3 - Nhanh chóng & Miễn phí Trực tuyến",
-    "ogDescription": "Chuyển đổi nhanh chóng mọi URL YouTube sang tệp MP3 chất lượng cao bằng công cụ trực tuyến miễn phí của chúng tôi. Bộ chuyển đổi của chúng tôi nhanh, an toàn 100%, không có quảng cáo và không yêu cầu cài đặt phần mềm."
+    "title": "Công cụ chuyển đổi URL YouTube sang MP3 - Chuyển đổi nhanh & miễn phí trực tuyến",
+    "ogTitle": "Công cụ chuyển đổi URL YouTube sang MP3 - Chuyển đổi nhanh & miễn phí trực tuyến",
+    "description": "Chuyển đổi nhanh chóng bất kỳ URL YouTube nào thành tệp MP3 chất lượng cao bằng công cụ trực tuyến miễn phí của chúng tôi. Công cụ chuyển đổi của chúng tôi nhanh chóng, an toàn 100%, không có quảng cáo và không yêu cầu cài đặt phần mềm.",
+    "ogDescription": "Chuyển đổi nhanh chóng bất kỳ URL YouTube nào thành tệp MP3 chất lượng cao bằng công cụ trực tuyến miễn phí của chúng tôi. Công cụ chuyển đổi của chúng tôi nhanh chóng, an toàn 100%, không có quảng cáo và không yêu cầu cài đặt phần mềm."
   },
-  "mp3_siteName": "Y2mp4.com",
-  "mp3_videoDownloader": "Trình tải video YouTube",
-  "mp3_mp3Converter": "Chuyển đổi YouTube sang MP3",
-  "mp3_title": "Chuyển đổi URL YouTube sang MP3",
-  "mp3_description": "Trích xuất âm thanh chất lượng cao từ bất kỳ URL YouTube nào ngay lập tức. Chuyển đổi nhạc, podcast và bài giảng yêu thích của bạn thành tệp MP3 có thể nghe ở mọi nơi. Luôn miễn phí, nhanh chóng và an toàn.",
-  "mp3_download": "TẢI XUỐNG",
-  "mp3_tip": "Vui lòng lưu ý về bản quyền khi tải nội dung. Công cụ này không được thiết kế để tải nhạc có bản quyền.",
-  "mp3_tooltipText": "This tool can only be used for legal, non-infringing use. If you are a content creator and want to prevent your videos from being downloaded using this tool, simply add #nodownload to your video's tags or description.",
-  "mp3_formats": "Tất cả định dạng",
-  "mp3_formatsTip": "Nhấp để lưu",
+  "mp3_tip": "Vui lòng tôn trọng luật bản quyền. Công cụ này chỉ được thiết kế cho mục đích sử dụng cá nhân và giáo dục.",
+  "mp3_step": "Bước",
+  "mp3_title": "Công cụ chuyển đổi YouTube sang MP3",
+  "mp3_copyUrl": "Sao chép URL video YouTube",
+  "mp3_formats": "Định dạng âm thanh",
   "mp3_reviews": [
     {
-      "text": "Hoàn hảo để lưu video yêu thích của tôi! Tải xuống nhanh và siêu dễ sử dụng. Không cần đăng ký.",
-      "author": "Sarah_Bennett92"
+      "text": "Công cụ tuyệt vời để tạo danh sách nhạc của tôi! Chất lượng âm thanh hoàn hảo và quá trình chuyển đổi siêu nhanh.",
+      "author": "MusicLover2023"
     },
     {
-      "text": "Công cụ này tuyệt vời! Tôi thích cách dễ dàng tải video ở nhiều định dạng khác nhau.",
-      "author": "John_Doe"
+      "text": "Tôi sử dụng công cụ này hàng ngày để lưu các podcast yêu thích của mình. Chất lượng MP3 rất tuyệt vời!",
+      "author": "PodcastFan"
     },
     {
-      "text": "Tôi đã sử dụng công cụ này hàng tháng trời và nó luôn hoạt động hoàn hảo.",
-      "author": "Jane_Smith"
+      "text": "Công cụ chuyển đổi âm thanh tốt nhất mà tôi từng tìm thấy. Không quảng cáo, không phải chờ đợi, chỉ có chất lượng thuần túy.",
+      "author": "AudioEnthusiast"
     },
     {
-      "text": "Nhanh chóng và đáng tin cậy. Trình tải video tốt nhất!",
-      "author": "Michael_Johnson"
+      "text": "Hoàn hảo để lưu âm thanh từ các video giáo dục. Rất đáng tin cậy!",
+      "author": "StudentHelper"
     },
     {
-      "text": "Dễ sử dụng và rất hiệu quả để lưu nội dung.",
-      "author": "David_Lee"
+      "text": "Giao diện đơn giản và chất lượng âm thanh tuyệt vời. Rất khuyến khích!",
+      "author": "TechReviewer"
     },
     {
-      "text": "Rất được đề xuất! Hoạt động hoàn hảo cho tất cả video của tôi.",
-      "author": "Emma_Wilson"
+      "text": "Luôn hoạt động hoàn hảo. Công cụ chuyển đổi MP3 tốt nhất hiện có!",
+      "author": "MusicProducer"
     }
   ],
-  "mp3_howToConvertTitle": "Nhận âm thanh của bạn chỉ với 3 bước đơn giản",
-  "mp3_howToConvertDescription": "Chưa bao giờ dễ dàng hơn để trích xuất âm thanh từ YouTube. Chỉ cần sao chép liên kết, dán vào đây và MP3 của bạn đã sẵn sàng.",
-  "mp3_step": "Bước",
-  "mp3_copyUrl": "<strong>Sao chép URL video YouTube</strong>\nTìm video YouTube bạn muốn lấy âm thanh. Sao chép toàn bộ URL từ thanh địa chỉ trình duyệt của bạn.",
-  "mp3_clickDownload": "<strong>Dán liên kết vào trình chuyển đổi</strong>\nQuay lại trang web của chúng tôi và dán liên kết YouTube vào ô. Trình chuyển đổi URL sang MP3 sẽ ngay lập tức bắt đầu chuẩn bị tệp âm thanh của bạn.",
-  "mp3_saveAudio": "<strong>Tải xuống tệp âm thanh MP3 của bạn</strong>\nNhấp vào tệp đã chuyển đổi để ngay lập tức lưu tệp âm thanh vào máy tính, điện thoại hoặc máy tính bảng của bạn. Không phải chờ đợi, không rắc rối.",
+  "mp3_benefits": {
+    "title": "Lợi ích của việc sử dụng Công cụ chuyển đổi YouTube sang MP3",
+    "avoidAds": {
+      "title": "Nghe không có quảng cáo",
+      "description": "Tận hưởng phát lại âm thanh không bị gián đoạn mà không có quảng cáo. Sau khi bạn chuyển đổi video sang MP3, bạn có thể nghe nó mà không bị gián đoạn thương mại, tạo ra trải nghiệm nghe liền mạch."
+    },
+    "saveData": {
+      "title": "Lưu trữ hiệu quả",
+      "description": "Các tệp MP3 nhỏ hơn nhiều so với các tệp video, cho phép bạn lưu trữ nhiều nội dung hơn trên thiết bị của mình. Hoàn hảo để tạo thư viện nhạc hoặc bộ sưu tập âm thanh phong phú mà không phải lo lắng về dung lượng lưu trữ."
+    },
+    "convenience": {
+      "title": "Tự do âm thanh",
+      "description": "Tạo thư viện âm thanh cá nhân của bạn từ các video YouTube. Nghe nội dung yêu thích của bạn ngoại tuyến, cho dù đó là nhạc, podcast hay tài liệu giáo dục. Công cụ chuyển đổi của chúng tôi đảm bảo bạn có thể thưởng thức âm thanh chất lượng cao mọi lúc, mọi nơi."
+    },
+    "moreFromDownloads": {
+      "title": "Trải nghiệm âm thanh nâng cao",
+      "description": "Biến đổi trải nghiệm YouTube của bạn với những lợi ích âm thanh này:\n1.Tạo Danh sách phát Hoàn hảo của Bạn\nXây dựng bộ sưu tập nhạc tùy chỉnh từ bất kỳ video YouTube nào.\n2.Nghe Mọi Lúc Mọi Nơi\nTận hưởng nội dung âm thanh của bạn ngoại tuyến, hoàn hảo cho việc đi lại và du lịch.\n3.Tiết kiệm Băng thông\nTải xuống âm thanh thay vì video để tiết kiệm dữ liệu và dung lượng lưu trữ."
+    }
+  },
+  "mp3_download": "CHUYỂN ĐỔI",
+  "mp3_faqTitle": "Câu hỏi thường gặp",
   "mp3_features": [
     {
       "icon": "/images/yt_feature1.png",
-      "title": "Trích xuất âm thanh chất lượng cao",
-      "description": "Chúng tôi xử lý tệp của bạn để cung cấp MP3 chất lượng cao, mang lại trải nghiệm nghe tuyệt vời với kích thước tệp hợp lý, hoàn hảo cho mọi thiết bị."
+      "title": "Chất lượng âm thanh cao cấp",
+      "description": "Trích xuất âm thanh rõ nét từ các video YouTube bằng công nghệ chuyển đổi tiên tiến của chúng tôi, đảm bảo chất lượng âm thanh tốt nhất có thể cho các tệp MP3 của bạn."
     },
     {
       "icon": "/images/yt_feature2.png",
-      "title": "Chuyển đổi miễn phí không giới hạn",
-      "description": "Không có giới hạn hàng ngày hay hạn chế. Chuyển đổi YouTube sang MP3 bao nhiêu tùy thích, bất cứ khi nào bạn muốn. Lưu các bài hát đơn lẻ hoặc xây dựng cả bộ sưu tập mà không lo về giới hạn."
+      "title": "Chuyển đổi cực nhanh",
+      "description": "Chuyển đổi video YouTube sang MP3 trong vài giây. Hệ thống được tối ưu hóa của chúng tôi đảm bảo xử lý nhanh chóng mà không ảnh hưởng đến chất lượng âm thanh."
     },
     {
       "icon": "/images/yt_feature3.png",
-      "title": "Chuyển đổi cực nhanh",
-      "description": "Vì chúng tôi chỉ tập trung vào âm thanh, quá trình chuyển đổi cực kỳ nhanh chóng. Hầu hết các chuyển đổi từ URL YouTube sang MP3 được hoàn thành trong vòng chưa đầy năm giây, giúp bạn có tệp gần như ngay lập tức."
+      "title": "An toàn và bảo mật 100%",
+      "description": "Chuyển đổi video YouTube sang MP3 một cách an toàn với nền tảng bảo mật của chúng tôi. Không có phần mềm độc hại, không theo dõi - chỉ chuyển đổi âm thanh thuần túy."
     },
     {
       "icon": "/images/yt_feature4.png",
-      "title": "Định dạng MP3 phổ biến",
-      "description": "Chúng tôi cung cấp âm thanh của bạn ở định dạng MP3 tương thích phổ biến. Các tệp bạn tải xuống sẽ phát hoàn hảo trên mọi thiết bị, trong bất kỳ ứng dụng âm nhạc nào hoặc trên hệ thống âm thanh ô tô mà không gặp vấn đề gì."
+      "title": "Chuyển đổi không giới hạn",
+      "description": "Chuyển đổi bao nhiêu video YouTube sang MP3 tùy thích, không có giới hạn hàng ngày hoặc hạn chế đối với việc tải xuống âm thanh của bạn."
     },
     {
       "icon": "/images/yt_feature5.png",
-      "title": "100% an toàn và không quảng cáo",
-      "description": "Chúng tôi cung cấp trải nghiệm youtube to mp3 an toàn và miễn phí. Trang web của chúng tôi được bảo vệ bằng HTTPS, chúng tôi không bao giờ lưu trữ dữ liệu của bạn và cam kết giao diện sạch, không quảng cáo mỗi lần sử dụng."
+      "title": "Không cần đăng ký",
+      "description": "Bắt đầu chuyển đổi video sang MP3 ngay lập tức mà không cần tạo tài khoản. Chỉ cần dán liên kết của bạn và nhận tệp âm thanh của bạn."
     },
     {
       "icon": "/images/yt_feature6.png",
-      "title": "Hoạt động mọi nơi, không cần phần mềm",
-      "description": "Trình chuyển đổi trực tuyến của chúng tôi hoạt động trực tiếp trong trình duyệt của bạn trên mọi thiết bị - PC, Mac, iPhone hoặc Android. Không cần tải xuống hoặc cài đặt bất kỳ phần mềm đáng ngờ nào."
+      "title": "Nhiều định dạng âm thanh",
+      "description": "Tải xuống ở định dạng MP3, M4A hoặc các định dạng âm thanh khác. Chọn chất lượng phù hợp nhất với nhu cầu của bạn."
     }
   ],
-  "mp3_downloadNow": "Tải xuống ngay >>",
-  "mp3_featuresConverter": "Tính năng cốt lõi của trình chuyển đổi YouTube sang MP3 của chúng tôi",
-  "mp3_benefits": {
-    "title": "Âm thanh của bạn, quy tắc của bạn, danh sách phát của bạn",
-    "convenience": {
-      "title": "Xây dựng thư viện âm nhạc tối ưu của bạn",
-      "description": "Tìm thấy một buổi biểu diễn trực tiếp hiếm, một bản phối lại độc đáo hoặc một bản cover trên YouTube mà không có trên các nền tảng phát trực tuyến? Tải nhạc YouTube dưới dạng MP3 và thêm những bản nhạc vô giá đó vào bộ sưu tập cá nhân, ngoại tuyến mà bạn kiểm soát mãi mãi."
-    },
-    "avoidAds": {
-      "title": "Nghe & Học mọi lúc mọi nơi",
-      "description": "Biến thời gian di chuyển, tập thể dục hoặc làm việc nhà thành thời gian hiệu quả. Chuyển đổi các cuộc phỏng vấn dài, podcast, sách nói và bài giảng giáo dục từ YouTube sang MP3. Tiếp thu kiến thức và giải trí mà không cần dán mắt vào màn hình hoặc làm hao pin."
-    },
-    "saveData": {
-      "title": "Tạo nội dung & Nhạc chuông",
-      "description": "Cần một hiệu ứng âm thanh cụ thể, một bản nhạc nền hoặc một câu nói vui cho dự án video của riêng bạn? Hay bạn muốn tạo nhạc chuông tùy chỉnh từ một đoạn nhạc yêu thích? Công cụ của chúng tôi cung cấp cho bạn tệp âm thanh sạch bạn cần để sáng tạo."
-    },
-    "moreFromDownloads": {
-      "title": "Tận dụng tối đa từ các bản tải xuống của bạn",
-      "description": "Nói lời tạm biệt với tình trạng tải chậm và hao dữ liệu! Đây là cách tận dụng tối đa video ngoại tuyến của bạn:<br/><strong>1.Xây dựng Thư viện Truyền thông Cá nhân</strong><br/>Tạo bộ sưu tập kiểu Netflix của riêng bạn.<br/><strong>2.Du lịch không lo lắng</strong><br/>Không còn WiFi máy bay chập chờn hoặc chuyến đi đường nhàm chán.<br/><strong>3.Tiết kiệm từng byte dữ liệu quý giá</strong><br/>Tải xuống qua WiFi, xem bất cứ lúc nào."
-    }
-  },
-  "mp3_faqTitle": "Câu hỏi của bạn, đã được trả lời",
-  "mp3_faq1Question": "1. Câu hỏi 1: Chất lượng âm thanh (bitrate) của các tệp MP3 tải xuống là bao nhiêu?",
-  "mp3_faq1Answer": "Trình chuyển đổi của chúng tôi được tối ưu hóa để cung cấp sự cân bằng tốt nhất giữa độ trung thực âm thanh và kích thước tệp. Tất cả các chuyển đổi được thực hiện ở bitrate chất lượng cao 128kbps. Điều này hoàn hảo để nghe trên mọi thứ từ tai nghe tiêu chuẩn đến hệ thống âm thanh ô tô và hầu như không thể phân biệt được với các bitrate cao hơn đối với hầu hết người nghe, trong khi vẫn giữ kích thước tệp nhỏ để tải xuống nhanh và tiết kiệm dung lượng lưu trữ trên thiết bị của bạn.",
-  "mp3_faq2Question": "2. Tôi có thể chuyển đổi một tệp dài, như podcast 2 giờ hoặc bản DJ trực tiếp không?",
-  "mp3_faq2Answer": "Có. Trình tải âm thanh YouTube của chúng tôi không có hạn chế về độ dài video. Cho dù đó là bài hát 3 phút hay buổi phát trực tiếp 3 giờ, công cụ của chúng tôi đều có thể xử lý. Thời gian chuyển đổi sẽ lâu hơn một chút đối với các tệp lớn hơn, nhưng quy trình vẫn giữ nguyên.",
-  "mp3_faq3Question": "3. Tôi có thể trích xuất âm thanh từ video không phải nhạc, như trailer phim hoặc vlog không?",
-  "mp3_faq3Answer": "Tất nhiên. Chúng tôi trích xuất toàn bộ bản âm thanh từ bất kỳ URL YouTube công khai nào bạn cung cấp. Điều này có nghĩa là bạn có thể lưu đoạn hội thoại từ vlog, hiệu ứng âm thanh từ video gameplay hoặc âm thanh môi trường từ phim tài liệu thiên nhiên dễ dàng như lưu một bài hát.",
-  "mp3_faq4Question": "4. Có hợp pháp khi sử dụng trình chuyển đổi URL YouTube sang MP3 không?",
-  "mp3_faq4Answer": "Tính hợp pháp phụ thuộc nhiều vào nội dung bạn đang chuyển đổi và cách bạn sử dụng nó. Nói chung, việc tải âm thanh từ nội dung thuộc phạm vi công cộng, video có giấy phép Creative Commons hoặc nội dung gốc của bạn là hợp pháp. Đối với nội dung có bản quyền, việc chuyển đổi sang MP3 để nghe ngoại tuyến cá nhân thường được coi là 'sử dụng hợp lý'. Tuy nhiên, việc phân phối, chia sẻ hoặc sử dụng âm thanh đã tải xuống cho mục đích thương mại mà không có sự cho phép của chủ sở hữu bản quyền là bất hợp pháp.",
-  "mp3_faq5Question": "5. Điều này khác gì với trình tải video YouTube sang MP4?",
-  "mp3_faq5Answer": "Nó được tối ưu hóa đặc biệt cho âm thanh. Trong khi trình tải MP4 lưu video và âm thanh cùng nhau trong một tệp lớn hơn, công cụ chuyển đổi URL YouTube sang MP3 của chúng tôi loại bỏ hoàn toàn dữ liệu video. Kết quả là một tệp nhỏ hơn nhiều, tải xuống nhanh hơn, chiếm ít dung lượng hơn trên thiết bị của bạn và hoàn hảo để chỉ phát âm thanh."
+  "mp3_siteName": "Y2mp4.com",
+  "mp3_saveAudio": "Tải xuống tệp MP3 của bạn",
+  "mp3_faq1Answer": "Tính hợp pháp phụ thuộc vào nội dung và mục đích sử dụng của bạn. Bạn có thể chuyển đổi hợp pháp các video có giấy phép Creative Commons hoặc những video được cho phép rõ ràng để trích xuất âm thanh. Luôn tôn trọng luật bản quyền và chỉ sử dụng âm thanh đã chuyển đổi cho mục đích cá nhân.",
+  "mp3_faq2Answer": "Công cụ chuyển đổi của chúng tôi cung cấp đầu ra MP3 chất lượng cao, thường lên đến 320kbps. Chất lượng thực tế phụ thuộc vào chất lượng âm thanh của video nguồn. Chúng tôi duy trì chất lượng âm thanh tốt nhất có thể trong quá trình chuyển đổi.",
+  "mp3_faq3Answer": "Có! Công cụ chuyển đổi của chúng tôi hoạt động trên tất cả các thiết bị, bao gồm điện thoại thông minh và máy tính bảng. Chỉ cần dán URL YouTube và chuyển đổi sang MP3 trực tiếp trên thiết bị di động của bạn.",
+  "mp3_faq4Answer": "Không, không có giới hạn nào! Bạn có thể chuyển đổi bao nhiêu video YouTube sang MP3 tùy thích. Dịch vụ của chúng tôi hoàn toàn miễn phí và không giới hạn.",
+  "mp3_faq5Answer": "Công cụ chuyển đổi của chúng tôi hoàn hảo cho những người yêu âm nhạc, những người đam mê podcast, sinh viên, giáo viên và bất kỳ ai muốn thưởng thức nội dung YouTube ở định dạng âm thanh. Tạo danh sách phát, lưu nội dung giáo dục hoặc xây dựng thư viện âm thanh cá nhân của bạn - tất cả đều không có bất kỳ hạn chế nào.",
+  "mp3_formatsTip": "Nhấp để tải xuống",
+  "mp3_description": "Trích xuất ngay lập tức âm thanh chất lượng cao từ bất kỳ URL YouTube nào. Chuyển đổi nhạc, podcast và bài giảng yêu thích của bạn thành các tệp MP3 mà bạn có thể nghe ở mọi nơi. Luôn miễn phí, nhanh chóng và an toàn.",
+  "mp3_downloadNow": "Chuyển đổi ngay >>",
+  "mp3_tooltipText": "Công cụ này chỉ có thể được sử dụng cho mục đích sử dụng hợp pháp, không vi phạm. Nếu bạn là người tạo nội dung và muốn ngăn video của mình bị tải xuống bằng công cụ này, chỉ cần thêm #nodownload vào thẻ hoặc mô tả video của bạn.",
+  "mp3_faq1Question": "1. Chuyển đổi video YouTube sang MP3 có hợp pháp không?",
+  "mp3_faq2Question": "2. Tôi có thể mong đợi chất lượng âm thanh như thế nào từ quá trình chuyển đổi MP3?",
+  "mp3_faq3Question": "3. Tôi có thể chuyển đổi video YouTube sang MP3 trên thiết bị di động của mình không?",
+  "mp3_faq4Question": "4. Có giới hạn về số lượng video tôi có thể chuyển đổi sang MP3 không?",
+  "mp3_faq5Question": "5. Ai có thể hưởng lợi từ việc sử dụng công cụ chuyển đổi YouTube sang MP3?",
+  "mp3_mp3Converter": "Công cụ chuyển đổi YouTube sang MP3",
+  "mp3_clickDownload": "Nhấp vào nút 'Chuyển đổi'",
+  "mp3_videoDownloader": "Công cụ tải xuống video YouTube",
+  "mp3_featuresConverter": "Các tính năng của Công cụ chuyển đổi YouTube sang MP3",
+  "mp3_howToConvertTitle": "Cách chuyển đổi YouTube sang MP3",
+  "mp3_howToConvertDescription": "Biến đổi các video YouTube yêu thích của bạn thành các tệp âm thanh MP3 chất lượng cao trong vài giây. Cho dù bạn đang tạo danh sách phát, lưu podcast hay lưu trữ nội dung giáo dục, công cụ chuyển đổi của chúng tôi giúp bạn dễ dàng trích xuất âm thanh từ bất kỳ video YouTube nào."
 }

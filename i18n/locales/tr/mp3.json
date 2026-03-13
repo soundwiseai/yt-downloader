@@ -1,114 +1,114 @@
 {
   "mp3_seo": {
-    "title": "YouTube URL'den MP3'e Dönüştürücü - Hızlı ve Ücretsiz Çevrimiçi Dönüştürün",
-    "description": "Ücretsiz çevrimiçi aracımızla herhangi bir YouTube URL'sini hızla yüksek kaliteli bir MP3 dosyasına dönüştürün. Dönüştürücümüz hızlı, %100 güvenli, reklamsızdır ve yazılım kurulumu gerektirmez.",
-    "ogTitle": "YouTube URL'den MP3'e Dönüştürücü - Hızlı ve Ücretsiz Çevrimiçi Dönüştürün",
-    "ogDescription": "Ücretsiz çevrimiçi aracımızla herhangi bir YouTube URL'sini hızla yüksek kaliteli bir MP3 dosyasına dönüştürün. Dönüştürücümüz hızlı, %100 güvenli, reklamsızdır ve yazılım kurulumu gerektirmez."
+    "title": "YouTube URL'sini MP3'e Dönüştürücü - Hızlı ve Ücretsiz Online Dönüştürme",
+    "ogTitle": "YouTube URL'sini MP3'e Dönüştürücü - Hızlı ve Ücretsiz Online Dönüştürme",
+    "description": "Ücretsiz online aracımızla herhangi bir YouTube URL'sini hızlıca yüksek kaliteli bir MP3 dosyasına dönüştürün. Dönüştürücümüz hızlı, %100 güvenli, reklamsızdır ve herhangi bir yazılım kurulumu gerektirmez.",
+    "ogDescription": "Ücretsiz online aracımızla herhangi bir YouTube URL'sini hızlıca yüksek kaliteli bir MP3 dosyasına dönüştürün. Dönüştürücümüz hızlı, %100 güvenli, reklamsızdır ve herhangi bir yazılım kurulumu gerektirmez."
   },
-  "mp3_siteName": "Y2mp4.com",
-  "mp3_videoDownloader": "YouTube Video İndirici",
-  "mp3_mp3Converter": "YouTube'dan MP3 Dönüştürücü",
-  "mp3_title": "YouTube URL'den MP3 Dönüştürücü",
-  "mp3_description": "Herhangi bir YouTube URL'sinden anında yüksek kaliteli ses çıkarın. Sevdiğiniz müzikleri, podcast'leri ve dersleri her yerde dinleyebileceğiniz MP3 dosyalarına dönüştürün. Her zaman ücretsiz, hızlı ve güvenli.",
-  "mp3_download": "İNDİR",
-  "mp3_tip": "İçerik indirirken lütfen telif haklarına dikkat edin. Bu araç telif hakkı korumalı müzikleri indirmek için tasarlanmamıştır.",
-  "mp3_tooltipText": "Bu araç sadece yasal, ihlal etmeyen kullanım için kullanılabilir. Eğer bir içerik üreticisiyseniz ve videolarınızın bu araçla indirilmesini engellemek istiyorsanız, videonuzun etiketlerine veya açıklamasına #nodownload ekleyin.",
-  "mp3_formats": "Tüm Formatlar",
-  "mp3_formatsTip": "Kaydetmek için tıkla",
+  "mp3_tip": "Lütfen telif haklarına saygı gösterin. Bu araç yalnızca kişisel kullanım ve eğitim amaçlı tasarlanmıştır.",
+  "mp3_step": "Adım",
+  "mp3_title": "YouTube'dan MP3'e Dönüştürücü",
+  "mp3_copyUrl": "YouTube video URL'sini kopyalayın",
+  "mp3_formats": "Ses Formatları",
   "mp3_reviews": [
     {
-      "text": "Favori videolarımı kaydetmek için mükemmel! Hızlı indirme ve kullanımı çok basit. Kayıt gerekmiyor.",
-      "author": "Sarah_Bennett92"
+      "text": "Müzik çalma listemi oluşturmak için harika bir araç! Ses kalitesi mükemmel ve dönüştürme süper hızlı.",
+      "author": "MusicLover2023"
     },
     {
-      "text": "Bu araç harika! Videoları çeşitli formatlarda indirmenin bu kadar kolay olmasına bayıldım.",
-      "author": "John_Doe"
+      "text": "En sevdiğim podcast'leri kaydetmek için bunu her gün kullanıyorum. MP3 kalitesi mükemmel!",
+      "author": "PodcastFan"
     },
     {
-      "text": "Bunu aylardır kullanıyorum ve her zaman mükemmel çalışıyor.",
-      "author": "Jane_Smith"
+      "text": "Bulduğum en iyi ses dönüştürücü. Reklam yok, bekleme yok, sadece saf kalite.",
+      "author": "AudioEnthusiast"
     },
     {
-      "text": "Hızlı ve güvenilir. En iyi video indirici!",
-      "author": "Michael_Johnson"
+      "text": "Eğitim videolarından ses kaydetmek için mükemmel. Çok güvenilir!",
+      "author": "StudentHelper"
     },
     {
-      "text": "Kullanımı kolay ve içerik kaydetmek için çok etkili.",
-      "author": "David_Lee"
+      "text": "Basit arayüz ve harika ses kalitesi. Şiddetle tavsiye edilir!",
+      "author": "TechReviewer"
     },
     {
-      "text": "Şiddetle tavsiye ederim! Tüm videolarımda kusursuz çalışıyor.",
-      "author": "Emma_Wilson"
+      "text": "Her seferinde kusursuz çalışıyor. Oradaki en iyi MP3 dönüştürücü!",
+      "author": "MusicProducer"
     }
   ],
-  "mp3_howToConvertTitle": "Sesinizi 3 Basit Adımda Alın",
-  "mp3_howToConvertDescription": "YouTube'dan ses çıkarmak hiç bu kadar kolay olmamıştı. Sadece bağlantıyı kopyalayın, buraya yapıştırın ve MP3'ünüz hazır.",
-  "mp3_step": "Adım",
-  "mp3_copyUrl": "<strong>YouTube Video URL'sini Kopyala</strong>\nSesini istediğiniz YouTube videosunu bulun. Tarayıcınızın adres çubuğundan tam URL'yi kopyalayın.",
-  "mp3_clickDownload": "<strong>Bağlantıyı Dönüştürücüye Yapıştır</strong>\nSitemize geri dönün ve YouTube bağlantısını kutuya yapıştırın. URL'den MP3'e dönüştürücü hemen ses dosyanızı hazırlamaya başlayacaktır.",
-  "mp3_saveAudio": "<strong>MP3 Ses Dosyanızı İndirin</strong>\nDönüştürülen dosyaya tıklayarak ses dosyasını bilgisayarınıza, telefonunuza veya tabletinize anında kaydedin. Bekleme yok, zahmet yok.",
+  "mp3_benefits": {
+    "title": "YouTube'dan MP3'e Dönüştürücü Kullanmanın Faydaları",
+    "avoidAds": {
+      "title": "Reklamsız Dinleme",
+      "description": "Reklamsız kesintisiz ses çalmanın keyfini çıkarın. Bir videoyu MP3'e dönüştürdükten sonra, herhangi bir ticari kesinti olmadan dinleyebilir ve sorunsuz bir dinleme deneyimi yaratabilirsiniz."
+    },
+    "saveData": {
+      "title": "Verimli Depolama",
+      "description": "MP3 dosyaları video dosyalarından çok daha küçüktür ve cihazınızda daha fazla içerik depolamanıza olanak tanır. Depolama alanı konusunda endişelenmeden kapsamlı müzik kitaplıkları veya ses koleksiyonları oluşturmak için mükemmeldir."
+    },
+    "convenience": {
+      "title": "Ses Özgürlüğü",
+      "description": "YouTube videolarından kişisel ses kitaplığınızı oluşturun. Müzik, podcast veya eğitim materyali olsun, en sevdiğiniz içeriği çevrimdışı dinleyin. Dönüştürücümüz, her zaman, her yerde yüksek kaliteli sesin keyfini çıkarmanızı sağlar."
+    },
+    "moreFromDownloads": {
+      "title": "İndirmelerden Daha Fazlası",
+      "description": "Bu ses avantajlarıyla YouTube deneyiminizi dönüştürün:\n1.Mükemmel Çalma Listenizi Oluşturun\nHerhangi bir YouTube videosundan özel bir müzik koleksiyonu oluşturun.\n2.Her Yerde Dinleyin\nİşe gidip gelirken ve seyahat ederken mükemmel olan ses içeriğinizin çevrimdışı keyfini çıkarın.\n3.Bant Genişliğinden Tasarruf Edin\nVeri ve depolama alanından tasarruf etmek için video yerine ses indirin."
+    }
+  },
+  "mp3_download": "DÖNÜŞTÜR",
+  "mp3_faqTitle": "SSS",
   "mp3_features": [
     {
       "icon": "/images/yt_feature1.png",
-      "title": "Yüksek Kaliteli Ses Çıkarma",
-      "description": "Dosyanızı işleyerek yüksek kaliteli bir MP3 sunuyoruz, her cihaz için mükemmel olan yönetilebilir dosya boyutuyla harika bir dinleme deneyimi sağlıyoruz."
+      "title": "Üstün Ses Kalitesi",
+      "description": "Gelişmiş dönüştürme teknolojimizle YouTube videolarından kristal netliğinde ses çıkarın ve MP3 dosyalarınız için mümkün olan en iyi ses kalitesini sağlayın."
     },
     {
       "icon": "/images/yt_feature2.png",
-      "title": "Sınırsız Ücretsiz Dönüşüm",
-      "description": "Günlük sınır veya kısıtlama yoktur. İstediğiniz zaman YouTube'u MP3'e dönüştürün. Tek şarkılar kaydedin veya sınırları düşünmeden tam koleksiyonlar oluşturun."
+      "title": "Yıldırım Hızında Dönüştürme",
+      "description": "YouTube videolarını saniyeler içinde MP3'e dönüştürün. Optimize edilmiş sistemimiz, ses kalitesinden ödün vermeden hızlı işlemeyi sağlar."
     },
     {
       "icon": "/images/yt_feature3.png",
-      "title": "Aşırı Hızlı Dönüşüm",
-      "description": "Yalnızca sese odaklandığımız için dönüştürme işlemi inanılmaz derecede hızlıdır. YouTube URL'sinden MP3'e yapılan çoğu dönüşüm beş saniyeden kısa sürede tamamlanır, böylece dosyanızı neredeyse anında alırsınız."
+      "title": "%100 Güvenli ve Emniyetli",
+      "description": "Güvenli platformumuzla YouTube videolarını güvenli bir şekilde MP3'e dönüştürün. Kötü amaçlı yazılım yok, izleme yok - sadece saf ses dönüştürme."
     },
     {
       "icon": "/images/yt_feature4.png",
-      "title": "Evrensel MP3 Formatı",
-      "description": "Sesinizi evrensel olarak uyumlu MP3 formatında sunuyoruz. İndirdiğiniz dosyalar herhangi bir cihazda, müzik uygulamasında veya araba stereo sisteminde sorunsuz çalışacaktır."
+      "title": "Sınırsız Dönüştürme",
+      "description": "Ses indirmelerinizde günlük sınır veya kısıtlama olmaksızın istediğiniz kadar YouTube videosunu MP3'e dönüştürün."
     },
     {
       "icon": "/images/yt_feature5.png",
-      "title": "%100 Güvenli ve Reklamsız",
-      "description": "Güvenli ve ücretsiz bir YouTube'dan MP3'e deneyimi sunuyoruz. Sitemiz HTTPS ile korunmaktadır, verilerinizi asla saklamayız ve her seferinde temiz, reklamsız bir arayüz sunuyoruz."
+      "title": "Kayıt Gerekmez",
+      "description": "Bir hesap oluşturmadan videoları hemen MP3'e dönüştürmeye başlayın. Sadece bağlantınızı yapıştırın ve ses dosyanızı alın."
     },
     {
       "icon": "/images/yt_feature6.png",
-      "title": "Her Yerde Çalışır, Yazılım Gerekmez",
-      "description": "Çevrimiçi dönüştürücümüz PC, Mac, iPhone veya Android gibi herhangi bir cihazda doğrudan tarayıcınızda çalışır. Şüpheli yazılım indirmenize veya yüklemenize gerek yoktur."
+      "title": "Çoklu Ses Formatları",
+      "description": "MP3, M4A veya diğer ses formatlarında indirin. İhtiyaçlarınıza en uygun kaliteyi seçin."
     }
   ],
-  "mp3_downloadNow": "Hemen İndir >>",
-  "mp3_featuresConverter": "YouTube'dan MP3'e Dönüştürücümüzün Temel Özellikleri",
-  "mp3_benefits": {
-    "title": "Sesiniz, Kurallarınız, Çalma Listeniz",
-    "convenience": {
-      "title": "Nihai Müzik Kütüphanenizi Oluşturun",
-      "description": "YouTube'da nadir bir canlı performans, benzersiz bir remiks veya streaming platformlarında olmayan bir cover şarkı mı buldunuz? YouTube müziğini MP3 olarak indirin ve sonsuza kadar kontrol edeceğiniz kişisel, çevrimdışı koleksiyonunuza bu paha biçilmez parçaları ekleyin."
-    },
-    "avoidAds": {
-      "title": "Hareket Halindeyken Dinleyin ve Öğrenin",
-      "description": "Yolculuğunuzu, antrenmanınızı veya ev işlerinizi verimli zamana dönüştürün. YouTube'dan uzun röportajları, podcast'leri, sesli kitapları ve eğitim konuşmalarını MP3'e dönüştürün. Bilgi edinin ve ekrana yapışıp kalmadan veya pilinizi tüketmeden eğlenin."
-    },
-    "saveData": {
-      "title": "İçerik ve Zil Sesleri Oluşturun",
-      "description": "Kendi video projeniz için belirli bir ses efekti, arka plan atmosfer müziği veya komik bir alıntı mı gerekiyor? Yoksa favori bir şarkı klibinden özel bir zil sesi mi oluşturmak istiyorsunuz? Aracımız size yaratıcı olmak için ihtiyacınız olan temiz ses dosyasını verir."
-    },
-    "moreFromDownloads": {
-      "title": "İndirmelerinizden Daha Fazlasını Alın",
-      "description": "Tamponlama ve veri tüketimine elveda deyin! Çevrimdışı videolarınızdan en iyi şekilde yararlanmanın yolu:<br/><strong>1.Kişisel Medya Kütüphanenizi Oluşturun</strong><br/>Kendi Netflix tarzı koleksiyonunuzu oluşturun.<br/><strong>2.Endişesiz Seyahat Edin</strong><br/>Uçakta kesintili WiFi veya sıkıcı yolculuklar yok.<br/><strong>3.Değerli Veri Baytlarınızı Koruyun</strong><br/>WiFi üzerinden indirin, istediğiniz zaman izleyin."
-    }
-  },
-  "mp3_faqTitle": "Sorularınız, Cevaplarımız",
-  "mp3_faq1Question": "1. İndirilen MP3'lerin ses kalitesi (bit hızı) nedir?",
-  "mp3_faq1Answer": "Dönüştürücümüz, ses sadakati ve dosya boyutu arasında en iyi dengeyi sağlamak için optimize edilmiştir. Tüm dönüşümler yüksek kaliteli 128kbps bit hızında yapılır. Bu, standart kulaklıklardan araba stereo sistemlerine kadar her şeyde dinlemek için mükemmeldir ve çoğu dinleyici için daha yüksek bit hızlarından neredeyse ayırt edilemez, aynı zamanda dosya boyutlarını küçük tutarak hızlı indirmeler sağlar ve cihazınızda depolama alanından tasarruf edersiniz.",
-  "mp3_faq2Question": "2. 2 saatlik bir podcast veya canlı DJ seti gibi uzun bir dosyayı dönüştürebilir miyim?",
-  "mp3_faq2Answer": "Evet. YouTube ses indiricimizin video uzunluğu konusunda herhangi bir kısıtlaması yoktur. 3 dakikalık bir şarkı veya 3 saatlik bir canlı yayın olsun, aracımız bunu halledebilir. Daha büyük dosyalar için dönüştürme süresi biraz daha uzun olacaktır, ancak süreç aynı kalır.",
-  "mp3_faq3Question": "3. Bir film fragmanı veya vlog gibi müzik olmayan bir videodan ses çıkarabilir miyim?",
-  "mp3_faq3Answer": "Elbette. Sağladığınız herhangi bir kamuya açık YouTube URL'sinden tüm ses parçasını çıkarırız. Bu, bir vlog'dan diyalog, bir oyun videosundan ses efektleri veya bir doğa belgeselinden ortam seslerini bir şarkı kaydeder kadar kolay bir şekilde kaydedebileceğiniz anlamına gelir.",
-  "mp3_faq4Question": "4. YouTube URL'sinden MP3'e dönüştürücü kullanmak yasal mıdır?",
-  "mp3_faq4Answer": "Yasallık büyük ölçüde dönüştürdüğünüz içeriğe ve nasıl kullandığınıza bağlıdır. Kamu malı içeriklerden, Creative Commons lisanslı videolardan veya kendi orijinal içeriğinizden ses indirmek genellikle yasaldır. Telif hakkı korunan materyal için, kişisel, çevrimdışı dinleme amacıyla MP3'e dönüştürmek genellikle \"adil kullanım\" olarak kabul edilir. Ancak, telif hakkı sahibinin izni olmadan indirilen sesi dağıtmak, paylaşmak veya ticari amaçlarla kullanmak yasa dışıdır.",
-  "mp3_faq5Question": "5. Bu, YouTube'dan MP4 video indiriciden nasıl farklıdır?",
-  "mp3_faq5Answer": "Özellikle ses için optimize edilmiştir. Bir MP4 indirici video ve sesi birlikte daha büyük bir dosyada kaydederken, YouTube URL'sinden MP3'e aracımız video verilerini tamamen atar. Sonuç, daha hızlı indirilen, cihazınızda daha az yer kaplayan ve yalnızca ses oynatımı için mükemmel olan çok daha küçük bir dosyadır."
+  "mp3_siteName": "Y2mp4.com",
+  "mp3_saveAudio": "MP3 dosyanızı indirin",
+  "mp3_faq1Answer": "Yasallık, içeriğe ve amaçlanan kullanımınıza bağlıdır. Creative Commons lisanslarına sahip videoları veya ses çıkarmaya açıkça izin verilen videoları yasal olarak dönüştürebilirsiniz. Her zaman telif yasalarına saygı gösterin ve dönüştürülmüş sesi yalnızca kişisel amaçlarla kullanın.",
+  "mp3_faq2Answer": "Dönüştürücümüz, genellikle 320 kbps'ye kadar yüksek kaliteli MP3 çıktısı sağlar. Gerçek kalite, kaynak videonun ses kalitesine bağlıdır. Dönüştürme sırasında mümkün olan en iyi ses kalitesini koruyoruz.",
+  "mp3_faq3Answer": "Evet! Dönüştürücümüz akıllı telefonlar ve tabletler dahil tüm cihazlarda çalışır. Sadece YouTube URL'sini yapıştırın ve doğrudan mobil cihazınızda MP3'e dönüştürün.",
+  "mp3_faq4Answer": "Hayır, herhangi bir sınır yok! İstediğiniz kadar YouTube videosunu MP3'e dönüştürebilirsiniz. Hizmetimiz tamamen ücretsiz ve sınırsızdır.",
+  "mp3_faq5Answer": "Dönüştürücümüz müzik severler, podcast meraklıları, öğrenciler, öğretmenler ve YouTube içeriğinin ses formatında keyfini çıkarmak isteyen herkes için mükemmeldir. Çalma listeleri oluşturun, eğitim içeriğini kaydedin veya kişisel ses kitaplığınızı oluşturun - hepsi herhangi bir kısıtlama olmaksızın.",
+  "mp3_formatsTip": "İndirmek için tıklayın",
+  "mp3_description": "Herhangi bir YouTube URL'sinden anında yüksek kaliteli ses çıkarın. En sevdiğiniz müzikleri, podcast'leri ve dersleri her yerde dinleyebileceğiniz MP3 dosyalarına dönüştürün. Her zaman ücretsiz, hızlı ve güvenli.",
+  "mp3_downloadNow": "Şimdi Dönüştür >>",
+  "mp3_tooltipText": "Bu araç yalnızca yasal, ihlal etmeyen kullanım için kullanılabilir. İçerik oluşturucuysanız ve videolarınızın bu araç kullanılarak indirilmesini önlemek istiyorsanız, videonuzun etiketlerine veya açıklamasına #nodownload eklemeniz yeterlidir.",
+  "mp3_faq1Question": "1. YouTube videolarını MP3'e dönüştürmek yasal mı?",
+  "mp3_faq2Question": "2. MP3 dönüştürmeden hangi ses kalitesini bekleyebilirim?",
+  "mp3_faq3Question": "3. YouTube videolarını mobil cihazımda MP3'e dönüştürebilir miyim?",
+  "mp3_faq4Question": "4. MP3'e dönüştürebileceğim video sayısında herhangi bir sınır var mı?",
+  "mp3_faq5Question": "5. YouTube'dan MP3'e dönüştürücüyü kullanmaktan kimler faydalanabilir?",
+  "mp3_mp3Converter": "YouTube'dan MP3'e Dönüştürücü",
+  "mp3_clickDownload": "'Dönüştür' düğmesini tıklayın",
+  "mp3_videoDownloader": "YouTube Video İndiricisi",
+  "mp3_featuresConverter": "YouTube'dan MP3'e Dönüştürücünün Özellikleri",
+  "mp3_howToConvertTitle": "YouTube'u MP3'e Nasıl Dönüştürülür",
+  "mp3_howToConvertDescription": "En sevdiğiniz YouTube videolarını saniyeler içinde yüksek kaliteli MP3 ses dosyalarına dönüştürün. İster bir çalma listesi oluşturuyor, ister bir podcast kaydediyor veya eğitim içeriğini arşivliyor olun, dönüştürücümüz herhangi bir YouTube videosundan ses çıkarmayı kolaylaştırır."
 }

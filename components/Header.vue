@@ -22,7 +22,7 @@
           class="nav-link"
           @click.prevent="goToSite(site.url)"
         >
-          {{ _t(site.name) }} &gt;
+          {{ getSiteLabel(site) }} &gt;
         </a>
 
         <!-- 语言选择下拉菜单 -->
@@ -52,8 +52,9 @@ import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { _t } from '@/i18n/utils'
 import sites from '@/sites'
+import { buildLocalizedPath, getSiteLabelKeyCandidates, resolveSiteForPath } from '@/utils/site-config'
 
-const { locale, locales, setLocale } = useI18n();
+const { locale, locales, setLocale, t, te } = useI18n();
 const route = useRoute();
 const router = useRouter();
 const showLanguageMenu = ref(false);
@@ -73,10 +74,13 @@ const toggleMobileMenu = () => {
 
 // 跳转到指定站点
 const goToSite = (url) => {
-  const lang = locale.value;
-  const prefix = lang === 'en' ? '' : `/${lang}`;
-  router.push({ path: `${prefix}${url}` });
+  router.push({ path: buildLocalizedPath(url, locale.value) });
   showMobileMenu.value = false;
+};
+
+const getSiteLabel = (site) => {
+  const key = getSiteLabelKeyCandidates(site).find((candidate) => te(candidate))
+  return key ? t(key) : site.name
 };
 
 // 切换语言菜单显示/隐藏
@@ -99,18 +103,8 @@ const changeLanguage = async (langCode) => {
   await setLocale(langCode);
 
   // 判断当前页面是否为 mp3 或 downloader
-  const path = route.path;
-  let suffix = '';
-  for (const site of sites) {
-    if (path.endsWith(site.url)) {
-        suffix = site.url;
-        break;
-    }
-  }
-
-  // 生成目标路径并跳转
-  const prefix = langCode === 'en' ? '' : `/${langCode}`;
-  const targetPath = `${prefix}${suffix}`;
+  const activeSite = resolveSiteForPath(route.path)
+  const targetPath = buildLocalizedPath(activeSite?.url || '/', langCode)
   router.push({ path: targetPath });
 };
 
@@ -142,8 +136,9 @@ onUnmounted(() => {
 
 const goHome = () => {
   showMobileMenu.value = false;
-  if (route.path !== '/') {
-    router.push({ path: '/' });
+  const targetPath = buildLocalizedPath('/', locale.value)
+  if (route.path !== targetPath) {
+    router.push({ path: targetPath });
   }
 }
 </script>

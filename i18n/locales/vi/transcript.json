@@ -1,21 +1,16 @@
 {
   "transcript_seo": {
     "title": "Trình tạo phụ đề YouTube miễn phí vĩnh viễn – Không cần đăng ký | Y2mp4.com",
-    "description": "Miễn phí vĩnh viễn, không cần đăng ký và sử dụng không giới hạn — tạo bản chép YouTube ngay lập tức với công cụ trực tuyến của chúng tôi. Trích xuất phụ đề chỉ với vài cú nhấp chuột.",
     "ogTitle": "Trình tạo phụ đề YouTube miễn phí vĩnh viễn – Không cần đăng ký | Y2mp4.com",
+    "description": "Miễn phí vĩnh viễn, không cần đăng ký và sử dụng không giới hạn — tạo bản chép YouTube ngay lập tức với công cụ trực tuyến của chúng tôi. Trích xuất phụ đề chỉ với vài cú nhấp chuột.",
     "ogDescription": "Miễn phí vĩnh viễn, không cần đăng ký và sử dụng không giới hạn — tạo bản chép YouTube ngay lập tức với công cụ trực tuyến của chúng tôi. Trích xuất phụ đề chỉ với vài cú nhấp chuột."
   },
-  "transcript_siteName": "Y2mp4.com",
-  "transcript_videoDownloader": "Trình Tải Video YouTube",
-  "transcript_mp3Converter": "Trình Chuyển Đổi YouTube sang MP3",
-  "transcript_title": "Trình Tạo Bản Ghi YouTube Tức Thì",
-  "transcript_description": "Nhận bản ghi của bất kỳ video YouTube nào ngay lập tức. Dán URL để tạo tệp văn bản hoàn chỉnh từ phụ đề video. Hoàn hảo cho nghiên cứu, tạo nội dung và học tập.",
-  "transcript_timestamp": "Hiển thị dấu thời gian",
-  "transcript_copy": "Sao chép",
-  "transcript_download": "Nhận Bản Ghi Miễn Phí",
   "transcript_tip": "Vui lòng chú ý đến bản quyền khi tải xuống nội dung. Công cụ này không được thiết kế để tải xuống nhạc có bản quyền.",
+  "transcript_copy": "Sao chép",
+  "transcript_step": "Bước",
+  "transcript_title": "Trình Tạo Bản Ghi YouTube Tức Thì",
+  "transcript_copyUrl": "<strong>Tìm và Sao chép URL YouTube</strong> \n Điều hướng đến video YouTube có phụ đề (biểu tượng \"CC\" hiển thị) và sao chép URL từ trình duyệt của bạn.",
   "transcript_formats": "Tất Cả Định Dạng",
-  "transcript_formatsTip": "Nhấp để lưu",
   "transcript_reviews": [
     {
       "text": "Công cụ này là một bước ngoặt cho quy trình làm việc của tôi. Bây giờ tôi có thể chuyển đổi video YouTube 20 phút thành văn bản cho bài viết blog trong vài giây, không phải vài giờ. Đây là trình chuyển đổi video YouTube sang văn bản tốt nhất mà tôi từng tìm thấy.",
@@ -42,13 +37,23 @@
       "author": "David L., Thành viên cộng đồng"
     }
   ],
-  "transcript_howToConvertTitle": "Từ Video YouTube sang Văn Bản Thuần trong 3 Bước",
-  "transcript_howToConvertDescription": "Mở khóa văn bản trong bất kỳ video nào một cách dễ dàng.",
-  "transcript_step": "Bước",
-  "transcript_copyUrl": "<strong>Tìm và Sao chép URL YouTube</strong> \n Điều hướng đến video YouTube có phụ đề (biểu tượng \"CC\" hiển thị) và sao chép URL từ trình duyệt của bạn.",
-  "transcript_clickDownload": "<strong>Dán Liên kết vào Trình Tạo</strong> \n Quay lại trang web của chúng tôi và dán liên kết video vào hộp nhập. Công cụ của chúng tôi sẽ ngay lập tức phát hiện các bản ghi có sẵn.",
-  "transcript_saveVideo": "<strong>Sao chép hoặc Tải xuống Bản Ghi Hoàn chỉnh</strong> \n Bản ghi video của bạn sẽ xuất hiện ngay lập tức. Bạn có thể sao chép nó vào clipboard bằng một cú nhấp hoặc tải xuống dưới dạng tệp .txt sạch để sử dụng sau.",
-  "transcript_aiTranscript": "Bắt đầu chuyển video thành văn bản bằng AI ngay—Miễn phí vĩnh viễn!",
+  "transcript_benefits": {
+    "title": "Biến Lời Nói thành Tài sản Có Giá",
+    "avoidAds": {
+      "title": "Cho Nghiên cứu Chính xác & Trích dẫn",
+      "description": "Dừng việc cuộn vô tận qua dòng thời gian video để tìm trích dẫn hoàn hảo đó. Nhận bản ghi YouTube có thể tìm kiếm để tìm thông tin quan trọng ngay lập tức bằng Ctrl+F, xác minh các tuyên bố cho bài viết hoặc bài nghiên cứu của bạn, và phân tích phỏng vấn với độ chính xác và tin cậy hoàn toàn."
+    },
+    "saveData": {
+      "title": "Cho Học tập Nâng cao & Khả năng tiếp cận",
+      "description": "Tăng cường các phiên học tập của bạn. Tải xuống bản ghi bài giảng để xem lại các khái niệm chính, tìm kiếm các thuật ngữ cụ thể và hấp thụ thông tin hiệu quả hơn so với chỉ xem. Đây cũng là công cụ thiết yếu để tạo nội dung có thể truy cập hoặc cho người học ngôn ngữ nghiên cứu đối thoại."
+    },
+    "convenience": {
+      "title": "Cho Tái sử dụng Nội dung & SEO",
+      "description": "Mở khóa hàng giờ nội dung bằng một cú nhấp duy nhất. Chuyển đổi video YouTube của bạn thành văn bản để tạo ngay lập tức các bài viết blog được tối ưu hóa công cụ tìm kiếm, ghi chú chương trình chi tiết cho podcast, chuỗi Twitter hấp dẫn và mô tả video giàu từ khóa để cải thiện khả năng hiển thị kênh của bạn."
+    }
+  },
+  "transcript_download": "Nhận Bản Ghi Miễn Phí",
+  "transcript_faqTitle": "Câu hỏi Sâu sắc về Bản Ghi YouTube của Bạn, Đã được Trả lời",
   "transcript_features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -81,34 +86,29 @@
       "description": "Trình Tạo Bản Ghi YouTube của chúng tôi tự động loại bỏ tất cả mã thời gian và định dạng phức tạp. Bạn nhận được một khối văn bản thuần sạch, đơn giản dễ đọc, chỉnh sửa và dán trực tiếp vào bài viết, ghi chú hoặc bài đăng mạng xã hội của bạn mà không cần làm sạch thêm."
     }
   ],
-  "transcript_downloadNow": "Bản Ghi Ngay >>",
-  "transcript_featuresConverter": "Bộ Công cụ Bản Ghi Thiết yếu của Bạn",
-  "transcript_benefits": {
-    "title": "Biến Lời Nói thành Tài sản Có Giá",
-    "convenience": {
-      "title": "Cho Tái sử dụng Nội dung & SEO",
-      "description": "Mở khóa hàng giờ nội dung bằng một cú nhấp duy nhất. Chuyển đổi video YouTube của bạn thành văn bản để tạo ngay lập tức các bài viết blog được tối ưu hóa công cụ tìm kiếm, ghi chú chương trình chi tiết cho podcast, chuỗi Twitter hấp dẫn và mô tả video giàu từ khóa để cải thiện khả năng hiển thị kênh của bạn."
-    },
-    "avoidAds": {
-      "title": "Cho Nghiên cứu Chính xác & Trích dẫn",
-      "description": "Dừng việc cuộn vô tận qua dòng thời gian video để tìm trích dẫn hoàn hảo đó. Nhận bản ghi YouTube có thể tìm kiếm để tìm thông tin quan trọng ngay lập tức bằng Ctrl+F, xác minh các tuyên bố cho bài viết hoặc bài nghiên cứu của bạn, và phân tích phỏng vấn với độ chính xác và tin cậy hoàn toàn."
-    },
-    "saveData": {
-      "title": "Cho Học tập Nâng cao & Khả năng tiếp cận",
-      "description": "Tăng cường các phiên học tập của bạn. Tải xuống bản ghi bài giảng để xem lại các khái niệm chính, tìm kiếm các thuật ngữ cụ thể và hấp thụ thông tin hiệu quả hơn so với chỉ xem. Đây cũng là công cụ thiết yếu để tạo nội dung có thể truy cập hoặc cho người học ngôn ngữ nghiên cứu đối thoại."
-    }
-  },
-  "transcript_faqTitle": "Câu hỏi Sâu sắc về Bản Ghi YouTube của Bạn, Đã được Trả lời",
-  "transcript_faq1Question": "1. Đây có phải là bản ghi AI không, và nó chính xác đến mức nào?",
+  "transcript_siteName": "Y2mp4.com",
+  "transcript_saveVideo": "<strong>Sao chép hoặc Tải xuống Bản Ghi Hoàn chỉnh</strong> \n Bản ghi video của bạn sẽ xuất hiện ngay lập tức. Bạn có thể sao chép nó vào clipboard bằng một cú nhấp hoặc tải xuống dưới dạng tệp .txt sạch để sử dụng sau.",
+  "transcript_timestamp": "Hiển thị dấu thời gian",
   "transcript_faq1Answer": "Đây là câu hỏi quan trọng. Công cụ của chúng tôi không phải là dịch vụ ghi AI. Đó là trình trích xuất phụ đề. Nó lấy phụ đề chính thức do người tạo cung cấp hoặc được tạo tự động trực tiếp từ YouTube. Do đó, độ chính xác của bản ghi giống hệt với độ chính xác của phụ đề bạn thấy trên trình phát YouTube.",
-  "transcript_faq2Question": "2. Điều gì xảy ra nếu video YouTube không có phụ đề (CC)?",
   "transcript_faq2Answer": "Để trình tạo bản ghi YouTube của chúng tôi hoạt động, video phải có track phụ đề có sẵn—bạn sẽ thấy biểu tượng \"CC\" trên trình phát YouTube. Nếu video không có phụ đề được bật, trình tạo của chúng tôi không thể tạo bản ghi vì không có dữ liệu văn bản để trích xuất.",
-  "transcript_faq3Question": "3. Sự khác biệt giữa phụ đề được tạo tự động của YouTube và phụ đề thủ công là gì?",
   "transcript_faq3Answer": "Phụ đề được tạo thủ công được tải lên bởi người tạo video và thường rất chính xác về từ ngữ, chính tả và dấu câu. Thuật toán nhận dạng giọng nói của YouTube tạo phụ đề được tạo tự động và có thể chứa lỗi, đặc biệt với tên riêng, từ vựng phức tạp hoặc âm thanh không rõ ràng. Công cụ của chúng tôi sẽ tạo bản ghi từ phiên bản nào có sẵn cho video.",
-  "transcript_faq4Question": "4. Tôi có thể nhận bản ghi từ video rất dài, như webinar 3 giờ không?",
   "transcript_faq4Answer": "Có. Miễn là video có track phụ đề, công cụ của chúng tôi có thể tạo bản ghi hoàn chỉnh bất kể độ dài video. Quá trình vẫn nhanh như nhau, vì chúng tôi chỉ đơn giản là lấy dữ liệu văn bản hiện có.",
-  "transcript_faq5Question": "5. Làm thế nào tôi có thể sử dụng bản ghi có dấu thời gian tốt nhất?",
   "transcript_faq5Answer": "Bản ghi có dấu thời gian cực kỳ hữu ích. Đối với biên tập viên video, chúng cho phép họ nhanh chóng tìm khoảnh khắc chính xác khi một từ cụ thể được nói. Đối với nhà nghiên cứu và sinh viên, chúng là thiết yếu để tạo trích dẫn chính xác. Bạn cũng có thể sử dụng chúng để tạo bản ghi tương tác \"có thể nhấp\" nơi nhấp vào dấu thời gian điều hướng người dùng đến điểm đó trong video.",
+  "transcript_faq6Answer": "Vì chúng tôi trích xuất bản ghi trực tiếp từ dữ liệu của YouTube, bất kỳ lỗi nào về từ ngữ hoặc dấu câu đều bắt nguồn từ chính phụ đề nguồn. Chúng tôi không thể tự động sửa chúng. Tuy nhiên, chúng tôi cung cấp văn bản ở định dạng dễ chỉnh sửa (sao chép-dán hoặc tệp .txt) để bạn có thể nhanh chóng tự thực hiện bất kỳ chỉnh sửa hoặc thay đổi định dạng nào.",
+  "transcript_formatsTip": "Nhấp để lưu",
+  "transcript_description": "Nhận bản ghi của bất kỳ video YouTube nào ngay lập tức. Dán URL để tạo tệp văn bản hoàn chỉnh từ phụ đề video. Hoàn hảo cho nghiên cứu, tạo nội dung và học tập.",
+  "transcript_downloadNow": "Bản Ghi Ngay >>",
+  "transcript_aiTranscript": "Bắt đầu chuyển video thành văn bản bằng AI ngay—Miễn phí vĩnh viễn!",
+  "transcript_faq1Question": "1. Đây có phải là bản ghi AI không, và nó chính xác đến mức nào?",
+  "transcript_faq2Question": "2. Điều gì xảy ra nếu video YouTube không có phụ đề (CC)?",
+  "transcript_faq3Question": "3. Sự khác biệt giữa phụ đề được tạo tự động của YouTube và phụ đề thủ công là gì?",
+  "transcript_faq4Question": "4. Tôi có thể nhận bản ghi từ video rất dài, như webinar 3 giờ không?",
+  "transcript_faq5Question": "5. Làm thế nào tôi có thể sử dụng bản ghi có dấu thời gian tốt nhất?",
   "transcript_faq6Question": "6. Tôi thấy một số lỗi trong bản ghi được tạo. Bạn có thể sửa chúng không?",
-  "transcript_faq6Answer": "Vì chúng tôi trích xuất bản ghi trực tiếp từ dữ liệu của YouTube, bất kỳ lỗi nào về từ ngữ hoặc dấu câu đều bắt nguồn từ chính phụ đề nguồn. Chúng tôi không thể tự động sửa chúng. Tuy nhiên, chúng tôi cung cấp văn bản ở định dạng dễ chỉnh sửa (sao chép-dán hoặc tệp .txt) để bạn có thể nhanh chóng tự thực hiện bất kỳ chỉnh sửa hoặc thay đổi định dạng nào."
+  "transcript_mp3Converter": "Trình Chuyển Đổi YouTube sang MP3",
+  "transcript_clickDownload": "<strong>Dán Liên kết vào Trình Tạo</strong> \n Quay lại trang web của chúng tôi và dán liên kết video vào hộp nhập. Công cụ của chúng tôi sẽ ngay lập tức phát hiện các bản ghi có sẵn.",
+  "transcript_videoDownloader": "Trình Tải Video YouTube",
+  "transcript_featuresConverter": "Bộ Công cụ Bản Ghi Thiết yếu của Bạn",
+  "transcript_howToConvertTitle": "Từ Video YouTube sang Văn Bản Thuần trong 3 Bước",
+  "transcript_howToConvertDescription": "Mở khóa văn bản trong bất kỳ video nào một cách dễ dàng."
 }

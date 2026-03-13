@@ -8,7 +8,8 @@
     "build": "nuxt build",
     "pregenerate": "tsx scripts/fetch-cms.ts",
     "generate": "nuxt generate",
-    "dev": "nuxt dev",
+    "dev": "CHOKIDAR_USEPOLLING=1 nuxt dev --port 3088",
+    "dev:api": "PORT=45331 node server/server.js",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },

@@ -1,21 +1,16 @@
 {
   "transcript_seo": {
     "title": "영원히 무료 YouTube 자막 생성기 – 가입 불필요 | Y2mp4.com",
-    "description": "영구 무료, 가입 없이 무제한 사용 — 온라인 도구로 YouTube 영상 자막을 즉시 생성하세요. 몇 번의 클릭으로 자막을 추출할 수 있습니다.",
     "ogTitle": "영원히 무료 YouTube 자막 생성기 – 가입 불필요 | Y2mp4.com",
+    "description": "영구 무료, 가입 없이 무제한 사용 — 온라인 도구로 YouTube 영상 자막을 즉시 생성하세요. 몇 번의 클릭으로 자막을 추출할 수 있습니다.",
     "ogDescription": "영구 무료, 가입 없이 무제한 사용 — 온라인 도구로 YouTube 영상 자막을 즉시 생성하세요. 몇 번의 클릭으로 자막을 추출할 수 있습니다."
   },
-  "transcript_siteName": "Y2mp4.com",
-  "transcript_videoDownloader": "YouTube 동영상 다운로더",
-  "transcript_mp3Converter": "YouTube MP3 변환기",
-  "transcript_title": "즉석 YouTube 대본 생성기",
-  "transcript_description": "모든 YouTube 동영상의 대본을 즉시 가져오세요. URL을 붙여넣어 동영상 자막의 완전한 텍스트 파일을 생성합니다. 연구, 콘텐츠 제작, 학습에 완벽합니다.",
-  "transcript_timestamp": "시간 표시 보기",
-  "transcript_copy": "복사",
-  "transcript_download": "무료 대본 받기",
   "transcript_tip": "콘텐츠를 다운로드할 때 저작권을 주의하세요. 이 도구는 저작권 보호 음악 다운로드용으로 설계되지 않았습니다.",
+  "transcript_copy": "복사",
+  "transcript_step": "단계",
+  "transcript_title": "즉석 YouTube 대본 생성기",
+  "transcript_copyUrl": "<strong>YouTube URL 찾기 및 복사</strong> \n 자막이 있는 YouTube 동영상(\"CC\" 아이콘이 보임)으로 이동하여 브라우저에서 URL을 복사합니다.",
   "transcript_formats": "모든 형식",
-  "transcript_formatsTip": "클릭하여 저장",
   "transcript_reviews": [
     {
       "text": "이 도구는 제 워크플로우를 완전히 바꿔놓았습니다. 이제 20분 YouTube 동영상을 블로그 포스트용 텍스트로 몇 시간이 아닌 몇 초 만에 변환할 수 있습니다. 제가 찾은 최고의 YouTube 동영상 텍스트 변환기입니다.",
@@ -42,13 +37,23 @@
       "author": "David L., 커뮤니티 회원"
     }
   ],
-  "transcript_howToConvertTitle": "3단계로 YouTube 동영상을 일반 텍스트로",
-  "transcript_howToConvertDescription": "모든 동영상 내 텍스트를 쉽게 잠금 해제하세요.",
-  "transcript_step": "단계",
-  "transcript_copyUrl": "<strong>YouTube URL 찾기 및 복사</strong> \n 자막이 있는 YouTube 동영상(\"CC\" 아이콘이 보임)으로 이동하여 브라우저에서 URL을 복사합니다.",
-  "transcript_clickDownload": "<strong>생성기에 링크 붙여넣기</strong> \n 우리 사이트로 돌아가서 동영상 링크를 입력 상자에 붙여넣으세요. 우리 도구는 사용 가능한 대본을 즉시 감지합니다.",
-  "transcript_saveVideo": "<strong>전체 대본 복사 또는 다운로드</strong> \n 동영상의 대본이 즉시 나타납니다. 한 번의 클릭으로 클립보드에 복사하거나 나중에 사용하기 위해 깨끗한 .txt 파일로 다운로드할 수 있습니다.",
-  "transcript_aiTranscript": "지금 AI 영상 텍스트 변환 시작—영원히 무료!",
+  "transcript_benefits": {
+    "title": "말로 된 단어를 가치 있는 자산으로 변환",
+    "avoidAds": {
+      "title": "정확한 연구 및 인용용",
+      "description": "완벽한 인용구를 찾기 위해 동영상 타임라인을 끝없이 스크롤하는 것을 멈추세요. 검색 가능한 YouTube 대본을 얻어 Ctrl+F로 즉시 주요 정보를 찾고, 기사나 연구 논문의 진술을 검증하고, 완전한 정확성과 신뢰성으로 인터뷰를 분석하세요."
+    },
+    "saveData": {
+      "title": "향상된 학습 및 접근성용",
+      "description": "학습 세션을 강화하세요. 강의 대본을 다운로드하여 주요 개념을 검토하고, 특정 용어를 검색하고, 단순히 시청하는 것보다 더 효과적으로 정보를 흡수하세요. 접근 가능한 콘텐츠를 만들거나 언어 학습자가 대화를 공부하는 데 필수적인 도구입니다."
+    },
+    "convenience": {
+      "title": "콘텐츠 재활용 및 SEO용",
+      "description": "한 번의 클릭으로 몇 시간의 콘텐츠를 잠금 해제하세요. YouTube 동영상을 텍스트로 변환하여 검색 엔진 최적화된 블로그 포스트, 팟캐스트용 상세한 쇼 노트, 매력적인 Twitter 스레드, 채널 가시성을 향상시키는 키워드가 풍부한 동영상 설명을 즉시 만드세요."
+    }
+  },
+  "transcript_download": "무료 대본 받기",
+  "transcript_faqTitle": "심층적인 YouTube 대본 질문, 답변됨",
   "transcript_features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -81,34 +86,29 @@
       "description": "우리의 YouTube 대본 생성기는 모든 타임코드와 복잡한 서식을 자동으로 제거합니다. 읽기 쉽고 편집하기 쉬우며 추가 정리 없이 기사, 노트 또는 소셜 미디어 게시물에 직접 붙여넣을 수 있는 깨끗하고 간단한 일반 텍스트 블록을 얻습니다."
     }
   ],
-  "transcript_downloadNow": "대본 지금 >>",
-  "transcript_featuresConverter": "필수 대본 툴킷",
-  "transcript_benefits": {
-    "title": "말로 된 단어를 가치 있는 자산으로 변환",
-    "convenience": {
-      "title": "콘텐츠 재활용 및 SEO용",
-      "description": "한 번의 클릭으로 몇 시간의 콘텐츠를 잠금 해제하세요. YouTube 동영상을 텍스트로 변환하여 검색 엔진 최적화된 블로그 포스트, 팟캐스트용 상세한 쇼 노트, 매력적인 Twitter 스레드, 채널 가시성을 향상시키는 키워드가 풍부한 동영상 설명을 즉시 만드세요."
-    },
-    "avoidAds": {
-      "title": "정확한 연구 및 인용용",
-      "description": "완벽한 인용구를 찾기 위해 동영상 타임라인을 끝없이 스크롤하는 것을 멈추세요. 검색 가능한 YouTube 대본을 얻어 Ctrl+F로 즉시 주요 정보를 찾고, 기사나 연구 논문의 진술을 검증하고, 완전한 정확성과 신뢰성으로 인터뷰를 분석하세요."
-    },
-    "saveData": {
-      "title": "향상된 학습 및 접근성용",
-      "description": "학습 세션을 강화하세요. 강의 대본을 다운로드하여 주요 개념을 검토하고, 특정 용어를 검색하고, 단순히 시청하는 것보다 더 효과적으로 정보를 흡수하세요. 접근 가능한 콘텐츠를 만들거나 언어 학습자가 대화를 공부하는 데 필수적인 도구입니다."
-    }
-  },
-  "transcript_faqTitle": "심층적인 YouTube 대본 질문, 답변됨",
-  "transcript_faq1Question": "1. 이것은 AI 전사인가요? 정확도는 어느 정도인가요?",
+  "transcript_siteName": "Y2mp4.com",
+  "transcript_saveVideo": "<strong>전체 대본 복사 또는 다운로드</strong> \n 동영상의 대본이 즉시 나타납니다. 한 번의 클릭으로 클립보드에 복사하거나 나중에 사용하기 위해 깨끗한 .txt 파일로 다운로드할 수 있습니다.",
+  "transcript_timestamp": "시간 표시 보기",
   "transcript_faq1Answer": "이것은 핵심 질문입니다. 우리 도구는 AI 전사 서비스가 아닙니다. 자막 추출기입니다. YouTube에서 직접 제작자가 제공한 공식 자막이나 자동 생성된 자막을 가져옵니다. 따라서 대본의 정확도는 YouTube 플레이어 자체에서 보는 자막의 정확도와 동일합니다.",
-  "transcript_faq2Question": "2. YouTube 동영상에 자막(CC)이 없으면 어떻게 되나요?",
   "transcript_faq2Answer": "우리의 YouTube 대본 생성기가 작동하려면 동영상에 사용 가능한 자막 트랙이 있어야 합니다—YouTube 플레이어에서 \"CC\" 아이콘을 볼 수 있어야 합니다. 동영상에 자막이 활성화되어 있지 않으면 추출할 텍스트 데이터가 없기 때문에 우리 생성기는 대본을 생성할 수 없습니다.",
-  "transcript_faq3Question": "3. YouTube의 자동 생성 자막과 수동 자막의 차이점은 무엇인가요?",
   "transcript_faq3Answer": "수동으로 생성된 자막은 동영상 제작자가 업로드한 것으로 일반적으로 문구, 맞춤법, 구두점 측면에서 매우 정확합니다. YouTube의 음성 인식 알고리즘은 자동 생성 자막을 만들며 특히 고유명사, 복잡한 어휘 또는 불분명한 오디오에서 오류를 포함할 수 있습니다. 우리 도구는 동영상에 사용 가능한 어떤 버전에서든 대본을 생성합니다.",
-  "transcript_faq4Question": "4. 3시간 웨비나 같은 매우 긴 동영상에서 대본을 얻을 수 있나요?",
   "transcript_faq4Answer": "네. 동영상에 자막 트랙이 있는 한, 우리 도구는 동영상 길이에 관계없이 전체 대본을 생성할 수 있습니다. 기존 텍스트 데이터를 단순히 가져오는 것이므로 프로세스는 동일하게 빠릅니다.",
-  "transcript_faq5Question": "5. 타임스탬프가 있는 대본을 가장 잘 사용하는 방법은 무엇인가요?",
   "transcript_faq5Answer": "타임스탬프가 있는 대본은 매우 유용합니다. 동영상 편집자에게는 특정 단어가 말해진 정확한 순간을 빠르게 찾을 수 있게 해줍니다. 연구자와 학생에게는 정확한 인용을 생성하는 데 필수적입니다. 타임스탬프를 클릭하면 사용자를 동영상의 해당 지점으로 이동시키는 상호작용 \"클릭 가능한\" 대본을 만드는 데도 사용할 수 있습니다.",
+  "transcript_faq6Answer": "우리는 YouTube 데이터에서 직접 대본을 추출하므로 문구나 구두점의 오류는 소스 자막 자체에서 발생합니다. 자동으로 수정할 수 없습니다. 하지만 편집하기 쉬운 형식(복사-붙여넣기 또는 .txt 파일)으로 텍스트를 제공하므로 수정이나 서식 변경을 빠르게 직접 할 수 있습니다.",
+  "transcript_formatsTip": "클릭하여 저장",
+  "transcript_description": "모든 YouTube 동영상의 대본을 즉시 가져오세요. URL을 붙여넣어 동영상 자막의 완전한 텍스트 파일을 생성합니다. 연구, 콘텐츠 제작, 학습에 완벽합니다.",
+  "transcript_downloadNow": "대본 지금 >>",
+  "transcript_aiTranscript": "지금 AI 영상 텍스트 변환 시작—영원히 무료!",
+  "transcript_faq1Question": "1. 이것은 AI 전사인가요? 정확도는 어느 정도인가요?",
+  "transcript_faq2Question": "2. YouTube 동영상에 자막(CC)이 없으면 어떻게 되나요?",
+  "transcript_faq3Question": "3. YouTube의 자동 생성 자막과 수동 자막의 차이점은 무엇인가요?",
+  "transcript_faq4Question": "4. 3시간 웨비나 같은 매우 긴 동영상에서 대본을 얻을 수 있나요?",
+  "transcript_faq5Question": "5. 타임스탬프가 있는 대본을 가장 잘 사용하는 방법은 무엇인가요?",
   "transcript_faq6Question": "6. 생성된 대본에 몇 가지 오류가 보입니다. 수정해주실 수 있나요?",
-  "transcript_faq6Answer": "우리는 YouTube 데이터에서 직접 대본을 추출하므로 문구나 구두점의 오류는 소스 자막 자체에서 발생합니다. 자동으로 수정할 수 없습니다. 하지만 편집하기 쉬운 형식(복사-붙여넣기 또는 .txt 파일)으로 텍스트를 제공하므로 수정이나 서식 변경을 빠르게 직접 할 수 있습니다."
+  "transcript_mp3Converter": "YouTube MP3 변환기",
+  "transcript_clickDownload": "<strong>생성기에 링크 붙여넣기</strong> \n 우리 사이트로 돌아가서 동영상 링크를 입력 상자에 붙여넣으세요. 우리 도구는 사용 가능한 대본을 즉시 감지합니다.",
+  "transcript_videoDownloader": "YouTube 동영상 다운로더",
+  "transcript_featuresConverter": "필수 대본 툴킷",
+  "transcript_howToConvertTitle": "3단계로 YouTube 동영상을 일반 텍스트로",
+  "transcript_howToConvertDescription": "모든 동영상 내 텍스트를 쉽게 잠금 해제하세요."
 }

@@ -1,17 +1,15 @@
 {
   "seo": {
     "title": "Ücretsiz YouTube'dan MP4'e Dönüştürücü - Hızlı ve Güvenli | Y2mp4.com",
-    "description": "YouTube videolarını saniyeler içinde MP4'e dönüştürün. Ücretsiz çevrimiçi indiricimiz %100 güvenlidir, reklam ve giriş gerektirmez. Yüksek kaliteli MP4, MP3 ve daha fazla formatı destekler.",
     "ogTitle": "Ücretsiz YouTube'dan MP4'e Dönüştürücü - Hızlı ve Güvenli | Y2mp4.com",
+    "description": "YouTube videolarını saniyeler içinde MP4'e dönüştürün. Ücretsiz çevrimiçi indiricimiz %100 güvenlidir, reklam ve giriş gerektirmez. Yüksek kaliteli MP4, MP3 ve daha fazla formatı destekler.",
     "ogDescription": "YouTube videolarını saniyeler içinde MP4'e dönüştürün. Ücretsiz çevrimiçi indiricimiz %100 güvenlidir, reklam ve giriş gerektirmez. Yüksek kaliteli MP4, MP3 ve daha fazla formatı destekler."
   },
-  "title": "YouTube'dan MP4'e Dönüştürücü",
-  "description": "URL'yi yapıştır ve YouTube'u hızlıca MP4'e dönüştür. Her zaman ücretsiz, her zaman çalışır, reklamsız.",
-  "download": "İNDİR",
   "tip": "İçerik indirirken lütfen telif haklarına dikkat edin. Bu araç telif hakkı korumalı müzikleri indirmek için tasarlanmamıştır.",
-  "tooltipText": "Bu araç sadece yasal, ihlal etmeyen kullanım için kullanılabilir. Eğer bir içerik üreticisiyseniz ve videolarınızın bu araçla indirilmesini engellemek istiyorsanız, videonuzun etiketlerine veya açıklamasına #nodownload ekleyin.",
+  "step": "Adım",
+  "title": "YouTube'dan MP4'e Dönüştürücü",
+  "copyUrl": "YouTube Video URL'sini kopyala",
   "formats": "Tüm Formatlar",
-  "formatsTip": "Kaydetmek için tıkla",
   "reviews": [
     {
       "text": "Favori videolarımı kaydetmek için mükemmel! Hızlı indirme ve kullanımı çok basit. Kayıt gerekmiyor.",
@@ -38,12 +36,27 @@
       "author": "Emma_Wilson"
     }
   ],
-  "howToConvertTitle": "YouTube Videosunu MP4'e Dönüştürme",
-  "howToConvertDescription": "Uzun bir uçuşta veya internet erişimi olmayan uzak bir bölgede olduğunuzu hayal edin. Favori videonuzu izlemek imkansız hale geliyor, değil mi?\n    İşte burada çevrimdışı izleme devreye giriyor. Videoları önceden indirerek, her yerde ve her zaman kesintisiz eğlence keyfi yaşayabilirsiniz.\n    YouTube'dan MP4 dönüştürücü bu süreci sorunsuz hale getirir. YouTube videolarını hızlı ve verimli bir şekilde indirmenizi sağlar.",
-  "step": "Adım",
-  "copyUrl": "YouTube Video URL'sini kopyala",
-  "clickDownload": "Doğrudan 'İndir' butonuna tıkla",
-  "saveVideo": "Birkaç dakika bekle ve videoyu kaydet",
+  "benefits": {
+    "title": "YouTube'dan MP4 Dönüştürücü Kullanmanın Avantajları",
+    "avoidAds": {
+      "title": "Reklamlardan Kaçının",
+      "description": "Reklamlar, özellikle favori videolarınızı izlerken bölündüğünde sinir bozucu olabilir. Bir YouTube MP4 indirici ile reklamları tamamen atlayabilirsiniz. Bir videoyu indirdikten sonra, hiçbir kesinti olmadan izleyebilirsiniz. Bu, artık 'Reklamı Atla' düğmelerinin görünmesini beklemek zorunda olmadığınız anlamına gelir.\n\nReklamlardan kaçınarak zaman kazanır ve daha akıcı bir izleme deneyimi yaşarsınız. Kendi kişisel reklamsız yayın hizmetiniz varmış gibi. İster eğitici videolar, ister müzik videoları veya filmler izliyor olun, bir MP4 indirici eğlencenizin önüne hiçbir şeyin geçmesine izin vermez."
+    },
+    "saveData": {
+      "title": "Veri ve Depolama Tasarrufu",
+      "description": "Video akışı, özellikle sınırlı bir tarifeniz varsa, mobil verinizi hızla tüketebilir. Bir YouTube MP4 indirici, videoları Wi-Fi üzerinden indirmenize izin vererek veri tasarrufu yapmanıza yardımcı olur. İndirdikten sonra, herhangi bir ek veri kullanmadan istediğiniz kadar izleyebilirsiniz.\n\nBir diğer harika avantaj ise depolama verimliliğidir. MP4 dosyaları kompakt olduğundan, cihazınızda çok yer kaplamaz. Depolama alanının bitmesi konusunda endişelenmeden favori videolarınızdan oluşan bir çevrimdışı kütüphane oluşturabilirsiniz. Bu, ücretsiz bir dönüştürücü web sitesini video koleksiyonunuzu yönetmek için mükemmel bir araç haline getirir."
+    },
+    "convenience": {
+      "title": "Kullanım Kolaylığı ve Erişilebilirlik",
+      "description": "Hiç internet erişimi olmayan bir yerde sıkışıp kaldınız ve favori videonuzu izlemeyi mi dilediniz? YouTube'dan MP4 dönüştürücü bu sorunu çözer. Videoları MP4 formatında indirmenizi sağlar ve bu format neredeyse tüm cihazlarda çalışır. Akıllı telefon, tablet veya dizüstü bilgisayar kullanıyor olun, içeriğinizin uyumluluğu konusunda endişelenmeden keyfini çıkarabilirsiniz.\n\nÇevrimdışı izleme, seyahat ederken veya bağlantının zayıf olduğu bölgelerde hayatı kolaylaştırır. Tamponlama veya kesintilerle uğraşmak zorunda kalmazsınız. Ayrıca, videoları indirmek, internet olmadığında bile yüksek kaliteli içeriğe her zaman erişebileceğiniz anlamına gelir."
+    },
+    "moreFromDownloads": {
+      "title": "İndirmelerinizden Daha Fazlasını Elde Edin",
+      "description": "Tamponlama ve veri tüketimine elveda deyin! İşte çevrimdışı videolarınızdan en iyi şekilde yararlanmanın yolları:\n<strong>1.Kişisel Medya Kütüphanenizi Oluşturun</strong>\nKendi Netflix tarzı koleksiyonunuzu oluşturun - kolay gezinme için klasörler halinde düzenlenmiş ve etiketlenmiş.\n<strong>Uzman İpucu: </strong>Videolarınıza hızlı notlar ekleyin ve yedekleri harici bir sürücüde saklayın. Eğlenceniz, kurallarınız.\n<strong>2.Endişesiz Seyahat Edin</strong>\nUçakta kesintili WiFi veya sıkıcı yolculuklar yok. Yola çıkmadan önce cihazınızı doldurun ve cebinizde sonsuz eğlence var. İster doğada kamp yapıyor olun, ister metro tünelinde sıkışmış olun, favori içeriğiniz her zaman hazır.\n<strong>3.Değerli Verilerinizi Koruyun</strong>\nWiFi üzerinden indirin, istediğiniz zaman izleyin. Şunlar için mükemmel:\n - Günlük yolculuk için ders videoları indiren öğrenciler\n - İş sunumlarını kaydeden profesyoneller\n - Titrek bağlantılarda yüklenme simgesini izlemekten bıkan herkes"
+    }
+  },
+  "download": "İNDİR",
+  "faqTitle": "SSS",
   "features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -76,36 +89,23 @@
       "description": "MP4, M4A veya WEBM olarak indirin. Hangi format veya kaliteyi arıyorsanız, sizin için çözümümüz var."
     }
   ],
-  "downloadNow": "Hemen İndir >>",
-  "featuresConverter": "YouTube Video Dönüştürücü Özellikleri",
-  "benefits": {
-    "title": "YouTube'dan MP4 Dönüştürücü Kullanmanın Avantajları",
-    "convenience": {
-      "title": "Kullanım Kolaylığı ve Erişilebilirlik",
-      "description": "Hiç internet erişimi olmayan bir yerde sıkışıp kaldınız ve favori videonuzu izlemeyi mi dilediniz? YouTube'dan MP4 dönüştürücü bu sorunu çözer. Videoları MP4 formatında indirmenizi sağlar ve bu format neredeyse tüm cihazlarda çalışır. Akıllı telefon, tablet veya dizüstü bilgisayar kullanıyor olun, içeriğinizin uyumluluğu konusunda endişelenmeden keyfini çıkarabilirsiniz.\n\nÇevrimdışı izleme, seyahat ederken veya bağlantının zayıf olduğu bölgelerde hayatı kolaylaştırır. Tamponlama veya kesintilerle uğraşmak zorunda kalmazsınız. Ayrıca, videoları indirmek, internet olmadığında bile yüksek kaliteli içeriğe her zaman erişebileceğiniz anlamına gelir."
-    },
-    "avoidAds": {
-      "title": "Reklamlardan Kaçının",
-      "description": "Reklamlar, özellikle favori videolarınızı izlerken bölündüğünde sinir bozucu olabilir. Bir YouTube MP4 indirici ile reklamları tamamen atlayabilirsiniz. Bir videoyu indirdikten sonra, hiçbir kesinti olmadan izleyebilirsiniz. Bu, artık 'Reklamı Atla' düğmelerinin görünmesini beklemek zorunda olmadığınız anlamına gelir.\n\nReklamlardan kaçınarak zaman kazanır ve daha akıcı bir izleme deneyimi yaşarsınız. Kendi kişisel reklamsız yayın hizmetiniz varmış gibi. İster eğitici videolar, ister müzik videoları veya filmler izliyor olun, bir MP4 indirici eğlencenizin önüne hiçbir şeyin geçmesine izin vermez."
-    },
-    "saveData": {
-      "title": "Veri ve Depolama Tasarrufu",
-      "description": "Video akışı, özellikle sınırlı bir tarifeniz varsa, mobil verinizi hızla tüketebilir. Bir YouTube MP4 indirici, videoları Wi-Fi üzerinden indirmenize izin vererek veri tasarrufu yapmanıza yardımcı olur. İndirdikten sonra, herhangi bir ek veri kullanmadan istediğiniz kadar izleyebilirsiniz.\n\nBir diğer harika avantaj ise depolama verimliliğidir. MP4 dosyaları kompakt olduğundan, cihazınızda çok yer kaplamaz. Depolama alanının bitmesi konusunda endişelenmeden favori videolarınızdan oluşan bir çevrimdışı kütüphane oluşturabilirsiniz. Bu, ücretsiz bir dönüştürücü web sitesini video koleksiyonunuzu yönetmek için mükemmel bir araç haline getirir."
-    },
-    "moreFromDownloads": {
-      "title": "İndirmelerinizden Daha Fazlasını Elde Edin",
-      "description": "Tamponlama ve veri tüketimine elveda deyin! İşte çevrimdışı videolarınızdan en iyi şekilde yararlanmanın yolları:\n<strong>1.Kişisel Medya Kütüphanenizi Oluşturun</strong>\nKendi Netflix tarzı koleksiyonunuzu oluşturun - kolay gezinme için klasörler halinde düzenlenmiş ve etiketlenmiş.\n<strong>Uzman İpucu: </strong>Videolarınıza hızlı notlar ekleyin ve yedekleri harici bir sürücüde saklayın. Eğlenceniz, kurallarınız.\n<strong>2.Endişesiz Seyahat Edin</strong>\nUçakta kesintili WiFi veya sıkıcı yolculuklar yok. Yola çıkmadan önce cihazınızı doldurun ve cebinizde sonsuz eğlence var. İster doğada kamp yapıyor olun, ister metro tünelinde sıkışmış olun, favori içeriğiniz her zaman hazır.\n<strong>3.Değerli Verilerinizi Koruyun</strong>\nWiFi üzerinden indirin, istediğiniz zaman izleyin. Şunlar için mükemmel:\n - Günlük yolculuk için ders videoları indiren öğrenciler\n - İş sunumlarını kaydeden profesyoneller\n - Titrek bağlantılarda yüklenme simgesini izlemekten bıkan herkes"
-    }
-  },
-  "faqTitle": "SSS",
-  "faq1Question": "1. YouTube'dan MP4 dönüştürücü kullanmak yasal mı?",
+  "saveVideo": "Birkaç dakika bekle ve videoyu kaydet",
   "faq1Answer": "Videoya bağlıdır. Creative Commons lisanslı veya çevrimdışı kullanım için açıkça izin verilen videoları yasal olarak indirebilirsiniz. Telif hakkı korumalı içeriği izinsiz indirmekten kaçının.\n<strong>İpucu:</strong> İndirmeden önce her zaman videonun kullanım şartlarını kontrol edin.",
-  "faq2Question": "2. YouTube'dan MP4 dönüştürücüyü telefonumda kullanabilir miyim?",
   "faq2Answer": "Evet! Mobil cihazlarda çalışır. Videoları doğrudan telefonunuza indirmek için uygulamaları veya mobil uyumlu web sitelerini kullanabilirsiniz. Sadece video bağlantısını yapıştırın, MP4'ü seçin ve indirin.",
-  "faq3Question": "3. YouTube videolarını hangi çözünürlükte indirmek en iyisidir?",
   "faq3Answer": "İhtiyaçlarınıza bağlıdır. Yüksek kaliteli oynatım için HD (720p) veya 4K'yı seçin. Depolama alanından tasarruf etmek istiyorsanız, 480p gibi daha düşük bir çözünürlük seçin.\n<strong>Uzman İpucu:</strong> Cihazınızın depolama kapasitesine göre kalite ve dosya boyutunu dengeleyin.",
-  "faq4Question": "4. Ücretsiz YouTube'dan MP4 dönüştürücüler güvenli mi?",
   "faq4Answer": "Pek çok ücretsiz dönüştürücü şüpheli olsa da, biz güvenliğinizi ciddiye alıyoruz. Dönüştürücümüz tamamen tarayıcınızda çalışır ve gizli indirmeler veya şüpheli açılır pencereler içermez. Güvenli HTTPS şifrelemesi kullanıyoruz ve kişisel verilerinizi veya izleme geçmişinizi asla saklamıyoruz. Ayrıca, düzenli olarak kötü amaçlı yazılım taraması yapıyor ve hizmetimizi tertemiz tutuyoruz. Casus yazılım yok, gereksiz yazılım yok - sadece güvenebileceğiniz düz bir video dönüştürme işlemi.",
+  "faq5Answer": "Dönüştürücümüz her tür kullanıcı için mükemmel bir araçtır. İşte kimlerin seveceği:\n\nİçerik Üreticileri: Bir sonraki büyük düzenlemeniz veya sosyal medya remixiniz için videolar yakalayın\n\nÖğrenciler & Öğretmenler: Her yerde çalışma seansları için eğitim videoları ve dersler stoklayın\n\nSeyahat Severler: Uzun uçuşlar ve yolculuklar için cihazınızı eğlenceyle doldurun\n\nİş Profesyonelleri: İnternet olsun ya da olmasın, önemli video içeriğini parmaklarınızın ucunda tutun\n\nGünlük İzleyiciler: Rahatlayın ve favori YouTube içeriğinizi istediğiniz cihazda, istediğiniz zaman keyfini çıkarın",
+  "formatsTip": "Kaydetmek için tıkla",
+  "description": "URL'yi yapıştır ve YouTube'u hızlıca MP4'e dönüştür. Her zaman ücretsiz, her zaman çalışır, reklamsız.",
+  "downloadNow": "Hemen İndir >>",
+  "tooltipText": "Bu araç sadece yasal, ihlal etmeyen kullanım için kullanılabilir. Eğer bir içerik üreticisiyseniz ve videolarınızın bu araçla indirilmesini engellemek istiyorsanız, videonuzun etiketlerine veya açıklamasına #nodownload ekleyin.",
+  "faq1Question": "1. YouTube'dan MP4 dönüştürücü kullanmak yasal mı?",
+  "faq2Question": "2. YouTube'dan MP4 dönüştürücüyü telefonumda kullanabilir miyim?",
+  "faq3Question": "3. YouTube videolarını hangi çözünürlükte indirmek en iyisidir?",
+  "faq4Question": "4. Ücretsiz YouTube'dan MP4 dönüştürücüler güvenli mi?",
   "faq5Question": "5. YouTube'dan MP4 dönüştürücüyü kimler kullanır?",
-  "faq5Answer": "Dönüştürücümüz her tür kullanıcı için mükemmel bir araçtır. İşte kimlerin seveceği:\n\nİçerik Üreticileri: Bir sonraki büyük düzenlemeniz veya sosyal medya remixiniz için videolar yakalayın\n\nÖğrenciler & Öğretmenler: Her yerde çalışma seansları için eğitim videoları ve dersler stoklayın\n\nSeyahat Severler: Uzun uçuşlar ve yolculuklar için cihazınızı eğlenceyle doldurun\n\nİş Profesyonelleri: İnternet olsun ya da olmasın, önemli video içeriğini parmaklarınızın ucunda tutun\n\nGünlük İzleyiciler: Rahatlayın ve favori YouTube içeriğinizi istediğiniz cihazda, istediğiniz zaman keyfini çıkarın"
+  "clickDownload": "Doğrudan 'İndir' butonuna tıkla",
+  "featuresConverter": "YouTube Video Dönüştürücü Özellikleri",
+  "howToConvertTitle": "YouTube Videosunu MP4'e Dönüştürme",
+  "howToConvertDescription": "Uzun bir uçuşta veya internet erişimi olmayan uzak bir bölgede olduğunuzu hayal edin. Favori videonuzu izlemek imkansız hale geliyor, değil mi?\n    İşte burada çevrimdışı izleme devreye giriyor. Videoları önceden indirerek, her yerde ve her zaman kesintisiz eğlence keyfi yaşayabilirsiniz.\n    YouTube'dan MP4 dönüştürücü bu süreci sorunsuz hale getirir. YouTube videolarını hızlı ve verimli bir şekilde indirmenizi sağlar."
 }

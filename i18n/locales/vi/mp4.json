@@ -1,17 +1,15 @@
 {
   "seo": {
     "title": "Trình chuyển đổi YouTube sang MP4 miễn phí - Nhanh và An toàn | Y2mp4.com",
-    "description": "Chuyển đổi video YouTube sang MP4 trong vài giây. Trình tải xuống trực tuyến miễn phí của chúng tôi an toàn 100%, không yêu cầu quảng cáo và không cần đăng nhập. Hỗ trợ các định dạng MP4, MP3 và nhiều định dạng khác với chất lượng cao.",
     "ogTitle": "Trình chuyển đổi YouTube sang MP4 miễn phí - Nhanh và An toàn | Y2mp4.com",
+    "description": "Chuyển đổi video YouTube sang MP4 trong vài giây. Trình tải xuống trực tuyến miễn phí của chúng tôi an toàn 100%, không yêu cầu quảng cáo và không cần đăng nhập. Hỗ trợ các định dạng MP4, MP3 và nhiều định dạng khác với chất lượng cao.",
     "ogDescription": "Chuyển đổi video YouTube sang MP4 trong vài giây. Trình tải xuống trực tuyến miễn phí của chúng tôi an toàn 100%, không yêu cầu quảng cáo và không cần đăng nhập. Hỗ trợ các định dạng MP4, MP3 và nhiều định dạng khác với chất lượng cao."
   },
-  "title": "Chuyển đổi YouTube sang MP4",
-  "description": "Dán URL và chuyển đổi YouTube sang MP4 nhanh chóng. Luôn miễn phí, hoạt động ổn định, không có quảng cáo.",
-  "download": "TẢI XUỐNG",
   "tip": "Vui lòng lưu ý bản quyền khi tải nội dung. Công cụ này không dùng để tải nhạc có bản quyền.",
-  "tooltipText": "Công cụ này chỉ có thể được sử dụng cho mục đích hợp pháp và không vi phạm. Nếu bạn là người tạo nội dung và muốn ngăn video của mình được tải xuống bằng công cụ này, chỉ cần thêm #nodownload vào thẻ hoặc mô tả video của bạn.",
+  "step": "Bước",
+  "title": "Chuyển đổi YouTube sang MP4",
+  "copyUrl": "Sao chép URL video YouTube",
   "formats": "Tất cả định dạng",
-  "formatsTip": "Nhấp để lưu",
   "reviews": [
     {
       "text": "Hoàn hảo để lưu video yêu thích của tôi! Tải xuống nhanh và cực kỳ dễ sử dụng. Không cần đăng ký.",
@@ -38,12 +36,27 @@
       "author": "Emma_Wilson"
     }
   ],
-  "howToConvertTitle": "Cách chuyển đổi video YouTube sang MP4",
-  "howToConvertDescription": "Hãy tưởng tượng bạn đang trên chuyến bay dài hoặc ở khu vực không có internet. Bạn không thể phát video yêu thích của mình, phải không?\nĐây là lúc tính năng xem offline phát huy tác dụng. Bằng cách tải video trước, bạn có thể thưởng thức giải trí không gián đoạn mọi lúc, mọi nơi.\nCông cụ chuyển đổi YouTube sang MP4 giúp quá trình này trơn tru. Nó cho phép bạn tải video YouTube nhanh chóng và hiệu quả.",
-  "step": "Bước",
-  "copyUrl": "Sao chép URL video YouTube",
-  "clickDownload": "Nhấp trực tiếp vào nút 'Tải xuống'",
-  "saveVideo": "Chờ vài phút và lưu video",
+  "benefits": {
+    "title": "Lợi ích khi sử dụng bộ chuyển đổi YouTube sang MP4",
+    "avoidAds": {
+      "title": "Tránh quảng cáo",
+      "description": "Quảng cáo có thể gây khó chịu, đặc biệt khi chúng làm gián đoạn video yêu thích của bạn. Với trình tải MP4 YouTube, bạn có thể bỏ qua hoàn toàn quảng cáo. Sau khi tải video, bạn có thể xem mà không bị gián đoạn. Điều này có nghĩa bạn không cần chờ nút 'Bỏ qua quảng cáo' xuất hiện nữa.\n\nTránh quảng cáo giúp bạn tiết kiệm thời gian và có trải nghiệm xem mượt mà hơn. Giống như có dịch vụ phát trực tuyến không quảng cáo riêng. Dù bạn đang xem hướng dẫn, video âm nhạc hay phim ảnh, trình tải MP4 đảm bảo không gì cản trở giải trí của bạn."
+    },
+    "saveData": {
+      "title": "Tiết kiệm dữ liệu và dung lượng",
+      "description": "Phát trực tuyến video có thể nhanh chóng ngốn dữ liệu di động, đặc biệt nếu bạn có gói hạn chế. Trình tải MP4 YouTube giúp tiết kiệm dữ liệu bằng cách cho phép bạn tải video qua Wi-Fi. Sau khi tải, bạn có thể xem bao nhiêu lần tùy thích mà không tốn thêm dữ liệu.\n\nMột lợi ích tuyệt vời khác là hiệu quả lưu trữ. File MP4 nhỏ gọn nên không chiếm nhiều dung lượng thiết bị. Bạn có thể xây dựng thư viện offline cho video yêu thích mà không lo hết dung lượng. Điều này biến website chuyển đổi miễn phí thành công cụ tuyệt vời để quản lý bộ sưu tập video của bạn."
+    },
+    "convenience": {
+      "title": "Tiện lợi và dễ tiếp cận",
+      "description": "Bạn đã bao giờ mắc kẹt ở nơi không có internet và muốn xem video yêu thích? Bộ chuyển đổi YouTube sang MP4 giải quyết vấn đề này. Nó cho phép bạn tải video ở định dạng MP4, hoạt động trên hầu hết mọi thiết bị. Dù bạn dùng smartphone, tablet hay laptop, bạn đều có thể thưởng thức nội dung mà không lo vấn đề tương thích.\n\nXem offline cũng giúp cuộc sống dễ dàng hơn khi bạn đi du lịch hoặc ở khu vực kết nối kém. Bạn không phải đối mặt với tình trạng giật lag hay gián đoạn. Hơn nữa, tải video đảm bảo bạn luôn có nội dung chất lượng cao, ngay cả khi không có internet."
+    },
+    "moreFromDownloads": {
+      "title": "Tận dụng tối đa video đã tải",
+      "description": "Nói lời tạm biệt với giật lag và hao tốn dữ liệu! Đây là cách tận dụng tối đa video offline:\n<strong>1.Xây dựng thư viện media cá nhân</strong>\nTạo bộ sưu tập kiểu Netflix của riêng bạn - sắp xếp theo thư mục và gắn thẻ để duyệt dễ dàng.\n<strong>Mẹo chuyên nghiệp: </strong>Thêm ghi chú nhanh vào video và lưu backup ở ổ ngoài. Giải trí của bạn, quy tắc của bạn.\n<strong>2.Du lịch không lo lắng</strong>\nKhông còn WiFi máy bay chập chờn hay chuyến đi nhàm chán. Tải sẵn nội dung lên thiết bị trước khi lên đường, và bạn có giải trí vô tận trong túi. Dù bạn đang cắm trại hay kẹt trong đường hầm tàu điện, nội dung yêu thích luôn sẵn sàng.\n<strong>3.Tiết kiệm từng byte dữ liệu quý giá</strong>\nTải qua WiFi, xem bất cứ lúc nào. Hoàn hảo cho:\n - Sinh viên tải bài giảng cho lộ trình đi lại\n - Chuyên gia lưu bài thuyết trình công việc\n - Bất cứ ai mệt mỏi với vòng quay tải khi kết nối kém"
+    }
+  },
+  "download": "TẢI XUỐNG",
+  "faqTitle": "Câu hỏi thường gặp",
   "features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -76,36 +89,23 @@
       "description": "Tải xuống ở định dạng MP4, M4A hoặc WEBM. Bất kể bạn cần định dạng hay chất lượng nào, chúng tôi đều có."
     }
   ],
-  "downloadNow": "Tải xuống ngay >>",
-  "featuresConverter": "Tính năng của bộ chuyển đổi video YouTube",
-  "benefits": {
-    "title": "Lợi ích khi sử dụng bộ chuyển đổi YouTube sang MP4",
-    "convenience": {
-      "title": "Tiện lợi và dễ tiếp cận",
-      "description": "Bạn đã bao giờ mắc kẹt ở nơi không có internet và muốn xem video yêu thích? Bộ chuyển đổi YouTube sang MP4 giải quyết vấn đề này. Nó cho phép bạn tải video ở định dạng MP4, hoạt động trên hầu hết mọi thiết bị. Dù bạn dùng smartphone, tablet hay laptop, bạn đều có thể thưởng thức nội dung mà không lo vấn đề tương thích.\n\nXem offline cũng giúp cuộc sống dễ dàng hơn khi bạn đi du lịch hoặc ở khu vực kết nối kém. Bạn không phải đối mặt với tình trạng giật lag hay gián đoạn. Hơn nữa, tải video đảm bảo bạn luôn có nội dung chất lượng cao, ngay cả khi không có internet."
-    },
-    "avoidAds": {
-      "title": "Tránh quảng cáo",
-      "description": "Quảng cáo có thể gây khó chịu, đặc biệt khi chúng làm gián đoạn video yêu thích của bạn. Với trình tải MP4 YouTube, bạn có thể bỏ qua hoàn toàn quảng cáo. Sau khi tải video, bạn có thể xem mà không bị gián đoạn. Điều này có nghĩa bạn không cần chờ nút 'Bỏ qua quảng cáo' xuất hiện nữa.\n\nTránh quảng cáo giúp bạn tiết kiệm thời gian và có trải nghiệm xem mượt mà hơn. Giống như có dịch vụ phát trực tuyến không quảng cáo riêng. Dù bạn đang xem hướng dẫn, video âm nhạc hay phim ảnh, trình tải MP4 đảm bảo không gì cản trở giải trí của bạn."
-    },
-    "saveData": {
-      "title": "Tiết kiệm dữ liệu và dung lượng",
-      "description": "Phát trực tuyến video có thể nhanh chóng ngốn dữ liệu di động, đặc biệt nếu bạn có gói hạn chế. Trình tải MP4 YouTube giúp tiết kiệm dữ liệu bằng cách cho phép bạn tải video qua Wi-Fi. Sau khi tải, bạn có thể xem bao nhiêu lần tùy thích mà không tốn thêm dữ liệu.\n\nMột lợi ích tuyệt vời khác là hiệu quả lưu trữ. File MP4 nhỏ gọn nên không chiếm nhiều dung lượng thiết bị. Bạn có thể xây dựng thư viện offline cho video yêu thích mà không lo hết dung lượng. Điều này biến website chuyển đổi miễn phí thành công cụ tuyệt vời để quản lý bộ sưu tập video của bạn."
-    },
-    "moreFromDownloads": {
-      "title": "Tận dụng tối đa video đã tải",
-      "description": "Nói lời tạm biệt với giật lag và hao tốn dữ liệu! Đây là cách tận dụng tối đa video offline:\n<strong>1.Xây dựng thư viện media cá nhân</strong>\nTạo bộ sưu tập kiểu Netflix của riêng bạn - sắp xếp theo thư mục và gắn thẻ để duyệt dễ dàng.\n<strong>Mẹo chuyên nghiệp: </strong>Thêm ghi chú nhanh vào video và lưu backup ở ổ ngoài. Giải trí của bạn, quy tắc của bạn.\n<strong>2.Du lịch không lo lắng</strong>\nKhông còn WiFi máy bay chập chờn hay chuyến đi nhàm chán. Tải sẵn nội dung lên thiết bị trước khi lên đường, và bạn có giải trí vô tận trong túi. Dù bạn đang cắm trại hay kẹt trong đường hầm tàu điện, nội dung yêu thích luôn sẵn sàng.\n<strong>3.Tiết kiệm từng byte dữ liệu quý giá</strong>\nTải qua WiFi, xem bất cứ lúc nào. Hoàn hảo cho:\n - Sinh viên tải bài giảng cho lộ trình đi lại\n - Chuyên gia lưu bài thuyết trình công việc\n - Bất cứ ai mệt mỏi với vòng quay tải khi kết nối kém"
-    }
-  },
-  "faqTitle": "Câu hỏi thường gặp",
-  "faq1Question": "1. Sử dụng công cụ chuyển đổi YouTube sang MP4 có hợp pháp không?",
+  "saveVideo": "Chờ vài phút và lưu video",
   "faq1Answer": "Tùy thuộc vào video. Bạn có thể tải hợp pháp video có giấy phép Creative Commons hoặc được cho phép sử dụng offline. Tránh tải nội dung có bản quyền khi chưa được phép để tuân thủ pháp luật.\n<strong>Mẹo:</strong> Luôn kiểm tra điều khoản sử dụng video trước khi tải.",
-  "faq2Question": "2. Tôi có thể dùng công cụ chuyển đổi YouTube sang MP4 trên điện thoại không?",
   "faq2Answer": "Có! Nó hoạt động trên thiết bị di động. Bạn có thể dùng ứng dụng hoặc website tối ưu cho di động để tải video trực tiếp về điện thoại. Chỉ cần dán liên kết video, chọn MP4 và nhấn tải.",
-  "faq3Question": "3. Độ phân giải nào tốt nhất để tải video YouTube?",
   "faq3Answer": "Tùy nhu cầu của bạn. Để phát chất lượng cao, chọn HD (720p) hoặc 4K. Nếu tiết kiệm dung lượng, chọn độ phân giải thấp hơn như 480p.\n<strong>Mẹo chuyên nghiệp:</strong> Cân bằng giữa chất lượng và kích thước file dựa trên dung lượng thiết bị.",
-  "faq4Question": "4. Công cụ chuyển đổi YouTube sang MP4 miễn phí có an toàn không?",
   "faq4Answer": "Dù nhiều công cụ miễn phí có thể đáng ngờ, chúng tôi coi trọng bảo mật của bạn. Công cụ của chúng tôi chạy hoàn toàn trên trình duyệt, không tải lén hay pop-up đáng ngờ. Chúng tôi dùng mã hóa HTTPS bảo mật và không lưu dữ liệu cá nhân hay lịch sử xem của bạn. Hơn nữa, chúng tôi thường xuyên quét malware và giữ dịch vụ sạch sẽ. Không phần mềm gián điệp, không phần mềm thừa - chỉ chuyển đổi video đơn giản, đáng tin cậy.",
+  "faq5Answer": "Công cụ của chúng tôi hoàn hảo cho mọi loại người dùng. Đây là những người sẽ yêu thích nó:\n\nNgười sáng tạo nội dung: Tải video cho chỉnh sửa lớn tiếp theo hoặc remix mạng xã hội\n\nSinh viên & Giáo viên: Lưu trữ bài giảng và hướng dẫn để học mọi lúc mọi nơi\n\nNgười thường xuyên di chuyển: Tải sẵn giải trí lên thiết bị cho những chuyến bay dài và lộ trình đi lại\n\nChuyên gia kinh doanh: Luôn có sẵn nội dung video quan trọng, dù có internet hay không\n\nNgười xem hàng ngày: Thư giãn và thưởng thức nội dung YouTube yêu thích trên mọi thiết bị, bất cứ khi nào bạn muốn",
+  "formatsTip": "Nhấp để lưu",
+  "description": "Dán URL và chuyển đổi YouTube sang MP4 nhanh chóng. Luôn miễn phí, hoạt động ổn định, không có quảng cáo.",
+  "downloadNow": "Tải xuống ngay >>",
+  "tooltipText": "Công cụ này chỉ có thể được sử dụng cho mục đích hợp pháp và không vi phạm. Nếu bạn là người tạo nội dung và muốn ngăn video của mình được tải xuống bằng công cụ này, chỉ cần thêm #nodownload vào thẻ hoặc mô tả video của bạn.",
+  "faq1Question": "1. Sử dụng công cụ chuyển đổi YouTube sang MP4 có hợp pháp không?",
+  "faq2Question": "2. Tôi có thể dùng công cụ chuyển đổi YouTube sang MP4 trên điện thoại không?",
+  "faq3Question": "3. Độ phân giải nào tốt nhất để tải video YouTube?",
+  "faq4Question": "4. Công cụ chuyển đổi YouTube sang MP4 miễn phí có an toàn không?",
   "faq5Question": "5. Ai sử dụng công cụ chuyển đổi YouTube sang MP4?",
-  "faq5Answer": "Công cụ của chúng tôi hoàn hảo cho mọi loại người dùng. Đây là những người sẽ yêu thích nó:\n\nNgười sáng tạo nội dung: Tải video cho chỉnh sửa lớn tiếp theo hoặc remix mạng xã hội\n\nSinh viên & Giáo viên: Lưu trữ bài giảng và hướng dẫn để học mọi lúc mọi nơi\n\nNgười thường xuyên di chuyển: Tải sẵn giải trí lên thiết bị cho những chuyến bay dài và lộ trình đi lại\n\nChuyên gia kinh doanh: Luôn có sẵn nội dung video quan trọng, dù có internet hay không\n\nNgười xem hàng ngày: Thư giãn và thưởng thức nội dung YouTube yêu thích trên mọi thiết bị, bất cứ khi nào bạn muốn"
+  "clickDownload": "Nhấp trực tiếp vào nút 'Tải xuống'",
+  "featuresConverter": "Tính năng của bộ chuyển đổi video YouTube",
+  "howToConvertTitle": "Cách chuyển đổi video YouTube sang MP4",
+  "howToConvertDescription": "Hãy tưởng tượng bạn đang trên chuyến bay dài hoặc ở khu vực không có internet. Bạn không thể phát video yêu thích của mình, phải không?\nĐây là lúc tính năng xem offline phát huy tác dụng. Bằng cách tải video trước, bạn có thể thưởng thức giải trí không gián đoạn mọi lúc, mọi nơi.\nCông cụ chuyển đổi YouTube sang MP4 giúp quá trình này trơn tru. Nó cho phép bạn tải video YouTube nhanh chóng và hiệu quả."
 }

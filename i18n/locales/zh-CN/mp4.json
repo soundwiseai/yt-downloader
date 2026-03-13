@@ -1,17 +1,15 @@
 {
   "seo": {
     "title": "免费 YouTube 转 MP4 转换器 - 快速安全 | Y2mp4.com",
-    "description": "在数秒内将 YouTube 视频转换为 MP4。我们的免费视频下载器 100% 安全，无广告，无需登录。支持高质量的 MP4、MP3 及更多格式。",
     "ogTitle": "免费 YouTube 转 MP4 转换器 - 快速安全 | Y2mp4.com",
+    "description": "在数秒内将 YouTube 视频转换为 MP4。我们的免费视频下载器 100% 安全，无广告，无需登录。支持高质量的 MP4、MP3 及更多格式。",
     "ogDescription": "在数秒内将 YouTube 视频转换为 MP4。我们的免费视频下载器 100% 安全，无广告，无需登录。支持高质量的 MP4、MP3 及更多格式。"
   },
-  "title": "YouTube 转 MP4 转换器",
-  "description": "粘贴网址，快速将 YouTube 转换为 MP4。永久免费、稳定好用、无广告。",
-  "download": "下载",
   "tip": "下载内容时请注意版权问题。本工具不适用于下载受版权保护的音乐。",
-  "tooltipText": "此工具仅可用于合法、非侵权用途。如果您是内容创作者并希望阻止使用此工具下载您的视频，只需在视频标签或描述中添加 #nodownload。",
+  "step": "步骤",
+  "title": "YouTube 转 MP4 转换器",
+  "copyUrl": "复制 YouTube 视频网址",
   "formats": "所有格式",
-  "formatsTip": "点击保存",
   "reviews": [
     {
       "text": "保存我最喜欢的视频太完美了！下载速度快，操作超简单，无需注册。",
@@ -38,12 +36,27 @@
       "author": "Emma_Wilson"
     }
   ],
-  "howToConvertTitle": "如何将 YouTube 视频转换为 MP4",
-  "howToConvertDescription": "想象一下，当你在长途飞行中或网络信号差的地方，无法在线观看视频时，离线观看就派上用场了。通过提前下载视频，你可以随时随地享受不中断的娱乐体验。YouTube 转 MP4 转换器让这一过程变得简单高效，它能帮助你快速、安全地下载 YouTube 视频。",
-  "step": "步骤",
-  "copyUrl": "复制 YouTube 视频网址",
-  "clickDownload": "直接点击“下载”按钮",
-  "saveVideo": "等待片刻后保存视频",
+  "benefits": {
+    "title": "使用 YouTube 转 MP4 转换器的优势",
+    "avoidAds": {
+      "title": "避免广告",
+      "description": "广告很烦人，尤其是打断你喜欢的视频时。使用 YouTube MP4 下载器，你可以完全跳过广告。下载视频后，观看全程无干扰。\n\n这样不仅节省时间，还能获得更流畅的观看体验。无论是教程、音乐视频还是电影，MP4 下载器都能保证你的娱乐不被打断。"
+    },
+    "saveData": {
+      "title": "节省流量和存储空间",
+      "description": "在线观看视频会快速消耗你的移动数据，尤其是在使用流量有限的套餐时。YouTube MP4 下载器能让你通过 Wi-Fi 下载视频，节省流量。下载后可以反复观看而不消耗额外数据。\n\n另一个优势是节省存储空间。MP4 文件体积小，不会占用太多设备容量，让你轻松建立离线视频库。"
+    },
+    "convenience": {
+      "title": "便捷与兼容性",
+      "description": "你是否曾因为没有网络而无法观看喜欢的视频？YouTube 转 MP4 转换器可以解决这个问题。它能让你下载 MP4 格式的视频，几乎兼容所有设备。无论是智能手机、平板还是笔记本电脑，都可以轻松播放。\n\n离线观看在旅行或网络不佳的地方尤其方便。无需再忍受缓冲或中断，下载视频能让你随时观看高质量内容，即使没有网络也不受影响。"
+    },
+    "moreFromDownloads": {
+      "title": "充分利用你的下载内容",
+      "description": "告别缓冲和数据消耗！以下是使用离线视频的妙招：\n<strong>1. 建立个人媒体库</strong>\n创建像 Netflix 一样的收藏夹——按文件夹分类并添加标签方便管理。\n<strong>专业提示：</strong>为视频添加简短备注，并在外部硬盘备份。\n<strong>2. 无忧旅行</strong>\n提前下载好内容，出行途中随时播放，无论在露营地还是地铁隧道中。\n<strong>3. 节省宝贵流量</strong>\n通过 Wi-Fi 下载，随时观看，适合学生、职场人士或信号不佳时使用。"
+    }
+  },
+  "download": "下载",
+  "faqTitle": "常见问题",
   "features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -76,36 +89,23 @@
       "description": "支持 MP4、M4A 或 WEBM 格式下载。无论你需要哪种格式或画质，我们都能满足。"
     }
   ],
-  "downloadNow": "立即下载 >>",
-  "featuresConverter": "YouTube 视频转换器特点",
-  "benefits": {
-    "title": "使用 YouTube 转 MP4 转换器的优势",
-    "convenience": {
-      "title": "便捷与兼容性",
-      "description": "你是否曾因为没有网络而无法观看喜欢的视频？YouTube 转 MP4 转换器可以解决这个问题。它能让你下载 MP4 格式的视频，几乎兼容所有设备。无论是智能手机、平板还是笔记本电脑，都可以轻松播放。\n\n离线观看在旅行或网络不佳的地方尤其方便。无需再忍受缓冲或中断，下载视频能让你随时观看高质量内容，即使没有网络也不受影响。"
-    },
-    "avoidAds": {
-      "title": "避免广告",
-      "description": "广告很烦人，尤其是打断你喜欢的视频时。使用 YouTube MP4 下载器，你可以完全跳过广告。下载视频后，观看全程无干扰。\n\n这样不仅节省时间，还能获得更流畅的观看体验。无论是教程、音乐视频还是电影，MP4 下载器都能保证你的娱乐不被打断。"
-    },
-    "saveData": {
-      "title": "节省流量和存储空间",
-      "description": "在线观看视频会快速消耗你的移动数据，尤其是在使用流量有限的套餐时。YouTube MP4 下载器能让你通过 Wi-Fi 下载视频，节省流量。下载后可以反复观看而不消耗额外数据。\n\n另一个优势是节省存储空间。MP4 文件体积小，不会占用太多设备容量，让你轻松建立离线视频库。"
-    },
-    "moreFromDownloads": {
-      "title": "充分利用你的下载内容",
-      "description": "告别缓冲和数据消耗！以下是使用离线视频的妙招：\n<strong>1. 建立个人媒体库</strong>\n创建像 Netflix 一样的收藏夹——按文件夹分类并添加标签方便管理。\n<strong>专业提示：</strong>为视频添加简短备注，并在外部硬盘备份。\n<strong>2. 无忧旅行</strong>\n提前下载好内容，出行途中随时播放，无论在露营地还是地铁隧道中。\n<strong>3. 节省宝贵流量</strong>\n通过 Wi-Fi 下载，随时观看，适合学生、职场人士或信号不佳时使用。"
-    }
-  },
-  "faqTitle": "常见问题",
-  "faq1Question": "1. 使用 YouTube 转 MP4 转换器合法吗？",
+  "saveVideo": "等待片刻后保存视频",
   "faq1Answer": "这取决于视频内容。你可以合法下载具有 Creative Commons 授权或明确允许离线使用的视频。请勿在未经授权的情况下下载受版权保护的内容。\n<strong>提示：</strong>下载前务必查看视频的使用条款。",
-  "faq2Question": "2. 我可以在手机上使用 YouTube 转 MP4 转换器吗？",
   "faq2Answer": "可以！它支持移动设备。你可以用手机直接下载视频，只需粘贴链接、选择 MP4 格式并点击下载。",
-  "faq3Question": "3. 下载 YouTube 视频的最佳分辨率是什么？",
   "faq3Answer": "如果追求高质量，选择 HD(720p) 或 4K；如果要节省空间，可以选择 480p。\n<strong>专业提示：</strong>根据设备存储容量平衡画质和文件大小。",
-  "faq4Question": "4. 免费的 YouTube 转 MP4 转换器安全吗？",
   "faq4Answer": "虽然有些免费转换器可能不可靠，但我们非常重视安全性。我们的转换器完全在浏览器运行，无需下载或安装，使用 HTTPS 加密，不收集任何个人信息，并定期扫描以防恶意软件。",
+  "faq5Answer": "我们的转换器适合各种用户：\n内容创作者：获取视频素材进行创作或混剪\n学生和教师：收集课程视频和教学资料\n旅行人士：下载娱乐内容随时播放\n商务人士：随时访问重要视频\n普通观众：随时随地享受喜爱的视频",
+  "formatsTip": "点击保存",
+  "description": "粘贴网址，快速将 YouTube 转换为 MP4。永久免费、稳定好用、无广告。",
+  "downloadNow": "立即下载 >>",
+  "tooltipText": "此工具仅可用于合法、非侵权用途。如果您是内容创作者并希望阻止使用此工具下载您的视频，只需在视频标签或描述中添加 #nodownload。",
+  "faq1Question": "1. 使用 YouTube 转 MP4 转换器合法吗？",
+  "faq2Question": "2. 我可以在手机上使用 YouTube 转 MP4 转换器吗？",
+  "faq3Question": "3. 下载 YouTube 视频的最佳分辨率是什么？",
+  "faq4Question": "4. 免费的 YouTube 转 MP4 转换器安全吗？",
   "faq5Question": "5. 谁会使用 YouTube 转 MP4 转换器？",
-  "faq5Answer": "我们的转换器适合各种用户：\n内容创作者：获取视频素材进行创作或混剪\n学生和教师：收集课程视频和教学资料\n旅行人士：下载娱乐内容随时播放\n商务人士：随时访问重要视频\n普通观众：随时随地享受喜爱的视频"
+  "clickDownload": "直接点击“下载”按钮",
+  "featuresConverter": "YouTube 视频转换器特点",
+  "howToConvertTitle": "如何将 YouTube 视频转换为 MP4",
+  "howToConvertDescription": "想象一下，当你在长途飞行中或网络信号差的地方，无法在线观看视频时，离线观看就派上用场了。通过提前下载视频，你可以随时随地享受不中断的娱乐体验。YouTube 转 MP4 转换器让这一过程变得简单高效，它能帮助你快速、安全地下载 YouTube 视频。"
 }

@@ -1,17 +1,15 @@
 {
   "seo": {
     "title": "Convertidor de YouTube a MP4 Gratis - Rápido y Seguro | Y2mp4.com",
-    "description": "Convierte videos de YouTube a MP4 en segundos. Nuestro descargador en línea gratuito es 100% seguro, no requiere anuncios ni registro. Soporta MP4, MP3 y más formatos en alta calidad.",
     "ogTitle": "Convertidor de YouTube a MP4 Gratis - Rápido y Seguro | Y2mp4.com",
+    "description": "Convierte videos de YouTube a MP4 en segundos. Nuestro descargador en línea gratuito es 100% seguro, no requiere anuncios ni registro. Soporta MP4, MP3 y más formatos en alta calidad.",
     "ogDescription": "Convierte videos de YouTube a MP4 en segundos. Nuestro descargador en línea gratuito es 100% seguro, no requiere anuncios ni registro. Soporta MP4, MP3 y más formatos en alta calidad."
   },
-  "title": "Convertidor de YouTube a MP4",
-  "description": "Pega el enlace y convierte YouTube a MP4 al instante. Siempre gratis, siempre funciona y sin anuncios.",
-  "download": "DESCARGAR",
   "tip": "Por favor respeta los derechos de autor al descargar contenido. Esta herramienta no está diseñada para descargar música protegida por derechos.",
-  "tooltipText": "Esta herramienta solo se puede usar para fines legales y sin infringir derechos. Si eres un creador de contenido y quieres evitar que tus videos se descarguen con esta herramienta, simplemente agrega #nodownload a las etiquetas o descripción de tu video.",
+  "step": "Paso",
+  "title": "Convertidor de YouTube a MP4",
+  "copyUrl": "Copia la URL del video de YouTube",
   "formats": "Todos los formatos",
-  "formatsTip": "Haz clic para guardar",
   "reviews": [
     {
       "text": "¡Perfecto para guardar mis videos favoritos! Descargas rápidas y super fácil de usar. No necesita registro.",
@@ -38,12 +36,27 @@
       "author": "Emma_Wilson"
     }
   ],
-  "howToConvertTitle": "Cómo convertir videos de YouTube a MP4",
-  "howToConvertDescription": "Imagina que estás en un vuelo largo o en una zona sin internet. Ver tu video favorito se vuelve imposible, ¿verdad? Para eso sirve ver videos sin conexión. Descargándolos antes, puedes disfrutarlos cuando quieras sin interrupciones. Un convertidor de YouTube a MP4 hace este proceso fácil. Te permite descargar videos de YouTube rápido y sin complicaciones.",
-  "step": "Paso",
-  "copyUrl": "Copia la URL del video de YouTube",
-  "clickDownload": "Haz clic directo en el botón 'Descargar'",
-  "saveVideo": "Espera unos minutos y guarda el video",
+  "benefits": {
+    "title": "Ventajas de usar el convertidor a MP4",
+    "avoidAds": {
+      "title": "Sin anuncios molestos",
+      "description": "Los anuncios interrumpen tus videos favoritos. Con este descargador MP4, los evitas por completo. Descarga el video y míralo sin pausas, sin esperar el 'Saltar anuncio'.\n\nAsí ahorras tiempo y disfrutas más. Como tener tu propio servicio sin anuncios. Tutoriales, música o películas - nada interfiere con tu diversión."
+    },
+    "saveData": {
+      "title": "Ahorra datos y espacio",
+      "description": "Ver videos en línea gasta muchos datos móviles, especialmente con planes limitados. Este descargador te ayuda: baja los videos por WiFi y los ves después sin gastar más datos.\n\nLos archivos MP4 son pequeños, así que no ocupan mucho espacio. Arma tu biblioteca de videos favoritos sin preocuparte por la memoria. Ideal para organizar tu colección."
+    },
+    "convenience": {
+      "title": "Comodidad y acceso fácil",
+      "description": "¿Alguna vez te quedaste sin internet queriendo ver un video? Este convertidor resuelve ese problema. Descargas en MP4 y lo ves en cualquier dispositivo - celular, tablet o computadora, sin problemas.\n\nVer sin conexión es ideal cuando viajas o tienes mala señal. Sin buffering ni cortes. Además, tendrás siempre contenido de buena calidad aunque no haya internet."
+    },
+    "moreFromDownloads": {
+      "title": "Aprovecha al máximo tus descargas",
+      "description": "¡Adiós al buffering y datos que se acaban! Así le sacas provecho a tus videos descargados:\n<strong>1. Crea tu videoteca personal</strong>\nOrganiza tus videos como en Netflix - en carpetas y con etiquetas para encontrarlos fácil.\n<strong>Tip pro: </strong>Agrega notas y guarda copias en un disco externo. Tú controlas tu entretenimiento.\n<strong>2. Viaja sin problemas</strong>\nOlvídate del WiFi malo del avión o viajes aburridos. Lleva entretenimiento en tu bolsillo. En el campo o el metro, tus videos favoritos siempre disponibles.\n<strong>3. Cuida tus datos</strong>\nDescarga con WiFi y mira cuando quieras. Perfecto para:\n - Estudiantes: lleva clases para el camino\n - Profesionales: guarda presentaciones\n - Todos: evita que se trabe el video con mala señal"
+    }
+  },
+  "download": "DESCARGAR",
+  "faqTitle": "Preguntas frecuentes",
   "features": [
     {
       "icon": "/images/yt_feature1.png",
@@ -76,36 +89,23 @@
       "description": "Descarga en MP4, M4A o WEBM. Elige el formato y calidad que prefieras, nosotros lo tenemos."
     }
   ],
-  "downloadNow": "Descargar ahora >>",
-  "featuresConverter": "Características del convertidor de YouTube",
-  "benefits": {
-    "title": "Ventajas de usar el convertidor a MP4",
-    "convenience": {
-      "title": "Comodidad y acceso fácil",
-      "description": "¿Alguna vez te quedaste sin internet queriendo ver un video? Este convertidor resuelve ese problema. Descargas en MP4 y lo ves en cualquier dispositivo - celular, tablet o computadora, sin problemas.\n\nVer sin conexión es ideal cuando viajas o tienes mala señal. Sin buffering ni cortes. Además, tendrás siempre contenido de buena calidad aunque no haya internet."
-    },
-    "avoidAds": {
-      "title": "Sin anuncios molestos",
-      "description": "Los anuncios interrumpen tus videos favoritos. Con este descargador MP4, los evitas por completo. Descarga el video y míralo sin pausas, sin esperar el 'Saltar anuncio'.\n\nAsí ahorras tiempo y disfrutas más. Como tener tu propio servicio sin anuncios. Tutoriales, música o películas - nada interfiere con tu diversión."
-    },
-    "saveData": {
-      "title": "Ahorra datos y espacio",
-      "description": "Ver videos en línea gasta muchos datos móviles, especialmente con planes limitados. Este descargador te ayuda: baja los videos por WiFi y los ves después sin gastar más datos.\n\nLos archivos MP4 son pequeños, así que no ocupan mucho espacio. Arma tu biblioteca de videos favoritos sin preocuparte por la memoria. Ideal para organizar tu colección."
-    },
-    "moreFromDownloads": {
-      "title": "Aprovecha al máximo tus descargas",
-      "description": "¡Adiós al buffering y datos que se acaban! Así le sacas provecho a tus videos descargados:\n<strong>1. Crea tu videoteca personal</strong>\nOrganiza tus videos como en Netflix - en carpetas y con etiquetas para encontrarlos fácil.\n<strong>Tip pro: </strong>Agrega notas y guarda copias en un disco externo. Tú controlas tu entretenimiento.\n<strong>2. Viaja sin problemas</strong>\nOlvídate del WiFi malo del avión o viajes aburridos. Lleva entretenimiento en tu bolsillo. En el campo o el metro, tus videos favoritos siempre disponibles.\n<strong>3. Cuida tus datos</strong>\nDescarga con WiFi y mira cuando quieras. Perfecto para:\n - Estudiantes: lleva clases para el camino\n - Profesionales: guarda presentaciones\n - Todos: evita que se trabe el video con mala señal"
-    }
-  },
-  "faqTitle": "Preguntas frecuentes",
-  "faq1Question": "1. ¿Es legal convertir videos de YouTube a MP4?",
+  "saveVideo": "Espera unos minutos y guarda el video",
   "faq1Answer": "Depende del video. Puedes descargar legalmente videos con licencia Creative Commons o permitidos para uso offline. Evita contenido con copyright sin permiso.\n<strong>Tip:</strong> Revisa siempre los términos del video antes de descargar.",
-  "faq2Question": "2. ¿Funciona en celulares?",
   "faq2Answer": "¡Claro! Funciona en móviles. Usa apps o páginas móviles para bajar videos directo a tu teléfono. Pega el link, elige MP4 y descarga.",
-  "faq3Question": "3. ¿Qué resolución es mejor para descargar?",
   "faq3Answer": "Según lo que necesites. Para mejor calidad: HD (720p) o 4K. Para ahorrar espacio: 480p o menos.\n<strong>Tip pro:</strong> Equilibra calidad y tamaño según la memoria de tu dispositivo.",
-  "faq4Question": "4. ¿Son seguros los convertidores gratis?",
   "faq4Answer": "Aunque muchos convertidores gratis son sospechosos, nosotros protegemos tu seguridad. Nuestro convertidor funciona en tu navegador sin descargas raras ni pop-ups. Usamos HTTPS seguro y no guardamos tus datos ni historial. Además, revisamos frecuentemente por virus y mantenemos todo limpio. Sin spyware, solo conversión de videos confiable.",
+  "faq5Answer": "Nuestro convertidor es perfecto para:\n\nCreadores de contenido: Consigue material para tus edits y redes\n\nEstudiantes y maestros: Guarda clases y tutoriales para estudiar\n\nViajeros: Lleva entretenimiento para vuelos y trayectos largos\n\nProfesionales: Ten videos importantes a la mano, con o sin internet\n\nTodos: Disfruta tu contenido favorito de YouTube en cualquier momento",
+  "formatsTip": "Haz clic para guardar",
+  "description": "Pega el enlace y convierte YouTube a MP4 al instante. Siempre gratis, siempre funciona y sin anuncios.",
+  "downloadNow": "Descargar ahora >>",
+  "tooltipText": "Esta herramienta solo se puede usar para fines legales y sin infringir derechos. Si eres un creador de contenido y quieres evitar que tus videos se descarguen con esta herramienta, simplemente agrega #nodownload a las etiquetas o descripción de tu video.",
+  "faq1Question": "1. ¿Es legal convertir videos de YouTube a MP4?",
+  "faq2Question": "2. ¿Funciona en celulares?",
+  "faq3Question": "3. ¿Qué resolución es mejor para descargar?",
+  "faq4Question": "4. ¿Son seguros los convertidores gratis?",
   "faq5Question": "5. ¿Quién usa este convertidor?",
-  "faq5Answer": "Nuestro convertidor es perfecto para:\n\nCreadores de contenido: Consigue material para tus edits y redes\n\nEstudiantes y maestros: Guarda clases y tutoriales para estudiar\n\nViajeros: Lleva entretenimiento para vuelos y trayectos largos\n\nProfesionales: Ten videos importantes a la mano, con o sin internet\n\nTodos: Disfruta tu contenido favorito de YouTube en cualquier momento"
+  "clickDownload": "Haz clic directo en el botón 'Descargar'",
+  "featuresConverter": "Características del convertidor de YouTube",
+  "howToConvertTitle": "Cómo convertir videos de YouTube a MP4",
+  "howToConvertDescription": "Imagina que estás en un vuelo largo o en una zona sin internet. Ver tu video favorito se vuelve imposible, ¿verdad? Para eso sirve ver videos sin conexión. Descargándolos antes, puedes disfrutarlos cuando quieras sin interrupciones. Un convertidor de YouTube a MP4 hace este proceso fácil. Te permite descargar videos de YouTube rápido y sin complicaciones."
 }

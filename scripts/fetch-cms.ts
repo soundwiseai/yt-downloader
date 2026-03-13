@@ -7,7 +7,7 @@
  * 环境变量：
  *   CMS_API_URL   — CMS 的 API 地址（默认 https://cms.musely.io）
  *   TENANT_SLUG   — 当前站点的租户标识（默认 y2mp4）
- *   SITE_DOMAIN   — 站点域名，用于 sitemap（默认 https://y2mp4.com）
+ *   SITE_DOMAIN   — 站点域名，用于 sitemap / robots（默认按 tenant / common.siteName 推断）
  *
  * 输出：
  *   1. i18n/locales/{locale}/{i18nPrefix}.json — 页面 i18n 内容
@@ -21,6 +21,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { inferSiteDomain, inferTenantSlug } from '../utils/project-identity'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -28,12 +29,21 @@ const PROJECT_ROOT = path.resolve(__dirname, '..')
 const I18N_DIR = path.join(PROJECT_ROOT, 'i18n/locales')
 const SITES_FILE = path.join(PROJECT_ROOT, 'sites.ts')
 const SITEMAP_FILE = path.join(PROJECT_ROOT, 'public/sitemap.xml')
+const ROBOTS_FILE = path.join(PROJECT_ROOT, 'public/robots.txt')
 
 // ── 环境变量 ──
 
 const CMS_API_URL = process.env.CMS_API_URL || 'https://cms.musely.io'
-const TENANT_SLUG = process.env.TENANT_SLUG || 'y2mp4'
-const SITE_DOMAIN = process.env.SITE_DOMAIN || 'https://y2mp4.com'
+const TENANT_SLUG = inferTenantSlug({
+  projectRoot: PROJECT_ROOT,
+  tenantSlug: process.env.TENANT_SLUG,
+  siteDomain: process.env.SITE_DOMAIN,
+})
+const SITE_DOMAIN = inferSiteDomain({
+  projectRoot: PROJECT_ROOT,
+  tenantSlug: TENANT_SLUG,
+  siteDomain: process.env.SITE_DOMAIN,
+})
 
 // ── 类型 ──
 
@@ -154,7 +164,7 @@ async function main() {
         name: pageKey,
         i18n: i18nPrefix || pageKey,
         seo: normalizedSeo,
-        url: urlPath,
+        url: normalizeRoutePath(urlPath),
         template: template || 'home',
         header: showInHeader ?? false,
         footer: showInFooter ?? true,
@@ -217,22 +227,45 @@ async function main() {
 
   if (sitesForSitemap.size > 0) {
     generateSitemap(sitesForSitemap, locales)
+    generateRobotsTxt()
     console.log(`   ✅ sitemap.xml: ${locales.length} 语言 × ${sitesForSitemap.size} 页面`)
+    console.log(`   ✅ robots.txt: ${SITE_DOMAIN}/sitemap.xml`)
   }
 
   console.log(`\n🎉 CMS 数据同步完成！共写入 ${pageCount + commonCount} 个内容文件\n`)
 }
 
+function normalizeRoutePath(urlPath: string) {
+  const trimmed = String(urlPath || '').trim()
+  if (!trimmed || trimmed === '/') {
+    return '/'
+  }
+
+  const withLeadingSlash = trimmed.startsWith('/') ? trimmed : `/${trimmed}`
+  return withLeadingSlash.replace(/\/+$/, '') || '/'
+}
+
 // ── 生成 sites.ts ──
 
 function generateSitesTs(routeMap: Map<string, SiteConfig>) {
-  const sites = Array.from(routeMap.values())
+  const sites = Array.from(routeMap.values()).sort((a, b) => {
+    const aUrl = normalizeRoutePath(a.url)
+    const bUrl = normalizeRoutePath(b.url)
+    const aIsHome = aUrl === '/'
+    const bIsHome = bUrl === '/'
+
+    if (aIsHome !== bIsHome) {
+      return aIsHome ? -1 : 1
+    }
+
+    return aUrl.localeCompare(bUrl) || a.name.localeCompare(b.name)
+  })
   const entries = sites.map((site) => {
     return `    {
         name: '${site.name}',
         i18n: '${site.i18n}',
         seo: '${site.seo}',
-        url: '${site.url}',
+        url: '${normalizeRoutePath(site.url)}',
         template: '${site.template}',
         header: ${site.header},
         footer: ${site.footer}
@@ -260,6 +293,7 @@ ${entries.join(',\n')}
 function generateSitemap(routeMap: Map<string, SiteConfig>, locales: string[]) {
   const today = new Date().toISOString().split('T')[0] + 'T00:00:00+00:00'
   const sites = Array.from(routeMap.values())
+  const pageSites = sites.filter((site) => normalizeRoutePath(site.url) !== '/')
 
   let urls = ''
 
@@ -271,8 +305,8 @@ function generateSitemap(routeMap: Map<string, SiteConfig>, locales: string[]) {
     urls += `  <url>\n    <loc>${homeLoc}</loc>\n    <lastmod>${today}</lastmod>\n  </url>\n`
 
     // 各页面
-    for (const site of sites) {
-      urls += `  <url>\n    <loc>${SITE_DOMAIN}${prefix}${site.url}</loc>\n    <lastmod>${today}</lastmod>\n  </url>\n`
+    for (const site of pageSites) {
+      urls += `  <url>\n    <loc>${SITE_DOMAIN}${prefix}${normalizeRoutePath(site.url)}</loc>\n    <lastmod>${today}</lastmod>\n  </url>\n`
     }
   }
 
@@ -282,6 +316,15 @@ ${urls}</urlset>
 `
   fs.mkdirSync(path.dirname(SITEMAP_FILE), { recursive: true })
   fs.writeFileSync(SITEMAP_FILE, xml, 'utf-8')
+}
+
+function generateRobotsTxt() {
+  const robots = `User-agent: *
+Allow: /
+
+Sitemap: ${SITE_DOMAIN}/sitemap.xml
+`
+  fs.writeFileSync(ROBOTS_FILE, robots, 'utf-8')
 }
 
 // ── 辅助函数 ──

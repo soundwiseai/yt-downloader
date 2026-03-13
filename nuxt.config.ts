@@ -1,8 +1,33 @@
+import fs from 'fs'
+import path from 'path'
+import { inferSiteDomain, inferTenantSlug } from './utils/project-identity'
+
+const tenantSlug = inferTenantSlug({
+  projectRoot: __dirname,
+  tenantSlug: process.env.TENANT_SLUG,
+  siteDomain: process.env.SITE_DOMAIN,
+})
+const siteUrl = inferSiteDomain({
+  projectRoot: __dirname,
+  tenantSlug,
+  siteDomain: process.env.SITE_DOMAIN,
+})
+const siteHost = new URL(siteUrl).hostname.replace(/^www\./, '')
+const supportEmail = process.env.SUPPORT_EMAIL?.trim() || `hello@${siteHost}`
+const devApiTarget = process.env.DEV_API_TARGET?.trim() || 'http://127.0.0.1:45331'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   devServer: { port: 3088 },
+  runtimeConfig: {
+    public: {
+      siteUrl,
+      supportEmail,
+      tenantSlug,
+    }
+  },
   modules: ['@nuxtjs/i18n', '@nuxt/image'],
   i18n: {
     defaultLocale: 'en',
@@ -57,9 +82,9 @@ export default defineNuxtConfig({
     server: {
       proxy: {
         '/api': {
-          target: 'https://y2mp4.com',
+          target: devApiTarget,
           changeOrigin: true,
-          secure: true
+          secure: devApiTarget.startsWith('https://')
         }
       },
       watch: {
@@ -85,13 +110,15 @@ export default defineNuxtConfig({
         // 生成所有语言的所有站点路径
         const siteRoutes: string[] = [];
         locales.forEach(locale => {
-          sites.forEach((site: {url: string}) => {
+          sites
+            .filter((site: {url: string}) => site.url !== '/')
+            .forEach((site: {url: string}) => {
             if (locale === 'en') {
               siteRoutes.push(site.url);
             } else {
               siteRoutes.push(`/${locale}${site.url}`);
             }
-          });
+            });
         });
         
         return [...rootRoutes, ...siteRoutes];
