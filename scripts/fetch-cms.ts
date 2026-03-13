@@ -10,7 +10,7 @@
  *   SITE_DOMAIN   — 站点域名，用于 sitemap（默认 https://y2mp4.com）
  *
  * 输出：
- *   1. i18n/locales/{locale}/{pageKey}.json — 页面 i18n 内容
+ *   1. i18n/locales/{locale}/{i18nPrefix}.json — 页面 i18n 内容
  *   2. i18n/locales/{locale}/common.json   — 公共 i18n 内容
  *   3. sites.ts                            — 站点路由配置
  *   4. public/sitemap.xml                  — 站点地图
@@ -126,11 +126,12 @@ async function main() {
     const { pageKey, locale, content, navTitle, urlPath, template, i18nPrefix, seoPrefix, showInHeader, showInFooter } = doc
     allLocales.add(locale)
 
-    // 写 i18n JSON
+    // 写 i18n JSON — 使用 i18nPrefix 作为文件名（与 nuxt.config.ts 中的文件列表对应）
     if (content && Object.keys(content).length > 0) {
       const dir = path.join(I18N_DIR, locale)
       fs.mkdirSync(dir, { recursive: true })
-      const filePath = path.join(dir, `${pageKey}.json`)
+      const fileName = i18nPrefix || pageKey
+      const filePath = path.join(dir, `${fileName}.json`)
       fs.writeFileSync(filePath, JSON.stringify(content, null, 2) + '\n', 'utf-8')
       pageCount++
     }
@@ -145,10 +146,14 @@ async function main() {
 
     // 收集路由配置（只从有 urlPath 的记录中提取，每个 pageKey 取第一个）
     if (urlPath && !routeMap.has(pageKey)) {
+      // seoPrefix 必须以 _seo 结尾，与 usePageSeo.ts 中 t(`${seoPrefix}.title`) 的用法对应
+      const rawSeo = seoPrefix || i18nPrefix || pageKey
+      const normalizedSeo = rawSeo.endsWith('_seo') ? rawSeo : `${rawSeo}_seo`
+
       routeMap.set(pageKey, {
         name: pageKey,
         i18n: i18nPrefix || pageKey,
-        seo: seoPrefix || `${pageKey}_seo`,
+        seo: normalizedSeo,
         url: urlPath,
         template: template || 'home',
         header: showInHeader ?? false,
