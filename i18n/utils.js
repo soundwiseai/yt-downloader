@@ -26,12 +26,17 @@ export const _te = (str) => {
     return te(str)
 }
 
+// tm() 用于获取原始消息（数组/对象），不能用 te() 做守卫
+// 因为 vue-i18n 的 te() 只对字符串消息返回 true，数组/对象会返回 false
+const _isNonEmpty = (v) => v != null && (Array.isArray(v) ? v.length > 0 : typeof v === 'object' ? Object.keys(v).length > 0 : !!v)
+
 export const _tm = (str) => {
     const route = useRoute()
-    const { tm, te } = useI18n()
+    const { tm } = useI18n()
     for (const site of sites) {
-        if (route.path.endsWith(site.url) && te(`${site.i18n}_${str}`)) {
-            return tm(`${site.i18n}_${str}`)
+        if (route.path.endsWith(site.url)) {
+            const result = tm(`${site.i18n}_${str}`)
+            if (_isNonEmpty(result)) return result
         }
     }
     return tm(str)
