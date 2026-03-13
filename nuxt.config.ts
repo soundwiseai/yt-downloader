@@ -12,14 +12,21 @@ export default defineNuxtConfig({
       escapeHtml: false
     },
     locales: (() => {
-      const i18nFiles = (code: string) => [
-        `${code}/common.json`,
-        `${code}/mp4.json`,
-        `${code}/mp3.json`,
-        `${code}/downloader.json`,
-        `${code}/transcript.json`,
-        `${code}/m4a.json`,
-      ]
+      // 自动发现 i18n JSON 文件 — CMS 新增页面时无需修改此配置
+      // pregenerate 脚本会在 nuxt generate 之前把 CMS 内容写入 i18n/locales/
+      const fs = require('fs')
+      const path = require('path')
+      const i18nFiles = (code: string) => {
+        const dir = path.join(__dirname, 'i18n/locales', code)
+        try {
+          return fs.readdirSync(dir)
+            .filter((f: string) => f.endsWith('.json'))
+            .sort((a: string, b: string) => a === 'common.json' ? -1 : b === 'common.json' ? 1 : a.localeCompare(b))
+            .map((f: string) => `${code}/${f}`)
+        } catch {
+          return [`${code}/common.json`]
+        }
+      }
       return [
         { code: 'en', name: 'English', files: i18nFiles('en') },
         { code: 'ar', name: 'العربية', files: i18nFiles('ar') },
